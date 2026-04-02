@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>모두의충전 상품권 구매 데이터 EDA</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #f5f1e8;
+      --panel: rgba(255, 252, 247, 0.88);
+      --panel-strong: #fffaf2;
+      --text: #1e1b18;
+      --muted: #6d655d;
+      --line: rgba(71, 55, 37, 0.12);
+      --accent: #d86f45;
+      --accent-soft: rgba(216, 111, 69, 0.14);
+      --accent-2: #2f6c63;
+      --accent-3: #b59032;
+      --shadow: 0 18px 40px rgba(56, 38, 18, 0.08);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Pretendard", "Noto Sans KR", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(216, 111, 69, 0.18), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(47, 108, 99, 0.16), transparent 28%),
+        linear-gradient(180deg, #f7f4ee 0%, #f1eadf 100%);
+    }
+
+    .wrap {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 40px 20px 64px;
+    }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.3fr 0.9fr;
+      gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .hero-card,
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+    }
+
+    .hero-card {
+      padding: 32px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card::after {
+      content: "";
+      position: absolute;
+      inset: auto -80px -80px auto;
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(216, 111, 69, 0.2), transparent 65%);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 16px 0 12px;
+      font-size: clamp(28px, 4vw, 48px);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+
+    .lead {
+      margin: 0;
+      max-width: 760px;
+      font-size: 16px;
+      line-height: 1.7;
+      color: var(--muted);
+    }
+
+    .meta {
+      margin-top: 24px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .meta span {
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.74);
+      border: 1px solid var(--line);
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .insight-box {
+      padding: 28px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .insight-box h2,
+    .section-title {
+      margin: 0 0 14px;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .insight-box ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    .stats {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 14px;
+      margin: 20px 0;
+    }
+
+    .stat {
+      padding: 20px;
+      border-radius: 20px;
+      background: var(--panel-strong);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+
+    .stat .label {
+      font-size: 13px;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .stat .value {
+      font-size: 30px;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+    }
+
+    .stat .sub {
+      margin-top: 6px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 20px;
+    }
+
+    .panel {
+      padding: 22px;
+    }
+
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: start;
+      margin-bottom: 16px;
+    }
+
+    .panel-head p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .chart-box {
+      height: 320px;
+    }
+
+    .full {
+      grid-column: 1 / -1;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th, td {
+      text-align: left;
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    th {
+      color: var(--muted);
+      font-weight: 600;
+    }
+
+    .note {
+      margin-top: 18px;
+      font-size: 13px;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    @media (max-width: 1024px) {
+      .hero,
+      .grid,
+      .stats {
+        grid-template-columns: 1fr;
+      }
+
+      .chart-box {
+        height: 280px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <section class="hero">
+      <article class="hero-card">
+        <span class="eyebrow">Exploratory Analysis</span>
+        <h1>모두의충전 상품권 구매 데이터 리포트</h1>
+        <p class="lead">
+          최근 상품권 구매는 전체적으로 아직 소수 고객 중심이지만, 2026년 2월과 3월에 거래량과 매출이 빠르게 커지며 성장 구간에 진입한 모습입니다.
+          특히 5만원권 비중이 높고, 일부 회원은 짧은 시간 안에 여러 번 구매하는 패턴을 보여 실제 재구매와 분할 결제를 구분해 볼 필요가 있습니다.
+        </p>
+        <div class="meta">
+          <span>분석 대상: 카카오상품권 전환회원</span>
+          <span>기간: 2025-01-09 ~ 2026-03-31</span>
+          <span>단위: 원 / 회원 / 건수</span>
+        </div>
+      </article>
+
+      <aside class="hero-card insight-box">
+        <div>
+          <h2>핵심 인사이트</h2>
+          <ul>
+            <li>총 60건 거래, 39명 회원, 누적 전환금액 328만원</li>
+            <li>2026년 3월 매출이 126만원으로 전체의 38.4% 차지</li>
+            <li>상위 10명 회원이 전체 금액의 53.7%를 차지해 집중도 높음</li>
+            <li>회원 66.7%는 1회 구매에 그쳐 리텐션 개선 여지 존재</li>
+          </ul>
+        </div>
+        <div class="note">
+          해석 포인트: 현재는 안정적인 반복구매 단계보다 최근 반응이 붙기 시작한 초기 성장 패턴에 가깝습니다.
+        </div>
+      </aside>
+    </section>
+
+    <section class="stats">
+      <div class="stat">
+        <div class="label">총 거래건수</div>
+        <div class="value">60건</div>
+        <div class="sub">회원당 평균 1.54건</div>
+      </div>
+      <div class="stat">
+        <div class="label">구매 회원수</div>
+        <div class="value">39명</div>
+        <div class="sub">재구매 회원 비율 33.3%</div>
+      </div>
+      <div class="stat">
+        <div class="label">총 전환금액</div>
+        <div class="value">328만원</div>
+        <div class="sub">건당 평균 5.47만원</div>
+      </div>
+      <div class="stat">
+        <div class="label">최다 구매권종</div>
+        <div class="value">5만원권</div>
+        <div class="sub">전체 28건, 46.7%</div>
+      </div>
+      <div class="stat">
+        <div class="label">상위 10명 비중</div>
+        <div class="value">53.7%</div>
+        <div class="sub">구매 집중도 높은 편</div>
+      </div>
+    </section>
+
+    <section class="grid">
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">월별 전환금액 추이</h3>
+            <p>2026년 2월부터 상승폭이 가팔라지며 3월에 정점을 형성했습니다.</p>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="monthlyAmountChart"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">월별 구매건수와 구매회원수</h3>
+            <p>최근 들어 신규 유입뿐 아니라 회원당 거래 횟수도 함께 증가했습니다.</p>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="monthlyCountChart"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">권종별 구매 빈도</h3>
+            <p>5만원권이 가장 강하고, 3만원권과 10만원권이 뒤를 받치는 구조입니다.</p>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="amountMixChart"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">구매요일별 분포</h3>
+            <p>월요일, 화요일, 목요일에 상대적으로 거래가 집중돼 있습니다.</p>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="weekdayChart"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">회원별 구매 횟수 분포</h3>
+            <p>대다수 회원은 1회 구매에 머물러 있어 재구매 유도 장치가 중요합니다.</p>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="purchaseDistributionChart"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">상위 구매 회원</h3>
+            <p>상위 회원군의 기여도가 높아 VIP 관리와 집중 리텐션 전략이 유효해 보입니다.</p>
+          </div>
+        </div>
+        <div class="chart-box"><canvas id="topMembersChart"></canvas></div>
+      </article>
+
+      <article class="panel full">
+        <div class="panel-head">
+          <div>
+            <h3 class="section-title">상위 구매 회원 상세</h3>
+            <p>반복구매와 분할결제 가능성을 함께 고려해 관리 대상을 구분할 필요가 있습니다.</p>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>회원번호</th>
+              <th>구매건수</th>
+              <th>총전환금액</th>
+              <th>회원 평균 구매금액</th>
+            </tr>
+          </thead>
+          <tbody id="topMembersTable"></tbody>
+        </table>
+        <div class="note">
+          추천 액션: 최근 2개월 유입 채널 분석, 초단기 반복구매를 별도 지표로 분리, 첫 구매 후 7일/30일 재구매율 추적
+        </div>
+      </article>
+    </section>
+  </div>
+
+  <script>
+    const data = {
+      summary: {
+        transactions: 60,
+        members: 39,
+        totalAmount: 3280000,
+        avgAmount: 54666.6667,
+        repeatRatio: 0.3333,
+        top10Share: 0.5366
+      },
+      monthly: [
+        { month: "2025-01", txCount: 4, memberCount: 2, amount: 190000 },
+        { month: "2025-02", txCount: 2, memberCount: 1, amount: 60000 },
+        { month: "2025-03", txCount: 1, memberCount: 1, amount: 30000 },
+        { month: "2025-04", txCount: 1, memberCount: 1, amount: 50000 },
+        { month: "2025-05", txCount: 1, memberCount: 1, amount: 50000 },
+        { month: "2025-07", txCount: 3, memberCount: 3, amount: 200000 },
+        { month: "2025-08", txCount: 1, memberCount: 1, amount: 50000 },
+        { month: "2025-09", txCount: 9, memberCount: 7, amount: 400000 },
+        { month: "2025-10", txCount: 3, memberCount: 3, amount: 90000 },
+        { month: "2025-11", txCount: 2, memberCount: 2, amount: 80000 },
+        { month: "2025-12", txCount: 2, memberCount: 1, amount: 200000 },
+        { month: "2026-01", txCount: 2, memberCount: 2, amount: 100000 },
+        { month: "2026-02", txCount: 12, memberCount: 6, amount: 520000 },
+        { month: "2026-03", txCount: 17, memberCount: 10, amount: 1260000 }
+      ],
+      amountMix: [
+        { label: "1만원권", count: 3 },
+        { label: "3만원권", count: 15 },
+        { label: "5만원권", count: 28 },
+        { label: "10만원권", count: 14 }
+      ],
+      weekday: [
+        { label: "월", count: 14, amount: 830000 },
+        { label: "화", count: 12, amount: 600000 },
+        { label: "수", count: 5, amount: 190000 },
+        { label: "목", count: 11, amount: 740000 },
+        { label: "금", count: 5, amount: 250000 },
+        { label: "토", count: 6, amount: 310000 },
+        { label: "일", count: 7, amount: 360000 }
+      ],
+      purchaseDistribution: [
+        { label: "1회", members: 26 },
+        { label: "2회", members: 9 },
+        { label: "3회", members: 2 },
+        { label: "5회", members: 2 }
+      ],
+      topMembers: [
+        { memberId: "181917", txCount: 5, amount: 330000 },
+        { memberId: "180063", txCount: 2, amount: 200000 },
+        { memberId: "191814", txCount: 2, amount: 200000 },
+        { memberId: "194992", txCount: 2, amount: 200000 },
+        { memberId: "186910", txCount: 5, amount: 170000 },
+        { memberId: "6961", txCount: 3, amount: 160000 },
+        { memberId: "133222", txCount: 3, amount: 150000 },
+        { memberId: "91227", txCount: 2, amount: 150000 },
+        { memberId: "50133", txCount: 2, amount: 100000 },
+        { memberId: "170680", txCount: 2, amount: 100000 }
+      ]
+    };
+
+    const won = value => `${Math.round(value).toLocaleString("ko-KR")}원`;
+    const shortWon = value => `${(value / 10000).toLocaleString("ko-KR")}만원`;
+
+    Chart.defaults.font.family = '"Pretendard", "Noto Sans KR", sans-serif';
+    Chart.defaults.color = "#5f574f";
+    Chart.defaults.plugins.legend.labels.usePointStyle = true;
+    Chart.defaults.plugins.legend.labels.boxWidth = 10;
+    Chart.defaults.scale.grid.color = "rgba(71, 55, 37, 0.08)";
+    Chart.defaults.scale.ticks.backdropColor = "transparent";
+
+    new Chart(document.getElementById("monthlyAmountChart"), {
+      type: "line",
+      data: {
+        labels: data.monthly.map(item => item.month),
+        datasets: [{
+          label: "총 전환금액",
+          data: data.monthly.map(item => item.amount),
+          borderColor: "#d86f45",
+          backgroundColor: "rgba(216, 111, 69, 0.18)",
+          fill: true,
+          tension: 0.32,
+          pointRadius: 4,
+          pointHoverRadius: 6
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${won(ctx.parsed.y)}`
+            }
+          }
+        },
+        scales: {
+          y: {
+            ticks: {
+              callback: value => shortWon(value)
+            }
+          }
+        }
+      }
+    });
+
+    new Chart(document.getElementById("monthlyCountChart"), {
+      type: "bar",
+      data: {
+        labels: data.monthly.map(item => item.month),
+        datasets: [
+          {
+            label: "구매건수",
+            data: data.monthly.map(item => item.txCount),
+            backgroundColor: "rgba(47, 108, 99, 0.75)",
+            borderRadius: 10
+          },
+          {
+            label: "구매회원수",
+            data: data.monthly.map(item => item.memberCount),
+            backgroundColor: "rgba(181, 144, 50, 0.75)",
+            borderRadius: 10
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            stacked: false
+          },
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+
+    new Chart(document.getElementById("amountMixChart"), {
+      type: "doughnut",
+      data: {
+        labels: data.amountMix.map(item => item.label),
+        datasets: [{
+          data: data.amountMix.map(item => item.count),
+          backgroundColor: ["#efc9b8", "#e29b7f", "#d86f45", "#9a4d2f"],
+          borderWidth: 0,
+          hoverOffset: 8
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: ctx => ` ${ctx.label}: ${ctx.parsed}건`
+            }
+          }
+        },
+        cutout: "62%"
+      }
+    });
+
+    new Chart(document.getElementById("weekdayChart"), {
+      type: "bar",
+      data: {
+        labels: data.weekday.map(item => item.label),
+        datasets: [{
+          label: "총 전환금액",
+          data: data.weekday.map(item => item.amount),
+          backgroundColor: "rgba(47, 108, 99, 0.78)",
+          borderRadius: 12
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              afterLabel: ctx => `거래건수 ${data.weekday[ctx.dataIndex].count}건`
+            }
+          }
+        },
+        scales: {
+          y: {
+            ticks: {
+              callback: value => shortWon(value)
+            }
+          }
+        }
+      }
+    });
+
+    new Chart(document.getElementById("purchaseDistributionChart"), {
+      type: "bar",
+      data: {
+        labels: data.purchaseDistribution.map(item => item.label),
+        datasets: [{
+          label: "회원수",
+          data: data.purchaseDistribution.map(item => item.members),
+          backgroundColor: ["#d86f45", "#e29b7f", "#2f6c63", "#b59032"],
+          borderRadius: 12
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false }
+        },
+        scales: {
+          y: {
+            beginAtZero: true,
+            ticks: { precision: 0 }
+          }
+        }
+      }
+    });
+
+    new Chart(document.getElementById("topMembersChart"), {
+      type: "bar",
+      data: {
+        labels: data.topMembers.map(item => item.memberId),
+        datasets: [{
+          label: "총 전환금액",
+          data: data.topMembers.map(item => item.amount),
+          backgroundColor: "rgba(216, 111, 69, 0.82)",
+          borderRadius: 12
+        }]
+      },
+      options: {
+        indexAxis: "y",
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              afterLabel: ctx => `구매건수 ${data.topMembers[ctx.dataIndex].txCount}건`
+            }
+          }
+        },
+        scales: {
+          x: {
+            ticks: {
+              callback: value => shortWon(value)
+            }
+          }
+        }
+      }
+    });
+
+    const tbody = document.getElementById("topMembersTable");
+    data.topMembers.forEach(member => {
+      const average = member.amount / member.txCount;
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td>${member.memberId}</td>
+        <td>${member.txCount.toLocaleString("ko-KR")}건</td>
+        <td>${won(member.amount)}</td>
+        <td>${won(average)}</td>
+      `;
+      tbody.appendChild(row);
+    });
+  </script>
+</body>
+</html>

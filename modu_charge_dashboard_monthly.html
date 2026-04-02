@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의충전 월간 대시보드</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <style>
+    :root {
+      --paper: #f8f8f3;
+      --bg: #eef3ec;
+      --panel: #ffffff;
+      --ink: #18261d;
+      --muted: #647067;
+      --line: #d7ddd4;
+      --accent: #165d4a;
+      --accent-soft: #d8efe5;
+      --warn: #b45309;
+      --danger: #b91c1c;
+      --shadow: 0 18px 40px rgba(24, 38, 29, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 28px 18px 60px;
+      color: var(--ink);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background:
+        radial-gradient(circle at top right, rgba(22, 93, 74, 0.12), transparent 24%),
+        linear-gradient(180deg, #f9fbf8 0%, #edf3ee 100%);
+    }
+    .wrap {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+    .eyebrow {
+      display: inline-flex;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+    }
+    h1 {
+      margin: 14px 0 8px;
+      font-size: 34px;
+      line-height: 1.15;
+    }
+    .lead, .meta, .glossary p {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+    .meta, .glossary {
+      margin-top: 18px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(135deg, #f4fbf6 0%, #fffdfa 100%);
+    }
+    .section-title {
+      margin: 30px 0 14px;
+      font-size: 22px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(185px, 1fr));
+      gap: 14px;
+    }
+    .card, .panel {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: var(--panel);
+      box-shadow: 0 10px 24px rgba(24, 38, 29, 0.05);
+    }
+    .label { color: var(--muted); font-size: 13px; }
+    .value { margin-top: 8px; font-size: 28px; font-weight: 800; line-height: 1.15; }
+    .sub { margin-top: 8px; color: var(--muted); font-size: 13px; }
+    .layout {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 18px;
+    }
+    .chart-wrap {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+      margin-top: 18px;
+    }
+    .chart-wrap h3, .panel h3, .glossary h3 { margin: 0 0 8px; font-size: 18px; }
+    .chart-caption { color: var(--muted); font-size: 13px; margin-bottom: 12px; }
+    .chart-stage { position: relative; width: 100%; height: 320px; max-height: 320px; }
+    canvas { width: 100% !important; height: 100% !important; display: block; }
+    .legend {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .legend span { display: inline-flex; align-items: center; gap: 8px; }
+    .swatch { width: 10px; height: 10px; border-radius: 999px; }
+    .year-ruler {
+      display: flex;
+      margin-top: 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      overflow: hidden;
+      background: #f6faf6;
+    }
+    .year-segment {
+      padding: 10px 8px;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 800;
+      color: var(--ink);
+      border-right: 1px solid var(--line);
+    }
+    .year-segment:last-child {
+      border-right: 0;
+    }
+    .year-details {
+      margin-top: 14px;
+      display: grid;
+      gap: 10px;
+    }
+    .year-details details {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fafcf9;
+      overflow: hidden;
+    }
+    .year-details summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 12px 14px;
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--ink);
+      background: #f6faf6;
+    }
+    .year-details summary::-webkit-details-marker {
+      display: none;
+    }
+    .year-details .year-table-wrap {
+      padding: 0 12px 12px;
+    }
+    .year-details .mini-table {
+      margin-top: 8px;
+      font-size: 13px;
+    }
+    .year-details .mini-table th,
+    .year-details .mini-table td {
+      padding: 9px 10px;
+      font-size: 13px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+    }
+    th, td {
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 14px;
+      vertical-align: top;
+    }
+    th { background: #f6faf6; color: var(--muted); font-weight: 700; }
+    tr:last-child td { border-bottom: 0; }
+    .sev-3 { color: var(--danger); font-weight: 800; }
+    .sev-2 { color: var(--warn); font-weight: 800; }
+    .nav {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+    .nav a {
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: #fff;
+      border: 1px solid var(--line);
+      color: var(--ink);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    @media (max-width: 960px) {
+      .wrap { padding: 22px; }
+      .layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Monthly Dashboard</div>
+    <h1>모두의충전 월간 대시보드</h1>
+    <p class="lead">월간 KPI 흐름과 데이터 품질 이슈를 한 화면에서 봅니다.</p>
+    <div class="nav">
+      <a href="./modu_charge_dashboard.html">대시보드 홈</a>
+      <a href="./modu_charge_dashboard_weekly.html">주간 대시보드</a>
+    </div>
+    <div class="meta" id="meta"></div>
+    <div class="glossary">
+      <h3>용어 박스</h3>
+      <p><strong>Stickiness %</strong>는 보통 <strong>DAU / MAU</strong>로 계산합니다. 월간 이용자 중 하루 평균 얼마나 자주 다시 들어오는지 보는 지표라서, 값이 높을수록 서비스가 더 자주 사용된다고 해석할 수 있습니다.</p>
+    </div>
+
+    <section>
+      <h2 class="section-title">핵심 지표</h2>
+      <div class="grid" id="summaryGrid"></div>
+    </section>
+
+    <section>
+      <h2 class="section-title">월간 추세</h2>
+      <div class="chart-wrap">
+        <h3>활성 사용자</h3>
+        <div class="legend" id="trafficLegend"></div>
+        <div class="chart-caption">DAU와 MAU(GA)를 함께 보면서 월간 활동성 흐름을 확인합니다.</div>
+        <div class="chart-stage"><canvas id="trafficChart"></canvas></div>
+      </div>
+      <div class="chart-wrap">
+        <h3>퍼널</h3>
+        <div class="legend" id="funnelLegend"></div>
+        <div class="chart-caption">회원가입, 모두페이 발급, 첫 결제는 메인 축으로 보고, 인스톨은 우측 축으로 분리해 흐름을 봅니다.</div>
+        <div class="chart-stage"><canvas id="funnelChart"></canvas></div>
+        <div class="year-ruler" id="funnelYearRuler"></div>
+        <div class="year-details" id="funnelDetails"></div>
+      </div>
+      <div class="chart-wrap">
+        <h3>결제 규모</h3>
+        <div class="legend" id="revenueLegend"></div>
+        <div class="chart-caption">매출과 할인율을 반영해 정리한 원거래 금액 변화입니다. 실측값이 있으면 실측값을 우선 사용합니다.</div>
+        <div class="chart-stage"><canvas id="revenueChart"></canvas></div>
+        <div class="year-ruler" id="revenueYearRuler"></div>
+        <div class="year-details" id="revenueAmounts"></div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">품질 점검</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>이슈 요약</h3>
+          <table>
+            <thead><tr><th>이슈</th><th>단위</th><th>심각도</th><th>건수</th></tr></thead>
+            <tbody id="issueSummaryTable"></tbody>
+          </table>
+        </div>
+        <div class="panel">
+          <h3>해석 가이드</h3>
+          <p>`duplicate_metric`: 같은 월의 같은 지표가 원본 파일에 중복으로 존재하는 경우입니다.</p>
+          <p>`suspect_metric_key`: 라벨 상속으로 보이는 비정상 지표명입니다.</p>
+          <p>`mom_mismatch`: 저장된 MoM 값과 재계산 MoM 값 차이가 큰 경우입니다.</p>
+        </div>
+      </div>
+      <div class="chart-wrap">
+        <h3>상세 이슈</h3>
+        <table>
+          <thead><tr><th>심각도</th><th>기간</th><th>지표</th><th>이슈</th><th>값</th></tr></thead>
+          <tbody id="issueTable"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="./modu_charge_dashboard_data.js?v=20260401-2023grossfix"></script>
+  <script>
+    const data = window.MODU_CHARGE_DASHBOARD_DATA;
+    const chartRegistry = {};
+
+    function formatNumber(value, digits = 0) {
+      if (value === null || value === undefined || Number.isNaN(value)) return "-";
+      return Number(value).toLocaleString("ko-KR", { maximumFractionDigits: digits, minimumFractionDigits: digits });
+    }
+
+    function formatPercent(value, digits = 1) {
+      if (value === null || value === undefined || Number.isNaN(value)) return "-";
+      return `${(value * 100).toFixed(digits)}%`;
+    }
+
+    function formatMonthLabel(value) {
+      if (!value) return "-";
+      const [year, month] = value.split("-");
+      return `${year}년 ${Number(month)}월`;
+    }
+
+    function compareText(current, previous, type = "number") {
+      if (!isValidNumber(current) || !isValidNumber(previous) || previous === 0) return "전월 비교 불가";
+      const diff = current - previous;
+      const ratio = diff / previous;
+      const sign = diff > 0 ? "+" : "";
+      if (type === "percent") {
+        return `전월 대비 ${sign}${(diff * 100).toFixed(1)}%p`;
+      }
+      return `전월 대비 ${sign}${formatPercent(ratio)}`;
+    }
+
+    function isValidNumber(value) {
+      return Number.isFinite(value);
+    }
+
+    function card(label, value, sub) {
+      return `<div class="card"><div class="label">${label}</div><div class="value">${value}</div><div class="sub">${sub || ""}</div></div>`;
+    }
+
+    function getDiscountAmount(item) {
+      if (!item) return null;
+      if (!isValidNumber(item.gross_transaction_display) || !isValidNumber(item.sales_net)) return null;
+      return item.gross_transaction_display - item.sales_net;
+    }
+
+    function describeIssueType(issueType, detail) {
+      if (issueType === "duplicate_metric") {
+        return `같은 기간의 같은 지표가 원본에 중복으로 있습니다. ${detail}`;
+      }
+      if (issueType === "suspect_metric_key") {
+        return `지표명이 비정상적으로 이어진 값입니다. ${detail}`;
+      }
+      if (issueType === "mom_mismatch") {
+        return `파일에 적힌 MoM과 재계산한 MoM 차이가 큽니다. ${detail}`;
+      }
+      return detail || issueType;
+    }
+
+    function makeLegend(el, items) {
+      el.innerHTML = items.map((item) => `<span><i class="swatch" style="background:${item.color}"></i>${item.label}</span>`).join("");
+    }
+
+    function buildDatasets(series) {
+      return series.map((item) => ({
+        label: item.label,
+        data: item.values.map((value) => isValidNumber(value) ? value : null),
+        meta: item.meta || [],
+        type: item.type || "line",
+        borderColor: item.color,
+        backgroundColor: item.fillColor || item.color,
+        borderWidth: item.type === "bar" ? 1 : 3,
+        pointRadius: item.type === "bar" ? 0 : 1.5,
+        pointHoverRadius: item.type === "bar" ? 0 : 4,
+        tension: item.type === "bar" ? 0 : 0.28,
+        spanGaps: true,
+        borderSkipped: item.type === "bar" ? false : undefined,
+        barPercentage: item.type === "bar" ? 0.72 : undefined,
+        categoryPercentage: item.type === "bar" ? 0.86 : undefined,
+        order: item.order || 0,
+        yAxisID: item.axis || "y"
+      }));
+    }
+
+    function renderChart(canvasId, labels, series, options = {}) {
+      const canvas = document.getElementById(canvasId);
+      if (chartRegistry[canvasId]) chartRegistry[canvasId].destroy();
+      chartRegistry[canvasId] = new Chart(canvas, {
+        type: "line",
+        data: { labels, datasets: buildDatasets(series) },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          interaction: { mode: "index", intersect: false },
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (ctx) => {
+                  const raw = ctx.raw;
+                  if (!isValidNumber(raw)) return `${ctx.dataset.label}: -`;
+                  const meta = ctx.dataset.meta?.[ctx.dataIndex];
+                  if (ctx.dataset.yAxisID === "y1" && options.secondaryAxis?.percent) {
+                    if (meta === "estimated") {
+                      return `${ctx.dataset.label}: ${raw.toFixed(1)}% (추정)`;
+                    }
+                    return `${ctx.dataset.label}: ${raw.toFixed(1)}%`;
+                  }
+                  if (meta === "estimated") {
+                    return `${ctx.dataset.label}: ${formatNumber(raw)} (추정)`;
+                  }
+                  return `${ctx.dataset.label}: ${formatNumber(raw)}`;
+                }
+              }
+            }
+          },
+          scales: {
+            x: {
+              stacked: !!options.stacked,
+              grid: { color: "#edf1ec" },
+              ticks: {
+                color: "#738078",
+                maxTicksLimit: 12,
+                callback: (_, index) => {
+                  const label = labels[index];
+                  if (!label) return "";
+                  const [year, month] = label.split("-");
+                  return month === "01" ? `${year}.${month}` : month;
+                }
+              }
+            },
+            y: {
+              stacked: !!options.stacked,
+              grid: { color: "#e4e9e2" },
+              ticks: { color: "#738078", callback: (value) => formatNumber(value) }
+            },
+            y1: options.secondaryAxis ? {
+              position: "right",
+              grid: { drawOnChartArea: false },
+              ticks: {
+                color: "#738078",
+                callback: options.secondaryAxis.percent ? (value) => `${value}%` : (value) => formatNumber(value)
+              }
+            } : undefined
+          }
+        }
+      });
+    }
+
+    function render() {
+      const summary = data.summary;
+      const monthly = data.monthly;
+      const latestIndex = monthly.findIndex((item) => item.period_month === summary.latest_complete_month);
+      const latestRow = monthly[latestIndex];
+      const previousRow = latestIndex > 0 ? monthly[latestIndex - 1] : null;
+      document.getElementById("meta").innerHTML = `
+        전체 최신 월: <strong>${formatMonthLabel(summary.latest_month)}</strong><br />
+        카드 기준 월: <strong>${formatMonthLabel(summary.latest_complete_month)}</strong><br />
+        생성 시각: <strong>${data.generatedAt}</strong>
+      `;
+
+      document.getElementById("summaryGrid").innerHTML = [
+        card(`${formatMonthLabel(summary.latest_complete_month)} 매출`, formatNumber(summary.latest_sales_net), compareText(latestRow?.sales_net, previousRow?.sales_net)),
+        card("DAU", formatNumber(summary.latest_dau), compareText(latestRow?.dau, previousRow?.dau)),
+        card("회원가입 수", formatNumber(summary.latest_signups), compareText(latestRow?.signups_new, previousRow?.signups_new)),
+        card("첫 결제 사용자 수", formatNumber(summary.latest_first_payers), compareText(latestRow?.first_payers_new, previousRow?.first_payers_new)),
+        card("할인율", formatPercent(summary.latest_discount_rate), compareText(latestRow?.discount_rate_display, previousRow?.discount_rate_display, "percent"))
+      ].join("");
+      const monthlyLabels = monthly.map((item) => item.period_month);
+
+      makeLegend(document.getElementById("trafficLegend"), [
+        { label: "DAU", color: "#165d4a" },
+        { label: "MAU (GA)", color: "#d97706" }
+      ]);
+      renderChart("trafficChart", monthlyLabels, [
+        { label: "DAU", color: "#165d4a", values: monthly.map((item) => item.dau) },
+        { label: "MAU (GA)", color: "#d97706", values: monthly.map((item) => item.mau_ga) }
+      ]);
+
+      makeLegend(document.getElementById("funnelLegend"), [
+        { label: "인스톨 (우측축)", color: "#165d4a" },
+        { label: "회원가입", color: "#0ea5e9" },
+        { label: "모두페이 발급", color: "#d97706" },
+        { label: "첫 결제", color: "#dc2626" }
+      ]);
+      renderChart("funnelChart", monthlyLabels, [
+        { label: "회원가입", type: "bar", color: "#0ea5e9", fillColor: "rgba(14, 165, 233, 0.78)", values: monthly.map((item) => item.signups_new), order: 1 },
+        { label: "모두페이 발급", type: "bar", color: "#d97706", fillColor: "rgba(217, 119, 6, 0.78)", values: monthly.map((item) => item.cards_issued_new), order: 1 },
+        { label: "첫 결제", type: "bar", color: "#dc2626", fillColor: "rgba(220, 38, 38, 0.78)", values: monthly.map((item) => item.first_payers_new), order: 1 },
+        { label: "인스톨", color: "#165d4a", values: monthly.map((item) => item.installs_total), axis: "y1", order: 0 }
+      ], { secondaryAxis: {} });
+      const funnelYearGroups = monthly.reduce((acc, item) => {
+        const year = item.period_month.split("-")[0];
+        acc[year] = (acc[year] || 0) + 1;
+        return acc;
+      }, {});
+      document.getElementById("funnelYearRuler").innerHTML = Object.entries(funnelYearGroups).map(([year, count]) => `
+        <div class="year-segment" style="flex:${count}">${year}년</div>
+      `).join("");
+      const funnelByYear = monthly.reduce((acc, item) => {
+        const year = item.period_month.split("-")[0];
+        if (!acc[year]) acc[year] = [];
+        acc[year].push(item);
+        return acc;
+      }, {});
+      const funnelYearEntries = Object.entries(funnelByYear).sort((a, b) => Number(b[0]) - Number(a[0]));
+      document.getElementById("funnelDetails").innerHTML = funnelYearEntries.map(([year, rows], index) => `
+        <details ${index === 0 ? "open" : ""}>
+          <summary>${year}년 월별 퍼널</summary>
+          <div class="year-table-wrap">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>월</th>
+                  <th>인스톨</th>
+                  <th>회원가입</th>
+                  <th>모두페이 발급</th>
+                  <th>첫 결제</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rows.map((item) => `
+                  <tr>
+                    <td>${formatMonthLabel(item.period_month)}</td>
+                    <td>${formatNumber(item.installs_total)}</td>
+                    <td>${formatNumber(item.signups_new)}</td>
+                    <td>${formatNumber(item.cards_issued_new)}</td>
+                    <td>${formatNumber(item.first_payers_new)}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      `).join("");
+
+      const revenueMonthly = monthly.filter((item) =>
+        item.period_month >= "2023-01" &&
+        (isValidNumber(item.gross_transaction) || isValidNumber(item.sales_net) || isValidNumber(item.discount_rate_display))
+      );
+      makeLegend(document.getElementById("revenueLegend"), [
+        { label: "매출", color: "#d97706" },
+        { label: "할인금액", color: "#165d4a" }
+      ]);
+      renderChart("revenueChart", revenueMonthly.map((item) => item.period_month), [
+        {
+          label: "매출",
+          type: "bar",
+          color: "#d97706",
+          fillColor: "rgba(217, 119, 6, 0.82)",
+          values: revenueMonthly.map((item) => item.sales_net),
+          meta: revenueMonthly.map((item) => item.gross_transaction_status),
+          order: 1
+        },
+        {
+          label: "할인금액",
+          type: "bar",
+          color: "#165d4a",
+          fillColor: "rgba(22, 93, 74, 0.72)",
+          values: revenueMonthly.map((item) => getDiscountAmount(item)),
+          meta: revenueMonthly.map((item) => item.gross_transaction_status),
+          order: 1
+        }
+      ], { stacked: true });
+      const revenueYearGroups = revenueMonthly.reduce((acc, item) => {
+        const year = item.period_month.split("-")[0];
+        acc[year] = (acc[year] || 0) + 1;
+        return acc;
+      }, {});
+      document.getElementById("revenueYearRuler").innerHTML = Object.entries(revenueYearGroups).map(([year, count]) => `
+        <div class="year-segment" style="flex:${count}">${year}년</div>
+      `).join("");
+      const revenueByYear = revenueMonthly.reduce((acc, item) => {
+        const year = item.period_month.split("-")[0];
+        if (!acc[year]) acc[year] = [];
+        acc[year].push(item);
+        return acc;
+      }, {});
+      const revenueYearEntries = Object.entries(revenueByYear).sort((a, b) => Number(b[0]) - Number(a[0]));
+      document.getElementById("revenueAmounts").innerHTML = revenueYearEntries.map(([year, rows], index) => `
+        <details ${index === 0 ? "open" : ""}>
+          <summary>${year}년 월별 원거래 금액</summary>
+          <div class="year-table-wrap">
+            <table class="mini-table">
+              <thead>
+                <tr>
+                  <th>월</th>
+                  <th>원거래 금액</th>
+                  <th>매출</th>
+                  <th>할인금액</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${rows.map((item) => `
+                  <tr>
+                    <td>${formatMonthLabel(item.period_month)}</td>
+                    <td>${formatNumber(item.gross_transaction_display)}</td>
+                    <td>${formatNumber(item.sales_net)}</td>
+                    <td>${formatNumber(getDiscountAmount(item))}</td>
+                  </tr>
+                `).join("")}
+              </tbody>
+            </table>
+          </div>
+        </details>
+      `).join("");
+
+      document.getElementById("issueSummaryTable").innerHTML = data.issueSummary.map((item) => `
+        <tr>
+          <td>${item.issue_type}</td>
+          <td>${item.grain}</td>
+          <td class="sev-${item.severity}">${item.severity}</td>
+          <td>${formatNumber(item.issue_count)}</td>
+        </tr>
+      `).join("");
+
+      document.getElementById("issueTable").innerHTML = data.issues.map((item) => `
+        <tr>
+          <td class="sev-${item.severity}">${item.severity}</td>
+          <td>${item.period_key}</td>
+          <td>${item.metric_key}</td>
+          <td>${describeIssueType(item.issue_type, item.detail)}<br /><span class="label">${item.issue_type}</span></td>
+          <td>${isValidNumber(item.actual_value) ? formatNumber(item.actual_value, 4) : "-"}</td>
+        </tr>
+      `).join("");
+    }
+
+    render();
+  </script>
+</body>
+</html>

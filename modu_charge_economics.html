@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두페이 이코노믹스 분석</title>
+  <style>
+    :root {
+      --bg: #f3f6f3;
+      --paper: #fcfdfb;
+      --panel: #ffffff;
+      --text: #193229;
+      --muted: #60726a;
+      --line: #d8e3dc;
+      --accent: #0f766e;
+      --accent-soft: #d9f1ec;
+      --good: #166534;
+      --warn: #a16207;
+      --shadow: 0 18px 48px rgba(25, 50, 41, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 36px 18px 48px;
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.14) 0, transparent 24%),
+        linear-gradient(180deg, #f8fbf8 0%, #eef4ef 100%);
+      color: var(--text);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.65;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 14px 0 10px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    .lead {
+      margin: 0 0 20px;
+      max-width: 920px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .disclaimer {
+      margin-bottom: 26px;
+      padding: 18px 20px;
+      border: 1px solid #cfe4dc;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #eef9f6 0%, #fbfdfa 100%);
+      color: var(--muted);
+    }
+
+    .disclaimer strong {
+      color: var(--warn);
+    }
+
+    .section-title {
+      margin: 34px 0 14px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 14px;
+    }
+
+    .card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: var(--panel);
+      box-shadow: 0 12px 28px rgba(25, 50, 41, 0.05);
+    }
+
+    .card-label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .card-value {
+      margin-top: 8px;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.15;
+    }
+
+    .card-sub {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0 12px 28px rgba(25, 50, 41, 0.05);
+    }
+
+    .panel h3 {
+      margin: 0 0 10px;
+      font-size: 19px;
+    }
+
+    .panel p,
+    .panel li {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    th,
+    td {
+      padding: 14px 16px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f7fbf8;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    tr:last-child th,
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .good {
+      color: var(--good);
+      font-weight: 800;
+    }
+
+    .chart-wrap {
+      margin-top: 18px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .chart-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+      align-items: center;
+    }
+
+    .chart-head h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .chart-caption {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    details {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    summary {
+      padding: 14px 16px;
+      cursor: pointer;
+      font-weight: 800;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .sql {
+      margin: 0;
+      padding: 18px;
+      border-top: 1px solid var(--line);
+      background: #f8fbf9;
+      overflow-x: auto;
+      font-size: 13px;
+      line-height: 1.6;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      color: #234036;
+      white-space: pre-wrap;
+    }
+
+    @media (max-width: 960px) {
+      .wrap { padding: 22px; }
+      .layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Modupay Economics</div>
+    <h1>모두페이 이코노믹스 분석</h1>
+    <p class="lead">신규 사용자 획득 비용 대비 고객생애가치를 비교해 현재 마케팅 효율을 판단하고, 전체 고객과 충성 고객군의 수익 구조 차이를 보기 위한 정리본입니다.</p>
+
+    <div class="disclaimer">
+      <strong>중요</strong>
+      본 분석의 LTV는 순이익이 아니라 거래금액 기반으로 계산되었습니다. CPO별 마진율 차이가 반영되지 않아 실제 순이익 기준 LTV는 별도 산출이 필요합니다.
+    </div>
+
+    <section>
+      <h2 class="section-title">핵심 요약</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="card-label">평균 CAC</div>
+          <div class="card-value">2,056원</div>
+          <div class="card-sub">2024년 4월 ~ 10월 광고비 기준</div>
+        </article>
+        <article class="card">
+          <div class="card-label">전체 고객 LTV</div>
+          <div class="card-value">223,273원</div>
+          <div class="card-sub">LTV/CAC 109배</div>
+        </article>
+        <article class="card">
+          <div class="card-label">충성 고객 LTV</div>
+          <div class="card-value">1,463,583원</div>
+          <div class="card-sub">LTV/CAC 711.85배</div>
+        </article>
+        <article class="card">
+          <div class="card-label">비충성 고객 LTV</div>
+          <div class="card-value">170,068원</div>
+          <div class="card-sub">LTV/CAC 82.71배</div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">분석 프레임</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>분석 목적</h3>
+          <p>모두페이 서비스의 마케팅 투자 대비 수익성을 검증하기 위해 신규 사용자 1명 획득 비용(CAC)과 해당 사용자가 창출하는 고객생애가치(LTV)를 비교했습니다. 핵심 질문은 현재 마케팅이 과연 회수 가능한 구조인지, 그리고 어떤 고객군이 경제성을 지탱하는지입니다.</p>
+        </div>
+        <div class="panel">
+          <h3>분석 기간</h3>
+          <ul>
+            <li>CAC: 2024년 4월 ~ 2024년 10월</li>
+            <li>전체 고객 LTV: 2022년 2월 1일 ~ 2026년 3월 11일</li>
+            <li>충성 고객 기준 기간: 2026년 1월 1일 ~ 2026년 3월 11일</li>
+            <li>충성 고객 기준: 월 평균 충전 1회, 결제금액 5,000원 이상</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">지표 정의</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>LTV</h3>
+          <p>고객 1명이 서비스 이용 기간 동안 창출하는 총 수익 추정치입니다. 이번 분석에서는 고객당 평균 월 거래금액 × 평균 유지 개월 수로 계산했습니다.</p>
+          <p>고객당 평균 월 거래금액은 거래가 발생한 모두페이 발급 고객만을 기준으로 했고, 할인 및 포인트 사용을 제외한 실 결제 금액을 사용했습니다.</p>
+        </div>
+        <div class="panel">
+          <h3>CAC</h3>
+          <p>특정 기간 총 광고비를 해당 기간 신규 사용자 수로 나눈 값입니다. 광고 유입 고객이 실제 모두페이를 발급했는지 직접 추적하기 어려워 신규 사용자 수 기준으로 산정했습니다.</p>
+          <p>유지 개월 수는 모두페이 발급일에서 마지막 결제일까지의 개월 수이며, 결제가 발생하지 않은 고객은 제외했습니다.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">세그먼트별 결과</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>사용자 수</th>
+            <th>평균 유지 개월 수</th>
+            <th>평균 월 사용 금액</th>
+            <th>LTV</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>전체 사용자</th>
+            <td>65,892명</td>
+            <td>12.8개월</td>
+            <td>17,481원</td>
+            <td>223,273원</td>
+          </tr>
+          <tr>
+            <th>충성 고객</th>
+            <td>3,185명</td>
+            <td>19.9개월</td>
+            <td>73,411원</td>
+            <td>1,463,583원</td>
+          </tr>
+          <tr>
+            <th>비충성 고객</th>
+            <td>62,707명</td>
+            <td>12.4개월</td>
+            <td>13,700원</td>
+            <td>170,068원</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">CAC 대비 LTV</h2>
+      <div class="chart-wrap">
+        <div class="chart-head">
+          <h3>LTV/CAC 비교</h3>
+          <div class="chart-caption">전체 고객도 충분히 높은 배수를 보이지만, 실질적으로 경제성을 크게 끌어올리는 구간은 충성 고객군입니다.</div>
+        </div>
+        <svg viewBox="0 0 920 320" aria-label="LTV/CAC 비교 차트">
+          <line x1="90" y1="280" x2="860" y2="280" stroke="#bfd0c8" stroke-width="1.5" />
+          <text x="90" y="298" font-size="12" fill="#60726a">0</text>
+          <text x="860" y="298" text-anchor="end" font-size="12" fill="#60726a">720배</text>
+
+          <text x="90" y="58" font-size="13" fill="#193229">전체</text>
+          <rect x="150" y="38" width="117" height="28" rx="10" fill="#4db6ac" />
+          <text x="278" y="57" font-size="13" fill="#193229">109배</text>
+
+          <text x="90" y="150" font-size="13" fill="#193229">충성</text>
+          <rect x="150" y="130" width="760" height="28" rx="10" fill="#0f766e" />
+          <text x="820" y="149" text-anchor="end" font-size="13" fill="#ffffff">711.85배</text>
+
+          <text x="90" y="242" font-size="13" fill="#193229">비충성</text>
+          <rect x="150" y="222" width="88" height="28" rx="10" fill="#9fd7cb" />
+          <text x="248" y="241" font-size="13" fill="#193229">82.71배</text>
+        </svg>
+      </div>
+
+      <table style="margin-top:18px;">
+        <thead>
+          <tr>
+            <th>구분</th>
+            <th>CAC</th>
+            <th>LTV</th>
+            <th>LTV/CAC</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>전체</th>
+            <td>2,056원</td>
+            <td>223,273원</td>
+            <td class="good">109</td>
+          </tr>
+          <tr>
+            <th>충성</th>
+            <td>2,056원</td>
+            <td>1,463,583원</td>
+            <td class="good">711.85</td>
+          </tr>
+          <tr>
+            <th>비충성</th>
+            <td>2,056원</td>
+            <td>170,068원</td>
+            <td class="good">82.71</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2 class="section-title">인사이트</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>해석</h3>
+          <ul>
+            <li>전체 사용자 기준 LTV/CAC는 높게 나타나 현재 마케팅 효율은 거래금액 기준으로는 긍정적으로 보입니다.</li>
+            <li>다만 이 LTV에는 CPO별 마진율이 반영되지 않아 실제 순이익 기준 LTV는 더 낮아질 수 있습니다.</li>
+            <li>충성 고객의 LTV는 비충성 고객 대비 약 8배 이상 높아, 수익이 특정 고객군에 강하게 집중되는 구조입니다.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>시사점</h3>
+          <ul>
+            <li>단순 신규 유입 확대보다 충성 고객 전환과 유지 전략이 더 중요한 레버입니다.</li>
+            <li>마케팅 효율 검증의 다음 단계는 거래금액 기준이 아니라 순이익 기준 LTV로 내려가는 것입니다.</li>
+            <li>특히 CPO 마진율, 할인, 포인트, 미납을 함께 반영한 세그먼트별 순기여 기준 대시보드가 필요합니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">사용 SQL</h2>
+
+      <details>
+        <summary>전체 모두페이 이용 고객</summary>
+        <pre class="sql">WITH first_card_date AS (
+    SELECT user_id, MIN(create_date) AS card_create_date
+    FROM everycard_issuance_history
+    GROUP BY user_id
+),
+user_stats AS (
+    SELECT
+        ue.user_id,
+        fcd.card_create_date,
+        MAX(p.payment_log_date) AS last_payment_date,
+        TIMESTAMPDIFF(MONTH, fcd.card_create_date, MAX(p.payment_log_date)) AS retention_months,
+        SUM(p.cost) AS total_cost,
+        COUNT(*) AS total_frequency
+    FROM user_everycard ue
+    JOIN first_card_date fcd ON ue.user_id = fcd.user_id
+    JOIN everycard_payment_log p ON ue.id = p.everycard_id
+    GROUP BY ue.user_id, fcd.card_create_date
+)
+SELECT
+    COUNT(user_id) AS total_users,
+    ROUND(AVG(retention_months), 1) AS avg_retention_months,
+    ROUND(AVG(total_cost / NULLIF(retention_months, 0)), 0) AS avg_monthly_revenue,
+    ROUND(AVG(total_cost / NULLIF(retention_months, 0)) * AVG(retention_months), 0) AS avg_ltv
+FROM user_stats;</pre>
+      </details>
+
+      <details>
+        <summary>충성 고객</summary>
+        <pre class="sql">WITH first_card_date AS (
+    SELECT user_id, MIN(create_date) AS card_create_date
+    FROM everycard_issuance_history
+    GROUP BY user_id
+),
+recent_active_loyalists AS (
+    SELECT
+        everycard_number,
+        SUM(cost) AS total_actual_cost,
+        COUNT(*) AS total_tx_count
+    FROM everycard_payment_log
+    WHERE payment_log_date >= '2026-01-01' AND payment_log_date <= '2026-03-11'
+      AND original_cost >= 5000
+    GROUP BY everycard_number
+    HAVING COUNT(DISTINCT MONTH(payment_log_date)) = 3
+)
+SELECT
+    COUNT(ral.everycard_number) AS loyal_user_count,
+    ROUND(AVG(TIMESTAMPDIFF(MONTH, fcd.card_create_date, '2026-03-11')), 1) AS avg_retention_months,
+    ROUND(AVG(lifetime_total.total_cost /
+        GREATEST(TIMESTAMPDIFF(MONTH, fcd.card_create_date, '2026-03-11'), 1)), 0) AS avg_monthly_revenue,
+    ROUND(AVG(lifetime_total.total_cost /
+        GREATEST(TIMESTAMPDIFF(MONTH, fcd.card_create_date, '2026-03-11'), 1))
+        * AVG(TIMESTAMPDIFF(MONTH, fcd.card_create_date, '2026-03-11')), 0) AS avg_ltv
+FROM recent_active_loyalists ral
+JOIN (
+    SELECT everycard_number, SUM(cost) AS total_cost
+    FROM everycard_payment_log
+    GROUP BY everycard_number
+) AS lifetime_total ON ral.everycard_number = lifetime_total.everycard_number
+JOIN user_everycard ue ON ral.everycard_number = ue.card_number
+JOIN first_card_date fcd ON ue.user_id = fcd.user_id;</pre>
+      </details>
+
+      <details>
+        <summary>비충성 고객</summary>
+        <pre class="sql">WITH first_card_date AS (
+    SELECT
+        eih.user_id,
+        MIN(create_date) AS card_create_date,
+        MAX(payment_log_date) AS last_date
+    FROM everycard_issuance_history eih
+    JOIN user_everycard ue ON eih.user_id=ue.user_id
+    JOIN everycard_payment_log epl ON epl.everycard_id=ue.id
+    GROUP BY user_id
+),
+all_modupay_users AS (
+    SELECT DISTINCT
+        ue.user_id
+    FROM everycard_payment_log epl
+    JOIN user_everycard ue
+        ON epl.everycard_id = ue.id
+),
+recent_active_loyalists AS (
+    SELECT
+        ue.user_id
+    FROM everycard_payment_log epl
+    JOIN user_everycard ue
+        ON epl.everycard_id = ue.id
+    WHERE epl.payment_log_date >= '2026-01-01'
+      AND epl.payment_log_date <= '2026-03-11'
+      AND epl.original_cost >= 5000
+    GROUP BY ue.user_id
+    HAVING COUNT(DISTINCT DATE_FORMAT(epl.payment_log_date, '%Y-%m')) = 3
+),
+non_loyal_users AS (
+    SELECT
+        amu.user_id
+    FROM all_modupay_users amu
+    LEFT JOIN recent_active_loyalists ral
+        ON amu.user_id = ral.user_id
+    WHERE ral.user_id IS NULL
+),
+lifetime_total AS (
+    SELECT
+        ue.user_id,
+        SUM(epl.cost) AS total_cost
+    FROM everycard_payment_log epl
+    JOIN user_everycard ue
+        ON epl.everycard_id = ue.id
+    GROUP BY ue.user_id
+)
+SELECT
+    COUNT(*) AS non_loyal_user_count,
+    ROUND(AVG(TIMESTAMPDIFF(MONTH, fcd.card_create_date, fcd.last_date)), 1) AS avg_retention_months,
+    ROUND(
+        AVG(
+            COALESCE(lt.total_cost, 0) /
+            GREATEST(TIMESTAMPDIFF(MONTH, fcd.card_create_date, fcd.last_date), 1)
+        ),
+        0
+    ) AS avg_monthly_revenue,
+    ROUND(
+        AVG(
+            COALESCE(lt.total_cost, 0) /
+            GREATEST(TIMESTAMPDIFF(MONTH, fcd.card_create_date, fcd.last_date), 1)
+        ) * AVG(TIMESTAMPDIFF(MONTH, fcd.card_create_date, fcd.last_date)),
+        0
+    ) AS avg_ltv
+FROM non_loyal_users nlu
+JOIN first_card_date fcd
+    ON nlu.user_id = fcd.user_id
+LEFT JOIN lifetime_total lt
+    ON nlu.user_id = lt.user_id;</pre>
+      </details>
+    </section>
+  </main>
+</body>
+</html>

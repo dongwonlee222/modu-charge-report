@@ -1,0 +1,1478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의충전 CAC vs LTV 1차 분석</title>
+  <style>
+    :root {
+      --paper: #fdfdf9;
+      --bg: #f3f6f2;
+      --panel: #ffffff;
+      --text: #1c3026;
+      --muted: #64766f;
+      --line: #d6e2da;
+      --accent: #0f766e;
+      --accent-soft: #daf3ec;
+      --accent-alt: #14532d;
+      --good: #166534;
+      --warn: #a16207;
+      --shadow: 0 18px 48px rgba(28, 48, 38, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 34px 18px 48px;
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.14) 0, transparent 22%),
+        linear-gradient(180deg, #f8fbf8 0%, #edf4ee 100%);
+      color: var(--text);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 1220px;
+      margin: 0 auto;
+      padding: 34px;
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      background: var(--paper);
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 14px 0 10px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    .lead {
+      margin: 0 0 20px;
+      max-width: 920px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .note {
+      margin-bottom: 24px;
+      padding: 18px 20px;
+      border: 1px solid #cae2d7;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #eefaf6 0%, #fbfdfa 100%);
+      color: var(--muted);
+    }
+
+    .note strong {
+      color: var(--warn);
+    }
+
+    .purpose-highlight {
+      margin: 0;
+      font-size: 21px;
+      font-weight: 800;
+      line-height: 1.5;
+      letter-spacing: -0.01em;
+    }
+
+    .section-title {
+      margin: 32px 0 14px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 14px;
+    }
+
+    .card, .panel {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: var(--panel);
+      box-shadow: 0 12px 28px rgba(28, 48, 38, 0.05);
+    }
+
+    .card-label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .card-value {
+      margin-top: 8px;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.15;
+    }
+
+    .card-sub {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .compact-grid .card-value {
+      font-size: 18px;
+      line-height: 1.25;
+      word-break: keep-all;
+    }
+
+    .compact-grid .card-sub {
+      font-size: 11px;
+    }
+
+    #dataBasisGrid .card-value {
+      font-size: 14px;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 18px;
+      align-items: start;
+    }
+
+    .panel h3 {
+      margin: 0 0 10px;
+      font-size: 19px;
+    }
+
+    .panel p, .panel li {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .chart-wrap {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+      margin-top: 18px;
+    }
+
+    .chart-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .chart-head h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .chart-caption {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    canvas {
+      display: block;
+      width: 100% !important;
+    }
+
+    .chart-canvas {
+      height: 320px !important;
+      max-height: 320px;
+    }
+
+    .chart-canvas--short {
+      height: 220px !important;
+      max-height: 220px;
+    }
+
+    .funnel-flow {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      padding: 8px 0 4px;
+    }
+
+    .funnel-step {
+      display: flex;
+      justify-content: center;
+    }
+
+    .funnel-step-inner {
+      min-height: 62px;
+      border-radius: 16px;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 14px 18px;
+      box-shadow: 0 10px 22px rgba(28, 48, 38, 0.08);
+    }
+
+    .funnel-step-left {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .funnel-step-title {
+      font-size: 16px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+
+    .funnel-step-meta {
+      font-size: 12px;
+      opacity: 0.9;
+    }
+
+    .funnel-step-value {
+      font-size: 20px;
+      font-weight: 800;
+      line-height: 1.1;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      overflow: hidden;
+      background: #fff;
+    }
+
+    th, td {
+      padding: 13px 15px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f7fbf8;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    tr:last-child td, tr:last-child th {
+      border-bottom: 0;
+    }
+
+    .good {
+      color: var(--good);
+      font-weight: 800;
+    }
+
+    @media (max-width: 960px) {
+      .wrap { padding: 22px; }
+      .layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Modu Charge CAC vs LTV</div>
+    <h1>모두의충전 마케팅 투자 대비 수익성 1차 분석</h1>
+    <p class="lead">광고 집행이 회원가입과 첫결제에 이어 월 실결제금액 5,000원 이상인 충성고객 증가까지 연결됐는지 확인하고, 향후 CAC 대비 LTV 판단으로 이어지도록 정리한 1차 분석 문서입니다.</p>
+    <div class="note" id="validityNote"></div>
+
+    <section>
+      <h2 class="section-title">1. 분석 목적</h2>
+      <div class="panel">
+        <p class="purpose-highlight">광고 집행이 모두페이의 고객 유입, 첫결제, 충성고객 증가로 실제 이어졌는지 확인합니다.<br>이를 바탕으로 고객가치(LTV)가 고객획득비용(CAC/CVC)을 넘어설 수 있는 구조인지 검토합니다.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">2. 분석 대상 및 구분</h2>
+      <div class="panel">
+        <h3>고객군 구분</h3>
+        <ul>
+          <li>충성고객: 월 실결제금액 5,000원 이상 이용자</li>
+          <li>비충성 이용자: 월 실결제금액 5,000원 미만 이용자</li>
+          <li>전체 충전고객: 해당 월 실제 결제가 발생한 전체 고객</li>
+          <li>본 분석에서는 1차 기준으로 월 5,000원 이상 이용자를 충성고객으로 정의했습니다.</li>
+          <li>현재는 실결제금액 기반의 가치 비교를 먼저 수행하고, 유지개월 수와 순이익 데이터는 추가 확보 후 보완합니다.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">3. 핵심 지표와 계산 기준</h2>
+      <div class="panel">
+        <h3>LTV / CAC(CVC) 해석 기준</h3>
+        <ul>
+          <li>LTV는 고객당 평균 월 가치와 평균 유지개월 수를 곱한 값으로 해석합니다.</li>
+          <li>현재 1차 분석에서는 순이익 대신 실결제금액을 기준으로 고객가치를 먼저 비교합니다.</li>
+          <li>CAC/CVC는 광고비를 고객 수로 나눈 값으로 봅니다.</li>
+          <li>현재 광고 보고서는 설치 전환 기준으로 보여 회원가입 CAC나 충전고객 CAC와는 구분해 해석합니다.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">4. 데이터 기준 및 한계</h2>
+      <div class="grid compact-grid" id="dataBasisGrid"></div>
+      <div class="layout" style="margin-top:18px;">
+        <div class="chart-wrap" style="margin-top:0;">
+          <div class="chart-head">
+            <h3>광고 시계열 기준</h3>
+            <div class="chart-caption">마지막에 받은 월별 구글 애즈 시계열 기준으로 광고비 흐름을 확인합니다.</div>
+          </div>
+          <canvas class="chart-canvas--short" id="adBasisTimelineChart" aria-label="광고 시계열 기준 차트"></canvas>
+        </div>
+        <div class="panel">
+          <h3>광고 데이터 해석 기준</h3>
+          <div class="grid compact-grid" id="adBasisSummaryGrid" style="margin-top:14px;"></div>
+        </div>
+      </div>
+      <div class="layout" style="margin-top:18px;">
+        <div class="panel">
+          <h3>포인트 지급 구성 및 해석</h3>
+          <div class="grid compact-grid" id="pointSummaryGrid" style="margin-top:14px;"></div>
+        </div>
+        <div class="chart-wrap" style="margin-top:0;">
+          <div class="chart-head">
+            <h3>포인트 지급 총액 구성</h3>
+            <div class="chart-caption">충전 적립, 이벤트 적립, 기타 유형을 누적 총액 기준으로 비교합니다.</div>
+          </div>
+          <canvas class="chart-canvas--short" id="pointPieChart" aria-label="포인트 지급 총액 구성 파이 차트"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">5. 충성고객과 비충성고객 구조</h2>
+      <div class="note" id="loyaltyNote"></div>
+      <div class="chart-wrap">
+        <div class="chart-head">
+          <h3>월별 충성회원 vs 비충성회원 비중</h3>
+          <div class="chart-caption">스택 막대로 비중 구조를 보고, 선으로 충성고객 비율 변화를 함께 확인합니다.</div>
+        </div>
+        <canvas class="chart-canvas--short" id="loyaltyShareChart" aria-label="월별 충성회원 비중 및 충성고객 비율 차트"></canvas>
+      </div>
+      <div class="panel" style="margin-top:18px;">
+        <h3>그래프 해석</h3>
+        <ul id="loyaltyTrendInsights"></ul>
+      </div>
+      <div class="layout" style="margin-top:18px;">
+        <div class="chart-wrap" style="margin-top:0;">
+          <div class="chart-head">
+            <h3>월별 충성회원 수 vs 비충성회원 수 추이</h3>
+            <div class="chart-caption">월별 고객 수 기준으로 충성회원과 비충성회원 규모 변화를 비교합니다.</div>
+          </div>
+          <canvas class="chart-canvas" id="loyaltyPaymentChart" aria-label="월별 충성회원 수와 비충성회원 수 추이 차트"></canvas>
+        </div>
+        <div class="chart-wrap" style="margin-top:0;">
+          <div class="chart-head">
+            <h3>누적 충성회원 수 vs 비충성회원 수</h3>
+            <div class="chart-caption">전체 유효 구간의 월별 집계를 누적해 충성회원과 비충성회원 규모를 비교합니다.</div>
+          </div>
+          <canvas class="chart-canvas--short" id="loyaltyCompareChart" aria-label="누적 충성회원 수와 비충성회원 수 파이 차트"></canvas>
+          <div class="grid compact-grid" id="loyaltyCompareNote" style="margin-top:10px;"></div>
+        </div>
+      </div>
+      <div class="panel" style="margin-top:18px;">
+        <h3>핵심 포인트</h3>
+        <ul id="loyaltyInsights"></ul>
+        <p style="margin:14px 0 6px; font-weight:800; color:#1c3026;">해석 시 주의할 점</p>
+        <ul>
+          <li>현재 충성회원은 월별 5,000원 이상 결제 기준이라 리텐션형 충성고객 정의와는 다릅니다.</li>
+          <li>월별 집계만 있어 충성회원의 평균 유지개월 수나 개인별 LTV는 아직 직접 계산할 수 없습니다.</li>
+          <li>포인트 지급 파일은 유형별 누적 요약이라 이벤트별 시계열 영향 분리는 추가 집계가 더 필요합니다.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">6. 광고 집행 현황</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>구글 애즈 설치 전환 요약</h3>
+          <table>
+            <tbody id="adSummaryTable"></tbody>
+          </table>
+        </div>
+        <div class="panel">
+          <h3>광고 인사이트</h3>
+          <p id="adInterpretation"></p>
+        </div>
+      </div>
+      <div class="layout" style="margin-top:18px;">
+        <div class="chart-wrap" style="margin-top:0;">
+          <div class="chart-head">
+            <h3>월별 광고비 추이</h3>
+            <div class="chart-caption">전체 기간 기준으로 실제 광고비 흐름을 확인합니다.</div>
+          </div>
+          <canvas class="chart-canvas--short" id="adCostChart" aria-label="월별 광고비 추이 차트"></canvas>
+        </div>
+        <div class="chart-wrap" style="margin-top:0;">
+          <div class="chart-head">
+            <h3>월별 설치 전환 추이</h3>
+            <div class="chart-caption">같은 기간의 설치 전환수 변화를 분리해서 확인합니다.</div>
+          </div>
+          <canvas class="chart-canvas--short" id="adInstallChart" aria-label="월별 설치 전환 추이 차트"></canvas>
+        </div>
+      </div>
+      <div class="panel" style="margin-top:18px;">
+        <h3>광고 시계열 해석</h3>
+        <ul id="adTimelineInsights"></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">7. 설치전환 이후 고객 전환 흐름</h2>
+      <div class="chart-wrap">
+        <div class="chart-head">
+          <h3>설치전환 → 회원가입 → 카드발급 → 첫결제 → 결제고객</h3>
+          <div class="chart-caption">실제 광고가 집행된 월 기준 퍼널이며, 마지막 결제고객은 광고 집행 마지막 월의 충성·비충성 합산 결제고객 기준입니다.</div>
+        </div>
+        <div class="funnel-flow" id="funnelFlow" aria-label="설치전환 이후 고객 전환 퍼널"></div>
+      </div>
+      <div class="note" style="margin-top:18px;">
+        <strong>해석 안내</strong> 위 퍼널은 실제 광고가 집행된 월만 기준으로 계산했습니다. 마지막 `결제고객` 단계는 광고 집행 마지막 월의 활성 결제고객 기준으로, 앞선 설치전환·회원가입·카드발급·첫결제처럼 같은 cohort의 누적 전환 수와는 성격이 다릅니다.
+      </div>
+      <div class="panel" style="margin-top:18px;">
+        <h3>전환 흐름 해석</h3>
+        <ul id="funnelInsights"></ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">8. 광고 기간 중 충성고객 증가와 광고 효과</h2>
+      <div class="chart-wrap">
+        <div class="chart-head">
+          <h3>광고 기간 중 설치전환 고객 vs 충성고객</h3>
+          <div class="chart-caption">실제 광고가 집행된 기간 동안 설치전환 고객과 월별 충성고객 수가 함께 어떻게 움직였는지 비교합니다.</div>
+        </div>
+        <canvas class="chart-canvas" id="adProxyChart" aria-label="광고 기간 중 설치전환 고객과 충성고객 추이 차트"></canvas>
+      </div>
+      <div class="layout" style="margin-top:18px;">
+        <div class="panel">
+          <h3>광고 효과 해석</h3>
+          <ul id="adProxyInsights"></ul>
+        </div>
+        <div class="panel">
+          <h3>해석 시 주의할 점</h3>
+          <ul>
+            <li>설치전환 고객은 구글 애즈 월별 전환수 기준이며, 충성고객은 월 실결제금액 5,000원 이상인 월별 집계 기준입니다.</li>
+            <li>현재는 광고 기간 중 시계열 흐름을 비교한 것으로, 광고 유입 고객의 실측 충성고객 전환율은 아닙니다.</li>
+            <li>정확한 광고 cohort 기준 충성고객 전환율을 보려면 설치 후 회원가입·결제 연결 데이터가 추가로 필요합니다.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">9. 충성고객 유지 여부 분석</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>분석 목적</h3>
+          <p>광고 이후 늘어난 충성고객이 다음 달과 그 이후에도 유지됐는지 확인해야 광고가 일시적 결제를 만든 것인지, 지속적으로 가치 있는 고객을 만든 것인지 판단할 수 있습니다.</p>
+        </div>
+        <div class="panel">
+          <h3>추가 데이터 필요</h3>
+          <ul>
+            <li>월별 충성고객 평균 유지개월 수</li>
+            <li>충성고객 유지율 또는 잔존율</li>
+            <li>가능하면 광고 집행 월 기준 충성고객 유지 추적 데이터</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">10. CAC/CVC 관점 해석</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>광고비와 고객획득비용 해석</h3>
+          <ul>
+            <li>현재 CAC/CVC는 구글 애즈 설치 전환 기준을 출발점으로 해석합니다.</li>
+            <li>향후 회원가입 CAC, 첫결제 CAC, 충성고객 CAC로 더 세분화해 비교할 수 있습니다.</li>
+            <li>광고비 대비 유입 고객 수뿐 아니라, 가치 높은 고객 증가까지 함께 봐야 효율 판단이 가능합니다.</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>현재 단계 해석</h3>
+          <p id="adCacInterpretation"></p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">11. LTV 관점 해석</h2>
+      <div class="grid" id="conversionLinkGrid"></div>
+      <div class="layout" style="margin-top:18px;">
+        <div class="panel">
+          <h3>현재 해석 가능한 고객가치</h3>
+          <ul id="conversionLinkInsights"></ul>
+        </div>
+        <div class="panel">
+          <h3>광고/적립금과 고객가치 연결</h3>
+          <ul id="driverEfficiencyInsights"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">12. 종합 결론</h2>
+      <div class="layout">
+        <div class="panel">
+          <h3>1차 결론 방향</h3>
+          <ul>
+            <li>광고는 유입 확대에 효과가 있었는지</li>
+            <li>광고는 첫결제로 이어졌는지</li>
+            <li>광고는 충성고객 증가까지 연결됐는지</li>
+            <li>현재 기준에서 광고비 효율은 어느 수준인지</li>
+          </ul>
+        </div>
+        <div class="panel">
+          <h3>추가 데이터 확보 후 보완 항목</h3>
+          <ul>
+            <li>월별 그룹별 평균 유지개월 수</li>
+            <li>순이익 기준 LTV 계산용 원가/정산 데이터</li>
+            <li>광고 유입 기준 CAC 분모 정교화</li>
+            <li>이벤트 적립 시계열 분리</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./chart.umd.js"></script>
+  <script src="./modu_charge_analysis_data.js"></script>
+  <script>
+    const payload = window.MODU_CHARGE_ANALYSIS;
+    if (!payload) {
+      document.body.innerHTML = "<main style='padding:40px;font-family:Pretendard,sans-serif;'>데이터 파일을 찾지 못했습니다. 먼저 <code>python3 scripts/build_modu_charge_analysis_data.py</code>를 실행해 주세요.</main>";
+      throw new Error("MODU_CHARGE_ANALYSIS is missing.");
+    }
+
+    const money = (value) => `${Math.round(value || 0).toLocaleString("ko-KR")}원`;
+    const compactMoney = (value) => {
+      const abs = Math.abs(value || 0);
+      if (abs >= 100000000) return `${(value / 100000000).toFixed(1)}억 원`;
+      if (abs >= 10000) return `${Math.round(value / 10000).toLocaleString("ko-KR")}만 원`;
+      return money(value);
+    };
+    const count = (value) => `${Math.round(value || 0).toLocaleString("ko-KR")}명`;
+    const percent = (value) => `${((value || 0) * 100).toFixed(1)}%`;
+    const monthLabel = (month) => `${month.slice(0, 4)}.${month.slice(5)}`;
+    const shouldShowXAxisLabel = (index, total) => {
+      if (total <= 16) return true;
+      return index % 3 === 0 || index === total - 1;
+    };
+
+    const summary = payload.summary;
+    const monthly = payload.monthly;
+    const ads = payload.ads;
+    const adMonthlyConversion = payload.adMonthlyConversion || [];
+    const adProxy = payload.adProxy;
+    const loyalty = payload.loyalty;
+    const points = payload.points;
+    const avg = (arr) => arr.reduce((sum, value) => sum + value, 0) / (arr.length || 1);
+    const adConversionActive = adMonthlyConversion.filter((row) => (row["클릭수_num"] || 0) > 0 || (row["전환수_num"] || 0) > 0);
+    const adConversionBasis = adConversionActive.length ? {
+      start: adConversionActive[0]["날짜"],
+      end: adConversionActive[adConversionActive.length - 1]["날짜"],
+      clicks: adConversionActive.reduce((sum, row) => sum + (row["클릭수_num"] || 0), 0),
+      cost: adConversionActive.reduce((sum, row) => sum + (row["비용_num"] || 0), 0),
+      impressions: adConversionActive.reduce((sum, row) => sum + (row["노출수_num"] || 0), 0),
+      conversions: adConversionActive.reduce((sum, row) => sum + (row["전환수_num"] || 0), 0),
+      estimatedCost: adConversionActive.reduce((sum, row) => sum + ((row["전환수_num"] || 0) * (row["전환당비용_num"] || 0)), 0),
+    } : null;
+    if (adConversionBasis) {
+      adConversionBasis.weightedCvr = adConversionBasis.clicks ? adConversionBasis.conversions / adConversionBasis.clicks : 0;
+      adConversionBasis.weightedCpa = adConversionBasis.conversions ? (adConversionBasis.cost || adConversionBasis.estimatedCost) / adConversionBasis.conversions : 0;
+    }
+
+    document.getElementById("validityNote").innerHTML =
+      `<strong>유효 구간 기준</strong> 결제·매출 분석은 <strong>${payload.notes.validMonthStart}</strong>부터 반영했습니다. 2022-05는 데이터 집계 시작 또는 이관 영향이 섞인 과도기 월로 판단했습니다.`;
+    document.getElementById("loyaltyNote").innerHTML =
+      `<strong>충성회원 정의 및 핵심 인사이트</strong> 충성회원은 월 실결제금액 5,000원 이상 결제한 회원으로 정의한 월별 집계 기준이며, 아래 그래프상 충성고객 비율은 2025년에 전반적으로 상승 흐름을 보이고 결제금액 비중도 최근으로 갈수록 다시 높아지며 충성회원 중심 구조가 강화되는 모습입니다.`;
+
+    document.getElementById("dataBasisGrid").innerHTML = [
+      ["운영 데이터 확보 구간", "2021.08 ~ 2026.03", "회원가입, 카드발급, 결제, 포인트 지급 월별 데이터 기준"],
+      ["결제/매출 유효 구간", `${monthLabel(summary.validStartMonth)} ~ ${monthLabel(summary.latestMonth)}`, "2022.05 이전 결제/매출 값은 미집계 또는 이관 전 데이터 가능성으로 제외"],
+      ["광고 시계열 확인 구간", adConversionBasis ? `${monthLabel(adConversionBasis.start)} ~ ${monthLabel(adConversionBasis.end)}` : "2022년 ~ 2026년 초", "월별 광고 노출수 및 설치 전환 흐름 확인"],
+      ["광고 전환 기준", "구글 애즈 설치 전환", adConversionBasis ? `누적 전환수 ${Math.round(adConversionBasis.conversions).toLocaleString("ko-KR")}건` : "설치 전환 기준 해석"],
+      ["광고비 해석 기준", adConversionBasis ? compactMoney(adConversionBasis.cost || adConversionBasis.estimatedCost) : compactMoney(summary.adsCost), adConversionBasis ? "월별 구글 애즈 시계열 비용 합계" : "차량구독 제외 실제 광고비"],
+    ].map(([label, value, sub]) => `
+      <article class="card">
+        <div class="card-label">${label}</div>
+        <div class="card-value">${value}</div>
+        <div class="card-sub">${sub}</div>
+      </article>
+    `).join("");
+
+    document.getElementById("pointSummaryGrid").innerHTML = points.categories.map((category) => `
+      <article class="card">
+        <div class="card-label">${category.name}</div>
+        <div class="card-value">${compactMoney(category.amount)}</div>
+        <div class="card-sub">${percent(category.share)} · ${category.start} ~ ${category.end}</div>
+      </article>
+    `).join("") + `
+      <article class="card" style="grid-column: 1 / -1;">
+        <div class="card-label">해석 기준</div>
+        <div class="card-sub" style="margin-top:0;">월별 운영 데이터의 포인트지급금액은 결제 적립과 이벤트 적립이 합산된 값으로 해석합니다. 별도 포인트 파일은 유형별 누적 총액 기준이며, 전체 지급 구간은 ${points.start} ~ ${points.end}, 누적 지급 총액은 ${compactMoney(points.totalAmount)}입니다.</div>
+      </article>
+    `;
+
+    document.getElementById("adBasisSummaryGrid").innerHTML = [
+      ["총 광고비", adConversionBasis ? compactMoney(adConversionBasis.cost || adConversionBasis.estimatedCost) : compactMoney(ads.totalCost), adConversionBasis ? `${monthLabel(adConversionBasis.start)} ~ ${monthLabel(adConversionBasis.end)} 기준` : "차량구독 제외 기준"],
+      ["총 설치 전환수", adConversionBasis ? `${Math.round(adConversionBasis.conversions).toLocaleString("ko-KR")}건` : `${Math.round(ads.totalConversions).toLocaleString("ko-KR")}건`, adConversionBasis ? "월별 구글 애즈 시계열 합계" : "구글 애즈 보고서 합계"],
+      ["평균 설치 전환당비용", adConversionBasis ? money(adConversionBasis.weightedCpa) : money(ads.averageCpa), adConversionBasis ? "월별 전환당비용 가중 평균" : "설치 전환 기준"],
+    ].map(([label, value, sub]) => `
+      <article class="card">
+        <div class="card-label">${label}</div>
+        <div class="card-value">${value}</div>
+        <div class="card-sub">${sub}</div>
+      </article>
+    `).join("");
+
+    const chartInstances = [];
+
+    function destroyCharts() {
+      while (chartInstances.length) {
+        chartInstances.pop().destroy();
+      }
+    }
+
+    function axisLabel(index, labels) {
+      return shouldShowXAxisLabel(index, labels.length) ? labels[index] : "";
+    }
+
+    function pushChart(chart) {
+      chartInstances.push(chart);
+      return chart;
+    }
+
+    const sharedChartOptions = {
+      responsive: true,
+      maintainAspectRatio: false,
+      events: ["mousemove", "mouseout", "click", "touchstart", "touchmove"],
+      interaction: { mode: "index", intersect: false, axis: "x" },
+      plugins: {
+        legend: { position: "top", align: "end" },
+        tooltip: {
+          enabled: true,
+          mode: "index",
+          intersect: false,
+          padding: 10,
+          displayColors: true,
+          backgroundColor: "rgba(28, 48, 38, 0.92)",
+          titleColor: "#ffffff",
+          bodyColor: "#ffffff",
+        },
+      },
+    };
+
+    const lineValueLabelPlugin = {
+      id: "lineValueLabelPlugin",
+      afterDatasetsDraw(chart, _args, pluginOptions) {
+        if (!pluginOptions || !pluginOptions.enabled) return;
+        const { ctx } = chart;
+        const datasetIndex = pluginOptions.datasetIndex ?? 0;
+        const meta = chart.getDatasetMeta(datasetIndex);
+        const dataset = chart.data.datasets[datasetIndex];
+        if (!meta || !dataset) return;
+
+        ctx.save();
+        ctx.fillStyle = pluginOptions.color || "#14532d";
+        ctx.font = pluginOptions.font || "11px Pretendard, sans-serif";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "bottom";
+
+        meta.data.forEach((point, index) => {
+          const value = dataset.data[index];
+          if (typeof value !== "number" || Number.isNaN(value)) return;
+          ctx.fillText(`${Math.round(value)}%`, point.x, point.y - 8);
+        });
+
+        ctx.restore();
+      },
+    };
+
+    function renderLineChart(canvasId, items, series, tickFormatter) {
+      const labels = items.map((row) => monthLabel(row["날짜"]).slice(2));
+      return pushChart(new Chart(document.getElementById(canvasId), {
+        type: "line",
+        data: {
+          labels,
+          datasets: series.map((entry) => ({
+            label: entry.label,
+            data: items.map((row) => row[entry.key]),
+            borderColor: entry.color,
+            backgroundColor: entry.color,
+            borderWidth: 3,
+            pointRadius: 3,
+            pointHoverRadius: 6,
+            pointHitRadius: 16,
+            tension: 0.25,
+          })),
+        },
+        options: {
+          ...sharedChartOptions,
+          scales: {
+            x: {
+              ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 },
+              grid: { display: false },
+            },
+            y: {
+              ticks: { callback: (value) => tickFormatter(value) },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderFunnelFlowChart() {
+      const overlapMonths = monthly.filter((row) => adMonthlyConversion.some((adRow) => adRow["날짜"] === row["날짜"]));
+      const installTotal = adMonthlyConversion.reduce((sum, row) => sum + (row["전환수_num"] || 0), 0);
+      const signupTotal = overlapMonths.reduce((sum, row) => sum + (row["회원가입수"] || 0), 0);
+      const cardTotal = overlapMonths.reduce((sum, row) => sum + (row["카드발급수"] || 0), 0);
+      const firstPayTotal = overlapMonths.reduce((sum, row) => sum + (row["첫결제 사용자수"] || 0), 0);
+      const lastOverlapMonth = overlapMonths[overlapMonths.length - 1];
+      const latestPayers = lastOverlapMonth ? (lastOverlapMonth["전체 결제 사용자 수"] || 0) : 0;
+      const stages = [
+        { label: "설치전환", value: installTotal, unit: "건" },
+        { label: "회원가입", value: signupTotal, unit: "명" },
+        { label: "카드발급", value: cardTotal, unit: "명" },
+        { label: "첫결제", value: firstPayTotal, unit: "명" },
+        { label: "결제고객", value: latestPayers, unit: "명" },
+      ];
+      const maxValue = Math.max(...stages.map((stage) => stage.value), 1);
+      const colors = ["#1d4ed8", "#0f766e", "#14532d", "#a16207", "#7c3aed"];
+      document.getElementById("funnelFlow").innerHTML = stages.map((stage, index) => {
+        const prev = index === 0 ? stage.value : stages[index - 1].value;
+        const remain = prev ? (stage.value / prev) * 100 : 100;
+        const drop = 100 - remain;
+        const width = Math.max((stage.value / maxValue) * 100, 28);
+        return `
+          <div class="funnel-step">
+            <div class="funnel-step-inner" style="width:${width}%; background:${colors[index]};">
+              <div class="funnel-step-left">
+                <div class="funnel-step-title">${stage.label}</div>
+                <div class="funnel-step-meta">${index === 0 ? "기준 100%" : `잔존 ${remain.toFixed(1)}% · 감소 ${drop.toFixed(1)}%`}</div>
+              </div>
+              <div class="funnel-step-value">${Math.round(stage.value).toLocaleString("ko-KR")}${stage.unit}</div>
+            </div>
+          </div>
+        `;
+      }).join("");
+    }
+
+    function renderBarLineChart() {
+      const labels = monthly.map((row) => monthLabel(row["날짜"]).slice(2));
+      return pushChart(new Chart(document.getElementById("revenueChart"), {
+        data: {
+          labels,
+          datasets: [
+            {
+              type: "bar",
+              label: "실결제금액",
+              data: monthly.map((row) => row["실결제금액"]),
+              backgroundColor: "#0f766ecc",
+              borderRadius: 8,
+            },
+            {
+              type: "line",
+              label: "할인금액",
+              data: monthly.map((row) => row["할인금액"]),
+              borderColor: "#a16207",
+              backgroundColor: "#a16207",
+              borderWidth: 3,
+              pointRadius: 3,
+              pointHoverRadius: 6,
+              pointHitRadius: 16,
+              tension: 0.25,
+            },
+          ],
+        },
+        options: {
+          ...sharedChartOptions,
+          scales: {
+            x: {
+              ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 },
+              grid: { display: false },
+            },
+            y: {
+              ticks: { callback: (value) => compactMoney(value) },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderAdBasisTimelineChart() {
+      const labels = adMonthlyConversion.map((row) => monthLabel(row["날짜"]).slice(2));
+      return pushChart(new Chart(document.getElementById("adBasisTimelineChart"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            {
+              label: "광고비",
+              data: adMonthlyConversion.map((row) => row["비용_num"] || 0),
+              borderColor: "#14532d",
+              backgroundColor: "#14532d",
+              tension: 0.25,
+              borderWidth: 3,
+              pointRadius: 3,
+              pointHoverRadius: 6,
+              pointHitRadius: 16,
+              fill: false,
+            },
+          ],
+        },
+        options: {
+          ...sharedChartOptions,
+          plugins: {
+            ...sharedChartOptions.plugins,
+            tooltip: {
+              ...sharedChartOptions.plugins.tooltip,
+              callbacks: {
+                afterLabel: (ctx) => {
+                  const row = adMonthlyConversion[ctx.dataIndex];
+                  return row ? `설치 전환수 ${Math.round(row["전환수_num"] || 0).toLocaleString("ko-KR")}건` : "";
+                },
+              },
+            },
+          },
+          scales: {
+            x: {
+              ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 },
+              grid: { display: false },
+            },
+            y: {
+              ticks: { callback: (value) => compactMoney(value) },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderAdCostChart() {
+      const labels = monthly.map((row) => monthLabel(row["날짜"]).slice(2));
+      const conversionMap = new Map(adMonthlyConversion.map((row) => [row["날짜"], row]));
+      return pushChart(new Chart(document.getElementById("adCostChart"), {
+        type: "bar",
+        data: {
+          labels,
+          datasets: [{
+            label: "광고비",
+            data: monthly.map((row) => {
+              const item = conversionMap.get(row["날짜"]);
+              return item ? item["비용_num"] || 0 : 0;
+            }),
+            backgroundColor: "#14532dcc",
+            borderRadius: 8,
+          }],
+        },
+        options: {
+          ...sharedChartOptions,
+          scales: {
+            x: {
+              ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 },
+              grid: { display: false },
+            },
+            y: {
+              ticks: { callback: (value) => compactMoney(value) },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderAdInstallChart() {
+      const labels = monthly.map((row) => monthLabel(row["날짜"]).slice(2));
+      const conversionMap = new Map(adMonthlyConversion.map((row) => [row["날짜"], row]));
+      return pushChart(new Chart(document.getElementById("adInstallChart"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [{
+            label: "설치 전환수",
+            data: monthly.map((row) => {
+              const item = conversionMap.get(row["날짜"]);
+              return item ? item["전환수_num"] || 0 : 0;
+            }),
+            borderColor: "#1d4ed8",
+            backgroundColor: "#1d4ed8",
+            tension: 0.25,
+            borderWidth: 4,
+            pointRadius: 4,
+            pointHoverRadius: 7,
+            pointHitRadius: 18,
+          }],
+        },
+        options: {
+          ...sharedChartOptions,
+          scales: {
+            x: {
+              ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 },
+              grid: { display: false },
+            },
+            y: {
+              ticks: { callback: (value) => `${Math.round(value).toLocaleString("ko-KR")}건` },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderAdProxyChart() {
+      const activeConversionRows = adMonthlyConversion.filter((row) => (row["전환수_num"] || 0) > 0 || (row["비용_num"] || 0) > 0);
+      const activeMonths = new Set(activeConversionRows.map((row) => row["날짜"]));
+      const chartMonthly = monthly.filter((row) => activeMonths.has(row["날짜"]));
+      const labels = chartMonthly.map((row) => monthLabel(row["날짜"]).slice(2));
+      const conversionMap = new Map(activeConversionRows.map((row) => [row["날짜"], row]));
+      return pushChart(new Chart(document.getElementById("adProxyChart"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            {
+              label: "설치전환 고객",
+              data: chartMonthly.map((row) => {
+                const item = conversionMap.get(row["날짜"]);
+                return item ? item["전환수_num"] || 0 : 0;
+              }),
+              borderColor: "#1d4ed8",
+              backgroundColor: "#1d4ed8",
+              tension: 0.25,
+              borderWidth: 3,
+              pointRadius: 3,
+              pointHoverRadius: 6,
+              pointHitRadius: 16,
+            },
+            {
+              label: "충성고객",
+              data: chartMonthly.map((row) => row["월별 충성회원 수"] || 0),
+              borderColor: "#7c3aed",
+              backgroundColor: "#7c3aed",
+              tension: 0.25,
+              borderWidth: 3,
+              pointRadius: 3,
+              pointHoverRadius: 6,
+              pointHitRadius: 16,
+            },
+          ],
+        },
+        options: {
+          ...sharedChartOptions,
+          scales: {
+            x: { ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 }, grid: { display: false } },
+            y: { ticks: { callback: (value) => Math.round(value).toLocaleString("ko-KR") } },
+          },
+        },
+      }));
+    }
+
+    function renderLoyaltyPaymentChart() {
+      if (!loyalty) return;
+      const labels = monthly.map((row) => monthLabel(row["날짜"]).slice(2));
+      return pushChart(new Chart(document.getElementById("loyaltyPaymentChart"), {
+        type: "line",
+        data: {
+          labels,
+          datasets: [
+            { label: "충성회원 수", data: monthly.map((row) => row["월별 충성회원 수"] || 0), borderColor: "#14532d", backgroundColor: "#14532d", borderWidth: 3, tension: 0.25, pointRadius: 3, pointHoverRadius: 6, pointHitRadius: 16 },
+            { label: "비충성회원 수", data: monthly.map((row) => row["월별 비충성회원 수"] || 0), borderColor: "#f59e0b", backgroundColor: "#f59e0b", borderWidth: 3, tension: 0.25, pointRadius: 3, pointHoverRadius: 6, pointHitRadius: 16 },
+          ],
+        },
+        options: {
+          ...sharedChartOptions,
+          scales: {
+            x: { ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 }, grid: { display: false } },
+            y: { ticks: { callback: (value) => `${Math.round(value).toLocaleString("ko-KR")}명` } },
+          },
+        },
+      }));
+    }
+
+    function renderLoyaltyCompareChart() {
+      if (!loyalty) return;
+      const loyalTotal = monthly.reduce((sum, row) => sum + (row["월별 충성회원 수"] || 0), 0);
+      const nonLoyalTotal = monthly.reduce((sum, row) => sum + (row["월별 비충성회원 수"] || 0), 0);
+      const loyalAmountTotal = monthly.reduce((sum, row) => sum + (row["월별 충성회원\n실결제금액 합계"] || 0), 0);
+      const nonLoyalAmountTotal = monthly.reduce((sum, row) => sum + (row["월별 비충성회원\n실결제금액 합계"] || 0), 0);
+      document.getElementById("loyaltyCompareNote").innerHTML = [
+        ["충성회원 평균 결제금액", compactMoney(loyalAmountTotal / Math.max(loyalTotal, 1)), "전체 유효 구간의 월별 집계 누적 기준"],
+        ["비충성회원 평균 결제금액", compactMoney(nonLoyalAmountTotal / Math.max(nonLoyalTotal, 1)), "전체 유효 구간의 월별 집계 누적 기준"],
+      ].map(([label, value, sub]) => `
+        <article class="card">
+          <div class="card-label">${label}</div>
+          <div class="card-value">${value}</div>
+          <div class="card-sub">${sub}</div>
+        </article>
+      `).join("");
+      return pushChart(new Chart(document.getElementById("loyaltyCompareChart"), {
+        type: "pie",
+        data: {
+          labels: ["충성회원", "비충성회원"],
+          datasets: [{
+            label: "누적 고객 수",
+            data: [
+              loyalTotal,
+              nonLoyalTotal,
+            ],
+            backgroundColor: ["#14532d", "#f59e0b"],
+            borderColor: "#ffffff",
+            borderWidth: 2,
+          }],
+        },
+        options: {
+          ...sharedChartOptions,
+          plugins: {
+            ...sharedChartOptions.plugins,
+            legend: { position: "bottom" },
+            tooltip: {
+              ...sharedChartOptions.plugins.tooltip,
+              callbacks: {
+                label: (ctx) => {
+                  const total = loyalTotal + nonLoyalTotal;
+                  const share = total ? (ctx.raw / total) * 100 : 0;
+                  return `${ctx.label}: ${Math.round(ctx.raw).toLocaleString("ko-KR")}명 (${share.toFixed(1)}%)`;
+                },
+              },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderLoyaltyShareChart() {
+      if (!loyalty) return;
+      const labels = monthly.map((row) => monthLabel(row["날짜"]).slice(2));
+      const loyalShares = monthly.map((row) => {
+        const loyalUsers = row["월별 충성회원 수"] || 0;
+        const nonLoyalUsers = row["월별 비충성회원 수"] || 0;
+        const total = loyalUsers + nonLoyalUsers;
+        return total ? (loyalUsers / total) * 100 : 0;
+      });
+      const nonLoyalShares = loyalShares.map((value) => 100 - value);
+      return pushChart(new Chart(document.getElementById("loyaltyShareChart"), {
+        type: "bar",
+        plugins: [lineValueLabelPlugin],
+        data: {
+          labels,
+          datasets: [
+            {
+              label: "충성회원 비중",
+              data: loyalShares,
+              backgroundColor: "#0f766ecc",
+              borderRadius: 6,
+              stack: "share",
+            },
+            {
+              label: "비충성회원 비중",
+              data: nonLoyalShares,
+              backgroundColor: "#cbd5e1",
+              borderRadius: 6,
+              stack: "share",
+            },
+            {
+              type: "line",
+              label: "충성고객 비율",
+              data: loyalShares,
+              yAxisID: "y1",
+              borderColor: "#14532d",
+              backgroundColor: "#14532d",
+              borderWidth: 3,
+              tension: 0.25,
+              pointRadius: 3,
+              pointHoverRadius: 6,
+              pointHitRadius: 16,
+            },
+          ],
+        },
+        options: {
+          ...sharedChartOptions,
+          layout: {
+            padding: { top: 18 },
+          },
+          plugins: {
+            ...sharedChartOptions.plugins,
+            lineValueLabelPlugin: {
+              enabled: true,
+              datasetIndex: 2,
+              color: "#14532d",
+            },
+          },
+          scales: {
+            x: {
+              stacked: true,
+              ticks: { callback: (_, index) => axisLabel(index, labels), maxRotation: 0 },
+              grid: { display: false },
+            },
+            y: {
+              stacked: true,
+              max: 100,
+              ticks: { callback: (value) => `${Math.round(value)}%` },
+            },
+            y1: {
+              position: "right",
+              min: 0,
+              max: 100,
+              grid: { drawOnChartArea: false },
+              ticks: { callback: (value) => `${Math.round(value)}%` },
+            },
+          },
+        },
+      }));
+    }
+
+    function renderPointPieChart() {
+      if (!points || !points.categories || !points.categories.length) return;
+      return pushChart(new Chart(document.getElementById("pointPieChart"), {
+        type: "pie",
+        data: {
+          labels: points.categories.map((category) => `${category.name} (${percent(category.share)})`),
+          datasets: [{
+            data: points.categories.map((category) => category.amount),
+            backgroundColor: points.categories.map((category) => category.color),
+            borderColor: "#ffffff",
+            borderWidth: 2,
+          }],
+        },
+        options: {
+          ...sharedChartOptions,
+          interaction: { mode: "nearest", intersect: false },
+          plugins: {
+            ...sharedChartOptions.plugins,
+            legend: { position: "right" },
+            tooltip: {
+              ...sharedChartOptions.plugins.tooltip,
+              callbacks: {
+                label: (ctx) => `${ctx.label}: ${compactMoney(ctx.raw)}`,
+              },
+            },
+          },
+        },
+      }));
+    }
+
+    destroyCharts();
+
+    renderFunnelFlowChart();
+
+    renderAdBasisTimelineChart();
+    renderAdCostChart();
+    renderAdInstallChart();
+    renderAdProxyChart();
+    renderLoyaltyShareChart();
+    renderLoyaltyPaymentChart();
+    renderLoyaltyCompareChart();
+    renderPointPieChart();
+
+    document.getElementById("adSummaryTable").innerHTML = [
+      ["광고 기간", adConversionBasis ? `${adConversionBasis.start} ~ ${adConversionBasis.end}` : ads.period],
+      ["설치 전환 기준", "구글 애즈 월별 시계열 기준"],
+      ["총 광고비", adConversionBasis ? compactMoney(adConversionBasis.cost || adConversionBasis.estimatedCost) : compactMoney(ads.totalCost)],
+      ["총 설치 전환수", adConversionBasis ? `${Math.round(adConversionBasis.conversions).toLocaleString("ko-KR")}건` : `${Math.round(ads.totalConversions).toLocaleString("ko-KR")}건`],
+      ["노출 대비 전환율", adConversionBasis ? `${((adConversionBasis.conversions / Math.max(adConversionBasis.impressions || 1, 1)) * 100).toFixed(2)}%` : "-"],
+      ["평균 설치 전환당비용", adConversionBasis ? money(adConversionBasis.weightedCpa) : money(ads.averageCpa)],
+    ].map(([key, value]) => `<tr><th>${key}</th><td>${value}</td></tr>`).join("");
+
+    document.getElementById("adInterpretation").innerHTML =
+      adConversionBasis
+        ? [
+            `<strong>설치 확대형</strong> ${monthLabel(adConversionBasis.start)}부터 ${monthLabel(adConversionBasis.end)}까지 누적 설치 전환은 ${Math.round(adConversionBasis.conversions).toLocaleString("ko-KR")}건으로, 광고는 우선 설치 모수를 넓히는 역할을 한 것으로 보입니다.`,
+            `<strong>효율 관리형</strong> 총 광고비는 ${compactMoney(adConversionBasis.cost || adConversionBasis.estimatedCost)}, 평균 설치 전환당비용은 ${money(adConversionBasis.weightedCpa)}이며 <strong>노출 대비 전환율은 ${((adConversionBasis.conversions / Math.max(adConversionBasis.impressions || 1, 1)) * 100).toFixed(2)}%</strong>입니다.`,
+            `<strong>후속 검증 필요</strong> 현재는 설치 전환 기준 해석이므로, 회원가입·첫결제·충성고객까지 이어지는지는 아래 섹션과 함께 봐야 합니다.`
+          ].join("<br><br>")
+        : [
+            `<strong>설치 확대형</strong> 광고비는 ${ads.period} 기준 차량구독 제외 ${compactMoney(ads.totalCost)}이며, 보고서상 설치 전환은 ${Math.round(ads.totalConversions).toLocaleString("ko-KR")}건으로 확인됩니다.`,
+            `<strong>효율 관리형</strong> 평균 설치 전환당비용은 ${money(ads.averageCpa)} 수준으로, 현재 단계에서는 설치 기준 효율을 보는 데 적합합니다.`,
+            `<strong>후속 검증 필요</strong> 이 수치는 설치 전환 기준이므로, 회원가입 CAC나 카드발급 CAC로는 확정하지 않고 아래 퍼널 및 충성고객 흐름과 함께 해석하는 편이 적절합니다.`
+          ].join("<br><br>");
+
+    if (adMonthlyConversion.length) {
+      const maxConversion = adMonthlyConversion.reduce((best, row) => row["전환수_num"] > best["전환수_num"] ? row : best, adMonthlyConversion[0]);
+      const maxCostMonth = adMonthlyConversion.reduce((best, row) => (row["비용_num"] || 0) > (best["비용_num"] || 0) ? row : best, adMonthlyConversion[0]);
+      const maxConversionRate = adMonthlyConversion.reduce((best, row) => {
+        const bestRate = best["전환율_num"] || (((best["전환수_num"] || 0) / Math.max(best["노출수_num"] || 1, 1)) * 100);
+        const rowRate = row["전환율_num"] || (((row["전환수_num"] || 0) / Math.max(row["노출수_num"] || 1, 1)) * 100);
+        return rowRate > bestRate ? row : best;
+      }, adMonthlyConversion[0]);
+      const efficiencyMonths = adMonthlyConversion
+        .filter((row) => (row["비용_num"] || 0) >= 1000000 && (row["전환수_num"] || 0) > 0)
+        .map((row) => ({
+          month: row["날짜"],
+          cost: row["비용_num"] || 0,
+          conversions: row["전환수_num"] || 0,
+          cpa: row["전환당비용_num"] || ((row["비용_num"] || 0) / (row["전환수_num"] || 1)),
+        }))
+        .sort((a, b) => a.cpa - b.cpa);
+      const bestEfficiency = efficiencyMonths[0];
+      const topEfficiencyMonths = efficiencyMonths.slice(0, 3);
+      document.getElementById("adTimelineInsights").innerHTML = [
+        `<strong>광고비가 가장 높았던 시점은 ${monthLabel(maxCostMonth["날짜"])}</strong>으로, 집행이 가장 강하게 집중된 월입니다.`,
+        `<strong>설치 전환이 가장 높았던 시점은 ${monthLabel(maxConversion["날짜"])}</strong>이며, 월별 전환수는 ${Math.round(maxConversion["전환수_num"]).toLocaleString("ko-KR")}건입니다.`,
+        `<strong>노출 대비 전환율이 가장 높았던 시점은 ${monthLabel(maxConversionRate["날짜"])}</strong>이며, 전환율은 ${Number(maxConversionRate["전환율_num"] || (((maxConversionRate["전환수_num"] || 0) / Math.max(maxConversionRate["노출수_num"] || 1, 1)) * 100)).toFixed(2)}%입니다.`,
+        bestEfficiency ? `<strong>비용 대비 설치 전환이 가장 효율적이었던 월은 ${monthLabel(bestEfficiency.month)}</strong>로, 전환당비용은 ${money(bestEfficiency.cpa)}였습니다.` : `비용 대비 설치 전환 효율은 월 광고비 100만 원 이상인 월만 기준으로 계산했습니다.`,
+        topEfficiencyMonths.length ? `효율 상위 월은 ${topEfficiencyMonths.map((row) => `${monthLabel(row.month)} (${money(row.cpa)})`).join(", ")} 순입니다. 저비용 잔여 집행 월은 왜곡을 막기 위해 제외했습니다.` : `효율 상위 월 비교를 위한 비용·전환 데이터가 충분하지 않았습니다.`,
+        `광고비와 설치 전환 흐름을 분리해서 보면 비용이 커진 시기와 전환이 강했던 시기를 각각 더 또렷하게 읽을 수 있습니다.`,
+        `설치 전환 이후 실제 회원가입, 첫결제, 충성고객 변화까지 이어지는지는 아래 섹션에서 함께 확인해야 합니다.`,
+      ].map((text) => `<li>${text}</li>`).join("");
+    } else {
+      document.getElementById("adTimelineInsights").innerHTML = `<li>월별 광고 전환수/전환율 시계열 파일이 없어 이 섹션의 상세 해석을 계산하지 못했습니다.</li>`;
+    }
+
+    document.getElementById("adCacInterpretation").textContent =
+      adConversionBasis
+        ? `현재는 ${monthLabel(adConversionBasis.start)} ~ ${monthLabel(adConversionBasis.end)} 월별 설치 전환 기준으로 광고 효율을 읽고 있으며, 추정 총 광고비는 ${compactMoney(adConversionBasis.estimatedCost)}, 평균 설치 전환당비용은 ${money(adConversionBasis.weightedCpa)}입니다. 이후에는 이 설치 기준을 회원가입·첫결제·충성고객 기준 CAC로 확장해 해석하는 것이 적절합니다.`
+        : `현재 확보된 실제 광고비는 ${ads.period} 기준 ${compactMoney(ads.totalCost)}이며, 설치 전환 기준 전환당비용은 ${money(ads.averageCpa)}입니다. 따라서 현 단계에서는 설치 CAC를 출발점으로 보되, 이후 회원가입·첫결제·충성고객 기준 CAC로 확장해 해석하는 것이 적절합니다.`;
+
+    if (loyalty) {
+      const loyaltySeries = monthly.map((row) => {
+        const loyalUsers = row["월별 충성회원 수"] || 0;
+        const nonLoyalUsers = row["월별 비충성회원 수"] || 0;
+        const totalUsers = loyalUsers + nonLoyalUsers;
+        return {
+          month: row["날짜"],
+          loyalUsers,
+          nonLoyalUsers,
+          share: totalUsers ? loyalUsers / totalUsers : 0,
+        };
+      });
+      const maxSharePoint = loyaltySeries.reduce((best, row) => row.share > best.share ? row : best, loyaltySeries[0]);
+      let maxShareDelta = null;
+      for (let i = 1; i < loyaltySeries.length; i += 1) {
+        const delta = loyaltySeries[i].share - loyaltySeries[i - 1].share;
+        if (!maxShareDelta || delta > maxShareDelta.delta) {
+          maxShareDelta = { month: loyaltySeries[i].month, prevMonth: loyaltySeries[i - 1].month, delta };
+        }
+      }
+      const firstAbove70 = loyaltySeries.find((row) => row.share >= 0.7);
+      const firstAbove75 = loyaltySeries.find((row) => row.share >= 0.75);
+      document.getElementById("loyaltyTrendInsights").innerHTML = [
+        `<strong>충성고객 비율은 전반적으로 상승 흐름</strong>을 보이며, 최고 수준은 ${monthLabel(maxSharePoint.month)}의 ${percent(maxSharePoint.share)}입니다.`,
+        `<strong>가장 큰 상승은 ${monthLabel(maxShareDelta.month)}</strong>에 나타났고, 직전 월인 ${monthLabel(maxShareDelta.prevMonth)} 대비 ${percent(maxShareDelta.delta)}p 높아졌습니다.`,
+        firstAbove70 ? `<strong>충성고객 비율은 ${monthLabel(firstAbove70.month)}에 70%를 처음 돌파</strong>${firstAbove75 ? `했고, ${monthLabel(firstAbove75.month)}에는 75%도 넘어섰습니다.` : `했습니다.`}` : `충성고객 비율은 아직 70%를 넘는 구간이 없습니다.`,
+        `<strong>최근월 충성고객 비중 ${percent(loyalty.latestLoyalShare)}</strong>은 최근 12개월 평균 ${percent(loyalty.avgLoyalShare)}보다 높은 수준입니다.`,
+        `<strong>매출 기준 최근월 충성고객 비중은 ${percent(loyalty.latestLoyalSalesShare)}</strong>로, 고객 수 비중보다 매출 기여가 더 크게 집중되는 구조를 보입니다.`,
+      ].map((text) => `<li>${text}</li>`).join("");
+
+      const loyaltySalesSeries = monthly.map((row) => {
+        const loyalAmount = row["월별 충성회원\n실결제금액 합계"] || 0;
+        const nonLoyalAmount = row["월별 비충성회원\n실결제금액 합계"] || 0;
+        const totalAmount = loyalAmount + nonLoyalAmount;
+        return {
+          month: row["날짜"],
+          loyalAmount,
+          nonLoyalAmount,
+          share: totalAmount ? loyalAmount / totalAmount : 0,
+        };
+      });
+      const maxSalesSharePoint = loyaltySalesSeries.reduce((best, row) => row.share > best.share ? row : best, loyaltySalesSeries[0]);
+      let maxSalesShareDelta = null;
+      for (let i = 1; i < loyaltySalesSeries.length; i += 1) {
+        const delta = loyaltySalesSeries[i].share - loyaltySalesSeries[i - 1].share;
+        if (!maxSalesShareDelta || delta > maxSalesShareDelta.delta) {
+          maxSalesShareDelta = { month: loyaltySalesSeries[i].month, prevMonth: loyaltySalesSeries[i - 1].month, delta };
+        }
+      }
+      document.getElementById("loyaltyInsights").innerHTML = [
+        `<strong>${monthLabel(loyalty.latestMonth)} 기준 충성회원 비중은 ${percent(loyalty.latestLoyalShare)}</strong>로, 이미 전체 결제 고객의 다수를 차지합니다.`,
+        `<strong>실결제금액 기준 충성회원 비중은 ${percent(loyalty.latestLoyalSalesShare)}</strong>로, 매출 기여는 인원 비중보다 훨씬 더 충성회원에 집중됩니다.`,
+        `<strong>충성회원 1인당 월 실결제금액은 ${compactMoney(loyalty.latestLoyalArppu)}</strong>로, 비충성회원 ${compactMoney(loyalty.latestNonLoyalArppu)} 대비 약 ${(loyalty.latestLoyalArppu / Math.max(loyalty.latestNonLoyalArppu, 1)).toFixed(1)}배 높습니다.`,
+      ].map((text) => `<li>${text}</li>`).join("");
+    } else {
+      document.getElementById("loyaltyTrendInsights").innerHTML = `<li>현재 입력 파일에는 충성회원 집계 컬럼이 없어 이 섹션을 계산하지 못했습니다.</li>`;
+      document.getElementById("loyaltyInsights").innerHTML = `<li>현재 입력 파일에는 충성회원 집계 컬럼이 없어 이 섹션을 계산하지 못했습니다.</li>`;
+    }
+
+    const conversionMap = new Map(adMonthlyConversion.map((row) => [row["날짜"], row]));
+    const adActiveMonthly = monthly.filter((row) => {
+      const item = conversionMap.get(row["날짜"]);
+      return item && (((item["전환수_num"] || 0) > 0) || ((item["비용_num"] || 0) > 0));
+    });
+    const installSeries = adActiveMonthly.map((row) => {
+      const item = conversionMap.get(row["날짜"]);
+      return item ? item["전환수_num"] || 0 : 0;
+    });
+    const loyalSeries = adActiveMonthly.map((row) => row["월별 충성회원 수"] || 0);
+    const loyalShareSeries = adActiveMonthly.map((row) => {
+      const loyalUsers = row["월별 충성회원 수"] || 0;
+      const nonLoyalUsers = row["월별 비충성회원 수"] || 0;
+      return loyalUsers / Math.max(loyalUsers + nonLoyalUsers, 1);
+    });
+    const installThreshold = installSeries.slice().sort((a, b) => a - b)[Math.floor(installSeries.length * 0.75)] || 0;
+    const installHigh = adActiveMonthly.filter((row, index) => installSeries[index] >= installThreshold);
+    const installLow = adActiveMonthly.filter((row, index) => installSeries[index] < installThreshold);
+    const installHighLoyalAvg = avg(installHigh.map((row) => row["월별 충성회원 수"] || 0));
+    const installLowLoyalAvg = avg(installLow.map((row) => row["월별 충성회원 수"] || 0));
+    const installSameMonthLoyalCorr = (() => {
+      const xs = installSeries;
+      const ys = loyalSeries;
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+    const installLag1LoyalCorr = (() => {
+      const xs = installSeries.slice(0, -1);
+      const ys = loyalSeries.slice(1);
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+
+    const signupToFirstPayRatios = monthly.map((row) => row["첫결제 사용자수"] / Math.max(row["회원가입수"], 1));
+    const signupToCardRatios = monthly.map((row) => row["카드발급수"] / Math.max(row["회원가입수"], 1));
+    const cardToFirstPayRatios = monthly.map((row) => row["첫결제 사용자수"] / Math.max(row["카드발급수"], 1));
+    const firstPayToLoyalRatios = monthly.map((row) => (row["월별 충성회원 수"] || 0) / Math.max(row["첫결제 사용자수"], 1));
+    const recent12 = monthly.slice(-12);
+    const recent12SignupToFirstPay = avg(recent12.map((row) => row["첫결제 사용자수"] / Math.max(row["회원가입수"], 1)));
+    const recent12SignupToCard = avg(recent12.map((row) => row["카드발급수"] / Math.max(row["회원가입수"], 1)));
+    const recent12CardToFirstPay = avg(recent12.map((row) => row["첫결제 사용자수"] / Math.max(row["카드발급수"], 1)));
+    const recent12FirstPayToLoyal = avg(recent12.map((row) => (row["월별 충성회원 수"] || 0) / Math.max(row["첫결제 사용자수"], 1)));
+    const sameMonthSignupFirstPayCorr = (() => {
+      const xs = monthly.map((row) => row["회원가입수"]);
+      const ys = monthly.map((row) => row["첫결제 사용자수"]);
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+    const lag1SignupFirstPayCorr = (() => {
+      const xs = monthly.slice(0, -1).map((row) => row["회원가입수"]);
+      const ys = monthly.slice(1).map((row) => row["첫결제 사용자수"]);
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+
+    document.getElementById("funnelInsights").innerHTML = [
+      `광고 집행 기간 기준으로 보면 <strong>설치전환 이후 회원가입, 카드발급, 첫결제까지 단계적으로 감소</strong>하며, 각 단계의 잔존율과 감소율은 퍼널 라벨에서 바로 확인할 수 있습니다.`,
+      `유효 구간 평균으로 보면 <strong>회원가입의 약 ${percent(avg(signupToCardRatios))}</strong>가 카드발급으로 이어지고, <strong>카드발급의 약 ${percent(avg(cardToFirstPayRatios))}</strong>가 첫결제로 이어집니다.`,
+      `회원가입에서 첫결제로 이어지는 비율은 평균 <strong>${percent(avg(signupToFirstPayRatios))}</strong> 수준입니다.`,
+      `마지막 결제고객은 광고 집행 마지막 월의 활성 결제고객 기준이므로, 퍼널 마지막 단계는 cohort 누적 전환이라기보다 광고 집행 종료 시점의 활성 고객 규모를 보여주는 지표로 해석하는 것이 적절합니다.`,
+    ].map((text) => `<li>${text}</li>`).join("");
+
+    const adPeriodStart = adActiveMonthly[0];
+    const adPeriodEnd = adActiveMonthly[adActiveMonthly.length - 1];
+    const loyalIncrease = adPeriodStart && adPeriodEnd
+      ? (adPeriodEnd["월별 충성회원 수"] || 0) - (adPeriodStart["월별 충성회원 수"] || 0)
+      : 0;
+    const loyalShareIncrease = adPeriodStart && adPeriodEnd
+      ? loyalShareSeries[loyalShareSeries.length - 1] - loyalShareSeries[0]
+      : 0;
+    document.getElementById("adProxyInsights").innerHTML = [
+      adPeriodStart && adPeriodEnd
+        ? `<strong>광고 집행 기간(${monthLabel(adPeriodStart["날짜"])} ~ ${monthLabel(adPeriodEnd["날짜"])}) 동안 충성고객 수는 ${Math.round(adPeriodStart["월별 충성회원 수"] || 0).toLocaleString("ko-KR")}명에서 ${Math.round(adPeriodEnd["월별 충성회원 수"] || 0).toLocaleString("ko-KR")}명으로 ${loyalIncrease >= 0 ? `${Math.round(loyalIncrease).toLocaleString("ko-KR")}명 증가` : `${Math.abs(Math.round(loyalIncrease)).toLocaleString("ko-KR")}명 감소`}했습니다.</strong>`
+        : `광고 집행 기간 기준 충성고객 수 증감은 월별 광고 시계열과 연결해 해석합니다.`,
+      adPeriodStart && adPeriodEnd
+        ? `<strong>충성고객 비율은 같은 기간 ${percent(loyalShareSeries[0])}에서 ${percent(loyalShareSeries[loyalShareSeries.length - 1])}로 ${loyalShareIncrease >= 0 ? `${percent(loyalShareIncrease)}p 상승` : `${percent(Math.abs(loyalShareIncrease))}p 하락`}했습니다.</strong>`
+        : `충성고객 비율 변화는 광고가 집행된 월 기준으로 비교합니다.`,
+      `설치전환과 충성고객의 같은 달 상관계수는 ${installSameMonthLoyalCorr.toFixed(2)}, 1개월 시차 상관계수는 ${installLag1LoyalCorr.toFixed(2)}입니다.`,
+      `설치전환이 높은 월의 평균 충성고객 수는 ${Math.round(installHighLoyalAvg).toLocaleString("ko-KR")}명으로, 낮은 월 평균 ${Math.round(installLowLoyalAvg).toLocaleString("ko-KR")}명보다 ${(installHighLoyalAvg / Math.max(installLowLoyalAvg, 1)).toFixed(2)}배 높습니다.`,
+      `즉 광고가 강했던 구간에서 충성고객 규모도 함께 커지는 흐름은 보이지만, 이것만으로 광고 유입 고객의 실측 충성고객 전환율을 의미하진 않습니다.`,
+    ].map((text) => `<li>${text}</li>`).join("");
+
+    document.getElementById("conversionLinkGrid").innerHTML = [
+      ["평균 회원가입→카드발급", percent(avg(signupToCardRatios)), `전체 유효 구간 평균 / 최근 12개월 ${percent(recent12SignupToCard)}`],
+      ["평균 카드발급→첫결제", percent(avg(cardToFirstPayRatios)), `전체 유효 구간 평균 / 최근 12개월 ${percent(recent12CardToFirstPay)}`],
+      ["평균 회원가입→첫결제", percent(avg(signupToFirstPayRatios)), `전체 유효 구간 평균 / 최근 12개월 ${percent(recent12SignupToFirstPay)}`],
+      ["평균 첫결제→충성고객", percent(avg(firstPayToLoyalRatios)), `월별 집계 기준 / 최근 12개월 ${percent(recent12FirstPayToLoyal)}`],
+      ["회원가입-첫결제 상관", sameMonthSignupFirstPayCorr.toFixed(2), `1개월 시차 상관 ${lag1SignupFirstPayCorr.toFixed(2)}`],
+      ["광고 고강도월 첫결제 증가", `${Math.round(adProxy.highFirstPayAvg - adProxy.lowFirstPayAvg).toLocaleString("ko-KR")}명`, `저강도월 대비 ${(adProxy.highFirstPayAvg / adProxy.lowFirstPayAvg).toFixed(2)}배`],
+      ["적립금 고강도월 첫결제 증가", `${Math.round(pointHighFirstPayAvg - pointLowFirstPayAvg).toLocaleString("ko-KR")}명`, `저강도월 대비 ${(pointHighFirstPayAvg / pointLowFirstPayAvg).toFixed(2)}배`],
+    ].map(([label, value, sub]) => `
+      <article class="card">
+        <div class="card-label">${label}</div>
+        <div class="card-value">${value}</div>
+        <div class="card-sub">${sub}</div>
+      </article>
+    `).join("");
+
+    const pointsSameMonthSignupCorr = (() => {
+      const xs = monthly.map((row) => row["포인트지급금액"]);
+      const ys = monthly.map((row) => row["회원가입수"]);
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+    const pointsSameMonthFirstPayCorr = (() => {
+      const xs = monthly.map((row) => row["포인트지급금액"]);
+      const ys = monthly.map((row) => row["첫결제 사용자수"]);
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+
+    const pointThreshold = monthly.map((row) => row["포인트지급금액"]).sort((a, b) => a - b)[Math.floor(monthly.length * 0.75)];
+    const pointHigh = monthly.filter((row) => row["포인트지급금액"] >= pointThreshold);
+    const pointLow = monthly.filter((row) => row["포인트지급금액"] < pointThreshold);
+    const pointHighFirstPayAvg = avg(pointHigh.map((row) => row["첫결제 사용자수"]));
+    const pointLowFirstPayAvg = avg(pointLow.map((row) => row["첫결제 사용자수"]));
+
+    const pointsLag1FirstPayCorr = (() => {
+      const xs = monthly.slice(0, -1).map((row) => row["포인트지급금액"]);
+      const ys = monthly.slice(1).map((row) => row["첫결제 사용자수"]);
+      const mx = avg(xs);
+      const my = avg(ys);
+      const num = xs.reduce((sum, x, i) => sum + ((x - mx) * (ys[i] - my)), 0);
+      const dx = Math.sqrt(xs.reduce((sum, x) => sum + ((x - mx) ** 2), 0));
+      const dy = Math.sqrt(ys.reduce((sum, y) => sum + ((y - my) ** 2), 0));
+      return num / ((dx * dy) || 1);
+    })();
+    const adLag1FirstPayCorr = adProxy.correlations.firstpay_lag_1;
+
+    document.getElementById("conversionLinkInsights").innerHTML = [
+      `유효 구간 전체 평균으로 보면 회원가입의 약 ${percent(avg(signupToCardRatios))}가 카드발급으로 이어지고, 카드발급의 약 ${percent(avg(cardToFirstPayRatios))}가 첫결제로 이어집니다.`,
+      `회원가입에서 첫결제로 이어지는 비율은 평균 ${percent(avg(signupToFirstPayRatios))} 수준이며, 최근 12개월 평균은 ${percent(recent12SignupToFirstPay)}입니다.`,
+      `충성고객은 월별 5,000원 이상 결제 기준 집계이므로 cohort 전환율과는 다르지만, 월별 첫결제 대비 충성고객 비중은 평균 ${percent(avg(firstPayToLoyalRatios))}, 최근 12개월 평균 ${percent(recent12FirstPayToLoyal)} 수준입니다.`,
+      `회원가입과 첫결제의 같은 달 상관계수는 ${sameMonthSignupFirstPayCorr.toFixed(2)}, 1개월 시차 상관계수는 ${lag1SignupFirstPayCorr.toFixed(2)}입니다. 즉 첫결제는 같은 달보다 다음 달까지 이어지는 효과를 같이 보는 편이 더 자연스럽습니다.`,
+    ].map((text) => `<li>${text}</li>`).join("");
+
+    document.getElementById("driverEfficiencyInsights").innerHTML = [
+      `광고 -> 첫결제 관점에서 보면, 광고 노출 프록시와 첫결제의 같은 달 상관은 ${adProxy.correlations.firstpay_lag_0.toFixed(2)}, 1개월 시차 상관은 ${adLag1FirstPayCorr.toFixed(2)}입니다. 즉 광고 효과가 있더라도 첫결제로 직접 이어지는 강도는 비교적 약하고 시차가 섞여 있을 가능성이 큽니다.`,
+      `적립금 -> 첫결제 관점에서는 포인트지급금액과 첫결제의 같은 달 상관이 ${pointsSameMonthFirstPayCorr.toFixed(2)}, 1개월 시차 상관이 ${pointsLag1FirstPayCorr.toFixed(2)}로 광고보다 더 강하게 나타납니다.`,
+      `고강도 광고월의 첫결제 평균은 저강도월보다 ${Math.round(adProxy.highFirstPayAvg - adProxy.lowFirstPayAvg).toLocaleString("ko-KR")}명 높았고, 고적립금월의 첫결제 평균은 저적립금월보다 ${Math.round(pointHighFirstPayAvg - pointLowFirstPayAvg).toLocaleString("ko-KR")}명 높았습니다.`,
+      `따라서 첫결제와의 직접 연관성만 놓고 보면 현재 데이터에서는 광고보다 적립금이 더 강한 레버로 보입니다. 광고는 첫결제보다는 회원가입 확대 쪽 기여가 더 자연스럽고, 적립금은 첫결제와 결제 활성화에 더 가깝게 해석하는 편이 맞습니다.`,
+    ].map((text) => `<li>${text}</li>`).join("");
+  </script>
+</body>
+</html>

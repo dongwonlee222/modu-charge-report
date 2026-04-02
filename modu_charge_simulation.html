@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의충전 매출 시뮬레이션</title>
+  <style>
+    :root {
+      --bg: #f4f7f3;
+      --paper: #fcfdf9;
+      --panel: #ffffff;
+      --text: #183028;
+      --muted: #5b6f67;
+      --line: #d9e4dd;
+      --accent: #0f766e;
+      --accent-soft: #d8f3ed;
+      --accent-strong: #115e59;
+      --good: #166534;
+      --warn: #a16207;
+      --bad: #b91c1c;
+      --shadow: 0 18px 45px rgba(24, 48, 40, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      padding: 32px 18px 48px;
+      background:
+        radial-gradient(circle at top left, rgba(15, 118, 110, 0.16) 0, transparent 22%),
+        linear-gradient(180deg, #f7faf7 0%, #eef4ef 100%);
+      color: var(--text);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 1240px;
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 34px;
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      padding: 7px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent-strong);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 14px 0 10px;
+      font-size: 34px;
+      line-height: 1.2;
+    }
+
+    .lead {
+      margin: 0 0 24px;
+      max-width: 920px;
+      color: var(--muted);
+      font-size: 16px;
+    }
+
+    .note {
+      margin: 0 0 24px;
+      padding: 18px 20px;
+      border: 1px solid #c8e6de;
+      border-radius: 18px;
+      background: linear-gradient(135deg, #eefaf7 0%, #fdfefc 100%);
+      color: var(--muted);
+    }
+
+    .note strong {
+      color: var(--accent-strong);
+    }
+
+    .section-title {
+      margin: 34px 0 14px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .actual-grid,
+    .result-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .actual-card,
+    .result-card,
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 12px 26px rgba(24, 48, 40, 0.05);
+    }
+
+    .actual-card {
+      padding: 18px;
+    }
+
+    .actual-month {
+      margin-bottom: 10px;
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--accent-strong);
+    }
+
+    .actual-kpi {
+      display: grid;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .actual-kpi strong {
+      display: block;
+      color: var(--text);
+      font-size: 16px;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 380px 1fr;
+      gap: 18px;
+      align-items: start;
+      margin-top: 16px;
+    }
+
+    .panel {
+      padding: 22px;
+    }
+
+    .panel h3 {
+      margin: 0 0 14px;
+      font-size: 19px;
+    }
+
+    .panel-sub {
+      margin: -4px 0 18px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .field + .field {
+      margin-top: 14px;
+    }
+
+    .field-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 6px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .field-head span:last-child {
+      color: var(--accent-strong);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .field input,
+    .field select {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      font-size: 14px;
+      background: #fbfdfb;
+      color: var(--text);
+    }
+
+    .field-note {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .button-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    button {
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #f5fbf8;
+      border-color: #bed8cf;
+    }
+
+    .primary {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    .result-card {
+      padding: 18px;
+    }
+
+    .result-label {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .result-value {
+      margin-top: 8px;
+      font-size: 28px;
+      font-weight: 800;
+      line-height: 1.15;
+    }
+
+    .result-sub {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .good { color: var(--good); }
+    .bad { color: var(--bad); }
+    .warn { color: var(--warn); }
+
+    .chart-wrap {
+      margin-top: 18px;
+      padding: 18px;
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+    }
+
+    .chart-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .chart-head h3 {
+      margin: 0;
+      font-size: 18px;
+    }
+
+    .chart-caption {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 18px;
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .detail-table th,
+    .detail-table td {
+      padding: 13px 16px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      font-size: 14px;
+    }
+
+    .detail-table th {
+      width: 28%;
+      background: #f7fbf8;
+      color: var(--muted);
+      font-weight: 700;
+    }
+
+    .detail-table tr:last-child th,
+    .detail-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .footer-tip {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 960px) {
+      .wrap { padding: 22px; }
+      .layout { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <div class="eyebrow">Modu Charge Simulator</div>
+    <h1>모두의충전 월 매출 시뮬레이션</h1>
+    <p class="lead">엑셀의 월별 실적 데이터를 베이스라인으로 삼아, 설치 수부터 결제 전환과 수익성까지 로컬에서 바로 조절해 볼 수 있는 첫 버전입니다.</p>
+    <div class="note">
+      <strong>계산 방식</strong>
+      마지막 월 실적을 기준으로 `설치 -> 회원가입 -> 모두페이 발급 -> 결제 사용자` 퍼널을 재계산하고,
+      실제 월 실적에서 추정한 할인율, 원가율, 포인트율, 미납 비율을 반영해 `매출`, `회사 순이익 기준`, `보수적 이익 기준`을 함께 보여줍니다.
+    </div>
+
+    <section>
+      <h2 class="section-title">월별 실적 베이스라인</h2>
+      <div id="actualGrid" class="actual-grid"></div>
+    </section>
+
+    <section>
+      <h2 class="section-title">시뮬레이션</h2>
+      <div class="layout">
+        <aside class="panel">
+          <h3>입력값</h3>
+          <div class="panel-sub">기준 월을 선택하면 해당 월의 실제 수치가 기본값으로 채워집니다.</div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>기준 월</span>
+              <span id="baseMonthText">-</span>
+            </div>
+            <select id="baseMonth"></select>
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>월 앱 설치 수</span>
+              <span id="installsDisplay">0건</span>
+            </div>
+            <input id="installs" type="number" min="0" step="100" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>회원가입 전환율</span>
+              <span id="signupRateDisplay">0%</span>
+            </div>
+            <input id="signupRate" type="number" min="0" max="100" step="0.1" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>모두페이 발급률</span>
+              <span id="issueRateDisplay">0%</span>
+            </div>
+            <input id="issueRate" type="number" min="0" max="100" step="0.1" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>발급 후 결제 전환율</span>
+              <span id="payerRateDisplay">0%</span>
+            </div>
+            <input id="payerRate" type="number" min="0" max="100" step="0.1" />
+            <div class="field-note">신규 발급 사용자 중 실제 결제까지 이어지는 비율입니다.</div>
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>결제 사용자당 평균 결제 횟수</span>
+              <span id="txDisplay">0회</span>
+            </div>
+            <input id="avgTransactions" type="number" min="0" step="0.01" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>결제 사용자당 평균 결제금액</span>
+              <span id="amountDisplay">0원</span>
+            </div>
+            <input id="avgPaymentAmount" type="number" min="0" step="100" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>할인율</span>
+              <span id="discountDisplay">0%</span>
+            </div>
+            <input id="discountRate" type="number" min="0" max="100" step="0.1" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>매출원가율</span>
+              <span id="cogsDisplay">0%</span>
+            </div>
+            <input id="cogsRate" type="number" min="0" max="100" step="0.1" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>지급 포인트율</span>
+              <span id="pointsDisplay">0%</span>
+            </div>
+            <input id="pointRate" type="number" min="0" max="100" step="0.1" />
+          </div>
+
+          <div class="field">
+            <div class="field-head">
+              <span>미납 비율</span>
+              <span id="unpaidDisplay">0%</span>
+            </div>
+            <input id="unpaidRate" type="number" min="0" max="100" step="0.1" />
+          </div>
+
+          <div class="button-row">
+            <button id="resetButton" class="primary" type="button">기준 월 값으로 초기화</button>
+          </div>
+        </aside>
+
+        <section>
+          <div class="result-grid">
+            <article class="result-card">
+              <div class="result-label">예상 회원가입 수</div>
+              <div id="signupsResult" class="result-value">0명</div>
+              <div class="result-sub" id="signupsSub">설치 대비 회원가입 전환 결과</div>
+            </article>
+
+            <article class="result-card">
+              <div class="result-label">예상 결제 사용자 수</div>
+              <div id="payersResult" class="result-value">0명</div>
+              <div class="result-sub" id="payersSub">기존 결제자 + 신규 결제자</div>
+            </article>
+
+            <article class="result-card">
+              <div class="result-label">예상 매출(VAT 제외)</div>
+              <div id="salesResult" class="result-value">0원</div>
+              <div class="result-sub" id="salesSub">할인과 VAT 반영 후 매출</div>
+            </article>
+
+            <article class="result-card">
+              <div class="result-label">회사 순이익 기준</div>
+              <div id="profitResult" class="result-value">0원</div>
+              <div class="result-sub" id="profitSub">매출 - 매출원가</div>
+            </article>
+
+            <article class="result-card">
+              <div class="result-label">보수적 이익 기준</div>
+              <div id="conservativeProfitResult" class="result-value">0원</div>
+              <div class="result-sub" id="conservativeProfitSub">순이익 - 지급 포인트 - 미납</div>
+            </article>
+
+            <article class="result-card">
+              <div class="result-label">실적 대비 매출 변화</div>
+              <div id="salesDeltaResult" class="result-value">0%</div>
+              <div class="result-sub" id="salesDeltaSub">기준 월 대비 증감</div>
+            </article>
+          </div>
+
+          <div class="chart-wrap">
+            <div class="chart-head">
+              <h3>월별 실적 vs 시뮬레이션</h3>
+              <div class="chart-caption">청록색 막대는 실제 매출, 점선은 실제 회사 순이익, 진한 초록 막대는 현재 입력값 기준 시뮬레이션 매출입니다.</div>
+            </div>
+            <svg id="trendChart" viewBox="0 0 920 300" aria-label="월별 실적과 시뮬레이션 비교 차트"></svg>
+          </div>
+
+          <table class="detail-table">
+            <tbody>
+              <tr><th>예상 모두페이 발급 수</th><td id="issuedCardsResult">0건</td></tr>
+              <tr><th>예상 신규 결제 사용자 수</th><td id="newPayersResult">0명</td></tr>
+              <tr><th>예상 총 원거래 금액</th><td id="grossTransactionResult">0원</td></tr>
+              <tr><th>예상 할인금액</th><td id="discountAmountResult">0원</td></tr>
+              <tr><th>예상 결제금액(VAT 포함)</th><td id="paymentVatResult">0원</td></tr>
+              <tr><th>예상 매출원가</th><td id="costOfSalesResult">0원</td></tr>
+              <tr><th>예상 지급 포인트</th><td id="issuedPointsResult">0원</td></tr>
+              <tr><th>예상 미납금액</th><td id="unpaidAmountResult">0원</td></tr>
+            </tbody>
+          </table>
+
+          <div id="footerTip" class="footer-tip"></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="./modu_charge_monthly_data.js"></script>
+  <script>
+    const dataset = window.MODU_CHARGE_DATA;
+
+    if (!dataset || !Array.isArray(dataset.months) || dataset.months.length === 0) {
+      document.body.innerHTML = "<main style='padding:40px;font-family:Pretendard,sans-serif;'>데이터 파일을 찾지 못했습니다. 먼저 <code>python3 scripts/build_modu_charge_data.py</code>를 실행해 주세요.</main>";
+      throw new Error("MODU_CHARGE_DATA is missing.");
+    }
+
+    const months = dataset.months;
+    const currency = (value) => `${Math.round(value || 0).toLocaleString("ko-KR")}원`;
+    const count = (value) => `${Math.round(value || 0).toLocaleString("ko-KR")}명`;
+    const installsCount = (value) => `${Math.round(value || 0).toLocaleString("ko-KR")}건`;
+    const percent = (value) => `${((value || 0) * 100).toFixed(1)}%`;
+    const number1 = (value) => `${(value || 0).toFixed(2)}회`;
+    const compact = (value) => {
+      const abs = Math.abs(value || 0);
+      if (abs >= 100000000) return `${(value / 100000000).toFixed(1)}억 원`;
+      if (abs >= 10000) return `${Math.round(value / 10000).toLocaleString("ko-KR")}만 원`;
+      return currency(value);
+    };
+    const monthLabel = (month) => {
+      const [year, monthNumber] = month.split("-");
+      return `${year}년 ${Number(monthNumber)}월`;
+    };
+    const clampRate = (value) => Math.max(0, Math.min(100, Number(value) || 0));
+    const byMonth = Object.fromEntries(months.map((item) => [item.month, item]));
+
+    const controls = {
+      baseMonth: document.getElementById("baseMonth"),
+      installs: document.getElementById("installs"),
+      signupRate: document.getElementById("signupRate"),
+      issueRate: document.getElementById("issueRate"),
+      payerRate: document.getElementById("payerRate"),
+      avgTransactions: document.getElementById("avgTransactions"),
+      avgPaymentAmount: document.getElementById("avgPaymentAmount"),
+      discountRate: document.getElementById("discountRate"),
+      cogsRate: document.getElementById("cogsRate"),
+      pointRate: document.getElementById("pointRate"),
+      unpaidRate: document.getElementById("unpaidRate"),
+    };
+
+    const displayMap = {
+      baseMonthText: document.getElementById("baseMonthText"),
+      installsDisplay: document.getElementById("installsDisplay"),
+      signupRateDisplay: document.getElementById("signupRateDisplay"),
+      issueRateDisplay: document.getElementById("issueRateDisplay"),
+      payerRateDisplay: document.getElementById("payerRateDisplay"),
+      txDisplay: document.getElementById("txDisplay"),
+      amountDisplay: document.getElementById("amountDisplay"),
+      discountDisplay: document.getElementById("discountDisplay"),
+      cogsDisplay: document.getElementById("cogsDisplay"),
+      pointsDisplay: document.getElementById("pointsDisplay"),
+      unpaidDisplay: document.getElementById("unpaidDisplay"),
+    };
+
+    function renderActualCards() {
+      const actualGrid = document.getElementById("actualGrid");
+      actualGrid.innerHTML = months.map((item) => `
+        <article class="actual-card">
+          <div class="actual-month">${monthLabel(item.month)}</div>
+          <div class="actual-kpi">
+            <div>매출(VAT 제외)<strong>${compact(item.salesVatEx)}</strong></div>
+            <div>회사 순이익<strong class="${(item.companyProfit || 0) >= 0 ? "good" : "bad"}">${compact(item.companyProfit)}</strong></div>
+            <div>DAU / 결제자<strong>${count(item.dau)} / ${count(item.totalPayers)}</strong></div>
+            <div>설치 / 회원가입<strong>${installsCount(item.installs)} / ${count(item.signups)}</strong></div>
+          </div>
+        </article>
+      `).join("");
+    }
+
+    function populateMonthOptions() {
+      controls.baseMonth.innerHTML = months
+        .map((item) => `<option value="${item.month}">${monthLabel(item.month)}</option>`)
+        .join("");
+      controls.baseMonth.value = months[months.length - 1].month;
+    }
+
+    function applyBaseline(month) {
+      const base = byMonth[month];
+      if (!base) return;
+
+      controls.installs.value = Math.round(base.installs || 0);
+      controls.signupRate.value = ((base.signupRateDerived || 0) * 100).toFixed(1);
+      controls.issueRate.value = ((base.issueRate || 0) * 100).toFixed(1);
+      controls.payerRate.value = ((base.issuedToPayerRate || 0) * 100).toFixed(1);
+      controls.avgTransactions.value = (base.avgTransactionsPerPayer || 0).toFixed(2);
+      controls.avgPaymentAmount.value = Math.round(base.avgPaymentAmount || 0);
+      controls.discountRate.value = ((base.discountRate || 0) * 100).toFixed(1);
+      controls.cogsRate.value = ((base.cogsRateDerived || 0) * 100).toFixed(1);
+      controls.pointRate.value = ((base.pointPayoutRate || base.issuedPointRatioDerived || 0) * 100).toFixed(1);
+      controls.unpaidRate.value = ((base.unpaidRatioDerived || 0) * 100).toFixed(1);
+
+      syncDisplay();
+      calculate();
+    }
+
+    function syncDisplay() {
+      displayMap.baseMonthText.textContent = monthLabel(controls.baseMonth.value);
+      displayMap.installsDisplay.textContent = installsCount(controls.installs.value);
+      displayMap.signupRateDisplay.textContent = `${clampRate(controls.signupRate.value).toFixed(1)}%`;
+      displayMap.issueRateDisplay.textContent = `${clampRate(controls.issueRate.value).toFixed(1)}%`;
+      displayMap.payerRateDisplay.textContent = `${clampRate(controls.payerRate.value).toFixed(1)}%`;
+      displayMap.txDisplay.textContent = number1(Number(controls.avgTransactions.value));
+      displayMap.amountDisplay.textContent = currency(controls.avgPaymentAmount.value);
+      displayMap.discountDisplay.textContent = `${clampRate(controls.discountRate.value).toFixed(1)}%`;
+      displayMap.cogsDisplay.textContent = `${clampRate(controls.cogsRate.value).toFixed(1)}%`;
+      displayMap.pointsDisplay.textContent = `${clampRate(controls.pointRate.value).toFixed(1)}%`;
+      displayMap.unpaidDisplay.textContent = `${clampRate(controls.unpaidRate.value).toFixed(1)}%`;
+    }
+
+    function calculate() {
+      const base = byMonth[controls.baseMonth.value];
+      if (!base) return;
+
+      const installs = Math.max(Number(controls.installs.value) || 0, 0);
+      const signupRate = clampRate(controls.signupRate.value) / 100;
+      const issueRate = clampRate(controls.issueRate.value) / 100;
+      const payerRate = clampRate(controls.payerRate.value) / 100;
+      const avgTransactions = Math.max(Number(controls.avgTransactions.value) || 0, 0);
+      const avgPaymentAmount = Math.max(Number(controls.avgPaymentAmount.value) || 0, 0);
+      const discountRate = clampRate(controls.discountRate.value) / 100;
+      const cogsRate = clampRate(controls.cogsRate.value) / 100;
+      const pointRate = clampRate(controls.pointRate.value) / 100;
+      const unpaidRate = clampRate(controls.unpaidRate.value) / 100;
+
+      const signups = installs * signupRate;
+      const issuedCards = signups * issueRate;
+      const newPayers = issuedCards * payerRate;
+      const baselineExistingPayers = Math.max((base.totalPayers || 0) - (base.newPayers || 0), 0);
+      const totalPayers = baselineExistingPayers + newPayers;
+      const grossTransaction = totalPayers * avgTransactions * avgPaymentAmount;
+      const discountAmount = grossTransaction * discountRate;
+      const paymentAmountVat = grossTransaction - discountAmount;
+      const salesVatEx = paymentAmountVat / 1.1;
+      const costOfSales = salesVatEx * cogsRate;
+      const companyProfit = salesVatEx - costOfSales;
+      const issuedPoints = paymentAmountVat * pointRate;
+      const unpaidAmount = salesVatEx * unpaidRate;
+      const conservativeProfit = companyProfit - issuedPoints - unpaidAmount;
+      const salesDelta = base.salesVatEx ? ((salesVatEx - base.salesVatEx) / base.salesVatEx) : 0;
+
+      document.getElementById("signupsResult").textContent = count(signups);
+      document.getElementById("signupsSub").textContent = `기준 월 ${count(base.signups)} 대비 ${signups >= (base.signups || 0) ? "상승" : "하락"} 시나리오`;
+      document.getElementById("payersResult").textContent = count(totalPayers);
+      document.getElementById("payersSub").textContent = `기존 결제자 ${count(baselineExistingPayers)} + 신규 ${count(newPayers)}`;
+      document.getElementById("salesResult").textContent = currency(salesVatEx);
+      document.getElementById("salesSub").textContent = `실제 ${compact(base.salesVatEx)} 대비 ${salesDelta >= 0 ? "+" : ""}${(salesDelta * 100).toFixed(1)}%`;
+      document.getElementById("profitResult").textContent = currency(companyProfit);
+      document.getElementById("profitResult").className = `result-value ${companyProfit >= 0 ? "good" : "bad"}`;
+      document.getElementById("profitSub").textContent = `원가율 ${((cogsRate || 0) * 100).toFixed(1)}% 반영`;
+      document.getElementById("conservativeProfitResult").textContent = currency(conservativeProfit);
+      document.getElementById("conservativeProfitResult").className = `result-value ${conservativeProfit >= 0 ? "good" : "bad"}`;
+      document.getElementById("conservativeProfitSub").textContent = `포인트 ${currency(issuedPoints)} · 미납 ${currency(unpaidAmount)} 차감`;
+      document.getElementById("salesDeltaResult").textContent = `${salesDelta >= 0 ? "+" : ""}${(salesDelta * 100).toFixed(1)}%`;
+      document.getElementById("salesDeltaResult").className = `result-value ${salesDelta >= 0 ? "good" : "bad"}`;
+      document.getElementById("salesDeltaSub").textContent = `${monthLabel(base.month)} 실제 매출 ${compact(base.salesVatEx)} 기준`;
+
+      document.getElementById("issuedCardsResult").textContent = installsCount(issuedCards);
+      document.getElementById("newPayersResult").textContent = count(newPayers);
+      document.getElementById("grossTransactionResult").textContent = currency(grossTransaction);
+      document.getElementById("discountAmountResult").textContent = currency(discountAmount);
+      document.getElementById("paymentVatResult").textContent = currency(paymentAmountVat);
+      document.getElementById("costOfSalesResult").textContent = currency(costOfSales);
+      document.getElementById("issuedPointsResult").textContent = currency(issuedPoints);
+      document.getElementById("unpaidAmountResult").textContent = currency(unpaidAmount);
+
+      document.getElementById("footerTip").textContent =
+        conservativeProfit >= 0
+          ? "현재 입력값은 포인트와 미납까지 감안해도 방어 가능한 구조입니다. 다음 레버는 설치 확대보다 결제 전환율과 객단가입니다."
+          : "현재 입력값은 포인트와 미납을 같이 반영하면 이익이 빠르게 줄어듭니다. 설치 수보다 발급 후 결제 전환율, 평균 결제금액, 할인율을 먼저 조정해 보는 편이 좋습니다.";
+
+      renderChart(base.month, salesVatEx, companyProfit);
+    }
+
+    function renderChart(baseMonth, simulatedSales, simulatedProfit) {
+      const svg = document.getElementById("trendChart");
+      const width = 920;
+      const height = 300;
+      const padding = { top: 24, right: 48, bottom: 44, left: 76 };
+      const chartHeight = height - padding.top - padding.bottom;
+      const chartWidth = width - padding.left - padding.right;
+      const values = months.flatMap((item) => [item.salesVatEx || 0, item.companyProfit || 0, item.month === baseMonth ? simulatedSales : 0, item.month === baseMonth ? simulatedProfit : 0]);
+      const maxValue = Math.max(...values, 1);
+      const minValue = Math.min(...values, 0);
+      const range = maxValue - minValue || 1;
+      const scaleY = (value) => padding.top + ((maxValue - value) / range) * chartHeight;
+      const zeroY = scaleY(0);
+      const slotWidth = chartWidth / months.length;
+      const barWidth = Math.min(42, slotWidth * 0.32);
+
+      const salesPath = months.map((item, index) => {
+        const x = padding.left + slotWidth * index + slotWidth / 2;
+        const y = scaleY(item.companyProfit || 0);
+        return `${index === 0 ? "M" : "L"} ${x} ${y}`;
+      }).join(" ");
+
+      const simulation = byMonth[baseMonth];
+
+      let markup = `
+        <line x1="${padding.left}" y1="${zeroY}" x2="${width - padding.right}" y2="${zeroY}" stroke="#b9c9c1" stroke-width="1.5" />
+      `;
+
+      months.forEach((item, index) => {
+        const x = padding.left + slotWidth * index + slotWidth / 2;
+        const actualSales = item.salesVatEx || 0;
+        const barTop = scaleY(Math.max(actualSales, 0));
+        const barHeight = Math.abs(scaleY(actualSales) - zeroY);
+        markup += `
+          <rect x="${x - barWidth - 4}" y="${Math.min(barTop, zeroY)}" width="${barWidth}" height="${Math.max(barHeight, 2)}" rx="10" fill="#8dd3c7" />
+          <text x="${x - 4}" y="${height - 18}" text-anchor="middle" fill="#5b6f67" font-size="12">${item.month.slice(5)}월</text>
+        `;
+        if (item.month === baseMonth) {
+          const simTop = scaleY(Math.max(simulatedSales, 0));
+          const simHeight = Math.abs(scaleY(simulatedSales) - zeroY);
+          markup += `<rect x="${x + 4}" y="${Math.min(simTop, zeroY)}" width="${barWidth}" height="${Math.max(simHeight, 2)}" rx="10" fill="#0f766e" />`;
+        }
+      });
+
+      markup += `
+        <path d="${salesPath}" fill="none" stroke="#115e59" stroke-width="3" stroke-dasharray="8 6" />
+      `;
+
+      months.forEach((item, index) => {
+        const x = padding.left + slotWidth * index + slotWidth / 2;
+        const y = scaleY(item.companyProfit || 0);
+        markup += `<circle cx="${x}" cy="${y}" r="5" fill="#115e59" />`;
+        if (item.month === baseMonth) {
+          const simProfitY = scaleY(simulatedProfit);
+          markup += `<circle cx="${x + barWidth + 4}" cy="${simProfitY}" r="6" fill="#b45309" />`;
+        }
+      });
+
+      [minValue, 0, maxValue].forEach((value) => {
+        const y = scaleY(value);
+        markup += `
+          <text x="${padding.left - 14}" y="${y + 4}" text-anchor="end" fill="#5b6f67" font-size="12">${compact(value)}</text>
+        `;
+      });
+
+      markup += `
+        <g transform="translate(${width - 272}, 18)">
+          <rect x="0" y="0" width="244" height="54" rx="12" fill="#ffffff" stroke="#d9e4dd" />
+          <rect x="16" y="15" width="18" height="10" rx="4" fill="#8dd3c7" />
+          <text x="42" y="24" fill="#183028" font-size="12">실제 매출</text>
+          <rect x="126" y="15" width="18" height="10" rx="4" fill="#0f766e" />
+          <text x="152" y="24" fill="#183028" font-size="12">시뮬레이션 매출</text>
+          <line x1="16" y1="39" x2="34" y2="39" stroke="#115e59" stroke-width="3" stroke-dasharray="8 6" />
+          <text x="42" y="43" fill="#183028" font-size="12">실제 회사 순이익</text>
+          <circle cx="140" cy="39" r="5" fill="#b45309" />
+          <text x="152" y="43" fill="#183028" font-size="12">${monthLabel(simulation.month)} 시뮬레이션 순이익</text>
+        </g>
+      `;
+
+      svg.innerHTML = markup;
+    }
+
+    populateMonthOptions();
+    renderActualCards();
+    applyBaseline(controls.baseMonth.value);
+
+    Object.values(controls).forEach((control) => {
+      control.addEventListener("input", () => {
+        syncDisplay();
+        calculate();
+      });
+    });
+
+    controls.baseMonth.addEventListener("change", () => applyBaseline(controls.baseMonth.value));
+    document.getElementById("resetButton").addEventListener("click", () => applyBaseline(controls.baseMonth.value));
+  </script>
+</body>
+</html>
