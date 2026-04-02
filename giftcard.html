@@ -579,6 +579,11 @@
         <div class="sub">결제 이력 연결 31명</div>
       </div>
       <div class="metric">
+        <div class="label">총 전환금액</div>
+        <div class="value">323만원</div>
+        <div class="sub">전환 59건 기준 누적 금액</div>
+      </div>
+      <div class="metric">
         <div class="label">결제 연결률</div>
         <div class="value">81.6%</div>
         <div class="sub">전환 후 결제 맥락 해석 가능</div>
@@ -908,6 +913,10 @@
     const won = value => `${Math.round(value).toLocaleString("ko-KR")}원`;
     const shortWon = value => `${(value / 10000).toLocaleString("ko-KR")}만원`;
     const gapLabel = value => value == null ? "-" : `${value.toLocaleString("ko-KR")}시간`;
+    const maskMemberId = value => String(value).replace(/^(\d+)(.*)$/, (_, digits, suffix) => {
+      const keep = Math.max(1, digits.length - 3);
+      return `${digits.slice(0, keep)}***${suffix}`;
+    });
 
     Chart.defaults.font.family = '"Pretendard", "Noto Sans KR", sans-serif';
     Chart.defaults.color = "#625b53";
@@ -1087,7 +1096,7 @@
     data.memberList.forEach(row => {
       const tr = document.createElement("tr");
       tr.innerHTML = `
-        <td>${row[0]}</td>
+        <td>${maskMemberId(row[0])}</td>
         <td>${row[1]}</td>
         <td>${row[2]}</td>
         <td>${won(row[3])}</td>
