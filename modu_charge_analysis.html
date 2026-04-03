@@ -54,6 +54,18 @@
       font-weight: 800;
     }
 
+    .version-chip {
+      display: inline-flex;
+      align-items: center;
+      margin-left: 8px;
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: #eaf4ee;
+      color: #40604e;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
     h1 {
       margin: 14px 0 10px;
       font-size: 34px;
@@ -497,6 +509,39 @@
       font-weight: 800;
     }
 
+    details.version-log {
+      margin-top: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    details.version-log summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 14px 16px;
+      font-size: 14px;
+      font-weight: 800;
+      color: var(--text);
+      background: #f7fbf8;
+    }
+
+    details.version-log summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .version-table-wrap {
+      padding: 14px 16px 16px;
+    }
+
+    .version-table th,
+    .version-table td {
+      font-size: 13px;
+      padding: 10px 12px;
+      vertical-align: top;
+    }
+
     @media (max-width: 960px) {
       .wrap { padding: 22px; }
       .layout { grid-template-columns: 1fr; }
@@ -505,10 +550,35 @@
 </head>
 <body>
   <main class="wrap">
-    <div class="eyebrow">Modu Charge CAC vs LTV</div>
+    <div class="eyebrow">Modu Charge CAC vs LTV</div><span class="version-chip">v1.1</span>
     <h1>모두의충전 마케팅 투자 대비 수익성 1차 분석</h1>
     <p class="lead">광고 집행이 회원가입과 첫결제에 이어 월 실결제금액 5,000원 이상인 충성 고객 증가까지 연결됐는지 확인하고, 향후 CAC 대비 LTV 판단으로 이어지도록 정리한 1차 분석 문서입니다.</p>
     <div class="note" id="validityNote"></div>
+
+    <section>
+      <h2 class="section-title">버전 이력</h2>
+      <details class="version-log">
+        <summary>열어서 이번 버전 변경사항 보기</summary>
+        <div class="version-table-wrap">
+          <table class="version-table">
+            <thead>
+              <tr>
+                <th>버전</th>
+                <th>수정 날짜</th>
+                <th>수정 내용</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>v1.1</td>
+                <td>2026-04-03</td>
+                <td>광고 구간별 퍼널, 충성/비충성 고객 구조, LTV 추정, 포인트 해석을 재정리하고 충성 고객 CAC를 광고비 비중 가중평균 기준으로 다시 계산해 결론을 업데이트함.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
 
     <section>
       <h2 class="section-title">1. 분석 목적</h2>
@@ -672,6 +742,7 @@
         </div>
         <div class="funnel-segment-grid" id="funnelSegmentGrid" aria-label="구간별 설치전환 이후 고객 전환 퍼널"></div>
       </div>
+      <div class="panel" style="margin-top:18px; margin-bottom:12px;" id="cacWeightedBasis"></div>
       <div class="key-callout" id="funnelKeyCallout"></div>
       <div class="panel" style="margin-top:18px;">
         <h3>CAC 대비 LTV 해석</h3>
@@ -700,11 +771,11 @@
         <h3>종합 결론</h3>
         <ul>
           <li><strong>광고는 설치전환과 회원가입 확대에는 분명한 역할</strong>을 했고, 일부 구간에서는 첫결제와 충성 고객 증가까지 이어졌습니다.</li>
-          <li><strong>광고 효율의 핵심은 충성 고객 전환 여부</strong>입니다. 충성 고객은 추정 LTV가 높고 결제 발생 개월 수도 길어, 광고비 회수 가능성이 높게 나타났습니다.</li>
-          <li><strong>충성 고객 평균 CAC 45,101원</strong>은 마진율 20% 가정 기준 순이익 LTV 약 80,000원보다 낮아 현재 기준으로는 이득 구조로 해석됩니다.</li>
-          <li>반대로 <strong>충성 고객으로 이어지지 못한 고객군까지 넓게 보면</strong> 회원가입 CAC 평균 8,500원도 충분히 무거운 비용이므로, 광고는 단순 유입보다 충성 고객 전환을 함께 관리해야 효율이 살아납니다.</li>
-          <li><strong>포인트는 회원가입보다 첫결제와 충성 고객 변화에 더 가깝게 작동</strong>하는 레버로 보입니다. 즉 광고가 유입을 만들고, 포인트가 첫결제와 충성 고객 전환을 보조하는 구조로 해석하는 것이 자연스럽습니다.</li>
-          <li>따라서 현재 분석의 1차 결론은 <strong>광고 자체보다 “광고 이후 충성 고객으로 연결되는 구조”가 수익성의 핵심</strong>이라는 점입니다.</li>
+          <li><strong>광고 효율의 핵심은 충성 고객 전환 여부</strong>입니다. 충성 고객은 평균 약 7.3개월의 결제 기록을 가지며 추정 LTV가 비충성 고객과 크게 차이나, 광고비 회수 가능성이 집중됩니다.</li>
+          <li><strong>충성 고객 CAC 가중평균 69,430원</strong>은 마진율 20% 기준 순이익 LTV 약 79,000원보다 낮아 이득 구조입니다. 다만 손익분기 마진율이 17.6%로, 마진율 20%와의 여유 폭이 약 2.4%p에 불과해 <strong>빠듯한 구조</strong>임을 주의해야 합니다.</li>
+          <li>반대로 <strong>충성 고객으로 이어지지 못한 고객군까지 넓게 보면</strong>, 광고는 단순 유입보다 <strong>충성 고객 전환율과 마진율을 함께 관리</strong>해야 수익성이 확보됩니다. 두 가지 중 하나라도 기준을 하회하면 광고비 회수가 어려워집니다.</li>
+          <li><strong>포인트는 회원가입보다 첫결제와 충성 고객 변화에 더 가깝게 작동</strong>하는 레버로 보입니다. 광고가 유입을 만들고, 포인트가 첫결제와 충성 고객 전환을 보조하는 구조로 해석하는 것이 자연스럽습니다.</li>
+          <li>따라서 현재 분석의 1차 결론은 <strong>광고 자체보다 “광고 이후 충성 고객으로 연결되는 구조”와 “마진율 유지”가 수익성의 핵심</strong>이라는 점입니다.</li>
         </ul>
         <p style="margin:18px 0 8px; font-weight:800; color:#1c3026;">추가로 보완하면 좋은 데이터</p>
         <ul>
@@ -775,6 +846,7 @@
         <div class="card-sub" style="margin-top:12px;">이전 분석의 평균 CAC는 2,056원으로 정리되어 있으며, LTV/CAC는 전체 109배, 충성 711.85배, 비충성 82.71배로 제시되었습니다.</div>
       </div>
     </section>
+
   </main>
 
   <script src="./chart.umd.js"></script>
@@ -1702,6 +1774,7 @@
       const safeDivide = (numerator, denominator) => denominator ? numerator / denominator : 0;
       return {
         title: segment.title,
+        cost,
         signupCac: safeDivide(cost, signups),
         firstCac: safeDivide(cost, firstPays),
         loyalCac: safeDivide(cost, loyalUsers),
@@ -1710,16 +1783,61 @@
     });
     const bestSignupCac = segmentCacRows.reduce((best, row) => row.signupCac < best.signupCac ? row : best, segmentCacRows[0]);
     const bestLoyalCac = segmentCacRows.reduce((best, row) => row.loyalCac < best.loyalCac ? row : best, segmentCacRows[0]);
-    const avgSignupCac = avg(segmentCacRows.map((row) => row.signupCac));
-    const avgLoyalCac = avg(segmentCacRows.map((row) => row.loyalCac));
+    const totalSegmentCost = segmentCacRows.reduce((sum, row) => sum + row.cost, 0);
+    const avgSignupCac = totalSegmentCost > 0
+      ? segmentCacRows.reduce((sum, row) => sum + row.cost * row.signupCac, 0) / totalSegmentCost
+      : 0;
+    const avgLoyalCac = totalSegmentCost > 0
+      ? segmentCacRows.reduce((sum, row) => sum + row.cost * row.loyalCac, 0) / totalSegmentCost
+      : 0;
     const loyalBreakEvenMargin = overallLtv.loyal ? (avgLoyalCac / overallLtv.loyal) : 0;
 
     const loyalMargin20Ltv = overallLtv.loyal * 0.2;
+
+    // 가중평균 산출 근거 테이블
+    document.getElementById("cacWeightedBasis").innerHTML = `
+      <h3 style="margin:0 0 12px;">충성 고객 평균 CAC 계산 방식</h3>
+      <div style="overflow-x:auto;">
+        <table style="width:100%; border-collapse:collapse; font-size:13px;">
+          <thead>
+            <tr style="background:#f3f6f2; text-align:right;">
+              <th style="text-align:left; padding:8px 10px; border-bottom:1px solid #d6e2da;">구간</th>
+              <th style="padding:8px 10px; border-bottom:1px solid #d6e2da;">광고비</th>
+              <th style="padding:8px 10px; border-bottom:1px solid #d6e2da;">비용 비중</th>
+              <th style="padding:8px 10px; border-bottom:1px solid #d6e2da;">마지막월 충성회원</th>
+              <th style="padding:8px 10px; border-bottom:1px solid #d6e2da;">구간 CAC</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${segmentCacRows.map((row) => `
+              <tr style="text-align:right; border-bottom:1px solid #eef2ee;">
+                <td style="text-align:left; padding:8px 10px; font-weight:700;">${row.title}</td>
+                <td style="padding:8px 10px;">${money(row.cost)}</td>
+                <td style="padding:8px 10px;">${percent(row.cost / totalSegmentCost)}</td>
+                <td style="padding:8px 10px;">${Math.round(row.cost / row.loyalCac).toLocaleString("ko-KR")}명</td>
+                <td style="padding:8px 10px; font-weight:700;">${money(row.loyalCac)}</td>
+              </tr>
+            `).join("")}
+            <tr style="text-align:right; background:#f3f6f2; font-weight:800;">
+              <td style="text-align:left; padding:8px 10px;">가중평균 (전체)</td>
+              <td style="padding:8px 10px;">${money(totalSegmentCost)}</td>
+              <td style="padding:8px 10px;">100%</td>
+              <td style="padding:8px 10px;">—</td>
+              <td style="padding:8px 10px; color:#0f766e;">${money(avgLoyalCac)}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="card-sub" style="margin-top:10px;">
+        CAC는 각 구간 광고비 비중으로 가중한 평균입니다. 광고비가 집중된 구간(2023)의 높은 CAC가 충분히 반영됩니다.
+      </div>
+    `;
+
     document.getElementById("funnelKeyCallout").innerHTML = `
       <div class="key-callout-title">핵심 결론</div>
       <div class="key-callout-metrics">
         <div class="key-callout-metric">
-          <div class="key-callout-metric-label">충성 고객 평균 CAC</div>
+          <div class="key-callout-metric-label">충성 고객 CAC (가중평균)</div>
           <div class="key-callout-metric-value">${money(avgLoyalCac)}</div>
         </div>
         <div class="key-callout-metric">
@@ -1732,17 +1850,17 @@
         </div>
       </div>
       <p class="key-callout-text">
-        충성 고객은 <strong>마진율 20% 가정 기준</strong>으로도 CAC보다 높은 순이익 LTV가 나와 이득 구조로 해석됩니다.
-        반면 <strong>이전 마진율 기준으로는 손익분기 11.4%를 밑돌아 적자 구조였던 것으로 해석</strong>할 수 있습니다.
+        마진율 20% 기준 순이익 LTV(${compactMoney(loyalMargin20Ltv)})가 가중평균 CAC(${money(avgLoyalCac)})보다 높아 <strong>이득 구조</strong>로 해석됩니다.
+        다만 손익분기 마진율이 <strong>${percent(loyalBreakEvenMargin)}</strong>로 마진율 20%와의 여유 폭이 약 ${percent(0.2 - loyalBreakEvenMargin)}에 불과합니다.
+        광고 집행 구간과 효율에 따라 수익성이 크게 달라질 수 있어 <strong>마진율 관리가 핵심</strong>입니다.
       </p>
     `;
     document.getElementById("funnelInsights").innerHTML = [
-      `실결제금액 기준 1차 추정 LTV는 <strong>충성 고객 ${compactMoney(overallLtv.loyal)}</strong> 수준입니다. <strong>마진율 20%를 적용하면 충성 고객의 순이익 기준 추정 LTV는 약 ${compactMoney(loyalMargin20Ltv)}</strong>로 볼 수 있습니다.`,
-      `회원가입 기준으로 보면 <strong>CAC는 ${money(bestSignupCac.signupCac)} ~ ${money(Math.max(...segmentCacRows.map((row) => row.signupCac)))}</strong>, <strong>평균 ${money(avgSignupCac)}</strong> 수준입니다.`,
-      `이를 <strong>비충성 고객 + 비결제 회원을 포함한 넓은 고객군의 확보비용</strong>으로 보면, 이 그룹의 평균 LTV는 비결제 회원 0원과 비충성 고객 ${money(overallLtv.nonLoyal)} 사이에 형성될 가능성이 큽니다. 따라서 <strong>회원가입 이후 충성 고객 전환이 충분히 일어나지 않으면 광고비 회수 가능성은 빠르게 낮아질 수 있습니다.</strong>`,
-      `충성 고객 기준으로 보면 <strong>CAC는 ${money(bestLoyalCac.loyalCac)} ~ ${money(Math.max(...segmentCacRows.map((row) => row.loyalCac)))}</strong>, <strong>평균 ${money(avgLoyalCac)}</strong> 수준으로 마진율 20% 기준 충성 고객 추정 LTV ${compactMoney(loyalMargin20Ltv)}보다 낮습니다.`,
-      `이를 기준으로 보면 <strong>충성 고객 CAC를 회수하기 위한 최소 마진율은 약 ${percent(loyalBreakEvenMargin)}</strong>입니다. 즉 마진율이 이 수준을 넘기면 현재 추정 LTV 대비 광고비 회수 가능성이 있습니다.`,
-      `즉 현재 기준으로는 <strong>광고가 회원가입을 충성 고객까지 연결할 수 있다면 수익성 확보 가능성이 높다</strong>고 해석할 수 있습니다.`,
+      `실결제금액 기준 1차 추정 LTV는 <strong>충성 고객 ${compactMoney(overallLtv.loyal)}</strong> 수준입니다. <strong>마진율 20%를 적용하면 순이익 기준 추정 LTV는 약 ${compactMoney(loyalMargin20Ltv)}</strong>로 볼 수 있습니다.`,
+      `충성 고객 기준 CAC는 구간별로 ${money(bestLoyalCac.loyalCac)} ~ ${money(Math.max(...segmentCacRows.map((row) => row.loyalCac)))}으로 편차가 큽니다. <strong>광고비 비중을 반영한 가중평균은 ${money(avgLoyalCac)}</strong>으로, 단순평균(${money(avg(segmentCacRows.map((row) => row.loyalCac)))})보다 높습니다. 광고비가 집중된 2023 구간 CAC가 ${money(segmentCacRows.find(r => r.title.includes("2023"))?.loyalCac || 0)}으로 높았기 때문입니다.`,
+      `<strong>가중평균 CAC ${money(avgLoyalCac)}</strong> 대비 마진율 20% 기준 순이익 LTV는 <strong>${compactMoney(loyalMargin20Ltv)}</strong>로 LTV가 더 높아 이득 구조입니다. 다만 손익분기 마진율 ${percent(loyalBreakEvenMargin)}와 20% 사이의 여유 폭이 약 ${percent(0.2 - loyalBreakEvenMargin)}에 불과해 <strong>마진율이 조금만 낮아져도 적자로 전환될 수 있습니다.</strong>`,
+      `회원가입 기준으로 보면 <strong>CAC 가중평균 ${money(avgSignupCac)}</strong> 수준입니다. <strong>비충성 고객 + 비결제 회원까지 포함한 넓은 고객군으로 보면</strong> LTV는 비결제 회원 0원과 비충성 고객 ${money(overallLtv.nonLoyal)} 사이에 형성되므로, <strong>충성 고객 전환이 충분하지 않으면 광고비 회수 가능성은 빠르게 낮아집니다.</strong>`,
+      `결론적으로 <strong>광고 효율은 "얼마나 많은 충성 고객을 만드냐"에 달려 있으며, 충성 고객 전환율과 마진율 두 가지를 동시에 관리해야 수익성이 확보됩니다.</strong>`,
     ].map((text) => `<li>${text}</li>`).join("");
 
     document.getElementById("ltvSummaryGrid").innerHTML = [
@@ -1788,6 +1906,7 @@
       `포인트지급금액은 <strong>결제 적립과 이벤트 적립이 합산된 월별 총액</strong>이며, 현재 해석은 집계 데이터 기준의 연관성 분석입니다.`,
       `따라서 <strong>특정 이벤트의 실측 기여도로 바로 해석하기는 어렵고</strong>, 이벤트별 효과를 보려면 유형별·월별 세부 집계가 추가로 필요합니다.`,
     ].map((text) => `<li>${text}</li>`).join("");
+
 
   </script>
 </body>
