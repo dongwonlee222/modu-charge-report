@@ -702,7 +702,7 @@
         <ul>
           <li><strong>광고는 설치전환과 회원가입 확대에는 분명한 역할</strong>을 했고, 일부 구간에서는 첫결제와 충성 고객 증가까지 이어졌습니다.</li>
           <li><strong>광고 효율의 핵심은 충성 고객 전환 여부</strong>입니다. 충성 고객은 평균 약 7.3개월의 결제 기록을 가지며 추정 LTV가 비충성 고객과 크게 차이나, 광고비 회수 가능성이 집중됩니다.</li>
-          <li id=”conclusionCacLtv”></li>
+          <li><strong>충성 고객 CAC 가중평균 69,430원</strong>은 마진율 20% 기준 순이익 LTV 약 79,000원보다 낮아 이득 구조입니다. 다만 손익분기 마진율이 17.6%로, 마진율 20%와의 여유 폭이 약 2.4%p에 불과해 <strong>빠듯한 구조</strong>임을 주의해야 합니다.</li>
           <li>반대로 <strong>충성 고객으로 이어지지 못한 고객군까지 넓게 보면</strong>, 광고는 단순 유입보다 <strong>충성 고객 전환율과 마진율을 함께 관리</strong>해야 수익성이 확보됩니다. 두 가지 중 하나라도 기준을 하회하면 광고비 회수가 어려워집니다.</li>
           <li><strong>포인트는 회원가입보다 첫결제와 충성 고객 변화에 더 가깝게 작동</strong>하는 레버로 보입니다. 광고가 유입을 만들고, 포인트가 첫결제와 충성 고객 전환을 보조하는 구조로 해석하는 것이 자연스럽습니다.</li>
           <li>따라서 현재 분석의 1차 결론은 <strong>광고 자체보다 “광고 이후 충성 고객으로 연결되는 구조”와 “마진율 유지”가 수익성의 핵심</strong>이라는 점입니다.</li>
@@ -1791,11 +1791,6 @@
       `회원가입 기준으로 보면 <strong>CAC 가중평균 ${money(avgSignupCac)}</strong> 수준입니다. <strong>비충성 고객 + 비결제 회원까지 포함한 넓은 고객군으로 보면</strong> LTV는 비결제 회원 0원과 비충성 고객 ${money(overallLtv.nonLoyal)} 사이에 형성되므로, <strong>충성 고객 전환이 충분하지 않으면 광고비 회수 가능성은 빠르게 낮아집니다.</strong>`,
       `결론적으로 <strong>광고 효율은 "얼마나 많은 충성 고객을 만드냐"에 달려 있으며, 충성 고객 전환율과 마진율 두 가지를 동시에 관리해야 수익성이 확보됩니다.</strong>`,
     ].map((text) => `<li>${text}</li>`).join("");
-
-    const conclusionEl = document.getElementById("conclusionCacLtv");
-    if (conclusionEl) {
-      conclusionEl.innerHTML = `<strong>충성 고객 CAC 가중평균 ${money(avgLoyalCac)}</strong>은 마진율 20% 기준 순이익 LTV ${compactMoney(loyalMargin20Ltv)}보다 낮아 이득 구조입니다. 다만 손익분기 마진율이 ${percent(loyalBreakEvenMargin)}로, 마진율 20%와의 여유 폭이 약 ${percent(0.2 - loyalBreakEvenMargin)}에 불과해 <strong>빠듯한 구조</strong>임을 주의해야 합니다.`;
-    }
 
     document.getElementById("ltvSummaryGrid").innerHTML = [
       ["충성 고객 추정 LTV", compactMoney(overallLtv.loyal), `월 가치 ${compactMoney(overallLtv.loyalAvgMonthly)} × ${retentionMonths.loyal.toFixed(1)}개월`],
