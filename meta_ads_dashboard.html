@@ -94,9 +94,18 @@
       grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
     }
 
+    .channel-grid {
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
     .compare-grid {
       grid-template-columns: 1.15fr 0.85fr;
       align-items: start;
+    }
+
+    .creative-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: stretch;
     }
 
     .card,
@@ -106,6 +115,159 @@
       border-radius: 20px;
       background: var(--panel);
       box-shadow: 0 10px 24px rgba(24, 38, 29, 0.05);
+    }
+
+    .creative-image {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 1px solid var(--line);
+      display: block;
+    }
+
+    .creative-image.square {
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      background: #f4f7f4;
+    }
+
+    .creative-copy {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .mini-stat {
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfdfb;
+    }
+
+    .mini-stat strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 19px;
+    }
+
+    .split-list {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .simple-list {
+      margin: 8px 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .simple-list li {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .simple-list li:last-child {
+      border-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .demographic-box {
+      margin-top: 16px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfdfb;
+    }
+
+    .age-bars {
+      display: grid;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .age-bar {
+      display: grid;
+      grid-template-columns: 58px 1fr 44px;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+    }
+
+    .age-track {
+      height: 9px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e9eee9;
+    }
+
+    .age-fill {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #8b5cf6 0%, #6d28d9 100%);
+    }
+
+    .age-fill.men {
+      background: linear-gradient(90deg, #14b8a6 0%, #0f766e 100%);
+    }
+
+    .age-fill.women {
+      background: linear-gradient(90deg, #3b82f6 0%, #1d4ed8 100%);
+    }
+
+    .gender-summary {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 10px;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .gender-chip {
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: #eef7f5;
+      color: #0f766e;
+    }
+
+    .gender-chip.women {
+      background: #eff6ff;
+      color: #1d4ed8;
+    }
+
+    .data-note {
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .pending-card {
+      display: grid;
+      place-items: center;
+      min-height: 360px;
+      border-style: dashed;
+      background: #fbfdfb;
+      color: var(--muted);
+      text-align: center;
     }
 
     .decision-card {
@@ -399,7 +561,9 @@
 
     @media (max-width: 1180px) {
       .decision-grid,
-      .compare-grid {
+      .channel-grid,
+      .compare-grid,
+      .creative-grid {
         grid-template-columns: 1fr;
       }
     }
@@ -425,6 +589,11 @@
         grid-template-columns: 1fr;
       }
 
+      .mini-grid,
+      .split-list {
+        grid-template-columns: 1fr;
+      }
+
       .detail-table {
         display: block;
         overflow-x: auto;
@@ -436,75 +605,545 @@
   <main class="wrap">
     <div class="eyebrow">Meta Ads Dashboard</div>
     <h1>모두의충전 차량구독 광고분석</h1>
-    <p class="lead">가장 효율 좋은 광고를 먼저 판단하고, 선택한 광고의 비용 대비 클릭 추이를 확인한 뒤 앞으로 어디에 더 투자할지 결정하는 화면입니다.</p>
+    <p class="lead">Facebook과 Instagram 광고 성과를 전체 요약에서 시작해 채널별, 소재별로 내려가며 비교하는 화면입니다.</p>
     <div class="meta" id="metaBox"></div>
 
     <section>
-      <h2 class="section-title">투자 판단 요약</h2>
-      <div class="grid decision-grid">
-        <article class="card decision-card good" id="winnerCard"></article>
-        <article class="card decision-card" id="scaleCard"></article>
-        <article class="card decision-card warn" id="cautionCard"></article>
-      </div>
+      <h2 class="section-title">전체 광고 Summary</h2>
+      <div class="grid summary-grid" id="overallSummaryGrid"></div>
+      <p class="creative-copy">Facebook은 광고센터 수동 입력 기준, Instagram은 광고관리자와 광고 화면 수동 입력 기준을 함께 봅니다. 두 채널의 원천이 다르기 때문에 랜딩 페이지 조회와 클릭 비용을 분리해서 해석합니다.</p>
     </section>
 
     <section>
-      <h2 class="section-title">전체 숫자</h2>
-      <div class="grid summary-grid" id="summaryGrid"></div>
-    </section>
-
-    <section>
-      <h2 class="section-title">선택 광고 추이: 비용 대비 클릭</h2>
-      <div class="chart-panel">
-        <div class="controls">
-          <label for="campaignSelect">광고 선택</label>
-          <select id="campaignSelect"></select>
-        </div>
-        <div class="chart-caption">주황 막대는 일자별 비용, 초록 선은 일자별 클릭입니다. 비용이 늘어난 날에 클릭이 같이 올라갔는지 확인할 수 있습니다.</div>
-        <div class="chart-wrap">
-          <svg id="trendSvg" viewBox="0 0 920 360" preserveAspectRatio="none"></svg>
-          <div class="legend">
-            <span><i class="swatch" style="background:#d97706;"></i>비용</span>
-            <span><i class="swatch" style="background:#165d4a;"></i>클릭</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section>
-      <h2 class="section-title">광고별 비교</h2>
+      <h2 class="section-title">최종 결론과 다음 집행 방향</h2>
       <div class="grid compare-grid">
-        <section class="panel">
-          <p class="label">총 비용, 총 클릭, 클릭당 비용을 광고별로 비교합니다.</p>
-          <div class="metric-bars" id="metricBars"></div>
-        </section>
-        <section class="panel">
-          <p class="label">추천 액션</p>
-          <ul class="notes" id="actionNotes"></ul>
-        </section>
+        <article class="panel">
+          <span class="card-label good">핵심 인사이트</span>
+          <div class="value">차량구독은 남성 중심, 릴스 중심으로 반응했다</div>
+          <p class="creative-copy">이번 데이터에서 Facebook과 Instagram 모두 남성 반응이 압도적으로 높고, Instagram 릴스/피드가 주요 노출 지면으로 잡혔습니다. 차량구독 메시지는 “차량 이미지 자체”보다 선납금 없음, 일반 번호판, 유지비 포함처럼 구매 부담을 낮추는 메시지와 결합될 때 랜딩 페이지 조회로 이어졌습니다.</p>
+          <div class="split-list">
+            <div>
+              <p class="callout-title">무엇이 효과적이었나</p>
+              <ul class="simple-list">
+                <li><span>가장 낮은 비용</span><strong>IG 소재 1, 101원/클릭</strong></li>
+                <li><span>가장 큰 Facebook 효율</span><strong>BMW 소재, 245원/랜딩</strong></li>
+                <li><span>가장 강한 지면</span><strong>Instagram 릴스</strong></li>
+                <li><span>핵심 타깃</span><strong>남성 18-54세</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">주의할 점</p>
+              <ul class="simple-list">
+                <li><span>여성 반응</span><strong>대부분 10% 내외</strong></li>
+                <li><span>벤츠 이미지</span><strong>관심은 높지만 비용 높음</strong></li>
+                <li><span>Facebook 단독 지면</span><strong>볼륨보다 보조 학습 역할</strong></li>
+                <li><span>평가 기준</span><strong>클릭보다 랜딩 조회</strong></li>
+              </ul>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel">
+          <span class="card-label neutral">운영 가설</span>
+          <div class="value">Facebook은 의미 있다. 다만 “단독 성과 채널”보다 학습/확장 채널이다</div>
+          <p class="creative-copy">Facebook 광고센터에서 시작한 소재도 실제 노출은 Instagram 릴스와 피드로 많이 배분됐습니다. 즉 Facebook 광고가 의미 없다는 뜻이 아니라, Meta 알고리즘이 Facebook과 Instagram 전체에서 결과가 나올 지면을 찾아간다는 뜻입니다.</p>
+          <p class="creative-copy">다음 집행은 채널을 완전히 분리하기보다, Meta 전체 자동 게재를 기본으로 두고 소재별 가설을 나눠야 합니다. 예산은 효율 소재에 더 주고, Facebook 지면은 35세 이상 보조 타깃과 리타게팅 검증용으로 보는 편이 좋습니다.</p>
+        </article>
+      </div>
+
+      <div class="grid channel-grid" style="margin-top:14px;">
+        <article class="panel">
+          <p class="callout-title">채널별 설정 가설</p>
+          <ul class="simple-list">
+            <li><span>Instagram 릴스</span><strong>18-34세 남성, BMW/CTA 이미지, 짧은 영상형으로 확장</strong></li>
+            <li><span>Instagram 피드</span><strong>35-54세 남성, 선납금 없음/일반 번호판/유지비 포함 메시지 강조</strong></li>
+            <li><span>Facebook 릴스/피드</span><strong>35세 이상 남성, 신뢰형 문구와 비용 부담 해소 메시지 테스트</strong></li>
+            <li><span>여성 타깃</span><strong>현재 소재 그대로 증액하지 말고 안전성/편의성/가족 사용 맥락 별도 제작</strong></li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <p class="callout-title">다음 액션</p>
+          <ul class="simple-list">
+            <li><span>1단계</span><strong>IG 소재 1 증액 테스트</strong></li>
+            <li><span>2단계</span><strong>BMW 이미지 릴스형 영상/모션 버전 제작</strong></li>
+            <li><span>3단계</span><strong>벤츠/CTA 소재는 문구 바꿔 A/B 테스트</strong></li>
+            <li><span>4단계</span><strong>랜딩 페이지 조회 이후 예약/상담 전환 추적 연결</strong></li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="grid channel-grid" style="margin-top:14px;">
+        <article class="panel">
+          <p class="callout-title">어떤 자동차를 홍보할까?</p>
+          <ul class="simple-list">
+            <li><span>검증된 1순위</span><strong>BMW 3/5시리즈 계열, 주행 장면</strong></li>
+            <li><span>다음 테스트 1순위</span><strong>테슬라 Model Y/3, 전기차 구독 후킹</strong></li>
+            <li><span>보조 비교군</span><strong>벤츠 세단, 프리미엄 관심 유도용</strong></li>
+            <li><span>보조</span><strong>일반 번호판이 보이는 실제 인도/주차 장면</strong></li>
+          </ul>
+        </article>
+
+        <article class="panel">
+          <p class="callout-title">이미지/영상 가설</p>
+          <ul class="simple-list">
+            <li><span>젊은 남성 타깃</span><strong>BMW 전면 주행컷 + 릴스형 짧은 모션</strong></li>
+            <li><span>후킹 테스트</span><strong>테슬라 전면/측면 주행컷 + “전기차도 구독” 메시지</strong></li>
+            <li><span>35-54세 실수요</span><strong>차량 실내, 번호판, 월 부담 메시지 동시 노출</strong></li>
+            <li><span>여성/가족 타깃</span><strong>안전, 관리 포함, 가족 이동 맥락의 별도 소재 제작</strong></li>
+          </ul>
+        </article>
       </div>
     </section>
 
     <section>
-      <h2 class="section-title">광고 상세</h2>
-      <section class="panel">
-        <table class="detail-table">
-          <thead>
-            <tr>
-              <th>광고</th>
-              <th>총 비용</th>
-              <th>총 클릭</th>
-              <th>CTR</th>
-              <th>CPC</th>
-              <th>랜딩 페이지 조회</th>
-              <th>LPV당 비용</th>
-              <th>투자 판단</th>
-            </tr>
-          </thead>
-          <tbody id="detailBody"></tbody>
-        </table>
-      </section>
+      <h2 class="section-title">Facebook Summary</h2>
+      <div class="grid channel-grid">
+        <article class="panel" id="facebookSummary"></article>
+      </div>
     </section>
+
+    <section>
+      <h2 class="section-title">페이스북 소재 분석</h2>
+      <div class="grid creative-grid">
+        <article class="panel">
+          <img class="creative-image" src="./assets/find-my-car.jpg" alt="Find My Car 차량구독 광고 소재" />
+          <span class="card-label neutral" style="margin-top:14px;">소재 1</span>
+          <div class="value">차는 이제 사는 것 말고 구독하세요</div>
+          <p class="creative-copy">무보증, 일반 번호판, 자동차세/보험/수리비 포함 메시지를 전면에 둔 소재입니다. 페이스북 광고센터 기준으로는 Facebook 광고지만, 실제 노출 상위 지면은 Instagram 릴스와 피드가 크게 잡힙니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>657</strong></div>
+            <div class="mini-stat"><span class="label">조회수</span><strong>27,822</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회당 비용</span><strong>283원</strong></div>
+            <div class="mini-stat"><span class="label">도달</span><strong>19,962</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Instagram 릴스</span><strong>8,690</strong></li>
+                <li><span>Instagram 피드</span><strong>4,868</strong></li>
+                <li><span>Facebook 릴스</span><strong>1,478</strong></li>
+                <li><span>Instagram 스토리</span><strong>714</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>543</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>5,262</strong></li>
+                <li><span>Seoul</span><strong>4,132</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>1,282</strong></li>
+                <li><span>Busan</span><strong>1,194</strong></li>
+                <li><span>Incheon</span><strong>1,148</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">연령/성별 반응</p>
+            <div class="age-bars" aria-label="소재 1 연령대별 반응 비중">
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill" style="width:39%;"></i></span><strong>약 39%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill" style="width:22%;"></i></span><strong>약 22%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill" style="width:15%;"></i></span><strong>약 15%</strong></div>
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill" style="width:7%;"></i></span><strong>약 7%</strong></div>
+              <div class="age-bar"><span>65+</span><span class="age-track"><i class="age-fill" style="width:3%;"></i></span><strong>약 3%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 성별 색상 범례가 잘려 있어 성별명은 다음 캡처에서 확정합니다.</p>
+          </div>
+
+          <p class="decision-note">판단: 볼륨은 충분하고 비용은 중간권입니다. 최고 효율 소재는 아니지만, 유지 또는 보조 증액 후보로 두고 릴스/피드와 수도권 타깃 반응을 더 확인하는 쪽이 좋습니다.</p>
+        </article>
+
+        <article class="panel">
+          <img class="creative-image" src="./assets/facebook-creative-02-subscribe-car.jpg" alt="차량구독 예약하기 페이스북 광고 소재" />
+          <span class="card-label warn" style="margin-top:14px;">소재 2</span>
+          <div class="value">지금 예약하기</div>
+          <p class="creative-copy">동일한 차량구독 메시지를 CTA 중심으로 풀어낸 소재입니다. 클릭 후 랜딩 도달 품질은 나쁘지 않지만, 소재 1보다 랜딩 페이지 조회당 비용이 높고 전체 볼륨이 작습니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>116</strong></div>
+            <div class="mini-stat"><span class="label">조회수</span><strong>6,585</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회당 비용</span><strong>332원</strong></div>
+            <div class="mini-stat"><span class="label">도달</span><strong>4,320</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Facebook 릴스</span><strong>2,523</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>791</strong></li>
+                <li><span>모바일 인스트림 동영상</span><strong>123</strong></li>
+                <li><span>Facebook 스토리</span><strong>27</strong></li>
+                <li><span>Facebook 알림</span><strong>24</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>887</strong></li>
+                <li><span>Seoul</span><strong>831</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>338</strong></li>
+                <li><span>Gyeongsangbuk-do</span><strong>278</strong></li>
+                <li><span>Chungcheongnam-do</span><strong>255</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">연령/성별 반응</p>
+            <div class="age-bars" aria-label="소재 2 연령대별 반응 비중">
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill" style="width:29%;"></i></span><strong>약 29%</strong></div>
+              <div class="age-bar"><span>65+</span><span class="age-track"><i class="age-fill" style="width:19%;"></i></span><strong>약 19%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill" style="width:16%;"></i></span><strong>약 16%</strong></div>
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill" style="width:13%;"></i></span><strong>약 13%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill" style="width:12%;"></i></span><strong>약 12%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 소재 2는 55세 이상 반응이 상대적으로 강합니다.</p>
+          </div>
+
+          <p class="decision-note">판단: Facebook 지면 중심으로 노출됐고, 랜딩 페이지 조회당 비용이 332원으로 높습니다. 문구나 썸네일 수정 후 재테스트하는 쪽이 좋습니다.</p>
+        </article>
+
+        <article class="panel">
+          <img class="creative-image" src="./assets/facebook-creative-03-best-lpv.jpg" alt="최고 효율 페이스북 차량구독 광고 소재" />
+          <span class="card-label good">소재 3</span>
+          <div class="value">최고 효율 소재</div>
+          <p class="creative-copy">동일한 차량구독 메시지이지만 현재 입력된 페이스북 소재 중 랜딩 페이지 조회 수와 랜딩 페이지 조회당 비용이 가장 좋습니다. 볼륨과 효율을 동시에 확보한 증액 우선 후보입니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>1,562</strong></div>
+            <div class="mini-stat"><span class="label">조회수</span><strong>58,251</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회당 비용</span><strong>245원</strong></div>
+            <div class="mini-stat"><span class="label">도달</span><strong>37,790</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Instagram 릴스</span><strong>23,544</strong></li>
+                <li><span>Instagram 피드</span><strong>12,751</strong></li>
+                <li><span>Facebook 릴스</span><strong>1,787</strong></li>
+                <li><span>탐색 홈</span><strong>948</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>875</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>11,000</strong></li>
+                <li><span>Seoul</span><strong>6,129</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>2,668</strong></li>
+                <li><span>Busan</span><strong>2,370</strong></li>
+                <li><span>Incheon</span><strong>2,279</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">연령/성별 반응</p>
+            <div class="age-bars" aria-label="소재 3 연령대별 반응 비중">
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill" style="width:27%;"></i></span><strong>약 27%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill" style="width:26%;"></i></span><strong>약 26%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill" style="width:24%;"></i></span><strong>약 24%</strong></div>
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill" style="width:8%;"></i></span><strong>약 8%</strong></div>
+              <div class="age-bar"><span>65+</span><span class="age-track"><i class="age-fill" style="width:2%;"></i></span><strong>약 2%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 소재 3은 25-54세 전반에서 반응이 넓게 확보된 효율 소재입니다.</p>
+          </div>
+
+          <p class="decision-note">판단: 현재 페이스북 소재 중 1순위입니다. 랜딩 페이지 조회당 비용이 245원으로 가장 낮고, 랜딩 페이지 조회 1,562건으로 규모도 가장 큽니다.</p>
+        </article>
+
+        <article class="panel">
+          <img class="creative-image" src="./assets/facebook-creative-04-low-volume.jpg" alt="저효율 페이스북 차량구독 광고 소재" />
+          <span class="card-label warn">소재 4</span>
+          <div class="value">중단 후보</div>
+          <p class="creative-copy">동일한 CTA 중심 소재지만 랜딩 페이지 조회 수가 가장 작고 랜딩 페이지 조회당 비용이 가장 높습니다. 현재 데이터 기준으로는 유지보다 중단 또는 큰 폭 수정이 적절합니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>35</strong></div>
+            <div class="mini-stat"><span class="label">조회수</span><strong>2,816</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회당 비용</span><strong>427원</strong></div>
+            <div class="mini-stat"><span class="label">도달</span><strong>2,095</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Facebook 릴스</span><strong>1,196</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>481</strong></li>
+                <li><span>Facebook 알림</span><strong>101</strong></li>
+                <li><span>모바일 인스트림 동영상</span><strong>55</strong></li>
+                <li><span>Facebook 스토리</span><strong>45</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>478</strong></li>
+                <li><span>Seoul</span><strong>363</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>181</strong></li>
+                <li><span>Gyeongsangbuk-do</span><strong>134</strong></li>
+                <li><span>Chungcheongnam-do</span><strong>132</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">연령/성별 반응</p>
+            <div class="age-bars" aria-label="소재 4 연령대별 반응 비중">
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill" style="width:25%;"></i></span><strong>약 25%</strong></div>
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill" style="width:19%;"></i></span><strong>약 19%</strong></div>
+              <div class="age-bar"><span>65+</span><span class="age-track"><i class="age-fill" style="width:17%;"></i></span><strong>약 17%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill" style="width:16%;"></i></span><strong>약 16%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill" style="width:14%;"></i></span><strong>약 14%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 55세 이상 반응은 있지만 랜딩 페이지 조회당 비용이 높아 중단 후보 판단은 유지합니다.</p>
+          </div>
+
+          <p class="decision-note">판단: 현재 페이스북 소재 중 4순위입니다. 랜딩 페이지 조회당 비용 427원으로 가장 비싸고, 볼륨도 35건이라 중단 후보로 보는 편이 안전합니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Instagram Summary</h2>
+      <div class="grid channel-grid">
+        <article class="panel" id="instagramSummary"></article>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">Instagram 소재 분석</h2>
+      <div class="grid creative-grid">
+        <article class="panel">
+          <img class="creative-image square" src="./assets/instagram-creative-01-no-down-payment.jpg" alt="선납금 없이 구독 Instagram 광고 소재" />
+          <span class="card-label good">IG 소재 1</span>
+          <div class="value">선납금 없이 구독</div>
+          <p class="creative-copy">“선납금 없이 이제는 구독으로 전기차를 타보세요” 메시지를 앞세운 Instagram 홍보 미디어입니다. 기존 CSV에서도 랜딩 페이지 조회당 비용이 가장 낮아 증액 테스트 후보로 잡힌 소재입니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">링크 클릭</span><strong>864</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>747</strong></div>
+            <div class="mini-stat"><span class="label">링크 클릭당 비용</span><strong>101원</strong></div>
+            <div class="mini-stat"><span class="label">도달</span><strong>12,283</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Instagram 릴스</span><strong>7,712</strong></li>
+                <li><span>Instagram 피드</span><strong>4,937</strong></li>
+                <li><span>Facebook 릴스</span><strong>276</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>150</strong></li>
+                <li><span>Instagram 스토리</span><strong>120</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>3,820</strong></li>
+                <li><span>Seoul</span><strong>1,593</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>837</strong></li>
+                <li><span>Incheon</span><strong>783</strong></li>
+                <li><span>Busan</span><strong>702</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">성별/연령 반응</p>
+            <div class="gender-summary">
+              <span class="gender-chip">Men 87.4%</span>
+              <span class="gender-chip women">Women 12.6%</span>
+            </div>
+            <div class="age-bars" aria-label="Instagram 소재 1 성별 연령대별 반응 비중">
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill men" style="width:33%;"></i></span><strong>남성 약 33%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill men" style="width:29%;"></i></span><strong>남성 약 29%</strong></div>
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill men" style="width:17%;"></i></span><strong>남성 약 17%</strong></div>
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill men" style="width:7%;"></i></span><strong>남성 약 7%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill women" style="width:5%;"></i></span><strong>여성 약 5%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 전체 반응은 남성 87.4%로 매우 높고, 특히 35-54세 남성 반응이 핵심입니다.</p>
+          </div>
+
+          <p class="decision-note">판단: 적은 예산에서도 클릭과 랜딩 페이지 조회 효율이 가장 좋아 Instagram 증액 테스트 1순위입니다. 다만 반응이 남성에 강하게 쏠려 있어 35-54세 남성 중심 예산 확대와 여성/젊은층용 변형 소재를 분리 테스트하는 편이 좋습니다.</p>
+        </article>
+
+        <article class="panel">
+          <img class="creative-image square" src="./assets/facebook-creative-03-best-lpv.jpg" alt="BMW 공통 이미지 Instagram 광고 소재" />
+          <span class="card-label neutral">IG 소재 2</span>
+          <div class="value">BMW 공통 이미지</div>
+          <p class="creative-copy">Facebook 최고 효율 소재와 동일한 BMW 주행 이미지를 Instagram에서 홍보한 소재입니다. CSV 기준 중간 규모 캠페인과 매칭되며, 수동 화면 기준 링크 클릭과 랜딩 페이지 조회 모두 안정적으로 확보했습니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">게시물 참여</span><strong>1,025</strong></div>
+            <div class="mini-stat"><span class="label">링크 클릭</span><strong>994</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>919</strong></div>
+            <div class="mini-stat"><span class="label">게시물 공감</span><strong>20</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Instagram 릴스</span><strong>21,256</strong></li>
+                <li><span>Instagram 피드</span><strong>4,495</strong></li>
+                <li><span>Facebook 릴스</span><strong>773</strong></li>
+                <li><span>Instagram 스토리</span><strong>459</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>444</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>7,695</strong></li>
+                <li><span>Seoul</span><strong>3,817</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>1,608</strong></li>
+                <li><span>Busan</span><strong>1,526</strong></li>
+                <li><span>Incheon</span><strong>1,487</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">성별/연령 반응</p>
+            <div class="gender-summary">
+              <span class="gender-chip">Men 89.7%</span>
+              <span class="gender-chip women">Women 10.3%</span>
+            </div>
+            <div class="age-bars" aria-label="Instagram 소재 2 성별 연령대별 반응 비중">
+              <div class="age-bar"><span>18-24</span><span class="age-track"><i class="age-fill men" style="width:32%;"></i></span><strong>남성 약 32%</strong></div>
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill men" style="width:27%;"></i></span><strong>남성 약 27%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill men" style="width:15%;"></i></span><strong>남성 약 15%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill men" style="width:11%;"></i></span><strong>남성 약 11%</strong></div>
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill women" style="width:3%;"></i></span><strong>여성 약 3%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 전체 반응은 남성 89.7%로 높고, 특히 18-34세 남성 반응이 강합니다.</p>
+          </div>
+
+          <p class="decision-note">판단: Facebook에서 효율이 검증된 BMW 이미지가 Instagram에서는 더 젊은 남성층까지 확장되는 모습입니다. Instagram 릴스 비중이 압도적으로 높아, 이 이미지는 릴스형 소재로 재가공해 추가 테스트할 가치가 큽니다.</p>
+        </article>
+
+        <article class="panel">
+          <img class="creative-image square" src="./assets/find-my-car.jpg" alt="벤츠 공통 이미지 Instagram 광고 소재" />
+          <span class="card-label neutral">IG 소재 3</span>
+          <div class="value">벤츠 공통 이미지</div>
+          <p class="creative-copy">Facebook 벤츠 소재 1과 동일한 이미지를 Instagram에서 홍보한 소재입니다. 젊은 남성층 반응이 강하지만, BMW 공통 이미지보다 링크 클릭당 비용이 높고 랜딩 페이지 조회 효율은 낮은 편입니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">링크 클릭</span><strong>926</strong></div>
+            <div class="mini-stat"><span class="label">조회수</span><strong>29,459</strong></div>
+            <div class="mini-stat"><span class="label">링크 클릭당 비용</span><strong>224원</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>824</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Instagram 릴스</span><strong>12,306</strong></li>
+                <li><span>Instagram 피드</span><strong>3,784</strong></li>
+                <li><span>Facebook 릴스</span><strong>1,999</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>632</strong></li>
+                <li><span>Instagram 스토리</span><strong>484</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>4,946</strong></li>
+                <li><span>Seoul</span><strong>3,354</strong></li>
+                <li><span>Busan</span><strong>1,162</strong></li>
+                <li><span>Incheon</span><strong>1,145</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>1,013</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">성별/연령 반응</p>
+            <div class="gender-summary">
+              <span class="gender-chip">Men 88.9%</span>
+              <span class="gender-chip women">Women 11.1%</span>
+            </div>
+            <div class="age-bars" aria-label="Instagram 소재 3 성별 연령대별 반응 비중">
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill men" style="width:25%;"></i></span><strong>남성 약 25%</strong></div>
+              <div class="age-bar"><span>18-24</span><span class="age-track"><i class="age-fill men" style="width:20%;"></i></span><strong>남성 약 20%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill men" style="width:17%;"></i></span><strong>남성 약 17%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill men" style="width:17%;"></i></span><strong>남성 약 17%</strong></div>
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill men" style="width:9%;"></i></span><strong>남성 약 9%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 전체 반응은 남성 88.9%로 높고, 18-34세 남성 반응이 특히 강합니다.</p>
+          </div>
+
+          <p class="decision-note">판단: 벤츠 이미지는 Instagram에서 젊은 남성층의 관심을 끄는 힘은 있지만, 클릭당 비용 224원으로 BMW 공통 이미지보다 비쌉니다. 유지하되 증액보다는 문구/썸네일 개선 또는 BMW 소재와의 A/B 테스트 비교군으로 두는 편이 좋습니다.</p>
+        </article>
+
+        <article class="panel">
+          <img class="creative-image square" src="./assets/facebook-creative-02-subscribe-car.jpg" alt="Facebook 소재 2 공통 이미지 Instagram 광고 소재" />
+          <span class="card-label neutral">IG 소재 4</span>
+          <div class="value">CTA 공통 이미지</div>
+          <p class="creative-copy">Facebook 소재 2와 동일한 이미지를 Instagram에서 홍보한 소재입니다. 링크 클릭과 랜딩 페이지 조회는 안정적이지만, 남성 25-34세 반응이 강하게 쏠려 있어 타깃 확장에는 추가 변형이 필요합니다.</p>
+
+          <div class="mini-grid">
+            <div class="mini-stat"><span class="label">링크 클릭</span><strong>964</strong></div>
+            <div class="mini-stat"><span class="label">조회수</span><strong>31,120</strong></div>
+            <div class="mini-stat"><span class="label">링크 클릭당 비용</span><strong>215원</strong></div>
+            <div class="mini-stat"><span class="label">랜딩 페이지 조회</span><strong>853</strong></div>
+          </div>
+
+          <div class="split-list">
+            <div>
+              <p class="callout-title">게재 위치 상위</p>
+              <ul class="simple-list">
+                <li><span>Instagram 릴스</span><strong>11,514</strong></li>
+                <li><span>Instagram 피드</span><strong>6,011</strong></li>
+                <li><span>Facebook 릴스</span><strong>1,931</strong></li>
+                <li><span>Instagram 스토리</span><strong>692</strong></li>
+                <li><span>Facebook 모바일 앱 피드</span><strong>657</strong></li>
+              </ul>
+            </div>
+            <div>
+              <p class="callout-title">지역 반응 상위</p>
+              <ul class="simple-list">
+                <li><span>Gyeonggi-do</span><strong>5,595</strong></li>
+                <li><span>Seoul</span><strong>3,280</strong></li>
+                <li><span>Busan</span><strong>1,161</strong></li>
+                <li><span>Gyeongsangnam-do</span><strong>1,157</strong></li>
+                <li><span>Incheon</span><strong>1,147</strong></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="demographic-box">
+            <p class="callout-title">성별/연령 반응</p>
+            <div class="gender-summary">
+              <span class="gender-chip">Men 90.6%</span>
+              <span class="gender-chip women">Women 9.4%</span>
+            </div>
+            <div class="age-bars" aria-label="Instagram 소재 4 성별 연령대별 반응 비중">
+              <div class="age-bar"><span>25-34</span><span class="age-track"><i class="age-fill men" style="width:27%;"></i></span><strong>남성 약 27%</strong></div>
+              <div class="age-bar"><span>18-24</span><span class="age-track"><i class="age-fill men" style="width:25%;"></i></span><strong>남성 약 25%</strong></div>
+              <div class="age-bar"><span>45-54</span><span class="age-track"><i class="age-fill men" style="width:16%;"></i></span><strong>남성 약 16%</strong></div>
+              <div class="age-bar"><span>35-44</span><span class="age-track"><i class="age-fill men" style="width:15%;"></i></span><strong>남성 약 15%</strong></div>
+              <div class="age-bar"><span>55-64</span><span class="age-track"><i class="age-fill men" style="width:8%;"></i></span><strong>남성 약 8%</strong></div>
+            </div>
+            <p class="data-note">캡처 기준 추정치입니다. 전체 반응은 남성 90.6%로 가장 높고, 18-34세 남성 반응이 핵심입니다.</p>
+          </div>
+
+          <p class="decision-note">판단: 클릭당 비용 215원으로 벤츠 공통 이미지보다 조금 낫지만, BMW 공통 이미지보다는 낮은 우선순위입니다. 18-34세 남성 타깃의 보조 소재로 유지하고, CTA 문구와 썸네일을 바꿔 재테스트하는 방향이 좋습니다.</p>
+        </article>
+      </div>
+    </section>
+
   </main>
 
   <script>
@@ -513,6 +1152,14 @@
     const daily = payload.daily || [];
     const campaigns = (payload.campaigns || []).slice();
     const colors = ["#165d4a", "#d97706", "#2563eb", "#7c3aed", "#e11d48"];
+    const facebookManual = {
+      spend: 622334,
+      reach: 57833,
+      landingPageViews: 2370,
+      costPerLpv: 263,
+      enteredCreatives: 4,
+      totalCreatives: 4,
+    };
 
     function formatNumber(value, digits = 0) {
       return Number(value || 0).toLocaleString("ko-KR", {
@@ -523,6 +1170,16 @@
 
     function shortName(name, limit = 40) {
       return name.length > limit ? `${name.slice(0, limit)}...` : name;
+    }
+
+    function instagramName(item) {
+      if (item.campaign.includes("모두의충전 차량구독 서비스")) {
+        return "IG 소재 1: 선납금 없이 구독";
+      }
+      if (item.spend > 300000) {
+        return "IG 소재 3: 벤츠 공통 이미지";
+      }
+      return "IG 소재 2: BMW 공통 이미지";
     }
 
     function safeRatio(numerator, denominator) {
@@ -536,14 +1193,14 @@
         return {
           key: "scale",
           label: "증액 추천",
-          reason: "비용 대비 클릭 효율이 좋고 규모도 확보됨",
+          reason: "랜딩 페이지 조회 효율과 클릭 규모가 함께 확보됨",
         };
       }
       if (item.spend >= averages.spend && item.cpc > averages.cpc) {
         return {
           key: "caution",
           label: "수정 필요",
-          reason: "예산은 큰데 클릭 효율이 평균보다 낮음",
+          reason: "예산은 큰데 랜딩 페이지 조회 효율이 약함",
         };
       }
       return {
@@ -564,6 +1221,8 @@
     });
 
     const winner = [...campaigns].sort((a, b) => a.cpc - b.cpc)[0];
+    const instagramLpvWinner = [...campaigns].sort((a, b) => a.costPerLpv - b.costPerLpv)[0];
+    const instagramVolumeWinner = [...campaigns].sort((a, b) => b.landingPageViews - a.landingPageViews)[0];
     const scaleCandidate = [...campaigns].sort((a, b) => {
       const aScore = (a.landingPageViews > 0 ? 100000 / a.costPerLpv : 0) + (10000 / a.cpc) + (a.linkClicks / 50);
       const bScore = (b.landingPageViews > 0 ? 100000 / b.costPerLpv : 0) + (10000 / b.cpc) + (b.linkClicks / 50);
@@ -576,8 +1235,9 @@
       const end = daily.length ? daily[daily.length - 1].date : "-";
       document.getElementById("metaBox").innerHTML = `
         <strong>분석 기간</strong> ${start} ~ ${end}<br />
+        <strong>기준 시작일</strong> ${summary.analysisStartDate || start} 이후 데이터만 반영<br />
         <strong>광고 수</strong> ${summary.campaignCount || 0}개 / <strong>일수</strong> ${summary.dateCount || 0}일<br />
-        <strong>판단 기준</strong> 클릭 효율(CPC), 규모(총 클릭), 랜딩 페이지 조회 품질을 함께 봄
+        <strong>판단 기준</strong> 랜딩 페이지 조회당 비용, 랜딩 페이지 조회 수, 클릭 대비 랜딩 페이지 조회율을 우선으로 봄
       `;
     }
 
@@ -624,6 +1284,105 @@
         "주의 광고",
         `총 비용은 ${formatNumber(caution.spend, 0)}원으로 큰 편인데 클릭당 비용이 ${formatNumber(caution.cpc, 1)}원입니다. 문구 수정 또는 예산 축소 검토가 필요합니다.`
       );
+    }
+
+    function renderOverallSummary() {
+      const combinedSpend = (summary.totalSpend || 0) + facebookManual.spend;
+      const combinedLpv = (summary.totalLandingPageViews || 0) + facebookManual.landingPageViews;
+      const combinedCostPerLpv = safeRatio(combinedSpend, combinedLpv);
+      const cards = [
+        ["전체 집행 비용", `${formatNumber(combinedSpend, 0)}원`, "Facebook + Instagram 합산"],
+        ["전체 랜딩 페이지 조회", formatNumber(combinedLpv, 0), "두 채널 랜딩 페이지 조회 합산"],
+        ["평균 랜딩 페이지 조회당 비용", `${formatNumber(combinedCostPerLpv, 0)}원`, "총비용 / 총 랜딩 페이지 조회"],
+        ["Facebook 랜딩 페이지 조회", formatNumber(facebookManual.landingPageViews, 0), "광고센터 수동 입력 기준"],
+        ["Instagram 랜딩 페이지 조회", formatNumber(summary.totalLandingPageViews, 0), "광고관리자 CSV 기준"],
+      ];
+
+      document.getElementById("overallSummaryGrid").innerHTML = cards.map(([label, value, sub]) => `
+        <article class="card summary-card">
+          <div class="label">${label}</div>
+          <div class="value">${value}</div>
+          <div class="sub">${sub}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderChannelSummaries() {
+      document.getElementById("facebookSummary").innerHTML = `
+        <span class="card-label neutral">Facebook 광고센터</span>
+        <div class="value">${formatNumber(facebookManual.spend, 0)}원</div>
+        <p class="creative-copy">공유 예산으로 운영된 페이스북 광고센터 성과입니다. 4개 소재를 랜딩 페이지 조회당 비용, 조회 규모, 노출 위치, 연령 반응으로 함께 판단했습니다.</p>
+        <div class="card-kpis">
+          <div class="card-kpi"><span>도달</span><strong>${formatNumber(facebookManual.reach, 0)}</strong></div>
+          <div class="card-kpi"><span>랜딩 페이지 조회</span><strong>${formatNumber(facebookManual.landingPageViews, 0)}</strong></div>
+          <div class="card-kpi"><span>랜딩 페이지 조회당 비용</span><strong>${formatNumber(facebookManual.costPerLpv, 0)}원</strong></div>
+          <div class="card-kpi"><span>입력된 소재</span><strong>${facebookManual.enteredCreatives}/${facebookManual.totalCreatives}</strong></div>
+        </div>
+        <div class="split-list">
+          <div>
+            <p class="callout-title">최종 판단</p>
+            <ul class="simple-list">
+              <li><span>1순위 증액: 소재 3 BMW</span><strong>245원/조회</strong></li>
+              <li><span>보조 증액: 소재 1 벤츠</span><strong>283원/조회</strong></li>
+              <li><span>수정 후 재테스트: 소재 2</span><strong>332원/조회</strong></li>
+              <li><span>중단 후보: 소재 4</span><strong>427원/조회</strong></li>
+            </ul>
+          </div>
+          <div>
+            <p class="callout-title">타깃/지면 해석</p>
+            <ul class="simple-list">
+              <li><span>벤츠 소재 1</span><strong>25-34세 집중</strong></li>
+              <li><span>BMW 소재 3</span><strong>25-54세 확장</strong></li>
+              <li><span>소재 2, 4</span><strong>55세 이상 강함</strong></li>
+              <li><span>증액 우선 지면</span><strong>Instagram 릴스/피드</strong></li>
+            </ul>
+          </div>
+        </div>
+        <div class="demographic-box">
+          <p class="callout-title">왜 소재마다 노출 위치가 다른가?</p>
+          <p class="creative-copy">Meta의 Advantage+ 게재 위치는 Facebook, Instagram, Reels, Stories 등 여러 지면 중 목표 결과를 더 낮은 비용으로 만들 가능성이 높은 곳을 자동으로 찾습니다. 그래서 페이스북 광고센터에서 만든 광고라도, 젊은층 반응과 릴스/피드 적합도가 높으면 Instagram 노출이 커질 수 있습니다.</p>
+          <p class="creative-copy">이번 데이터에서는 벤츠 소재 1은 25-34세 반응이 강해 Instagram 지면과 잘 맞고, BMW 소재 3은 25-54세 전반에서 반응이 넓어 학습과 예산 배분을 더 많이 받은 것으로 해석됩니다. 소재 3의 성과가 가장 좋은 이유는 특정 차종 하나보다도 주행 장면, 밝은 톤, 명확한 구독 메시지가 넓은 연령대에서 랜딩 페이지 조회로 이어졌기 때문으로 보는 편이 안전합니다.</p>
+          <p class="data-note">참고: Meta 공식 설명에 따르면 Advantage+ 게재 위치는 Meta 생태계 안에서 비용 대비 결과가 좋은 기회를 찾고, 광고 경매는 예상 행동률과 광고 품질 같은 신호를 함께 봅니다.</p>
+        </div>
+      `;
+
+      document.getElementById("instagramSummary").innerHTML = `
+        <span class="card-label good">Instagram 광고관리자</span>
+        <div class="value">소재 4개 수동 상세 기준</div>
+        <p class="creative-copy">Instagram은 CSV 추이보다 광고 화면에서 확인한 4개 소재별 성과를 기준으로 다시 정리했습니다. 핵심 기준은 링크 클릭당 비용, 랜딩 페이지 조회, 릴스/피드 노출, 성별/연령 반응입니다.</p>
+        <div class="card-kpis">
+          <div class="card-kpi"><span>분석 소재</span><strong>4개</strong></div>
+          <div class="card-kpi"><span>총 링크 클릭</span><strong>3,748</strong></div>
+          <div class="card-kpi"><span>총 랜딩 페이지 조회</span><strong>3,343</strong></div>
+          <div class="card-kpi"><span>핵심 반응</span><strong>남성 18-54세</strong></div>
+        </div>
+        <div class="split-list">
+          <div>
+            <p class="callout-title">최종 판단</p>
+            <ul class="simple-list">
+              <li><span>1순위 증액: IG 소재 1 선납금 없이 구독</span><strong>101원/클릭</strong></li>
+              <li><span>2순위 확장: IG 소재 2 BMW 공통 이미지</span><strong>919 랜딩</strong></li>
+              <li><span>보조 유지: IG 소재 4 CTA 공통 이미지</span><strong>215원/클릭</strong></li>
+              <li><span>비교군 유지: IG 소재 3 벤츠 공통 이미지</span><strong>224원/클릭</strong></li>
+            </ul>
+          </div>
+          <div>
+            <p class="callout-title">타깃/지면 해석</p>
+            <ul class="simple-list">
+              <li><span>가장 강한 성별</span><strong>남성 87-91%</strong></li>
+              <li><span>젊은층 반응</span><strong>BMW/CTA 이미지</strong></li>
+              <li><span>중장년 반응</span><strong>선납금 없이 구독</strong></li>
+              <li><span>증액 우선 지면</span><strong>Instagram 릴스</strong></li>
+            </ul>
+          </div>
+        </div>
+        <div class="demographic-box">
+          <p class="callout-title">Instagram 최종 해석</p>
+          <p class="creative-copy">가장 효율적인 소재는 IG 소재 1입니다. 링크 클릭당 비용이 101원으로 압도적으로 낮고, 랜딩 페이지 조회도 747건을 확보했습니다. 35-54세 남성 반응이 강해 실제 차량 구독 니즈에 가까운 소재로 볼 수 있습니다.</p>
+          <p class="creative-copy">BMW 공통 이미지는 Facebook에서 검증된 소재가 Instagram에서도 젊은 남성층으로 확장된 케이스입니다. IG 소재 2는 랜딩 페이지 조회 919건으로 가장 크고, 릴스 노출도 가장 높아 릴스형 영상/모션 소재로 재가공해 확장하는 것이 좋습니다.</p>
+          <p class="creative-copy">벤츠/CTA 이미지는 18-34세 남성 관심을 만들지만 클릭당 비용이 215-224원으로 높습니다. 즉시 증액보다는 BMW/선납금 메시지와 비교하는 보조 소재로 두고, 문구와 썸네일을 바꿔 재테스트하는 쪽이 안전합니다.</p>
+        </div>
+      `;
     }
 
     function renderSummary() {
@@ -706,10 +1465,13 @@
       const maxSpend = Math.max(...campaigns.map((item) => item.spend));
       const maxClicks = Math.max(...campaigns.map((item) => item.linkClicks));
       const maxCpc = Math.max(...campaigns.map((item) => item.cpc));
+      const maxLandingPageViews = Math.max(...campaigns.map((item) => item.landingPageViews));
+      const maxCostPerLpv = Math.max(...campaigns.map((item) => item.costPerLpv));
 
       document.getElementById("metricBars").innerHTML = campaigns.map((item) => `
         <div class="panel">
-          <div class="campaign-name">${item.campaign}</div>
+          <div class="campaign-name">${instagramName(item)}</div>
+          <p class="data-note">${item.campaign}</p>
           <div class="metric-bars">
             <div class="metric-row">
               <span>총 비용</span>
@@ -722,9 +1484,19 @@
               <strong>${formatNumber(item.linkClicks, 0)}</strong>
             </div>
             <div class="metric-row">
+              <span>랜딩 조회</span>
+              <div class="bar-track"><div class="bar-fill click" style="width:${safeRatio(item.landingPageViews, maxLandingPageViews) * 100}%"></div></div>
+              <strong>${formatNumber(item.landingPageViews, 0)}</strong>
+            </div>
+            <div class="metric-row">
               <span>CPC</span>
               <div class="bar-track"><div class="bar-fill cpc" style="width:${safeRatio(item.cpc, maxCpc) * 100}%"></div></div>
               <strong>${formatNumber(item.cpc, 1)}원</strong>
+            </div>
+            <div class="metric-row">
+              <span>조회당 비용</span>
+              <div class="bar-track"><div class="bar-fill cpc" style="width:${safeRatio(item.costPerLpv, maxCostPerLpv) * 100}%"></div></div>
+              <strong>${formatNumber(item.costPerLpv, 1)}원</strong>
             </div>
           </div>
         </div>
@@ -739,9 +1511,9 @@
 
     function renderActionNotes() {
       const notes = [
-        `${shortName(scaleCandidate.campaign, 42)}: 비용 대비 클릭과 하단 퍼널 신호가 함께 보여 예산 확대 테스트 우선순위로 추천`,
-        `${shortName(winner.campaign, 42)}: 가장 낮은 CPC를 기록해 유사 카피 복제 가치가 큼`,
-        `${shortName(caution.campaign, 42)}: 총 비용이 큰데 효율이 약해 문구 수정 또는 예산 축소 검토 필요`,
+        `${instagramName(instagramLpvWinner)}: 랜딩 페이지 조회당 비용 ${formatNumber(instagramLpvWinner.costPerLpv, 0)}원으로 가장 낮아 증액 테스트 1순위`,
+        `${instagramName(instagramVolumeWinner)}: 랜딩 페이지 조회 ${formatNumber(instagramVolumeWinner.landingPageViews, 0)}건으로 규모가 가장 커 현재 볼륨 유지 후보`,
+        `${instagramName(caution)}: 비용 대비 효율이 약한 구간이 있어 문구, 썸네일, 타깃 또는 예산 배분 점검 필요`,
       ];
 
       document.getElementById("actionNotes").innerHTML = notes.map((note) => `<li>${note}</li>`).join("");
@@ -750,7 +1522,7 @@
     function renderDetailTable() {
       document.getElementById("detailBody").innerHTML = campaigns.map((item) => `
         <tr>
-          <td class="campaign-name">${item.campaign}</td>
+          <td class="campaign-name">${instagramName(item)}<br /><span class="muted">${item.campaign}</span></td>
           <td>${formatNumber(item.spend, 0)}원</td>
           <td>${formatNumber(item.linkClicks, 0)}</td>
           <td>${formatNumber(item.ctr, 2)}%</td>
@@ -766,12 +1538,8 @@
     }
 
     renderMeta();
-    renderDecisionCards();
-    renderSummary();
-    renderCampaignSelect();
-    renderMetricBars();
-    renderActionNotes();
-    renderDetailTable();
+    renderOverallSummary();
+    renderChannelSummaries();
   </script>
 </body>
 </html>
