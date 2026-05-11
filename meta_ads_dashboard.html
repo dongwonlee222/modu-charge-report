@@ -253,6 +253,59 @@
       color: #1d4ed8;
     }
 
+    .channel-compare {
+      display: grid;
+      gap: 12px;
+      margin-top: 16px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fbfdfb;
+    }
+
+    .compare-row {
+      display: grid;
+      grid-template-columns: 118px 1fr;
+      gap: 12px;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .compare-label {
+      color: var(--muted);
+      font-weight: 800;
+    }
+
+    .compare-bars {
+      display: grid;
+      gap: 6px;
+    }
+
+    .compare-bar {
+      display: grid;
+      grid-template-columns: 82px 1fr 82px;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .compare-track {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7ece8;
+    }
+
+    .compare-fill {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
+    }
+
+    .compare-fill.instagram {
+      background: linear-gradient(90deg, #14b8a6 0%, #0f766e 100%);
+    }
+
     .data-note {
       margin: 10px 0 0;
       color: var(--muted);
@@ -621,6 +674,31 @@
           <span class="card-label good">핵심 인사이트</span>
           <div class="value">차량구독은 남성 중심, 릴스 중심으로 반응했다</div>
           <p class="creative-copy">이번 데이터에서 Facebook과 Instagram 모두 남성 반응이 압도적으로 높고, Instagram 릴스/피드가 주요 노출 지면으로 잡혔습니다. 차량구독 메시지는 “차량 이미지 자체”보다 선납금 없음, 일반 번호판, 유지비 포함처럼 구매 부담을 낮추는 메시지와 결합될 때 랜딩 페이지 조회로 이어졌습니다.</p>
+          <div class="channel-compare">
+            <p class="callout-title">Facebook vs Instagram 효율 비교</p>
+            <div class="compare-row">
+              <span class="compare-label">집행 비용</span>
+              <div class="compare-bars">
+                <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:90%;"></i></span><strong>62.2만원</strong></div>
+                <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>69.2만원</strong></div>
+              </div>
+            </div>
+            <div class="compare-row">
+              <span class="compare-label">랜딩 조회</span>
+              <div class="compare-bars">
+                <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:73%;"></i></span><strong>2,370</strong></div>
+                <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>3,248</strong></div>
+              </div>
+            </div>
+            <div class="compare-row">
+              <span class="compare-label">조회당 비용</span>
+              <div class="compare-bars">
+                <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:100%;"></i></span><strong>263원</strong></div>
+                <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:81%;"></i></span><strong>213원</strong></div>
+              </div>
+            </div>
+            <p class="data-note">Instagram은 Facebook보다 집행 비용이 약 11% 많았지만 랜딩 페이지 조회는 약 37% 많고, 조회당 비용은 약 19% 낮았습니다. 단, Facebook 광고도 Meta 전체 학습과 Instagram 확장에 기여했기 때문에 완전 제외보다 보조 채널로 유지하는 해석이 안전합니다.</p>
+          </div>
           <div class="split-list">
             <div>
               <p class="callout-title">무엇이 효과적이었나</p>
