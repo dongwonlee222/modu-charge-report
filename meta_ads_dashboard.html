@@ -81,6 +81,39 @@
       font-size: 22px;
     }
 
+    .tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .tab-button {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 10px 14px;
+      color: var(--muted);
+      background: #fff;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .tab-button.active {
+      border-color: var(--accent);
+      color: #fff;
+      background: var(--accent);
+    }
+
+    .tab-panel {
+      display: none;
+    }
+
+    .tab-panel.active {
+      display: block;
+    }
+
     .grid {
       display: grid;
       gap: 14px;
@@ -661,6 +694,12 @@
     <p class="lead">Facebook과 Instagram 광고 성과를 전체 요약에서 시작해 채널별, 소재별로 내려가며 비교하는 화면입니다.</p>
     <div class="meta" id="metaBox"></div>
 
+    <nav class="tabs" aria-label="광고 분석 탭">
+      <button class="tab-button active" type="button" data-tab-target="creativeAnalysis">소재별 광고 분석</button>
+      <button class="tab-button" type="button" data-tab-target="instagramLongRange">1월~5월 Instagram 실효성</button>
+    </nav>
+
+    <div class="tab-panel active" id="creativeAnalysis">
     <section>
       <h2 class="section-title">전체 광고 Summary</h2>
       <div class="grid summary-grid" id="overallSummaryGrid"></div>
@@ -1222,6 +1261,160 @@
       </div>
     </section>
 
+    </div>
+
+    <div class="tab-panel" id="instagramLongRange">
+      <section>
+        <h2 class="section-title">1월~5월 Instagram 광고 실효성 분석</h2>
+        <div class="grid summary-grid">
+          <article class="card summary-card">
+            <div class="label">분석 기간</div>
+            <div class="value">2026.01.01 ~ 05.11</div>
+            <div class="sub">Instagram 캠페인 요약 CSV 기준</div>
+          </article>
+          <article class="card summary-card">
+            <div class="label">전체 집행 비용</div>
+            <div class="value">4,877,850원</div>
+            <div class="sub">비용 발생 캠페인 10개</div>
+          </article>
+          <article class="card summary-card">
+            <div class="label">전체 링크 클릭</div>
+            <div class="value">24,737</div>
+            <div class="sub">전체 평균 CPC 197원</div>
+          </article>
+          <article class="card summary-card">
+            <div class="label">랜딩 조회 정상 집계</div>
+            <div class="value">active 4개</div>
+            <div class="sub">과거 inactive 캠페인은 랜딩 조회 누락</div>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">전체 기간에서 바로 읽히는 결론</h2>
+        <div class="grid compare-grid">
+          <article class="panel">
+            <span class="card-label good">Instagram은 효율이 있다</span>
+            <div class="value">단, 1월~3월은 상담/계약 데이터로 보정해야 한다</div>
+            <p class="creative-copy">1월~5월 전체 캠페인은 광고비 487.8만원으로 24,737 클릭을 만들었고 평균 CPC는 197원입니다. 클릭 확보 자체는 효율적입니다. 다만 과거 inactive 캠페인 6개는 비용과 클릭은 있지만 랜딩 페이지 조회가 0으로 내려와 있어, 이 파일만으로는 과거 캠페인의 랜딩 효율을 판단하면 왜곡됩니다.</p>
+            <div class="channel-compare">
+              <p class="callout-title">전체 vs 랜딩 조회 정상 집계 구간</p>
+              <div class="compare-row">
+                <span class="compare-label">집행 비용</span>
+                <div class="compare-bars">
+                  <div class="compare-bar"><span>전체</span><span class="compare-track"><i class="compare-fill" style="width:100%;"></i></span><strong>487.8만원</strong></div>
+                  <div class="compare-bar"><span>active 4개</span><span class="compare-track"><i class="compare-fill instagram" style="width:15%;"></i></span><strong>72.2만원</strong></div>
+                </div>
+              </div>
+              <div class="compare-row">
+                <span class="compare-label">링크 클릭</span>
+                <div class="compare-bars">
+                  <div class="compare-bar"><span>전체</span><span class="compare-track"><i class="compare-fill" style="width:100%;"></i></span><strong>24,737</strong></div>
+                  <div class="compare-bar"><span>active 4개</span><span class="compare-track"><i class="compare-fill instagram" style="width:16%;"></i></span><strong>3,839</strong></div>
+                </div>
+              </div>
+              <div class="compare-row">
+                <span class="compare-label">CPC</span>
+                <div class="compare-bars">
+                  <div class="compare-bar"><span>전체</span><span class="compare-track"><i class="compare-fill" style="width:100%;"></i></span><strong>197원</strong></div>
+                  <div class="compare-bar"><span>active 4개</span><span class="compare-track"><i class="compare-fill instagram" style="width:95%;"></i></span><strong>188원</strong></div>
+                </div>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel">
+            <span class="card-label warn">데이터 해석 주의</span>
+            <div class="value">랜딩 조회 0인 과거 광고를 실패로 보면 안 된다</div>
+            <p class="creative-copy">inactive 캠페인 6개는 총 415.5만원을 쓰고 20,898 클릭을 만들었습니다. 그런데 랜딩 페이지 조회가 0으로 내려와 있습니다. 실제로 랜딩이 없었다기보다, 픽셀/이벤트 설정 또는 export 기준 차이로 랜딩 조회가 누락됐을 가능성이 큽니다.</p>
+            <p class="creative-copy">따라서 1월부터의 실효성 판단은 Slack `차량구독신청_상담관리` 채널의 상담 인입일, 문의 차량, 계약 여부와 결합해야 합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">active 4개 캠페인 효율</h2>
+        <section class="panel">
+          <table class="rank-table">
+            <thead>
+              <tr>
+                <th>구분</th>
+                <th>집행 비용</th>
+                <th>링크 클릭</th>
+                <th>랜딩 조회</th>
+                <th>CPC</th>
+                <th>랜딩 조회당 비용</th>
+                <th>해석</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="campaign-name">선납금 없이 구독</td>
+                <td>90,928원</td>
+                <td>901</td>
+                <td>782</td>
+                <td>101원</td>
+                <td>116원</td>
+                <td>가장 효율 좋음. 증액 테스트 1순위</td>
+              </tr>
+              <tr>
+                <td class="campaign-name">차는 이제 구독 A</td>
+                <td>210,186원</td>
+                <td>1,015</td>
+                <td>937</td>
+                <td>207원</td>
+                <td>224원</td>
+                <td>랜딩 조회 규모 1위. 유지/확장 후보</td>
+              </tr>
+              <tr>
+                <td class="campaign-name">차는 이제 구독 B</td>
+                <td>210,928원</td>
+                <td>978</td>
+                <td>865</td>
+                <td>216원</td>
+                <td>244원</td>
+                <td>규모는 있으나 효율 개선 필요</td>
+              </tr>
+              <tr>
+                <td class="campaign-name">차는 이제 구독 C</td>
+                <td>210,289원</td>
+                <td>945</td>
+                <td>840</td>
+                <td>223원</td>
+                <td>250원</td>
+                <td>4개 중 랜딩 조회당 비용이 가장 높음</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </section>
+
+      <section>
+        <h2 class="section-title">상담/계약 데이터와 붙일 때 볼 지표</h2>
+        <div class="grid channel-grid">
+          <article class="panel">
+            <p class="callout-title">실효성 판단 공식</p>
+            <ul class="simple-list">
+              <li><span>상담 전환율</span><strong>상담 수 / 링크 클릭</strong></li>
+              <li><span>랜딩 후 상담 전환율</span><strong>상담 수 / 랜딩 페이지 조회</strong></li>
+              <li><span>계약 전환율</span><strong>계약 수 / 상담 수</strong></li>
+              <li><span>계약당 광고비</span><strong>광고비 / 계약 수</strong></li>
+            </ul>
+          </article>
+
+          <article class="panel">
+            <p class="callout-title">다음 작업</p>
+            <ul class="simple-list">
+              <li><span>1단계</span><strong>Slack 상담 채널 1월~5월 원본 export 확보</strong></li>
+              <li><span>2단계</span><strong>상담일 기준으로 광고 집행일과 매칭</strong></li>
+              <li><span>3단계</span><strong>문의 차량/계약 여부를 소재 가설과 연결</strong></li>
+              <li><span>4단계</span><strong>상담/계약 기준으로 예산 재배분</strong></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </div>
+
   </main>
 
   <script>
@@ -1618,6 +1811,18 @@
     renderMeta();
     renderOverallSummary();
     renderChannelSummaries();
+
+    document.querySelectorAll("[data-tab-target]").forEach((button) => {
+      button.addEventListener("click", () => {
+        const targetId = button.dataset.tabTarget;
+        document.querySelectorAll("[data-tab-target]").forEach((item) => {
+          item.classList.toggle("active", item === button);
+        });
+        document.querySelectorAll(".tab-panel").forEach((panel) => {
+          panel.classList.toggle("active", panel.id === targetId);
+        });
+      });
+    });
   </script>
 </body>
 </html>
