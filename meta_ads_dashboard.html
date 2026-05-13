@@ -150,6 +150,105 @@
       box-shadow: 0 10px 24px rgba(24, 38, 29, 0.05);
     }
 
+    .verdict-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .verdict-panel {
+      position: relative;
+      overflow: hidden;
+      min-height: 260px;
+    }
+
+    .verdict-panel::after {
+      content: "";
+      position: absolute;
+      right: -40px;
+      top: -56px;
+      width: 170px;
+      height: 170px;
+      border-radius: 999px;
+      background: rgba(22, 93, 74, 0.08);
+    }
+
+    .funnel-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .funnel {
+      display: grid;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .funnel-step {
+      display: grid;
+      grid-template-columns: 150px 1fr 150px;
+      gap: 12px;
+      align-items: center;
+      padding: 12px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfdfb;
+    }
+
+    .funnel-step strong {
+      font-size: 22px;
+    }
+
+    .funnel-bar {
+      height: 14px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7ece8;
+    }
+
+    .funnel-fill {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, #165d4a 0%, #14b8a6 100%);
+    }
+
+    .funnel-fill.facebook {
+      background: linear-gradient(90deg, #2563eb 0%, #1d4ed8 100%);
+    }
+
+    .funnel-rate {
+      grid-column: 2 / 4;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-align: right;
+    }
+
+    .cost-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 10px;
+      margin-top: 14px;
+    }
+
+    .cost-chip {
+      padding: 12px;
+      border-radius: 14px;
+      background: #f3f8f4;
+      border: 1px solid var(--line);
+    }
+
+    .cost-chip span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .cost-chip strong {
+      display: block;
+      margin-top: 4px;
+      font-size: 18px;
+    }
+
     .creative-image {
       width: 100%;
       aspect-ratio: 4 / 5;
@@ -649,6 +748,7 @@
       .decision-grid,
       .channel-grid,
       .compare-grid,
+      .verdict-grid,
       .creative-grid {
         grid-template-columns: 1fr;
       }
@@ -676,8 +776,18 @@
       }
 
       .mini-grid,
-      .split-list {
+      .split-list,
+      .cost-strip {
         grid-template-columns: 1fr;
+      }
+
+      .funnel-step {
+        grid-template-columns: 1fr;
+      }
+
+      .funnel-rate {
+        grid-column: auto;
+        text-align: left;
       }
 
       .detail-table {
@@ -696,7 +806,7 @@
 
     <nav class="tabs" aria-label="광고 분석 탭">
       <button class="tab-button active" type="button" data-tab-target="creativeAnalysis">소재별 광고 분석</button>
-      <button class="tab-button" type="button" data-tab-target="instagramLongRange">1월~5월 Meta 실효성</button>
+      <button class="tab-button" type="button" data-tab-target="instagramLongRange">광고 실효성 분석</button>
     </nav>
 
     <div class="tab-panel active" id="creativeAnalysis">
@@ -736,7 +846,7 @@
                 <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:81%;"></i></span><strong>213원</strong></div>
               </div>
             </div>
-            <p class="data-note">Instagram은 Facebook보다 집행 비용이 약 11% 많았지만 랜딩 페이지 조회는 약 37% 많고, 조회당 비용은 약 19% 낮았습니다. 이후 Ev Modu 광고계정 CSV를 추가 확보했기 때문에 1월~5월 전체 실효성은 별도 탭에서 계정별 원본 기준으로 다시 비교합니다.</p>
+            <p class="data-note">Instagram은 Facebook보다 집행 비용이 약 11% 많았지만 랜딩 페이지 조회는 약 37% 많고, 조회당 비용은 약 19% 낮았습니다. 이후 Facebook 광고 원본 CSV를 추가 확보했기 때문에 1월~5월 전체 실효성은 별도 탭에서 채널별 원본 기준으로 다시 비교합니다.</p>
           </div>
           <div class="split-list">
             <div>
@@ -1265,303 +1375,175 @@
 
     <div class="tab-panel" id="instagramLongRange">
       <section>
-        <h2 class="section-title">1월~5월 Meta 광고 실효성 분석</h2>
+        <h2 class="section-title">광고 실효성 분석</h2>
         <div class="grid summary-grid">
           <article class="card summary-card">
             <div class="label">분석 기간</div>
-            <div class="value">2026.01.01 ~ 05.11</div>
-            <div class="sub">Instagram 계정 + Ev Modu 계정 CSV 기준</div>
+            <div class="value">2026.01.01 ~ 05.13</div>
+            <div class="sub">광고 CSV + Slack 상담 댓글 기준</div>
           </article>
           <article class="card summary-card">
-            <div class="label">전체 집행 비용</div>
+            <div class="label">전체 광고비</div>
             <div class="value">8,016,842원</div>
-            <div class="sub">두 광고계정 원본 CSV 합산</div>
+            <div class="sub">Instagram + Facebook 합산</div>
           </article>
           <article class="card summary-card">
-            <div class="label">전체 링크 클릭</div>
-            <div class="value">34,508</div>
-            <div class="sub">중복 제거 기준 평균 CPC 232원</div>
+            <div class="label">직접 상담</div>
+            <div class="value">28건</div>
+            <div class="sub">instagram/facebook 유입 표기 기준</div>
           </article>
           <article class="card summary-card">
-            <div class="label">랜딩 페이지 조회</div>
-            <div class="value">9,802</div>
-            <div class="sub">Instagram 과거 캠페인 일부 누락 주의</div>
+            <div class="label">상담 1건당 비용</div>
+            <div class="value">286,316원</div>
+            <div class="sub">전체 광고비 / 직접 상담</div>
           </article>
           <article class="card summary-card">
-            <div class="label">Slack 상담 문의</div>
-            <div class="value">158</div>
-            <div class="sub">중복 제외 문의 기준</div>
+            <div class="label">심사 이상</div>
+            <div class="value">5건</div>
+            <div class="sub">심사/진행/출고급 직접 유입</div>
           </article>
           <article class="card summary-card">
-            <div class="label">심사/계약 신호</div>
-            <div class="value">35</div>
-            <div class="sub">medium 30 + high 5</div>
+            <div class="label">출고/계약급</div>
+            <div class="value">1건</div>
+            <div class="sub">직접 유입 high 신호</div>
           </article>
         </div>
       </section>
 
       <section>
-        <h2 class="section-title">전체 기간에서 바로 읽히는 결론</h2>
+        <h2 class="section-title">최종 결론</h2>
+        <div class="grid verdict-grid">
+          <article class="panel verdict-panel">
+            <span class="card-label good">Instagram 유지 + 증액 테스트</span>
+            <div class="value">상담 확보 효율이 Facebook보다 약 8.4배 좋다</div>
+            <p class="creative-copy">Instagram은 직접 상담 26건, 심사 이상 4건, 출고/계약급 1건이 확인됩니다. 상담 1건당 비용은 187,610원으로 현재 가장 명확한 실효 채널입니다.</p>
+            <div class="cost-strip">
+              <div class="cost-chip"><span>상담 1건당</span><strong>187,610원</strong></div>
+              <div class="cost-chip"><span>심사 이상 1건당</span><strong>1,219,463원</strong></div>
+              <div class="cost-chip"><span>출고/계약급</span><strong>1건</strong></div>
+            </div>
+            <p class="decision-note">운영 판단: Instagram은 유지하고, 선납금 없음/BMW/테슬라 후킹 소재 중심으로 10~20% 증액 테스트합니다.</p>
+          </article>
+
+          <article class="panel verdict-panel">
+            <span class="card-label warn">Facebook 단독 증액 보류</span>
+            <div class="value">랜딩은 많지만 상담 연결 비용이 높다</div>
+            <p class="creative-copy">Facebook은 랜딩 조회 6,378건을 만들었지만 직접 상담은 2건입니다. 상담 1건당 비용은 1,569,496원으로 Instagram 대비 효율이 크게 낮습니다.</p>
+            <div class="cost-strip">
+              <div class="cost-chip"><span>상담 1건당</span><strong>1,569,496원</strong></div>
+              <div class="cost-chip"><span>심사 이상 1건당</span><strong>3,138,992원</strong></div>
+              <div class="cost-chip"><span>출고/계약급</span><strong>0건</strong></div>
+            </div>
+            <p class="decision-note">운영 판단: Facebook은 완전 중단보다 저예산 보조, 리타게팅, Meta 학습용으로 제한합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">전체 광고 퍼널</h2>
+        <article class="panel">
+          <div class="funnel">
+            <div class="funnel-step"><span>광고비</span><div class="funnel-bar"><i class="funnel-fill" style="width:100%;"></i></div><strong>8,016,842원</strong></div>
+            <div class="funnel-step"><span>클릭</span><div class="funnel-bar"><i class="funnel-fill" style="width:100%;"></i></div><strong>34,508</strong></div>
+            <div class="funnel-step"><span>랜딩 조회</span><div class="funnel-bar"><i class="funnel-fill" style="width:28%;"></i></div><strong>9,802</strong></div>
+            <div class="funnel-step"><span>직접 상담</span><div class="funnel-bar"><i class="funnel-fill" style="width:8%;"></i></div><strong>28</strong><span class="funnel-rate">클릭→상담 0.08% / 랜딩→상담 0.29%</span></div>
+            <div class="funnel-step"><span>심사 이상</span><div class="funnel-bar"><i class="funnel-fill" style="width:2%;"></i></div><strong>5</strong><span class="funnel-rate">상담→심사 이상 17.9% (5/28)</span></div>
+            <div class="funnel-step"><span>출고/계약급</span><div class="funnel-bar"><i class="funnel-fill" style="width:1%;"></i></div><strong>1</strong><span class="funnel-rate">상담→출고/계약급 3.6% (1/28)</span></div>
+          </div>
+          <div class="cost-strip">
+            <div class="cost-chip"><span>상담 1건당 비용</span><strong>286,316원</strong></div>
+            <div class="cost-chip"><span>심사 이상 1건당 비용</span><strong>1,603,368원</strong></div>
+            <div class="cost-chip"><span>출고/계약급 1건당 비용</span><strong>8,016,842원</strong></div>
+          </div>
+          <p class="data-note">직접 상담은 Slack 유입경로가 instagram/facebook으로 남은 건만 계산했습니다. APP/unknown 유입에도 high 신호 4건이 있어 실제 광고 기여는 더 클 수 있습니다.</p>
+        </article>
+      </section>
+
+      <section>
+        <h2 class="section-title">채널별 퍼널</h2>
         <div class="grid compare-grid">
           <article class="panel">
-            <span class="card-label good">두 계정 모두 클릭 확보는 의미 있다</span>
-            <div class="value">실효성 최종 판단은 상담/계약 데이터와 붙여야 한다</div>
-            <p class="creative-copy">1월~5월 기준 Instagram 계정은 487.8만원으로 24,737 클릭을 만들었고, Ev Modu 계정은 313.9만원으로 중복 제거 기준 9,771 클릭을 만들었습니다. 합산 평균 CPC는 232원으로 차량구독 관심 유입 자체는 충분히 만들어졌다고 볼 수 있습니다.</p>
-            <div class="channel-compare">
-              <p class="callout-title">Instagram 계정 vs Ev Modu 계정</p>
-              <div class="compare-row">
-                <span class="compare-label">집행 비용</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>487.8만원</strong></div>
-                  <div class="compare-bar"><span>Ev Modu</span><span class="compare-track"><i class="compare-fill" style="width:64%;"></i></span><strong>313.9만원</strong></div>
-                </div>
-              </div>
-              <div class="compare-row">
-                <span class="compare-label">링크 클릭</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>24,737</strong></div>
-                  <div class="compare-bar"><span>Ev Modu</span><span class="compare-track"><i class="compare-fill" style="width:39%;"></i></span><strong>9,771</strong></div>
-                </div>
-              </div>
-              <div class="compare-row">
-                <span class="compare-label">CPC</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>197원</strong></div>
-                  <div class="compare-bar"><span>Ev Modu</span><span class="compare-track"><i class="compare-fill" style="width:100%;"></i></span><strong>321원</strong></div>
-                </div>
-              </div>
-              <div class="compare-row">
-                <span class="compare-label">랜딩 조회</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:54%;"></i></span><strong>3,424</strong></div>
-                  <div class="compare-bar"><span>Ev Modu</span><span class="compare-track"><i class="compare-fill" style="width:100%;"></i></span><strong>6,378</strong></div>
-                </div>
-              </div>
+            <span class="card-label good">Instagram 퍼널</span>
+            <div class="funnel">
+              <div class="funnel-step"><span>광고비</span><div class="funnel-bar"><i class="funnel-fill" style="width:100%;"></i></div><strong>4,877,850원</strong></div>
+              <div class="funnel-step"><span>클릭</span><div class="funnel-bar"><i class="funnel-fill" style="width:100%;"></i></div><strong>24,737</strong></div>
+              <div class="funnel-step"><span>랜딩 조회</span><div class="funnel-bar"><i class="funnel-fill" style="width:14%;"></i></div><strong>3,424</strong></div>
+              <div class="funnel-step"><span>직접 상담</span><div class="funnel-bar"><i class="funnel-fill" style="width:8%;"></i></div><strong>26</strong><span class="funnel-rate">클릭→상담 0.11% / 랜딩→상담 0.76%</span></div>
+              <div class="funnel-step"><span>심사 이상</span><div class="funnel-bar"><i class="funnel-fill" style="width:2%;"></i></div><strong>4</strong><span class="funnel-rate">상담→심사 15.4% (4/26)</span></div>
+              <div class="funnel-step"><span>출고/계약급</span><div class="funnel-bar"><i class="funnel-fill" style="width:1%;"></i></div><strong>1</strong><span class="funnel-rate">상담→출고/계약급 3.8% (1/26)</span></div>
             </div>
-            <p class="data-note">Ev Modu 계정은 랜딩 조회가 더 많이 잡혔지만, 상세 CSV 특성상 랜딩페이지 ID별 클릭 중복을 제거하면 CPC는 Instagram보다 높습니다. Instagram 계정의 inactive 캠페인 6개는 비용과 클릭은 있으나 랜딩 페이지 조회가 0으로 내려와 있어, 랜딩 조회당 비용만으로 계정 우열을 확정하면 위험합니다.</p>
+            <div class="cost-strip">
+              <div class="cost-chip"><span>상담 1건당</span><strong>187,610원</strong></div>
+              <div class="cost-chip"><span>심사 이상 1건당</span><strong>1,219,463원</strong></div>
+              <div class="cost-chip"><span>출고/계약급 1건당</span><strong>4,877,850원</strong></div>
+            </div>
           </article>
 
           <article class="panel">
-            <span class="card-label warn">데이터 해석 주의</span>
-            <div class="value">광고 계정이 달라서 원본을 나눠 봐야 한다</div>
-            <p class="creative-copy">Facebook 광고가 광고관리자에서 안 보였던 이유는 `Ev Modu`가 다른 광고 계정에서 만든 광고였기 때문입니다. 이제 이 계정의 CSV가 확보됐으므로, 기존 광고센터 수동 값은 보조 설명으로 두고 1월~5월 실효성은 Ev Modu 원본 CSV를 기준으로 보는 편이 맞습니다.</p>
-            <p class="creative-copy">최종 목적은 “클릭이 싼 광고”가 아니라 “상담과 계약을 만든 광고”를 찾는 것입니다. 따라서 Slack `차량구독신청_상담관리` 채널의 상담 인입일, 문의 차량, 계약 여부와 결합해야 예산 재배분 판단이 가능합니다.</p>
+            <span class="card-label neutral">Facebook 퍼널</span>
+            <div class="funnel">
+              <div class="funnel-step"><span>광고비</span><div class="funnel-bar"><i class="funnel-fill facebook" style="width:100%;"></i></div><strong>3,138,992원</strong></div>
+              <div class="funnel-step"><span>클릭</span><div class="funnel-bar"><i class="funnel-fill facebook" style="width:100%;"></i></div><strong>9,771</strong></div>
+              <div class="funnel-step"><span>랜딩 조회</span><div class="funnel-bar"><i class="funnel-fill facebook" style="width:65%;"></i></div><strong>6,378</strong></div>
+              <div class="funnel-step"><span>직접 상담</span><div class="funnel-bar"><i class="funnel-fill facebook" style="width:2%;"></i></div><strong>2</strong><span class="funnel-rate">클릭→상담 0.02% / 랜딩→상담 0.03%</span></div>
+              <div class="funnel-step"><span>심사 이상</span><div class="funnel-bar"><i class="funnel-fill facebook" style="width:1%;"></i></div><strong>1</strong><span class="funnel-rate">상담→심사 50.0% (1/2), 모수 작음</span></div>
+              <div class="funnel-step"><span>출고/계약급</span><div class="funnel-bar"><i class="funnel-fill facebook" style="width:0%;"></i></div><strong>0</strong><span class="funnel-rate">상담→출고/계약급 0% (0/2)</span></div>
+            </div>
+            <div class="cost-strip">
+              <div class="cost-chip"><span>상담 1건당</span><strong>1,569,496원</strong></div>
+              <div class="cost-chip"><span>심사 이상 1건당</span><strong>3,138,992원</strong></div>
+              <div class="cost-chip"><span>출고/계약급 1건당</span><strong>계산 불가</strong></div>
+            </div>
           </article>
         </div>
       </section>
 
       <section>
-        <h2 class="section-title">Slack 상담/계약 신호 기준 실효성</h2>
-        <div class="grid compare-grid">
-          <article class="panel">
-            <span class="card-label good">광고는 상담으로 이어졌다</span>
-            <div class="value">다만 계약급 신호는 아직 소수라 추적 고도화가 필요하다</div>
-            <p class="creative-copy">Slack `차량구독신청_상담관리` 채널의 2026년 1월 이후 문의 172건을 가져와 같은 날 같은 고객/차량 중복을 제거하니 158건입니다. 댓글 기준으로 출고/계약급 high 신호는 5건, 심사/진행 medium 신호는 30건입니다.</p>
-            <div class="channel-compare">
-              <p class="callout-title">유입경로가 명시된 광고 상담</p>
-              <div class="compare-row">
-                <span class="compare-label">문의 수</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>26건</strong></div>
-                  <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:8%;"></i></span><strong>2건</strong></div>
-                </div>
-              </div>
-              <div class="compare-row">
-                <span class="compare-label">심사 이상</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>4건</strong></div>
-                  <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:25%;"></i></span><strong>1건</strong></div>
-                </div>
-              </div>
-              <div class="compare-row">
-                <span class="compare-label">출고/계약급</span>
-                <div class="compare-bars">
-                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>1건</strong></div>
-                  <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:0%;"></i></span><strong>0건</strong></div>
-                </div>
-              </div>
-            </div>
-            <p class="data-note">주의: Slack 유입경로가 APP/unknown인 문의에도 high 신호 4건이 있습니다. 광고 클릭 후 앱/웹을 거치며 유입경로가 APP/undefined로 바뀐 건일 수 있어, 현재 수치는 “광고 직접 표기 기준”으로 보수적으로 해석해야 합니다.</p>
-          </article>
-
-          <article class="panel">
-            <span class="card-label neutral">실효성 판단</span>
-            <div class="value">Instagram은 상담 유입 채널로 우선 검증됐다</div>
-            <ul class="simple-list">
-              <li><span>Instagram 직접 유입</span><strong>26건 / 심사 이상 4건 / high 1건</strong></li>
-              <li><span>Facebook 직접 유입</span><strong>2건 / 심사 이상 1건 / high 0건</strong></li>
-              <li><span>APP 유입</span><strong>79건 / 심사 이상 17건 / high 3건</strong></li>
-              <li><span>문의 차량 상위</span><strong>EQE350+, EQA250, 모델 3, i4</strong></li>
-            </ul>
-            <p class="creative-copy">따라서 광고 예산은 Instagram 중심으로 유지하되, Facebook은 독립 성과 채널로 크게 증액하기보다 Meta 학습/리타게팅/35세 이상 보조 지면으로 쓰는 방향이 안전합니다.</p>
-          </article>
-        </div>
-
-        <section class="panel" style="margin-top:14px;">
-          <table class="rank-table">
-            <thead>
-              <tr>
-                <th>채널</th>
-                <th>광고비</th>
-                <th>랜딩 조회</th>
-                <th>직접 유입 문의</th>
-                <th>문의당 광고비</th>
-                <th>심사 이상</th>
-                <th>심사 이상당 광고비</th>
-                <th>해석</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="campaign-name">Instagram</td>
-                <td>4,877,850원</td>
-                <td>3,424</td>
-                <td>26</td>
-                <td>187,610원</td>
-                <td>4</td>
-                <td>1,219,463원</td>
-                <td>상담 유입은 가장 명확. 다만 계약급 전환 추적 보강 필요</td>
-              </tr>
-              <tr>
-                <td class="campaign-name">Facebook / Ev Modu</td>
-                <td>3,138,992원</td>
-                <td>6,378</td>
-                <td>2</td>
-                <td>1,569,496원</td>
-                <td>1</td>
-                <td>3,138,992원</td>
-                <td>랜딩은 많지만 Slack 직접 유입 표기는 약함. 보조 채널로 해석</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-      </section>
-
-      <section>
-        <h2 class="section-title">Ev Modu 계정 캠페인별 효율</h2>
+        <h2 class="section-title">Instagram vs Facebook 비교</h2>
         <section class="panel">
           <table class="rank-table">
             <thead>
               <tr>
-                <th>캠페인</th>
-                <th>집행 비용</th>
-                <th>링크 클릭</th>
-                <th>랜딩 조회</th>
-                <th>CPC</th>
-                <th>랜딩 조회당 비용</th>
-                <th>해석</th>
+                <th>지표</th>
+                <th>Instagram</th>
+                <th>Facebook</th>
+                <th>판단</th>
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td class="campaign-name">차는 이제 ‘사는 것’ 말고 ‘구독’하세요</td>
-                <td>622,334원</td>
-                <td>2,734</td>
-                <td>2,370</td>
-                <td>228원</td>
-                <td>263원</td>
-                <td>클릭과 랜딩 모두 가장 균형 좋음. Facebook 공유 예산 4개 소재와 연결</td>
-              </tr>
-              <tr>
-                <td class="campaign-name">모두의충전 차량구독 서비스</td>
-                <td>2,010,100원</td>
-                <td>5,142</td>
-                <td>3,232</td>
-                <td>391원</td>
-                <td>622원</td>
-                <td>볼륨은 가장 크지만 랜딩 조회당 비용이 높음. 상담/계약으로 보정 필요</td>
-              </tr>
-              <tr>
-                <td class="campaign-name">Website visitors Ad</td>
-                <td>506,558원</td>
-                <td>1,895</td>
-                <td>776</td>
-                <td>267원</td>
-                <td>653원</td>
-                <td>클릭은 싸지만 랜딩 전환 효율 약함. 랜딩/타깃 점검 후보</td>
-              </tr>
+              <tr><td class="campaign-name">광고비</td><td>4,877,850원</td><td>3,138,992원</td><td>Instagram이 더 많이 집행</td></tr>
+              <tr><td class="campaign-name">클릭</td><td>24,737</td><td>9,771</td><td>Instagram 우세</td></tr>
+              <tr><td class="campaign-name">랜딩 조회</td><td>3,424</td><td>6,378</td><td>Facebook 우세, 단 상담 연결 약함</td></tr>
+              <tr><td class="campaign-name">직접 상담</td><td>26</td><td>2</td><td>Instagram 압도</td></tr>
+              <tr><td class="campaign-name">심사 이상</td><td>4</td><td>1</td><td>Instagram 우세</td></tr>
+              <tr><td class="campaign-name">출고/계약급</td><td>1</td><td>0</td><td>Instagram만 확인</td></tr>
+              <tr><td class="campaign-name">상담 1건당 비용</td><td>187,610원</td><td>1,569,496원</td><td>Instagram 약 8.4배 효율</td></tr>
+              <tr><td class="campaign-name">심사 이상 1건당 비용</td><td>1,219,463원</td><td>3,138,992원</td><td>Instagram 약 2.6배 효율</td></tr>
             </tbody>
           </table>
         </section>
       </section>
 
       <section>
-        <h2 class="section-title">active 4개 캠페인 효율</h2>
-        <section class="panel">
-          <table class="rank-table">
-            <thead>
-              <tr>
-                <th>구분</th>
-                <th>집행 비용</th>
-                <th>링크 클릭</th>
-                <th>랜딩 조회</th>
-                <th>CPC</th>
-                <th>랜딩 조회당 비용</th>
-                <th>해석</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="campaign-name">선납금 없이 구독</td>
-                <td>90,928원</td>
-                <td>901</td>
-                <td>782</td>
-                <td>101원</td>
-                <td>116원</td>
-                <td>가장 효율 좋음. 증액 테스트 1순위</td>
-              </tr>
-              <tr>
-                <td class="campaign-name">차는 이제 구독 A</td>
-                <td>210,186원</td>
-                <td>1,015</td>
-                <td>937</td>
-                <td>207원</td>
-                <td>224원</td>
-                <td>랜딩 조회 규모 1위. 유지/확장 후보</td>
-              </tr>
-              <tr>
-                <td class="campaign-name">차는 이제 구독 B</td>
-                <td>210,928원</td>
-                <td>978</td>
-                <td>865</td>
-                <td>216원</td>
-                <td>244원</td>
-                <td>규모는 있으나 효율 개선 필요</td>
-              </tr>
-              <tr>
-                <td class="campaign-name">차는 이제 구독 C</td>
-                <td>210,289원</td>
-                <td>945</td>
-                <td>840</td>
-                <td>223원</td>
-                <td>250원</td>
-                <td>4개 중 랜딩 조회당 비용이 가장 높음</td>
-              </tr>
-            </tbody>
-          </table>
-        </section>
-      </section>
-
-      <section>
-        <h2 class="section-title">상담/계약 데이터와 붙일 때 볼 지표</h2>
+        <h2 class="section-title">소재/차량 인사이트와 주의사항</h2>
         <div class="grid channel-grid">
           <article class="panel">
-            <p class="callout-title">실효성 판단 공식</p>
+            <p class="callout-title">다음 집행 방향</p>
             <ul class="simple-list">
-              <li><span>상담 전환율</span><strong>상담 수 / 링크 클릭</strong></li>
-              <li><span>랜딩 후 상담 전환율</span><strong>상담 수 / 랜딩 페이지 조회</strong></li>
-              <li><span>계약 전환율</span><strong>계약 수 / 상담 수</strong></li>
-              <li><span>계약당 광고비</span><strong>광고비 / 계약 수</strong></li>
+              <li><span>Instagram</span><strong>유지 + 10~20% 증액 테스트</strong></li>
+              <li><span>Facebook</span><strong>BMW 소재만 저예산 보조/리타게팅 운영</strong></li>
+              <li><span>차량 후킹</span><strong>EQE350+, EQA250, 모델 3, i4 중심</strong></li>
+              <li><span>평가 기준</span><strong>클릭보다 상담당 비용, 심사 이상당 비용</strong></li>
             </ul>
           </article>
 
           <article class="panel">
-            <p class="callout-title">다음 작업</p>
+            <p class="callout-title">데이터 해석 주의</p>
             <ul class="simple-list">
-              <li><span>1단계</span><strong>Slack 상담 채널 1월~5월 원본 export 확보</strong></li>
-              <li><span>2단계</span><strong>상담일 기준으로 광고 집행일과 매칭</strong></li>
-              <li><span>3단계</span><strong>문의 차량/계약 여부를 소재 가설과 연결</strong></li>
-              <li><span>4단계</span><strong>상담/계약 기준으로 예산 재배분</strong></li>
+              <li><span>APP/unknown</span><strong>광고 유입 UTM이 유실됐을 가능성</strong></li>
+              <li><span>Facebook 원본</span><strong>실제 광고계정명은 Ev Modu</strong></li>
+              <li><span>Instagram 과거 캠페인</span><strong>inactive 구간 랜딩 조회 누락</strong></li>
+              <li><span>계약 판정</span><strong>Slack 댓글 자동 분류라 최종 확인 필요</strong></li>
             </ul>
           </article>
         </div>
