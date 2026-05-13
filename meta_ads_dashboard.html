@@ -1287,6 +1287,16 @@
             <div class="value">9,802</div>
             <div class="sub">Instagram 과거 캠페인 일부 누락 주의</div>
           </article>
+          <article class="card summary-card">
+            <div class="label">Slack 상담 문의</div>
+            <div class="value">158</div>
+            <div class="sub">중복 제외 문의 기준</div>
+          </article>
+          <article class="card summary-card">
+            <div class="label">심사/계약 신호</div>
+            <div class="value">35</div>
+            <div class="sub">medium 30 + high 5</div>
+          </article>
         </div>
       </section>
 
@@ -1338,6 +1348,93 @@
             <p class="creative-copy">최종 목적은 “클릭이 싼 광고”가 아니라 “상담과 계약을 만든 광고”를 찾는 것입니다. 따라서 Slack `차량구독신청_상담관리` 채널의 상담 인입일, 문의 차량, 계약 여부와 결합해야 예산 재배분 판단이 가능합니다.</p>
           </article>
         </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Slack 상담/계약 신호 기준 실효성</h2>
+        <div class="grid compare-grid">
+          <article class="panel">
+            <span class="card-label good">광고는 상담으로 이어졌다</span>
+            <div class="value">다만 계약급 신호는 아직 소수라 추적 고도화가 필요하다</div>
+            <p class="creative-copy">Slack `차량구독신청_상담관리` 채널의 2026년 1월 이후 문의 172건을 가져와 같은 날 같은 고객/차량 중복을 제거하니 158건입니다. 댓글 기준으로 출고/계약급 high 신호는 5건, 심사/진행 medium 신호는 30건입니다.</p>
+            <div class="channel-compare">
+              <p class="callout-title">유입경로가 명시된 광고 상담</p>
+              <div class="compare-row">
+                <span class="compare-label">문의 수</span>
+                <div class="compare-bars">
+                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>26건</strong></div>
+                  <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:8%;"></i></span><strong>2건</strong></div>
+                </div>
+              </div>
+              <div class="compare-row">
+                <span class="compare-label">심사 이상</span>
+                <div class="compare-bars">
+                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>4건</strong></div>
+                  <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:25%;"></i></span><strong>1건</strong></div>
+                </div>
+              </div>
+              <div class="compare-row">
+                <span class="compare-label">출고/계약급</span>
+                <div class="compare-bars">
+                  <div class="compare-bar"><span>Instagram</span><span class="compare-track"><i class="compare-fill instagram" style="width:100%;"></i></span><strong>1건</strong></div>
+                  <div class="compare-bar"><span>Facebook</span><span class="compare-track"><i class="compare-fill" style="width:0%;"></i></span><strong>0건</strong></div>
+                </div>
+              </div>
+            </div>
+            <p class="data-note">주의: Slack 유입경로가 APP/unknown인 문의에도 high 신호 4건이 있습니다. 광고 클릭 후 앱/웹을 거치며 유입경로가 APP/undefined로 바뀐 건일 수 있어, 현재 수치는 “광고 직접 표기 기준”으로 보수적으로 해석해야 합니다.</p>
+          </article>
+
+          <article class="panel">
+            <span class="card-label neutral">실효성 판단</span>
+            <div class="value">Instagram은 상담 유입 채널로 우선 검증됐다</div>
+            <ul class="simple-list">
+              <li><span>Instagram 직접 유입</span><strong>26건 / 심사 이상 4건 / high 1건</strong></li>
+              <li><span>Facebook 직접 유입</span><strong>2건 / 심사 이상 1건 / high 0건</strong></li>
+              <li><span>APP 유입</span><strong>79건 / 심사 이상 17건 / high 3건</strong></li>
+              <li><span>문의 차량 상위</span><strong>EQE350+, EQA250, 모델 3, i4</strong></li>
+            </ul>
+            <p class="creative-copy">따라서 광고 예산은 Instagram 중심으로 유지하되, Facebook은 독립 성과 채널로 크게 증액하기보다 Meta 학습/리타게팅/35세 이상 보조 지면으로 쓰는 방향이 안전합니다.</p>
+          </article>
+        </div>
+
+        <section class="panel" style="margin-top:14px;">
+          <table class="rank-table">
+            <thead>
+              <tr>
+                <th>채널</th>
+                <th>광고비</th>
+                <th>랜딩 조회</th>
+                <th>직접 유입 문의</th>
+                <th>문의당 광고비</th>
+                <th>심사 이상</th>
+                <th>심사 이상당 광고비</th>
+                <th>해석</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="campaign-name">Instagram</td>
+                <td>4,877,850원</td>
+                <td>3,424</td>
+                <td>26</td>
+                <td>187,610원</td>
+                <td>4</td>
+                <td>1,219,463원</td>
+                <td>상담 유입은 가장 명확. 다만 계약급 전환 추적 보강 필요</td>
+              </tr>
+              <tr>
+                <td class="campaign-name">Facebook / Ev Modu</td>
+                <td>3,138,992원</td>
+                <td>6,378</td>
+                <td>2</td>
+                <td>1,569,496원</td>
+                <td>1</td>
+                <td>3,138,992원</td>
+                <td>랜딩은 많지만 Slack 직접 유입 표기는 약함. 보조 채널로 해석</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
       </section>
 
       <section>
