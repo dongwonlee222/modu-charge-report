@@ -1,5 +1,5 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-05-19T23:46:48",
+  "generatedAt": "2026-05-20T00:56:03",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
@@ -64595,6 +64595,42 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "inquiries": 1,
         "medium_or_high_signals": 0,
         "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-14",
+        "source": "instagram",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-18",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-20",
+        "source": "instagram",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-20",
+        "source": "unknown",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       }
     ],
     "monthly": [
@@ -65082,7 +65118,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 5,
         "source": "imweb",
-        "inquiries": 1,
+        "inquiries": 2,
         "medium_or_high_signals": 0,
         "high_signals": 0
       },
@@ -65090,7 +65126,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 5,
         "source": "instagram",
-        "inquiries": 2,
+        "inquiries": 4,
         "medium_or_high_signals": 0,
         "high_signals": 0
       },
@@ -65098,7 +65134,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 5,
         "source": "unknown",
-        "inquiries": 2,
+        "inquiries": 3,
         "medium_or_high_signals": 1,
         "high_signals": 0
       }
@@ -72214,11 +72250,63 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "contract_status": "계약미확인",
         "contract_signal": "none",
         "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-14",
+        "source": "instagram",
+        "vehicle_model": "i4",
+        "vehicle_trim": "eDrive40M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-18",
+        "source": "imweb",
+        "vehicle_model": "E-클래스",
+        "vehicle_trim": "E250 익스클루시브",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-20",
+        "source": "instagram",
+        "vehicle_model": "EQE350+",
+        "vehicle_trim": "",
+        "subscription_period": "2년 (24개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-20",
+        "source": "unknown",
+        "vehicle_model": "5 시리즈",
+        "vehicle_trim": "520i M 스포츠",
+        "subscription_period": "1년 (12개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "reply_count": 0
       }
     ],
     "sourceFreshness": {
       "first_date": "2025-06-05",
-      "latest_date": "2026-05-13"
+      "latest_date": "2026-05-20"
     }
   },
   "creatives": {

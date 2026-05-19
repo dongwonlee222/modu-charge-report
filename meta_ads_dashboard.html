@@ -136,6 +136,25 @@
       min-width: 0;
     }
 
+    .source-box {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fbfdf9;
+    }
+
+    .source-box p {
+      margin: 0;
+      color: var(--text);
+      font-size: 13px;
+      line-height: 1.7;
+    }
+
+    .source-box strong {
+      color: var(--accent-deep);
+    }
+
     .filter-field label {
       display: block;
       margin-bottom: 6px;
@@ -1069,6 +1088,7 @@
         </div>
         <p class="data-note" id="monthlyFilterNote"></p>
         <p class="data-note" id="monthlySourceNote"></p>
+        <div class="source-box" id="monthlyDataSourceBox"></div>
       </section>
 
       <section>
@@ -2322,6 +2342,17 @@
       });
     }
 
+    function renderMonthlyDataSourceBox() {
+      const adRange = monthlyPayload.requestedRange || {};
+      const consultationFreshness = (monthlyPayload.consultations || {}).sourceFreshness || {};
+      const creativeCount = (monthlyPayload.creatives?.ads || []).length;
+      const generatedAt = monthlyPayload.generatedAt ? monthlyPayload.generatedAt.replace("T", " ") : "-";
+      document.getElementById("monthlyDataSourceBox").innerHTML = `
+        <p><strong>데이터 출처</strong> Meta Graph API 광고 성과(${adRange.since || "-"}~${adRange.until || "-"}) + Slack 차량구독 상담 알림(${consultationFreshness.first_date || "-"}~${consultationFreshness.latest_date || "-"}) + Meta Creative API 소재 ${formatNumber(creativeCount, 0)}건을 조합했습니다.</p>
+        <p><strong>갱신 기준</strong> 대시보드 데이터 생성 ${generatedAt}. 상담 개인정보는 마스킹된 CSV 기준이며, 상담 상태는 Slack thread 댓글의 상태 신호를 함께 반영합니다.</p>
+      `;
+    }
+
     function updateMonthlyTracking() {
       const state = selectedMonthlyState();
       const dailyRows = filterMonthlyRows(monthlyPayload.daily || [], state);
@@ -2339,6 +2370,7 @@
         monthlyPayload.sourceType === "meta_graph_api"
           ? `Meta API 요청 범위: ${monthlyPayload.requestedRange?.since || "-"}~${monthlyPayload.requestedRange?.until || "-"}입니다. 단, 성과가 없는 날짜는 API 응답 row가 없어 표시되지 않습니다.`
           : "로컬 CSV export 기준 데이터입니다.";
+      renderMonthlyDataSourceBox();
 
       renderMonthlyStatus(state, dailyRows, campaignRows, firstDate, latestDate);
       renderMonthlyShareCharts(dailyRows, audienceRows);
