@@ -3261,13 +3261,16 @@
     const caution = [...campaigns].sort((a, b) => (b.spend * b.cpc) - (a.spend * a.cpc))[0];
 
     function renderMeta() {
-      const start = daily.length ? daily[0].date : "-";
-      const end = daily.length ? daily[daily.length - 1].date : "-";
+      const adRange = monthlyPayload.requestedRange || {};
+      const adFreshness = monthlyPayload.sourceFreshness || [];
+      const consultationFreshness = (monthlyPayload.consultations || {}).sourceFreshness || {};
+      const creativeCount = (monthlyPayload.creatives?.ads || []).length;
+      const mediaRanges = adFreshness.map((row) => `${mediaShort(row.media)} ${row.first_date}~${row.latest_date}`).join(" / ");
       document.getElementById("metaBox").innerHTML = `
-        <strong>분석 기간</strong> ${start} ~ ${end}<br />
-        <strong>기준 시작일</strong> ${summary.analysisStartDate || start} 이후 데이터만 반영<br />
-        <strong>광고 수</strong> ${summary.campaignCount || 0}개 / <strong>일수</strong> ${summary.dateCount || 0}일<br />
-        <strong>판단 기준</strong> 랜딩 페이지 조회당 비용, 랜딩 페이지 조회 수, 클릭 대비 랜딩 페이지 조회율을 우선으로 봄
+        <strong>광고 데이터</strong> Meta Graph API ${adRange.since || "-"}~${adRange.until || "-"} 요청 / ${mediaRanges || "매체별 기준일 없음"}<br />
+        <strong>상담 데이터</strong> Slack 차량구독 상담 알림 ${consultationFreshness.first_date || "-"}~${consultationFreshness.latest_date || "-"} 기준<br />
+        <strong>소재 데이터</strong> Meta Creative API 소재 ${formatNumber(creativeCount, 0)}건 연결<br />
+        <strong>갱신 기준</strong> ${monthlyPayload.generatedAt ? monthlyPayload.generatedAt.replace("T", " ") : "-"} 생성 데이터
       `;
     }
 
