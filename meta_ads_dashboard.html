@@ -4,6 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>모두의충전 차량구독 메타 광고 대시보드</title>
+  <script src="./chart.umd.js"></script>
+  <script src="./meta_ads_monthly_tracking_data.js"></script>
   <script src="./meta_ads_dashboard_data.js"></script>
   <style>
     :root {
@@ -112,6 +114,215 @@
 
     .tab-panel.active {
       display: block;
+    }
+
+    .tracking-intro {
+      margin-top: 24px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: #fff;
+    }
+
+    .filter-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    .filter-field {
+      flex: 1 1 160px;
+      min-width: 0;
+    }
+
+    .filter-field label {
+      display: block;
+      margin-bottom: 6px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .filter-field select {
+      width: 100%;
+      min-width: 0;
+    }
+
+    .chart-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .doughnut-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .chart-canvas-wrap {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      min-width: 0;
+    }
+
+    .chart-frame {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      margin-top: 8px;
+      overflow: hidden;
+    }
+
+    .chart-frame.short {
+      height: 260px;
+    }
+
+    .chart-frame.doughnut {
+      height: 230px;
+    }
+
+    .chart-with-list {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(190px, 0.72fr);
+      gap: 14px;
+      align-items: center;
+    }
+
+    .chart-frame canvas {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .chart-legend {
+      display: flex;
+      gap: 14px;
+      flex-wrap: wrap;
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .side-list {
+      display: grid;
+      gap: 8px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .side-list li {
+      display: grid;
+      grid-template-columns: 10px minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+      font-size: 12px;
+      color: var(--text);
+    }
+
+    .side-dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 999px;
+    }
+
+    .foldout {
+      margin-top: 22px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+      overflow: hidden;
+    }
+
+    .foldout summary {
+      cursor: pointer;
+      padding: 16px 18px;
+      font-weight: 800;
+      list-style: none;
+    }
+
+    .foldout summary::-webkit-details-marker {
+      display: none;
+    }
+
+    .foldout summary::after {
+      content: "열기";
+      float: right;
+      color: var(--accent);
+      font-size: 12px;
+    }
+
+    .foldout[open] summary::after {
+      content: "닫기";
+    }
+
+    .foldout-body {
+      padding: 0 18px 18px;
+    }
+
+    .legend-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 5px;
+      border-radius: 50%;
+      background: var(--accent);
+    }
+
+    .legend-dot.instagram,
+    .legend-dot.lpv {
+      background: #d97706;
+    }
+
+    .legend-dot.click {
+      background: #2563eb;
+    }
+
+    .campaign-row {
+      cursor: pointer;
+    }
+
+    .campaign-row:hover {
+      background: #f5faf5;
+    }
+
+    .campaign-detail-row {
+      display: none;
+    }
+
+    .campaign-detail-row.open {
+      display: table-row;
+    }
+
+    .detail-box {
+      display: grid;
+      grid-template-columns: minmax(220px, 0.8fr) 1.2fr;
+      gap: 16px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fbfdf9;
+    }
+
+    .creative-placeholder {
+      display: grid;
+      min-height: 170px;
+      place-items: center;
+      border: 1px dashed #b8c4b9;
+      border-radius: 14px;
+      color: var(--muted);
+      background: #fff;
+      text-align: center;
+      font-size: 13px;
+      line-height: 1.6;
+      padding: 16px;
     }
 
     .grid {
@@ -725,6 +936,19 @@
       color: var(--warn-ink);
     }
 
+    .recommend-sticker {
+      display: inline-flex;
+      align-items: center;
+      margin-bottom: 4px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: #fff3d6;
+      color: #92400e;
+      border: 1px solid #f4c56a;
+      font-size: 11px;
+      font-weight: 900;
+    }
+
     .notes {
       margin: 0;
       padding-left: 18px;
@@ -777,7 +1001,11 @@
 
       .mini-grid,
       .split-list,
-      .cost-strip {
+      .cost-strip,
+      .doughnut-grid,
+      .chart-grid,
+      .chart-with-list,
+      .detail-box {
         grid-template-columns: 1fr;
       }
 
@@ -805,11 +1033,232 @@
     <div class="meta" id="metaBox"></div>
 
     <nav class="tabs" aria-label="광고 분석 탭">
-      <button class="tab-button active" type="button" data-tab-target="creativeAnalysis">소재별 광고 분석</button>
-      <button class="tab-button" type="button" data-tab-target="instagramLongRange">광고 실효성 분석</button>
+      <button class="tab-button active" type="button" data-tab-target="monthlyMediaTracking">월별 매체 추적</button>
+      <button class="tab-button" type="button" data-tab-target="creativeAnalysis">소재별 광고 분석</button>
+      <button class="tab-button" type="button" data-tab-target="instagramLongRange">1월~5월 Meta 실효성</button>
     </nav>
 
-    <div class="tab-panel active" id="creativeAnalysis">
+    <div class="tab-panel active" id="monthlyMediaTracking">
+      <section class="tracking-intro">
+        <h2 class="section-title" style="margin-top:0;">월별 매체 추적</h2>
+        <p class="creative-copy">선택한 월 기준으로 광고비, 클릭, 랜딩조회, 캠페인 효율을 확인합니다. 현재 달은 데이터가 들어온 최신일까지 반영하며, 기준 기간은 아래에 표시됩니다.</p>
+        <div class="filter-row" aria-label="월별 광고 추적 필터">
+          <div class="filter-field">
+            <label for="monthlyYear">년도</label>
+            <select id="monthlyYear"></select>
+          </div>
+          <div class="filter-field">
+            <label for="monthlyMonth">월</label>
+            <select id="monthlyMonth"></select>
+          </div>
+          <div class="filter-field">
+            <label for="monthlyMedia">매체</label>
+            <select id="monthlyMedia">
+              <option value="all">전체</option>
+              <option value="Facebook">Facebook</option>
+              <option value="Instagram">Instagram</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="monthlySort">정렬</label>
+            <select id="monthlySort">
+              <option value="spend">광고비 높은순</option>
+              <option value="clicks">클릭 많은순</option>
+            </select>
+          </div>
+        </div>
+        <p class="data-note" id="monthlyFilterNote"></p>
+        <p class="data-note" id="monthlySourceNote"></p>
+      </section>
+
+      <section>
+        <h2 class="section-title">현재 월 집행 상태</h2>
+        <p class="creative-copy">선택한 월에 실제 비용이 발생했는지 확인합니다.</p>
+        <div class="grid summary-grid" id="monthlyStatusGrid"></div>
+      </section>
+
+      <section>
+        <h2 class="section-title">매체별 타깃 반응</h2>
+        <p class="creative-copy">성별은 비중으로, 나이대는 막대로 봅니다. 개인 정보가 아니라 Meta가 제공하는 연령/성별 집계 기준입니다.</p>
+        <div class="doughnut-grid">
+          <article class="chart-canvas-wrap">
+            <p class="callout-title">성별 비중</p>
+            <div class="chart-frame doughnut">
+              <canvas id="monthlyGenderPercentChart" aria-label="매체별 성별 비중 차트"></canvas>
+            </div>
+          </article>
+          <article class="chart-canvas-wrap">
+            <p class="callout-title">나이대 반응</p>
+            <div class="chart-frame doughnut">
+              <canvas id="monthlyAgeChart" aria-label="매체별 나이대 반응 차트"></canvas>
+            </div>
+          </article>
+        </div>
+        <p class="data-note" id="monthlyShareNote"></p>
+      </section>
+
+      <section>
+        <h2 class="section-title">날짜별 광고비 및 효과</h2>
+        <p class="creative-copy" id="monthlyChartCopy"></p>
+        <article class="chart-canvas-wrap">
+          <p class="callout-title">날짜별 광고비</p>
+          <div class="chart-frame">
+            <canvas id="monthlyMetricChart" aria-label="날짜별 선택 지표 차트"></canvas>
+          </div>
+          <div class="chart-legend"><span><i class="legend-dot"></i>Facebook</span><span><i class="legend-dot instagram"></i>Instagram</span></div>
+        </article>
+        <p class="data-note" id="monthlyChartFallback"></p>
+      </section>
+
+      <details class="foldout">
+        <summary id="monthlyDailySummary">날짜별 상세 데이터</summary>
+        <div class="foldout-body">
+        <p class="creative-copy" id="monthlyDailyCopy">일자별로 광고비, 노출, 클릭, 랜딩조회가 어떻게 움직였는지 확인합니다. 필요할 때만 열어서 보면 됩니다.</p>
+        <table class="rank-table">
+          <thead>
+            <tr>
+              <th id="monthlyDailyPeriodHeader">날짜</th>
+              <th>매체</th>
+              <th>광고비</th>
+              <th>노출</th>
+              <th>클릭</th>
+              <th>랜딩조회</th>
+            </tr>
+          </thead>
+          <tbody id="monthlyDailyBody"></tbody>
+        </table>
+        </div>
+      </details>
+
+      <section>
+        <h2 class="section-title">상담 신청 추이</h2>
+        <p class="creative-copy">상담 신청이 언제 들어왔고 어떤 차량 문의였는지 확인합니다. 막대는 날짜별 신청 건수이고, 아래 표에서 차량 모델과 상담 상태를 봅니다.</p>
+        <div class="grid summary-grid" id="monthlyConsultationCards"></div>
+        <article class="chart-canvas-wrap" style="margin-top:12px;">
+          <p class="callout-title">유입별 상담 신청</p>
+          <div class="chart-with-list">
+            <div class="chart-frame doughnut">
+              <canvas id="monthlyConsultationSourceChart" aria-label="유입별 상담 신청 차트"></canvas>
+            </div>
+            <ul class="side-list" id="monthlyConsultationSourceList"></ul>
+          </div>
+        </article>
+        <article class="chart-canvas-wrap" style="margin-top:12px;">
+          <p class="callout-title" id="monthlyConsultationDateTitle">날짜별 상담 신청</p>
+          <div class="chart-frame short">
+            <canvas id="monthlyConsultationDateChart" aria-label="날짜별 상담 신청 건수 차트"></canvas>
+          </div>
+        </article>
+        <article class="chart-canvas-wrap" style="margin-top:12px;">
+          <p class="callout-title">상담 차량별 건수</p>
+          <div class="chart-with-list">
+            <div class="chart-frame doughnut">
+              <canvas id="monthlyConsultationVehicleChart" aria-label="상담 차량별 건수 차트"></canvas>
+            </div>
+            <ul class="side-list" id="monthlyConsultationVehicleList"></ul>
+          </div>
+        </article>
+        <p class="data-note" id="monthlyConsultationNote"></p>
+        <details class="foldout">
+          <summary>상담 신청 리스트</summary>
+          <div class="foldout-body">
+            <table class="rank-table">
+              <thead>
+                <tr>
+                  <th>기간</th>
+                  <th>유입</th>
+                  <th>차량</th>
+                  <th>구독 기간</th>
+                  <th>상담 상태</th>
+                  <th>신호</th>
+                </tr>
+              </thead>
+              <tbody id="monthlyConsultationDetailBody"></tbody>
+            </table>
+          </div>
+        </details>
+      </section>
+
+      <section>
+        <h2 class="section-title" id="monthlyMediaTitle">매체별 월간 성과 비교</h2>
+        <p class="creative-copy" id="monthlyMediaCopy">같은 월 안에서 Facebook과 Instagram의 집행 규모와 효율을 비교합니다. 클릭은 광고 반응, 랜딩조회는 실제 페이지 도달에 가까운 지표입니다.</p>
+        <table class="rank-table">
+          <thead>
+            <tr>
+              <th>매체</th>
+              <th>광고비</th>
+              <th>노출</th>
+              <th>클릭</th>
+              <th>랜딩조회</th>
+              <th>CPC</th>
+              <th>LPV 비용</th>
+              <th>이전 기간 대비 광고비</th>
+              <th>이전 기간 대비 클릭</th>
+            </tr>
+          </thead>
+          <tbody id="monthlyMediaBody"></tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2 class="section-title">캠페인별 핵심 사용층 비교</h2>
+        <p class="creative-copy">매체 전체 평균이 아니라 캠페인별로 가장 반응이 큰 연령/성별을 보여줍니다. 어떤 캠페인이 누구에게 먹혔는지 비교하기 위한 표입니다.</p>
+        <table class="rank-table">
+          <thead>
+            <tr>
+              <th>매체</th>
+              <th>캠페인</th>
+              <th>사용층</th>
+              <th>광고비</th>
+              <th>클릭</th>
+              <th>랜딩조회</th>
+              <th>CPC</th>
+              <th>LPV 비용</th>
+              <th>판단</th>
+            </tr>
+          </thead>
+          <tbody id="monthlyAudienceBody"></tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2 class="section-title">전체 캠페인 성과 순위</h2>
+        <p class="creative-copy">성과 순위 표는 광고비 높은순을 기본으로 봅니다. 효율 기준 상위 캠페인은 캠페인명 위에 추천 스티커로 표시합니다.</p>
+        <table class="rank-table">
+          <thead>
+            <tr>
+              <th>순위</th>
+              <th>매체</th>
+              <th>캠페인명</th>
+              <th>광고비</th>
+              <th>랜딩조회</th>
+              <th>CPC</th>
+              <th>LPV 비용</th>
+              <th>핵심 사용층</th>
+              <th>판단</th>
+            </tr>
+          </thead>
+          <tbody id="monthlyCampaignBody"></tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2 class="section-title" id="monthlyInsightTitle">기간 인사이트</h2>
+        <div class="grid summary-grid" id="monthlyInsightCards"></div>
+        <article class="panel" style="margin-top:12px;">
+          <p class="creative-copy" id="monthlyInsightNote"></p>
+        </article>
+      </section>
+
+      <section>
+        <h2 class="section-title">상태 안내</h2>
+        <article class="panel">
+          <p class="creative-copy" id="monthlyStatusNote"></p>
+        </article>
+      </section>
+    </div>
+
+    <div class="tab-panel" id="creativeAnalysis">
     <section>
       <h2 class="section-title">전체 광고 Summary</h2>
       <div class="grid summary-grid" id="overallSummaryGrid"></div>
@@ -1375,7 +1824,7 @@
 
     <div class="tab-panel" id="instagramLongRange">
       <section>
-        <h2 class="section-title">광고 실효성 분석</h2>
+        <h2 class="section-title">1월~5월 Meta 실효성</h2>
         <div class="grid summary-grid">
           <article class="card summary-card">
             <div class="label">분석 기간</div>
@@ -1554,10 +2003,22 @@
 
   <script>
     const payload = window.MODU_CHARGE_META_ADS_DATA || { summary: {}, daily: [], campaigns: [], insights: {} };
+    const monthlyPayload = window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA || {
+      availableMonths: [],
+      sourceFreshness: [],
+      daily: [],
+      campaigns: [],
+      audience: [],
+      consultations: { daily: [], monthly: [], sourceFreshness: null },
+      creatives: { ads: [], byCampaign: {} },
+      notes: [],
+    };
+    const creativeByCampaign = monthlyPayload.creatives?.byCampaign || {};
     const summary = payload.summary || {};
     const daily = payload.daily || [];
     const campaigns = (payload.campaigns || []).slice();
     const colors = ["#165d4a", "#d97706", "#2563eb", "#7c3aed", "#e11d48"];
+    const monthlyCharts = {};
     const facebookManual = {
       spend: 622334,
       reach: 57833,
@@ -1572,6 +2033,15 @@
         minimumFractionDigits: digits,
         maximumFractionDigits: digits,
       });
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
     }
 
     function shortName(name, limit = 40) {
@@ -1591,6 +2061,1128 @@
     function safeRatio(numerator, denominator) {
       if (!denominator) return 0;
       return numerator / denominator;
+    }
+
+    function metricLabel(metric) {
+      return {
+        spend: "광고비",
+        link_clicks: "클릭",
+        landing_page_views: "랜딩조회",
+      }[metric] || "광고비";
+    }
+
+    function metricValue(row, metric) {
+      return Number(row[metric] || 0);
+    }
+
+    function metricDisplay(value, metric) {
+      if (metric === "spend") return `${formatNumber(value, 0)}원`;
+      return formatNumber(value, 0);
+    }
+
+    function groupRows(rows, keys, sums) {
+      const map = new Map();
+      rows.forEach((row) => {
+        const key = keys.map((name) => row[name]).join("||");
+        if (!map.has(key)) {
+          const base = {};
+          keys.forEach((name) => {
+            base[name] = row[name];
+          });
+          sums.forEach((name) => {
+            base[name] = 0;
+          });
+          map.set(key, base);
+        }
+        const target = map.get(key);
+        sums.forEach((name) => {
+          target[name] += Number(row[name] || 0);
+        });
+      });
+      return Array.from(map.values());
+    }
+
+    function addClientMetrics(row) {
+      row.cpc = safeRatio(row.spend, row.link_clicks);
+      row.cost_per_lpv = safeRatio(row.spend, row.landing_page_views);
+      row.lpv_rate = safeRatio(row.landing_page_views * 100, row.link_clicks);
+      return row;
+    }
+
+    function normalizeCampaignName(name) {
+      return String(name || "").replace(/\s+/g, " ").trim();
+    }
+
+    function campaignGroupKey(row) {
+      return `${row.media || ""}||${normalizeCampaignName(row.campaign) || row.campaign_id || ""}`;
+    }
+
+    function audienceLabel(row) {
+      const age = row.age === "unknown" ? "연령 미상" : row.age;
+      const gender = row.gender === "male" ? "남성" : row.gender === "female" ? "여성" : "성별 미상";
+      return `${age} ${gender}`;
+    }
+
+    function campaignCoreAudienceMap(audienceRows) {
+      const basis = "link_clicks";
+      const rows = groupRows(audienceRows, ["media", "campaign", "age", "gender"], [basis])
+        .filter((row) => Number(row[basis] || 0) > 0)
+        .sort((a, b) => Number(b[basis] || 0) - Number(a[basis] || 0));
+      const map = new Map();
+      rows.forEach((row) => {
+        const key = campaignGroupKey(row);
+        if (!map.has(key)) map.set(key, audienceLabel(row));
+      });
+      return map;
+    }
+
+    function aggregateCampaignRows(campaignRows, audienceRows, state) {
+      if (state.month !== "all") return campaignRows;
+      const coreByCampaign = campaignCoreAudienceMap(audienceRows);
+      const map = new Map();
+      campaignRows.forEach((row) => {
+        const key = campaignGroupKey(row);
+        if (!map.has(key)) {
+          map.set(key, {
+            ...row,
+            spend: 0,
+            impressions: 0,
+            reach: 0,
+            link_clicks: 0,
+            landing_page_views: 0,
+            first_date: row.first_date || "",
+            last_date: row.last_date || "",
+          });
+        }
+        const target = map.get(key);
+        target.spend += Number(row.spend || 0);
+        target.impressions += Number(row.impressions || 0);
+        target.reach += Number(row.reach || 0);
+        target.link_clicks += Number(row.link_clicks || 0);
+        target.landing_page_views += Number(row.landing_page_views || 0);
+        if (row.first_date && (!target.first_date || row.first_date < target.first_date)) target.first_date = row.first_date;
+        if (row.last_date && (!target.last_date || row.last_date > target.last_date)) target.last_date = row.last_date;
+      });
+      return Array.from(map.values()).map((row) => {
+        const aggregated = addClientMetrics(row);
+        aggregated.core_audience = coreByCampaign.get(campaignGroupKey(row)) || row.core_audience || "데이터 부족";
+        aggregated.judgment = monthlyJudgment(aggregated);
+        return aggregated;
+      });
+    }
+
+    function formatMoneyOrDash(value) {
+      return value ? `${formatNumber(value, 0)}원` : `<span class="muted">-</span>`;
+    }
+
+    function destroyMonthlyChart(id) {
+      if (monthlyCharts[id]) {
+        monthlyCharts[id].destroy();
+        monthlyCharts[id] = null;
+      }
+    }
+
+    function chartTick(value, metric) {
+      if (metric === "spend") {
+        if (value >= 10000) return `${formatNumber(value / 10000, 0)}만원`;
+        if (value >= 1000) return `${formatNumber(value / 1000, 0)}천원`;
+        return `${formatNumber(value, 0)}원`;
+      }
+      return formatNumber(value, 0);
+    }
+
+    function formatChange(current, previous, suffix = "") {
+      if (!previous && !current) return "-";
+      if (!previous) return "신규";
+      const diff = current - previous;
+      const percent = (diff / previous) * 100;
+      const sign = diff > 0 ? "+" : "";
+      return `${sign}${formatNumber(percent, 1)}%${suffix}`;
+    }
+
+    function previousMonthState(state) {
+      if (state.month > 1) return { ...state, month: state.month - 1 };
+      return { ...state, year: state.year - 1, month: 12 };
+    }
+
+    function previousPeriodState(state) {
+      return state.month === "all" ? { ...state, year: state.year - 1 } : previousMonthState(state);
+    }
+
+    function periodLabel(state) {
+      return state.month === "all" ? `${state.year}년 전체` : `${state.year}년 ${state.month}월`;
+    }
+
+    function periodUnitLabel(state) {
+      return state.month === "all" ? "월별" : "날짜별";
+    }
+
+    function monthlyJudgment(row) {
+      if (!Number(row.spend || 0)) return "점검 필요";
+      if (Number(row.landing_page_views || 0) >= 100 && Number(row.cost_per_lpv || 0) <= 250) return "효율 좋음";
+      if (Number(row.link_clicks || 0) >= 100 && Number(row.lpv_rate || 0) < 20) return "클릭은 많지만 랜딩조회 낮음";
+      return "유지 관찰";
+    }
+
+    function monthlyBadge(judgment) {
+      if (judgment === "효율 좋음") return "scale";
+      if (judgment === "점검 필요" || judgment === "클릭은 많지만 랜딩조회 낮음") return "caution";
+      return "keep";
+    }
+
+    function mediaShort(media) {
+      return media === "Instagram" ? "IG" : "FB";
+    }
+
+    function sourceFreshnessLabel(state, firstDate, latestDate) {
+      if (!firstDate || firstDate === "-") return "선택한 월에 표시할 데이터가 없습니다";
+      const selectedMedia = state.media === "all" ? ["Facebook", "Instagram"] : [state.media];
+      const monthRows = monthlyPayload.daily.filter((row) => (
+        Number(row.year) === state.year
+        && (state.month === "all" || Number(row.month) === state.month)
+        && selectedMedia.includes(row.media)
+      ));
+      const byMedia = groupRows(monthRows, ["media"], []);
+      const labels = byMedia.map((row) => {
+        const dates = monthRows.filter((item) => item.media === row.media).map((item) => item.date).sort();
+        return `${mediaShort(row.media)} ${dates[0]}~${dates[dates.length - 1]}`;
+      });
+      return labels.length > 1 ? labels.join(" / ") : `${firstDate}~${latestDate} 기준`;
+    }
+
+    function sortMonthlyCampaigns(rows, sortKey) {
+      const list = rows.slice();
+      if (sortKey === "spend") return list.sort((a, b) => b.spend - a.spend);
+      if (sortKey === "clicks") return list.sort((a, b) => b.link_clicks - a.link_clicks);
+      if (sortKey === "lpv") return list.sort((a, b) => b.landing_page_views - a.landing_page_views);
+      if (sortKey === "cpc") {
+        return list.sort((a, b) => {
+          if (!a.link_clicks && b.link_clicks) return 1;
+          if (a.link_clicks && !b.link_clicks) return -1;
+          return a.cpc - b.cpc;
+        });
+      }
+      return list.sort((a, b) => {
+        const aHas = a.landing_page_views > 0 ? 1 : 0;
+        const bHas = b.landing_page_views > 0 ? 1 : 0;
+        if (aHas !== bHas) return bHas - aHas;
+        if (a.cost_per_lpv !== b.cost_per_lpv) return a.cost_per_lpv - b.cost_per_lpv;
+        if (a.link_clicks !== b.link_clicks) return b.link_clicks - a.link_clicks;
+        return b.spend - a.spend;
+      });
+    }
+
+    function renderMonthlyTracking() {
+      const yearSelect = document.getElementById("monthlyYear");
+      const monthSelect = document.getElementById("monthlyMonth");
+      if (!yearSelect || !monthlyPayload.availableMonths.length) return;
+
+      const years = [...new Set(monthlyPayload.availableMonths.map((item) => item.year))].sort();
+      yearSelect.innerHTML = years.map((year) => `<option value="${year}">${year}</option>`).join("");
+      yearSelect.value = String(monthlyPayload.defaultYear || years[years.length - 1]);
+
+      function syncMonths() {
+        const selectedYear = Number(yearSelect.value);
+        const months = monthlyPayload.availableMonths
+          .filter((item) => item.year === selectedYear)
+          .map((item) => item.month)
+          .sort((a, b) => a - b);
+        monthSelect.innerHTML = `<option value="all">전체</option>${months.map((month) => `<option value="${month}">${month}월</option>`).join("")}`;
+        const defaultMonth = selectedYear === monthlyPayload.defaultYear ? monthlyPayload.defaultMonth : months[months.length - 1];
+        monthSelect.value = String(defaultMonth || months[months.length - 1]);
+      }
+
+      yearSelect.addEventListener("change", () => {
+        syncMonths();
+        updateMonthlyTracking();
+      });
+      ["monthlyMonth", "monthlyMedia", "monthlySort"].forEach((id) => {
+        document.getElementById(id).addEventListener("change", updateMonthlyTracking);
+      });
+
+      syncMonths();
+      updateMonthlyTracking();
+    }
+
+    function selectedMonthlyState() {
+      return {
+        year: Number(document.getElementById("monthlyYear").value),
+        month: document.getElementById("monthlyMonth").value === "all" ? "all" : Number(document.getElementById("monthlyMonth").value),
+        media: document.getElementById("monthlyMedia").value,
+        metric: "spend",
+        sort: document.getElementById("monthlySort").value,
+      };
+    }
+
+    function filterMonthlyRows(rows, state) {
+      return rows.filter((row) => {
+        const matchesMonth = Number(row.year) === state.year && (state.month === "all" || Number(row.month) === state.month);
+        const matchesMedia = state.media === "all" || row.media === state.media;
+        return matchesMonth && matchesMedia;
+      });
+    }
+
+    function updateMonthlyTracking() {
+      const state = selectedMonthlyState();
+      const dailyRows = filterMonthlyRows(monthlyPayload.daily || [], state);
+      const rawCampaignRows = filterMonthlyRows(monthlyPayload.campaigns || [], state).map((row) => addClientMetrics({ ...row }));
+      const audienceRows = filterMonthlyRows(monthlyPayload.audience || [], state).map((row) => addClientMetrics({ ...row }));
+      const campaignRows = aggregateCampaignRows(rawCampaignRows, audienceRows, state);
+      const dates = dailyRows.map((row) => row.date).sort();
+      const firstDate = dates[0] || "-";
+      const latestDate = dates[dates.length - 1] || "-";
+      const basis = sourceFreshnessLabel(state, firstDate, latestDate);
+
+      document.getElementById("monthlyFilterNote").textContent =
+        `${periodLabel(state)} ${state.media === "all" ? "전체 매체" : state.media} 데이터입니다. ${basis}. 필터를 바꾸면 아래 요약, 차트, 표가 함께 변경됩니다.`;
+      document.getElementById("monthlySourceNote").textContent =
+        monthlyPayload.sourceType === "meta_graph_api"
+          ? `Meta API 요청 범위: ${monthlyPayload.requestedRange?.since || "-"}~${monthlyPayload.requestedRange?.until || "-"}입니다. 단, 성과가 없는 날짜는 API 응답 row가 없어 표시되지 않습니다.`
+          : "로컬 CSV export 기준 데이터입니다.";
+
+      renderMonthlyStatus(state, dailyRows, campaignRows, firstDate, latestDate);
+      renderMonthlyShareCharts(dailyRows, audienceRows);
+      renderMonthlyChart(state, dailyRows);
+      renderMonthlyMediaComparison(state, dailyRows);
+      renderMonthlyAudienceComparison(audienceRows);
+      renderMonthlyCampaignRanking(campaignRows, state.sort);
+      renderMonthlyConsultations(state);
+      renderMonthlyDailyTable(dailyRows, state);
+      renderMonthlyInsights(state, dailyRows);
+      renderMonthlyStatusNote(state, dailyRows, campaignRows, firstDate, latestDate);
+    }
+
+    function renderMonthlyStatus(state, dailyRows, campaignRows, firstDate, latestDate) {
+      const totals = addClientMetrics({
+        spend: dailyRows.reduce((sum, row) => sum + Number(row.spend || 0), 0),
+        link_clicks: dailyRows.reduce((sum, row) => sum + Number(row.link_clicks || 0), 0),
+        landing_page_views: dailyRows.reduce((sum, row) => sum + Number(row.landing_page_views || 0), 0),
+      });
+      const latestSpend = dailyRows
+        .filter((row) => row.date === latestDate)
+        .reduce((sum, row) => sum + Number(row.spend || 0), 0);
+      const byMedia = groupRows(campaignRows.filter((row) => Number(row.spend || 0) > 0), ["media"], ["spend"]);
+      const runningLabel = byMedia.length
+        ? byMedia.map((row) => `${mediaShort(row.media)} ${formatNumber(row.spend, 0)}원`).join(" / ")
+        : "집행 없음";
+      const campaignCountLabel = groupRows(campaignRows.filter((row) => Number(row.spend || 0) > 0), ["media"], ["spend"])
+        .map((row) => `${mediaShort(row.media)} ${campaignRows.filter((item) => item.media === row.media && Number(item.spend || 0) > 0).length}개`)
+        .join(" / ") || "0개";
+      const zeroMedia = groupRows(dailyRows, ["media"], ["spend"])
+        .filter((row) => !Number(row.spend || 0))
+        .map((row) => row.media);
+      const zeroCampaignCount = campaignRows.filter((row) => !Number(row.spend || 0)).length;
+      const needsCheck = [
+        ...zeroMedia.map((media) => `${media} 지출 없음`),
+        ...(zeroCampaignCount ? [`지출 0 캠페인 ${zeroCampaignCount}개`] : []),
+      ];
+      const cards = [
+        ["조회 기간", periodLabel(state), sourceFreshnessLabel(state, firstDate, latestDate)],
+        ["총 광고비", `${formatNumber(totals.spend, 0)}원`, "선택 기간 기준 합계"],
+        ["데이터 최신일 지출", `${formatNumber(latestSpend, 0)}원`, latestDate === "-" ? "데이터 없음" : `${latestDate} 기준`],
+        ["집행 캠페인", campaignCountLabel, runningLabel],
+        ["확인 필요", needsCheck.length ? needsCheck.join(" / ") : "특이사항 없음", "선택 데이터 기준"],
+      ];
+      document.getElementById("monthlyStatusGrid").innerHTML = cards.map(([label, value, sub]) => `
+        <article class="card summary-card">
+          <div class="label">${label}</div>
+          <div class="value">${value}</div>
+          <div class="sub">${sub}</div>
+        </article>
+      `).join("");
+    }
+
+    function renderAgeChart(audienceRows, basis) {
+      destroyMonthlyChart("age");
+      const canvas = document.getElementById("monthlyAgeChart");
+      if (!canvas || typeof Chart === "undefined") return;
+      const context = canvas.getContext ? canvas.getContext("2d") : null;
+      if (!context) return;
+      const rows = groupRows(audienceRows, ["media", "age"], [basis]);
+      const ageOrder = ["18-24", "25-34", "35-44", "45-54", "55-64", "65+", "unknown"];
+      const labels = ageOrder.filter((age) => rows.some((row) => row.age === age));
+      const mediaLabels = [...new Set(rows.map((row) => row.media))].sort();
+      monthlyCharts.age = new Chart(context, {
+        type: "bar",
+        data: {
+          labels,
+          datasets: mediaLabels.map((media) => ({
+            label: media,
+            data: labels.map((age) => {
+              const found = rows.find((row) => row.media === media && row.age === age);
+              return found ? Number(found[basis] || 0) : 0;
+            }),
+            backgroundColor: media === "Instagram" ? "#d97706" : "#165d4a",
+            borderRadius: 6,
+            maxBarThickness: 34,
+          })),
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: "bottom" } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { beginAtZero: true, grid: { color: "rgba(100,112,103,0.16)" } },
+          },
+        },
+      });
+    }
+
+    function renderGenderPieChart(audienceRows, basis) {
+      destroyMonthlyChart("genderPercent");
+      const canvas = document.getElementById("monthlyGenderPercentChart");
+      if (!canvas || typeof Chart === "undefined") return;
+      const context = canvas.getContext ? canvas.getContext("2d") : null;
+      if (!context) return;
+      const rows = groupRows(audienceRows, ["gender"], [basis]);
+      const genderLabels = [
+        ["male", "남성", "#165d4a"],
+        ["female", "여성", "#d97706"],
+        ["unknown", "성별 미상", "#647067"],
+      ];
+      const labels = [];
+      const values = [];
+      const colors = [];
+      genderLabels.forEach(([gender, label, color]) => {
+        const found = rows.find((row) => row.gender === gender);
+        const value = found ? Number(found[basis] || 0) : 0;
+        if (value > 0) {
+          labels.push(label);
+          values.push(value);
+          colors.push(color);
+        }
+      });
+      monthlyCharts.genderPercent = new Chart(context, {
+        type: "doughnut",
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: colors,
+            borderColor: "#ffffff",
+            borderWidth: 3,
+          }],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: "58%",
+          plugins: {
+            legend: { position: "bottom" },
+            tooltip: {
+              callbacks: {
+                label: (context) => {
+                  const value = Number(context.parsed || 0);
+                  const total = context.dataset.data.reduce((sum, item) => sum + Number(item || 0), 0);
+                  const share = total ? (value / total) * 100 : 0;
+                  return `${context.label}: ${formatNumber(share, 1)}% (${formatNumber(value, 0)})`;
+                },
+              },
+            },
+          },
+        },
+      });
+    }
+
+    function renderMonthlyShareCharts(dailyRows, audienceRows) {
+      const basis = "link_clicks";
+      renderGenderPieChart(audienceRows, basis);
+      renderAgeChart(audienceRows, basis);
+      const totalReaction = audienceRows.reduce((sum, row) => sum + Number(row[basis] || 0), 0);
+      document.getElementById("monthlyShareNote").textContent =
+        totalReaction
+          ? "성별과 나이대는 클릭 기준입니다. 2025년 Instagram은 랜딩조회 breakdown이 4건뿐이라, 사용층 판단은 클릭 반응 기준이 더 안정적입니다."
+          : "선택한 조건에 표시할 타깃 반응 데이터가 없습니다.";
+    }
+
+    function displayPeriodKey(row, state) {
+      return state.month === "all" ? `${row.year}-${String(row.month).padStart(2, "0")}` : row.date;
+    }
+
+    function displayPeriodShort(row, state) {
+      return state.month === "all" ? `${row.month}월` : row.date.slice(5);
+    }
+
+    function renderMonthlyChart(state, dailyRows) {
+      const metric = state.metric;
+      const periodRows = dailyRows.map((row) => ({ ...row, period: displayPeriodKey(row, state), period_label: displayPeriodShort(row, state) }));
+      const rows = groupRows(periodRows, ["period", "period_label", "media"], [metric]).sort((a, b) => a.period.localeCompare(b.period) || a.media.localeCompare(b.media));
+      document.getElementById("monthlyChartCopy").textContent =
+        `${metricLabel(metric)}를 ${periodUnitLabel(state)}로 봅니다. 월을 전체로 선택하면 해당 연도 안에서 월별 합계로 표시됩니다.`;
+
+      destroyMonthlyChart("metric");
+      const metricCanvas = document.getElementById("monthlyMetricChart");
+      const chartFallback = document.getElementById("monthlyChartFallback");
+      if (chartFallback) chartFallback.textContent = "";
+      if (!rows.length) {
+        if (chartFallback) chartFallback.textContent = "선택한 조건에 표시할 날짜별 차트 데이터가 없습니다.";
+        return;
+      }
+      if (typeof Chart === "undefined") {
+        if (chartFallback) chartFallback.textContent = "Chart.js 파일을 불러오지 못했습니다. chart.umd.js 파일 위치를 확인해 주세요.";
+        return;
+      }
+      const metricContext = metricCanvas && metricCanvas.getContext ? metricCanvas.getContext("2d") : null;
+      if (!metricContext) {
+        if (chartFallback) chartFallback.textContent = "차트 영역을 찾지 못했습니다. 페이지를 새로고침한 뒤 다시 확인해 주세요.";
+        return;
+      }
+
+      const groupedByPeriod = groupRows(periodRows, ["period", "period_label"], [metric]).sort((a, b) => a.period.localeCompare(b.period));
+      const mediaMetricRows = groupRows(periodRows, ["period", "media"], [metric]);
+      const mediaMetricValue = (period, media) => {
+        const found = mediaMetricRows.find((row) => row.period === period && row.media === media);
+        return found ? metricValue(found, metric) : 0;
+      };
+      const activeMedia = state.media === "all" ? ["Facebook", "Instagram"] : [state.media];
+      const metricDatasets = activeMedia.map((media) => ({
+        label: media,
+        data: groupedByPeriod.map((row) => mediaMetricValue(row.period, media)),
+        borderColor: media === "Instagram" ? "#d97706" : "#165d4a",
+        backgroundColor: media === "Instagram" ? "rgba(217,119,6,0.16)" : "rgba(22,93,74,0.14)",
+        pointRadius: state.month === "all" ? 3 : 1.8,
+        pointHoverRadius: 5,
+        fill: true,
+        tension: 0.32,
+        borderWidth: 2.5,
+      }));
+
+      monthlyCharts.metric = new Chart(metricContext, {
+        type: "line",
+        data: {
+          labels: groupedByPeriod.map((row) => row.period_label),
+          datasets: metricDatasets,
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (context) => `${context.dataset.label} ${metricLabel(metric)}: ${metricDisplay(context.parsed.y, metric)}`,
+              },
+            },
+          },
+          scales: {
+            x: {
+              grid: { display: false },
+              ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: state.month === "all" ? 12 : 10 },
+            },
+            y: {
+              beginAtZero: true,
+              ticks: { callback: (value) => chartTick(value, metric) },
+              grid: { color: "rgba(100,112,103,0.16)" },
+            },
+          },
+        },
+      });
+
+    }
+
+    function renderMonthlyMediaComparison(state, dailyRows) {
+      document.getElementById("monthlyMediaTitle").textContent =
+        state.month === "all" ? "매체별 연간 성과 비교" : "매체별 월간 성과 비교";
+      document.getElementById("monthlyMediaCopy").textContent =
+        state.month === "all"
+          ? "선택한 연도 전체에서 Facebook과 Instagram의 집행 규모와 효율을 비교합니다. 월을 전체로 선택하면 연간 합계 기준으로 표시됩니다."
+          : "같은 월 안에서 Facebook과 Instagram의 집행 규모와 효율을 비교합니다. 클릭은 광고 반응, 랜딩조회는 실제 페이지 도달에 가까운 지표입니다.";
+      const rows = groupRows(dailyRows, ["media"], ["spend", "impressions", "link_clicks", "landing_page_views"]).map(addClientMetrics);
+      const prevRows = filterMonthlyRows(monthlyPayload.daily || [], previousPeriodState(state));
+      const prevByMedia = groupRows(prevRows, ["media"], ["spend", "link_clicks"]);
+      const prevValue = (media, key) => {
+        const found = prevByMedia.find((row) => row.media === media);
+        return found ? Number(found[key] || 0) : 0;
+      };
+      const total = addClientMetrics({
+        media: "합계",
+        spend: rows.reduce((sum, row) => sum + Number(row.spend || 0), 0),
+        impressions: rows.reduce((sum, row) => sum + Number(row.impressions || 0), 0),
+        link_clicks: rows.reduce((sum, row) => sum + Number(row.link_clicks || 0), 0),
+        landing_page_views: rows.reduce((sum, row) => sum + Number(row.landing_page_views || 0), 0),
+      });
+      const prevTotal = {
+        spend: prevRows.reduce((sum, row) => sum + Number(row.spend || 0), 0),
+        link_clicks: prevRows.reduce((sum, row) => sum + Number(row.link_clicks || 0), 0),
+      };
+      const renderRow = (row, isTotal = false) => `
+        <tr>
+          <td class="campaign-name">${isTotal ? "합계" : row.media}</td>
+          <td>${formatNumber(row.spend, 0)}원</td>
+          <td>${formatNumber(row.impressions, 0)}</td>
+          <td>${formatNumber(row.link_clicks, 0)}</td>
+          <td>${formatNumber(row.landing_page_views, 0)}</td>
+          <td>${formatMoneyOrDash(row.cpc)}</td>
+          <td>${formatMoneyOrDash(row.cost_per_lpv)}</td>
+          <td>${formatChange(row.spend, isTotal ? prevTotal.spend : prevValue(row.media, "spend"))}</td>
+          <td>${formatChange(row.link_clicks, isTotal ? prevTotal.link_clicks : prevValue(row.media, "link_clicks"))}</td>
+        </tr>
+      `;
+      document.getElementById("monthlyMediaBody").innerHTML = rows.length
+        ? `${rows.map((row) => renderRow(row)).join("")}${renderRow(total, true)}`
+        : `<tr><td colspan="9" class="muted">선택한 조건에 표시할 매체 데이터가 없습니다.</td></tr>`;
+    }
+
+    function renderMonthlyAudienceComparison(audienceRows) {
+      const rows = groupRows(audienceRows, ["media", "campaign", "age", "gender"], ["spend", "link_clicks", "landing_page_views"]).map(addClientMetrics);
+      const topByCampaign = new Map();
+      rows
+        .filter((row) => row.spend > 0 || row.link_clicks > 0 || row.landing_page_views > 0)
+        .sort((a, b) => {
+          if (a.link_clicks !== b.link_clicks) return b.link_clicks - a.link_clicks;
+          return b.spend - a.spend;
+        })
+        .forEach((row) => {
+          const key = campaignGroupKey(row);
+          if (!topByCampaign.has(key)) topByCampaign.set(key, row);
+        });
+      const sorted = Array.from(topByCampaign.values()).slice(0, 8);
+      document.getElementById("monthlyAudienceBody").innerHTML = sorted.length ? sorted.map((row, index) => {
+        const label = audienceLabel(row);
+        const judgment = index === 0 && row.landing_page_views >= 20 ? "핵심 반응층" : monthlyJudgment(row);
+        return `
+          <tr>
+            <td>${row.media}</td>
+            <td class="campaign-name">${escapeHtml(shortName(row.campaign, 36))}</td>
+            <td class="campaign-name">${label}</td>
+            <td>${formatNumber(row.spend, 0)}원</td>
+            <td>${formatNumber(row.link_clicks, 0)}</td>
+            <td>${formatNumber(row.landing_page_views, 0)}</td>
+            <td>${formatMoneyOrDash(row.cpc)}</td>
+            <td>${formatMoneyOrDash(row.cost_per_lpv)}</td>
+            <td><span class="badge ${monthlyBadge(judgment)}">${judgment}</span></td>
+          </tr>
+        `;
+      }).join("") : `<tr><td colspan="9" class="muted">선택한 조건에 표시할 사용층 데이터가 없습니다.</td></tr>`;
+    }
+
+    function campaignRecommendationMap(campaignRows) {
+      const recommendations = sortMonthlyCampaigns(
+        campaignRows.filter((row) => Number(row.spend || 0) > 0 && (Number(row.landing_page_views || 0) > 0 || Number(row.link_clicks || 0) > 0)),
+        "efficiency"
+      ).slice(0, 3);
+      const map = new Map();
+      recommendations.forEach((row, index) => {
+        map.set(campaignGroupKey(row), `추천 ${index + 1}`);
+      });
+      return map;
+    }
+
+    function renderMonthlyCampaignRanking(campaignRows, sortKey) {
+      const sorted = sortMonthlyCampaigns(campaignRows, sortKey);
+      const recommendationMap = campaignRecommendationMap(campaignRows);
+      document.getElementById("monthlyCampaignBody").innerHTML = sorted.length ? sorted.map((row, index) => {
+        const judgment = row.judgment || monthlyJudgment(row);
+        const sticker = recommendationMap.get(campaignGroupKey(row));
+        return `
+          <tr class="campaign-row" data-monthly-campaign-index="${index}">
+            <td>${index + 1}</td>
+            <td>${row.media}</td>
+            <td class="campaign-name">${sticker ? `<span class="recommend-sticker">${sticker}</span><br />` : ""}${escapeHtml(shortName(row.campaign, 46))}<br /><span class="muted">클릭해서 상세 보기</span></td>
+            <td>${formatNumber(row.spend, 0)}원</td>
+            <td>${formatNumber(row.landing_page_views, 0)}</td>
+            <td>${formatMoneyOrDash(row.cpc)}</td>
+            <td>${formatMoneyOrDash(row.cost_per_lpv)}</td>
+            <td>${escapeHtml(row.core_audience || "데이터 부족")}</td>
+            <td><span class="badge ${monthlyBadge(judgment)}">${judgment}</span></td>
+          </tr>
+          <tr class="campaign-detail-row" data-monthly-detail-index="${index}">
+            <td colspan="9">${monthlyCampaignDetail(row)}</td>
+          </tr>
+        `;
+      }).join("") : `<tr><td colspan="9" class="muted">선택한 조건에 표시할 캠페인 데이터가 없습니다.</td></tr>`;
+
+      document.querySelectorAll("[data-monthly-campaign-index]").forEach((row) => {
+        row.addEventListener("click", () => {
+          const index = row.dataset.monthlyCampaignIndex;
+          document.querySelectorAll("[data-monthly-detail-index]").forEach((detail) => {
+            detail.classList.toggle("open", detail.dataset.monthlyDetailIndex === index && !detail.classList.contains("open"));
+          });
+        });
+      });
+    }
+
+    function monthlyCampaignDetail(row) {
+      const judgment = row.judgment || monthlyJudgment(row);
+      const creativeAds = creativeByCampaign[String(row.campaign_id || "")] || [];
+      const primaryCreative = creativeAds[0] || null;
+      const creativeImage = primaryCreative ? (primaryCreative.image_url || primaryCreative.thumbnail_url || "") : "";
+      const creativeBody = primaryCreative ? (primaryCreative.body || primaryCreative.ad_name || primaryCreative.campaign || "") : "";
+      const creativeTitle = primaryCreative ? (primaryCreative.title || primaryCreative.creative_name || "광고 소재") : "";
+      const creativeBlock = primaryCreative ? `
+          <div class="creative-placeholder">
+            ${creativeImage ? `<img class="creative-image square" src="${escapeHtml(creativeImage)}" alt="${escapeHtml(creativeTitle)}" />` : `<strong>이미지 없음</strong>`}
+            <span style="display:block;margin-top:10px;">
+              <strong>${escapeHtml(creativeTitle)}</strong><br />
+              ${escapeHtml(shortName(creativeBody, 180))}
+              ${primaryCreative.instagram_permalink_url ? `<br /><a href="${escapeHtml(primaryCreative.instagram_permalink_url)}" target="_blank" rel="noopener">Instagram 게시물 보기</a>` : ""}
+              <br />연결 광고 ${creativeAds.length}개
+            </span>
+          </div>
+        ` : `
+          <div class="creative-placeholder">
+            <strong>소재 데이터 없음</strong>
+            <span>이 캠페인 ID에 연결된 광고/크리에이티브를 Meta API 응답에서 찾지 못했습니다.<br />과거 삭제 광고이거나 계정/권한 범위 밖 소재일 수 있습니다.</span>
+          </div>
+        `;
+      return `
+        <div class="detail-box">
+          ${creativeBlock}
+          <div>
+            <p class="callout-title">${escapeHtml(row.campaign)}</p>
+            <div class="card-kpis">
+              <div class="card-kpi"><span>광고비</span><strong>${formatNumber(row.spend, 0)}원</strong></div>
+              <div class="card-kpi"><span>클릭</span><strong>${formatNumber(row.link_clicks, 0)}</strong></div>
+              <div class="card-kpi"><span>랜딩조회</span><strong>${formatNumber(row.landing_page_views, 0)}</strong></div>
+              <div class="card-kpi"><span>판단</span><strong>${judgment}</strong></div>
+            </div>
+            <p class="creative-copy">핵심 사용층은 ${escapeHtml(row.core_audience || "데이터 부족")}입니다. 게재 위치 반응은 현재 로컬 CSV에 없어 API breakdown 연결 후 표시할 수 있습니다.</p>
+            <ul class="simple-list">
+              <li><span>CPC</span><strong>${row.cpc ? `${formatNumber(row.cpc, 0)}원` : "-"}</strong></li>
+              <li><span>랜딩조회당 비용</span><strong>${row.cost_per_lpv ? `${formatNumber(row.cost_per_lpv, 0)}원` : "-"}</strong></li>
+              <li><span>분석 기간</span><strong>${row.first_date || "-"} ~ ${row.last_date || "-"}</strong></li>
+            </ul>
+          </div>
+        </div>
+      `;
+    }
+
+    function consultationSourceLabel(source) {
+      return {
+        instagram: "Instagram",
+        facebook: "Facebook",
+        app: "App",
+        imweb: "Imweb",
+        naver: "Naver",
+        unknown: "출처 미상",
+      }[source] || source;
+    }
+
+    function consultationSourceColor(source) {
+      return {
+        instagram: "#dc2626",
+        facebook: "#2563eb",
+        app: "#525252",
+        imweb: "#737373",
+        naver: "#404040",
+        unknown: "#a3a3a3",
+      }[source] || "#9ca3af";
+    }
+
+    function filterConsultationRows(rows, state) {
+      return rows.filter((row) => {
+        const matchesMonth = Number(row.year) === state.year && (state.month === "all" || Number(row.month) === state.month);
+        const matchesMedia = state.media === "all" || row.source === state.media.toLowerCase();
+        return matchesMonth && matchesMedia;
+      });
+    }
+
+    function renderMonthlyConsultations(state) {
+      const consultations = monthlyPayload.consultations || { daily: [], monthly: [], detail: [], sourceFreshness: null };
+      const monthlyConsultations = filterConsultationRows(consultations.monthly || [], state)
+        .sort((a, b) => Number(b.inquiries || 0) - Number(a.inquiries || 0));
+      const sourceRows = groupRows(monthlyConsultations.map((row) => ({ ...row, source: row.source || "unknown" })), ["source"], ["inquiries", "medium_or_high_signals", "high_signals"])
+        .sort((a, b) => Number(b.inquiries || 0) - Number(a.inquiries || 0));
+      const consultationDetails = filterConsultationRows(consultations.detail || [], state)
+        .sort((a, b) => b.date.localeCompare(a.date) || a.source.localeCompare(b.source));
+      const freshness = consultations.sourceFreshness || {};
+      document.getElementById("monthlyConsultationNote").textContent =
+        freshness.latest_date
+          ? `상담 신청 데이터 기준일은 ${freshness.first_date}~${freshness.latest_date}입니다. 차량명은 Slack 상담 알림에 기록된 모델명 기준입니다.`
+          : "상담 신청 데이터가 아직 연결되지 않았습니다.";
+      const visibleSources = state.media === "all"
+        ? [...new Set(sourceRows.map((row) => row.source))]
+        : [state.media.toLowerCase()];
+      const countBySources = (sources) => sourceRows
+        .filter((row) => sources.includes(row.source))
+        .reduce((sum, row) => sum + Number(row.inquiries || 0), 0);
+      const unknownSources = ["unknown", ""];
+      const selectedInquiryTotal = countBySources(visibleSources);
+      document.getElementById("monthlyConsultationCards").innerHTML = [
+        ["전체 상담", formatNumber(selectedInquiryTotal, 0), "선택 조건 전체"],
+        ["인스타/페이스북 상담", formatNumber(countBySources(["instagram", "facebook"]), 0), "Meta 유입"],
+        ["APP", formatNumber(countBySources(["app"]), 0), "앱 유입"],
+        ["Imweb", formatNumber(countBySources(["imweb"]), 0), "웹 유입"],
+        ["출처 미상", formatNumber(countBySources(unknownSources), 0), "유입값 없음"],
+      ].map(([label, value, sub]) => `
+        <article class="card summary-card">
+          <div class="label">${label}</div>
+          <div class="value">${value}</div>
+          <div class="sub">${sub}</div>
+        </article>
+      `).join("");
+      document.getElementById("monthlyConsultationDateTitle").textContent = state.month === "all" ? "월별 상담 신청" : "날짜별 상담 신청";
+      const rows = sourceRows.filter((row) => visibleSources.includes(row.source));
+      renderConsultationSourceChart(rows, selectedInquiryTotal);
+      renderConsultationDateChart(state, consultationDetails);
+      renderConsultationVehicleChart(consultationDetails);
+      const consultationListRows = state.month === "all"
+        ? groupRows(
+            consultationDetails.map((row) => ({
+              ...row,
+              period: `${row.year}-${String(row.month).padStart(2, "0")}`,
+              period_label: `${row.month}월`,
+              vehicle: row.vehicle_model || "차량명 없음",
+            })),
+            ["period", "period_label", "vehicle"],
+            ["reply_count"]
+          )
+            .map((row) => ({
+              period: row.period,
+              period_label: row.period_label,
+              vehicle_model: row.vehicle,
+              count: consultationDetails.filter((item) => `${item.year}-${String(item.month).padStart(2, "0")}` === row.period && (item.vehicle_model || "차량명 없음") === row.vehicle).length,
+            }))
+            .sort((a, b) => b.period.localeCompare(a.period) || b.count - a.count)
+        : consultationDetails;
+      document.getElementById("monthlyConsultationDetailBody").innerHTML = consultationListRows.length ? consultationListRows.map((row) => {
+        if (state.month === "all") {
+          return `
+            <tr>
+              <td>${row.period_label}</td>
+              <td>전체</td>
+              <td class="campaign-name">${escapeHtml(row.vehicle_model || "차량명 없음")}</td>
+              <td>-</td>
+              <td>${formatNumber(row.count, 0)}건</td>
+              <td>-</td>
+            </tr>
+          `;
+        }
+        const vehicle = [row.vehicle_model, row.vehicle_trim].filter(Boolean).join(" / ") || "차량명 없음";
+        const signal = row.contract_signal === "high" ? "상" : row.contract_signal === "medium" ? "중" : row.contract_signal === "low" ? "낮음" : "-";
+        return `
+          <tr>
+            <td>${row.date}</td>
+            <td>${consultationSourceLabel(row.source)}</td>
+            <td class="campaign-name">${escapeHtml(vehicle)}</td>
+            <td>${escapeHtml(row.subscription_period || "-")}</td>
+            <td>${escapeHtml(row.consulting_status || row.contract_status || "-")}</td>
+            <td>${signal}</td>
+          </tr>
+        `;
+      }).join("") : `<tr><td colspan="6" class="muted">선택한 조건에 표시할 상담 신청 건이 없습니다.</td></tr>`;
+    }
+
+    function renderConsultationSourceChart(sourceRows, total) {
+      destroyMonthlyChart("consultationSource");
+      const canvas = document.getElementById("monthlyConsultationSourceChart");
+      const list = document.getElementById("monthlyConsultationSourceList");
+      if (!canvas || typeof Chart === "undefined") return;
+      const context = canvas.getContext ? canvas.getContext("2d") : null;
+      if (!context) return;
+      const rows = sourceRows
+        .filter((row) => Number(row.inquiries || 0) > 0)
+        .sort((a, b) => Number(b.inquiries || 0) - Number(a.inquiries || 0));
+      if (list) {
+        list.innerHTML = rows.length ? rows.map((row) => {
+          const share = total ? Number(row.inquiries || 0) / total * 100 : 0;
+          return `
+            <li>
+              <span class="side-dot" style="background:${consultationSourceColor(row.source)}"></span>
+              <span>${consultationSourceLabel(row.source)}</span>
+              <strong>${formatNumber(row.inquiries, 0)}건 · 진행 ${formatNumber(row.medium_or_high_signals, 0)} · 계약 ${formatNumber(row.high_signals, 0)} · ${formatNumber(share, 1)}%</strong>
+            </li>
+          `;
+        }).join("") : `<li><span></span><span class="muted">유입 데이터 없음</span><strong>-</strong></li>`;
+      }
+      monthlyCharts.consultationSource = new Chart(context, {
+        type: "doughnut",
+        data: {
+          labels: rows.map((row) => consultationSourceLabel(row.source)),
+          datasets: [{
+            data: rows.map((row) => Number(row.inquiries || 0)),
+            backgroundColor: rows.map((row) => consultationSourceColor(row.source)),
+            borderColor: "#ffffff",
+            borderWidth: 3,
+          }],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: "58%",
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (context) => {
+                  const value = Number(context.parsed || 0);
+                  const share = total ? value / total * 100 : 0;
+                  return `${context.label}: ${formatNumber(value, 0)}건 (${formatNumber(share, 1)}%)`;
+                },
+              },
+            },
+          },
+        },
+      });
+    }
+
+    function renderConsultationDateChart(state, consultationDetails) {
+      destroyMonthlyChart("consultationDate");
+      const canvas = document.getElementById("monthlyConsultationDateChart");
+      if (!canvas || typeof Chart === "undefined") return;
+      const context = canvas.getContext ? canvas.getContext("2d") : null;
+      if (!context) return;
+      const details = consultationDetails.map((row) => ({
+        ...row,
+        period: state.month === "all" ? `${row.year}-${String(row.month).padStart(2, "0")}` : row.date,
+        period_label: state.month === "all" ? `${row.month}월` : row.date.slice(5),
+      }));
+      const vehicleByDate = new Map();
+      details.forEach((row) => {
+        const vehicle = [row.vehicle_model, row.vehicle_trim].filter(Boolean).join(" / ") || "차량명 없음";
+        if (!vehicleByDate.has(row.period)) vehicleByDate.set(row.period, []);
+        vehicleByDate.get(row.period).push(`${consultationSourceLabel(row.source)}: ${vehicle}`);
+      });
+      if (state.month === "all") {
+        const monthlyRows = groupRows(details, ["period", "period_label", "source"], ["reply_count"]).sort((a, b) => a.period.localeCompare(b.period) || a.source.localeCompare(b.source));
+        const labels = [...new Map(monthlyRows.map((row) => [row.period, row.period_label])).entries()].sort((a, b) => a[0].localeCompare(b[0]));
+        const sourceSeries = [
+          ["instagram", "Instagram"],
+          ["facebook", "Facebook"],
+          ["app", "APP"],
+          ["imweb", "Imweb"],
+          ["naver", "Naver"],
+          ["unknown", "출처 미상"],
+        ].filter(([source]) => monthlyRows.some((row) => row.source === source));
+        monthlyCharts.consultationDate = new Chart(context, {
+          type: "bar",
+          data: {
+            labels: labels.map(([, label]) => label),
+            datasets: sourceSeries.map(([source, label]) => ({
+              label,
+              data: labels.map(([period]) => details.filter((item) => item.period === period && item.source === source).length),
+              backgroundColor: consultationSourceColor(source),
+              borderColor: "rgba(255,255,255,0.85)",
+              borderWidth: 1,
+              borderRadius: 7,
+              maxBarThickness: 24,
+            })),
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: { position: "bottom" },
+              tooltip: {
+                callbacks: {
+                  afterLabel: (context) => {
+                    const period = labels[context.dataIndex]?.[0];
+                    return (vehicleByDate.get(period) || []).slice(0, 6);
+                  },
+                },
+              },
+            },
+            scales: {
+              x: { stacked: true, grid: { display: false }, ticks: { maxRotation: 0, autoSkip: false } },
+              y: { stacked: true, beginAtZero: true, ticks: { precision: 0 }, grid: { color: "rgba(100,112,103,0.16)" } },
+            },
+          },
+        });
+        return;
+      }
+      const dailyRows = groupRows(details, ["period", "period_label", "source"], ["reply_count"]).sort((a, b) => a.period.localeCompare(b.period) || a.source.localeCompare(b.source));
+      const labels = [...new Map(dailyRows.map((row) => [row.period, row.period_label])).entries()].sort((a, b) => a[0].localeCompare(b[0]));
+      const sourceSeries = [
+        ["instagram", "Instagram", consultationSourceColor("instagram")],
+        ["facebook", "Facebook", consultationSourceColor("facebook")],
+        ["app", "APP", consultationSourceColor("app")],
+        ["imweb", "Imweb", consultationSourceColor("imweb")],
+        ["naver", "Naver", consultationSourceColor("naver")],
+        ["unknown", "출처 미상", consultationSourceColor("unknown")],
+      ].filter(([source]) => dailyRows.some((row) => row.source === source));
+      monthlyCharts.consultationDate = new Chart(context, {
+        type: "bar",
+        data: {
+          labels: labels.map(([, label]) => label),
+          datasets: sourceSeries.map(([source, label, color]) => ({
+            label,
+            data: labels.map(([period]) => details.filter((item) => item.period === period && item.source === source).length),
+            backgroundColor: color,
+            borderColor: "rgba(255,255,255,0.85)",
+            borderWidth: 1,
+            borderRadius: 7,
+            maxBarThickness: 24,
+          })),
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: "bottom" },
+            tooltip: {
+              callbacks: {
+                afterLabel: (context) => {
+                  const period = labels[context.dataIndex]?.[0];
+                  return (vehicleByDate.get(period) || []).slice(0, 5);
+                },
+              },
+            },
+          },
+          scales: {
+            x: { stacked: true, grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true, maxTicksLimit: 10 } },
+            y: { stacked: true, beginAtZero: true, ticks: { precision: 0 }, grid: { color: "rgba(100,112,103,0.16)" } },
+          },
+        },
+      });
+    }
+
+    function renderConsultationVehicleChart(consultationDetails) {
+      destroyMonthlyChart("consultationVehicle");
+      const canvas = document.getElementById("monthlyConsultationVehicleChart");
+      const list = document.getElementById("monthlyConsultationVehicleList");
+      if (!canvas || typeof Chart === "undefined") return;
+      const context = canvas.getContext ? canvas.getContext("2d") : null;
+      if (!context) return;
+      const groupedMap = new Map();
+      consultationDetails.forEach((row) => {
+        const vehicle = row.vehicle_model || "차량명 없음";
+        if (!groupedMap.has(vehicle)) {
+          groupedMap.set(vehicle, { vehicle, count: 0, done: 0, high: 0, medium: 0, failed: 0, unknown: 0 });
+        }
+        const target = groupedMap.get(vehicle);
+        const status = row.contract_status || row.consulting_status || "";
+        target.count += 1;
+        if (status === "출고완료" || row.consulting_status === "출고완료") target.done += 1;
+        else if (row.contract_signal === "high" || status === "계약가능성높음") target.high += 1;
+        else if (row.contract_signal === "medium" || status === "계약가능성있음" || row.consulting_status === "심사진행" || row.consulting_status === "상담진행") target.medium += 1;
+        else if (status === "계약실패" || row.consulting_status === "취소" || row.consulting_status === "불가") target.failed += 1;
+        else target.unknown += 1;
+      });
+      const groupedRows = Array.from(groupedMap.values()).sort((a, b) => b.count - a.count);
+      const topRows = groupedRows.slice(0, 7);
+      const other = groupedRows.slice(7).reduce((sum, row) => ({
+        vehicle: "기타",
+        count: sum.count + Number(row.count || 0),
+        done: sum.done + Number(row.done || 0),
+        high: sum.high + Number(row.high || 0),
+        medium: sum.medium + Number(row.medium || 0),
+        failed: sum.failed + Number(row.failed || 0),
+        unknown: sum.unknown + Number(row.unknown || 0),
+      }), { vehicle: "기타", count: 0, done: 0, high: 0, medium: 0, failed: 0, unknown: 0 });
+      const rows = other.count ? [...topRows, other] : topRows;
+      const total = rows.reduce((sum, row) => sum + Number(row.count || 0), 0);
+      const colors = ["#d97706", "#165d4a", "#2563eb", "#7c3aed", "#647067", "#dc2626", "#0891b2", "#9ca3af"];
+      const vehicleStatusText = (row) => {
+        if (row.done) return `출고 ${formatNumber(row.done, 0)}건`;
+        if (row.high) return `계약가능 ${formatNumber(row.high, 0)}건`;
+        if (row.medium) return `진행 ${formatNumber(row.medium, 0)}건`;
+        if (row.failed) return `실패/취소 ${formatNumber(row.failed, 0)}건`;
+        return `미확인 ${formatNumber(row.unknown || row.count || 0, 0)}건`;
+      };
+      if (list) {
+        list.innerHTML = rows.length ? rows.map((row, index) => `
+          <li>
+            <span class="side-dot" style="background:${colors[index % colors.length]}"></span>
+            <span>${escapeHtml(shortName(row.vehicle, 22))}</span>
+            <strong>${formatNumber(row.count, 0)}건 · ${vehicleStatusText(row)} · ${formatNumber(total ? row.count / total * 100 : 0, 1)}%</strong>
+          </li>
+        `).join("") : `<li><span></span><span class="muted">차량 데이터 없음</span><strong>-</strong></li>`;
+      }
+      monthlyCharts.consultationVehicle = new Chart(context, {
+        type: "doughnut",
+        data: {
+          labels: rows.map((row) => row.vehicle),
+          datasets: [{
+            data: rows.map((row) => row.count),
+            backgroundColor: rows.map((_, index) => colors[index % colors.length]),
+            borderColor: "#ffffff",
+            borderWidth: 3,
+          }],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: "58%",
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: (context) => {
+                  const value = Number(context.parsed || 0);
+                  const share = total ? value / total * 100 : 0;
+                  return `${context.label}: ${formatNumber(value, 0)}건 (${formatNumber(share, 1)}%)`;
+                },
+              },
+            },
+          },
+        },
+      });
+    }
+
+    function renderMonthlyDailyTable(dailyRows, state) {
+      const isYearView = state.month === "all";
+      document.getElementById("monthlyDailySummary").textContent = isYearView ? "월별 상세 데이터" : "날짜별 상세 데이터";
+      document.getElementById("monthlyDailyCopy").textContent = isYearView
+        ? "월별로 광고비, 노출, 클릭, 랜딩조회가 어떻게 움직였는지 확인합니다. 연간 흐름을 볼 때만 열어서 보면 됩니다."
+        : "일자별로 광고비, 노출, 클릭, 랜딩조회가 어떻게 움직였는지 확인합니다. 필요할 때만 열어서 보면 됩니다.";
+      document.getElementById("monthlyDailyPeriodHeader").textContent = isYearView ? "월" : "날짜";
+      const periodRows = dailyRows.map((row) => ({ ...row, period: displayPeriodKey(row, state), period_label: displayPeriodShort(row, state) }));
+      const rows = groupRows(periodRows, ["period", "period_label", "media"], ["spend", "impressions", "link_clicks", "landing_page_views"])
+        .sort((a, b) => b.period.localeCompare(a.period) || a.media.localeCompare(b.media));
+      document.getElementById("monthlyDailyBody").innerHTML = rows.length ? rows.map((row) => `
+        <tr>
+          <td>${row.period_label}</td>
+          <td>${row.media}</td>
+          <td>${formatNumber(row.spend, 0)}원</td>
+          <td>${formatNumber(row.impressions, 0)}</td>
+          <td>${formatNumber(row.link_clicks, 0)}</td>
+          <td>${formatNumber(row.landing_page_views, 0)}</td>
+        </tr>
+      `).join("") : `<tr><td colspan="6" class="muted">선택한 조건에 표시할 ${isYearView ? "월별" : "날짜별"} 데이터가 없습니다.</td></tr>`;
+    }
+
+    function renderMonthlyInsights(state, dailyRows) {
+      const consultationRows = filterConsultationRows((monthlyPayload.consultations || {}).monthly || [], state);
+      const totals = addClientMetrics({
+        spend: dailyRows.reduce((sum, row) => sum + Number(row.spend || 0), 0),
+        link_clicks: dailyRows.reduce((sum, row) => sum + Number(row.link_clicks || 0), 0),
+        landing_page_views: dailyRows.reduce((sum, row) => sum + Number(row.landing_page_views || 0), 0),
+      });
+      const inquiries = consultationRows.reduce((sum, row) => sum + Number(row.inquiries || 0), 0);
+      const metaInquiries = consultationRows
+        .filter((row) => ["instagram", "facebook"].includes(row.source))
+        .reduce((sum, row) => sum + Number(row.inquiries || 0), 0);
+      const costPerInquiry = safeRatio(totals.spend, inquiries);
+      const costPerMetaInquiry = safeRatio(totals.spend, metaInquiries);
+      const clickToInquiry = safeRatio(inquiries * 100, totals.link_clicks);
+      const lpvToMetaInquiry = safeRatio(metaInquiries * 100, totals.landing_page_views);
+      const sourceRows = groupRows(consultationRows.map((row) => ({ ...row, source: row.source || "unknown" })), ["source"], ["inquiries"])
+        .sort((a, b) => Number(b.inquiries || 0) - Number(a.inquiries || 0));
+      const topSource = sourceRows[0];
+      const periodType = state.month === "all" ? "연간" : "월간";
+      document.getElementById("monthlyInsightTitle").textContent = `${periodType} 인사이트`;
+      document.getElementById("monthlyInsightCards").innerHTML = [
+        ["광고 반응", `${formatNumber(totals.link_clicks, 0)}클릭`, `랜딩조회 ${formatNumber(totals.landing_page_views, 0)}건 / CPC ${formatMoneyOrDash(totals.cpc)}`],
+        ["상담 연결", `${formatNumber(inquiries, 0)}건`, `전체 클릭 대비 ${formatNumber(clickToInquiry, 2)}%`],
+        ["Meta 상담", `${formatNumber(metaInquiries, 0)}건`, `랜딩조회 대비 ${formatNumber(lpvToMetaInquiry, 2)}% / ${costPerMetaInquiry ? `${formatNumber(costPerMetaInquiry, 0)}원` : "계산 불가"}`],
+        ["주요 유입", topSource ? consultationSourceLabel(topSource.source) : "-", topSource ? `${formatNumber(topSource.inquiries, 0)}건, 전체 상담의 ${formatNumber(inquiries ? Number(topSource.inquiries || 0) / inquiries * 100 : 0, 1)}%` : "상담 데이터 없음"],
+      ].map(([label, value, sub]) => `
+        <article class="card summary-card">
+          <div class="label">${label}</div>
+          <div class="value">${value}</div>
+          <div class="sub">${sub}</div>
+        </article>
+      `).join("");
+      const issue = totals.landing_page_views && metaInquiries
+        ? `랜딩조회는 ${formatNumber(totals.landing_page_views, 0)}건인데 Instagram/Facebook으로 확인된 상담은 ${formatNumber(metaInquiries, 0)}건입니다. 즉 광고가 방문은 만들고 있지만 상담 전환 기록이 충분히 붙지 않습니다.`
+        : `광고 클릭은 ${formatNumber(totals.link_clicks, 0)}건이지만 상담 유입이 낮거나 출처가 분산되어 있습니다.`;
+      document.getElementById("monthlyInsightNote").textContent =
+        `${issue} 상담이 적어 보이는 주된 이유는 광고 소재보다도 전환 구조에 있습니다. 앱/App 유입과 출처 미상이 크게 섞여 있고, Instagram/Facebook 상담만 보면 실제 광고 클릭 대비 전환율이 낮습니다. 상담 버튼 위치, 폼 이탈, 전화/카카오 등 오프라인 전환 누락, UTM/픽셀 이벤트 연결을 우선 점검하는 것이 좋습니다.`;
+    }
+
+    function renderMonthlyStatusNote(state, dailyRows, campaignRows, firstDate, latestDate) {
+      const mediaTotals = groupRows(dailyRows, ["media"], ["spend"]);
+      const zeroMedia = mediaTotals.filter((row) => !Number(row.spend || 0)).map((row) => row.media);
+      const runningMedia = mediaTotals.filter((row) => Number(row.spend || 0)).map((row) => row.media);
+      const zeroCampaignCount = campaignRows.filter((row) => !Number(row.spend || 0)).length;
+      const lines = [
+        `${periodLabel(state)}은 ${sourceFreshnessLabel(state, firstDate, latestDate)}입니다.`,
+        runningMedia.length ? `${runningMedia.join(", ")}에서 실제 광고비가 발생했습니다.` : "선택한 조건에서 실제 광고비 발생이 확인되지 않습니다.",
+        zeroMedia.length ? `${zeroMedia.join(", ")}는 선택한 데이터에서 지출이 없어 광고 또는 광고세트 상태 확인이 필요합니다.` : "매체별 지출 특이사항은 없습니다.",
+        zeroCampaignCount ? `지출이 없는 캠페인 ${zeroCampaignCount}개는 점검 대상으로 표시했습니다.` : "캠페인 단위 지출은 모두 확인됩니다.",
+      ];
+      document.getElementById("monthlyStatusNote").innerHTML = lines.join("<br />");
     }
 
     function classifyCampaign(item, averages) {
@@ -1955,6 +3547,7 @@
     }
 
     renderMeta();
+    renderMonthlyTracking();
     renderOverallSummary();
     renderChannelSummaries();
 
