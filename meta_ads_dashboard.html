@@ -219,6 +219,293 @@
       height: 100% !important;
     }
 
+    .strategy-hero {
+      margin-top: 24px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: linear-gradient(135deg, #ffffff 0%, #f4fbf6 100%);
+    }
+
+    .strategy-hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      gap: 18px;
+      align-items: stretch;
+    }
+
+    .strategy-summary {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 230px;
+    }
+
+    .strategy-summary h2 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.18;
+      word-break: keep-all;
+    }
+
+    .strategy-summary p {
+      margin: 14px 0 0;
+      color: var(--muted);
+      font-size: 15px;
+      line-height: 1.75;
+    }
+
+    .strategy-kpis {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 10px;
+    }
+
+    .strategy-kpi {
+      min-width: 0;
+      min-height: 108px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: #fff;
+    }
+
+    .strategy-kpi span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .strategy-kpi strong {
+      display: block;
+      margin-top: 8px;
+      font-size: 24px;
+      line-height: 1.15;
+    }
+
+    .strategy-kpi em {
+      display: block;
+      margin-top: 7px;
+      color: #b42318;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 1.35;
+    }
+
+    .strategy-kpi.good em {
+      color: var(--good-ink);
+    }
+
+    .strategy-chart-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .strategy-chart-box {
+      min-width: 0;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .strategy-chart-box h3 {
+      margin: 0 0 10px;
+      font-size: 15px;
+    }
+
+    .strategy-chart-frame {
+      position: relative;
+      width: 100%;
+      height: 292px;
+      min-height: 292px;
+      overflow: hidden;
+    }
+
+    .strategy-chart-frame.short {
+      height: 236px;
+      min-height: 236px;
+    }
+
+    .strategy-chart-frame canvas {
+      display: block;
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .strategy-note {
+      min-height: 36px;
+      margin: 10px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .strategy-funnel-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .strategy-funnel-card {
+      min-width: 0;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .strategy-funnel-title {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 900;
+    }
+
+    .strategy-pill {
+      flex: 0 0 auto;
+      padding: 5px 8px;
+      border-radius: 999px;
+      background: var(--good-bg);
+      color: var(--good-ink);
+      font-size: 12px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+
+    .strategy-pill.warn {
+      background: #fee2e2;
+      color: #b42318;
+    }
+
+    .strategy-funnel-row {
+      display: grid;
+      grid-template-columns: 86px minmax(0, 1fr) 96px;
+      gap: 10px;
+      align-items: center;
+      min-height: 34px;
+      margin-top: 10px;
+      font-size: 13px;
+    }
+
+    .strategy-track {
+      height: 10px;
+      overflow: hidden;
+      border-radius: 999px;
+      background: #e7ece8;
+    }
+
+    .strategy-fill {
+      display: block;
+      height: 100%;
+      border-radius: inherit;
+      background: var(--accent);
+    }
+
+    .strategy-fill.instagram {
+      background: #d97706;
+    }
+
+    .strategy-fill.facebook {
+      background: #2563eb;
+    }
+
+    .strategy-funnel-row strong {
+      text-align: right;
+      font-size: 13px;
+      line-height: 1.25;
+    }
+
+    .strategy-insights {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 12px;
+    }
+
+    .strategy-insight {
+      min-height: 146px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: #fff;
+    }
+
+    .strategy-insight b {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    .strategy-insight p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .strategy-actions {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 16px;
+      margin-top: 12px;
+    }
+
+    .strategy-action-list {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      border-top: 1px solid var(--line);
+    }
+
+    .strategy-action-list li {
+      display: grid;
+      grid-template-columns: 118px minmax(0, 1fr);
+      gap: 12px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .strategy-action-list span {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .strategy-action-list strong {
+      font-size: 14px;
+      line-height: 1.45;
+    }
+
+    .strategy-fallback-bars {
+      display: grid;
+      gap: 10px;
+      padding-top: 8px;
+    }
+
+    .strategy-fallback-bars div {
+      display: grid;
+      grid-template-columns: 92px minmax(0, 1fr) 88px;
+      gap: 10px;
+      align-items: center;
+      font-size: 12px;
+    }
+
+    .strategy-fallback-bars i {
+      display: block;
+      height: 12px;
+      border-radius: 999px;
+      background: var(--accent);
+    }
+
     .chart-legend {
       display: flex;
       gap: 14px;
@@ -1023,6 +1310,11 @@
       .cost-strip,
       .doughnut-grid,
       .chart-grid,
+      .strategy-hero-grid,
+      .strategy-chart-grid,
+      .strategy-funnel-grid,
+      .strategy-insights,
+      .strategy-actions,
       .chart-with-list,
       .detail-box {
         grid-template-columns: 1fr;
@@ -1041,6 +1333,23 @@
         display: block;
         overflow-x: auto;
       }
+
+      .strategy-summary h2 {
+        font-size: 25px;
+      }
+
+      .strategy-kpis {
+        grid-template-columns: 1fr;
+      }
+
+      .strategy-funnel-row,
+      .strategy-action-list li {
+        grid-template-columns: 1fr;
+      }
+
+      .strategy-funnel-row strong {
+        text-align: left;
+      }
     }
   </style>
 </head>
@@ -1053,6 +1362,7 @@
 
     <nav class="tabs" aria-label="광고 분석 탭">
       <button class="tab-button active" type="button" data-tab-target="monthlyMediaTracking">월별 매체 추적</button>
+      <button class="tab-button" type="button" data-tab-target="consultingSalesStrategy">상담·판매 전략</button>
       <button class="tab-button" type="button" data-tab-target="creativeAnalysis">소재별 광고 분석</button>
       <button class="tab-button" type="button" data-tab-target="instagramLongRange">1월~5월 Meta 실효성</button>
     </nav>
@@ -1274,6 +1584,138 @@
         <h2 class="section-title">상태 안내</h2>
         <article class="panel">
           <p class="creative-copy" id="monthlyStatusNote"></p>
+        </article>
+      </section>
+    </div>
+
+    <div class="tab-panel" id="consultingSalesStrategy">
+      <section class="strategy-hero">
+        <div class="strategy-hero-grid">
+          <article class="strategy-summary">
+            <div>
+              <span class="card-label neutral">Strategy Report</span>
+              <h2>Meta 광고 상담 감소 진단과 판매 확대 전략</h2>
+              <p>2026년 상담 감소의 핵심 원인은 광고 효율 붕괴가 아니라 광고비 축소와 랜딩 이후 상담 전환 구조 약화입니다. Instagram은 상담 효율이 유지·개선됐고, Facebook은 랜딩은 만들지만 상담 전환이 약합니다.</p>
+            </div>
+            <p class="data-note" id="strategyDataNote"></p>
+          </article>
+          <div class="strategy-kpis" id="strategyKpiGrid"></div>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">1. 전체 변화</h2>
+        <p class="creative-copy">Meta 전체는 2025 Instagram 랜딩조회 추적 이슈를 제외하고 광고비, 클릭, 상담, 상담당 비용 중심으로 판단합니다.</p>
+        <div class="strategy-chart-grid">
+          <article class="strategy-chart-box">
+            <h3>2025 vs 2026 핵심 지표</h3>
+            <div class="strategy-chart-frame">
+              <canvas id="strategyYoyChart" aria-label="2025년과 2026년 핵심 지표 비교"></canvas>
+            </div>
+            <p class="strategy-note">광고비와 상담 볼륨은 줄었지만 상담당 비용은 개선됐는지 함께 확인합니다.</p>
+          </article>
+          <article class="strategy-chart-box">
+            <h3>상담당 비용 변화</h3>
+            <div class="strategy-chart-frame">
+              <canvas id="strategyCostChart" aria-label="상담당 비용 변화 차트"></canvas>
+            </div>
+            <p class="strategy-note">전체 상담당 비용과 Meta 직접 상담당 비용을 분리해서 봅니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">2. 매체별 퍼널 진단</h2>
+        <p class="creative-copy">Instagram은 상담 효율, Facebook은 랜딩 이후 이탈을 중심으로 봅니다. 2025 Instagram 랜딩조회는 원본 API 추적값이 불완전해 퍼널 비교에서 제외합니다.</p>
+        <div class="strategy-funnel-grid">
+          <article class="strategy-funnel-card" id="strategyInstagramFunnel"></article>
+          <article class="strategy-funnel-card" id="strategyFacebookFunnel"></article>
+        </div>
+        <div class="strategy-chart-grid">
+          <article class="strategy-chart-box">
+            <h3>매체별 Meta 상담당 비용</h3>
+            <div class="strategy-chart-frame short">
+              <canvas id="strategyMediaCostChart" aria-label="매체별 Meta 상담당 비용"></canvas>
+            </div>
+            <p class="strategy-note">2026년 기준 Instagram이 상담 확보 채널로 우위입니다.</p>
+          </article>
+          <article class="strategy-chart-box">
+            <h3>2026 퍼널 이탈률</h3>
+            <div class="strategy-chart-frame short">
+              <canvas id="strategyDropoffChart" aria-label="매체별 퍼널 이탈률"></canvas>
+            </div>
+            <p class="strategy-note">Facebook은 랜딩 이후 상담 이탈이 가장 큰 병목입니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">3. 상담 감소 원인</h2>
+        <div class="strategy-insights">
+          <article class="strategy-insight">
+            <b>예산 축소가 1차 원인</b>
+            <p id="strategyCauseBudget">광고비 감소폭이 Meta 상담 감소폭보다 큽니다. 효율 붕괴보다 도달·클릭 볼륨 감소 영향이 큽니다.</p>
+          </article>
+          <article class="strategy-insight">
+            <b>Facebook은 상담 연결 약함</b>
+            <p id="strategyCauseFacebook">랜딩조회는 만들지만 상담으로 전환되지 않습니다. 신규 상담 예산보다 리타게팅 역할이 적합합니다.</p>
+          </article>
+          <article class="strategy-insight">
+            <b>APP/unknown 기여 누락 가능</b>
+            <p id="strategyCauseTracking">상담 유입값이 앱 또는 미상으로 잡히면 Meta 기여가 과소평가됩니다. UTM과 Slack 유입값 연결이 필요합니다.</p>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">4. 차량 수요 변화</h2>
+        <p class="creative-copy">판매 확대 전략은 많이 물어본 차량과 2026년에 비중이 상승한 차량을 함께 봐야 합니다.</p>
+        <div class="strategy-chart-grid">
+          <article class="strategy-chart-box">
+            <h3>상담 상위 차량 비교</h3>
+            <div class="strategy-chart-frame">
+              <canvas id="strategyVehicleChart" aria-label="차량별 상담 비교 차트"></canvas>
+            </div>
+            <p class="strategy-note">EQE350+는 유지, E-클래스/i4/MINI/5시리즈는 2026년 반응이 올라왔습니다.</p>
+          </article>
+          <article class="strategy-chart-box">
+            <h3>차량별 메시지 방향</h3>
+            <ul class="strategy-action-list">
+              <li><span>EQE350+</span><strong>프리미엄 전기차, 초기비용 없음, 월 부담 완화</strong></li>
+              <li><span>모델 3</span><strong>전기차 입문, 유지비 포함, 빠른 상담 전환</strong></li>
+              <li><span>E-클래스</span><strong>수입 세단 구독, 일반 번호판, 심사 부담 완화</strong></li>
+              <li><span>i4/MINI</span><strong>취향형 수입 전기차, 단기 경험, 보험·세금 포함</strong></li>
+              <li><span>레이 EV</span><strong>실용·업무용, 낮은 월 부담, 즉시 문의</strong></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">5. 실행 전략</h2>
+        <p class="creative-copy">목표는 클릭 증가가 아니라 상담과 판매 가능성을 같이 늘리는 것입니다.</p>
+        <div class="strategy-actions">
+          <article class="panel">
+            <ul class="strategy-action-list">
+              <li><span>예산</span><strong>Instagram 예산을 주 단위 10~20%씩 회복하고 상담당 비용을 감시</strong></li>
+              <li><span>Facebook</span><strong>신규 유입 증액은 보류, 방문자·반응자 리타게팅으로 제한</strong></li>
+              <li><span>랜딩</span><strong>첫 화면에 월 비용, 초기비용 없음, 보험·세금 포함, 즉시 상담 CTA 배치</strong></li>
+            </ul>
+          </article>
+          <article class="panel">
+            <ul class="strategy-action-list">
+              <li><span>소재</span><strong>차량별 광고 세트로 분리하고 메시지를 차량 수요에 맞춤</strong></li>
+              <li><span>추적</span><strong>utm_source, campaign, content, vehicle_model을 Slack 상담 알림까지 전달</strong></li>
+              <li><span>KPI</span><strong>Meta 상담당 비용, 차량별 상담당 비용, 상담→심사→계약 전환율로 판단</strong></li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section>
+        <h2 class="section-title">최종 판단</h2>
+        <article class="panel">
+          <p class="creative-copy">2026년 상담 감소는 광고 효율 붕괴보다 광고비 축소와 전환 구조 약화가 큽니다. Instagram은 상담당 비용이 개선됐으므로 예산 회복 대상이고, Facebook은 랜딩 이후 상담 전환이 약하므로 신규 유입 증액은 보류합니다. 판매 확대를 위해서는 차량별 소재, 상담 전환형 랜딩, 유입 추적 정비를 함께 진행해야 합니다.</p>
         </article>
       </section>
     </div>
@@ -2039,6 +2481,8 @@
     const campaigns = (payload.campaigns || []).slice();
     const colors = ["#165d4a", "#d97706", "#2563eb", "#7c3aed", "#e11d48"];
     const monthlyCharts = {};
+    const strategyCharts = {};
+    let strategyRendered = false;
     const facebookManual = {
       spend: 622334,
       reach: 57833,
@@ -2193,6 +2637,288 @@
 
     function formatMoneyOrDash(value) {
       return value ? `${formatNumber(value, 0)}원` : `<span class="muted">-</span>`;
+    }
+
+    function destroyStrategyChart(id) {
+      if (strategyCharts[id]) {
+        strategyCharts[id].destroy();
+        strategyCharts[id] = null;
+      }
+    }
+
+    function strategyRowsByYear(year, media = null) {
+      return (monthlyPayload.daily || []).filter((row) => (
+        Number(row.year) === year && (!media || row.media === media)
+      ));
+    }
+
+    function strategyConsultationRowsByYear(year) {
+      return ((monthlyPayload.consultations || {}).monthly || []).filter((row) => Number(row.year) === year);
+    }
+
+    function strategyConsultationDetailsByYear(year) {
+      return ((monthlyPayload.consultations || {}).detail || []).filter((row) => Number(row.year) === year);
+    }
+
+    function strategyConsultationCount(year, source = null) {
+      return strategyConsultationRowsByYear(year)
+        .filter((row) => !source || row.source === source)
+        .reduce((sum, row) => sum + Number(row.inquiries || 0), 0);
+    }
+
+    function strategyMetaConsultations(year) {
+      return strategyConsultationCount(year, "instagram") + strategyConsultationCount(year, "facebook");
+    }
+
+    function strategyStats(year, media = null) {
+      const rows = strategyRowsByYear(year, media);
+      const source = media === "Instagram" ? "instagram" : media === "Facebook" ? "facebook" : null;
+      const spend = rows.reduce((sum, row) => sum + Number(row.spend || 0), 0);
+      const clicks = rows.reduce((sum, row) => sum + Number(row.link_clicks || 0), 0);
+      const lpv = rows.reduce((sum, row) => sum + Number(row.landing_page_views || 0), 0);
+      const meta = source ? strategyConsultationCount(year, source) : strategyMetaConsultations(year);
+      const all = strategyConsultationCount(year);
+      return {
+        spend,
+        clicks,
+        lpv,
+        meta,
+        all,
+        costPerMeta: safeRatio(spend, meta),
+        costPerAll: safeRatio(spend, all),
+        clickToMeta: safeRatio(meta * 100, clicks),
+        clickToLanding: safeRatio(lpv * 100, clicks),
+        landingToMeta: safeRatio(meta * 100, lpv),
+      };
+    }
+
+    function strategyChange(current, previous) {
+      if (!previous) return 0;
+      return ((current - previous) / previous) * 100;
+    }
+
+    function strategyFunnelRow(label, value, width, tone) {
+      const safeWidth = Math.max(0, Math.min(100, width || 0));
+      return `
+        <div class="strategy-funnel-row">
+          <span>${label}</span>
+          <div class="strategy-track"><i class="strategy-fill ${tone}" style="width:${safeWidth}%;"></i></div>
+          <strong>${value}</strong>
+        </div>
+      `;
+    }
+
+    function renderStrategyFunnel(id, title, stats, tone, pillClass = "") {
+      const clickLandingDrop = 100 - stats.clickToLanding;
+      const landingConsultDrop = 100 - stats.landingToMeta;
+      document.getElementById(id).innerHTML = `
+        <div class="strategy-funnel-title">
+          <span>${title}</span>
+          <span class="strategy-pill ${pillClass}">랜딩→상담 ${formatNumber(stats.landingToMeta, 3)}%</span>
+        </div>
+        ${strategyFunnelRow("광고비", `${formatNumber(stats.spend, 0)}원`, 100, tone)}
+        ${strategyFunnelRow("클릭", formatNumber(stats.clicks, 0), 100, tone)}
+        ${strategyFunnelRow("랜딩", formatNumber(stats.lpv, 0), stats.clickToLanding, tone)}
+        ${strategyFunnelRow("상담", `${formatNumber(stats.meta, 0)}건`, Math.max(2, stats.clickToMeta * 60), tone)}
+        <p class="strategy-note">클릭→랜딩 이탈 ${formatNumber(clickLandingDrop, 1)}% · 랜딩→상담 이탈 ${formatNumber(landingConsultDrop, 2)}%</p>
+      `;
+    }
+
+    function strategyVehicleRows() {
+      const countByVehicle = (year) => {
+        const map = new Map();
+        strategyConsultationDetailsByYear(year).forEach((row) => {
+          const key = row.vehicle_model || "차량명 없음";
+          map.set(key, (map.get(key) || 0) + 1);
+        });
+        return map;
+      };
+      const y2025 = countByVehicle(2025);
+      const y2026 = countByVehicle(2026);
+      return ["EQE350+", "모델 3", "E-클래스", "i4", "레이 EV", "MINI 쿠퍼 일렉트릭", "5 시리즈", "모델 Y"].map((vehicle) => ({
+        vehicle,
+        y2025: y2025.get(vehicle) || 0,
+        y2026: y2026.get(vehicle) || 0,
+      }));
+    }
+
+    function strategyFallback(canvas, rows) {
+      const frame = canvas.closest(".strategy-chart-frame");
+      if (!frame) return;
+      frame.innerHTML = `<div class="strategy-fallback-bars">${rows.map((row) => `
+        <div><span>${row.label}</span><i style="width:${Math.max(4, Math.min(100, row.width))}%;"></i><strong>${row.value}</strong></div>
+      `).join("")}</div>`;
+    }
+
+    function renderStrategyChart(id, config, fallbackRows) {
+      const canvas = document.getElementById(id);
+      if (!canvas) return;
+      destroyStrategyChart(id);
+      if (typeof Chart === "undefined") {
+        strategyFallback(canvas, fallbackRows);
+        return;
+      }
+      try {
+        strategyCharts[id] = new Chart(canvas.getContext("2d"), config);
+      } catch (error) {
+        strategyFallback(canvas, fallbackRows);
+      }
+    }
+
+    function renderConsultingSalesStrategy() {
+      if (strategyRendered) {
+        Object.values(strategyCharts).forEach((chart) => {
+          if (chart && typeof chart.resize === "function") chart.resize();
+        });
+        return;
+      }
+      const all2025 = strategyStats(2025);
+      const all2026 = strategyStats(2026);
+      const ig2026 = strategyStats(2026, "Instagram");
+      const fb2026 = strategyStats(2026, "Facebook");
+      const adRange = monthlyPayload.requestedRange || {};
+      const consultationFreshness = (monthlyPayload.consultations || {}).sourceFreshness || {};
+
+      document.getElementById("strategyDataNote").textContent =
+        `광고 데이터 ${adRange.since || "-"}~${adRange.until || "-"}, 상담 데이터 ${consultationFreshness.first_date || "-"}~${consultationFreshness.latest_date || "-"} 기준입니다. 2025 Instagram 랜딩조회는 원본 API에서 4건만 잡혀 퍼널 비교에서 제외합니다.`;
+
+      const kpis = [
+        ["광고비", `${formatNumber(all2026.spend, 0)}원`, `${formatNumber(strategyChange(all2026.spend, all2025.spend), 1)}% vs 2025`, ""],
+        ["Meta 상담", `${formatNumber(all2026.meta, 0)}건`, `${formatNumber(strategyChange(all2026.meta, all2025.meta), 1)}% vs 2025`, ""],
+        ["Meta 상담당 비용", `${formatNumber(all2026.costPerMeta, 0)}원`, `${formatNumber(strategyChange(all2026.costPerMeta, all2025.costPerMeta), 1)}% 개선`, "good"],
+        ["클릭→상담", `${formatNumber(all2026.clickToMeta, 3)}%`, `2025 ${formatNumber(all2025.clickToMeta, 3)}%와 유사`, "good"],
+      ];
+      document.getElementById("strategyKpiGrid").innerHTML = kpis.map(([label, value, delta, tone]) => `
+        <article class="strategy-kpi ${tone}">
+          <span>${label}</span>
+          <strong>${value}</strong>
+          <em>${delta}</em>
+        </article>
+      `).join("");
+
+      renderStrategyFunnel("strategyInstagramFunnel", "Instagram 2026", ig2026, "instagram");
+      renderStrategyFunnel("strategyFacebookFunnel", "Facebook 2026", fb2026, "facebook", "warn");
+
+      document.getElementById("strategyCauseBudget").textContent =
+        `광고비는 ${formatNumber(all2025.spend, 0)}원에서 ${formatNumber(all2026.spend, 0)}원으로 ${formatNumber(strategyChange(all2026.spend, all2025.spend), 1)}% 줄었습니다. Meta 상담 감소보다 집행량 축소 영향이 큽니다.`;
+      document.getElementById("strategyCauseFacebook").textContent =
+        `Facebook은 2026년 랜딩 ${formatNumber(fb2026.lpv, 0)}건을 만들었지만 상담은 ${formatNumber(fb2026.meta, 0)}건입니다. 상담당 비용은 ${formatNumber(fb2026.costPerMeta, 0)}원으로 신규 증액 우선순위가 낮습니다.`;
+      document.getElementById("strategyCauseTracking").textContent =
+        `2026년 APP 상담 ${formatNumber(strategyConsultationCount(2026, "app"), 0)}건, unknown ${formatNumber(strategyConsultationCount(2026, "unknown"), 0)}건이 있어 Meta 기여가 일부 과소평가될 수 있습니다.`;
+
+      const gridColor = "rgba(100,112,103,0.16)";
+      const commonOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: { legend: { position: "bottom" } },
+        scales: {
+          x: { grid: { display: false } },
+          y: { beginAtZero: true, grid: { color: gridColor } },
+        },
+      };
+
+      renderStrategyChart("strategyYoyChart", {
+        type: "bar",
+        data: {
+          labels: ["광고비(백만원)", "클릭(천건)", "Meta 상담"],
+          datasets: [
+            { label: "2025", data: [all2025.spend / 1000000, all2025.clicks / 1000, all2025.meta], backgroundColor: "#165d4a", borderRadius: 6 },
+            { label: "2026", data: [all2026.spend / 1000000, all2026.clicks / 1000, all2026.meta], backgroundColor: "#d97706", borderRadius: 6 },
+          ],
+        },
+        options: commonOptions,
+      }, [
+        { label: "광고비", value: `${formatNumber(all2026.spend, 0)}원`, width: 64 },
+        { label: "상담", value: `${formatNumber(all2026.meta, 0)}건`, width: 28 },
+      ]);
+
+      renderStrategyChart("strategyCostChart", {
+        type: "bar",
+        data: {
+          labels: ["전체 상담당 비용", "Meta 상담당 비용"],
+          datasets: [
+            { label: "2025", data: [all2025.costPerAll, all2025.costPerMeta], backgroundColor: "#2563eb", borderRadius: 6 },
+            { label: "2026", data: [all2026.costPerAll, all2026.costPerMeta], backgroundColor: "#165d4a", borderRadius: 6 },
+          ],
+        },
+        options: {
+          ...commonOptions,
+          scales: {
+            ...commonOptions.scales,
+            y: { ...commonOptions.scales.y, ticks: { callback: (value) => `${formatNumber(Number(value) / 10000, 0)}만원` } },
+          },
+        },
+      }, [
+        { label: "전체", value: `${formatNumber(all2026.costPerAll, 0)}원`, width: 34 },
+        { label: "Meta", value: `${formatNumber(all2026.costPerMeta, 0)}원`, width: 54 },
+      ]);
+
+      renderStrategyChart("strategyMediaCostChart", {
+        type: "bar",
+        data: {
+          labels: ["Instagram", "Facebook"],
+          datasets: [{ label: "2026 Meta 상담당 비용", data: [ig2026.costPerMeta, fb2026.costPerMeta], backgroundColor: ["#d97706", "#2563eb"], borderRadius: 6 }],
+        },
+        options: {
+          ...commonOptions,
+          plugins: { legend: { display: false } },
+          scales: {
+            ...commonOptions.scales,
+            y: { ...commonOptions.scales.y, ticks: { callback: (value) => `${formatNumber(Number(value) / 10000, 0)}만원` } },
+          },
+        },
+      }, [
+        { label: "IG", value: `${formatNumber(ig2026.costPerMeta, 0)}원`, width: 24 },
+        { label: "FB", value: `${formatNumber(fb2026.costPerMeta, 0)}원`, width: 100 },
+      ]);
+
+      renderStrategyChart("strategyDropoffChart", {
+        type: "bar",
+        data: {
+          labels: ["Instagram", "Facebook"],
+          datasets: [
+            { label: "클릭→랜딩 이탈", data: [100 - ig2026.clickToLanding, 100 - fb2026.clickToLanding], backgroundColor: "#d97706", borderRadius: 6 },
+            { label: "랜딩→상담 이탈", data: [100 - ig2026.landingToMeta, 100 - fb2026.landingToMeta], backgroundColor: "#b42318", borderRadius: 6 },
+          ],
+        },
+        options: {
+          ...commonOptions,
+          scales: {
+            ...commonOptions.scales,
+            y: { ...commonOptions.scales.y, max: 100, ticks: { callback: (value) => `${value}%` } },
+          },
+        },
+      }, [
+        { label: "IG", value: `${formatNumber(100 - ig2026.landingToMeta, 1)}%`, width: 99 },
+        { label: "FB", value: `${formatNumber(100 - fb2026.landingToMeta, 1)}%`, width: 100 },
+      ]);
+
+      const vehicles = strategyVehicleRows();
+      renderStrategyChart("strategyVehicleChart", {
+        type: "bar",
+        data: {
+          labels: vehicles.map((row) => row.vehicle),
+          datasets: [
+            { label: "2025", data: vehicles.map((row) => row.y2025), backgroundColor: "#165d4a", borderRadius: 6 },
+            { label: "2026", data: vehicles.map((row) => row.y2026), backgroundColor: "#d97706", borderRadius: 6 },
+          ],
+        },
+        options: {
+          ...commonOptions,
+          indexAxis: "y",
+          scales: {
+            x: { beginAtZero: true, grid: { color: gridColor } },
+            y: { grid: { display: false } },
+          },
+        },
+      }, vehicles.slice(0, 5).map((row) => ({ label: row.vehicle, value: `${formatNumber(row.y2026, 0)}건`, width: Math.max(8, row.y2026 * 2) })));
+
+      strategyRendered = true;
+      requestAnimationFrame(() => {
+        Object.values(strategyCharts).forEach((chart) => {
+          if (chart && typeof chart.resize === "function") chart.resize();
+        });
+      });
     }
 
     function destroyMonthlyChart(id) {
@@ -3595,6 +4321,9 @@
         document.querySelectorAll(".tab-panel").forEach((panel) => {
           panel.classList.toggle("active", panel.id === targetId);
         });
+        if (targetId === "consultingSalesStrategy") {
+          renderConsultingSalesStrategy();
+        }
       });
     });
   </script>
