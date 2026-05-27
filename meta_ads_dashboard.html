@@ -219,6 +219,14 @@
       height: 100% !important;
     }
 
+    .chart-empty-note {
+      margin: 8px 0 0;
+      color: #8a5a00;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1.6;
+    }
+
     .strategy-hero {
       margin-top: 24px;
       padding: 22px;
@@ -1478,6 +1486,7 @@
           <div class="chart-frame short">
             <canvas id="monthlyConsultationDateChart" aria-label="날짜별 상담 신청 건수 차트"></canvas>
           </div>
+          <p class="chart-empty-note" id="monthlyConsultationDateFallback"></p>
         </article>
         <article class="chart-canvas-wrap" style="margin-top:12px;">
           <p class="callout-title">상담 차량별 건수</p>
@@ -2980,6 +2989,85 @@
       return media === "Instagram" ? "IG" : "FB";
     }
 
+    function ymdToUtcDate(value) {
+      const [year, month, day] = String(value || "").split("-").map(Number);
+      if (!year || !month || !day) return null;
+      return new Date(Date.UTC(year, month - 1, day));
+    }
+
+    function utcDateToYmd(date) {
+      return date.toISOString().slice(0, 10);
+    }
+
+    function addUtcDays(value, days) {
+      const date = ymdToUtcDate(value);
+      if (!date) return "";
+      date.setUTCDate(date.getUTCDate() + days);
+      return utcDateToYmd(date);
+    }
+
+    function monthEndYmd(year, month) {
+      return utcDateToYmd(new Date(Date.UTC(year, month, 0)));
+    }
+
+    function minYmd(...values) {
+      return values.filter(Boolean).sort()[0] || "";
+    }
+
+    function dateRangeYmd(start, end) {
+      const startDate = ymdToUtcDate(start);
+      const endDate = ymdToUtcDate(end);
+      if (!startDate || !endDate || startDate > endDate) return [];
+      const dates = [];
+      const cursor = new Date(startDate);
+      while (cursor <= endDate) {
+        dates.push(utcDateToYmd(cursor));
+        cursor.setUTCDate(cursor.getUTCDate() + 1);
+      }
+      return dates;
+    }
+
+    function selectedMonthBounds(state, endDate = "") {
+      if (state.month === "all") return null;
+      const start = `${state.year}-${String(state.month).padStart(2, "0")}-01`;
+      const end = minYmd(monthEndYmd(state.year, state.month), endDate) || monthEndYmd(state.year, state.month);
+      return { start, end };
+    }
+
+    function selectedAdEndDate(state) {
+      const requestedUntil = monthlyPayload.requestedRange?.until || "";
+      const monthEnd = state.month === "all" ? "" : monthEndYmd(state.year, state.month);
+      return state.month === "all" ? "" : minYmd(monthEnd, requestedUntil) || monthEnd;
+    }
+
+    function selectedConsultationEndDate(state) {
+      const freshness = (monthlyPayload.consultations || {}).sourceFreshness || {};
+      const latest = freshness.latest_date || "";
+      const monthEnd = state.month === "all" ? "" : monthEndYmd(state.year, state.month);
+      return state.month === "all" ? "" : minYmd(monthEnd, latest) || monthEnd;
+    }
+
+    function completeDailyPeriods(state, endDate) {
+      const bounds = selectedMonthBounds(state, endDate);
+      if (!bounds) return [];
+      return dateRangeYmd(bounds.start, bounds.end).map((date) => ({
+        period: date,
+        period_label: date.slice(5),
+      }));
+    }
+
+    function missingAdSummary(state, dailyRows, activeMedia, endDate) {
+      if (state.month === "all" || !endDate) return "";
+      const lines = activeMedia.map((media) => {
+        const mediaDates = dailyRows.filter((row) => row.media === media).map((row) => row.date).sort();
+        const latest = mediaDates[mediaDates.length - 1];
+        if (!latest) return `${mediaShort(media)} ${periodLabel(state)} 전체 광고 데이터 없음`;
+        if (latest < endDate) return `${mediaShort(media)} ${addUtcDays(latest, 1)}~${endDate} 광고 데이터 없음`;
+        return "";
+      }).filter(Boolean);
+      return lines.length ? `그래프의 끊긴 구간: ${lines.join(" / ")}` : "";
+    }
+
     function sourceFreshnessLabel(state, firstDate, latestDate) {
       if (!firstDate || firstDate === "-") return "선택한 월에 표시할 데이터가 없습니다";
       const selectedMedia = state.media === "all" ? ["Facebook", "Instagram"] : [state.media];
@@ -3287,13 +3375,19 @@
         return;
       }
 
-      const groupedByPeriod = groupRows(periodRows, ["period", "period_label"], [metric]).sort((a, b) => a.period.localeCompare(b.period));
+      const activeMedia = state.media === "all" ? ["Facebook", "Instagram"] : [state.media];
+      const adEndDate = selectedAdEndDate(state);
+      const completedPeriods = state.month === "all" ? [] : completeDailyPeriods(state, adEndDate);
+      const groupedByPeriod = (completedPeriods.length ? completedPeriods : groupRows(periodRows, ["period", "period_label"], [metric]))
+        .sort((a, b) => a.period.localeCompare(b.period));
       const mediaMetricRows = groupRows(periodRows, ["period", "media"], [metric]);
       const mediaMetricValue = (period, media) => {
         const found = mediaMetricRows.find((row) => row.period === period && row.media === media);
-        return found ? metricValue(found, metric) : 0;
+        return found ? metricValue(found, metric) : null;
       };
-      const activeMedia = state.media === "all" ? ["Facebook", "Instagram"] : [state.media];
+      if (chartFallback) {
+        chartFallback.textContent = missingAdSummary(state, dailyRows, activeMedia, adEndDate);
+      }
       const metricDatasets = activeMedia.map((media) => ({
         label: media,
         data: groupedByPeriod.map((row) => mediaMetricValue(row.period, media)),
@@ -3304,6 +3398,7 @@
         fill: true,
         tension: 0.32,
         borderWidth: 2.5,
+        spanGaps: false,
       }));
 
       monthlyCharts.metric = new Chart(metricContext, {
@@ -3319,7 +3414,10 @@
             legend: { display: false },
             tooltip: {
               callbacks: {
-                label: (context) => `${context.dataset.label} ${metricLabel(metric)}: ${metricDisplay(context.parsed.y, metric)}`,
+                label: (context) => {
+                  if (context.raw === null || context.raw === undefined) return `${context.dataset.label}: 데이터 없음`;
+                  return `${context.dataset.label} ${metricLabel(metric)}: ${metricDisplay(context.parsed.y, metric)}`;
+                },
               },
             },
           },
@@ -3678,6 +3776,8 @@
     function renderConsultationDateChart(state, consultationDetails) {
       destroyMonthlyChart("consultationDate");
       const canvas = document.getElementById("monthlyConsultationDateChart");
+      const fallback = document.getElementById("monthlyConsultationDateFallback");
+      if (fallback) fallback.textContent = "";
       if (!canvas || typeof Chart === "undefined") return;
       const context = canvas.getContext ? canvas.getContext("2d") : null;
       if (!context) return;
@@ -3740,7 +3840,11 @@
         return;
       }
       const dailyRows = groupRows(details, ["period", "period_label", "source"], ["reply_count"]).sort((a, b) => a.period.localeCompare(b.period) || a.source.localeCompare(b.source));
-      const labels = [...new Map(dailyRows.map((row) => [row.period, row.period_label])).entries()].sort((a, b) => a[0].localeCompare(b[0]));
+      const completedPeriods = completeDailyPeriods(state, selectedConsultationEndDate(state));
+      const labels = (completedPeriods.length
+        ? completedPeriods.map((row) => [row.period, row.period_label])
+        : [...new Map(dailyRows.map((row) => [row.period, row.period_label])).entries()]
+      ).sort((a, b) => a[0].localeCompare(b[0]));
       const sourceSeries = [
         ["instagram", "Instagram", consultationSourceColor("instagram")],
         ["facebook", "Facebook", consultationSourceColor("facebook")],
@@ -3749,6 +3853,12 @@
         ["naver", "Naver", consultationSourceColor("naver")],
         ["unknown", "출처 미상", consultationSourceColor("unknown")],
       ].filter(([source]) => dailyRows.some((row) => row.source === source));
+      const totalConsultations = details.length;
+      if (fallback) {
+        fallback.textContent = totalConsultations
+          ? "막대가 없는 날짜는 상담 신청 0건입니다."
+          : `${periodLabel(state)} 상담 신청 데이터가 없습니다.`;
+      }
       monthlyCharts.consultationDate = new Chart(context, {
         type: "bar",
         data: {
