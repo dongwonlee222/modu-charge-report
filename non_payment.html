@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>충전요금 미납 현황 리포트</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="./chart.umd.js"></script>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --bg: #F7F6F2;
+    --bg-card: #FFFFFF;
+    --text-primary: #1A1A18;
+    --text-secondary: #6B6B63;
+    --text-muted: #9E9E93;
+    --border: #E2E0D8;
+    --red: #C94040;
+    --red-light: #FBF0F0;
+    --blue: #2E5FA3;
+    --blue-light: #EDF3FB;
+    --amber: #A0620A;
+    --amber-light: #FDF5E6;
+    --font: 'Noto Sans KR', sans-serif;
+    --mono: 'DM Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text-primary);
+    line-height: 1.6;
+    min-height: 100vh;
+  }
+
+  .page { max-width: 1040px; margin: 0 auto; padding: 48px 32px 80px; }
+
+  /* Header */
+  .report-header {
+    border-bottom: 2px solid var(--text-primary);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  .report-meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+  .report-title { font-size: 32px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.2; margin-bottom: 8px; }
+  .report-subtitle { font-size: 15px; color: var(--text-secondary); font-weight: 300; }
+
+  /* Section */
+  .section { margin-bottom: 48px; }
+  .section-label { font-family: var(--mono); font-size: 10px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px; }
+  .section-title { font-size: 20px; font-weight: 700; letter-spacing: -0.01em; margin-bottom: 20px; padding-bottom: 12px; border-bottom: 1px solid var(--border); }
+
+  /* KPI */
+  .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 24px; }
+  .kpi-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 18px 20px; }
+  .kpi-card.alert { background: var(--red-light); border-color: #EAC0C0; }
+  .kpi-label { font-size: 11px; color: var(--text-muted); margin-bottom: 6px; letter-spacing: 0.02em; }
+  .kpi-value { font-size: 24px; font-weight: 700; letter-spacing: -0.02em; line-height: 1.1; }
+  .kpi-card.alert .kpi-value { color: var(--red); }
+  .kpi-sub { font-size: 11px; color: var(--text-muted); margin-top: 4px; }
+
+  /* Alert banner */
+  .alert-banner {
+    background: var(--red-light);
+    border: 1px solid #EAC0C0;
+    border-left: 3px solid var(--red);
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 24px;
+    font-size: 13px;
+    color: var(--red);
+    line-height: 1.6;
+  }
+  .alert-banner strong { font-weight: 700; }
+
+  /* Chart card */
+  .chart-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 24px; margin-bottom: 16px; }
+  .chart-title { font-size: 13px; font-weight: 500; color: var(--text-secondary); margin-bottom: 4px; }
+  .chart-desc { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+
+  /* Small multiples */
+  .small-multiples { display: flex; flex-direction: column; gap: 2px; }
+  .sm-panel { position: relative; }
+
+  /* Legend */
+  .legend { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 16px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-secondary); }
+  .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+  .legend-dash { width: 18px; height: 2px; border-top: 2px dashed; flex-shrink: 0; }
+
+  /* Two / Three col */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 16px; }
+
+  /* Table */
+  .table-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  thead th { background: var(--bg); padding: 10px 16px; text-align: left; font-size: 11px; font-weight: 500; color: var(--text-muted); letter-spacing: 0.06em; text-transform: uppercase; border-bottom: 1px solid var(--border); }
+  thead th.num { text-align: right; }
+  tbody td { padding: 10px 16px; border-bottom: 1px solid var(--border); }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody td.num { text-align: right; font-family: var(--mono); font-size: 12px; }
+  tbody tr:hover td { background: var(--bg); }
+
+  .bar-cell { display: flex; align-items: center; gap: 8px; }
+  .bar-bg { flex: 1; height: 6px; background: var(--bg); border-radius: 3px; overflow: hidden; min-width: 60px; }
+  .bar-fill { height: 100%; border-radius: 3px; }
+  .bar-label { font-family: var(--mono); font-size: 11px; color: var(--text-muted); white-space: nowrap; }
+
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 500; }
+  .badge-red { background: var(--red-light); color: var(--red); }
+  .badge-amber { background: var(--amber-light); color: var(--amber); }
+
+  /* Insight */
+  .insight-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-top: 16px; }
+  .insight-box { background: var(--bg-card); border: 1px solid var(--border); border-radius: 8px; padding: 16px 18px; }
+  .insight-box .tag { font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px; }
+  .insight-box p { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+  .insight-box strong { color: var(--text-primary); font-weight: 500; }
+
+  /* Footer */
+  .report-footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid var(--border); font-family: var(--mono); font-size: 11px; color: var(--text-muted); display: flex; justify-content: space-between; }
+
+  @media (max-width: 640px) {
+    .kpi-grid { grid-template-columns: repeat(2,1fr); }
+    .two-col, .three-col, .insight-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- Header -->
+  <div class="report-header">
+    <div class="report-meta">모두의충전 · 배달 충전 미납 현황 · 2026.05</div>
+    <h1 class="report-title">충전요금 미납 이력 분석 리포트</h1>
+    <p class="report-subtitle">2022년 6월 ~ 2026년 5월 · 전체 961건 · 분석 기준일 2026-05-27</p>
+  </div>
+
+  <!-- 01. KPI 요약 -->
+  <div class="section">
+    <div class="section-label">01</div>
+    <div class="section-title">전체 현황 요약</div>
+
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">전체 미납 건수</div>
+        <div class="kpi-value">961건</div>
+        <div class="kpi-sub">2022-06 ~ 2026-05</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">전체 미납 금액</div>
+        <div class="kpi-value">1,026만원</div>
+        <div class="kpi-sub">건당 평균 10,679원</div>
+      </div>
+      <div class="kpi-card alert">
+        <div class="kpi-label">2026년 5월 건수</div>
+        <div class="kpi-value">208건</div>
+        <div class="kpi-sub">전월(91건) 대비 +129%</div>
+      </div>
+      <div class="kpi-card alert">
+        <div class="kpi-label">2026년 5월 금액</div>
+        <div class="kpi-value">241만원</div>
+        <div class="kpi-sub">전월(91만원) 대비 +167%</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 02. 월별 추이 -->
+  <div class="section">
+    <div class="section-label">02</div>
+    <div class="section-title">월별 추이</div>
+
+    <!-- 미납금 + 미납건수 + 결제건수 small multiples -->
+    <div class="chart-card">
+      <div class="chart-title">월별 미납 금액 · 건수 · 결제건수 (2022-06 ~ 2026-05)</div>
+      <div class="chart-desc">붉은 막대: 2025-12 이후 이상 급증 구간 · 세 지표는 X축(월)을 공유합니다</div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#C5D9F0"></div>미납금 (정상)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#C94040"></div>미납금 (이상)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#A0620A;border-radius:50%"></div>미납건수</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#2E5FA3;border-radius:50%"></div>결제건수</div>
+      </div>
+      <div class="small-multiples">
+        <div class="sm-panel" style="height:150px;"><canvas id="monthlyAmtChart"></canvas></div>
+        <div class="sm-panel" style="height:120px;"><canvas id="monthlyCntChart"></canvas></div>
+        <div class="sm-panel" style="height:150px;"><canvas id="monthlyPayChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 03. 일별 추이 (2026) -->
+  <div class="section">
+    <div class="section-label">03</div>
+    <div class="section-title">2026년 일별 추이</div>
+
+    <div class="chart-card">
+      <div class="chart-title">일별 미납금 · 미납건수 · 결제건수 (2026-01-01 ~ 2026-05-27)</div>
+      <div class="chart-desc" id="dailyAmtDesc">붉은 막대: 평균+2σ 초과 이상치</div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#C9404050"></div>미납금 (정상)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#C94040"></div>미납금 (이상 ≥ μ+2σ)</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#A0620A;border-radius:50%"></div>미납건수</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#2E5FA3;border-radius:50%"></div>결제건수</div>
+      </div>
+      <div class="small-multiples">
+        <div class="sm-panel" style="height:150px;"><canvas id="dailyAmtChart"></canvas></div>
+        <div class="sm-panel" style="height:110px;"><canvas id="dailyCntChart"></canvas></div>
+        <div class="sm-panel" style="height:150px;"><canvas id="dailyPayChart"></canvas></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 04. 실패 사유 -->
+  <div class="section">
+    <div class="section-label">04</div>
+    <div class="section-title">결제 실패 사유 분석</div>
+
+    <div class="two-col">
+      <div class="chart-card">
+        <div class="chart-title">사유별 건수 비율</div>
+        <div class="legend" id="reasonLegend"></div>
+        <div style="position:relative;height:220px;">
+          <canvas id="reasonDonut"></canvas>
+        </div>
+      </div>
+      <div class="chart-card">
+        <div class="chart-title">사유별 총 금액 (원)</div>
+        <div style="position:relative;height:260px;">
+          <canvas id="reasonAmount"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="table-card" style="margin-top:0">
+      <table>
+        <thead>
+          <tr>
+            <th>사유</th>
+            <th class="num">건수</th>
+            <th class="num">비율</th>
+            <th class="num">총 금액 (원)</th>
+            <th class="num">건당 평균 (원)</th>
+            <th>건수 비중</th>
+          </tr>
+        </thead>
+        <tbody id="reasonTableBody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="report-footer">
+    <span>delivery_charge_user_non_payment_history.csv 기반</span>
+    <span>2026-05-27</span>
+  </div>
+</div>
+
+<script>
+const ALERT_START = '2025-12';
+const fmt   = v => v >= 1000000 ? (v/1000000).toFixed(2)+'M' : v >= 1000 ? Math.round(v/1000)+'K' : String(v);
+const comma = v => Number(v).toLocaleString('ko-KR');
+
+Chart.defaults.font.family = "'Noto Sans KR', sans-serif";
+Chart.defaults.color = '#9E9E93';
+
+// ── 데이터 ──────────────────────────────────────────────
+const monthly = [
+  {ym:"2022-06",건수:3,금액:9117},{ym:"2022-07",건수:1,금액:5131},{ym:"2022-08",건수:2,금액:18091},
+  {ym:"2022-09",건수:7,금액:84503},{ym:"2022-10",건수:3,금액:26211},{ym:"2022-11",건수:7,금액:77714},
+  {ym:"2022-12",건수:7,금액:67789},{ym:"2023-01",건수:4,금액:37084},{ym:"2023-02",건수:2,금액:12592},
+  {ym:"2023-03",건수:4,금액:55531},{ym:"2023-04",건수:7,금액:79574},{ym:"2023-05",건수:9,금액:86516},
+  {ym:"2023-06",건수:5,금액:47135},{ym:"2023-07",건수:15,금액:144114},{ym:"2023-08",건수:4,금액:35849},
+  {ym:"2023-09",건수:14,금액:108993},{ym:"2023-10",건수:8,금액:101027},{ym:"2023-11",건수:4,금액:20167},
+  {ym:"2023-12",건수:13,금액:131842},{ym:"2024-01",건수:16,금액:132840},{ym:"2024-02",건수:9,금액:74160},
+  {ym:"2024-03",건수:8,금액:47723},{ym:"2024-04",건수:6,금액:39457},{ym:"2024-05",건수:11,금액:149965},
+  {ym:"2024-06",건수:8,금액:90386},{ym:"2024-07",건수:16,금액:156750},{ym:"2024-08",건수:22,금액:262432},
+  {ym:"2024-09",건수:15,금액:123437},{ym:"2024-10",건수:21,금액:207001},{ym:"2024-11",건수:14,금액:122388},
+  {ym:"2024-12",건수:17,금액:169115},{ym:"2025-01",건수:27,금액:339219},{ym:"2025-02",건수:14,금액:174868},
+  {ym:"2025-03",건수:11,금액:102430},{ym:"2025-04",건수:12,금액:155613},{ym:"2025-05",건수:13,금액:194749},
+  {ym:"2025-06",건수:11,금액:130242},{ym:"2025-07",건수:13,금액:120068},{ym:"2025-08",건수:13,금액:88753},
+  {ym:"2025-09",건수:8,금액:126115},{ym:"2025-10",건수:19,금액:213951},{ym:"2025-11",건수:17,금액:141689},
+  {ym:"2025-12",건수:56,금액:489901},{ym:"2026-01",건수:45,금액:597613},{ym:"2026-02",건수:39,금액:442999},
+  {ym:"2026-03",건수:82,금액:895755},{ym:"2026-04",건수:91,금액:906899},{ym:"2026-05",건수:208,금액:2417405}
+];
+
+const monthlyPay = [
+  {m:'2022-05',v:9458},{m:'2022-06',v:6851},{m:'2022-07',v:9639},{m:'2022-08',v:11061},
+  {m:'2022-09',v:15985},{m:'2022-10',v:23759},{m:'2022-11',v:28065},{m:'2022-12',v:33919},
+  {m:'2023-01',v:31405},{m:'2023-02',v:27952},{m:'2023-03',v:28272},{m:'2023-04',v:28034},
+  {m:'2023-05',v:30343},{m:'2023-06',v:34483},{m:'2023-07',v:36887},{m:'2023-08',v:39052},
+  {m:'2023-09',v:42051},{m:'2023-10',v:46013},{m:'2023-11',v:45605},{m:'2023-12',v:50981},
+  {m:'2024-01',v:49151},{m:'2024-02',v:40439},{m:'2024-03',v:42621},{m:'2024-04',v:39087},
+  {m:'2024-05',v:46885},{m:'2024-06',v:51247},{m:'2024-07',v:64228},{m:'2024-08',v:73486},
+  {m:'2024-09',v:74137},{m:'2024-10',v:78002},{m:'2024-11',v:86775},{m:'2024-12',v:97863},
+  {m:'2025-01',v:84608},{m:'2025-02',v:73301},{m:'2025-03',v:67181},{m:'2025-04',v:59414},
+  {m:'2025-05',v:58260},{m:'2025-06',v:52893},{m:'2025-07',v:58295},{m:'2025-08',v:58456},
+  {m:'2025-09',v:53322},{m:'2025-10',v:55715},{m:'2025-11',v:56924},{m:'2025-12',v:62447},
+  {m:'2026-01',v:65377},{m:'2026-02',v:52144},{m:'2026-03',v:53201},{m:'2026-04',v:47673},{m:'2026-05',v:40729}
+];
+
+const reasonData = [
+  {reason:"정지된 카드",     건수:246, 금액:2519966, color:'#2E5FA3'},
+  {reason:"유효기간 오류",   건수:211, 금액:1801106, color:'#C94040'},
+  {reason:"잔액 부족",       건수:203, 금액:2615778, color:'#1F7A52'},
+  {reason:"카드사 거절",     건수:117, 금액:1159460, color:'#A0620A'},
+  {reason:"한도초과",        건수:106, 금액:1395377, color:'#5A3FA0'},
+  {reason:"등록 불가",       건수:38,  금액:419097,  color:'#0F6E56'},
+  {reason:"결제 실패·기타", 건수:40,  금액:271858,  color:'#9E9E93'}
+];
+
+function allDays(from, to) {
+  const list=[]; const d=new Date(from); const e=new Date(to);
+  while(d<=e){list.push(d.toISOString().slice(0,10)); d.setDate(d.getDate()+1);}
+  return list;
+}
+const dailyLabels = allDays('2026-01-01','2026-05-27');
+
+const rawAmt  = {"2026-01-01":3920,"2026-01-03":71533,"2026-01-04":3900,"2026-01-06":10979,"2026-01-08":27848,"2026-01-09":16696,"2026-01-10":35450,"2026-01-12":24266,"2026-01-14":37297,"2026-01-15":9704,"2026-01-16":10870,"2026-01-17":35744,"2026-01-18":8644,"2026-01-19":13180,"2026-01-20":40936,"2026-01-22":19180,"2026-01-23":47360,"2026-01-24":45600,"2026-01-25":2568,"2026-01-26":7003,"2026-01-27":21841,"2026-01-28":30026,"2026-01-29":20080,"2026-01-30":22894,"2026-01-31":30094,"2026-02-01":26799,"2026-02-02":7832,"2026-02-04":20020,"2026-02-05":10272,"2026-02-06":45138,"2026-02-08":29131,"2026-02-09":6916,"2026-02-10":5008,"2026-02-11":23408,"2026-02-14":9860,"2026-02-15":3562,"2026-02-16":31330,"2026-02-18":62647,"2026-02-19":11068,"2026-02-20":3990,"2026-02-21":3692,"2026-02-23":46070,"2026-02-25":6116,"2026-02-26":43192,"2026-02-28":46948,"2026-03-01":6684,"2026-03-02":18420,"2026-03-03":69230,"2026-03-04":38128,"2026-03-05":11240,"2026-03-06":60174,"2026-03-07":21027,"2026-03-08":25955,"2026-03-10":18036,"2026-03-11":17414,"2026-03-12":22333,"2026-03-13":41849,"2026-03-14":2587,"2026-03-15":15136,"2026-03-16":9438,"2026-03-18":67027,"2026-03-19":66149,"2026-03-20":3982,"2026-03-21":29537,"2026-03-22":10412,"2026-03-23":52532,"2026-03-24":32164,"2026-03-25":13181,"2026-03-26":124585,"2026-03-27":34920,"2026-03-28":29230,"2026-03-29":14310,"2026-03-30":21714,"2026-03-31":18361,"2026-04-01":30807,"2026-04-02":28349,"2026-04-03":27583,"2026-04-05":12258,"2026-04-06":33511,"2026-04-07":11328,"2026-04-08":29332,"2026-04-09":32840,"2026-04-10":23388,"2026-04-11":28728,"2026-04-12":68833,"2026-04-13":38391,"2026-04-14":12802,"2026-04-15":30289,"2026-04-16":33860,"2026-04-17":12415,"2026-04-18":16676,"2026-04-19":62261,"2026-04-20":20987,"2026-04-21":30980,"2026-04-22":72418,"2026-04-23":18413,"2026-04-24":41571,"2026-04-25":29443,"2026-04-26":39278,"2026-04-27":54311,"2026-04-28":32452,"2026-04-29":14792,"2026-04-30":18603,"2026-05-01":31504,"2026-05-02":53900,"2026-05-03":66958,"2026-05-04":16420,"2026-05-05":28264,"2026-05-06":46683,"2026-05-07":28269,"2026-05-08":27299,"2026-05-09":61789,"2026-05-10":108877,"2026-05-11":26253,"2026-05-12":82283,"2026-05-13":62961,"2026-05-14":74132,"2026-05-15":43055,"2026-05-16":86413,"2026-05-17":56670,"2026-05-18":75902,"2026-05-19":108039,"2026-05-20":50752,"2026-05-21":135048,"2026-05-22":132050,"2026-05-23":136087,"2026-05-24":218561,"2026-05-25":307260,"2026-05-26":269415,"2026-05-27":82561};
+const rawCnt  = {"2026-01-01":1,"2026-01-03":3,"2026-01-04":1,"2026-01-06":1,"2026-01-08":2,"2026-01-09":1,"2026-01-10":3,"2026-01-12":2,"2026-01-14":2,"2026-01-15":1,"2026-01-16":2,"2026-01-17":3,"2026-01-18":1,"2026-01-19":1,"2026-01-20":2,"2026-01-22":1,"2026-01-23":3,"2026-01-24":2,"2026-01-25":1,"2026-01-26":2,"2026-01-27":2,"2026-01-28":3,"2026-01-29":1,"2026-01-30":2,"2026-01-31":2,"2026-02-01":2,"2026-02-02":2,"2026-02-04":1,"2026-02-05":1,"2026-02-06":3,"2026-02-08":1,"2026-02-09":1,"2026-02-10":2,"2026-02-11":2,"2026-02-14":1,"2026-02-15":1,"2026-02-16":3,"2026-02-18":4,"2026-02-19":1,"2026-02-20":1,"2026-02-21":1,"2026-02-23":5,"2026-02-25":2,"2026-02-26":2,"2026-02-28":3,"2026-03-01":4,"2026-03-02":2,"2026-03-03":5,"2026-03-04":3,"2026-03-05":1,"2026-03-06":4,"2026-03-07":2,"2026-03-08":3,"2026-03-10":2,"2026-03-11":1,"2026-03-12":2,"2026-03-13":4,"2026-03-14":1,"2026-03-15":1,"2026-03-16":2,"2026-03-18":5,"2026-03-19":4,"2026-03-20":2,"2026-03-21":3,"2026-03-22":2,"2026-03-23":5,"2026-03-24":3,"2026-03-25":2,"2026-03-26":9,"2026-03-27":2,"2026-03-28":3,"2026-03-29":2,"2026-03-30":2,"2026-03-31":1,"2026-04-01":2,"2026-04-02":3,"2026-04-03":4,"2026-04-05":2,"2026-04-06":4,"2026-04-07":2,"2026-04-08":2,"2026-04-09":1,"2026-04-10":4,"2026-04-11":3,"2026-04-12":7,"2026-04-13":3,"2026-04-14":3,"2026-04-15":2,"2026-04-16":3,"2026-04-17":2,"2026-04-18":2,"2026-04-19":7,"2026-04-20":3,"2026-04-21":2,"2026-04-22":5,"2026-04-23":2,"2026-04-24":6,"2026-04-25":2,"2026-04-26":4,"2026-04-27":4,"2026-04-28":2,"2026-04-29":2,"2026-04-30":3,"2026-05-01":3,"2026-05-02":3,"2026-05-03":8,"2026-05-04":1,"2026-05-05":6,"2026-05-06":3,"2026-05-07":2,"2026-05-08":4,"2026-05-09":5,"2026-05-10":10,"2026-05-11":2,"2026-05-12":6,"2026-05-13":5,"2026-05-14":5,"2026-05-15":7,"2026-05-16":8,"2026-05-17":7,"2026-05-18":8,"2026-05-19":8,"2026-05-20":3,"2026-05-21":14,"2026-05-22":10,"2026-05-23":13,"2026-05-24":18,"2026-05-25":22,"2026-05-26":20,"2026-05-27":7};
+const rawPay  = {"2026-01-01":1846,"2026-01-02":2265,"2026-01-03":2028,"2026-01-04":1616,"2026-01-05":2044,"2026-01-06":2107,"2026-01-07":2139,"2026-01-08":2224,"2026-01-09":2204,"2026-01-10":1836,"2026-01-11":1701,"2026-01-12":2091,"2026-01-13":2051,"2026-01-14":2089,"2026-01-15":1928,"2026-01-16":1937,"2026-01-17":1839,"2026-01-18":1663,"2026-01-19":1955,"2026-01-20":2155,"2026-01-21":2292,"2026-01-22":2435,"2026-01-23":2416,"2026-01-24":2034,"2026-01-25":1833,"2026-01-26":2149,"2026-01-27":2134,"2026-01-28":3662,"2026-01-29":2176,"2026-01-30":2396,"2026-01-31":2132,"2026-02-01":1787,"2026-02-02":1967,"2026-02-03":1980,"2026-02-04":1969,"2026-02-05":1999,"2026-02-06":2247,"2026-02-07":2043,"2026-02-08":1802,"2026-02-09":2115,"2026-02-10":2132,"2026-02-11":2002,"2026-02-12":2160,"2026-02-13":2228,"2026-02-14":1776,"2026-02-15":1687,"2026-02-16":1620,"2026-02-17":1580,"2026-02-18":1529,"2026-02-19":1799,"2026-02-20":1825,"2026-02-21":1640,"2026-02-22":1318,"2026-02-23":1765,"2026-02-24":1747,"2026-02-25":1914,"2026-02-26":1837,"2026-02-27":1888,"2026-02-28":1788,"2026-03-01":1593,"2026-03-02":1424,"2026-03-03":1746,"2026-03-04":1806,"2026-03-05":1792,"2026-03-06":1916,"2026-03-07":1820,"2026-03-08":1545,"2026-03-09":1814,"2026-03-10":1846,"2026-03-11":1848,"2026-03-12":1801,"2026-03-13":1914,"2026-03-14":1758,"2026-03-15":1470,"2026-03-16":1679,"2026-03-17":1681,"2026-03-18":1754,"2026-03-19":1827,"2026-03-20":1940,"2026-03-21":1707,"2026-03-22":1446,"2026-03-23":1667,"2026-03-24":1633,"2026-03-25":1603,"2026-03-26":1744,"2026-03-27":1905,"2026-03-28":1719,"2026-03-29":1554,"2026-03-30":1642,"2026-03-31":1607,"2026-04-01":1589,"2026-04-02":1644,"2026-04-03":1760,"2026-04-04":1614,"2026-04-05":1399,"2026-04-06":1543,"2026-04-07":1652,"2026-04-08":1700,"2026-04-09":1457,"2026-04-10":1787,"2026-04-11":1634,"2026-04-12":1436,"2026-04-13":1650,"2026-04-14":1480,"2026-04-15":1590,"2026-04-16":1594,"2026-04-17":1550,"2026-04-18":1554,"2026-04-19":1361,"2026-04-20":1533,"2026-04-21":1617,"2026-04-22":1588,"2026-04-23":1634,"2026-04-24":1707,"2026-04-25":1576,"2026-04-26":1405,"2026-04-27":1580,"2026-04-28":1555,"2026-04-29":1746,"2026-04-30":1738,"2026-05-01":1630,"2026-05-02":1579,"2026-05-03":1370,"2026-05-04":1646,"2026-05-05":1401,"2026-05-06":1543,"2026-05-07":1586,"2026-05-08":1860,"2026-05-09":1588,"2026-05-10":1351,"2026-05-11":1510,"2026-05-12":1471,"2026-05-13":1569,"2026-05-14":1565,"2026-05-15":1684,"2026-05-16":1533,"2026-05-17":1398,"2026-05-18":1503,"2026-05-19":1530,"2026-05-20":1308,"2026-05-21":1586,"2026-05-22":1763,"2026-05-23":1679,"2026-05-24":1446,"2026-05-25":1536,"2026-05-26":1424,"2026-05-27":758};
+
+// ── 차트 공통 옵션 ───────────────────────────────────────
+const gridColor = 'rgba(0,0,0,0.05)';
+const tooltipStyle = {
+  backgroundColor:'#fff', borderColor:'#E2E0D8', borderWidth:1,
+  titleColor:'#6B6B63', bodyColor:'#1A1A18', padding:10,
+  cornerRadius:6, boxPadding:4
+};
+
+// ── small multiples 공통 옵션 빌더 ──────────────────────
+function smOptions({yTitle, yTitleColor, yTickCb, customTooltip, showX, xMaxTicks}) {
+  return {
+    responsive:true, maintainAspectRatio:false,
+    layout:{padding:{left:0, right:8, top:4, bottom:0}},
+    interaction:{mode:'index', intersect:false},
+    plugins:{ legend:{display:false}, tooltip:{...tooltipStyle, callbacks:{ label: customTooltip }} },
+    scales:{
+      x: showX
+        ? { ticks:{font:{size:9, family:'DM Mono'}, autoSkip:true, maxTicksLimit:xMaxTicks||24, maxRotation:45}, grid:{display:false} }
+        : { ticks:{display:false}, grid:{display:false}, border:{display:false} },
+      y: {
+        afterFit: axis => { axis.width = 56; },
+        beginAtZero:true,
+        ticks:{font:{size:10}, callback:yTickCb, maxTicksLimit:4},
+        grid:{color:gridColor},
+        title:{display:true, text:yTitle, font:{size:10}, color:yTitleColor||'#9E9E93'}
+      }
+    }
+  };
+}
+
+// ── 02. 월별 small multiples ────────────────────────────
+const payByMonth = Object.fromEntries(monthlyPay.map(d => [d.m, d.v]));
+const monthlyLabels = monthly.map(d => d.ym.replace('20','').replace('-','/'));
+
+new Chart(document.getElementById('monthlyAmtChart'), {
+  type:'bar',
+  data:{ labels: monthlyLabels, datasets:[{
+    label:'미납금', data: monthly.map(d=>d.금액),
+    backgroundColor: monthly.map(d => d.ym >= ALERT_START ? '#C94040' : '#C5D9F0'),
+    borderWidth:0
+  }]},
+  options: smOptions({
+    yTitle:'미납금 (원)', yTitleColor:'#C94040', yTickCb: fmt,
+    customTooltip: ctx => '미납금: '+comma(ctx.raw)+'원',
+    showX:false
+  })
+});
+
+new Chart(document.getElementById('monthlyCntChart'), {
+  type:'line',
+  data:{ labels: monthlyLabels, datasets:[{
+    label:'미납건수', data: monthly.map(d=>d.건수),
+    borderColor:'#A0620A', backgroundColor:'transparent',
+    borderWidth:2,
+    pointRadius: monthly.map(d => d.ym >= ALERT_START ? 4 : 2),
+    pointBackgroundColor: monthly.map(d => d.ym >= ALERT_START ? '#C94040' : '#A0620A'),
+    tension:0.3
+  }]},
+  options: smOptions({
+    yTitle:'미납건수', yTitleColor:'#A0620A', yTickCb: v=>v,
+    customTooltip: ctx => '미납건수: '+ctx.raw+'건',
+    showX:false
+  })
+});
+
+new Chart(document.getElementById('monthlyPayChart'), {
+  type:'line',
+  data:{ labels: monthlyLabels, datasets:[{
+    label:'결제건수', data: monthly.map(d => payByMonth[d.ym] ?? null),
+    borderColor:'#2E5FA3', backgroundColor:'#EDF3FB',
+    borderWidth:1.5, pointRadius:2, fill:true, tension:0.3
+  }]},
+  options: smOptions({
+    yTitle:'결제건수', yTitleColor:'#2E5FA3', yTickCb: v=>comma(v),
+    customTooltip: ctx => '결제건수: '+(ctx.raw!=null?comma(ctx.raw):'-')+'건',
+    showX:true
+  })
+});
+
+// ── 03. 일별 small multiples ────────────────────────────
+const dLabels = dailyLabels.map(d=>d.slice(5));
+const dAmt  = dailyLabels.map(d=>rawAmt[d]||0);
+const dCnt  = dailyLabels.map(d=>rawCnt[d]||0);
+const dPay  = dailyLabels.map(d=>rawPay[d]||null);
+
+// mean+2σ 임계값 (실제 미납 발생일만 대상)
+const dAmtNonZero = dAmt.filter(v => v > 0);
+const dAmtMean = dAmtNonZero.reduce((a,b)=>a+b,0) / dAmtNonZero.length;
+const dAmtStd  = Math.sqrt(dAmtNonZero.reduce((a,b)=>a+(b-dAmtMean)**2,0) / dAmtNonZero.length);
+const dAmtThreshold = dAmtMean + 2*dAmtStd;
+const dAmtColors = dAmt.map(v => v >= dAmtThreshold ? '#C94040' : '#C9404050');
+const dAmtOutliers = dAmtColors.filter(c => c === '#C94040').length;
+document.getElementById('dailyAmtDesc').textContent =
+  `붉은 막대: 평균+2σ (${comma(Math.round(dAmtThreshold))}원) 초과 이상치 · ${dAmtOutliers}일 해당`;
+
+new Chart(document.getElementById('dailyAmtChart'), {
+  type:'bar',
+  data:{ labels: dLabels, datasets:[{
+    label:'미납금', data: dAmt,
+    backgroundColor: dAmtColors, borderWidth:0
+  }]},
+  options: smOptions({
+    yTitle:'미납금 (원)', yTitleColor:'#C94040', yTickCb: fmt,
+    customTooltip: ctx => '미납금: '+comma(ctx.raw)+'원',
+    showX:false, xMaxTicks:10
+  })
+});
+
+new Chart(document.getElementById('dailyCntChart'), {
+  type:'line',
+  data:{ labels: dLabels, datasets:[{
+    label:'미납건수', data: dCnt,
+    borderColor:'#A0620A', backgroundColor:'transparent',
+    borderWidth:1.5, pointRadius:0, pointHoverRadius:3, tension:0.3
+  }]},
+  options: smOptions({
+    yTitle:'미납건수', yTitleColor:'#A0620A', yTickCb: v=>v,
+    customTooltip: ctx => '미납건수: '+ctx.raw+'건',
+    showX:false, xMaxTicks:10
+  })
+});
+
+new Chart(document.getElementById('dailyPayChart'), {
+  type:'line',
+  data:{ labels: dLabels, datasets:[{
+    label:'결제건수', data: dPay,
+    borderColor:'#2E5FA3', backgroundColor:'#EDF3FB',
+    borderWidth:1.5, pointRadius:0, pointHoverRadius:3,
+    fill:true, tension:0.3, spanGaps:false
+  }]},
+  options: smOptions({
+    yTitle:'결제건수', yTitleColor:'#2E5FA3', yTickCb: v=>comma(v),
+    customTooltip: ctx => '결제건수: '+(ctx.raw!=null?comma(ctx.raw):'-')+'건',
+    showX:true, xMaxTicks:10
+  })
+});
+
+// ── 04. 사유 도넛 ───────────────────────────────────────
+const legend = document.getElementById('reasonLegend');
+reasonData.forEach(d => {
+  legend.innerHTML += `<div class="legend-item"><div class="legend-dot" style="background:${d.color}"></div>${d.reason} ${d.건수}건</div>`;
+});
+
+new Chart(document.getElementById('reasonDonut'), {
+  type:'doughnut',
+  data:{
+    labels: reasonData.map(d=>d.reason),
+    datasets:[{
+      data: reasonData.map(d=>d.건수),
+      backgroundColor: reasonData.map(d=>d.color+'cc'),
+      borderColor:'#fff', borderWidth:2, hoverOffset:6
+    }]
+  },
+  options:{
+    responsive:true, maintainAspectRatio:false, cutout:'62%',
+    plugins:{ legend:{display:false}, tooltip:{...tooltipStyle, callbacks:{
+      label: ctx => ctx.label+': '+ctx.raw+'건 ('+Math.round(ctx.raw/961*100)+'%)'
+    }}}
+  }
+});
+
+// ── 사유별 금액 가로 바 ──────────────────────────────────
+new Chart(document.getElementById('reasonAmount'), {
+  type:'bar',
+  data:{
+    labels: reasonData.map(d=>d.reason),
+    datasets:[{
+      data: reasonData.map(d=>d.금액),
+      backgroundColor: reasonData.map(d=>d.color+'cc'),
+      borderWidth:0, borderRadius:3
+    }]
+  },
+  options:{
+    indexAxis:'y', responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false}, tooltip:{...tooltipStyle, callbacks:{ label: ctx => comma(ctx.raw)+'원' }} },
+    scales:{
+      x:{ ticks:{font:{size:10}, callback:fmt}, grid:{color:gridColor} },
+      y:{ ticks:{font:{size:11}}, grid:{display:false} }
+    }
+  }
+});
+
+// ── 사유 테이블 ─────────────────────────────────────────
+const totalCount = reasonData.reduce((a,b)=>a+b.건수,0);
+const maxCount   = Math.max(...reasonData.map(d=>d.건수));
+const tbody = document.getElementById('reasonTableBody');
+reasonData.forEach(d => {
+  const pct  = Math.round(d.건수/totalCount*100);
+  const barW = Math.round(d.건수/maxCount*100);
+  tbody.innerHTML += `<tr>
+    <td><span style="display:inline-block;width:8px;height:8px;border-radius:2px;background:${d.color};margin-right:6px;vertical-align:middle;"></span>${d.reason}</td>
+    <td class="num">${d.건수}</td>
+    <td class="num">${pct}%</td>
+    <td class="num">${comma(d.금액)}</td>
+    <td class="num">${comma(Math.round(d.금액/d.건수))}</td>
+    <td><div class="bar-cell"><div class="bar-bg"><div class="bar-fill" style="width:${barW}%;background:${d.color};"></div></div><span class="bar-label">${pct}%</span></div></td>
+  </tr>`;
+});
+</script>
+</body>
+</html>
