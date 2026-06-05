@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의충전 차량구독 계약 인사이트</title>
+  <script src="./chart.umd.js"></script>
+  <style>
+    :root {
+      --bg: #f5f6f2;
+      --surface: #ffffff;
+      --ink: #17221d;
+      --muted: #67736d;
+      --line: #d8ddd5;
+      --green: #17624f;
+      --blue: #315f9f;
+      --gold: #ba7a16;
+      --red: #a84a3b;
+      --soft-green: #e4f2ec;
+      --soft-gold: #f8ecd9;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background: var(--bg);
+    }
+
+    .page {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 34px 20px 70px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
+      gap: 28px;
+      align-items: end;
+      padding: 18px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 720px;
+      font-size: clamp(32px, 5vw, 58px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      margin: 18px 0 0;
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .notice {
+      border: 1px solid #e4c99c;
+      border-radius: 8px;
+      padding: 16px;
+      background: var(--soft-gold);
+      color: #6f460d;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+
+    .nav a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: var(--ink);
+      background: var(--surface);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 34px);
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .section-head p,
+    .note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .kpi,
+    .panel,
+    .insight {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .kpi {
+      padding: 16px;
+      min-height: 112px;
+    }
+
+    .kpi span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .kpi strong {
+      display: block;
+      margin-top: 10px;
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .kpi small {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .grid-3 {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .panel {
+      padding: 16px;
+      min-width: 0;
+    }
+
+    .panel h3 {
+      margin: 0;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .panel p {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.55;
+    }
+
+    .chart {
+      position: relative;
+      height: 320px;
+      margin-top: 12px;
+    }
+
+    .chart.short { height: 270px; }
+    .chart.tall { height: 390px; }
+
+    canvas {
+      width: 100% !important;
+      height: 100% !important;
+    }
+
+    .insights {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .insight {
+      padding: 16px;
+    }
+
+    .insight strong {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 15px;
+    }
+
+    .insight p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.65;
+    }
+
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+      font-size: 13px;
+    }
+
+    .data-table th,
+    .data-table td {
+      padding: 11px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .data-table th:first-child,
+    .data-table td:first-child {
+      text-align: left;
+    }
+
+    .data-table th {
+      color: var(--muted);
+      background: #f9faf7;
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .data-table tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .source {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.7;
+    }
+
+    @media (max-width: 860px) {
+      .page { padding: 24px 14px 48px; }
+      header,
+      .section-head,
+      .grid-2,
+      .grid-3,
+      .insights {
+        grid-template-columns: 1fr;
+      }
+
+      .kpis {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .chart,
+      .chart.tall {
+        height: 300px;
+      }
+
+      .table-wrap {
+        overflow-x: auto;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .kpis {
+        grid-template-columns: 1fr;
+      }
+
+      .data-table {
+        min-width: 640px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <header>
+      <div>
+        <p class="eyebrow">Vehicle Subscription Insight</p>
+        <h1>차량구독 계약과 상담 효율의 변화</h1>
+        <p class="lead">2025년 하반기 상담 흐름과 2026년 1~5월 성과를 비교하고, 2026년 계약확정 데이터를 모델·유입·월 구독료 관점으로 해석합니다.</p>
+        <nav class="nav" aria-label="보고서 이동">
+          <a href="#trend">상담/광고</a>
+          <a href="#contracts">계약확정</a>
+          <a href="#price">가격 변수</a>
+          <a href="./meta_ads_dashboard.html">운영 대시보드</a>
+        </nav>
+      </div>
+      <div class="notice">
+        2025년 상담신청은 6월부터 원천 데이터가 존재합니다. 2026년 1~5월과 직접 YoY 비교하면 2025년 1~5월이 0건으로 잡히므로, 이 보고서는 확보된 기간 기준 비교와 가설 정리에 집중합니다.
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>2026년의 핵심은 광고비 규모가 아니라 효율입니다.</h2>
+        <p>2025년 6~9월은 큰 광고비로 상담을 만든 구간이고, 2026년 1~5월은 낮은 광고비로 월 25~39건 상담을 유지한 구간입니다. 5월은 광고가 19일 이후 중단됐지만 상담 39건과 계약 8건이 확인됩니다.</p>
+      </div>
+      <div class="kpis">
+        <div class="kpi">
+          <span>2026년 1~5월 상담</span>
+          <strong>178건</strong>
+          <small>월 25~39건 범위</small>
+        </div>
+        <div class="kpi">
+          <span>2026년 5월 계약확정</span>
+          <strong>8건</strong>
+          <small>계약확정 월별 최고치</small>
+        </div>
+        <div class="kpi">
+          <span>2026년 5월 상담당 광고비</span>
+          <strong>2.5만원</strong>
+          <small>현재 확보 월 중 최저</small>
+        </div>
+        <div class="kpi">
+          <span>2026년 계약 평균 월 구독료</span>
+          <strong>129.4만원</strong>
+          <small>중앙값 149만원</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="trend">
+      <div class="section-head">
+        <h2>상담신청과 광고 효율</h2>
+        <p>상담 수만 보면 2025년 6월과 9월이 높지만, 상담당 광고비까지 보면 2025년 말부터 2026년 5월까지 효율 개선이 뚜렷합니다.</p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>월별 상담신청</h3>
+          <p>2026년 6월은 6월 5일까지 일부 데이터입니다.</p>
+          <div class="chart"><canvas id="inquiryChart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>상담당 광고비</h3>
+          <p>광고비 / 상담신청 기준, 2025년 5월은 상담 레코드가 없어 제외합니다.</p>
+          <div class="chart"><canvas id="cpiChart"></canvas></div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>월</th>
+              <th>광고비</th>
+              <th>링크클릭</th>
+              <th>상담신청</th>
+              <th>상담당 광고비</th>
+            </tr>
+          </thead>
+          <tbody id="efficiencyRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="contracts">
+      <div class="section-head">
+        <h2>2026년 계약확정은 5월, AG, EQE350+가 중심입니다.</h2>
+        <p>계약확정은 전체 상담 수와 다른 품질 지표입니다. 현재는 2026년 계약확정만 확보되어 있어 2025년 대비 계약 증가율은 추정하지 않습니다.</p>
+      </div>
+      <div class="grid-3">
+        <div class="panel">
+          <h3>월별 계약확정</h3>
+          <p>총 24건, 2026년 1월~6월 5일.</p>
+          <div class="chart short"><canvas id="contractMonthChart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>모델별 계약</h3>
+          <p>EQE350+가 8건으로 최다입니다.</p>
+          <div class="chart short"><canvas id="modelChart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>유입경로별 계약</h3>
+          <p>AG 유입 계약이 가장 큽니다.</p>
+          <div class="chart short"><canvas id="sourceChart"></canvas></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="price">
+      <div class="section-head">
+        <h2>가격 변수는 아직 직접 검증 전입니다.</h2>
+        <p>실제 차량 가격, 할인, 보조금, 잔존가, 보험료, 매입 조건이 아직 없기 때문에 월 구독료를 가격 대체변수로만 봅니다. 현재 계약은 저가형만으로 늘어난 흐름은 아닙니다.</p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>월 구독료 구간</h3>
+          <p>130~159만원 구간이 12건으로 가장 큽니다.</p>
+          <div class="chart"><canvas id="feeChart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>인사이트 우선순위</h3>
+          <p>다음 보고서 확장 시 바로 검증할 가설입니다.</p>
+          <div class="insights">
+            <div class="insight">
+              <strong>채널 품질</strong>
+              <p>상담 수 상위 채널과 계약 상위 채널을 분리해 상담-계약 전환율을 봐야 합니다.</p>
+            </div>
+            <div class="insight">
+              <strong>고가 모델 수요</strong>
+              <p>EQE350+와 130만원 이상 구간이 커서 저가 수요 증가만으로 설명하기 어렵습니다.</p>
+            </div>
+            <div class="insight">
+              <strong>5월 잔효과</strong>
+              <p>광고 중단 이후 상담·계약이 기존 광고 잔효과인지 AG/제휴 유입인지 분리해야 합니다.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="source">
+        출처: 차량구독 상담신청 Slack CSV, #ev구독신청 계약확정 Slack CSV, Meta Ads API 월별 원천. 개인정보는 집계에만 사용하고 본 페이지에는 표시하지 않습니다.
+      </p>
+    </section>
+  </main>
+
+  <script>
+    const months = ["2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"];
+    const inquiries = [106, 24, 74, 82, 36, 32, 35, 37, 25, 39, 38, 39, 1];
+    const adSpend = [14380015, 7623333, 10872439, 25324167, 2123241, 1362663, 992584, 1416359, 2237604, 1394445, 2253800, 984174, 0];
+    const linkClicks = [29392, 11262, 25547, 54283, 6852, 3955, 3202, 6973, 7635, 6585, 9391, 5475, 0];
+    const cpi = adSpend.map((spend, index) => inquiries[index] ? Math.round(spend / inquiries[index]) : null);
+
+    const contractMonths = ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"];
+    const contractCounts = [4, 2, 4, 5, 8, 1];
+    const modelLabels = ["EQE350+", "레이", "BMW i4", "EQA250", "기타"];
+    const modelCounts = [8, 4, 3, 2, 7];
+    const sourceLabels = ["AG", "미기재", "Instagram", "내부", "제이디오토", "기타"];
+    const sourceCounts = [10, 4, 2, 2, 2, 4];
+    const feeLabels = ["~79만원", "80~99만원", "100~129만원", "130~159만원", "160만원~"];
+    const feeCounts = [5, 0, 4, 12, 3];
+
+    const colors = {
+      green: "#17624f",
+      blue: "#315f9f",
+      gold: "#ba7a16",
+      red: "#a84a3b",
+      gray: "#87918b",
+      grid: "#dfe4dc"
+    };
+
+    Chart.defaults.font.family = '"Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif';
+    Chart.defaults.color = "#52605a";
+    Chart.defaults.plugins.legend.labels.usePointStyle = true;
+    Chart.defaults.plugins.tooltip.backgroundColor = "#17221d";
+    Chart.defaults.plugins.tooltip.padding = 12;
+    Chart.defaults.plugins.tooltip.displayColors = false;
+
+    function won(value) {
+      if (value == null) return "-";
+      if (value >= 1000000) return `${(value / 1000000).toFixed(1)}백만`;
+      return `${Math.round(value / 1000).toLocaleString("ko-KR")}천`;
+    }
+
+    function number(value) {
+      return Number(value).toLocaleString("ko-KR");
+    }
+
+    function makeChart(id, config) {
+      const ctx = document.getElementById(id);
+      return new Chart(ctx, config);
+    }
+
+    const commonScales = {
+      x: { grid: { display: false }, ticks: { maxRotation: 0, autoSkip: true } },
+      y: { beginAtZero: true, grid: { color: colors.grid } }
+    };
+
+    makeChart("inquiryChart", {
+      type: "bar",
+      data: {
+        labels: months,
+        datasets: [
+          {
+            type: "bar",
+            label: "상담신청",
+            data: inquiries,
+            backgroundColor: months.map((m) => m.startsWith("2026") ? colors.green : colors.blue),
+            borderRadius: 4
+          },
+          {
+            type: "line",
+            label: "광고비(백만원)",
+            data: adSpend.map((v) => +(v / 1000000).toFixed(1)),
+            borderColor: colors.gold,
+            backgroundColor: colors.gold,
+            tension: 0.35,
+            pointRadius: 3,
+            yAxisID: "y1"
+          }
+        ]
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: {
+          tooltip: {
+            callbacks: {
+              label: (item) => item.dataset.type === "line" ? `광고비 ${item.raw}백만원` : `상담 ${item.raw}건`
+            }
+          }
+        },
+        scales: {
+          ...commonScales,
+          y1: { beginAtZero: true, position: "right", grid: { drawOnChartArea: false }, ticks: { callback: (v) => `${v}백만` } }
+        }
+      }
+    });
+
+    makeChart("cpiChart", {
+      type: "line",
+      data: {
+        labels: months.slice(0, 12),
+        datasets: [{
+          label: "상담당 광고비",
+          data: cpi.slice(0, 12),
+          borderColor: colors.red,
+          backgroundColor: "rgba(168, 74, 59, 0.12)",
+          fill: true,
+          tension: 0.35,
+          pointRadius: 4
+        }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: {
+          tooltip: { callbacks: { label: (item) => `${number(item.raw)}원 / 상담` } }
+        },
+        scales: {
+          x: commonScales.x,
+          y: { beginAtZero: true, grid: { color: colors.grid }, ticks: { callback: (v) => `${Math.round(v / 1000)}천` } }
+        }
+      }
+    });
+
+    makeChart("contractMonthChart", {
+      type: "bar",
+      data: {
+        labels: contractMonths,
+        datasets: [{ label: "계약확정", data: contractCounts, backgroundColor: colors.green, borderRadius: 4 }]
+      },
+      options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: commonScales }
+    });
+
+    makeChart("modelChart", {
+      type: "bar",
+      data: {
+        labels: modelLabels,
+        datasets: [{ label: "계약", data: modelCounts, backgroundColor: colors.blue, borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: "y",
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: { x: { beginAtZero: true, grid: { color: colors.grid } }, y: { grid: { display: false } } }
+      }
+    });
+
+    makeChart("sourceChart", {
+      type: "bar",
+      data: {
+        labels: sourceLabels,
+        datasets: [{ label: "계약", data: sourceCounts, backgroundColor: colors.gold, borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: "y",
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: { x: { beginAtZero: true, grid: { color: colors.grid } }, y: { grid: { display: false } } }
+      }
+    });
+
+    makeChart("feeChart", {
+      type: "bar",
+      data: {
+        labels: feeLabels,
+        datasets: [{ label: "계약", data: feeCounts, backgroundColor: [colors.blue, colors.gray, colors.gold, colors.green, colors.red], borderRadius: 4 }]
+      },
+      options: {
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: commonScales
+      }
+    });
+
+    const rows = months.slice(0, 12).map((month, index) => {
+      return `<tr>
+        <td>${month}</td>
+        <td>${won(adSpend[index])}</td>
+        <td>${number(linkClicks[index])}</td>
+        <td>${number(inquiries[index])}</td>
+        <td>${number(cpi[index])}원</td>
+      </tr>`;
+    }).join("");
+    document.getElementById("efficiencyRows").innerHTML = rows;
+  </script>
+</body>
+</html>
