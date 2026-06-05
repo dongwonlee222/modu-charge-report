@@ -338,6 +338,7 @@
           <a href="#monthly">월별 흐름</a>
           <a href="#channels">채널별 상담/계약</a>
           <a href="#quality">계약 품질</a>
+          <a href="#model-price">모델/가격대</a>
           <a href="./meta_ads_dashboard.html">운영 대시보드</a>
         </nav>
       </div>
@@ -480,6 +481,51 @@
         출처: 차량구독 상담신청 Slack CSV, #ev구독신청 계약확정 Slack CSV. 개인정보는 집계에만 사용하고 본 페이지에는 표시하지 않습니다.
       </p>
     </section>
+
+    <section class="section" id="model-price">
+      <div class="section-head">
+        <h2>2025년부터의 모델 수요와 2026년 계약 가격대</h2>
+        <p>2025년 데이터는 상담신청 중심이라 모델별 관심 수요로 보고, 실제 계약 가격대는 2026년 계약확정 기준으로 봅니다. 현재 확실한 결론은 EQE350+ 관심과 계약이 모두 강하고, 계약 가격대는 130~159만원 구간이 가장 크다는 점입니다.</p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>상담 기준 모델 수요 Top 8</h3>
+          <p>2025년과 2026년 상담신청 상위 모델을 비교합니다.</p>
+          <div class="chart tall"><canvas id="modelDemandChart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>계약 모델별 월 구독료</h3>
+          <p>2026년 계약확정 기준입니다. 2025년 계약 가격은 원천 데이터가 아직 없습니다.</p>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>모델</th>
+                  <th>계약</th>
+                  <th>평균 월 구독료</th>
+                  <th>주요 가격대</th>
+                </tr>
+              </thead>
+              <tbody id="modelPriceRows"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <div class="insights">
+        <div class="insight">
+          <strong>상담 수요 1위</strong>
+          <p>EQE350+는 2025년 78건, 2026년 45건으로 상담 기준 최상위입니다.</p>
+        </div>
+        <div class="insight">
+          <strong>계약 주력 가격대</strong>
+          <p>2026년 계약은 130~159만원 구간이 12건으로 가장 큽니다.</p>
+        </div>
+        <div class="insight">
+          <strong>해석 주의</strong>
+          <p>2025년 계약확정과 당시 가격표가 들어오면 모델별 가격 변화와 계약 증가를 더 정확히 볼 수 있습니다.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <script>
@@ -508,6 +554,16 @@
     const modelCounts = [8, 4, 3, 2, 7];
     const feeLabels = ["~79만원", "80~99만원", "100~129만원", "130~159만원", "160만원~"];
     const feeCounts = [5, 0, 4, 12, 3];
+    const modelDemandLabels = ["EQE350+", "모델 3", "EQA250", "모델 Y", "BMW i4", "Q4", "ix3", "레이"];
+    const modelDemand2025 = [78, 54, 41, 41, 27, 21, 19, 18];
+    const modelDemand2026 = [45, 22, 13, 3, 17, 10, 12, 11];
+    const modelPriceRows = [
+      { model: "EQE350+", count: 8, average: "164.0만원", band: "130~159만원 5건, 160만원~ 3건" },
+      { model: "레이", count: 4, average: "57.8만원", band: "~79만원 4건" },
+      { model: "BMW i4", count: 3, average: "149.7만원", band: "130~159만원 3건" },
+      { model: "EQA250", count: 2, average: "119.0만원", band: "100~129만원 2건" },
+      { model: "기타", count: 7, average: "-", band: "100~159만원 중심" }
+    ];
 
     const colors = {
       green: "#17624f",
@@ -654,6 +710,22 @@
       }
     });
 
+    makeChart("modelDemandChart", {
+      type: "bar",
+      data: {
+        labels: modelDemandLabels,
+        datasets: [
+          { label: "2025 상담", data: modelDemand2025, backgroundColor: colors.blue, borderRadius: 4 },
+          { label: "2026 상담", data: modelDemand2026, backgroundColor: colors.green, borderRadius: 4 }
+        ]
+      },
+      options: {
+        indexAxis: "y",
+        maintainAspectRatio: false,
+        scales: { x: { beginAtZero: true, grid: { color: colors.grid } }, y: { grid: { display: false } } }
+      }
+    });
+
     document.getElementById("monthlyRows").innerHTML = monthlyLabels.map((month, index) => {
       return `<tr>
         <td>${month}</td>
@@ -671,6 +743,15 @@
         <td>${number(row.contracts)}</td>
         <td>${row.rate}</td>
         <td>${row.note}</td>
+      </tr>`;
+    }).join("");
+
+    document.getElementById("modelPriceRows").innerHTML = modelPriceRows.map((row) => {
+      return `<tr>
+        <td>${row.model}</td>
+        <td>${number(row.count)}</td>
+        <td>${row.average}</td>
+        <td>${row.band}</td>
       </tr>`;
     }).join("");
   </script>
