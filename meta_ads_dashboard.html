@@ -1519,6 +1519,26 @@
       </section>
 
       <section>
+        <h2 class="section-title">계약확정 건</h2>
+        <p class="creative-copy">`#ev구독신청`의 계약 확정 알림 기준입니다. 개인정보 원문은 저장하지 않고, 차량·금액·유입·출고 상태만 표시합니다.</p>
+        <p class="data-note" id="monthlyContractNote"></p>
+        <div class="grid summary-grid" id="monthlyContractCards"></div>
+        <table class="rank-table" style="margin-top:12px;">
+          <thead>
+            <tr>
+              <th>계약일</th>
+              <th>차량</th>
+              <th>구독 기간</th>
+              <th>월 구독료</th>
+              <th>유입</th>
+              <th>출고</th>
+            </tr>
+          </thead>
+          <tbody id="monthlyContractDetailBody"></tbody>
+        </table>
+      </section>
+
+      <section>
         <h2 class="section-title" id="monthlyMediaTitle">매체별 월간 성과 비교</h2>
         <p class="creative-copy" id="monthlyMediaCopy">같은 월 안에서 Facebook과 Instagram의 집행 규모와 효율을 비교합니다. 클릭은 광고 반응, 랜딩조회는 실제 페이지 도달에 가까운 지표입니다.</p>
         <table class="rank-table">
@@ -3728,6 +3748,79 @@
           </tr>
         `;
       }).join("") : `<tr><td colspan="6" class="muted">선택한 조건에 표시할 상담 신청 건이 없습니다.</td></tr>`;
+      renderMonthlyContracts(state, consultations, selectedInquiryTotal);
+    }
+
+    function renderMonthlyContracts(state, consultations, selectedInquiryTotal) {
+      const contracts = (consultations.contracts || []).filter((row) => {
+        const matchesMonth = Number(row.year) === state.year && (state.month === "all" || Number(row.month) === state.month);
+        const source = String(row.inflow_source || "").toLowerCase();
+        const matchesMedia = state.media === "all" || source === state.media.toLowerCase();
+        return matchesMonth && matchesMedia;
+      }).sort((a, b) => String(b.contract_date || "").localeCompare(String(a.contract_date || "")) || String(a.vehicle_model || "").localeCompare(String(b.vehicle_model || "")));
+      const totalContracts = contracts.length;
+      const deliveredContracts = contracts.filter((row) => row.delivery_status || row.delivery_date).length;
+      const contractRate = selectedInquiryTotal ? `${formatNumber(totalContracts / selectedInquiryTotal * 100, 1)}%` : "-";
+      const sourceCounts = contracts.reduce((acc, row) => {
+        const source = row.inflow_source || "미기록";
+        acc[source] = (acc[source] || 0) + 1;
+        return acc;
+      }, {});
+      const topSource = Object.entries(sourceCounts).sort((a, b) => b[1] - a[1])[0];
+      const note = document.getElementById("monthlyContractNote");
+      if (note) {
+        note.textContent = contracts.length
+          ? `계약확정 데이터는 #ev구독신청 Slack 알림 기준입니다. 선택 조건에서 ${formatNumber(totalContracts, 0)}건이 확인됩니다.`
+          : "선택한 조건에 표시할 계약확정 건이 없습니다.";
+      }
+      const cards = document.getElementById("monthlyContractCards");
+      if (cards) {
+        cards.innerHTML = [
+          ["계약확정", formatNumber(totalContracts, 0), "Slack 계약 알림 기준"],
+          ["상담 대비", contractRate, "선택 조건 상담 대비"],
+          ["출고 확인", formatNumber(deliveredContracts, 0), "출고일/출고상태 기록"],
+          ["상위 유입", topSource ? escapeHtml(topSource[0]) : "-", topSource ? `${formatNumber(topSource[1], 0)}건` : "데이터 없음"],
+        ].map(([label, value, sub]) => `
+          <article class="card summary-card">
+            <div class="label">${label}</div>
+            <div class="value">${value}</div>
+            <div class="sub">${sub}</div>
+          </article>
+        `).join("");
+      }
+      const body = document.getElementById("monthlyContractDetailBody");
+      if (!body) return;
+      if (state.month === "all") {
+        const monthlyRows = groupRows(contracts.map((row) => ({
+          ...row,
+          period: `${row.year}-${String(row.month).padStart(2, "0")}`,
+          period_label: `${row.month}월`,
+        })), ["period", "period_label"], []).map((row) => ({
+          ...row,
+          count: contracts.filter((item) => `${item.year}-${String(item.month).padStart(2, "0")}` === row.period).length,
+        })).sort((a, b) => b.period.localeCompare(a.period));
+        body.innerHTML = monthlyRows.length ? monthlyRows.map((row) => `
+          <tr>
+            <td>${row.period_label}</td>
+            <td class="campaign-name">전체</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>${formatNumber(row.count, 0)}건</td>
+          </tr>
+        `).join("") : `<tr><td colspan="6" class="muted">선택한 조건에 표시할 계약확정 건이 없습니다.</td></tr>`;
+        return;
+      }
+      body.innerHTML = contracts.length ? contracts.map((row) => `
+        <tr>
+          <td>${escapeHtml(row.contract_date || "-")}</td>
+          <td class="campaign-name">${escapeHtml(row.vehicle_model || "차량명 없음")}</td>
+          <td>${escapeHtml(row.subscription_period || "-")}</td>
+          <td>${escapeHtml(row.monthly_fee || "-")}</td>
+          <td>${escapeHtml(row.inflow_source || "-")}</td>
+          <td>${escapeHtml(row.delivery_date || row.delivery_status || "-")}</td>
+        </tr>
+      `).join("") : `<tr><td colspan="6" class="muted">선택한 조건에 표시할 계약확정 건이 없습니다.</td></tr>`;
     }
 
     function renderConsultationSourceChart(sourceRows, total) {
