@@ -1,5 +1,5 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-06-05T15:44:38",
+  "generatedAt": "2026-06-05T16:38:43",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
@@ -65277,6 +65277,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "high_signals": 0
       }
     ],
+    "monthlyContracts": [],
     "detail": [
       {
         "year": 2025,
@@ -65289,6 +65290,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65302,6 +65308,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65315,6 +65326,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65328,6 +65344,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65341,6 +65362,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65354,6 +65380,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65367,6 +65398,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65380,6 +65416,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -65393,6 +65434,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65406,6 +65452,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65419,6 +65470,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65432,6 +65488,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65445,6 +65506,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65458,6 +65524,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65471,6 +65542,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65484,6 +65560,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65497,6 +65578,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65510,6 +65596,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65523,6 +65614,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65536,6 +65632,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65549,6 +65650,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65562,6 +65668,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65575,6 +65686,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65588,6 +65704,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -65601,6 +65722,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65614,6 +65740,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65627,6 +65758,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -65640,6 +65776,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -65653,6 +65794,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65666,6 +65812,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65679,6 +65830,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65692,6 +65848,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65705,6 +65866,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65718,6 +65884,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -65731,6 +65902,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65744,6 +65920,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65757,6 +65938,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65770,6 +65956,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65783,6 +65974,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65796,6 +65992,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65809,6 +66010,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65822,6 +66028,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65835,6 +66046,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65848,6 +66064,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65861,6 +66082,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65874,6 +66100,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65887,6 +66118,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65900,6 +66136,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65913,6 +66154,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65926,6 +66172,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65939,6 +66190,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65952,6 +66208,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65965,6 +66226,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65978,6 +66244,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -65991,6 +66262,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66004,6 +66280,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66017,6 +66298,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66030,6 +66316,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66043,6 +66334,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66056,6 +66352,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66069,6 +66370,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66082,6 +66388,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66095,6 +66406,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66108,6 +66424,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66121,6 +66442,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66134,6 +66460,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66147,6 +66478,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66160,6 +66496,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66173,6 +66514,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66186,6 +66532,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66199,6 +66550,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66212,6 +66568,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66225,6 +66586,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66238,6 +66604,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66251,6 +66622,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66264,6 +66640,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66277,6 +66658,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66290,6 +66676,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66303,6 +66694,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66316,6 +66712,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66329,6 +66730,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66342,6 +66748,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66355,6 +66766,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66368,6 +66784,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66381,6 +66802,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66394,6 +66820,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66407,6 +66838,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66420,6 +66856,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66433,6 +66874,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66446,6 +66892,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66459,6 +66910,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66472,6 +66928,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66485,6 +66946,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66498,6 +66964,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -66511,6 +66982,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66524,6 +67000,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66537,6 +67018,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66550,6 +67036,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66563,6 +67054,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66576,6 +67072,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66589,6 +67090,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66602,6 +67108,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66615,6 +67126,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66628,6 +67144,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66641,6 +67162,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66654,6 +67180,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66667,6 +67198,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66680,6 +67216,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66693,6 +67234,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66706,6 +67252,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66719,6 +67270,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66732,6 +67288,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66745,6 +67306,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66758,6 +67324,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66771,6 +67342,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66784,6 +67360,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66797,6 +67378,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66810,6 +67396,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66823,6 +67414,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66836,6 +67432,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66849,6 +67450,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66862,6 +67468,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66875,6 +67486,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66888,6 +67504,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66901,6 +67522,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66914,6 +67540,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66927,6 +67558,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66940,6 +67576,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66953,6 +67594,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66966,6 +67612,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66979,6 +67630,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -66992,6 +67648,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67005,6 +67666,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67018,6 +67684,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67031,6 +67702,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67044,6 +67720,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67057,6 +67738,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67070,6 +67756,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67083,6 +67774,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67096,6 +67792,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67109,6 +67810,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67122,6 +67828,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67135,6 +67846,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67148,6 +67864,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67161,6 +67882,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67174,6 +67900,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67187,6 +67918,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67200,6 +67936,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67213,6 +67954,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67226,6 +67972,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67239,6 +67990,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67252,6 +68008,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67265,6 +68026,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67278,6 +68044,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67291,6 +68062,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67304,6 +68080,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67317,6 +68098,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67330,6 +68116,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67343,6 +68134,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67356,6 +68152,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67369,6 +68170,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67382,6 +68188,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67395,6 +68206,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67408,6 +68224,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67421,6 +68242,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67434,6 +68260,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67447,6 +68278,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67460,6 +68296,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67473,6 +68314,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67486,6 +68332,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67499,6 +68350,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67512,6 +68368,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67525,6 +68386,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67538,6 +68404,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67551,6 +68422,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67564,6 +68440,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67577,6 +68458,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67590,6 +68476,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67603,6 +68494,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -67616,6 +68512,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67629,6 +68530,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67642,6 +68548,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67655,6 +68566,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67668,6 +68584,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67681,6 +68602,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67694,6 +68620,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67707,6 +68638,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67720,6 +68656,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67733,6 +68674,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67746,6 +68692,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67759,6 +68710,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67772,6 +68728,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67785,6 +68746,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67798,6 +68764,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67811,6 +68782,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67824,6 +68800,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67837,6 +68818,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67850,6 +68836,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67863,6 +68854,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67876,6 +68872,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67889,6 +68890,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67902,6 +68908,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67915,6 +68926,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67928,6 +68944,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67941,6 +68962,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67954,6 +68980,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67967,6 +68998,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67980,6 +69016,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -67993,6 +69034,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68006,6 +69052,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68019,6 +69070,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68032,6 +69088,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68045,6 +69106,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68058,6 +69124,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68071,6 +69142,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68084,6 +69160,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68097,6 +69178,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68110,6 +69196,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68123,6 +69214,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68136,6 +69232,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68149,6 +69250,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68162,6 +69268,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68175,6 +69286,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68188,6 +69304,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68201,6 +69322,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68214,6 +69340,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68227,6 +69358,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68240,6 +69376,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68253,6 +69394,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68266,6 +69412,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68279,6 +69430,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68292,6 +69448,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68305,6 +69466,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68318,6 +69484,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68331,6 +69502,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68344,6 +69520,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68357,6 +69538,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68370,6 +69556,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68383,6 +69574,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68396,6 +69592,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68409,6 +69610,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 13
       },
       {
@@ -68422,6 +69628,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68435,6 +69646,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68448,6 +69664,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68461,6 +69682,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68474,6 +69700,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68487,6 +69718,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68500,6 +69736,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68513,6 +69754,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68526,6 +69772,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68539,6 +69790,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68552,6 +69808,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68565,6 +69826,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68578,6 +69844,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68591,6 +69862,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68604,6 +69880,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68617,6 +69898,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68630,6 +69916,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68643,6 +69934,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68656,6 +69952,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68669,6 +69970,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68682,6 +69988,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68695,6 +70006,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68708,6 +70024,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68721,6 +70042,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68734,6 +70060,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68747,6 +70078,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68760,6 +70096,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68773,6 +70114,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68786,6 +70132,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68799,6 +70150,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68812,6 +70168,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68825,6 +70186,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68838,6 +70204,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68851,6 +70222,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68864,6 +70240,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68877,6 +70258,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68890,6 +70276,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68903,6 +70294,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68916,6 +70312,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68929,6 +70330,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68942,6 +70348,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68955,6 +70366,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68968,6 +70384,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -68981,6 +70402,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -68994,6 +70420,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69007,6 +70438,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69020,6 +70456,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69033,6 +70474,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69046,6 +70492,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69059,6 +70510,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69072,6 +70528,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69085,6 +70546,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69098,6 +70564,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69111,6 +70582,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69124,6 +70600,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69137,6 +70618,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69150,6 +70636,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69163,6 +70654,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69176,6 +70672,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69189,6 +70690,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69202,6 +70708,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69215,6 +70726,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69228,6 +70744,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69241,6 +70762,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69254,6 +70780,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69267,6 +70798,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69280,6 +70816,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69293,6 +70834,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69306,6 +70852,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69319,6 +70870,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69332,6 +70888,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69345,6 +70906,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69358,6 +70924,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69371,6 +70942,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69384,6 +70960,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69397,6 +70978,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69410,6 +70996,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69423,6 +71014,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69436,6 +71032,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69449,6 +71050,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69462,6 +71068,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69475,6 +71086,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69488,6 +71104,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69501,6 +71122,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69514,6 +71140,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69527,6 +71158,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69540,6 +71176,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69553,6 +71194,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69566,6 +71212,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69579,6 +71230,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69592,6 +71248,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69605,6 +71266,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69618,6 +71284,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69631,6 +71302,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69644,6 +71320,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69657,6 +71338,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69670,6 +71356,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69683,6 +71374,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69696,6 +71392,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69709,6 +71410,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69722,6 +71428,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69735,6 +71446,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69748,6 +71464,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69761,6 +71482,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69774,6 +71500,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69787,6 +71518,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69800,6 +71536,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69813,6 +71554,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69826,6 +71572,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69839,6 +71590,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69852,6 +71608,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -69865,6 +71626,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69878,6 +71644,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69891,6 +71662,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69904,6 +71680,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69917,6 +71698,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69930,6 +71716,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69943,6 +71734,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69956,6 +71752,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69969,6 +71770,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -69982,6 +71788,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -69995,6 +71806,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70008,6 +71824,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70021,6 +71842,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70034,6 +71860,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70047,6 +71878,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70060,6 +71896,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70073,6 +71914,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70086,6 +71932,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70099,6 +71950,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70112,6 +71968,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70125,6 +71986,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70138,6 +72004,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70151,6 +72022,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70164,6 +72040,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70177,6 +72058,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70190,6 +72076,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70203,6 +72094,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70216,6 +72112,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70229,6 +72130,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70242,6 +72148,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70255,6 +72166,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70268,6 +72184,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70281,6 +72202,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70294,6 +72220,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70307,6 +72238,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70320,6 +72256,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70333,6 +72274,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70346,6 +72292,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70359,6 +72310,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70372,6 +72328,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70385,6 +72346,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70398,6 +72364,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 8
       },
       {
@@ -70411,6 +72382,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 6
       },
       {
@@ -70424,6 +72400,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -70437,6 +72418,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70450,6 +72436,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -70463,6 +72454,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "출고완료",
         "contract_status": "출고완료",
         "contract_signal": "high",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 10
       },
       {
@@ -70476,6 +72472,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "출고완료",
         "contract_status": "출고완료",
         "contract_signal": "high",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70489,6 +72490,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70502,6 +72508,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -70515,6 +72526,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70528,6 +72544,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 7
       },
       {
@@ -70541,6 +72562,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 15
       },
       {
@@ -70554,6 +72580,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70567,6 +72598,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70580,6 +72616,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70593,6 +72634,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70606,6 +72652,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -70619,6 +72670,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -70632,6 +72688,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70645,6 +72706,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70658,6 +72724,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -70671,6 +72742,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70684,6 +72760,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70697,6 +72778,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70710,6 +72796,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "불가",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -70723,6 +72814,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -70736,6 +72832,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70749,6 +72850,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 14
       },
       {
@@ -70762,6 +72868,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70775,6 +72886,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70788,6 +72904,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70801,6 +72922,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -70814,6 +72940,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70827,6 +72958,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 6
       },
       {
@@ -70840,6 +72976,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70853,6 +72994,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -70866,6 +73012,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70879,6 +73030,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 6
       },
       {
@@ -70892,6 +73048,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -70905,6 +73066,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 6
       },
       {
@@ -70918,6 +73084,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -70931,6 +73102,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 6
       },
       {
@@ -70944,6 +73120,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -70957,6 +73138,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -70970,6 +73156,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70983,6 +73174,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -70996,6 +73192,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "불가",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71009,6 +73210,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71022,6 +73228,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71035,6 +73246,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71048,6 +73264,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71061,6 +73282,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71074,6 +73300,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71087,6 +73318,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71100,6 +73336,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71113,6 +73354,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71126,6 +73372,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71139,6 +73390,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71152,6 +73408,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71165,6 +73426,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71178,6 +73444,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -71191,6 +73462,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -71204,6 +73480,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71217,6 +73498,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -71230,6 +73516,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71243,6 +73534,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71256,6 +73552,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -71269,6 +73570,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71282,6 +73588,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71295,6 +73606,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71308,6 +73624,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -71321,6 +73642,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71334,6 +73660,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71347,6 +73678,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71360,6 +73696,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71373,6 +73714,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71386,6 +73732,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71399,6 +73750,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71412,6 +73768,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 7
       },
       {
@@ -71425,6 +73786,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71438,6 +73804,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "불가",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71451,6 +73822,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "출고완료",
         "contract_status": "출고완료",
         "contract_signal": "high",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71464,6 +73840,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71477,6 +73858,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71490,6 +73876,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71503,6 +73894,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71516,6 +73912,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71529,6 +73930,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 7
       },
       {
@@ -71542,6 +73948,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -71555,6 +73966,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71568,6 +73984,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71581,6 +74002,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71594,6 +74020,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71607,6 +74038,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71620,6 +74056,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71633,6 +74074,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71646,6 +74092,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71659,6 +74110,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71672,6 +74128,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71685,6 +74146,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71698,6 +74164,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71711,6 +74182,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71724,6 +74200,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71737,6 +74218,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71750,6 +74236,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71763,6 +74254,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71776,6 +74272,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -71789,6 +74290,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71802,6 +74308,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "출고완료",
         "contract_status": "출고완료",
         "contract_signal": "high",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71815,6 +74326,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71828,6 +74344,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 5
       },
       {
@@ -71841,6 +74362,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71854,6 +74380,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71867,6 +74398,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71880,6 +74416,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -71893,6 +74434,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71906,6 +74452,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "출고완료",
         "contract_status": "출고완료",
         "contract_signal": "high",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -71919,6 +74470,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -71932,6 +74488,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71945,6 +74506,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71958,6 +74524,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71971,6 +74542,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71984,6 +74560,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -71997,6 +74578,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72010,6 +74596,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72023,6 +74614,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72036,6 +74632,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 3
       },
       {
@@ -72049,6 +74650,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72062,6 +74668,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72075,6 +74686,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "불가",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72088,6 +74704,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72101,6 +74722,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "심사진행",
         "contract_status": "계약가능성높음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -72114,6 +74740,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72127,6 +74758,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72140,6 +74776,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72153,6 +74794,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72166,6 +74812,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72179,6 +74830,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 4
       },
       {
@@ -72192,6 +74848,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72205,6 +74866,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72218,6 +74884,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "불가",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -72231,6 +74902,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "취소",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72244,6 +74920,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -72257,6 +74938,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72270,6 +74956,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72283,6 +74974,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72296,6 +74992,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72309,6 +75010,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72322,6 +75028,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72335,6 +75046,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72348,6 +75064,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72361,6 +75082,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72374,6 +75100,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -72387,6 +75118,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72400,6 +75136,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72413,6 +75154,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72426,6 +75172,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72439,6 +75190,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72452,6 +75208,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담진행",
         "contract_status": "계약가능성있음",
         "contract_signal": "medium",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       },
       {
@@ -72465,6 +75226,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72478,6 +75244,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72491,6 +75262,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "상담완료",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 6
       },
       {
@@ -72504,6 +75280,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72517,6 +75298,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72530,6 +75316,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72543,6 +75334,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72556,6 +75352,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72569,6 +75370,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72582,6 +75388,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "부재",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72595,6 +75406,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72608,6 +75424,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72621,6 +75442,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72634,6 +75460,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글있음",
         "contract_status": "계약미확인",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 1
       },
       {
@@ -72647,6 +75478,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "댓글없음",
         "contract_status": "계약미확인",
         "contract_signal": "none",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 0
       },
       {
@@ -72660,9 +75496,15 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "consulting_status": "불가",
         "contract_status": "계약실패",
         "contract_signal": "low",
+        "contract_date": null,
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
         "reply_count": 2
       }
     ],
+    "contracts": [],
     "sourceFreshness": {
       "first_date": "2025-06-05",
       "latest_date": "2026-06-01"

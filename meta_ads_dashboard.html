@@ -2480,7 +2480,7 @@
       daily: [],
       campaigns: [],
       audience: [],
-      consultations: { daily: [], monthly: [], sourceFreshness: null },
+      consultations: { daily: [], monthly: [], monthlyContracts: [], detail: [], contracts: [], sourceFreshness: null },
       creatives: { ads: [], byCampaign: {} },
       notes: [],
     };
@@ -3635,7 +3635,7 @@
     }
 
     function renderMonthlyConsultations(state) {
-      const consultations = monthlyPayload.consultations || { daily: [], monthly: [], detail: [], sourceFreshness: null };
+      const consultations = monthlyPayload.consultations || { daily: [], monthly: [], monthlyContracts: [], detail: [], contracts: [], sourceFreshness: null };
       const monthlyConsultations = filterConsultationRows(consultations.monthly || [], state)
         .sort((a, b) => Number(b.inquiries || 0) - Number(a.inquiries || 0));
       const sourceRows = groupRows(monthlyConsultations.map((row) => ({ ...row, source: row.source || "unknown" })), ["source"], ["inquiries", "medium_or_high_signals", "high_signals"])
@@ -3655,8 +3655,18 @@
         .reduce((sum, row) => sum + Number(row.inquiries || 0), 0);
       const unknownSources = ["unknown", ""];
       const selectedInquiryTotal = countBySources(visibleSources);
+      const selectedContractTotal = (consultations.contracts || []).filter((row) => {
+        const matchesMonth = Number(row.year) === state.year && (state.month === "all" || Number(row.month) === state.month);
+        const contractSource = String(row.inflow_source || "").toLowerCase();
+        const matchesMedia = state.media === "all" || contractSource === state.media.toLowerCase();
+        return matchesMonth && matchesMedia;
+      }).length || (consultations.monthlyContracts || []).filter((row) => {
+        return state.media === "all" && Number(row.year) === state.year && (state.month === "all" || Number(row.month) === state.month);
+      }).reduce((sum, row) => sum + Number(row.contracts || 0), 0);
+      const contractRate = selectedInquiryTotal ? `${formatNumber(selectedContractTotal / selectedInquiryTotal * 100, 1)}%` : "-";
       document.getElementById("monthlyConsultationCards").innerHTML = [
         ["전체 상담", formatNumber(selectedInquiryTotal, 0), "선택 조건 전체"],
+        ["계약완료", formatNumber(selectedContractTotal, 0), `상담 대비 ${contractRate}`],
         ["인스타/페이스북 상담", formatNumber(countBySources(["instagram", "facebook"]), 0), "Meta 유입"],
         ["APP", formatNumber(countBySources(["app"]), 0), "앱 유입"],
         ["Imweb", formatNumber(countBySources(["imweb"]), 0), "웹 유입"],
