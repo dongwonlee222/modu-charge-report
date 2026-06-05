@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>모두의충전 차량구독 계약 인사이트</title>
+  <title>모두의충전 차량구독 상담-계약 인사이트</title>
   <script src="./chart.umd.js"></script>
   <style>
     :root {
@@ -16,8 +16,8 @@
       --blue: #315f9f;
       --gold: #ba7a16;
       --red: #a84a3b;
-      --soft-green: #e4f2ec;
-      --soft-gold: #f8ecd9;
+      --soft: #e8f1ec;
+      --warn: #f8ecd9;
     }
 
     * { box-sizing: border-box; }
@@ -54,7 +54,7 @@
 
     h1 {
       margin: 0;
-      max-width: 720px;
+      max-width: 760px;
       font-size: clamp(32px, 5vw, 58px);
       line-height: 1.02;
       letter-spacing: 0;
@@ -62,7 +62,7 @@
 
     .lead {
       margin: 18px 0 0;
-      max-width: 720px;
+      max-width: 760px;
       color: var(--muted);
       font-size: 16px;
       line-height: 1.75;
@@ -72,7 +72,7 @@
       border: 1px solid #e4c99c;
       border-radius: 8px;
       padding: 16px;
-      background: var(--soft-gold);
+      background: var(--warn);
       color: #6f460d;
       font-size: 14px;
       line-height: 1.65;
@@ -237,10 +237,11 @@
       line-height: 1.65;
     }
 
+    .table-wrap { margin-top: 14px; }
+
     .data-table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 12px;
       overflow: hidden;
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -270,6 +271,18 @@
 
     .data-table tr:last-child td {
       border-bottom: 0;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 800;
     }
 
     .source {
@@ -309,7 +322,7 @@
       }
 
       .data-table {
-        min-width: 640px;
+        min-width: 680px;
       }
     }
   </style>
@@ -318,65 +331,65 @@
   <main class="page">
     <header>
       <div>
-        <p class="eyebrow">Vehicle Subscription Insight</p>
-        <h1>차량구독 계약과 상담 효율의 변화</h1>
-        <p class="lead">2025년 하반기 상담 흐름과 2026년 1~5월 성과를 비교하고, 2026년 계약확정 데이터를 모델·유입·월 구독료 관점으로 해석합니다.</p>
+        <p class="eyebrow">Vehicle Subscription Funnel</p>
+        <h1>상담은 어디서 들어오고, 계약은 어디서 확정되는가</h1>
+        <p class="lead">이 페이지는 2026년 차량구독 상담신청과 계약확정만 봅니다. 상담 유입채널, 계약확정 유입채널, 채널별 계약률을 한 화면에서 비교합니다.</p>
         <nav class="nav" aria-label="보고서 이동">
-          <a href="#trend">Meta 광고/상담</a>
-          <a href="#contracts">계약확정</a>
-          <a href="#price">가격 변수</a>
+          <a href="#monthly">월별 흐름</a>
+          <a href="#channels">채널별 상담/계약</a>
+          <a href="#quality">계약 품질</a>
           <a href="./meta_ads_dashboard.html">운영 대시보드</a>
         </nav>
       </div>
       <div class="notice">
-        2025년 상담신청은 6월부터 원천 데이터가 존재합니다. 2026년 1~5월과 직접 YoY 비교하면 2025년 1~5월이 0건으로 잡히므로, 이 보고서는 확보된 기간 기준 비교와 가설 정리에 집중합니다.
+        상담신청 채널과 계약확정 채널은 원천 입력 방식이 다릅니다. 예를 들어 상담에는 `APP/출고보험`이 많고, 계약확정에는 `AG`가 많습니다. 따라서 이 페이지의 계약률은 같은 채널명으로 연결 가능한 경우만 참고 지표로 봐야 합니다.
       </div>
     </header>
 
     <section class="section">
       <div class="section-head">
-        <h2>2026년의 핵심은 광고비 규모가 아니라 효율입니다.</h2>
-        <p>2025년 6~9월은 큰 광고비로 상담을 만든 구간이고, 2026년 1~5월은 낮은 광고비로 월 25~39건 상담을 유지한 구간입니다. 5월은 광고가 19일 이후 중단됐지만 상담 39건과 계약 8건이 확인됩니다.</p>
+        <h2>2026년 현재 상담 179건 중 계약확정 24건입니다.</h2>
+        <p>단순 전체 기준 계약률은 13.4%입니다. 다만 계약확정 데이터가 별도 Slack 채널에서 들어오므로, 채널별 계약률은 “상담 채널명과 계약 채널명이 같은 경우”에만 직접 비교가 가능합니다.</p>
       </div>
       <div class="kpis">
         <div class="kpi">
-          <span>2026년 1~5월 상담</span>
-          <strong>178건</strong>
-          <small>월 25~39건 범위</small>
+          <span>2026년 상담신청</span>
+          <strong>179건</strong>
+          <small>2026-01-01~2026-06-05</small>
         </div>
         <div class="kpi">
-          <span>2026년 5월 계약확정</span>
-          <strong>8건</strong>
-          <small>계약확정 월별 최고치</small>
+          <span>2026년 계약확정</span>
+          <strong>24건</strong>
+          <small>#ev구독신청 기준</small>
         </div>
         <div class="kpi">
-          <span>2026년 5월 상담당 광고비</span>
-          <strong>2.5만원</strong>
-          <small>현재 확보 월 중 최저</small>
+          <span>전체 기준 계약률</span>
+          <strong>13.4%</strong>
+          <small>계약확정 / 상담신청</small>
         </div>
         <div class="kpi">
-          <span>2026년 계약 평균 월 구독료</span>
-          <strong>129.4만원</strong>
-          <small>중앙값 149만원</small>
+          <span>최다 계약 채널</span>
+          <strong>AG</strong>
+          <small>계약확정 10건</small>
         </div>
       </div>
     </section>
 
-    <section class="section" id="trend">
+    <section class="section" id="monthly">
       <div class="section-head">
-        <h2>Meta 광고비 대비 상담신청</h2>
-        <p>여기서 광고비는 Google Ads가 아니라 Facebook/Instagram Meta 광고비입니다. 이 섹션은 Meta 광고비를 얼마 썼고, 그 기간 Slack 상담신청이 몇 건 들어왔는지 비교합니다.</p>
+        <h2>월별로 보면 5월 계약 전환 신호가 가장 강합니다.</h2>
+        <p>상담신청은 3~5월에 38~39건으로 안정적이고, 계약확정은 5월 8건으로 가장 높습니다. 6월은 6월 5일까지의 일부 데이터입니다.</p>
       </div>
       <div class="grid-2">
         <div class="panel">
-          <h3>월별 상담신청 vs Meta 광고비</h3>
-          <p>막대는 Slack 상담신청 수, 선은 Meta 광고비입니다. 2026년 6월은 6월 5일까지 일부 데이터입니다.</p>
-          <div class="chart"><canvas id="inquiryChart"></canvas></div>
+          <h3>월별 상담신청 vs 계약확정</h3>
+          <p>막대는 상담신청, 선은 계약확정입니다.</p>
+          <div class="chart"><canvas id="monthlyFunnelChart"></canvas></div>
         </div>
         <div class="panel">
-          <h3>Meta 상담당 광고비</h3>
-          <p>Meta 광고비 / Slack 상담신청 수입니다. 실제 전환 기여를 확정하는 지표가 아니라 효율을 보는 참고 지표입니다.</p>
-          <div class="chart"><canvas id="cpiChart"></canvas></div>
+          <h3>월별 계약률</h3>
+          <p>계약확정 / 상담신청 기준의 단순 월별 지표입니다.</p>
+          <div class="chart"><canvas id="monthlyRateChart"></canvas></div>
         </div>
       </div>
       <div class="table-wrap">
@@ -384,90 +397,115 @@
           <thead>
             <tr>
               <th>월</th>
-              <th>Meta 광고비</th>
-              <th>링크클릭</th>
               <th>상담신청</th>
-              <th>Meta 상담당 광고비</th>
+              <th>계약확정</th>
+              <th>계약률</th>
+              <th>메모</th>
             </tr>
           </thead>
-          <tbody id="efficiencyRows"></tbody>
+          <tbody id="monthlyRows"></tbody>
         </table>
       </div>
     </section>
 
-    <section class="section" id="contracts">
+    <section class="section" id="channels">
       <div class="section-head">
-        <h2>2026년 계약확정은 5월, AG, EQE350+가 중심입니다.</h2>
-        <p>계약확정은 전체 상담 수와 다른 품질 지표입니다. 현재는 2026년 계약확정만 확보되어 있어 2025년 대비 계약 증가율은 추정하지 않습니다.</p>
+        <h2>상담은 APP/출고보험, 계약은 AG가 큽니다.</h2>
+        <p>이 차이가 핵심입니다. 상담을 많이 만드는 채널과 계약으로 닫히는 채널이 다를 수 있으므로, 앞으로는 상담 단계부터 계약확정까지 동일한 채널 기준을 유지해야 합니다.</p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>상담 유입채널</h3>
+          <p>2026년 상담신청 179건 기준입니다.</p>
+          <div class="chart tall"><canvas id="inquirySourceChart"></canvas></div>
+        </div>
+        <div class="panel">
+          <h3>계약확정 유입채널</h3>
+          <p>2026년 계약확정 24건 기준입니다.</p>
+          <div class="chart tall"><canvas id="contractSourceChart"></canvas></div>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>채널</th>
+              <th>상담신청</th>
+              <th>계약확정</th>
+              <th>계약률</th>
+              <th>해석</th>
+            </tr>
+          </thead>
+          <tbody id="channelRows"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" id="quality">
+      <div class="section-head">
+        <h2>계약 품질은 모델과 월 구독료까지 함께 봐야 합니다.</h2>
+        <p>계약확정은 EQE350+와 130~159만원 구간 비중이 큽니다. 단순히 저가 상담이 늘었다기보다는 고가 EV 구독 니즈와 특정 채널의 계약 품질을 같이 봐야 합니다.</p>
       </div>
       <div class="grid-3">
-        <div class="panel">
-          <h3>월별 계약확정</h3>
-          <p>총 24건, 2026년 1월~6월 5일.</p>
-          <div class="chart short"><canvas id="contractMonthChart"></canvas></div>
-        </div>
         <div class="panel">
           <h3>모델별 계약</h3>
           <p>EQE350+가 8건으로 최다입니다.</p>
           <div class="chart short"><canvas id="modelChart"></canvas></div>
         </div>
         <div class="panel">
-          <h3>유입경로별 계약</h3>
-          <p>AG 유입 계약이 가장 큽니다.</p>
-          <div class="chart short"><canvas id="sourceChart"></canvas></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="price">
-      <div class="section-head">
-        <h2>가격 변수는 아직 직접 검증 전입니다.</h2>
-        <p>실제 차량 가격, 할인, 보조금, 잔존가, 보험료, 매입 조건이 아직 없기 때문에 월 구독료를 가격 대체변수로만 봅니다. 현재 계약은 저가형만으로 늘어난 흐름은 아닙니다.</p>
-      </div>
-      <div class="grid-2">
-        <div class="panel">
           <h3>월 구독료 구간</h3>
-          <p>130~159만원 구간이 12건으로 가장 큽니다.</p>
-          <div class="chart"><canvas id="feeChart"></canvas></div>
+          <p>130~159만원 구간이 가장 큽니다.</p>
+          <div class="chart short"><canvas id="feeChart"></canvas></div>
         </div>
         <div class="panel">
           <h3>인사이트 우선순위</h3>
-          <p>다음 보고서 확장 시 바로 검증할 가설입니다.</p>
+          <p>다음 분석에서 바로 봐야 할 포인트입니다.</p>
           <div class="insights">
             <div class="insight">
-              <strong>채널 품질</strong>
-              <p>상담 수 상위 채널과 계약 상위 채널을 분리해 상담-계약 전환율을 봐야 합니다.</p>
+              <strong>채널 정합성</strong>
+              <p>상담과 계약에 같은 유입채널 체계를 적용해야 실제 계약률을 볼 수 있습니다.</p>
             </div>
             <div class="insight">
-              <strong>고가 모델 수요</strong>
-              <p>EQE350+와 130만원 이상 구간이 커서 저가 수요 증가만으로 설명하기 어렵습니다.</p>
+              <strong>AG 검증</strong>
+              <p>AG는 상담 데이터에는 거의 없지만 계약확정 10건입니다. 별도 파트너/영업 채널로 분리 관리해야 합니다.</p>
             </div>
             <div class="insight">
-              <strong>5월 잔효과</strong>
-              <p>광고 중단 이후 상담·계약이 기존 광고 잔효과인지 AG/제휴 유입인지 분리해야 합니다.</p>
+              <strong>고가 모델</strong>
+              <p>EQE350+와 130만원 이상 구간이 커서 저가형 수요만으로 설명하면 부족합니다.</p>
             </div>
           </div>
         </div>
       </div>
       <p class="source">
-        출처: 차량구독 상담신청 Slack CSV, #ev구독신청 계약확정 Slack CSV, Meta Ads API 월별 원천. 개인정보는 집계에만 사용하고 본 페이지에는 표시하지 않습니다.
+        출처: 차량구독 상담신청 Slack CSV, #ev구독신청 계약확정 Slack CSV. 개인정보는 집계에만 사용하고 본 페이지에는 표시하지 않습니다.
       </p>
     </section>
   </main>
 
   <script>
-    const months = ["2025-06", "2025-07", "2025-08", "2025-09", "2025-10", "2025-11", "2025-12", "2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"];
-    const inquiries = [106, 24, 74, 82, 36, 32, 35, 37, 25, 39, 38, 39, 1];
-    const adSpend = [14380015, 7623333, 10872439, 25324167, 2123241, 1362663, 992584, 1416359, 2237604, 1394445, 2253800, 984174, 0];
-    const linkClicks = [29392, 11262, 25547, 54283, 6852, 3955, 3202, 6973, 7635, 6585, 9391, 5475, 0];
-    const cpi = adSpend.map((spend, index) => inquiries[index] ? Math.round(spend / inquiries[index]) : null);
+    const monthlyLabels = ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"];
+    const monthlyInquiries = [37, 25, 39, 38, 39, 1];
+    const monthlyContracts = [4, 2, 4, 5, 8, 1];
+    const monthlyNotes = ["초기 계약 4건", "상담 감소", "상담 회복", "계약 증가", "계약 최고", "6/5까지 일부"];
 
-    const contractMonths = ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"];
-    const contractCounts = [4, 2, 4, 5, 8, 1];
+    const inquirySourceLabels = ["APP/출고보험", "Instagram", "미기재", "imweb", "Naver", "Facebook"];
+    const inquirySourceCounts = [95, 28, 26, 20, 8, 2];
+    const contractSourceLabels = ["AG", "미기재", "Instagram", "내부", "제이디오토", "APP/출고보험", "구독카", "모토다이렉트", "에이스카"];
+    const contractSourceCounts = [10, 4, 2, 2, 2, 1, 1, 1, 1];
+
+    const channelRows = [
+      { source: "APP/출고보험", inquiries: 95, contracts: 1, rate: "1.1%", note: "상담은 많지만 계약확정 연결은 낮음" },
+      { source: "Instagram", inquiries: 28, contracts: 2, rate: "7.1%", note: "상담과 계약 모두 일부 확인" },
+      { source: "미기재", inquiries: 26, contracts: 4, rate: "15.4%", note: "채널 미기재라 원인 해석 제한" },
+      { source: "imweb", inquiries: 20, contracts: 0, rate: "0.0%", note: "상담은 있으나 계약확정 없음" },
+      { source: "AG", inquiries: 0, contracts: 10, rate: "-", note: "계약확정 최다, 상담 원천과 별도 관리 필요" },
+      { source: "Naver", inquiries: 8, contracts: 0, rate: "0.0%", note: "상담 대비 계약확정 없음" },
+      { source: "내부", inquiries: 0, contracts: 2, rate: "-", note: "계약 채널로만 확인" },
+      { source: "제이디오토", inquiries: 0, contracts: 2, rate: "-", note: "계약 채널로만 확인" }
+    ];
+
     const modelLabels = ["EQE350+", "레이", "BMW i4", "EQA250", "기타"];
     const modelCounts = [8, 4, 3, 2, 7];
-    const sourceLabels = ["AG", "미기재", "Instagram", "내부", "제이디오토", "기타"];
-    const sourceCounts = [10, 4, 2, 2, 2, 4];
     const feeLabels = ["~79만원", "80~99만원", "100~129만원", "130~159만원", "160만원~"];
     const feeCounts = [5, 0, 4, 12, 3];
 
@@ -487,19 +525,16 @@
     Chart.defaults.plugins.tooltip.padding = 12;
     Chart.defaults.plugins.tooltip.displayColors = false;
 
-    function won(value) {
-      if (value == null) return "-";
-      if (value >= 1000000) return `${(value / 1000000).toFixed(1)}백만`;
-      return `${Math.round(value / 1000).toLocaleString("ko-KR")}천`;
-    }
-
     function number(value) {
       return Number(value).toLocaleString("ko-KR");
     }
 
+    function pct(contracts, inquiries) {
+      return inquiries ? `${((contracts / inquiries) * 100).toFixed(1)}%` : "-";
+    }
+
     function makeChart(id, config) {
-      const ctx = document.getElementById(id);
-      return new Chart(ctx, config);
+      return new Chart(document.getElementById(id), config);
     }
 
     const commonScales = {
@@ -507,53 +542,46 @@
       y: { beginAtZero: true, grid: { color: colors.grid } }
     };
 
-    makeChart("inquiryChart", {
+    makeChart("monthlyFunnelChart", {
       type: "bar",
       data: {
-        labels: months,
+        labels: monthlyLabels,
         datasets: [
           {
             type: "bar",
             label: "상담신청",
-            data: inquiries,
-            backgroundColor: months.map((m) => m.startsWith("2026") ? colors.green : colors.blue),
+            data: monthlyInquiries,
+            backgroundColor: colors.blue,
             borderRadius: 4
           },
           {
             type: "line",
-            label: "광고비(백만원)",
-            data: adSpend.map((v) => +(v / 1000000).toFixed(1)),
-            borderColor: colors.gold,
-            backgroundColor: colors.gold,
+            label: "계약확정",
+            data: monthlyContracts,
+            borderColor: colors.green,
+            backgroundColor: colors.green,
             tension: 0.35,
-            pointRadius: 3,
+            pointRadius: 4,
             yAxisID: "y1"
           }
         ]
       },
       options: {
         maintainAspectRatio: false,
-        plugins: {
-          tooltip: {
-            callbacks: {
-              label: (item) => item.dataset.type === "line" ? `광고비 ${item.raw}백만원` : `상담 ${item.raw}건`
-            }
-          }
-        },
         scales: {
           ...commonScales,
-          y1: { beginAtZero: true, position: "right", grid: { drawOnChartArea: false }, ticks: { callback: (v) => `${v}백만` } }
+          y1: { beginAtZero: true, position: "right", grid: { drawOnChartArea: false } }
         }
       }
     });
 
-    makeChart("cpiChart", {
+    makeChart("monthlyRateChart", {
       type: "line",
       data: {
-        labels: months.slice(0, 12),
+        labels: monthlyLabels,
         datasets: [{
-          label: "상담당 광고비",
-          data: cpi.slice(0, 12),
+          label: "계약률",
+          data: monthlyLabels.map((_, index) => monthlyInquiries[index] ? +((monthlyContracts[index] / monthlyInquiries[index]) * 100).toFixed(1) : null),
           borderColor: colors.red,
           backgroundColor: "rgba(168, 74, 59, 0.12)",
           fill: true,
@@ -563,30 +591,19 @@
       },
       options: {
         maintainAspectRatio: false,
-        plugins: {
-          tooltip: { callbacks: { label: (item) => `${number(item.raw)}원 / 상담` } }
-        },
+        plugins: { tooltip: { callbacks: { label: (item) => `${item.raw}%` } } },
         scales: {
           x: commonScales.x,
-          y: { beginAtZero: true, grid: { color: colors.grid }, ticks: { callback: (v) => `${Math.round(v / 1000)}천` } }
+          y: { beginAtZero: true, grid: { color: colors.grid }, ticks: { callback: (v) => `${v}%` } }
         }
       }
     });
 
-    makeChart("contractMonthChart", {
+    makeChart("inquirySourceChart", {
       type: "bar",
       data: {
-        labels: contractMonths,
-        datasets: [{ label: "계약확정", data: contractCounts, backgroundColor: colors.green, borderRadius: 4 }]
-      },
-      options: { maintainAspectRatio: false, plugins: { legend: { display: false } }, scales: commonScales }
-    });
-
-    makeChart("modelChart", {
-      type: "bar",
-      data: {
-        labels: modelLabels,
-        datasets: [{ label: "계약", data: modelCounts, backgroundColor: colors.blue, borderRadius: 4 }]
+        labels: inquirySourceLabels,
+        datasets: [{ label: "상담신청", data: inquirySourceCounts, backgroundColor: colors.blue, borderRadius: 4 }]
       },
       options: {
         indexAxis: "y",
@@ -596,11 +613,25 @@
       }
     });
 
-    makeChart("sourceChart", {
+    makeChart("contractSourceChart", {
       type: "bar",
       data: {
-        labels: sourceLabels,
-        datasets: [{ label: "계약", data: sourceCounts, backgroundColor: colors.gold, borderRadius: 4 }]
+        labels: contractSourceLabels,
+        datasets: [{ label: "계약확정", data: contractSourceCounts, backgroundColor: colors.green, borderRadius: 4 }]
+      },
+      options: {
+        indexAxis: "y",
+        maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: { x: { beginAtZero: true, grid: { color: colors.grid } }, y: { grid: { display: false } } }
+      }
+    });
+
+    makeChart("modelChart", {
+      type: "bar",
+      data: {
+        labels: modelLabels,
+        datasets: [{ label: "계약확정", data: modelCounts, backgroundColor: colors.gold, borderRadius: 4 }]
       },
       options: {
         indexAxis: "y",
@@ -614,7 +645,7 @@
       type: "bar",
       data: {
         labels: feeLabels,
-        datasets: [{ label: "계약", data: feeCounts, backgroundColor: [colors.blue, colors.gray, colors.gold, colors.green, colors.red], borderRadius: 4 }]
+        datasets: [{ label: "계약확정", data: feeCounts, backgroundColor: [colors.blue, colors.gray, colors.gold, colors.green, colors.red], borderRadius: 4 }]
       },
       options: {
         maintainAspectRatio: false,
@@ -623,16 +654,25 @@
       }
     });
 
-    const rows = months.slice(0, 12).map((month, index) => {
+    document.getElementById("monthlyRows").innerHTML = monthlyLabels.map((month, index) => {
       return `<tr>
         <td>${month}</td>
-        <td>${won(adSpend[index])}</td>
-        <td>${number(linkClicks[index])}</td>
-        <td>${number(inquiries[index])}</td>
-        <td>${number(cpi[index])}원</td>
+        <td>${number(monthlyInquiries[index])}</td>
+        <td>${number(monthlyContracts[index])}</td>
+        <td>${pct(monthlyContracts[index], monthlyInquiries[index])}</td>
+        <td><span class="tag">${monthlyNotes[index]}</span></td>
       </tr>`;
     }).join("");
-    document.getElementById("efficiencyRows").innerHTML = rows;
+
+    document.getElementById("channelRows").innerHTML = channelRows.map((row) => {
+      return `<tr>
+        <td>${row.source}</td>
+        <td>${number(row.inquiries)}</td>
+        <td>${number(row.contracts)}</td>
+        <td>${row.rate}</td>
+        <td>${row.note}</td>
+      </tr>`;
+    }).join("");
   </script>
 </body>
 </html>
