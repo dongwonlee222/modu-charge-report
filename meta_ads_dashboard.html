@@ -46,6 +46,34 @@
       box-shadow: var(--shadow);
     }
 
+    .hub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+
+    .hub-tabs a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .hub-tabs a.active {
+      color: #fff;
+      background: var(--accent);
+    }
+
     .eyebrow {
       display: inline-flex;
       padding: 7px 12px;
@@ -1363,6 +1391,11 @@
 </head>
 <body>
   <main class="wrap">
+    <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
+      <a href="./vehicle_subscription_hub.html">허브</a>
+      <a class="active" href="./meta_ads_dashboard.html">메타 광고</a>
+      <a href="./vehicle_subscription_contract_insight.html">상담-계약</a>
+    </nav>
     <div class="eyebrow">Meta Ads Dashboard</div>
     <h1>모두의충전 차량구독 광고분석</h1>
     <p class="lead">Facebook과 Instagram 광고 성과를 전체 요약에서 시작해 채널별, 소재별로 내려가며 비교하는 화면입니다.</p>

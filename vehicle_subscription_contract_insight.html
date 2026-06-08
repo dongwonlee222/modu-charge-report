@@ -35,6 +35,34 @@
       padding: 34px 20px 70px;
     }
 
+    .hub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .hub-tabs a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .hub-tabs a.active {
+      color: #fff;
+      background: var(--green);
+    }
+
     header {
       display: grid;
       grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
@@ -294,6 +322,7 @@
 
     @media (max-width: 860px) {
       .page { padding: 24px 14px 48px; }
+      .hub-tabs { margin-bottom: 16px; }
       header,
       .section-head,
       .grid-2,
@@ -329,6 +358,11 @@
 </head>
 <body>
   <main class="page">
+    <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
+      <a href="./vehicle_subscription_hub.html">허브</a>
+      <a href="./meta_ads_dashboard.html">메타 광고</a>
+      <a class="active" href="./vehicle_subscription_contract_insight.html">상담-계약</a>
+    </nav>
     <header>
       <div>
         <p class="eyebrow">Vehicle Subscription Funnel</p>
