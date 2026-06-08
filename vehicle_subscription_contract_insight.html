@@ -382,14 +382,14 @@
 
     <section class="section">
       <div class="section-head">
-        <h2>2026년 현재 상담 179건 중 계약확정 24건입니다.</h2>
-        <p>단순 전체 기준 계약률은 13.4%입니다. 다만 계약확정 데이터가 별도 Slack 채널에서 들어오므로, 채널별 계약률은 “상담 채널명과 계약 채널명이 같은 경우”에만 직접 비교가 가능합니다.</p>
+        <h2>2026년 현재 상담 187건 중 계약확정 24건입니다.</h2>
+        <p>단순 전체 기준 계약률은 12.8%입니다. 다만 계약확정 데이터가 별도 Slack 채널에서 들어오므로, 채널별 계약률은 “상담 채널명과 계약 채널명이 같은 경우”에만 직접 비교가 가능합니다.</p>
       </div>
       <div class="kpis">
         <div class="kpi">
           <span>2026년 상담신청</span>
-          <strong>179건</strong>
-          <small>2026-01-01~2026-06-05</small>
+          <strong>187건</strong>
+          <small>2026-01-01~2026-06-08</small>
         </div>
         <div class="kpi">
           <span>2026년 계약확정</span>
@@ -398,7 +398,7 @@
         </div>
         <div class="kpi">
           <span>전체 기준 계약률</span>
-          <strong>13.4%</strong>
+          <strong>12.8%</strong>
           <small>계약확정 / 상담신청</small>
         </div>
         <div class="kpi">
@@ -412,7 +412,7 @@
     <section class="section" id="monthly">
       <div class="section-head">
         <h2>월별로 보면 5월 계약 전환 신호가 가장 강합니다.</h2>
-        <p>상담신청은 3~5월에 38~39건으로 안정적이고, 계약확정은 5월 8건으로 가장 높습니다. 6월은 6월 5일까지의 일부 데이터입니다.</p>
+        <p>상담신청은 3~5월에 38~39건으로 안정적이고, 계약확정은 5월 8건으로 가장 높습니다. 6월은 6월 8일까지의 일부 데이터입니다.</p>
       </div>
       <div class="grid-2">
         <div class="panel">
@@ -450,7 +450,7 @@
       <div class="grid-2">
         <div class="panel">
           <h3>상담 유입채널</h3>
-          <p>2026년 상담신청 179건 기준입니다.</p>
+          <p>2026년 상담신청 187건 기준입니다.</p>
           <div class="chart tall"><canvas id="inquirySourceChart"></canvas></div>
         </div>
         <div class="panel">
@@ -547,7 +547,7 @@
       <div class="insights">
         <div class="insight">
           <strong>상담 수요 1위</strong>
-          <p>EQE350+는 2025년 78건, 2026년 45건으로 상담 기준 최상위입니다.</p>
+          <p>EQE350+는 2025년 78건, 2026년 46건으로 상담 기준 최상위입니다.</p>
         </div>
         <div class="insight">
           <strong>계약 주력 가격대</strong>
@@ -563,18 +563,18 @@
 
   <script>
     const monthlyLabels = ["2026-01", "2026-02", "2026-03", "2026-04", "2026-05", "2026-06"];
-    const monthlyInquiries = [37, 25, 39, 38, 39, 1];
+    const monthlyInquiries = [37, 25, 39, 38, 44, 4];
     const monthlyContracts = [4, 2, 4, 5, 8, 1];
-    const monthlyNotes = ["초기 계약 4건", "상담 감소", "상담 회복", "계약 증가", "계약 최고", "6/5까지 일부"];
+    const monthlyNotes = ["초기 계약 4건", "상담 감소", "상담 회복", "계약 증가", "계약 최고", "6/8까지 일부"];
 
     const inquirySourceLabels = ["APP/출고보험", "Instagram", "미기재", "imweb", "Naver", "Facebook"];
-    const inquirySourceCounts = [95, 28, 26, 20, 8, 2];
+    const inquirySourceCounts = [101, 30, 26, 20, 8, 2];
     const contractSourceLabels = ["AG", "미기재", "Instagram", "내부", "제이디오토", "APP/출고보험", "구독카", "모토다이렉트", "에이스카"];
     const contractSourceCounts = [10, 4, 2, 2, 2, 1, 1, 1, 1];
 
     const channelRows = [
-      { source: "APP/출고보험", inquiries: 95, contracts: 1, rate: "1.1%", note: "상담은 많지만 계약확정 연결은 낮음" },
-      { source: "Instagram", inquiries: 28, contracts: 2, rate: "7.1%", note: "상담과 계약 모두 일부 확인" },
+      { source: "APP/출고보험", inquiries: 101, contracts: 1, rate: "1.0%", note: "상담은 많지만 계약확정 연결은 낮음" },
+      { source: "Instagram", inquiries: 30, contracts: 2, rate: "6.7%", note: "상담과 계약 모두 일부 확인" },
       { source: "미기재", inquiries: 26, contracts: 4, rate: "15.4%", note: "채널 미기재라 원인 해석 제한" },
       { source: "imweb", inquiries: 20, contracts: 0, rate: "0.0%", note: "상담은 있으나 계약확정 없음" },
       { source: "AG", inquiries: 0, contracts: 10, rate: "-", note: "계약확정 최다, 상담 원천과 별도 관리 필요" },
@@ -589,7 +589,7 @@
     const feeCounts = [5, 0, 4, 12, 3];
     const modelDemandLabels = ["EQE350+", "모델 3", "EQA250", "모델 Y", "BMW i4", "Q4", "ix3", "레이"];
     const modelDemand2025 = [78, 54, 41, 41, 27, 21, 19, 18];
-    const modelDemand2026 = [45, 22, 13, 3, 17, 10, 12, 11];
+    const modelDemand2026 = [46, 23, 13, 3, 17, 10, 13, 11];
     const modelPriceRows = [
       { model: "EQE350+", count: 8, average: "164.0만원", band: "130~159만원 5건, 160만원~ 3건" },
       { model: "레이", count: 4, average: "57.8만원", band: "~79만원 4건" },

@@ -1,5 +1,5 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-06-05T17:04:41",
+  "generatedAt": "2026-06-08T15:28:27",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
@@ -64755,8 +64755,62 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       },
       {
         "year": 2026,
+        "month": 5,
+        "date": "2026-05-29",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 1,
+        "high_signals": 1
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-30",
+        "source": "app",
+        "inquiries": 2,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-31",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-31",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
         "month": 6,
         "date": "2026-06-01",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-05",
+        "source": "app",
+        "inquiries": 2,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-06",
         "source": "app",
         "inquiries": 1,
         "medium_or_high_signals": 0,
@@ -65240,7 +65294,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 5,
         "source": "app",
-        "inquiries": 29,
+        "inquiries": 32,
         "medium_or_high_signals": 3,
         "high_signals": 1
       },
@@ -65248,9 +65302,9 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 5,
         "source": "imweb",
-        "inquiries": 3,
-        "medium_or_high_signals": 0,
-        "high_signals": 0
+        "inquiries": 5,
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -65272,7 +65326,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 6,
         "source": "app",
-        "inquiries": 1,
+        "inquiries": 4,
         "medium_or_high_signals": 0,
         "high_signals": 0
       }
@@ -75518,6 +75572,96 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       },
       {
         "year": 2026,
+        "month": 5,
+        "date": "2026-05-29",
+        "source": "imweb",
+        "vehicle_model": "일렉트리파이드 G80",
+        "vehicle_trim": "e-AWD",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "출고완료",
+        "contract_status": "출고완료",
+        "contract_signal": "high",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 3
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-30",
+        "source": "app",
+        "vehicle_model": "iX3",
+        "vehicle_trim": "M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-30",
+        "source": "app",
+        "vehicle_model": "일렉트리파이드 G80",
+        "vehicle_trim": "e-AWD",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-31",
+        "source": "app",
+        "vehicle_model": "EQE350+",
+        "vehicle_trim": "",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글있음",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 2
+      },
+      {
+        "year": 2026,
+        "month": 5,
+        "date": "2026-05-31",
+        "source": "imweb",
+        "vehicle_model": "5 시리즈",
+        "vehicle_trim": "520i M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
         "month": 6,
         "date": "2026-06-01",
         "source": "app",
@@ -75533,6 +75677,60 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "contract_inflow_source": "",
         "contract_match_method": "",
         "reply_count": 2
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-05",
+        "source": "app",
+        "vehicle_model": "3 시리즈",
+        "vehicle_trim": "320i M 스포츠",
+        "subscription_period": "1년 (12개월)",
+        "consulting_status": "취소",
+        "contract_status": "계약실패",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-05",
+        "source": "app",
+        "vehicle_model": "모델 3",
+        "vehicle_trim": "스탠다드 레인지",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글있음",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-06",
+        "source": "app",
+        "vehicle_model": "일렉트리파이드 G80",
+        "vehicle_trim": "e-AWD",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
       }
     ],
     "contracts": [
@@ -75875,7 +76073,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     ],
     "sourceFreshness": {
       "first_date": "2025-06-05",
-      "latest_date": "2026-06-01"
+      "latest_date": "2026-06-06"
     }
   },
   "creatives": {
