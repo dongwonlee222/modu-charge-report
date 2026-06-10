@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의충전 차량구독 수익성·유지율</title>
+  <style>
+    :root {
+      --bg: #f5f6f2;
+      --surface: #ffffff;
+      --ink: #17221d;
+      --muted: #67736d;
+      --line: #d8ddd5;
+      --green: #17624f;
+      --blue: #315f9f;
+      --gold: #ba7a16;
+      --red: #a84a3b;
+      --soft: #e8f1ec;
+      --warn: #f8ecd9;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background: var(--bg);
+    }
+
+    .page {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 34px 20px 70px;
+    }
+
+    .hub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .hub-tabs a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    .hub-tabs a.active {
+      color: #fff;
+      background: var(--green);
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(280px, 0.8fr);
+      gap: 28px;
+      align-items: end;
+      padding: 18px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 800;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 780px;
+      font-size: clamp(32px, 5vw, 58px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+
+    .lead {
+      margin: 18px 0 0;
+      max-width: 780px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.75;
+    }
+
+    .notice {
+      border: 1px solid #e4c99c;
+      border-radius: 8px;
+      padding: 16px;
+      background: var(--warn);
+      color: #6f460d;
+      font-size: 14px;
+      line-height: 1.65;
+    }
+
+    .section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(280px, 1.1fr);
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 18px;
+    }
+
+    h2 {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 34px);
+      line-height: 1.18;
+    }
+
+    .section-head p,
+    .note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.75;
+    }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+
+    .kpi,
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+
+    .kpi {
+      padding: 16px;
+      min-height: 112px;
+    }
+
+    .kpi span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 800;
+    }
+
+    .kpi strong {
+      display: block;
+      margin-top: 10px;
+      font-size: 30px;
+      line-height: 1;
+    }
+
+    .kpi small {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .panel {
+      padding: 16px;
+      min-width: 0;
+    }
+
+    .panel h3 {
+      margin: 0 0 12px;
+      font-size: 16px;
+      line-height: 1.35;
+    }
+
+    .bars {
+      display: grid;
+      gap: 12px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 120px minmax(0, 1fr) 72px;
+      gap: 10px;
+      align-items: center;
+      font-size: 13px;
+    }
+
+    .track {
+      height: 12px;
+      border-radius: 99px;
+      overflow: hidden;
+      background: #e7ebe4;
+    }
+
+    .fill {
+      display: block;
+      height: 100%;
+      border-radius: 99px;
+      background: var(--green);
+    }
+
+    .fill.warn { background: var(--gold); }
+    .fill.risk { background: var(--red); }
+    .fill.blue { background: var(--blue); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      background: var(--surface);
+      font-size: 13px;
+    }
+
+    th,
+    td {
+      padding: 11px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: right;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+
+    th:first-child,
+    td:first-child {
+      text-align: left;
+      white-space: normal;
+    }
+
+    th {
+      color: var(--muted);
+      background: #fbfcf9;
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      min-height: 24px;
+      padding: 4px 8px;
+      border-radius: 999px;
+      background: var(--soft);
+      color: var(--green);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .tag.risk {
+      background: #f4ddd8;
+      color: var(--red);
+    }
+
+    .tag.warn {
+      background: var(--warn);
+      color: #8a560c;
+    }
+
+    @media (max-width: 860px) {
+      .page { padding: 24px 14px 48px; }
+      header,
+      .section-head,
+      .kpis,
+      .grid-2 {
+        grid-template-columns: 1fr;
+      }
+      table { display: block; overflow-x: auto; }
+      .bar-row { grid-template-columns: 96px minmax(0, 1fr) 60px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
+      <a href="./vehicle_subscription_hub.html">허브</a>
+      <a href="./meta_ads_dashboard.html">메타 광고</a>
+      <a href="./vehicle_subscription_contract_insight.html">상담-계약</a>
+      <a class="active" href="./vehicle_subscription_profitability_retention.html">수익성·유지율</a>
+    </nav>
+
+    <header>
+      <div>
+        <p class="eyebrow">Profitability & Retention</p>
+        <h1>돈 되는 차량은 오래 유지되고, 미수가 작아야 합니다.</h1>
+        <p class="lead">2025년 이후 입금 이력과 2026년 6월 8일 차량·계약 스냅샷을 연결해 모델별 수익성, 유지율, 회차 리스크를 집계했습니다.</p>
+      </div>
+      <div class="notice">
+        정비비, 실제 보험료, 실제 매각가는 아직 반영되지 않았습니다. 현재 페이지는 월 구독료, 할부, 자산가치, 미수, 회차 상태를 이용한 1차 판단입니다.
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="kpis">
+        <div class="kpi">
+          <span>월 구독료 합계</span>
+          <strong>9,167만</strong>
+          <small>현재 계약 매칭 81대 기준</small>
+        </div>
+        <div class="kpi">
+          <span>월 현금흐름 proxy</span>
+          <strong>7,146만</strong>
+          <small>월 구독료 - 월 할부</small>
+        </div>
+        <div class="kpi">
+          <span>현재 미수/입금차액</span>
+          <strong>2,722만</strong>
+          <small>미수 또는 연체 차량 26대</small>
+        </div>
+        <div class="kpi">
+          <span>안정 유지 차량</span>
+          <strong>61대</strong>
+          <small>180일 이상 유지 + 미수 없음</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>유지되는 차량과 끊기는 차량</h2>
+        <p>전체 사용 episode 132건 중 91건은 유지 중이고 41건은 회차/렌트종료입니다. 끊긴 건은 전부 1년 미만이며, 180일 미만 이탈이 29건입니다.</p>
+      </div>
+      <div class="grid-2">
+        <div class="panel">
+          <h3>현재 유지 중 episode</h3>
+          <div class="bars">
+            <div class="bar-row"><span>0~90일</span><div class="track"><span class="fill blue" style="width: 31%"></span></div><strong>19건</strong></div>
+            <div class="bar-row"><span>91~180일</span><div class="track"><span class="fill blue" style="width: 15%"></span></div><strong>9건</strong></div>
+            <div class="bar-row"><span>181~365일</span><div class="track"><span class="fill" style="width: 79%"></span></div><strong>48건</strong></div>
+            <div class="bar-row"><span>366~540일</span><div class="track"><span class="fill" style="width: 25%"></span></div><strong>15건</strong></div>
+          </div>
+        </div>
+        <div class="panel">
+          <h3>회차/렌트종료 episode</h3>
+          <div class="bars">
+            <div class="bar-row"><span>0~30일</span><div class="track"><span class="fill risk" style="width: 17%"></span></div><strong>7건</strong></div>
+            <div class="bar-row"><span>31~60일</span><div class="track"><span class="fill risk" style="width: 10%"></span></div><strong>4건</strong></div>
+            <div class="bar-row"><span>61~90일</span><div class="track"><span class="fill risk" style="width: 15%"></span></div><strong>6건</strong></div>
+            <div class="bar-row"><span>91~180일</span><div class="track"><span class="fill warn" style="width: 29%"></span></div><strong>12건</strong></div>
+            <div class="bar-row"><span>181~365일</span><div class="track"><span class="fill warn" style="width: 29%"></span></div><strong>12건</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>모델별 1차 판단</h2>
+        <p>모델 합계와 차량 1대 기준을 같이 보면 EQE는 주력 후보, 모델 Y는 유지 안정성 후보, EV9은 고단가지만 미수 관리가 먼저입니다.</p>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>모델</th>
+            <th>현재 차량</th>
+            <th>월 구독료 합계</th>
+            <th>평균 월 구독료</th>
+            <th>현재 미수</th>
+            <th>판단</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>EQE</td>
+            <td>25대</td>
+            <td>3,356만원</td>
+            <td>134만원</td>
+            <td>144만원</td>
+            <td><span class="tag">주력 후보</span></td>
+          </tr>
+          <tr>
+            <td>모델 Y</td>
+            <td>9대</td>
+            <td>920만원</td>
+            <td>102만원</td>
+            <td>400만원</td>
+            <td><span class="tag warn">가격·미수 점검</span></td>
+          </tr>
+          <tr>
+            <td>i시리즈</td>
+            <td>8대</td>
+            <td>1,057만원</td>
+            <td>132만원</td>
+            <td>399만원</td>
+            <td><span class="tag warn">회차 리스크 점검</span></td>
+          </tr>
+          <tr>
+            <td>아이오닉 5</td>
+            <td>6대</td>
+            <td>607만원</td>
+            <td>101만원</td>
+            <td>351만원</td>
+            <td><span class="tag warn">고객 품질 점검</span></td>
+          </tr>
+          <tr>
+            <td>EV9</td>
+            <td>3대</td>
+            <td>441만원</td>
+            <td>147만원</td>
+            <td>441만원</td>
+            <td><span class="tag risk">심사 강화 필요</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>안정 유지 모델</h2>
+        <p>180일 이상 유지되고 미수가 없는 차량만 분리했습니다. 이 그룹이 실제로 상품 확대 후보에 가깝습니다.</p>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>모델</th>
+            <th>안정 유지</th>
+            <th>중앙 유지기간</th>
+            <th>누적 입금</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>EQE 350+</td><td>16대</td><td>353일</td><td>2억 3,601만원</td></tr>
+          <tr><td>모델 Y RWD</td><td>8대</td><td>284일</td><td>7,520만원</td></tr>
+          <tr><td>아이오닉 5 Long Range</td><td>3대</td><td>321일</td><td>2,907만원</td></tr>
+          <tr><td>모델 3 RWD</td><td>3대</td><td>269일</td><td>2,727만원</td></tr>
+          <tr><td>EV6 롱 레인지 2WD</td><td>2대</td><td>479일</td><td>2,063만원</td></tr>
+          <tr><td>EQA 250</td><td>2대</td><td>304일</td><td>1,880만원</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>유지가 안 되는 차량군</h2>
+        <p>초반 이탈형과 고액 손실형을 분리해야 합니다. 초단기 이탈은 상품/고객 적합성 문제, 고액 미수는 심사와 회수 프로세스 문제에 가깝습니다.</p>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>모델</th>
+            <th>회차/종료</th>
+            <th>90일 미만</th>
+            <th>180일 미만</th>
+            <th>중앙 사용기간</th>
+            <th>미수</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>EQE 350+</td><td>12건</td><td>5건</td><td>8건</td><td>126일</td><td>123만원</td></tr>
+          <tr><td>i4 eDrive 40</td><td>3건</td><td>1건</td><td>2건</td><td>104일</td><td>2,035만원</td></tr>
+          <tr><td>레이 EV 라이트</td><td>3건</td><td>0건</td><td>2건</td><td>150일</td><td>44만원</td></tr>
+          <tr><td>EQA 250</td><td>3건</td><td>1건</td><td>2건</td><td>99일</td><td>0원</td></tr>
+          <tr><td>모델 3 RWD</td><td>3건</td><td>1건</td><td>2건</td><td>156일</td><td>0원</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>고액 손실형 리스크</h2>
+        <p>확대 전 가장 먼저 관리해야 할 그룹입니다. 월 구독료가 높아도 회차 시 미수가 크면 생애 수익성이 무너집니다.</p>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>모델</th>
+            <th>사용기간</th>
+            <th>미수</th>
+            <th>해석</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>EV9 GT-line</td><td>275일</td><td>3,102만원</td><td><span class="tag risk">고액 미수</span></td></tr>
+          <tr><td>eG80</td><td>298일</td><td>2,181만원</td><td><span class="tag risk">고액 미수</span></td></tr>
+          <tr><td>i4 eDrive 40</td><td>104일</td><td>1,970만원</td><td><span class="tag risk">초반 회차+미수</span></td></tr>
+          <tr><td>EQE 350+</td><td>184일</td><td>94만원</td><td><span class="tag warn">관리 필요</span></td></tr>
+          <tr><td>i4 eDrive 40</td><td>230일</td><td>66만원</td><td><span class="tag warn">관리 필요</span></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="section">
+      <p class="note">현재 결론: 돈 되는 상품은 월 구독료가 높은 차가 아니라, 180일 이상 유지되고 미수 없이 입금되는 차량입니다. 현재 기준으로는 EQE와 모델 Y가 가장 먼저 검토할 축이고, EV9·eG80·i4는 고액 미수 방어 조건이 필요합니다.</p>
+    </section>
+  </main>
+</body>
+</html>
