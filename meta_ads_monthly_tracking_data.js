@@ -1,9 +1,9 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-06-08T15:28:27",
+  "generatedAt": "2026-06-24T11:12:29",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
-    "until": "2026-05-26"
+    "until": "2026-06-24"
   },
   "defaultYear": 2026,
   "defaultMonth": 6,
@@ -74,7 +74,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     {
       "media": "Instagram",
       "first_date": "2025-05-24",
-      "latest_date": "2026-05-19"
+      "latest_date": "2026-06-24"
     }
   ],
   "daily": [
@@ -27221,6 +27221,240 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cost_per_lpv": 277.6774193548,
       "ctr": 3.2407407407,
       "lpv_rate": 88.5714285714
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "date": "2026-05-20",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120245214735750551",
+      "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
+      "spend": 3526.0,
+      "impressions": 516.0,
+      "reach": 508.0,
+      "link_clicks": 29.0,
+      "landing_page_views": 25.0,
+      "cpc": 121.5862068966,
+      "cost_per_lpv": 141.04,
+      "ctr": 5.6201550388,
+      "lpv_rate": 86.2068965517
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "date": "2026-05-20",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120244004341890551",
+      "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
+      "spend": 3397.0,
+      "impressions": 623.0,
+      "reach": 605.0,
+      "link_clicks": 20.0,
+      "landing_page_views": 16.0,
+      "cpc": 169.85,
+      "cost_per_lpv": 212.3125,
+      "ctr": 3.2102728732,
+      "lpv_rate": 80.0
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "date": "2026-05-20",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120244004163750551",
+      "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
+      "spend": 3251.0,
+      "impressions": 440.0,
+      "reach": 419.0,
+      "link_clicks": 19.0,
+      "landing_page_views": 16.0,
+      "cpc": 171.1052631579,
+      "cost_per_lpv": 203.1875,
+      "ctr": 4.3181818182,
+      "lpv_rate": 84.2105263158
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "date": "2026-05-20",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120244004245890551",
+      "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
+      "spend": 3055.0,
+      "impressions": 374.0,
+      "reach": 357.0,
+      "link_clicks": 14.0,
+      "landing_page_views": 10.0,
+      "cpc": 218.2142857143,
+      "cost_per_lpv": 305.5,
+      "ctr": 3.743315508,
+      "lpv_rate": 71.4285714286
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-16",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 12042.0,
+      "impressions": 1498.0,
+      "reach": 1318.0,
+      "link_clicks": 49.0,
+      "landing_page_views": 41.0,
+      "cpc": 245.7551020408,
+      "cost_per_lpv": 293.7073170732,
+      "ctr": 3.2710280374,
+      "lpv_rate": 83.6734693878
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-17",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 4822.0,
+      "impressions": 532.0,
+      "reach": 473.0,
+      "link_clicks": 18.0,
+      "landing_page_views": 16.0,
+      "cpc": 267.8888888889,
+      "cost_per_lpv": 301.375,
+      "ctr": 3.3834586466,
+      "lpv_rate": 88.8888888889
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-18",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 17378.0,
+      "impressions": 4769.0,
+      "reach": 4177.0,
+      "link_clicks": 49.0,
+      "landing_page_views": 32.0,
+      "cpc": 354.6530612245,
+      "cost_per_lpv": 543.0625,
+      "ctr": 1.0274690711,
+      "lpv_rate": 65.306122449
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-19",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 21718.0,
+      "impressions": 7317.0,
+      "reach": 6624.0,
+      "link_clicks": 59.0,
+      "landing_page_views": 34.0,
+      "cpc": 368.1016949153,
+      "cost_per_lpv": 638.7647058824,
+      "ctr": 0.8063413967,
+      "lpv_rate": 57.6271186441
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-20",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 23068.0,
+      "impressions": 7569.0,
+      "reach": 6712.0,
+      "link_clicks": 61.0,
+      "landing_page_views": 44.0,
+      "cpc": 378.1639344262,
+      "cost_per_lpv": 524.2727272727,
+      "ctr": 0.8059188796,
+      "lpv_rate": 72.131147541
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-21",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 23397.0,
+      "impressions": 7445.0,
+      "reach": 6101.0,
+      "link_clicks": 76.0,
+      "landing_page_views": 45.0,
+      "cpc": 307.8552631579,
+      "cost_per_lpv": 519.9333333333,
+      "ctr": 1.0208193418,
+      "lpv_rate": 59.2105263158
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-22",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 19713.0,
+      "impressions": 6421.0,
+      "reach": 5422.0,
+      "link_clicks": 61.0,
+      "landing_page_views": 35.0,
+      "cpc": 323.1639344262,
+      "cost_per_lpv": 563.2285714286,
+      "ctr": 0.9500077869,
+      "lpv_rate": 57.3770491803
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-23",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 20133.0,
+      "impressions": 6533.0,
+      "reach": 5492.0,
+      "link_clicks": 56.0,
+      "landing_page_views": 32.0,
+      "cpc": 359.5178571429,
+      "cost_per_lpv": 629.15625,
+      "ctr": 0.8571865912,
+      "lpv_rate": 57.1428571429
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-24",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 4196.0,
+      "impressions": 1065.0,
+      "reach": 964.0,
+      "link_clicks": 13.0,
+      "landing_page_views": 5.0,
+      "cpc": 322.7692307692,
+      "cost_per_lpv": 839.2,
+      "ctr": 1.220657277,
+      "lpv_rate": 38.4615384615
     }
   ],
   "campaigns": [
@@ -29331,17 +29565,17 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "source_account": "gudok_official_app",
       "campaign_id": "120245214735750551",
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
-      "spend": 151003.0,
-      "impressions": 28204.0,
-      "reach": 27013.0,
-      "link_clicks": 1425.0,
-      "landing_page_views": 1265.0,
+      "spend": 154529.0,
+      "impressions": 28720.0,
+      "reach": 27521.0,
+      "link_clicks": 1454.0,
+      "landing_page_views": 1290.0,
       "first_date": "2026-05-01",
-      "last_date": "2026-05-19",
-      "cpc": 105.9670175439,
-      "cost_per_lpv": 119.3699604743,
-      "ctr": 5.0524748263,
-      "lpv_rate": 88.7719298246,
+      "last_date": "2026-05-20",
+      "cpc": 106.2785419532,
+      "cost_per_lpv": 119.7899224806,
+      "ctr": 5.0626740947,
+      "lpv_rate": 88.7207702889,
       "core_audience": "35-44 남성",
       "judgment": "효율 좋음"
     },
@@ -29352,17 +29586,17 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "source_account": "gudok_official_app",
       "campaign_id": "120244004341890551",
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
-      "spend": 152263.0,
-      "impressions": 33789.0,
-      "reach": 32720.0,
-      "link_clicks": 822.0,
-      "landing_page_views": 748.0,
+      "spend": 155660.0,
+      "impressions": 34412.0,
+      "reach": 33325.0,
+      "link_clicks": 842.0,
+      "landing_page_views": 764.0,
       "first_date": "2026-05-01",
-      "last_date": "2026-05-19",
-      "cpc": 185.2347931873,
-      "cost_per_lpv": 203.5601604278,
-      "ctr": 2.4327443843,
-      "lpv_rate": 90.99756691,
+      "last_date": "2026-05-20",
+      "cpc": 184.8693586698,
+      "cost_per_lpv": 203.7434554974,
+      "ctr": 2.4468208764,
+      "lpv_rate": 90.7363420428,
       "core_audience": "25-34 남성",
       "judgment": "효율 좋음"
     },
@@ -29373,17 +29607,17 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "source_account": "gudok_official_app",
       "campaign_id": "120244004163750551",
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
-      "spend": 152354.0,
-      "impressions": 21894.0,
-      "reach": 20534.0,
-      "link_clicks": 723.0,
-      "landing_page_views": 646.0,
+      "spend": 155605.0,
+      "impressions": 22334.0,
+      "reach": 20953.0,
+      "link_clicks": 742.0,
+      "landing_page_views": 662.0,
       "first_date": "2026-05-01",
-      "last_date": "2026-05-19",
-      "cpc": 210.724757953,
-      "cost_per_lpv": 235.8421052632,
-      "ctr": 3.3022745958,
-      "lpv_rate": 89.3499308437,
+      "last_date": "2026-05-20",
+      "cpc": 209.7102425876,
+      "cost_per_lpv": 235.0528700906,
+      "ctr": 3.3222888869,
+      "lpv_rate": 89.218328841,
       "core_audience": "25-34 남성",
       "judgment": "효율 좋음"
     },
@@ -29394,19 +29628,40 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "source_account": "gudok_official_app",
       "campaign_id": "120244004245890551",
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
-      "spend": 152773.0,
-      "impressions": 20070.0,
-      "reach": 19090.0,
-      "link_clicks": 707.0,
-      "landing_page_views": 622.0,
+      "spend": 155828.0,
+      "impressions": 20444.0,
+      "reach": 19447.0,
+      "link_clicks": 721.0,
+      "landing_page_views": 632.0,
       "first_date": "2026-05-01",
-      "last_date": "2026-05-19",
-      "cpc": 216.0862800566,
-      "cost_per_lpv": 245.615755627,
-      "ctr": 3.5226706527,
-      "lpv_rate": 87.9773691655,
+      "last_date": "2026-05-20",
+      "cpc": 216.1276005548,
+      "cost_per_lpv": 246.5632911392,
+      "ctr": 3.5267071023,
+      "lpv_rate": 87.6560332871,
       "core_audience": "25-34 남성",
       "judgment": "효율 좋음"
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 146467.0,
+      "impressions": 43149.0,
+      "reach": 37283.0,
+      "link_clicks": 442.0,
+      "landing_page_views": 284.0,
+      "first_date": "2026-06-16",
+      "last_date": "2026-06-24",
+      "cpc": 331.3733031674,
+      "cost_per_lpv": 515.7288732394,
+      "ctr": 1.024357459,
+      "lpv_rate": 64.2533936652,
+      "core_audience": "25-34 남성",
+      "judgment": "유지 관찰"
     }
   ],
   "audience": [
@@ -29427,7 +29682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 473.8888888889,
       "cost_per_lpv": null,
       "ctr": 1.6697588126,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29446,7 +29702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 849.0,
       "cost_per_lpv": null,
       "ctr": 0.9259259259,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29465,7 +29722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29484,7 +29742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29503,7 +29762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 42.0,
       "cost_per_lpv": null,
       "ctr": 14.2857142857,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29522,7 +29782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 329.3554216867,
       "cost_per_lpv": null,
       "ctr": 1.9433387965,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29541,7 +29802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 328.0068965517,
       "cost_per_lpv": null,
       "ctr": 2.1430682826,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29560,7 +29822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.5,
       "cost_per_lpv": null,
       "ctr": 3.7735849057,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29579,7 +29842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 544.0,
       "cost_per_lpv": null,
       "ctr": 0.9478672986,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29598,7 +29862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 284.75,
       "cost_per_lpv": null,
       "ctr": 2.3529411765,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29617,7 +29882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 146.0,
       "cost_per_lpv": null,
       "ctr": 4.8192771084,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29636,7 +29902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 161.6666666667,
       "cost_per_lpv": null,
       "ctr": 4.0540540541,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29655,7 +29922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29674,7 +29942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 488.0,
       "cost_per_lpv": null,
       "ctr": 2.7027027027,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29693,7 +29962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 481.0,
       "cost_per_lpv": null,
       "ctr": 3.1339031339,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29712,7 +29982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29731,7 +30002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29750,7 +30022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 91.0,
       "cost_per_lpv": null,
       "ctr": 10.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29769,7 +30042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 303.8287671233,
       "cost_per_lpv": null,
       "ctr": 3.0084483824,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29788,7 +30062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 394.4318181818,
       "cost_per_lpv": null,
       "ctr": 2.6607538803,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29807,7 +30082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 227.125,
       "cost_per_lpv": null,
       "ctr": 4.5714285714,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29826,7 +30102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 232.8,
       "cost_per_lpv": null,
       "ctr": 3.2051282051,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29845,7 +30122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 413.6,
       "cost_per_lpv": null,
       "ctr": 1.968503937,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29864,7 +30142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 495.0,
       "cost_per_lpv": null,
       "ctr": 1.3698630137,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29883,7 +30162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29902,7 +30182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29921,7 +30202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29940,7 +30222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 443.2727272727,
       "cost_per_lpv": null,
       "ctr": 5.2132701422,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29959,7 +30242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 522.8333333333,
       "cost_per_lpv": null,
       "ctr": 4.2553191489,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -29978,7 +30262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -29997,7 +30282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30016,7 +30302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30035,7 +30322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 396.9682539683,
       "cost_per_lpv": null,
       "ctr": 3.5038932147,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30054,7 +30342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 529.8285714286,
       "cost_per_lpv": null,
       "ctr": 3.1731640979,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30073,7 +30362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 351.5,
       "cost_per_lpv": null,
       "ctr": 4.4776119403,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30092,7 +30382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 107.1818181818,
       "cost_per_lpv": null,
       "ctr": 9.243697479,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30111,7 +30402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 314.0,
       "cost_per_lpv": null,
       "ctr": 4.2016806723,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30130,7 +30422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30149,7 +30442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30168,7 +30462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30187,7 +30482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30206,7 +30502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 609.0,
       "cost_per_lpv": null,
       "ctr": 4.1666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30225,7 +30522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30244,7 +30542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 38.0,
       "cost_per_lpv": null,
       "ctr": 33.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30263,7 +30562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30282,7 +30582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 648.3076923077,
       "cost_per_lpv": null,
       "ctr": 2.2927689594,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30301,7 +30602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 878.4444444444,
       "cost_per_lpv": null,
       "ctr": 2.4390243902,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30320,7 +30622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 302.6666666667,
       "cost_per_lpv": null,
       "ctr": 6.5217391304,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30339,7 +30642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 424.0,
       "cost_per_lpv": null,
       "ctr": 2.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30358,7 +30662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30377,7 +30682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30396,7 +30702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30415,7 +30722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30434,7 +30742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 750.0,
       "cost_per_lpv": null,
       "ctr": 0.8695652174,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30453,7 +30762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 182.0,
       "cost_per_lpv": null,
       "ctr": 8.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30472,7 +30782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1106.3333333333,
       "cost_per_lpv": null,
       "ctr": 1.1764705882,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30491,7 +30802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 488.8,
       "cost_per_lpv": null,
       "ctr": 5.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30510,7 +30822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 156.6666666667,
       "cost_per_lpv": null,
       "ctr": 18.75,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30529,7 +30842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30548,7 +30862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30567,7 +30882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30586,7 +30902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30605,7 +30922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30624,7 +30942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30643,7 +30962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30662,7 +30982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 228.1666666667,
       "cost_per_lpv": null,
       "ctr": 2.3076923077,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30681,7 +31002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30700,7 +31022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 108.0,
       "cost_per_lpv": null,
       "ctr": 33.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30719,7 +31042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30738,7 +31062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30757,7 +31082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -30776,7 +31102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 698.4649122807,
       "cost_per_lpv": null,
       "ctr": 1.4135151891,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30795,7 +31122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 685.5648604269,
       "cost_per_lpv": null,
       "ctr": 1.0677466863,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30814,7 +31142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1328.5,
       "cost_per_lpv": null,
       "ctr": 0.5649717514,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30833,7 +31162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 681.5270935961,
       "cost_per_lpv": null,
       "ctr": 1.4272656964,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30852,7 +31182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 776.3862433862,
       "cost_per_lpv": null,
       "ctr": 0.9316999827,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30871,7 +31202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 373.0,
       "cost_per_lpv": null,
       "ctr": 1.8315018315,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30890,7 +31222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 627.3666666667,
       "cost_per_lpv": null,
       "ctr": 1.7501215362,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30909,7 +31242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 635.9933333333,
       "cost_per_lpv": null,
       "ctr": 1.1800338276,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30928,7 +31262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 635.5,
       "cost_per_lpv": null,
       "ctr": 1.1627906977,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30947,7 +31282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 555.9754601227,
       "cost_per_lpv": null,
       "ctr": 1.9269417189,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30966,7 +31302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 696.1030042918,
       "cost_per_lpv": null,
       "ctr": 1.0899564953,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -30985,7 +31322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31004,7 +31342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 653.9454545455,
       "cost_per_lpv": null,
       "ctr": 1.7921146953,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31023,7 +31362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 597.1870967742,
       "cost_per_lpv": null,
       "ctr": 1.464889897,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31042,7 +31382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31061,7 +31402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 587.8187134503,
       "cost_per_lpv": null,
       "ctr": 0.7115216577,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31080,7 +31422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 589.9812206573,
       "cost_per_lpv": null,
       "ctr": 0.6019159578,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31099,7 +31442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 933.3333333333,
       "cost_per_lpv": null,
       "ctr": 0.3778337531,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31118,7 +31462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 102.6,
       "cost_per_lpv": null,
       "ctr": 5.1546391753,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31137,7 +31482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 248.25,
       "cost_per_lpv": null,
       "ctr": 2.7777777778,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31156,7 +31502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 288.7857142857,
       "cost_per_lpv": null,
       "ctr": 1.4537902388,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31175,7 +31522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 463.3043478261,
       "cost_per_lpv": null,
       "ctr": 0.6857483602,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31194,7 +31542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 911.0714285714,
       "cost_per_lpv": null,
       "ctr": 0.374181478,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31213,7 +31562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 942.0,
       "cost_per_lpv": null,
       "ctr": 0.3584229391,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31232,7 +31582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 342.6631130064,
       "cost_per_lpv": null,
       "ctr": 1.2460700527,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31251,7 +31602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 346.0006514658,
       "cost_per_lpv": null,
       "ctr": 1.1399248466,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31270,7 +31622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 299.1212121212,
       "cost_per_lpv": null,
       "ctr": 1.4627659574,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31289,7 +31642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 279.8333333333,
       "cost_per_lpv": null,
       "ctr": 1.7655713585,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31308,7 +31662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 446.05,
       "cost_per_lpv": null,
       "ctr": 1.1494252874,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31327,7 +31682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 312.3780487805,
       "cost_per_lpv": null,
       "ctr": 1.3036565978,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31346,7 +31702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 680.4705882353,
       "cost_per_lpv": null,
       "ctr": 0.5011792453,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31365,7 +31722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 610.3939393939,
       "cost_per_lpv": null,
       "ctr": 0.5654557916,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31384,7 +31742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 453.0,
       "cost_per_lpv": null,
       "ctr": 0.7228915663,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31403,7 +31762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 328.8823529412,
       "cost_per_lpv": null,
       "ctr": 1.4214046823,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31422,7 +31782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 462.2,
       "cost_per_lpv": null,
       "ctr": 0.8455467869,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31441,7 +31802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31460,7 +31822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31479,7 +31842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 108.0,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31498,7 +31862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31517,7 +31882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31536,7 +31902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31555,7 +31922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31574,7 +31942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 441.7368421053,
       "cost_per_lpv": null,
       "ctr": 1.899620076,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31593,7 +31962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 402.2040816327,
       "cost_per_lpv": null,
       "ctr": 1.8796992481,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31612,7 +31982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 309.875,
       "cost_per_lpv": null,
       "ctr": 3.6529680365,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31631,7 +32002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 203.5714285714,
       "cost_per_lpv": null,
       "ctr": 4.4871794872,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31650,7 +32022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 329.4,
       "cost_per_lpv": null,
       "ctr": 2.6178010471,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31669,7 +32042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 519.7777777778,
       "cost_per_lpv": null,
       "ctr": 1.397515528,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31688,7 +32062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 496.7647058824,
       "cost_per_lpv": null,
       "ctr": 1.1612021858,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31707,7 +32082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 771.0,
       "cost_per_lpv": null,
       "ctr": 0.6669630947,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31726,7 +32102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 660.9260700389,
       "cost_per_lpv": null,
       "ctr": 0.7190219064,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31745,7 +32122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 567.8644859813,
       "cost_per_lpv": null,
       "ctr": 0.8813112594,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31764,7 +32142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 771.9316037736,
       "cost_per_lpv": null,
       "ctr": 0.5079791058,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31783,7 +32162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -31802,7 +32182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 946.6336336336,
       "cost_per_lpv": null,
       "ctr": 0.7451498132,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31821,7 +32202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1029.4347826087,
       "cost_per_lpv": null,
       "ctr": 0.7842394393,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31840,7 +32222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 929.7894736842,
       "cost_per_lpv": null,
       "ctr": 1.0013552176,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31859,7 +32242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1424.0,
       "cost_per_lpv": null,
       "ctr": 0.3944773176,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31878,7 +32262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 336.3255240444,
       "cost_per_lpv": null,
       "ctr": 1.8558777089,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31897,7 +32282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 329.4677980853,
       "cost_per_lpv": null,
       "ctr": 1.8020278695,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31916,7 +32302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 422.6825396825,
       "cost_per_lpv": null,
       "ctr": 2.034226671,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31935,7 +32322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 308.5512820513,
       "cost_per_lpv": null,
       "ctr": 2.3311416617,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31954,7 +32342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 347.6896551724,
       "cost_per_lpv": null,
       "ctr": 2.3340040241,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31973,7 +32362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 323.4173913043,
       "cost_per_lpv": null,
       "ctr": 1.7901618929,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -31992,7 +32382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 459.3773584906,
       "cost_per_lpv": null,
       "ctr": 1.3468869123,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32011,7 +32402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 506.0238095238,
       "cost_per_lpv": null,
       "ctr": 1.0630220197,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32030,7 +32422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 366.5209260908,
       "cost_per_lpv": null,
       "ctr": 1.5603940586,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32049,7 +32442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 344.4811746988,
       "cost_per_lpv": null,
       "ctr": 1.4798306218,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32068,7 +32462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 668.039497307,
       "cost_per_lpv": null,
       "ctr": 0.6074022377,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32087,7 +32482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32106,7 +32502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 898.2860635697,
       "cost_per_lpv": null,
       "ctr": 0.8494994392,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32125,7 +32522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 801.7976190476,
       "cost_per_lpv": null,
       "ctr": 1.2016737599,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32144,7 +32542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 841.7422680412,
       "cost_per_lpv": null,
       "ctr": 1.347097491,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32163,7 +32562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 496.3636363636,
       "cost_per_lpv": null,
       "ctr": 0.9838998211,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32182,7 +32582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 379.375,
       "cost_per_lpv": null,
       "ctr": 1.7259978425,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32201,7 +32602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.5555555556,
       "cost_per_lpv": null,
       "ctr": 1.2278308322,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32220,7 +32622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32239,7 +32642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 128.0,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32258,7 +32662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32277,7 +32682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32296,7 +32702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32315,7 +32722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32334,7 +32742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 308.625,
       "cost_per_lpv": null,
       "ctr": 1.593625498,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32353,7 +32762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 454.2,
       "cost_per_lpv": null,
       "ctr": 1.0593220339,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32372,7 +32782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1359.0,
       "cost_per_lpv": null,
       "ctr": 0.2645502646,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32391,7 +32802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1181.4285714286,
       "cost_per_lpv": null,
       "ctr": 0.6422018349,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32410,7 +32822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 511.5555555556,
       "cost_per_lpv": null,
       "ctr": 1.711026616,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32429,7 +32842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 679.0,
       "cost_per_lpv": null,
       "ctr": 1.4925373134,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32448,7 +32862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -32467,7 +32882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 585.8785046729,
       "cost_per_lpv": null,
       "ctr": 2.4774253299,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32486,7 +32902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 548.84,
       "cost_per_lpv": null,
       "ctr": 2.1446954532,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32505,7 +32922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 497.2,
       "cost_per_lpv": null,
       "ctr": 2.808988764,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32524,7 +32942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.7,
       "cost_per_lpv": null,
       "ctr": 6.5359477124,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32543,7 +32962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 305.7777777778,
       "cost_per_lpv": null,
       "ctr": 4.2654028436,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32562,7 +32982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 324.7142857143,
       "cost_per_lpv": null,
       "ctr": 3.5532994924,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32581,7 +33002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 442.3125,
       "cost_per_lpv": null,
       "ctr": 2.119205298,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32600,7 +33022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 400.6363636364,
       "cost_per_lpv": null,
       "ctr": 1.8425460637,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32619,7 +33042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 502.8566308244,
       "cost_per_lpv": null,
       "ctr": 1.6809254127,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32638,7 +33062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 566.6018099548,
       "cost_per_lpv": null,
       "ctr": 1.380301043,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32657,7 +33082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 708.8583333333,
       "cost_per_lpv": null,
       "ctr": 0.9524187468,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32676,7 +33102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 986.8181818182,
       "cost_per_lpv": null,
       "ctr": 0.7436200777,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32695,7 +33122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 839.2619047619,
       "cost_per_lpv": null,
       "ctr": 1.226456417,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32714,7 +33142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 821.5384615385,
       "cost_per_lpv": null,
       "ctr": 1.7906336088,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32733,7 +33162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1115.5,
       "cost_per_lpv": null,
       "ctr": 0.625,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32752,7 +33182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 383.6405990017,
       "cost_per_lpv": null,
       "ctr": 2.6986977997,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32771,7 +33202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 356.2222222222,
       "cost_per_lpv": null,
       "ctr": 2.620325721,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32790,7 +33222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 453.8163265306,
       "cost_per_lpv": null,
       "ctr": 2.6746724891,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32809,7 +33242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 426.0930232558,
       "cost_per_lpv": null,
       "ctr": 2.4585477416,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32828,7 +33262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 405.7741935484,
       "cost_per_lpv": null,
       "ctr": 2.8971962617,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32847,7 +33282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 482.3103448276,
       "cost_per_lpv": null,
       "ctr": 1.827347196,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32866,7 +33302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 442.5079365079,
       "cost_per_lpv": null,
       "ctr": 2.2167487685,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32885,7 +33322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 504.08,
       "cost_per_lpv": null,
       "ctr": 2.0491803279,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32904,7 +33342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 318.0278911565,
       "cost_per_lpv": null,
       "ctr": 2.900094697,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32923,7 +33362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 337.1115771812,
       "cost_per_lpv": null,
       "ctr": 2.2946022946,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32942,7 +33382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 598.1113989637,
       "cost_per_lpv": null,
       "ctr": 1.3804448895,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32961,7 +33402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 878.7603305785,
       "cost_per_lpv": null,
       "ctr": 0.9024463007,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32980,7 +33422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 739.3571428571,
       "cost_per_lpv": null,
       "ctr": 2.1379485874,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -32999,7 +33442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 732.5460122699,
       "cost_per_lpv": null,
       "ctr": 2.3865300146,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33018,7 +33462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1295.6666666667,
       "cost_per_lpv": null,
       "ctr": 0.5050505051,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33037,7 +33482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 448.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33056,7 +33502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 392.0,
       "cost_per_lpv": null,
       "ctr": 2.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33075,7 +33522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33094,7 +33542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33113,7 +33562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33132,7 +33582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33151,7 +33602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33170,7 +33622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33189,7 +33642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 567.5,
       "cost_per_lpv": null,
       "ctr": 1.6597510373,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33208,7 +33662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 255.2857142857,
       "cost_per_lpv": null,
       "ctr": 3.2110091743,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33227,7 +33682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 476.0,
       "cost_per_lpv": null,
       "ctr": 0.9375,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33246,7 +33702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 408.2,
       "cost_per_lpv": null,
       "ctr": 1.9011406844,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33265,7 +33722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1956.0,
       "cost_per_lpv": null,
       "ctr": 0.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33284,7 +33742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 690.5,
       "cost_per_lpv": null,
       "ctr": 2.5641025641,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33303,7 +33762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1333.6666666667,
       "cost_per_lpv": null,
       "ctr": 1.0783608914,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33322,7 +33782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1141.0,
       "cost_per_lpv": null,
       "ctr": 0.9425070688,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33341,7 +33802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 257.8571428571,
       "cost_per_lpv": null,
       "ctr": 7.0707070707,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33360,7 +33822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33379,7 +33842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.3,
       "cost_per_lpv": null,
       "ctr": 6.4935064935,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33398,7 +33862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 621.0,
       "cost_per_lpv": null,
       "ctr": 1.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33417,7 +33882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 530.9230769231,
       "cost_per_lpv": null,
       "ctr": 2.4904214559,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33436,7 +33902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33455,7 +33922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 446.2386363636,
       "cost_per_lpv": null,
       "ctr": 2.520406702,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33474,7 +33942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 675.6610169492,
       "cost_per_lpv": null,
       "ctr": 1.5463242039,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33493,7 +33962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 485.7239057239,
       "cost_per_lpv": null,
       "ctr": 2.2633744856,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33512,7 +33982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33531,7 +34002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 906.25,
       "cost_per_lpv": null,
       "ctr": 0.9090909091,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33550,7 +34022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 782.3538461538,
       "cost_per_lpv": null,
       "ctr": 1.8278965129,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33569,7 +34042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 662.2857142857,
       "cost_per_lpv": null,
       "ctr": 2.7953958187,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33588,7 +34062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 615.5,
       "cost_per_lpv": null,
       "ctr": 1.2658227848,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33607,7 +34082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.7337662338,
       "cost_per_lpv": null,
       "ctr": 2.9133560348,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33626,7 +34102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 460.6283185841,
       "cost_per_lpv": null,
       "ctr": 2.5490638394,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33645,7 +34122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 788.875,
       "cost_per_lpv": null,
       "ctr": 1.9826517968,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33664,7 +34142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 466.65,
       "cost_per_lpv": null,
       "ctr": 2.8776978417,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33683,7 +34162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 320.7692307692,
       "cost_per_lpv": null,
       "ctr": 4.3807919124,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33702,7 +34182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 533.7777777778,
       "cost_per_lpv": null,
       "ctr": 2.1739130435,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33721,7 +34202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 346.0394736842,
       "cost_per_lpv": null,
       "ctr": 3.6697247706,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33740,7 +34222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 304.7777777778,
       "cost_per_lpv": null,
       "ctr": 4.5226130653,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33759,7 +34242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 301.724009901,
       "cost_per_lpv": null,
       "ctr": 3.8041431262,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33778,7 +34262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 349.5147058824,
       "cost_per_lpv": null,
       "ctr": 2.7067369888,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33797,7 +34282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 531.3585434174,
       "cost_per_lpv": null,
       "ctr": 2.2859704169,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33816,7 +34302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33835,7 +34322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 933.9655172414,
       "cost_per_lpv": null,
       "ctr": 0.9443178118,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33854,7 +34342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 806.0106382979,
       "cost_per_lpv": null,
       "ctr": 2.6209396347,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33873,7 +34362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 757.3951219512,
       "cost_per_lpv": null,
       "ctr": 2.6835973295,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33892,7 +34382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 349.8,
       "cost_per_lpv": null,
       "ctr": 1.9157088123,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33911,7 +34402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33930,7 +34422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 148.0,
       "cost_per_lpv": null,
       "ctr": 4.5454545455,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -33949,7 +34442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33968,7 +34462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -33987,7 +34482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34006,7 +34502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34025,7 +34522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34044,7 +34542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34063,7 +34562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 341.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.6086956522,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34082,7 +34582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 642.0,
       "cost_per_lpv": null,
       "ctr": 1.1627906977,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34101,7 +34602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 559.5,
       "cost_per_lpv": null,
       "ctr": 1.2820512821,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34120,7 +34622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1271.0,
       "cost_per_lpv": null,
       "ctr": 0.5714285714,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34139,7 +34642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 604.0,
       "cost_per_lpv": null,
       "ctr": 2.34375,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34158,7 +34662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1568.0,
       "cost_per_lpv": null,
       "ctr": 0.9259259259,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34177,7 +34682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34196,7 +34702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1913.6666666667,
       "cost_per_lpv": null,
       "ctr": 0.4538577912,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34215,7 +34722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1331.3333333333,
       "cost_per_lpv": null,
       "ctr": 0.5366726297,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34234,7 +34742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34253,7 +34762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 234.0,
       "cost_per_lpv": null,
       "ctr": 9.0909090909,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34272,7 +34782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 117.5,
       "cost_per_lpv": null,
       "ctr": 16.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34291,7 +34802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 365.0,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34310,7 +34822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 930.75,
       "cost_per_lpv": null,
       "ctr": 1.5625,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34329,7 +34842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34348,7 +34862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 739.5714285714,
       "cost_per_lpv": null,
       "ctr": 1.7621145374,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34367,7 +34882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 790.6363636364,
       "cost_per_lpv": null,
       "ctr": 1.3877207738,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34386,7 +34902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 537.3949044586,
       "cost_per_lpv": null,
       "ctr": 2.6497890295,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34405,7 +34922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 820.4473684211,
       "cost_per_lpv": null,
       "ctr": 1.0079575597,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34424,7 +34942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1038.8235294118,
       "cost_per_lpv": null,
       "ctr": 1.3809910642,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34443,7 +34962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 723.2608695652,
       "cost_per_lpv": null,
       "ctr": 2.4981897176,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34462,7 +34982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 340.0,
       "cost_per_lpv": null,
       "ctr": 1.9230769231,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34481,7 +35002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 400.1111111111,
       "cost_per_lpv": null,
       "ctr": 2.5899280576,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34500,7 +35022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 559.7222222222,
       "cost_per_lpv": null,
       "ctr": 1.5748031496,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34519,7 +35042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 920.0,
       "cost_per_lpv": null,
       "ctr": 2.0408163265,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34538,7 +35062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 419.8,
       "cost_per_lpv": null,
       "ctr": 3.3783783784,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34557,7 +35082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 209.2857142857,
       "cost_per_lpv": null,
       "ctr": 7.486631016,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34576,7 +35102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 523.0,
       "cost_per_lpv": null,
       "ctr": 2.2727272727,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34595,7 +35122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 360.6585365854,
       "cost_per_lpv": null,
       "ctr": 3.893637227,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34614,7 +35142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 620.6666666667,
       "cost_per_lpv": null,
       "ctr": 3.0612244898,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34633,7 +35162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 337.88,
       "cost_per_lpv": null,
       "ctr": 3.8501026694,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34652,7 +35182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 399.8514851485,
       "cost_per_lpv": null,
       "ctr": 2.6904635056,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34671,7 +35202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 496.4549763033,
       "cost_per_lpv": null,
       "ctr": 2.8548234339,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34690,7 +35222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34709,7 +35242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 919.9069767442,
       "cost_per_lpv": null,
       "ctr": 1.0919248349,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34728,7 +35262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 906.7674418605,
       "cost_per_lpv": null,
       "ctr": 2.2933333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34747,7 +35282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 827.8709677419,
       "cost_per_lpv": null,
       "ctr": 2.5416780541,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34766,7 +35302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1722.0,
       "cost_per_lpv": null,
       "ctr": 0.5076142132,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34785,7 +35322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34804,7 +35342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34823,7 +35362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34842,7 +35382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34861,7 +35402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 82.0,
       "cost_per_lpv": null,
       "ctr": 9.0909090909,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34880,7 +35422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 168.0,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34899,7 +35442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34918,7 +35462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34937,7 +35482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -34956,7 +35502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 432.0,
       "cost_per_lpv": null,
       "ctr": 2.7777777778,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34975,7 +35522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1290.0,
       "cost_per_lpv": null,
       "ctr": 0.4464285714,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -34994,7 +35542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 2376.0,
       "cost_per_lpv": null,
       "ctr": 0.27100271,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35013,7 +35562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35032,7 +35582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35051,7 +35602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35070,7 +35622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35089,7 +35642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 324.5,
       "cost_per_lpv": null,
       "ctr": 4.0404040404,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35108,7 +35662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35127,7 +35682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 627.2222222222,
       "cost_per_lpv": null,
       "ctr": 0.9944751381,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35146,7 +35702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1156.6,
       "cost_per_lpv": null,
       "ctr": 0.6321112516,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35165,7 +35722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 602.8070175439,
       "cost_per_lpv": null,
       "ctr": 1.4063656551,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35184,7 +35742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 984.2,
       "cost_per_lpv": null,
       "ctr": 0.9589566552,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35203,7 +35762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 818.1538461538,
       "cost_per_lpv": null,
       "ctr": 1.5342250197,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35222,7 +35782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 931.375,
       "cost_per_lpv": null,
       "ctr": 1.6373311502,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35241,7 +35802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 147.0,
       "cost_per_lpv": null,
       "ctr": 3.2258064516,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35260,7 +35822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 481.5238095238,
       "cost_per_lpv": null,
       "ctr": 1.1640798226,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35279,7 +35842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 512.3571428571,
       "cost_per_lpv": null,
       "ctr": 0.9308510638,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35298,7 +35862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 612.0,
       "cost_per_lpv": null,
       "ctr": 1.724137931,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35317,7 +35882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 138.0,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35336,7 +35902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 259.8333333333,
       "cost_per_lpv": null,
       "ctr": 5.4054054054,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35355,7 +35922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 236.5,
       "cost_per_lpv": null,
       "ctr": 2.0408163265,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35374,7 +35942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 236.4285714286,
       "cost_per_lpv": null,
       "ctr": 4.7945205479,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35393,7 +35962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 670.0,
       "cost_per_lpv": null,
       "ctr": 1.0989010989,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35412,7 +35982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 335.064516129,
       "cost_per_lpv": null,
       "ctr": 2.1708683473,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35431,7 +36002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 342.8787878788,
       "cost_per_lpv": null,
       "ctr": 2.0433436533,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35450,7 +36022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 478.1844660194,
       "cost_per_lpv": null,
       "ctr": 2.0440563604,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35469,7 +36042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35488,7 +36062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 969.7547169811,
       "cost_per_lpv": null,
       "ctr": 1.1016420703,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35507,7 +36082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1138.5208333333,
       "cost_per_lpv": null,
       "ctr": 1.6210739615,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35526,7 +36102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1129.1489361702,
       "cost_per_lpv": null,
       "ctr": 1.6672578929,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35545,7 +36122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 179.2,
       "cost_per_lpv": null,
       "ctr": 4.854368932,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35564,7 +36142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 143.0,
       "cost_per_lpv": null,
       "ctr": 3.125,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35583,7 +36162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 132.0,
       "cost_per_lpv": null,
       "ctr": 4.1666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35602,7 +36182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35621,7 +36202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35640,7 +36222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35659,7 +36242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35678,7 +36262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35697,7 +36282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 149.0,
       "cost_per_lpv": null,
       "ctr": 3.7037037037,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35716,7 +36302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35735,7 +36322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 465.0,
       "cost_per_lpv": null,
       "ctr": 1.7964071856,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35754,7 +36342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 488.5,
       "cost_per_lpv": null,
       "ctr": 2.380952381,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35773,7 +36362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1069.0,
       "cost_per_lpv": null,
       "ctr": 1.7857142857,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35792,7 +36382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35811,7 +36402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -35830,7 +36422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 691.6124031008,
       "cost_per_lpv": 59478.6666666667,
       "ctr": 0.9510819479,
-      "lpv_rate": 1.1627906977
+      "lpv_rate": 1.1627906977,
+      "date": null
     },
     {
       "year": 2025,
@@ -35849,7 +36442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 581.6679790026,
       "cost_per_lpv": 88646.2,
       "ctr": 1.0096860963,
-      "lpv_rate": 0.656167979
+      "lpv_rate": 0.656167979,
+      "date": null
     },
     {
       "year": 2025,
@@ -35868,7 +36462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 347.0,
       "cost_per_lpv": null,
       "ctr": 1.5625,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35887,7 +36482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 622.004,
       "cost_per_lpv": null,
       "ctr": 1.3689628737,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35906,7 +36502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 638.7046413502,
       "cost_per_lpv": 151373.0,
       "ctr": 1.1434085153,
-      "lpv_rate": 0.4219409283
+      "lpv_rate": 0.4219409283,
+      "date": null
     },
     {
       "year": 2025,
@@ -35925,7 +36522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 725.0,
       "cost_per_lpv": null,
       "ctr": 0.8902077151,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35944,7 +36542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 707.9931506849,
       "cost_per_lpv": null,
       "ctr": 1.5006681057,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -35963,7 +36562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 706.1451612903,
       "cost_per_lpv": 175124.0,
       "ctr": 1.3592765141,
-      "lpv_rate": 0.4032258065
+      "lpv_rate": 0.4032258065,
+      "date": null
     },
     {
       "year": 2025,
@@ -35982,7 +36582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1282.0,
       "cost_per_lpv": null,
       "ctr": 0.7299270073,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36001,7 +36602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 519.1626794258,
       "cost_per_lpv": 54252.5,
       "ctr": 1.9663185624,
-      "lpv_rate": 0.956937799
+      "lpv_rate": 0.956937799,
+      "date": null
     },
     {
       "year": 2025,
@@ -36020,7 +36622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 589.5295698925,
       "cost_per_lpv": 109652.5,
       "ctr": 1.5400538191,
-      "lpv_rate": 0.5376344086
+      "lpv_rate": 0.5376344086,
+      "date": null
     },
     {
       "year": 2025,
@@ -36039,7 +36642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 368.0,
       "cost_per_lpv": 1104.0,
       "ctr": 2.1126760563,
-      "lpv_rate": 33.3333333333
+      "lpv_rate": 33.3333333333,
+      "date": null
     },
     {
       "year": 2025,
@@ -36058,7 +36662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 528.887755102,
       "cost_per_lpv": null,
       "ctr": 2.1787461094,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36077,7 +36682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 525.5272108844,
       "cost_per_lpv": 77252.5,
       "ctr": 2.1117655509,
-      "lpv_rate": 0.6802721088
+      "lpv_rate": 0.6802721088,
+      "date": null
     },
     {
       "year": 2025,
@@ -36096,7 +36702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 233.75,
       "cost_per_lpv": null,
       "ctr": 4.8192771084,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36115,7 +36722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 410.9253731343,
       "cost_per_lpv": null,
       "ctr": 0.6429325401,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36134,7 +36742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 348.9176470588,
       "cost_per_lpv": null,
       "ctr": 0.769578995,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36153,7 +36762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 271.6,
       "cost_per_lpv": null,
       "ctr": 0.9920634921,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36172,7 +36782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 810.9041450777,
       "cost_per_lpv": null,
       "ctr": 0.9511840516,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36191,7 +36802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 959.8571428571,
       "cost_per_lpv": null,
       "ctr": 0.8586751869,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36210,7 +36822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 842.5960264901,
       "cost_per_lpv": null,
       "ctr": 1.0450550211,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36229,7 +36842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 332.3656716418,
       "cost_per_lpv": null,
       "ctr": 0.77667652,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36248,7 +36862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 973.3631386861,
       "cost_per_lpv": null,
       "ctr": 0.8086770457,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36267,7 +36882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 802.455017301,
       "cost_per_lpv": null,
       "ctr": 1.1306729264,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36286,7 +36902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 813.3606557377,
       "cost_per_lpv": null,
       "ctr": 1.1464968153,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36305,7 +36922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 428.4994165694,
       "cost_per_lpv": 367224.0,
       "ctr": 0.7533536103,
-      "lpv_rate": 0.1166861144
+      "lpv_rate": 0.1166861144,
+      "date": null
     },
     {
       "year": 2025,
@@ -36324,7 +36942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 636.8888888889,
       "cost_per_lpv": null,
       "ctr": 1.2354152368,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36343,7 +36962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 538.4666666667,
       "cost_per_lpv": null,
       "ctr": 1.4326647564,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36362,7 +36982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1156.8333333333,
       "cost_per_lpv": null,
       "ctr": 0.7237635706,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36381,7 +37002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 313.3333333333,
       "cost_per_lpv": null,
       "ctr": 1.0362694301,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36400,7 +37022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 869.7943925234,
       "cost_per_lpv": null,
       "ctr": 0.930272996,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36419,7 +37042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 872.4418604651,
       "cost_per_lpv": null,
       "ctr": 1.0711172001,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36438,7 +37062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 777.5703125,
       "cost_per_lpv": null,
       "ctr": 1.5468277946,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36457,7 +37082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 501.0,
       "cost_per_lpv": null,
       "ctr": 0.5147269088,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36476,7 +37102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 973.8407643312,
       "cost_per_lpv": null,
       "ctr": 0.8636338632,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36495,7 +37122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 807.875502008,
       "cost_per_lpv": null,
       "ctr": 1.5983054111,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36514,7 +37142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 840.9431818182,
       "cost_per_lpv": null,
       "ctr": 1.5831134565,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36533,7 +37162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 425.220952381,
       "cost_per_lpv": null,
       "ctr": 0.8459146351,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36552,7 +37182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 683.3333333333,
       "cost_per_lpv": null,
       "ctr": 1.1278195489,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36571,7 +37202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1495.5,
       "cost_per_lpv": null,
       "ctr": 0.6622516556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36590,7 +37222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 366.0,
       "cost_per_lpv": null,
       "ctr": 2.9304029304,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36609,7 +37242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 317.25,
       "cost_per_lpv": null,
       "ctr": 1.1594202899,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36628,7 +37262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 849.796875,
       "cost_per_lpv": null,
       "ctr": 1.0168414363,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36647,7 +37282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 818.1451612903,
       "cost_per_lpv": null,
       "ctr": 1.3656387665,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36666,7 +37302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 861.6363636364,
       "cost_per_lpv": null,
       "ctr": 1.8350324374,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36685,7 +37322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 444.2777777778,
       "cost_per_lpv": null,
       "ctr": 0.6929740135,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36704,7 +37342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 948.5056179775,
       "cost_per_lpv": null,
       "ctr": 0.9366449169,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36723,7 +37362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 813.2282608696,
       "cost_per_lpv": null,
       "ctr": 1.9898345409,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36742,7 +37382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 964.9142857143,
       "cost_per_lpv": null,
       "ctr": 1.6480282519,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36761,7 +37402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 430.9667590028,
       "cost_per_lpv": null,
       "ctr": 1.084377159,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36780,7 +37422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -36799,7 +37442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1798.0,
       "cost_per_lpv": null,
       "ctr": 0.5376344086,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36818,7 +37462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1377.0,
       "cost_per_lpv": null,
       "ctr": 0.7352941176,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36837,7 +37482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -36856,7 +37502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 651.3571428571,
       "cost_per_lpv": null,
       "ctr": 1.4647415777,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36875,7 +37522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 955.4615384615,
       "cost_per_lpv": null,
       "ctr": 1.2828947368,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36894,7 +37542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 973.9090909091,
       "cost_per_lpv": null,
       "ctr": 1.5015015015,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36913,7 +37562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 474.1818181818,
       "cost_per_lpv": 15648.0,
       "ctr": 0.802724398,
-      "lpv_rate": 3.0303030303
+      "lpv_rate": 3.0303030303,
+      "date": null
     },
     {
       "year": 2025,
@@ -36932,7 +37582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 704.6633663366,
       "cost_per_lpv": null,
       "ctr": 1.4612268519,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36951,7 +37602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 815.9579831933,
       "cost_per_lpv": null,
       "ctr": 2.2230524939,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36970,7 +37622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 747.5585585586,
       "cost_per_lpv": null,
       "ctr": 2.1110688475,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -36989,7 +37642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 464.8349514563,
       "cost_per_lpv": 71817.0,
       "ctr": 1.1613921672,
-      "lpv_rate": 0.6472491909
+      "lpv_rate": 0.6472491909,
+      "date": null
     },
     {
       "year": 2025,
@@ -37008,7 +37662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 505.5,
       "cost_per_lpv": null,
       "ctr": 1.7391304348,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37027,7 +37682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 693.0,
       "cost_per_lpv": null,
       "ctr": 1.7391304348,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37046,7 +37702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 829.0,
       "cost_per_lpv": null,
       "ctr": 1.0989010989,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37065,7 +37722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 152.0,
       "cost_per_lpv": null,
       "ctr": 3.0769230769,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37084,7 +37742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 953.15,
       "cost_per_lpv": null,
       "ctr": 0.9904258831,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37103,7 +37762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 913.1666666667,
       "cost_per_lpv": null,
       "ctr": 1.1437908497,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37122,7 +37782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 972.0434782609,
       "cost_per_lpv": null,
       "ctr": 1.2486427796,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37141,7 +37802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 375.1,
       "cost_per_lpv": null,
       "ctr": 1.1799410029,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37160,7 +37822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 882.3870967742,
       "cost_per_lpv": null,
       "ctr": 1.1684885036,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37179,7 +37842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 929.597826087,
       "cost_per_lpv": null,
       "ctr": 1.779841362,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37198,7 +37862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1028.03125,
       "cost_per_lpv": null,
       "ctr": 1.2571204086,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37217,7 +37882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 368.7542372881,
       "cost_per_lpv": null,
       "ctr": 1.813431689,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37236,7 +37902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 856.5,
       "cost_per_lpv": null,
       "ctr": 0.9803921569,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37255,7 +37922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1003.5,
       "cost_per_lpv": null,
       "ctr": 1.1494252874,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37274,7 +37942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 624.5,
       "cost_per_lpv": null,
       "ctr": 1.3245033113,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37293,7 +37962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 191.6666666667,
       "cost_per_lpv": null,
       "ctr": 3.0612244898,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37312,7 +37982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -37331,7 +38002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 636.1863354037,
       "cost_per_lpv": null,
       "ctr": 0.8405408698,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37350,7 +38022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 331.5971223022,
       "cost_per_lpv": null,
       "ctr": 0.2524243635,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37369,7 +38042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 550.5249632893,
       "cost_per_lpv": null,
       "ctr": 0.7905688962,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37388,7 +38062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 300.7510373444,
       "cost_per_lpv": null,
       "ctr": 0.3897973377,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37407,7 +38082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 544.1,
       "cost_per_lpv": null,
       "ctr": 0.7457121551,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37426,7 +38102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 871.0,
       "cost_per_lpv": null,
       "ctr": 0.0759878419,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37445,7 +38122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 599.0029498525,
       "cost_per_lpv": null,
       "ctr": 1.341299359,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37464,7 +38142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 287.593442623,
       "cost_per_lpv": null,
       "ctr": 0.3665116503,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37483,7 +38162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 537.1230329041,
       "cost_per_lpv": null,
       "ctr": 1.1337647803,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37502,7 +38182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 349.4115384615,
       "cost_per_lpv": null,
       "ctr": 0.4056415377,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37521,7 +38202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 534.8333333333,
       "cost_per_lpv": null,
       "ctr": 1.2320328542,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37540,7 +38222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 674.0,
       "cost_per_lpv": null,
       "ctr": 0.297029703,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37559,7 +38242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 619.635,
       "cost_per_lpv": null,
       "ctr": 1.6436554898,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37578,7 +38262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 293.118902439,
       "cost_per_lpv": null,
       "ctr": 0.227893307,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37597,7 +38282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 558.9778481013,
       "cost_per_lpv": null,
       "ctr": 1.5469721447,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37616,7 +38302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 308.5679012346,
       "cost_per_lpv": null,
       "ctr": 0.3078121586,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37635,7 +38322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 245.5,
       "cost_per_lpv": null,
       "ctr": 3.5928143713,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37654,7 +38342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 355.5,
       "cost_per_lpv": null,
       "ctr": 0.1987083954,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37673,7 +38362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 555.432038835,
       "cost_per_lpv": null,
       "ctr": 1.7465027554,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37692,7 +38382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 295.1336633663,
       "cost_per_lpv": null,
       "ctr": 0.2520195877,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37711,7 +38402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 533.8659793814,
       "cost_per_lpv": null,
       "ctr": 1.7156754367,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37730,7 +38422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 281.1549295775,
       "cost_per_lpv": null,
       "ctr": 0.3029182547,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37749,7 +38442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 958.0,
       "cost_per_lpv": null,
       "ctr": 1.4705882353,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37768,7 +38462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 451.6,
       "cost_per_lpv": null,
       "ctr": 0.2930832356,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37787,7 +38482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 534.0283018868,
       "cost_per_lpv": null,
       "ctr": 2.0682926829,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37806,7 +38502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 301.1410788382,
       "cost_per_lpv": null,
       "ctr": 0.326359266,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37825,7 +38522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 606.4041666667,
       "cost_per_lpv": null,
       "ctr": 1.7722640673,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37844,7 +38542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 308.8187311178,
       "cost_per_lpv": null,
       "ctr": 0.3897281322,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37863,7 +38562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 304.0,
       "cost_per_lpv": null,
       "ctr": 2.4,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37882,7 +38582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 174.6666666667,
       "cost_per_lpv": null,
       "ctr": 0.4601226994,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37901,7 +38602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.0,
       "cost_per_lpv": null,
       "ctr": 1.0204081633,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37920,7 +38622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 511.1606557377,
       "cost_per_lpv": null,
       "ctr": 0.6854086609,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37939,7 +38642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 442.6885245902,
       "cost_per_lpv": null,
       "ctr": 1.1726259131,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37958,7 +38662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 453.2356321839,
       "cost_per_lpv": null,
       "ctr": 0.512695852,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37977,7 +38682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 441.9111111111,
       "cost_per_lpv": null,
       "ctr": 1.3537906137,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -37996,7 +38702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 408.9464285714,
       "cost_per_lpv": null,
       "ctr": 0.7502679528,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38015,7 +38722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 246.05,
       "cost_per_lpv": null,
       "ctr": 1.2026458208,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38034,7 +38742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 472.5971731449,
       "cost_per_lpv": null,
       "ctr": 0.7955471847,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38053,7 +38762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 422.4207650273,
       "cost_per_lpv": null,
       "ctr": 1.6807494489,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38072,7 +38782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 446.6428009441,
       "cost_per_lpv": null,
       "ctr": 0.4992458285,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38091,7 +38802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 353.357400722,
       "cost_per_lpv": null,
       "ctr": 1.7352084443,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38110,7 +38822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 379.1381578947,
       "cost_per_lpv": null,
       "ctr": 0.9200411597,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38129,7 +38842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -38148,7 +38862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 449.6,
       "cost_per_lpv": null,
       "ctr": 0.8703220191,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38167,7 +38882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 380.0,
       "cost_per_lpv": null,
       "ctr": 1.6806722689,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38186,7 +38902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 463.2068965517,
       "cost_per_lpv": null,
       "ctr": 0.5231823922,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38205,7 +38922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 377.6,
       "cost_per_lpv": null,
       "ctr": 1.7182130584,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38224,7 +38942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 332.25,
       "cost_per_lpv": null,
       "ctr": 0.8130081301,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38243,7 +38962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 809.3225806452,
       "cost_per_lpv": null,
       "ctr": 0.9822560203,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38262,7 +38982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 819.8181818182,
       "cost_per_lpv": null,
       "ctr": 1.1147707119,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38281,7 +39002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 839.0606060606,
       "cost_per_lpv": null,
       "ctr": 1.1486251305,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38300,7 +39022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 166.5,
       "cost_per_lpv": null,
       "ctr": 1.9138755981,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38319,7 +39042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 501.5,
       "cost_per_lpv": null,
       "ctr": 1.2915724895,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38338,7 +39062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 449.3492063492,
       "cost_per_lpv": null,
       "ctr": 2.7427078798,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38357,7 +39082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.0347826087,
       "cost_per_lpv": null,
       "ctr": 0.5717126522,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38376,7 +39102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 438.2333333333,
       "cost_per_lpv": null,
       "ctr": 3.1897926635,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38395,7 +39122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 336.1847826087,
       "cost_per_lpv": null,
       "ctr": 1.9662321009,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38414,7 +39142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 724.6721311475,
       "cost_per_lpv": null,
       "ctr": 1.1883888564,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38433,7 +39162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1253.2592592593,
       "cost_per_lpv": null,
       "ctr": 0.7567264574,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38452,7 +39182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1154.1851851852,
       "cost_per_lpv": null,
       "ctr": 0.8843760236,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38471,7 +39202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 289.3111111111,
       "cost_per_lpv": null,
       "ctr": 1.5212981744,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38490,7 +39222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 457.2164179104,
       "cost_per_lpv": null,
       "ctr": 1.8844044438,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38509,7 +39242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 379.6952380952,
       "cost_per_lpv": null,
       "ctr": 3.0906593407,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38528,7 +39262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 420.4180138568,
       "cost_per_lpv": null,
       "ctr": 0.6526687066,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38547,7 +39282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 417.995543672,
       "cost_per_lpv": null,
       "ctr": 2.65870477,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38566,7 +39302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 367.5843270869,
       "cost_per_lpv": null,
       "ctr": 1.6934972015,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38585,7 +39322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.0,
       "cost_per_lpv": null,
       "ctr": 3.75,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38604,7 +39342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -38623,7 +39362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -38642,7 +39382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -38661,7 +39402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 221.8,
       "cost_per_lpv": null,
       "ctr": 3.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38680,7 +39422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 623.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.1276595745,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38699,7 +39442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 551.3333333333,
       "cost_per_lpv": null,
       "ctr": 0.4713275727,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38718,7 +39462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 589.1666666667,
       "cost_per_lpv": null,
       "ctr": 1.7391304348,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38737,7 +39482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 242.7142857143,
       "cost_per_lpv": null,
       "ctr": 2.4263431542,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38756,7 +39502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 942.1428571429,
       "cost_per_lpv": null,
       "ctr": 0.8706467662,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38775,7 +39522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 460.4666666667,
       "cost_per_lpv": null,
       "ctr": 2.1897810219,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38794,7 +39542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1666.8333333333,
       "cost_per_lpv": null,
       "ctr": 0.8108108108,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38813,7 +39562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 134.6,
       "cost_per_lpv": null,
       "ctr": 2.3041474654,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38832,7 +39582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 518.7671232877,
       "cost_per_lpv": null,
       "ctr": 3.1697785497,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38851,7 +39602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 355.2636363636,
       "cost_per_lpv": null,
       "ctr": 5.0458715596,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38870,7 +39622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 423.1428571429,
       "cost_per_lpv": null,
       "ctr": 0.8187134503,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38889,7 +39642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 401.61875,
       "cost_per_lpv": null,
       "ctr": 5.3493814778,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38908,7 +39662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 351.6767371601,
       "cost_per_lpv": null,
       "ctr": 2.9624988812,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38927,7 +39682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 649.0,
       "cost_per_lpv": null,
       "ctr": 1.4824797844,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38946,7 +39702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1059.0909090909,
       "cost_per_lpv": null,
       "ctr": 1.2941176471,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38965,7 +39722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1503.6,
       "cost_per_lpv": null,
       "ctr": 0.9337068161,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -38984,7 +39742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 244.4428571429,
       "cost_per_lpv": null,
       "ctr": 2.4518388792,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39003,7 +39762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 487.3685714286,
       "cost_per_lpv": null,
       "ctr": 3.2919488337,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39022,7 +39782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 330.4755747126,
       "cost_per_lpv": null,
       "ctr": 4.4678392605,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39041,7 +39802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 414.4344827586,
       "cost_per_lpv": null,
       "ctr": 0.9076114171,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39060,7 +39822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 400.7021276596,
       "cost_per_lpv": null,
       "ctr": 4.5065200716,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39079,7 +39842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 367.0207336523,
       "cost_per_lpv": null,
       "ctr": 2.5189827649,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39098,7 +39862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39117,7 +39882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39136,7 +39902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39155,7 +39922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39174,7 +39942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 361.75,
       "cost_per_lpv": null,
       "ctr": 5.8823529412,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39193,7 +39962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 301.3333333333,
       "cost_per_lpv": null,
       "ctr": 5.0847457627,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39212,7 +39982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 365.6666666667,
       "cost_per_lpv": null,
       "ctr": 1.0273972603,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39231,7 +40002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 285.1666666667,
       "cost_per_lpv": null,
       "ctr": 7.2289156627,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39250,7 +40022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 312.9,
       "cost_per_lpv": null,
       "ctr": 3.2362459547,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39269,7 +40042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 538.625,
       "cost_per_lpv": null,
       "ctr": 1.6597510373,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39288,7 +40062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1112.6666666667,
       "cost_per_lpv": null,
       "ctr": 0.9966777409,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39307,7 +40082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1278.4285714286,
       "cost_per_lpv": null,
       "ctr": 1.4675052411,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39326,7 +40102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 186.25,
       "cost_per_lpv": null,
       "ctr": 2.5641025641,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39345,7 +40122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 511.396039604,
       "cost_per_lpv": null,
       "ctr": 3.3938172043,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39364,7 +40142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 368.7950310559,
       "cost_per_lpv": null,
       "ctr": 5.1159834763,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39383,7 +40162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 421.5405405405,
       "cost_per_lpv": null,
       "ctr": 0.7760067114,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39402,7 +40182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 479.7230769231,
       "cost_per_lpv": null,
       "ctr": 5.1834130781,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39421,7 +40202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 405.8522167488,
       "cost_per_lpv": null,
       "ctr": 3.2662912309,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39440,7 +40222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 784.8888888889,
       "cost_per_lpv": null,
       "ctr": 1.2517385257,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39459,7 +40242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 856.4285714286,
       "cost_per_lpv": null,
       "ctr": 2.5044722719,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39478,7 +40262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1087.0909090909,
       "cost_per_lpv": null,
       "ctr": 1.6975308642,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39497,7 +40282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 313.2608695652,
       "cost_per_lpv": null,
       "ctr": 2.6916325336,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39516,7 +40302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 505.5609065156,
       "cost_per_lpv": null,
       "ctr": 3.4573947111,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39535,7 +40322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 323.5709812109,
       "cost_per_lpv": null,
       "ctr": 4.8681335434,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39554,7 +40342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 509.8452380952,
       "cost_per_lpv": null,
       "ctr": 0.7489300999,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39573,7 +40362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 431.9021406728,
       "cost_per_lpv": null,
       "ctr": 5.2445870088,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39592,7 +40382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 383.0013140604,
       "cost_per_lpv": null,
       "ctr": 3.0908573982,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39611,7 +40402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39630,7 +40422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39649,7 +40442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39668,7 +40462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 30.0,
       "cost_per_lpv": null,
       "ctr": 12.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39687,7 +40482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 411.0,
       "cost_per_lpv": null,
       "ctr": 1.9607843137,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39706,7 +40502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 296.0,
       "cost_per_lpv": null,
       "ctr": 4.7058823529,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39725,7 +40522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -39744,7 +40542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 664.0,
       "cost_per_lpv": null,
       "ctr": 4.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39763,7 +40562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 536.6666666667,
       "cost_per_lpv": null,
       "ctr": 1.9607843137,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39782,7 +40582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 861.8,
       "cost_per_lpv": null,
       "ctr": 1.3020833333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39801,7 +40602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 699.8,
       "cost_per_lpv": null,
       "ctr": 1.9455252918,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39820,7 +40622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 659.5454545455,
       "cost_per_lpv": null,
       "ctr": 3.1073446328,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39839,7 +40642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 281.0,
       "cost_per_lpv": null,
       "ctr": 1.4814814815,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39858,7 +40662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 402.0657894737,
       "cost_per_lpv": null,
       "ctr": 4.9190938511,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39877,7 +40682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 282.1583333333,
       "cost_per_lpv": null,
       "ctr": 7.5757575758,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39896,7 +40702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 600.4,
       "cost_per_lpv": null,
       "ctr": 0.6570302234,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39915,7 +40722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 506.8571428571,
       "cost_per_lpv": null,
       "ctr": 5.4263565891,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39934,7 +40742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 444.2264150943,
       "cost_per_lpv": null,
       "ctr": 2.1379588544,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39953,7 +40762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 797.7,
       "cost_per_lpv": null,
       "ctr": 1.4662756598,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39972,7 +40782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 428.9545454545,
       "cost_per_lpv": null,
       "ctr": 4.7210300429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -39991,7 +40802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 966.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.0179372197,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40010,7 +40822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 284.2,
       "cost_per_lpv": null,
       "ctr": 3.0103995621,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40029,7 +40842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 523.5269461078,
       "cost_per_lpv": null,
       "ctr": 3.5806174957,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40048,7 +40862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 278.3912280702,
       "cost_per_lpv": null,
       "ctr": 6.3199911298,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40067,7 +40882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 650.7368421053,
       "cost_per_lpv": null,
       "ctr": 0.6035578145,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40086,7 +40902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 471.28125,
       "cost_per_lpv": null,
       "ctr": 5.1282051282,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40105,7 +40922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 401.0701754386,
       "cost_per_lpv": null,
       "ctr": 2.4005053696,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40124,7 +40942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40143,7 +40962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40162,7 +40982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40181,7 +41002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40200,7 +41022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 303.0,
       "cost_per_lpv": null,
       "ctr": 3.8461538462,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40219,7 +41042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40238,7 +41062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40257,7 +41082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40276,7 +41102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40295,7 +41122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 757.0,
       "cost_per_lpv": null,
       "ctr": 1.5901060071,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40314,7 +41142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 495.8888888889,
       "cost_per_lpv": null,
       "ctr": 2.8571428571,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40333,7 +41162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 832.0,
       "cost_per_lpv": null,
       "ctr": 1.6260162602,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40352,7 +41182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 597.0,
       "cost_per_lpv": null,
       "ctr": 1.1363636364,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40371,7 +41202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 298.1034482759,
       "cost_per_lpv": null,
       "ctr": 3.6386449184,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40390,7 +41222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 511.6666666667,
       "cost_per_lpv": null,
       "ctr": 3.4482758621,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40409,7 +41242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 409.1666666667,
       "cost_per_lpv": null,
       "ctr": 0.660429279,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40428,7 +41262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 659.0,
       "cost_per_lpv": null,
       "ctr": 2.4691358025,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40447,7 +41282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 536.3636363636,
       "cost_per_lpv": null,
       "ctr": 1.0763209393,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40466,7 +41302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 821.9090909091,
       "cost_per_lpv": null,
       "ctr": 1.2746234067,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40485,7 +41322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 668.8333333333,
       "cost_per_lpv": null,
       "ctr": 2.7777777778,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40504,7 +41342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 627.8888888889,
       "cost_per_lpv": null,
       "ctr": 2.9220779221,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40523,7 +41362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 256.4117647059,
       "cost_per_lpv": null,
       "ctr": 3.9781591264,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40542,7 +41382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 465.5454545455,
       "cost_per_lpv": null,
       "ctr": 3.0442804428,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40561,7 +41402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 342.9701492537,
       "cost_per_lpv": null,
       "ctr": 5.1737451737,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40580,7 +41422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 432.1851851852,
       "cost_per_lpv": null,
       "ctr": 0.5872118312,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40599,7 +41442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 420.05,
       "cost_per_lpv": null,
       "ctr": 3.9920159681,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40618,7 +41462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 489.7428571429,
       "cost_per_lpv": null,
       "ctr": 1.4424067587,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40637,7 +41482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40656,7 +41502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40675,7 +41522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40694,7 +41542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40713,7 +41562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40732,7 +41582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40751,7 +41602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 300.0,
       "cost_per_lpv": null,
       "ctr": 0.8620689655,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40770,7 +41622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -40789,7 +41642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 151.0,
       "cost_per_lpv": null,
       "ctr": 2.2727272727,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40808,7 +41662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 646.9391025641,
       "cost_per_lpv": null,
       "ctr": 0.8827773534,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40827,7 +41682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 394.75,
       "cost_per_lpv": null,
       "ctr": 0.3379183364,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40846,7 +41702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 420.3198011599,
       "cost_per_lpv": 942.9851301115,
       "ctr": 0.1902558129,
-      "lpv_rate": 44.5733222867
+      "lpv_rate": 44.5733222867,
+      "date": null
     },
     {
       "year": 2025,
@@ -40865,7 +41722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 562.043956044,
       "cost_per_lpv": 869.8299319728,
       "ctr": 0.7348309889,
-      "lpv_rate": 64.6153846154
+      "lpv_rate": 64.6153846154,
+      "date": null
     },
     {
       "year": 2025,
@@ -40884,7 +41742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 564.8762183236,
       "cost_per_lpv": null,
       "ctr": 0.8969707567,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40903,7 +41762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 395.0104712042,
       "cost_per_lpv": null,
       "ctr": 0.3383765014,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40922,7 +41782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 429.3794733288,
       "cost_per_lpv": 963.5015151515,
       "ctr": 0.2122515432,
-      "lpv_rate": 44.5644834571
+      "lpv_rate": 44.5644834571,
+      "date": null
     },
     {
       "year": 2025,
@@ -40941,7 +41802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 487.4302325581,
       "cost_per_lpv": 917.581797235,
       "ctr": 0.7078986587,
-      "lpv_rate": 53.1211750306
+      "lpv_rate": 53.1211750306,
+      "date": null
     },
     {
       "year": 2025,
@@ -40960,7 +41822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 403.3,
       "cost_per_lpv": null,
       "ctr": 1.2658227848,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40979,7 +41842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 386.3333333333,
       "cost_per_lpv": null,
       "ctr": 0.4480955937,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -40998,7 +41862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 392.3055555556,
       "cost_per_lpv": 941.5333333333,
       "ctr": 0.1652589056,
-      "lpv_rate": 41.6666666667
+      "lpv_rate": 41.6666666667,
+      "date": null
     },
     {
       "year": 2025,
@@ -41017,7 +41882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 357.2105263158,
       "cost_per_lpv": 678.7,
       "ctr": 0.9906152242,
-      "lpv_rate": 52.6315789474
+      "lpv_rate": 52.6315789474,
+      "date": null
     },
     {
       "year": 2025,
@@ -41036,7 +41902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 666.25,
       "cost_per_lpv": null,
       "ctr": 1.2252014514,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41055,7 +41922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 384.2402826855,
       "cost_per_lpv": null,
       "ctr": 0.3836871933,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41074,7 +41942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 359.0867906533,
       "cost_per_lpv": 891.1301775148,
       "ctr": 0.2016615682,
-      "lpv_rate": 40.2956604673
+      "lpv_rate": 40.2956604673,
+      "date": null
     },
     {
       "year": 2025,
@@ -41093,7 +41962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 542.8179190751,
       "cost_per_lpv": 782.5625,
       "ctr": 1.0713069325,
-      "lpv_rate": 69.3641618497
+      "lpv_rate": 69.3641618497,
+      "date": null
     },
     {
       "year": 2025,
@@ -41112,7 +41982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 555.4689440994,
       "cost_per_lpv": null,
       "ctr": 1.230322482,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41131,7 +42002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 436.0526315789,
       "cost_per_lpv": null,
       "ctr": 0.381655799,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41150,7 +42022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 363.8840155945,
       "cost_per_lpv": 882.6122931442,
       "ctr": 0.2459546926,
-      "lpv_rate": 41.2280701754
+      "lpv_rate": 41.2280701754,
+      "date": null
     },
     {
       "year": 2025,
@@ -41169,7 +42042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 499.8303167421,
       "cost_per_lpv": 901.7346938776,
       "ctr": 0.8873809213,
-      "lpv_rate": 55.4298642534
+      "lpv_rate": 55.4298642534,
+      "date": null
     },
     {
       "year": 2025,
@@ -41188,7 +42062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 725.75,
       "cost_per_lpv": null,
       "ctr": 0.8948545861,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41207,7 +42082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 364.8,
       "cost_per_lpv": null,
       "ctr": 0.3612716763,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41226,7 +42102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 441.6129032258,
       "cost_per_lpv": 1369.0,
       "ctr": 0.1565024233,
-      "lpv_rate": 32.2580645161
+      "lpv_rate": 32.2580645161,
+      "date": null
     },
     {
       "year": 2025,
@@ -41245,7 +42122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 451.0,
       "cost_per_lpv": 601.3333333333,
       "ctr": 0.9302325581,
-      "lpv_rate": 75.0
+      "lpv_rate": 75.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41264,7 +42142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 616.7151162791,
       "cost_per_lpv": null,
       "ctr": 1.6453032332,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41283,7 +42162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 424.8429319372,
       "cost_per_lpv": null,
       "ctr": 0.2208424387,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41302,7 +42182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 375.0900163666,
       "cost_per_lpv": 954.9166666667,
       "ctr": 0.1499698097,
-      "lpv_rate": 39.2798690671
+      "lpv_rate": 39.2798690671,
+      "date": null
     },
     {
       "year": 2025,
@@ -41321,7 +42202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 458.2376237624,
       "cost_per_lpv": 651.8591549296,
       "ctr": 1.8669131238,
-      "lpv_rate": 70.297029703
+      "lpv_rate": 70.297029703,
+      "date": null
     },
     {
       "year": 2025,
@@ -41340,7 +42222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 584.1320132013,
       "cost_per_lpv": null,
       "ctr": 1.5457606367,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41359,7 +42242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 411.149321267,
       "cost_per_lpv": null,
       "ctr": 0.2811025325,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41378,7 +42262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 374.093132154,
       "cost_per_lpv": 905.5503778338,
       "ctr": 0.18096463,
-      "lpv_rate": 41.3111342352
+      "lpv_rate": 41.3111342352,
+      "date": null
     },
     {
       "year": 2025,
@@ -41397,7 +42282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 599.3903345725,
       "cost_per_lpv": 866.8602150538,
       "ctr": 1.2713867095,
-      "lpv_rate": 69.1449814126
+      "lpv_rate": 69.1449814126,
+      "date": null
     },
     {
       "year": 2025,
@@ -41416,7 +42302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1888.0,
       "cost_per_lpv": null,
       "ctr": 0.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41435,7 +42322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 531.5,
       "cost_per_lpv": null,
       "ctr": 0.2739726027,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41454,7 +42342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 379.4772727273,
       "cost_per_lpv": 1043.5625,
       "ctr": 0.1549950683,
-      "lpv_rate": 36.3636363636
+      "lpv_rate": 36.3636363636,
+      "date": null
     },
     {
       "year": 2025,
@@ -41473,7 +42362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1189.0,
       "cost_per_lpv": null,
       "ctr": 0.8928571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41492,7 +42382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 672.8760330579,
       "cost_per_lpv": null,
       "ctr": 1.4175257732,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41511,7 +42402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 384.1134020619,
       "cost_per_lpv": null,
       "ctr": 0.2365795956,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41530,7 +42422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 325.5605590062,
       "cost_per_lpv": 779.4089219331,
       "ctr": 0.2066677078,
-      "lpv_rate": 41.7701863354
+      "lpv_rate": 41.7701863354,
+      "date": null
     },
     {
       "year": 2025,
@@ -41549,7 +42442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 487.8195876289,
       "cost_per_lpv": 701.0148148148,
       "ctr": 1.5319014529,
-      "lpv_rate": 69.587628866
+      "lpv_rate": 69.587628866,
+      "date": null
     },
     {
       "year": 2025,
@@ -41568,7 +42462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 634.6483516484,
       "cost_per_lpv": null,
       "ctr": 1.4944982756,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41587,7 +42482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 354.9310344828,
       "cost_per_lpv": null,
       "ctr": 0.2934713468,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41606,7 +42502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 362.0904126214,
       "cost_per_lpv": 851.2482168331,
       "ctr": 0.1942425014,
-      "lpv_rate": 42.536407767
+      "lpv_rate": 42.536407767,
+      "date": null
     },
     {
       "year": 2025,
@@ -41625,7 +42522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 618.275862069,
       "cost_per_lpv": 911.6949152542,
       "ctr": 1.2281197064,
-      "lpv_rate": 67.816091954
+      "lpv_rate": 67.816091954,
+      "date": null
     },
     {
       "year": 2025,
@@ -41644,7 +42542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 354.5,
       "cost_per_lpv": null,
       "ctr": 2.5641025641,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41663,7 +42562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 907.0,
       "cost_per_lpv": null,
       "ctr": 0.0892857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41682,7 +42582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 419.75,
       "cost_per_lpv": 790.1176470588,
       "ctr": 0.1623376623,
-      "lpv_rate": 53.125
+      "lpv_rate": 53.125,
+      "date": null
     },
     {
       "year": 2025,
@@ -41701,7 +42602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 572.0,
       "cost_per_lpv": 1144.0,
       "ctr": 1.4285714286,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41720,7 +42622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 643.4179104478,
       "cost_per_lpv": null,
       "ctr": 1.7786036634,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41739,7 +42642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 403.3009708738,
       "cost_per_lpv": null,
       "ctr": 0.2486661355,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41758,7 +42662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 324.762993763,
       "cost_per_lpv": 835.3529411765,
       "ctr": 0.2478844786,
-      "lpv_rate": 38.8773388773
+      "lpv_rate": 38.8773388773,
+      "date": null
     },
     {
       "year": 2025,
@@ -41777,7 +42682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 527.8461538462,
       "cost_per_lpv": 750.53125,
       "ctr": 1.5526360689,
-      "lpv_rate": 70.3296703297
+      "lpv_rate": 70.3296703297,
+      "date": null
     },
     {
       "year": 2025,
@@ -41796,7 +42702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 606.6,
       "cost_per_lpv": null,
       "ctr": 1.8654835132,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41815,7 +42722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 417.3643410853,
       "cost_per_lpv": null,
       "ctr": 0.2745790852,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41834,7 +42742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 385.7451669596,
       "cost_per_lpv": 993.1628959276,
       "ctr": 0.2354844918,
-      "lpv_rate": 38.8400702988
+      "lpv_rate": 38.8400702988,
+      "date": null
     },
     {
       "year": 2025,
@@ -41853,7 +42762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 583.341991342,
       "cost_per_lpv": 821.6585365854,
       "ctr": 1.4213635245,
-      "lpv_rate": 70.9956709957
+      "lpv_rate": 70.9956709957,
+      "date": null
     },
     {
       "year": 2025,
@@ -41872,7 +42782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 359.3333333333,
       "cost_per_lpv": null,
       "ctr": 4.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41891,7 +42802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 303.4,
       "cost_per_lpv": null,
       "ctr": 0.5025125628,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41910,7 +42822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 211.2619047619,
       "cost_per_lpv": 422.5238095238,
       "ctr": 0.422492707,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41929,7 +42842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 185.3333333333,
       "cost_per_lpv": 370.6666666667,
       "ctr": 3.3149171271,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41948,7 +42862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -41967,7 +42882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 674.22,
       "cost_per_lpv": null,
       "ctr": 0.565142039,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -41986,7 +42902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 447.2,
       "cost_per_lpv": null,
       "ctr": 1.6077170418,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42005,7 +42922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 579.5396825397,
       "cost_per_lpv": null,
       "ctr": 0.4917648895,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42024,7 +42942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 515.358974359,
       "cost_per_lpv": null,
       "ctr": 1.0061919505,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42043,7 +42962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 528.4809782609,
       "cost_per_lpv": null,
       "ctr": 0.5538832029,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42062,7 +42982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 665.3157894737,
       "cost_per_lpv": null,
       "ctr": 0.8916001877,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42081,7 +43002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 545.8333333333,
       "cost_per_lpv": null,
       "ctr": 0.9832483613,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42100,7 +43022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1968.0,
       "cost_per_lpv": null,
       "ctr": 0.29455081,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42119,7 +43042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 877.6363636364,
       "cost_per_lpv": null,
       "ctr": 0.5986394558,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42138,7 +43062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 718.3491620112,
       "cost_per_lpv": null,
       "ctr": 0.7543830074,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42157,7 +43082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 664.0475206612,
       "cost_per_lpv": null,
       "ctr": 0.7520900022,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42176,7 +43102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 874.5443037975,
       "cost_per_lpv": null,
       "ctr": 0.4653902798,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42195,7 +43122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 726.6910569106,
       "cost_per_lpv": null,
       "ctr": 0.5203045685,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42214,7 +43142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 654.881294964,
       "cost_per_lpv": null,
       "ctr": 0.5464695707,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42233,7 +43162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 512.7820512821,
       "cost_per_lpv": null,
       "ctr": 1.1314186249,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42252,7 +43182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 542.9166666667,
       "cost_per_lpv": null,
       "ctr": 0.497603454,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42271,7 +43202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 544.925,
       "cost_per_lpv": null,
       "ctr": 0.9426921717,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42290,7 +43222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 500.2153221126,
       "cost_per_lpv": null,
       "ctr": 0.5762580352,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42309,7 +43242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 550.5858585859,
       "cost_per_lpv": null,
       "ctr": 1.0338345865,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42328,7 +43262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 735.2558139535,
       "cost_per_lpv": null,
       "ctr": 0.7187630589,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42347,7 +43282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 538.7872340426,
       "cost_per_lpv": null,
       "ctr": 1.199897881,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42366,7 +43302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 717.0384615385,
       "cost_per_lpv": null,
       "ctr": 0.7738095238,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42385,7 +43322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 636.7021276596,
       "cost_per_lpv": null,
       "ctr": 0.8392024601,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42404,7 +43342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 575.4492753623,
       "cost_per_lpv": null,
       "ctr": 0.9602003896,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42423,7 +43362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 564.1772151899,
       "cost_per_lpv": null,
       "ctr": 0.8246776972,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42442,7 +43382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 676.1032258065,
       "cost_per_lpv": null,
       "ctr": 0.5762295996,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42461,7 +43402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 475.75,
       "cost_per_lpv": null,
       "ctr": 0.8097165992,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42480,7 +43422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -42499,7 +43442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 836.5714285714,
       "cost_per_lpv": null,
       "ctr": 0.3303445021,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42518,7 +43462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 734.0,
       "cost_per_lpv": null,
       "ctr": 0.6472491909,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42537,7 +43482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 402.0,
       "cost_per_lpv": null,
       "ctr": 0.69657857,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42556,7 +43502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 489.5,
       "cost_per_lpv": null,
       "ctr": 1.0869565217,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42575,7 +43522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1011.0,
       "cost_per_lpv": null,
       "ctr": 0.5194805195,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42594,7 +43542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -42613,7 +43562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 892.0,
       "cost_per_lpv": null,
       "ctr": 0.5649717514,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42632,7 +43582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 448.8666666667,
       "cost_per_lpv": null,
       "ctr": 1.2224938875,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42651,7 +43602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 688.4166666667,
       "cost_per_lpv": null,
       "ctr": 0.7042253521,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42670,7 +43622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -42689,7 +43642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 809.3333333333,
       "cost_per_lpv": null,
       "ctr": 0.406504065,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42708,7 +43662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 553.6590909091,
       "cost_per_lpv": null,
       "ctr": 0.8448540707,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42727,7 +43682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 487.0666666667,
       "cost_per_lpv": null,
       "ctr": 2.4154589372,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42746,7 +43702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 716.68,
       "cost_per_lpv": null,
       "ctr": 0.4830917874,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42765,7 +43722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 460.25,
       "cost_per_lpv": null,
       "ctr": 2.2792022792,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42784,7 +43742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 497.295154185,
       "cost_per_lpv": null,
       "ctr": 0.6646512411,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42803,7 +43762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 689.5,
       "cost_per_lpv": null,
       "ctr": 1.1671087533,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42822,7 +43782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 903.8421052632,
       "cost_per_lpv": null,
       "ctr": 0.9047619048,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42841,7 +43802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 186.7959183673,
       "cost_per_lpv": null,
       "ctr": 6.2982005141,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42860,7 +43822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 461.9545454545,
       "cost_per_lpv": null,
       "ctr": 1.8077239113,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42879,7 +43842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 734.6375838926,
       "cost_per_lpv": null,
       "ctr": 0.888332439,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42898,7 +43862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 624.7365269461,
       "cost_per_lpv": null,
       "ctr": 1.07374783,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42917,7 +43882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 434.025974026,
       "cost_per_lpv": null,
       "ctr": 1.5008283793,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42936,7 +43902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 691.4140625,
       "cost_per_lpv": null,
       "ctr": 0.6287454563,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42955,7 +43922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 650.1048951049,
       "cost_per_lpv": null,
       "ctr": 0.7608001702,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42974,7 +43942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 438.2073170732,
       "cost_per_lpv": null,
       "ctr": 2.0578885729,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -42993,7 +43962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 688.0068965517,
       "cost_per_lpv": null,
       "ctr": 0.4931805041,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43012,7 +43982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 583.3525641026,
       "cost_per_lpv": null,
       "ctr": 1.5281383161,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43031,7 +44002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 495.9183818311,
       "cost_per_lpv": null,
       "ctr": 0.6859368344,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43050,7 +44022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 486.4631578947,
       "cost_per_lpv": null,
       "ctr": 1.7061781609,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43069,7 +44042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 459.4666666667,
       "cost_per_lpv": null,
       "ctr": 1.9830028329,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43088,7 +44062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 354.9330543933,
       "cost_per_lpv": null,
       "ctr": 2.9968652038,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43107,7 +44082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 458.5524475524,
       "cost_per_lpv": null,
       "ctr": 2.0970816835,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43126,7 +44102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 589.3441396509,
       "cost_per_lpv": null,
       "ctr": 1.2367000771,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43145,7 +44122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 539.3536895674,
       "cost_per_lpv": null,
       "ctr": 1.5802806707,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43164,7 +44142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 379.1545319465,
       "cost_per_lpv": null,
       "ctr": 2.1623184681,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43183,7 +44162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 515.0820512821,
       "cost_per_lpv": null,
       "ctr": 0.9406808278,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43202,7 +44182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 384.0,
       "cost_per_lpv": null,
       "ctr": 1.0676156584,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43221,7 +44202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 193.0,
       "cost_per_lpv": null,
       "ctr": 5.3571428571,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43240,7 +44222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 327.0,
       "cost_per_lpv": null,
       "ctr": 0.9067357513,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43259,7 +44242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -43278,7 +44262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 480.4418604651,
       "cost_per_lpv": null,
       "ctr": 0.6604208263,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43297,7 +44282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 542.0,
       "cost_per_lpv": null,
       "ctr": 1.4492753623,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43316,7 +44302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -43335,7 +44322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -43354,7 +44342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -43373,7 +44362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 840.0,
       "cost_per_lpv": null,
       "ctr": 0.7058823529,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43392,7 +44382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 424.8333333333,
       "cost_per_lpv": null,
       "ctr": 1.4563106796,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43411,7 +44402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 827.5,
       "cost_per_lpv": null,
       "ctr": 0.9216589862,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43430,7 +44422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 360.0909090909,
       "cost_per_lpv": null,
       "ctr": 1.3496932515,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43449,7 +44442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 684.2,
       "cost_per_lpv": null,
       "ctr": 1.0638297872,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43468,7 +44462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 417.6296296296,
       "cost_per_lpv": null,
       "ctr": 3.2806804374,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43487,7 +44482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 700.6666666667,
       "cost_per_lpv": null,
       "ctr": 0.6065507481,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43506,7 +44502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.6818181818,
       "cost_per_lpv": null,
       "ctr": 4.0552995392,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43525,7 +44522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 463.9295774648,
       "cost_per_lpv": null,
       "ctr": 0.8717967608,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43544,7 +44542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 489.0,
       "cost_per_lpv": null,
       "ctr": 2.7131782946,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43563,7 +44562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 346.7272727273,
       "cost_per_lpv": null,
       "ctr": 4.8034934498,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43582,7 +44582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 222.3382352941,
       "cost_per_lpv": null,
       "ctr": 7.5388026608,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43601,7 +44602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 275.4615384615,
       "cost_per_lpv": null,
       "ctr": 5.8690744921,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43620,7 +44622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 549.0105263158,
       "cost_per_lpv": null,
       "ctr": 1.9277597403,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43639,7 +44642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 545.6979166667,
       "cost_per_lpv": null,
       "ctr": 2.4774193548,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43658,7 +44662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 316.3581560284,
       "cost_per_lpv": null,
       "ctr": 4.222821204,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43677,7 +44682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 583.2708333333,
       "cost_per_lpv": null,
       "ctr": 1.0622994357,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43696,7 +44702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 679.1568627451,
       "cost_per_lpv": null,
       "ctr": 1.151241535,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43715,7 +44722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 488.1233480176,
       "cost_per_lpv": null,
       "ctr": 2.55027525,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43734,7 +44742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 674.2807017544,
       "cost_per_lpv": null,
       "ctr": 0.6772813688,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43753,7 +44762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 539.6923076923,
       "cost_per_lpv": null,
       "ctr": 2.7488986784,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43772,7 +44782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 483.6718317654,
       "cost_per_lpv": null,
       "ctr": 0.8900820136,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43791,7 +44802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 488.0263157895,
       "cost_per_lpv": null,
       "ctr": 2.9526029526,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43810,7 +44822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 386.1046511628,
       "cost_per_lpv": null,
       "ctr": 4.8396173326,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43829,7 +44842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 245.2328244275,
       "cost_per_lpv": null,
       "ctr": 6.0424354244,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43848,7 +44862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 451.1481481481,
       "cost_per_lpv": null,
       "ctr": 3.5761589404,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43867,7 +44882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 410.9030470914,
       "cost_per_lpv": null,
       "ctr": 3.2243658449,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43886,7 +44902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 459.1213235294,
       "cost_per_lpv": null,
       "ctr": 3.6916395223,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43905,7 +44922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 344.394437421,
       "cost_per_lpv": null,
       "ctr": 3.9392430279,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43924,7 +44942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 446.9406175772,
       "cost_per_lpv": null,
       "ctr": 1.5505303477,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43943,7 +44962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 235.0,
       "cost_per_lpv": null,
       "ctr": 2.4390243902,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43962,7 +44982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 225.3333333333,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -43981,7 +45002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 377.0,
       "cost_per_lpv": null,
       "ctr": 1.0526315789,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44000,7 +45022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44019,7 +45042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 385.2,
       "cost_per_lpv": null,
       "ctr": 0.9708737864,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44038,7 +45062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44057,7 +45082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 95.25,
       "cost_per_lpv": null,
       "ctr": 16.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44076,7 +45102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44095,7 +45122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44114,7 +45142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 316.25,
       "cost_per_lpv": null,
       "ctr": 5.5555555556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44133,7 +45162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 268.1666666667,
       "cost_per_lpv": null,
       "ctr": 7.4074074074,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44152,7 +45182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 650.3333333333,
       "cost_per_lpv": null,
       "ctr": 2.752293578,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44171,7 +45202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 357.875,
       "cost_per_lpv": null,
       "ctr": 2.5396825397,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44190,7 +45222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 968.5384615385,
       "cost_per_lpv": null,
       "ctr": 0.9730538922,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44209,7 +45242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 379.306122449,
       "cost_per_lpv": null,
       "ctr": 4.5666356011,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44228,7 +45262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 679.0769230769,
       "cost_per_lpv": null,
       "ctr": 0.5762411348,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44247,7 +45282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 618.6875,
       "cost_per_lpv": null,
       "ctr": 3.29218107,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44266,7 +45302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 490.9661016949,
       "cost_per_lpv": null,
       "ctr": 0.9382702961,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44285,7 +45322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 726.8,
       "cost_per_lpv": null,
       "ctr": 2.4752475248,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44304,7 +45342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 287.9310344828,
       "cost_per_lpv": null,
       "ctr": 7.2864321608,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44323,7 +45362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 231.7941176471,
       "cost_per_lpv": null,
       "ctr": 8.4367245658,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44342,7 +45382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 500.8333333333,
       "cost_per_lpv": null,
       "ctr": 3.6144578313,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44361,7 +45402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 574.0204081633,
       "cost_per_lpv": null,
       "ctr": 2.4257425743,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44380,7 +45422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 556.1458333333,
       "cost_per_lpv": null,
       "ctr": 2.8086600351,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44399,7 +45442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 326.1566820276,
       "cost_per_lpv": null,
       "ctr": 5.1568441065,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44418,7 +45462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 749.6451612903,
       "cost_per_lpv": null,
       "ctr": 1.1380323054,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44437,7 +45482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 659.6274509804,
       "cost_per_lpv": null,
       "ctr": 1.5634580012,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44456,7 +45502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 425.0276816609,
       "cost_per_lpv": null,
       "ctr": 3.3464566929,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44475,7 +45522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 591.6734693878,
       "cost_per_lpv": null,
       "ctr": 0.7575757576,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44494,7 +45542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 457.7340425532,
       "cost_per_lpv": null,
       "ctr": 4.2591753512,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44513,7 +45562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 472.781520693,
       "cost_per_lpv": null,
       "ctr": 1.1783251678,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44532,7 +45582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 473.5909090909,
       "cost_per_lpv": null,
       "ctr": 3.9927404719,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44551,7 +45602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 380.2075471698,
       "cost_per_lpv": null,
       "ctr": 5.7421451788,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44570,7 +45622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 312.2524271845,
       "cost_per_lpv": null,
       "ctr": 5.5887140532,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44589,7 +45642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 412.2972972973,
       "cost_per_lpv": null,
       "ctr": 4.966442953,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44608,7 +45662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 521.3287671233,
       "cost_per_lpv": null,
       "ctr": 3.2480533927,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44627,7 +45682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 515.5671641791,
       "cost_per_lpv": null,
       "ctr": 4.3862520458,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44646,7 +45702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 350.880859375,
       "cost_per_lpv": null,
       "ctr": 4.7610191557,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44665,7 +45722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 538.3372093023,
       "cost_per_lpv": null,
       "ctr": 2.058893943,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44684,7 +45742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44703,7 +45762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 501.0,
       "cost_per_lpv": null,
       "ctr": 2.5641025641,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44722,7 +45782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44741,7 +45802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44760,7 +45822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 678.875,
       "cost_per_lpv": null,
       "ctr": 0.6896551724,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44779,7 +45842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44798,7 +45862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44817,7 +45882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44836,7 +45902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 63.5,
       "cost_per_lpv": null,
       "ctr": 28.5714285714,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44855,7 +45922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 190.3333333333,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44874,7 +45942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44893,7 +45962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -44912,7 +45982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 620.0,
       "cost_per_lpv": null,
       "ctr": 1.8691588785,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44931,7 +46002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 581.1875,
       "cost_per_lpv": null,
       "ctr": 2.3391812865,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44950,7 +46022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 468.9523809524,
       "cost_per_lpv": null,
       "ctr": 4.375,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44969,7 +46042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 573.8888888889,
       "cost_per_lpv": null,
       "ctr": 0.8234217749,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -44988,7 +46062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 741.4,
       "cost_per_lpv": null,
       "ctr": 3.355704698,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45007,7 +46082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.3463035019,
       "cost_per_lpv": null,
       "ctr": 0.9918950212,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45026,7 +46102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 974.0,
       "cost_per_lpv": null,
       "ctr": 1.4084507042,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45045,7 +46122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 302.4444444444,
       "cost_per_lpv": null,
       "ctr": 6.5693430657,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45064,7 +46142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 205.7,
       "cost_per_lpv": null,
       "ctr": 10.752688172,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45083,7 +46162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45102,7 +46182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1068.3636363636,
       "cost_per_lpv": null,
       "ctr": 1.5536723164,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45121,7 +46202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 490.6,
       "cost_per_lpv": null,
       "ctr": 3.3726812816,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45140,7 +46222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 295.9339622642,
       "cost_per_lpv": null,
       "ctr": 6.191588785,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45159,7 +46242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 712.7173913043,
       "cost_per_lpv": null,
       "ctr": 0.972927242,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45178,7 +46262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 822.3103448276,
       "cost_per_lpv": null,
       "ctr": 1.6505406944,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45197,7 +46282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 374.05,
       "cost_per_lpv": null,
       "ctr": 4.6583850932,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45216,7 +46302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 496.380952381,
       "cost_per_lpv": null,
       "ctr": 0.9905660377,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45235,7 +46322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 415.1176470588,
       "cost_per_lpv": null,
       "ctr": 4.9346879536,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45254,7 +46342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 534.2644230769,
       "cost_per_lpv": null,
       "ctr": 0.9878106696,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45273,7 +46362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 749.0,
       "cost_per_lpv": null,
       "ctr": 3.0303030303,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45292,7 +46382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.8235294118,
       "cost_per_lpv": null,
       "ctr": 5.2959501558,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45311,7 +46402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 269.1875,
       "cost_per_lpv": null,
       "ctr": 6.6528066528,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45330,7 +46422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 364.7272727273,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45349,7 +46442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 618.2820512821,
       "cost_per_lpv": null,
       "ctr": 3.0708661417,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45368,7 +46462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 492.3125,
       "cost_per_lpv": null,
       "ctr": 5.4114994363,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45387,7 +46482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 398.9529411765,
       "cost_per_lpv": null,
       "ctr": 4.4678055191,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45406,7 +46502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 614.8475336323,
       "cost_per_lpv": null,
       "ctr": 1.3857817549,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45425,7 +46522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45444,7 +46542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45463,7 +46562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45482,7 +46582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45501,7 +46602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 960.8,
       "cost_per_lpv": null,
       "ctr": 0.7656967841,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45520,7 +46622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45539,7 +46642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45558,7 +46662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 41.0,
       "cost_per_lpv": null,
       "ctr": 50.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45577,7 +46682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45596,7 +46702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45615,7 +46722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45634,7 +46742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45653,7 +46762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 191.6,
       "cost_per_lpv": null,
       "ctr": 3.7878787879,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45672,7 +46782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 489.2222222222,
       "cost_per_lpv": null,
       "ctr": 1.7341040462,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45691,7 +46802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 560.5,
       "cost_per_lpv": null,
       "ctr": 2.9850746269,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45710,7 +46822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 766.0,
       "cost_per_lpv": null,
       "ctr": 0.495049505,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45729,7 +46842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 322.0,
       "cost_per_lpv": null,
       "ctr": 3.8095238095,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45748,7 +46862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 463.6488549618,
       "cost_per_lpv": null,
       "ctr": 1.0320649177,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45767,7 +46882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -45786,7 +46902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 639.5,
       "cost_per_lpv": null,
       "ctr": 1.3888888889,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45805,7 +46922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 339.0,
       "cost_per_lpv": null,
       "ctr": 3.4482758621,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45824,7 +46942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 207.0,
       "cost_per_lpv": null,
       "ctr": 4.4444444444,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45843,7 +46962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 812.5714285714,
       "cost_per_lpv": null,
       "ctr": 1.1904761905,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45862,7 +46982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 579.0,
       "cost_per_lpv": null,
       "ctr": 1.2765957447,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45881,7 +47002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 300.3157894737,
       "cost_per_lpv": null,
       "ctr": 4.1666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45900,7 +47022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 580.2,
       "cost_per_lpv": null,
       "ctr": 1.5337423313,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45919,7 +47042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 849.8,
       "cost_per_lpv": null,
       "ctr": 1.0964912281,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45938,7 +47062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 416.92,
       "cost_per_lpv": null,
       "ctr": 4.0322580645,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45957,7 +47082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 425.6111111111,
       "cost_per_lpv": null,
       "ctr": 0.817067635,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45976,7 +47102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 567.3333333333,
       "cost_per_lpv": null,
       "ctr": 2.5974025974,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -45995,7 +47122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 519.2664974619,
       "cost_per_lpv": null,
       "ctr": 1.0772974599,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46014,7 +47142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 875.0,
       "cost_per_lpv": null,
       "ctr": 1.2903225806,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46033,7 +47162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 857.6666666667,
       "cost_per_lpv": null,
       "ctr": 1.4423076923,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46052,7 +47182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 198.7272727273,
       "cost_per_lpv": null,
       "ctr": 7.3825503356,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46071,7 +47202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1681.0,
       "cost_per_lpv": null,
       "ctr": 0.7518796992,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46090,7 +47222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 438.7727272727,
       "cost_per_lpv": null,
       "ctr": 2.3861171367,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46109,7 +47242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 731.6153846154,
       "cost_per_lpv": null,
       "ctr": 1.675257732,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46128,7 +47262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 418.0,
       "cost_per_lpv": null,
       "ctr": 3.4013605442,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46147,7 +47282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 572.9726775956,
       "cost_per_lpv": null,
       "ctr": 1.8108054621,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46166,7 +47302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46185,7 +47322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46204,7 +47342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 206.0,
       "cost_per_lpv": null,
       "ctr": 1.6393442623,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46223,7 +47362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46242,7 +47382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1330.5,
       "cost_per_lpv": null,
       "ctr": 0.350262697,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46261,7 +47402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46280,7 +47422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46299,7 +47442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46318,7 +47462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46337,7 +47482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 160.0,
       "cost_per_lpv": null,
       "ctr": 3.7037037037,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46356,7 +47502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 93.5,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46375,7 +47522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46394,7 +47542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 677.0,
       "cost_per_lpv": null,
       "ctr": 1.1363636364,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46413,7 +47562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46432,7 +47582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 390.7577639752,
       "cost_per_lpv": 655.3333333333,
       "ctr": 1.1609460629,
-      "lpv_rate": 59.6273291925
+      "lpv_rate": 59.6273291925,
+      "date": null
     },
     {
       "year": 2025,
@@ -46451,7 +47602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 378.4579673777,
       "cost_per_lpv": 769.4668367347,
       "ctr": 1.1817736985,
-      "lpv_rate": 49.1844416562
+      "lpv_rate": 49.1844416562,
+      "date": null
     },
     {
       "year": 2025,
@@ -46470,7 +47622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 342.8571428571,
       "cost_per_lpv": 800.0,
       "ctr": 1.3257575758,
-      "lpv_rate": 42.8571428571
+      "lpv_rate": 42.8571428571,
+      "date": null
     },
     {
       "year": 2025,
@@ -46489,7 +47642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 413.2818791946,
       "cost_per_lpv": 641.4479166667,
       "ctr": 1.5370332164,
-      "lpv_rate": 64.4295302013
+      "lpv_rate": 64.4295302013,
+      "date": null
     },
     {
       "year": 2025,
@@ -46508,7 +47662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 391.5036363636,
       "cost_per_lpv": 677.1289308176,
       "ctr": 1.4397905759,
-      "lpv_rate": 57.8181818182
+      "lpv_rate": 57.8181818182,
+      "date": null
     },
     {
       "year": 2025,
@@ -46527,7 +47682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 448.25,
       "cost_per_lpv": 597.6666666667,
       "ctr": 1.2658227848,
-      "lpv_rate": 75.0
+      "lpv_rate": 75.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46546,7 +47702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 421.8223684211,
       "cost_per_lpv": 616.5096153846,
       "ctr": 2.2313564298,
-      "lpv_rate": 68.4210526316
+      "lpv_rate": 68.4210526316,
+      "date": null
     },
     {
       "year": 2025,
@@ -46565,7 +47722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 416.6525096525,
       "cost_per_lpv": 609.6779661017,
       "ctr": 1.9400749064,
-      "lpv_rate": 68.3397683398
+      "lpv_rate": 68.3397683398,
+      "date": null
     },
     {
       "year": 2025,
@@ -46584,7 +47742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 193.6,
       "cost_per_lpv": 322.6666666667,
       "ctr": 4.3859649123,
-      "lpv_rate": 60.0
+      "lpv_rate": 60.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46603,7 +47762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 413.7514792899,
       "cost_per_lpv": 635.6727272727,
       "ctr": 2.153689308,
-      "lpv_rate": 65.0887573964
+      "lpv_rate": 65.0887573964,
+      "date": null
     },
     {
       "year": 2025,
@@ -46622,7 +47782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 411.7183098592,
       "cost_per_lpv": 626.4,
       "ctr": 1.7716044249,
-      "lpv_rate": 65.7276995305
+      "lpv_rate": 65.7276995305,
+      "date": null
     },
     {
       "year": 2025,
@@ -46641,7 +47802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46660,7 +47822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 452.5942028986,
       "cost_per_lpv": 780.725,
       "ctr": 2.090275674,
-      "lpv_rate": 57.9710144928
+      "lpv_rate": 57.9710144928,
+      "date": null
     },
     {
       "year": 2025,
@@ -46679,7 +47842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 370.9603174603,
       "cost_per_lpv": 537.2528735632,
       "ctr": 2.025397846,
-      "lpv_rate": 69.0476190476
+      "lpv_rate": 69.0476190476,
+      "date": null
     },
     {
       "year": 2025,
@@ -46698,7 +47862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 194.25,
       "cost_per_lpv": 259.0,
       "ctr": 7.6923076923,
-      "lpv_rate": 75.0
+      "lpv_rate": 75.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46717,7 +47882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 187.3,
       "cost_per_lpv": null,
       "ctr": 3.2258064516,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46736,7 +47902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.6153846154,
       "cost_per_lpv": null,
       "ctr": 3.5135135135,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46755,7 +47922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 245.75,
       "cost_per_lpv": null,
       "ctr": 2.4844720497,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46774,7 +47942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 965.0,
       "cost_per_lpv": null,
       "ctr": 0.6134969325,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46793,7 +47962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 264.9514563107,
       "cost_per_lpv": null,
       "ctr": 1.7354675653,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46812,7 +47982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 243.9029850746,
       "cost_per_lpv": null,
       "ctr": 2.4040186581,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46831,7 +48002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 303.6451612903,
       "cost_per_lpv": null,
       "ctr": 1.5263417036,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46850,7 +48022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 270.8837209302,
       "cost_per_lpv": null,
       "ctr": 2.0843431895,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46869,7 +48042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46888,7 +48062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 112.5,
       "cost_per_lpv": null,
       "ctr": 4.6511627907,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46907,7 +48082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46926,7 +48102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -46945,7 +48122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 248.3658536585,
       "cost_per_lpv": null,
       "ctr": 4.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46964,7 +48142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 312.6388888889,
       "cost_per_lpv": null,
       "ctr": 3.956043956,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -46983,7 +48162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 239.0408163265,
       "cost_per_lpv": null,
       "ctr": 4.2720139494,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47002,7 +48182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 247.0,
       "cost_per_lpv": null,
       "ctr": 4.9429657795,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47021,7 +48202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 249.6019417476,
       "cost_per_lpv": null,
       "ctr": 3.0155167366,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47040,7 +48222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 253.5567375887,
       "cost_per_lpv": null,
       "ctr": 3.9424017895,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47059,7 +48242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.487704918,
       "cost_per_lpv": null,
       "ctr": 3.1828854683,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47078,7 +48262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 259.2910958904,
       "cost_per_lpv": null,
       "ctr": 3.8189903217,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47097,7 +48282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 143.5,
       "cost_per_lpv": null,
       "ctr": 4.7058823529,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47116,7 +48302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 239.0,
       "cost_per_lpv": null,
       "ctr": 5.2631578947,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47135,7 +48322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 115.0,
       "cost_per_lpv": null,
       "ctr": 9.375,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47154,7 +48342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.5,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47173,7 +48362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 211.987804878,
       "cost_per_lpv": null,
       "ctr": 6.0695780903,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47192,7 +48382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 342.5862068966,
       "cost_per_lpv": null,
       "ctr": 5.1647373108,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47211,7 +48402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 269.8235294118,
       "cost_per_lpv": null,
       "ctr": 4.5556051809,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47230,7 +48422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 227.9146341463,
       "cost_per_lpv": null,
       "ctr": 6.782464847,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47249,7 +48442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 234.71875,
       "cost_per_lpv": null,
       "ctr": 4.4616576297,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47268,7 +48462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 248.288,
       "cost_per_lpv": null,
       "ctr": 5.972288581,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47287,7 +48482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 244.5816733068,
       "cost_per_lpv": null,
       "ctr": 4.2291491154,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47306,7 +48502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 280.1762452107,
       "cost_per_lpv": null,
       "ctr": 4.6113074205,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47325,7 +48522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 125.0,
       "cost_per_lpv": null,
       "ctr": 11.1111111111,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47344,7 +48542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 349.0,
       "cost_per_lpv": null,
       "ctr": 8.6956521739,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47363,7 +48562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 572.0,
       "cost_per_lpv": null,
       "ctr": 3.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47382,7 +48582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 127.25,
       "cost_per_lpv": null,
       "ctr": 19.0476190476,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47401,7 +48602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 285.5714285714,
       "cost_per_lpv": null,
       "ctr": 4.3410852713,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47420,7 +48622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 241.2619047619,
       "cost_per_lpv": null,
       "ctr": 7.7205882353,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47439,7 +48642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 328.512195122,
       "cost_per_lpv": null,
       "ctr": 3.9961013645,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47458,7 +48662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 196.6078431373,
       "cost_per_lpv": null,
       "ctr": 8.4858569052,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47477,7 +48682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.6829268293,
       "cost_per_lpv": null,
       "ctr": 5.1154086089,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47496,7 +48702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 249.3,
       "cost_per_lpv": null,
       "ctr": 7.0754716981,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47515,7 +48722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 278.1360544218,
       "cost_per_lpv": null,
       "ctr": 4.3465405086,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47534,7 +48742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.354368932,
       "cost_per_lpv": null,
       "ctr": 7.0355191257,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47553,7 +48762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47572,7 +48782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47591,7 +48802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47610,7 +48822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47629,7 +48842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 275.625,
       "cost_per_lpv": null,
       "ctr": 6.1538461538,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47648,7 +48862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 299.8333333333,
       "cost_per_lpv": null,
       "ctr": 6.7415730337,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47667,7 +48882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 254.5952380952,
       "cost_per_lpv": null,
       "ctr": 5.3367217281,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47686,7 +48902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 386.5,
       "cost_per_lpv": null,
       "ctr": 3.0927835052,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47705,7 +48922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.8222222222,
       "cost_per_lpv": null,
       "ctr": 6.1224489796,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47724,7 +48942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 314.0967741935,
       "cost_per_lpv": null,
       "ctr": 6.4449064449,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47743,7 +48962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 351.0277777778,
       "cost_per_lpv": null,
       "ctr": 3.2403240324,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47762,7 +48982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 333.7567567568,
       "cost_per_lpv": null,
       "ctr": 3.0654515327,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47781,7 +49002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47800,7 +49022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47819,7 +49042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -47838,7 +49062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 232.2,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47857,7 +49082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 349.0,
       "cost_per_lpv": null,
       "ctr": 3.6363636364,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47876,7 +49102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 164.0,
       "cost_per_lpv": null,
       "ctr": 8.8983050847,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47895,7 +49122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 323.3333333333,
       "cost_per_lpv": null,
       "ctr": 3.488372093,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47914,7 +49142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 184.7692307692,
       "cost_per_lpv": null,
       "ctr": 5.6034482759,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47933,7 +49162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 222.0909090909,
       "cost_per_lpv": null,
       "ctr": 6.7901234568,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47952,7 +49182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 262.6875,
       "cost_per_lpv": null,
       "ctr": 3.7825059102,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47971,7 +49202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 290.8571428571,
       "cost_per_lpv": null,
       "ctr": 2.697495183,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -47990,7 +49222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -48009,7 +49242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 38.0,
       "cost_per_lpv": null,
       "ctr": 20.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48028,7 +49262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -48047,7 +49282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 675.4782608696,
       "cost_per_lpv": 1331.6571428571,
       "ctr": 0.5806614491,
-      "lpv_rate": 50.7246376812
+      "lpv_rate": 50.7246376812,
+      "date": null
     },
     {
       "year": 2025,
@@ -48066,7 +49302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 586.9322033898,
       "cost_per_lpv": 1331.8846153846,
       "ctr": 0.6670183901,
-      "lpv_rate": 44.0677966102
+      "lpv_rate": 44.0677966102,
+      "date": null
     },
     {
       "year": 2025,
@@ -48085,7 +49322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 554.5,
       "cost_per_lpv": null,
       "ctr": 0.6535947712,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48104,7 +49342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 756.1428571429,
       "cost_per_lpv": 1277.6206896552,
       "ctr": 0.5686433794,
-      "lpv_rate": 59.1836734694
+      "lpv_rate": 59.1836734694,
+      "date": null
     },
     {
       "year": 2025,
@@ -48123,7 +49362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 585.8327402135,
       "cost_per_lpv": 1296.2125984252,
       "ctr": 0.8165044312,
-      "lpv_rate": 45.1957295374
+      "lpv_rate": 45.1957295374,
+      "date": null
     },
     {
       "year": 2025,
@@ -48142,7 +49382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 474.0,
       "cost_per_lpv": 948.0,
       "ctr": 0.9950248756,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48161,7 +49402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1007.25,
       "cost_per_lpv": 2302.2857142857,
       "ctr": 0.4697592484,
-      "lpv_rate": 43.75
+      "lpv_rate": 43.75,
+      "date": null
     },
     {
       "year": 2025,
@@ -48180,7 +49422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 684.0683760684,
       "cost_per_lpv": 1159.9420289855,
       "ctr": 1.0967379078,
-      "lpv_rate": 58.9743589744
+      "lpv_rate": 58.9743589744,
+      "date": null
     },
     {
       "year": 2025,
@@ -48199,7 +49442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 791.0,
       "cost_per_lpv": null,
       "ctr": 1.1764705882,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48218,7 +49462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 714.2142857143,
       "cost_per_lpv": 999.9,
       "ctr": 0.8146639511,
-      "lpv_rate": 71.4285714286
+      "lpv_rate": 71.4285714286,
+      "date": null
     },
     {
       "year": 2025,
@@ -48237,7 +49482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 647.4495412844,
       "cost_per_lpv": 1156.9180327869,
       "ctr": 1.2077562327,
-      "lpv_rate": 55.9633027523
+      "lpv_rate": 55.9633027523,
+      "date": null
     },
     {
       "year": 2025,
@@ -48256,7 +49502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -48275,7 +49522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 370.275862069,
       "cost_per_lpv": 631.6470588235,
       "ctr": 1.6889924287,
-      "lpv_rate": 58.6206896552
+      "lpv_rate": 58.6206896552,
+      "date": null
     },
     {
       "year": 2025,
@@ -48294,7 +49542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 593.6896551724,
       "cost_per_lpv": 906.1578947368,
       "ctr": 1.2894619831,
-      "lpv_rate": 65.5172413793
+      "lpv_rate": 65.5172413793,
+      "date": null
     },
     {
       "year": 2025,
@@ -48313,7 +49562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -48332,7 +49582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 160.2307692308,
       "cost_per_lpv": null,
       "ctr": 4.0625,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48351,7 +49602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 286.3333333333,
       "cost_per_lpv": null,
       "ctr": 2.1978021978,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48370,7 +49622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 194.7142857143,
       "cost_per_lpv": null,
       "ctr": 3.5897435897,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48389,7 +49642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 283.5,
       "cost_per_lpv": null,
       "ctr": 2.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48408,7 +49662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 176.8771929825,
       "cost_per_lpv": null,
       "ctr": 2.9879433863,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48427,7 +49682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 216.2480620155,
       "cost_per_lpv": null,
       "ctr": 2.4679548498,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48446,7 +49702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 163.3908045977,
       "cost_per_lpv": null,
       "ctr": 3.2917139614,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48465,7 +49722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 259.7714285714,
       "cost_per_lpv": null,
       "ctr": 2.4088093599,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48484,7 +49742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 129.0,
       "cost_per_lpv": null,
       "ctr": 3.9215686275,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48503,7 +49762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 137.0,
       "cost_per_lpv": null,
       "ctr": 3.9215686275,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48522,7 +49782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -48541,7 +49802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 54.0,
       "cost_per_lpv": null,
       "ctr": 6.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48560,7 +49822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 199.2424242424,
       "cost_per_lpv": null,
       "ctr": 5.1162790698,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48579,7 +49842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 336.5909090909,
       "cost_per_lpv": null,
       "ctr": 3.6850921273,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48598,7 +49862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 201.4375,
       "cost_per_lpv": null,
       "ctr": 5.9113300493,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48617,7 +49882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 241.8333333333,
       "cost_per_lpv": null,
       "ctr": 5.6818181818,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48636,7 +49902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 198.063670412,
       "cost_per_lpv": null,
       "ctr": 4.3280920733,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48655,7 +49922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.4911504425,
       "cost_per_lpv": null,
       "ctr": 4.1445076105,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48674,7 +49942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 215.9423728814,
       "cost_per_lpv": null,
       "ctr": 4.3587470449,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48693,7 +49962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 218.1691176471,
       "cost_per_lpv": null,
       "ctr": 5.1898492654,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48712,7 +49982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -48731,7 +50002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 76.3333333333,
       "cost_per_lpv": null,
       "ctr": 10.3448275862,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48750,7 +50022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.0,
       "cost_per_lpv": null,
       "ctr": 4.347826087,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48769,7 +50042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 246.0,
       "cost_per_lpv": null,
       "ctr": 3.5714285714,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48788,7 +50062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 213.925,
       "cost_per_lpv": null,
       "ctr": 6.7796610169,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48807,7 +50082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 194.5882352941,
       "cost_per_lpv": null,
       "ctr": 9.0425531915,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48826,7 +50102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 287.675,
       "cost_per_lpv": null,
       "ctr": 5.7224606581,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48845,7 +50122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 299.0789473684,
       "cost_per_lpv": null,
       "ctr": 6.2809917355,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48864,7 +50142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 245.7792207792,
       "cost_per_lpv": null,
       "ctr": 4.9122807018,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48883,7 +50162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 261.3550724638,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48902,7 +50182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 331.6554621849,
       "cost_per_lpv": null,
       "ctr": 4.2394014963,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48921,7 +50202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 259.1657458564,
       "cost_per_lpv": null,
       "ctr": 6.0738255034,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48940,7 +50222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 208.0,
       "cost_per_lpv": null,
       "ctr": 6.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48959,7 +50242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 503.0,
       "cost_per_lpv": null,
       "ctr": 4.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48978,7 +50262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 271.0,
       "cost_per_lpv": null,
       "ctr": 5.2631578947,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -48997,7 +50282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 298.5,
       "cost_per_lpv": null,
       "ctr": 4.7619047619,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49016,7 +50302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 198.0588235294,
       "cost_per_lpv": null,
       "ctr": 7.3913043478,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49035,7 +50322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 206.04,
       "cost_per_lpv": null,
       "ctr": 9.5785440613,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49054,7 +50342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 250.2916666667,
       "cost_per_lpv": null,
       "ctr": 6.2992125984,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49073,7 +50362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 306.9285714286,
       "cost_per_lpv": null,
       "ctr": 5.3231939163,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49092,7 +50382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 260.8815789474,
       "cost_per_lpv": null,
       "ctr": 5.4015636105,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49111,7 +50402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 277.0434782609,
       "cost_per_lpv": null,
       "ctr": 5.6603773585,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49130,7 +50422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 286.3454545455,
       "cost_per_lpv": null,
       "ctr": 5.4509415263,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49149,7 +50442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 249.15,
       "cost_per_lpv": null,
       "ctr": 6.7283431455,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49168,7 +50462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49187,7 +50482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 210.0,
       "cost_per_lpv": null,
       "ctr": 12.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49206,7 +50502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49225,7 +50522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49244,7 +50542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 256.3333333333,
       "cost_per_lpv": null,
       "ctr": 5.5555555556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49263,7 +50562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 456.5,
       "cost_per_lpv": null,
       "ctr": 3.1746031746,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49282,7 +50582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 844.0,
       "cost_per_lpv": null,
       "ctr": 1.7391304348,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49301,7 +50602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 155.4444444444,
       "cost_per_lpv": null,
       "ctr": 12.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49320,7 +50622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 171.4,
       "cost_per_lpv": null,
       "ctr": 7.96812749,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49339,7 +50642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 401.8181818182,
       "cost_per_lpv": null,
       "ctr": 4.5267489712,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49358,7 +50662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 387.5714285714,
       "cost_per_lpv": null,
       "ctr": 4.4303797468,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49377,7 +50682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 279.75,
       "cost_per_lpv": null,
       "ctr": 4.1450777202,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49396,7 +50702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49415,7 +50722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 174.0,
       "cost_per_lpv": null,
       "ctr": 9.5238095238,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49434,7 +50742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 429.0,
       "cost_per_lpv": null,
       "ctr": 4.1666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49453,7 +50762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 281.0,
       "cost_per_lpv": null,
       "ctr": 6.0606060606,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49472,7 +50782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 172.0,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49491,7 +50802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.6666666667,
       "cost_per_lpv": null,
       "ctr": 3.488372093,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49510,7 +50822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 536.0,
       "cost_per_lpv": null,
       "ctr": 2.4096385542,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49529,7 +50842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 493.0,
       "cost_per_lpv": null,
       "ctr": 2.0833333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49548,7 +50862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 447.0,
       "cost_per_lpv": null,
       "ctr": 1.8072289157,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49567,7 +50882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49586,7 +50902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49605,7 +50922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 360.7785234899,
       "cost_per_lpv": 867.0322580645,
       "ctr": 0.7837567724,
-      "lpv_rate": 41.610738255
+      "lpv_rate": 41.610738255,
+      "date": null
     },
     {
       "year": 2025,
@@ -49624,7 +50942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 372.7511664075,
       "cost_per_lpv": 1007.0546218487,
       "ctr": 0.7522667447,
-      "lpv_rate": 37.0139968896
+      "lpv_rate": 37.0139968896,
+      "date": null
     },
     {
       "year": 2025,
@@ -49643,7 +50962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 505.0,
       "cost_per_lpv": 1515.0,
       "ctr": 0.569259962,
-      "lpv_rate": 33.3333333333
+      "lpv_rate": 33.3333333333,
+      "date": null
     },
     {
       "year": 2025,
@@ -49662,7 +50982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 445.7191011236,
       "cost_per_lpv": 1043.9210526316,
       "ctr": 0.672459388,
-      "lpv_rate": 42.6966292135
+      "lpv_rate": 42.6966292135,
+      "date": null
     },
     {
       "year": 2025,
@@ -49681,7 +51002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 360.7053140097,
       "cost_per_lpv": 951.1592356688,
       "ctr": 0.8559732043,
-      "lpv_rate": 37.922705314
+      "lpv_rate": 37.922705314,
+      "date": null
     },
     {
       "year": 2025,
@@ -49700,7 +51022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 171.75,
       "cost_per_lpv": 274.8,
       "ctr": 1.9851116625,
-      "lpv_rate": 62.5
+      "lpv_rate": 62.5,
+      "date": null
     },
     {
       "year": 2025,
@@ -49719,7 +51042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 396.1136363636,
       "cost_per_lpv": 1161.9333333333,
       "ctr": 0.9141907334,
-      "lpv_rate": 34.0909090909
+      "lpv_rate": 34.0909090909,
+      "date": null
     },
     {
       "year": 2025,
@@ -49738,7 +51062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 461.1596638655,
       "cost_per_lpv": 795.3333333333,
       "ctr": 0.9868966661,
-      "lpv_rate": 57.9831932773
+      "lpv_rate": 57.9831932773,
+      "date": null
     },
     {
       "year": 2025,
@@ -49757,7 +51082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 500.0,
       "cost_per_lpv": 500.0,
       "ctr": 0.9708737864,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49776,7 +51102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 415.6271186441,
       "cost_per_lpv": 980.88,
       "ctr": 1.0655589669,
-      "lpv_rate": 42.3728813559
+      "lpv_rate": 42.3728813559,
+      "date": null
     },
     {
       "year": 2025,
@@ -49795,7 +51122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 462.5107526882,
       "cost_per_lpv": 729.0423728814,
       "ctr": 1.24306623,
-      "lpv_rate": 63.4408602151
+      "lpv_rate": 63.4408602151,
+      "date": null
     },
     {
       "year": 2025,
@@ -49814,7 +51142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 268.3333333333,
       "cost_per_lpv": 402.5,
       "ctr": 3.0,
-      "lpv_rate": 66.6666666667
+      "lpv_rate": 66.6666666667,
+      "date": null
     },
     {
       "year": 2025,
@@ -49833,7 +51162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 488.4444444444,
       "cost_per_lpv": 1198.9090909091,
       "ctr": 1.0953346856,
-      "lpv_rate": 40.7407407407
+      "lpv_rate": 40.7407407407,
+      "date": null
     },
     {
       "year": 2025,
@@ -49852,7 +51182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 457.7401574803,
       "cost_per_lpv": 796.3424657534,
       "ctr": 1.4237668161,
-      "lpv_rate": 57.4803149606
+      "lpv_rate": 57.4803149606,
+      "date": null
     },
     {
       "year": 2025,
@@ -49871,7 +51202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -49890,7 +51222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 176.0,
       "cost_per_lpv": null,
       "ctr": 3.0534351145,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49909,7 +51242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 769.0,
       "cost_per_lpv": null,
       "ctr": 0.9708737864,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49928,7 +51262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 124.0,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49947,7 +51282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 74.3333333333,
       "cost_per_lpv": null,
       "ctr": 12.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49966,7 +51302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 63.75,
       "cost_per_lpv": null,
       "ctr": 6.4516129032,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -49985,7 +51322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 92.4,
       "cost_per_lpv": null,
       "ctr": 6.8493150685,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50004,7 +51342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 514.0,
       "cost_per_lpv": null,
       "ctr": 1.6393442623,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50023,7 +51362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 332.0,
       "cost_per_lpv": null,
       "ctr": 1.1494252874,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50042,7 +51382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 217.1636363636,
       "cost_per_lpv": null,
       "ctr": 1.989869754,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50061,7 +51402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 227.4864864865,
       "cost_per_lpv": null,
       "ctr": 2.6987600292,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50080,7 +51422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 457.5,
       "cost_per_lpv": null,
       "ctr": 1.3544018059,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50099,7 +51442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 311.4285714286,
       "cost_per_lpv": null,
       "ctr": 1.724137931,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50118,7 +51462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 435.75,
       "cost_per_lpv": null,
       "ctr": 0.9661835749,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50137,7 +51482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 150.6326530612,
       "cost_per_lpv": null,
       "ctr": 3.0721003135,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50156,7 +51502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 396.0,
       "cost_per_lpv": null,
       "ctr": 1.1764705882,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50175,7 +51522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 118.2063492063,
       "cost_per_lpv": null,
       "ctr": 3.0701754386,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50194,7 +51542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50213,7 +51562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50232,7 +51582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50251,7 +51602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50270,7 +51622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50289,7 +51642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 76.0,
       "cost_per_lpv": null,
       "ctr": 12.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50308,7 +51662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50327,7 +51682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50346,7 +51702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 111.5,
       "cost_per_lpv": null,
       "ctr": 9.5238095238,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50365,7 +51722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 366.0,
       "cost_per_lpv": null,
       "ctr": 2.6548672566,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50384,7 +51742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 176.2,
       "cost_per_lpv": null,
       "ctr": 7.8125,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50403,7 +51762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 159.25,
       "cost_per_lpv": null,
       "ctr": 7.619047619,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50422,7 +51782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 106.9090909091,
       "cost_per_lpv": null,
       "ctr": 10.5769230769,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50441,7 +51802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 257.4,
       "cost_per_lpv": null,
       "ctr": 5.1546391753,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50460,7 +51822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 88.8,
       "cost_per_lpv": null,
       "ctr": 8.875739645,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50479,7 +51842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.88,
       "cost_per_lpv": null,
       "ctr": 2.2163120567,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50498,7 +51862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 249.3928571429,
       "cost_per_lpv": null,
       "ctr": 3.7135278515,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50517,7 +51882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 229.5348837209,
       "cost_per_lpv": null,
       "ctr": 4.0681173132,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50536,7 +51902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 206.3043478261,
       "cost_per_lpv": null,
       "ctr": 5.3864168618,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50555,7 +51922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 160.46,
       "cost_per_lpv": null,
       "ctr": 5.4644808743,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50574,7 +51942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 162.2222222222,
       "cost_per_lpv": null,
       "ctr": 4.5996592845,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50593,7 +51962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 300.5714285714,
       "cost_per_lpv": null,
       "ctr": 3.5787321063,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50612,7 +51982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 144.90625,
       "cost_per_lpv": null,
       "ctr": 4.2244224422,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50631,7 +52002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50650,7 +52022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50669,7 +52042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50688,7 +52062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50707,7 +52082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50726,7 +52102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 47.0,
       "cost_per_lpv": null,
       "ctr": 16.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50745,7 +52122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50764,7 +52142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50783,7 +52162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -50802,7 +52182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 193.0,
       "cost_per_lpv": null,
       "ctr": 10.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50821,7 +52202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 331.5,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50840,7 +52222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 311.5,
       "cost_per_lpv": null,
       "ctr": 6.8965517241,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50859,7 +52242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 203.5,
       "cost_per_lpv": null,
       "ctr": 6.4516129032,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50878,7 +52262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 132.2857142857,
       "cost_per_lpv": null,
       "ctr": 9.4594594595,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50897,7 +52282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 182.25,
       "cost_per_lpv": null,
       "ctr": 8.8888888889,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50916,7 +52302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 97.5333333333,
       "cost_per_lpv": null,
       "ctr": 9.6774193548,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50935,7 +52322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.0,
       "cost_per_lpv": null,
       "ctr": 3.1496062992,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50954,7 +52342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 251.2,
       "cost_per_lpv": null,
       "ctr": 5.076142132,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50973,7 +52362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 310.6875,
       "cost_per_lpv": null,
       "ctr": 4.6376811594,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -50992,7 +52382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 282.3684210526,
       "cost_per_lpv": null,
       "ctr": 5.2631578947,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51011,7 +52402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 176.0625,
       "cost_per_lpv": null,
       "ctr": 7.0796460177,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51030,7 +52422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 183.7307692308,
       "cost_per_lpv": null,
       "ctr": 5.0290135397,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51049,7 +52442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 291.2894736842,
       "cost_per_lpv": null,
       "ctr": 4.8284625159,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51068,7 +52462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 112.3195876289,
       "cost_per_lpv": null,
       "ctr": 7.1533923304,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51087,7 +52482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51106,7 +52502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51125,7 +52522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51144,7 +52542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51163,7 +52562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51182,7 +52582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51201,7 +52602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51220,7 +52622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 77.5,
       "cost_per_lpv": null,
       "ctr": 22.2222222222,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51239,7 +52642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 295.0,
       "cost_per_lpv": null,
       "ctr": 5.5555555556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51258,7 +52662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 182.6666666667,
       "cost_per_lpv": null,
       "ctr": 18.75,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51277,7 +52682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 402.0,
       "cost_per_lpv": null,
       "ctr": 5.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51296,7 +52702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 250.6666666667,
       "cost_per_lpv": null,
       "ctr": 10.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51315,7 +52722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 345.5,
       "cost_per_lpv": null,
       "ctr": 4.4444444444,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51334,7 +52742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 81.0,
       "cost_per_lpv": null,
       "ctr": 16.2162162162,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51353,7 +52762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 205.0,
       "cost_per_lpv": null,
       "ctr": 7.5757575758,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51372,7 +52782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 111.8333333333,
       "cost_per_lpv": null,
       "ctr": 9.2307692308,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51391,7 +52802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 422.5,
       "cost_per_lpv": null,
       "ctr": 2.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51410,7 +52822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 388.0,
       "cost_per_lpv": null,
       "ctr": 5.1948051948,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51429,7 +52842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 227.7142857143,
       "cost_per_lpv": null,
       "ctr": 6.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51448,7 +52862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.1818181818,
       "cost_per_lpv": null,
       "ctr": 6.5476190476,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51467,7 +52882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 218.7307692308,
       "cost_per_lpv": null,
       "ctr": 6.3414634146,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51486,7 +52902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 98.6086956522,
       "cost_per_lpv": null,
       "ctr": 11.7346938776,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51505,7 +52922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 209.5,
       "cost_per_lpv": null,
       "ctr": 7.9019073569,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51524,7 +52942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 94.9454545455,
       "cost_per_lpv": null,
       "ctr": 9.7001763668,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51543,7 +52962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51562,7 +52982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51581,7 +53002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51600,7 +53022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 126.0,
       "cost_per_lpv": null,
       "ctr": 25.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51619,7 +53042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51638,7 +53062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51657,7 +53082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 105.0,
       "cost_per_lpv": null,
       "ctr": 20.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51676,7 +53102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 134.0,
       "cost_per_lpv": null,
       "ctr": 16.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51695,7 +53122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 110.375,
       "cost_per_lpv": null,
       "ctr": 17.3913043478,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51714,7 +53142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 213.0,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51733,7 +53162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 312.0,
       "cost_per_lpv": null,
       "ctr": 4.5454545455,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51752,7 +53182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 590.0,
       "cost_per_lpv": null,
       "ctr": 5.5555555556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51771,7 +53202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51790,7 +53222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51809,7 +53242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 280.8333333333,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51828,7 +53262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.5,
       "cost_per_lpv": null,
       "ctr": 4.2553191489,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51847,7 +53282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 222.1428571429,
       "cost_per_lpv": null,
       "ctr": 7.4074074074,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51866,7 +53302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 86.2,
       "cost_per_lpv": null,
       "ctr": 10.2040816327,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -51885,7 +53322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51904,7 +53342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51923,7 +53362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51942,7 +53382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51961,7 +53402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51980,7 +53422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -51999,7 +53442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 47.0,
       "cost_per_lpv": null,
       "ctr": 16.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52018,7 +53462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 47.0,
       "cost_per_lpv": null,
       "ctr": 6.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52037,7 +53482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 93.0,
       "cost_per_lpv": null,
       "ctr": 7.6923076923,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52056,7 +53502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -52075,7 +53522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 184.0,
       "cost_per_lpv": null,
       "ctr": 6.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52094,7 +53542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 260.0,
       "cost_per_lpv": null,
       "ctr": 4.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52113,7 +53562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 122.5,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52132,7 +53582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 144.6666666667,
       "cost_per_lpv": null,
       "ctr": 10.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52151,7 +53602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 90.5,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2025,
@@ -52170,7 +53622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2025,
@@ -52189,7 +53642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -52208,7 +53662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 231.7272727273,
       "cost_per_lpv": 536.6315789474,
       "ctr": 0.8223530511,
-      "lpv_rate": 43.1818181818
+      "lpv_rate": 43.1818181818,
+      "date": null
     },
     {
       "year": 2026,
@@ -52227,7 +53682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 247.9961290323,
       "cost_per_lpv": 739.2192307692,
       "ctr": 0.767828482,
-      "lpv_rate": 33.5483870968
+      "lpv_rate": 33.5483870968,
+      "date": null
     },
     {
       "year": 2026,
@@ -52246,7 +53702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 399.2123893805,
       "cost_per_lpv": 635.3661971831,
       "ctr": 1.366715046,
-      "lpv_rate": 62.8318584071
+      "lpv_rate": 62.8318584071,
+      "date": null
     },
     {
       "year": 2026,
@@ -52265,7 +53722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 217.5,
       "cost_per_lpv": null,
       "ctr": 0.8708272859,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52284,7 +53742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 260.9230769231,
       "cost_per_lpv": 577.3617021277,
       "ctr": 0.7591795022,
-      "lpv_rate": 45.1923076923
+      "lpv_rate": 45.1923076923,
+      "date": null
     },
     {
       "year": 2026,
@@ -52303,7 +53762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 274.0501253133,
       "cost_per_lpv": 733.8657718121,
       "ctr": 0.724440329,
-      "lpv_rate": 37.343358396
+      "lpv_rate": 37.343358396,
+      "date": null
     },
     {
       "year": 2026,
@@ -52322,7 +53782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 407.989010989,
       "cost_per_lpv": 662.9821428571,
       "ctr": 1.7382999045,
-      "lpv_rate": 61.5384615385
+      "lpv_rate": 61.5384615385,
+      "date": null
     },
     {
       "year": 2026,
@@ -52341,7 +53802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 969.0,
       "cost_per_lpv": 969.0,
       "ctr": 0.2386634845,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52360,7 +53822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 262.9666666667,
       "cost_per_lpv": 563.5,
       "ctr": 0.8787346221,
-      "lpv_rate": 46.6666666667
+      "lpv_rate": 46.6666666667,
+      "date": null
     },
     {
       "year": 2026,
@@ -52379,7 +53842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 295.6739130435,
       "cost_per_lpv": 533.3725490196,
       "ctr": 0.931739923,
-      "lpv_rate": 55.4347826087
+      "lpv_rate": 55.4347826087,
+      "date": null
     },
     {
       "year": 2026,
@@ -52398,7 +53862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 625.5405405405,
       "cost_per_lpv": 890.1923076923,
       "ctr": 1.5494137353,
-      "lpv_rate": 70.2702702703
+      "lpv_rate": 70.2702702703,
+      "date": null
     },
     {
       "year": 2026,
@@ -52417,7 +53882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 173.0,
       "cost_per_lpv": 519.0,
       "ctr": 3.0612244898,
-      "lpv_rate": 33.3333333333
+      "lpv_rate": 33.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -52436,7 +53902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 269.9019607843,
       "cost_per_lpv": 625.6818181818,
       "ctr": 1.0478734333,
-      "lpv_rate": 43.137254902
+      "lpv_rate": 43.137254902,
+      "date": null
     },
     {
       "year": 2026,
@@ -52455,7 +53922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 312.2894736842,
       "cost_per_lpv": 504.9787234043,
       "ctr": 1.1557177616,
-      "lpv_rate": 61.8421052632
+      "lpv_rate": 61.8421052632,
+      "date": null
     },
     {
       "year": 2026,
@@ -52474,7 +53942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 402.4347826087,
       "cost_per_lpv": 528.9142857143,
       "ctr": 3.6277602524,
-      "lpv_rate": 76.0869565217
+      "lpv_rate": 76.0869565217,
+      "date": null
     },
     {
       "year": 2026,
@@ -52493,7 +53962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 355.0,
       "cost_per_lpv": 355.0,
       "ctr": 1.3157894737,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52512,7 +53982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 249.1666666667,
       "cost_per_lpv": 467.1875,
       "ctr": 1.3204225352,
-      "lpv_rate": 53.3333333333
+      "lpv_rate": 53.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -52531,7 +54002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 370.1481481481,
       "cost_per_lpv": 697.2558139535,
       "ctr": 1.0485436893,
-      "lpv_rate": 53.0864197531
+      "lpv_rate": 53.0864197531,
+      "date": null
     },
     {
       "year": 2026,
@@ -52550,7 +54022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 417.5428571429,
       "cost_per_lpv": 521.9285714286,
       "ctr": 5.035971223,
-      "lpv_rate": 80.0
+      "lpv_rate": 80.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52569,7 +54042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 166.0,
       "cost_per_lpv": 166.0,
       "ctr": 1.4492753623,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52588,7 +54062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 327.875,
       "cost_per_lpv": null,
       "ctr": 1.3289036545,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52607,7 +54082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 153.2307692308,
       "cost_per_lpv": null,
       "ctr": 2.4299065421,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52626,7 +54102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 160.5,
       "cost_per_lpv": null,
       "ctr": 3.2258064516,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52645,7 +54122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 103.3333333333,
       "cost_per_lpv": null,
       "ctr": 5.7692307692,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52664,7 +54142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 237.8717948718,
       "cost_per_lpv": null,
       "ctr": 1.4064190408,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52683,7 +54162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 124.1398601399,
       "cost_per_lpv": null,
       "ctr": 2.5424482176,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52702,7 +54182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 265.3703703704,
       "cost_per_lpv": null,
       "ctr": 2.07852194,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52721,7 +54202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 232.7916666667,
       "cost_per_lpv": null,
       "ctr": 2.1015761821,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52740,7 +54222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 137.0,
       "cost_per_lpv": null,
       "ctr": 3.125,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52759,7 +54242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 89.3333333333,
       "cost_per_lpv": null,
       "ctr": 3.5294117647,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52778,7 +54262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -52797,7 +54282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -52816,7 +54302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 235.2647058824,
       "cost_per_lpv": null,
       "ctr": 4.2027194067,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52835,7 +54322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 117.4189189189,
       "cost_per_lpv": null,
       "ctr": 5.1712089448,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52854,7 +54342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 262.3,
       "cost_per_lpv": null,
       "ctr": 4.854368932,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52873,7 +54362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 214.5,
       "cost_per_lpv": null,
       "ctr": 4.5283018868,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52892,7 +54382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 233.506097561,
       "cost_per_lpv": null,
       "ctr": 3.7927844588,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52911,7 +54402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 132.137283237,
       "cost_per_lpv": null,
       "ctr": 3.6567321919,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52930,7 +54422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 199.854368932,
       "cost_per_lpv": null,
       "ctr": 4.4958533392,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52949,7 +54442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 171.8442622951,
       "cost_per_lpv": null,
       "ctr": 4.4688644689,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52968,7 +54462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 305.0,
       "cost_per_lpv": null,
       "ctr": 2.9411764706,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -52987,7 +54482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 92.6666666667,
       "cost_per_lpv": null,
       "ctr": 5.7142857143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53006,7 +54502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53025,7 +54522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 81.3333333333,
       "cost_per_lpv": null,
       "ctr": 13.0434782609,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53044,7 +54542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 222.3086419753,
       "cost_per_lpv": null,
       "ctr": 5.636743215,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53063,7 +54562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 120.2989690722,
       "cost_per_lpv": null,
       "ctr": 5.9765865681,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53082,7 +54582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 309.3,
       "cost_per_lpv": null,
       "ctr": 5.0251256281,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53101,7 +54602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 306.6153846154,
       "cost_per_lpv": null,
       "ctr": 4.0752351097,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53120,7 +54622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 216.8284671533,
       "cost_per_lpv": null,
       "ctr": 5.1620195931,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53139,7 +54642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 116.2116182573,
       "cost_per_lpv": null,
       "ctr": 5.3662881318,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53158,7 +54662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 202.9268292683,
       "cost_per_lpv": null,
       "ctr": 6.0785767235,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53177,7 +54682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 178.6036036036,
       "cost_per_lpv": null,
       "ctr": 5.8390320884,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53196,7 +54702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53215,7 +54722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 67.1666666667,
       "cost_per_lpv": null,
       "ctr": 8.1081081081,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53234,7 +54742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53253,7 +54762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 198.0,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53272,7 +54782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 200.2611464968,
       "cost_per_lpv": null,
       "ctr": 6.0735009671,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53291,7 +54802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 120.5753424658,
       "cost_per_lpv": null,
       "ctr": 6.3533507398,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53310,7 +54822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 245.8888888889,
       "cost_per_lpv": null,
       "ctr": 6.3829787234,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53329,7 +54842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 202.8181818182,
       "cost_per_lpv": null,
       "ctr": 5.8201058201,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53348,7 +54862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 214.9521126761,
       "cost_per_lpv": null,
       "ctr": 5.1961358314,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53367,7 +54882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 122.2362030905,
       "cost_per_lpv": null,
       "ctr": 5.4083094556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53386,7 +54902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 180.046875,
       "cost_per_lpv": null,
       "ctr": 8.2794307891,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53405,7 +54922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 175.3050847458,
       "cost_per_lpv": null,
       "ctr": 6.5265486726,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53424,7 +54942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 149.5,
       "cost_per_lpv": null,
       "ctr": 7.1428571429,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53443,7 +54962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53462,7 +54982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53481,7 +55002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53500,7 +55022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 170.7358490566,
       "cost_per_lpv": null,
       "ctr": 7.3509015257,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53519,7 +55042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 112.9047619048,
       "cost_per_lpv": null,
       "ctr": 6.7741935484,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53538,7 +55062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 178.0,
       "cost_per_lpv": null,
       "ctr": 7.5,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53557,7 +55082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 249.0,
       "cost_per_lpv": null,
       "ctr": 5.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53576,7 +55102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.3681318681,
       "cost_per_lpv": null,
       "ctr": 4.9699617695,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53595,7 +55122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 125.2980769231,
       "cost_per_lpv": null,
       "ctr": 5.5084745763,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53614,7 +55142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 161.5625,
       "cost_per_lpv": null,
       "ctr": 7.8431372549,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53633,7 +55162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 180.4444444444,
       "cost_per_lpv": null,
       "ctr": 5.8823529412,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53652,7 +55182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53671,7 +55202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53690,7 +55222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 186.8421052632,
       "cost_per_lpv": null,
       "ctr": 6.2091503268,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53709,7 +55242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 132.25,
       "cost_per_lpv": null,
       "ctr": 5.1948051948,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53728,7 +55262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53747,7 +55282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 70.0,
       "cost_per_lpv": null,
       "ctr": 11.1111111111,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53766,7 +55302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 198.6333333333,
       "cost_per_lpv": null,
       "ctr": 6.2565172054,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53785,7 +55322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 115.5,
       "cost_per_lpv": null,
       "ctr": 4.9046321526,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53804,7 +55342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 108.1666666667,
       "cost_per_lpv": null,
       "ctr": 9.375,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53823,7 +55362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 111.6666666667,
       "cost_per_lpv": null,
       "ctr": 7.3170731707,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -53842,7 +55382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53861,7 +55402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53880,7 +55422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53899,7 +55442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53918,7 +55462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53937,7 +55482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53956,7 +55502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 375.252375924,
       "cost_per_lpv": 703.6910891089,
       "ctr": 1.3435863967,
-      "lpv_rate": 53.3262935586
+      "lpv_rate": 53.3262935586,
+      "date": null
     },
     {
       "year": 2026,
@@ -53975,7 +55522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -53994,7 +55542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 422.717877095,
       "cost_per_lpv": 854.988700565,
       "ctr": 1.6494275381,
-      "lpv_rate": 49.4413407821
+      "lpv_rate": 49.4413407821,
+      "date": null
     },
     {
       "year": 2026,
@@ -54013,7 +55562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 34.0,
       "cost_per_lpv": 34.0,
       "ctr": 25.0,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54032,7 +55582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 463.0190735695,
       "cost_per_lpv": 742.0436681223,
       "ctr": 2.2866043614,
-      "lpv_rate": 62.3978201635
+      "lpv_rate": 62.3978201635,
+      "date": null
     },
     {
       "year": 2026,
@@ -54051,7 +55602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54070,7 +55622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 521.6306620209,
       "cost_per_lpv": 759.9390862944,
       "ctr": 3.292417116,
-      "lpv_rate": 68.6411149826
+      "lpv_rate": 68.6411149826,
+      "date": null
     },
     {
       "year": 2026,
@@ -54089,7 +55642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 482.654109589,
       "cost_per_lpv": 640.6136363636,
       "ctr": 5.2717096949,
-      "lpv_rate": 75.3424657534
+      "lpv_rate": 75.3424657534,
+      "date": null
     },
     {
       "year": 2026,
@@ -54108,7 +55662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 597.8,
       "cost_per_lpv": null,
       "ctr": 0.9842519685,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54127,7 +55682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 82.6666666667,
       "cost_per_lpv": null,
       "ctr": 6.8181818182,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54146,7 +55702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 244.0833333333,
       "cost_per_lpv": null,
       "ctr": 2.4390243902,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54165,7 +55722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 257.14,
       "cost_per_lpv": null,
       "ctr": 1.9615535504,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54184,7 +55742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 148.0,
       "cost_per_lpv": null,
       "ctr": 2.8673835125,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54203,7 +55762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 204.8476821192,
       "cost_per_lpv": null,
       "ctr": 2.5909402883,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54222,7 +55782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 245.0,
       "cost_per_lpv": null,
       "ctr": 1.7857142857,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54241,7 +55802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54260,7 +55822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54279,7 +55842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 195.3770491803,
       "cost_per_lpv": null,
       "ctr": 5.3839364519,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54298,7 +55862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 127.7,
       "cost_per_lpv": null,
       "ctr": 6.5359477124,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54317,7 +55882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 209.8020833333,
       "cost_per_lpv": null,
       "ctr": 4.9561177078,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54336,7 +55902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 219.5829646018,
       "cost_per_lpv": null,
       "ctr": 3.5804816223,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54355,7 +55922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 187.3,
       "cost_per_lpv": null,
       "ctr": 3.7341299477,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54374,7 +55942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 229.7420042644,
       "cost_per_lpv": null,
       "ctr": 3.3603209859,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54393,7 +55962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 184.375,
       "cost_per_lpv": null,
       "ctr": 4.347826087,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54412,7 +55982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54431,7 +56002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 119.5555555556,
       "cost_per_lpv": null,
       "ctr": 8.2568807339,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54450,7 +56022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 238.9722222222,
       "cost_per_lpv": null,
       "ctr": 5.7446808511,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54469,7 +56042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 164.0,
       "cost_per_lpv": null,
       "ctr": 7.0707070707,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54488,7 +56062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 210.6094674556,
       "cost_per_lpv": null,
       "ctr": 5.6352117372,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54507,7 +56082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 229.846921797,
       "cost_per_lpv": null,
       "ctr": 4.8456018705,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54526,7 +56102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 168.9811320755,
       "cost_per_lpv": null,
       "ctr": 5.9217877095,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54545,7 +56122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 211.5642737896,
       "cost_per_lpv": null,
       "ctr": 4.6785909552,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54564,7 +56142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 587.0,
       "cost_per_lpv": null,
       "ctr": 2.1739130435,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54583,7 +56162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54602,7 +56182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 263.0,
       "cost_per_lpv": null,
       "ctr": 3.75,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54621,7 +56202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 218.9130434783,
       "cost_per_lpv": null,
       "ctr": 7.1207430341,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54640,7 +56222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 148.8,
       "cost_per_lpv": null,
       "ctr": 10.8695652174,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54659,7 +56242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 222.5,
       "cost_per_lpv": null,
       "ctr": 6.3846767757,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54678,7 +56262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.6699029126,
       "cost_per_lpv": null,
       "ctr": 5.3248319835,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54697,7 +56282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 258.125,
       "cost_per_lpv": null,
       "ctr": 4.4609665428,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54716,7 +56302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.0859538784,
       "cost_per_lpv": null,
       "ctr": 5.1119922838,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54735,7 +56322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 225.6666666667,
       "cost_per_lpv": null,
       "ctr": 10.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54754,7 +56342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54773,7 +56362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 159.6,
       "cost_per_lpv": null,
       "ctr": 9.8039215686,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54792,7 +56382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 411.1428571429,
       "cost_per_lpv": null,
       "ctr": 3.7234042553,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54811,7 +56402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 258.0,
       "cost_per_lpv": null,
       "ctr": 5.5555555556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54830,7 +56422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 241.5434782609,
       "cost_per_lpv": null,
       "ctr": 5.9585492228,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54849,7 +56442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 196.1208791209,
       "cost_per_lpv": null,
       "ctr": 6.904400607,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54868,7 +56462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 203.6666666667,
       "cost_per_lpv": null,
       "ctr": 6.5217391304,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54887,7 +56482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 239.6821192053,
       "cost_per_lpv": null,
       "ctr": 5.2649930265,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -54906,7 +56502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54925,7 +56522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54944,7 +56542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54963,7 +56562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -54982,7 +56582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 285.4,
       "cost_per_lpv": null,
       "ctr": 4.4247787611,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55001,7 +56602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 150.0666666667,
       "cost_per_lpv": null,
       "ctr": 7.7519379845,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55020,7 +56622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.0,
       "cost_per_lpv": null,
       "ctr": 5.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55039,7 +56642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 220.40625,
       "cost_per_lpv": null,
       "ctr": 6.0952380952,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55058,7 +56662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55077,7 +56682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55096,7 +56702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55115,7 +56722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55134,7 +56742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55153,7 +56762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 384.0,
       "cost_per_lpv": 384.0,
       "ctr": 0.9708737864,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55172,7 +56782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 340.5792,
       "cost_per_lpv": 485.9863013699,
       "ctr": 1.1219013086,
-      "lpv_rate": 70.08
+      "lpv_rate": 70.08,
+      "date": null
     },
     {
       "year": 2026,
@@ -55191,7 +56802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55210,7 +56822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55229,7 +56842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 338.0931989924,
       "cost_per_lpv": 510.3536121673,
       "ctr": 1.2173059823,
-      "lpv_rate": 66.2468513854
+      "lpv_rate": 66.2468513854,
+      "date": null
     },
     {
       "year": 2026,
@@ -55248,7 +56862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55267,7 +56882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55286,7 +56902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 403.8076923077,
       "cost_per_lpv": 603.3908045977,
       "ctr": 1.4249698564,
-      "lpv_rate": 66.9230769231
+      "lpv_rate": 66.9230769231,
+      "date": null
     },
     {
       "year": 2026,
@@ -55305,7 +56922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55324,7 +56942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 382.2741935484,
       "cost_per_lpv": 493.7708333333,
       "ctr": 1.5442092154,
-      "lpv_rate": 77.4193548387
+      "lpv_rate": 77.4193548387,
+      "date": null
     },
     {
       "year": 2026,
@@ -55343,7 +56962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55362,7 +56982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 399.3023255814,
       "cost_per_lpv": 536.5625,
       "ctr": 1.8044481746,
-      "lpv_rate": 74.4186046512
+      "lpv_rate": 74.4186046512,
+      "date": null
     },
     {
       "year": 2026,
@@ -55381,7 +57002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55400,7 +57022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 146.1764705882,
       "cost_per_lpv": null,
       "ctr": 3.0852994555,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55419,7 +57042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 183.7,
       "cost_per_lpv": null,
       "ctr": 3.7735849057,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55438,7 +57062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 510.0,
       "cost_per_lpv": null,
       "ctr": 1.2605042017,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55457,7 +57082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 131.7810650888,
       "cost_per_lpv": null,
       "ctr": 2.6897978673,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55476,7 +57102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 253.7191011236,
       "cost_per_lpv": null,
       "ctr": 2.181372549,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55495,7 +57122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.7472527473,
       "cost_per_lpv": null,
       "ctr": 1.9795518817,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55514,7 +57142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55533,7 +57162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 169.0,
       "cost_per_lpv": null,
       "ctr": 4.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55552,7 +57182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 153.0,
       "cost_per_lpv": null,
       "ctr": 2.9411764706,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55571,7 +57202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 144.6063829787,
       "cost_per_lpv": null,
       "ctr": 4.3538675313,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55590,7 +57222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 202.7833333333,
       "cost_per_lpv": null,
       "ctr": 5.1546391753,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55609,7 +57242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 202.4722222222,
       "cost_per_lpv": null,
       "ctr": 5.487804878,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55628,7 +57262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 138.6844444444,
       "cost_per_lpv": null,
       "ctr": 3.8291354663,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55647,7 +57282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 220.0871459695,
       "cost_per_lpv": null,
       "ctr": 3.7150951032,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55666,7 +57302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 247.354368932,
       "cost_per_lpv": null,
       "ctr": 2.8634973589,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55685,7 +57322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 184.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.6785714286,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55704,7 +57342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -55723,7 +57362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 173.0,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55742,7 +57382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 131.4785276074,
       "cost_per_lpv": null,
       "ctr": 5.3565560302,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55761,7 +57402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 225.5882352941,
       "cost_per_lpv": null,
       "ctr": 5.4226475279,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55780,7 +57422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 225.0789473684,
       "cost_per_lpv": null,
       "ctr": 4.8101265823,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55799,7 +57442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 136.2544303797,
       "cost_per_lpv": null,
       "ctr": 4.630443702,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55818,7 +57462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 254.7981651376,
       "cost_per_lpv": null,
       "ctr": 4.0044085231,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55837,7 +57482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.895,
       "cost_per_lpv": null,
       "ctr": 4.52079566,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55856,7 +57502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 110.4,
       "cost_per_lpv": null,
       "ctr": 5.8139534884,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55875,7 +57522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 244.0,
       "cost_per_lpv": null,
       "ctr": 3.8461538462,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55894,7 +57542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 326.0,
       "cost_per_lpv": null,
       "ctr": 3.125,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55913,7 +57562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 140.4057142857,
       "cost_per_lpv": null,
       "ctr": 6.1231630511,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55932,7 +57582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 243.9122807018,
       "cost_per_lpv": null,
       "ctr": 6.9258809235,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55951,7 +57602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 187.2631578947,
       "cost_per_lpv": null,
       "ctr": 7.0500927644,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55970,7 +57622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 134.0135542169,
       "cost_per_lpv": null,
       "ctr": 5.3141256503,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -55989,7 +57642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 252.492481203,
       "cost_per_lpv": null,
       "ctr": 5.5186721992,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56008,7 +57662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 220.9925925926,
       "cost_per_lpv": null,
       "ctr": 5.289968652,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56027,7 +57682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 157.0,
       "cost_per_lpv": null,
       "ctr": 4.5454545455,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56046,7 +57702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56065,7 +57722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56084,7 +57742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 105.6333333333,
       "cost_per_lpv": null,
       "ctr": 8.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56103,7 +57762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 213.619047619,
       "cost_per_lpv": null,
       "ctr": 6.3253012048,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56122,7 +57782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1915.0,
       "cost_per_lpv": null,
       "ctr": 0.8771929825,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56141,7 +57802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 124.8923076923,
       "cost_per_lpv": null,
       "ctr": 6.2082139446,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56160,7 +57822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 277.6144578313,
       "cost_per_lpv": null,
       "ctr": 3.9618138425,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56179,7 +57842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 225.2820512821,
       "cost_per_lpv": null,
       "ctr": 5.2278820375,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56198,7 +57862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 28.0,
       "cost_per_lpv": null,
       "ctr": 33.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56217,7 +57882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56236,7 +57902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56255,7 +57922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 115.375,
       "cost_per_lpv": null,
       "ctr": 6.9565217391,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56274,7 +57942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 1045.0,
       "cost_per_lpv": null,
       "ctr": 0.7407407407,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56293,7 +57962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 179.0,
       "cost_per_lpv": null,
       "ctr": 8.8235294118,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56312,7 +57982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 172.5909090909,
       "cost_per_lpv": null,
       "ctr": 3.9497307002,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56331,7 +58002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 248.4705882353,
       "cost_per_lpv": null,
       "ctr": 3.213610586,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56350,7 +58022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 161.4666666667,
       "cost_per_lpv": null,
       "ctr": 7.4626865672,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56369,7 +58042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56388,7 +58062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56407,7 +58082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56426,7 +58102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56445,7 +58122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56464,7 +58142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56483,7 +58162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56502,7 +58182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 207.5,
       "cost_per_lpv": 227.5806451613,
       "ctr": 2.8740490279,
-      "lpv_rate": 91.1764705882
+      "lpv_rate": 91.1764705882,
+      "date": null
     },
     {
       "year": 2026,
@@ -56521,7 +58202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 293.7971602434,
       "cost_per_lpv": 426.0058823529,
       "ctr": 1.1848682946,
-      "lpv_rate": 68.9655172414
+      "lpv_rate": 68.9655172414,
+      "date": null
     },
     {
       "year": 2026,
@@ -56540,7 +58222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.7453703704,
       "cost_per_lpv": 249.205,
       "ctr": 2.2732056409,
-      "lpv_rate": 92.5925925926
+      "lpv_rate": 92.5925925926,
+      "date": null
     },
     {
       "year": 2026,
@@ -56559,7 +58242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 122.25,
       "cost_per_lpv": 489.0,
       "ctr": 3.738317757,
-      "lpv_rate": 25.0
+      "lpv_rate": 25.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56578,7 +58262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 211.8558558559,
       "cost_per_lpv": 258.4175824176,
       "ctr": 3.8434903047,
-      "lpv_rate": 81.981981982
+      "lpv_rate": 81.981981982,
+      "date": null
     },
     {
       "year": 2026,
@@ -56597,7 +58282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 353.3669064748,
       "cost_per_lpv": 531.0054054054,
       "ctr": 1.1239589229,
-      "lpv_rate": 66.5467625899
+      "lpv_rate": 66.5467625899,
+      "date": null
     },
     {
       "year": 2026,
@@ -56616,7 +58302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 236.7860696517,
       "cost_per_lpv": 284.1432835821,
       "ctr": 2.7436527437,
-      "lpv_rate": 83.3333333333
+      "lpv_rate": 83.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -56635,7 +58322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 393.0,
       "cost_per_lpv": null,
       "ctr": 1.5151515152,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56654,7 +58342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 258.4752475248,
       "cost_per_lpv": 314.5301204819,
       "ctr": 3.8861100423,
-      "lpv_rate": 82.1782178218
+      "lpv_rate": 82.1782178218,
+      "date": null
     },
     {
       "year": 2026,
@@ -56673,7 +58362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 373.6292134831,
       "cost_per_lpv": 604.6,
       "ctr": 1.2345679012,
-      "lpv_rate": 61.797752809
+      "lpv_rate": 61.797752809,
+      "date": null
     },
     {
       "year": 2026,
@@ -56692,7 +58382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 214.2871485944,
       "cost_per_lpv": 252.2813238771,
       "ctr": 3.601909446,
-      "lpv_rate": 84.9397590361
+      "lpv_rate": 84.9397590361,
+      "date": null
     },
     {
       "year": 2026,
@@ -56711,7 +58402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -56730,7 +58422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.2777777778,
       "cost_per_lpv": 279.0322580645,
       "ctr": 4.5685279188,
-      "lpv_rate": 86.1111111111
+      "lpv_rate": 86.1111111111,
+      "date": null
     },
     {
       "year": 2026,
@@ -56749,7 +58442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 403.7450980392,
       "cost_per_lpv": 541.8684210526,
       "ctr": 1.3754045307,
-      "lpv_rate": 74.5098039216
+      "lpv_rate": 74.5098039216,
+      "date": null
     },
     {
       "year": 2026,
@@ -56768,7 +58462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 239.7822222222,
       "cost_per_lpv": 273.8629441624,
       "ctr": 3.081347576,
-      "lpv_rate": 87.5555555556
+      "lpv_rate": 87.5555555556,
+      "date": null
     },
     {
       "year": 2026,
@@ -56787,7 +58482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 152.0,
       "cost_per_lpv": 152.0,
       "ctr": 6.25,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56806,7 +58502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 300.2857142857,
       "cost_per_lpv": 420.4,
       "ctr": 3.2258064516,
-      "lpv_rate": 71.4285714286
+      "lpv_rate": 71.4285714286,
+      "date": null
     },
     {
       "year": 2026,
@@ -56825,7 +58522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 348.0952380952,
       "cost_per_lpv": 635.652173913,
       "ctr": 1.8766756032,
-      "lpv_rate": 54.7619047619
+      "lpv_rate": 54.7619047619,
+      "date": null
     },
     {
       "year": 2026,
@@ -56844,7 +58542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 254.967032967,
       "cost_per_lpv": 301.3246753247,
       "ctr": 3.0816119201,
-      "lpv_rate": 84.6153846154
+      "lpv_rate": 84.6153846154,
+      "date": null
     },
     {
       "year": 2026,
@@ -56863,7 +58562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 73.0,
       "cost_per_lpv": 73.0,
       "ctr": 9.0909090909,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56882,7 +58582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 160.0,
       "cost_per_lpv": null,
       "ctr": 2.6315789474,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56901,7 +58602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 247.0,
       "cost_per_lpv": null,
       "ctr": 1.4084507042,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56920,7 +58622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 264.962962963,
       "cost_per_lpv": null,
       "ctr": 1.9135364989,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56939,7 +58642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 554.5,
       "cost_per_lpv": 1109.0,
       "ctr": 0.6493506494,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56958,7 +58662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 239.3333333333,
       "cost_per_lpv": 287.2,
       "ctr": 1.8575851393,
-      "lpv_rate": 83.3333333333
+      "lpv_rate": 83.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -56977,7 +58682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 161.1,
       "cost_per_lpv": 268.5,
       "ctr": 2.2522522523,
-      "lpv_rate": 60.0
+      "lpv_rate": 60.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -56996,7 +58702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 138.3,
       "cost_per_lpv": null,
       "ctr": 2.3640661939,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57015,7 +58722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 216.3529411765,
       "cost_per_lpv": null,
       "ctr": 2.3085279739,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57034,7 +58742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 252.8173913043,
       "cost_per_lpv": null,
       "ctr": 1.608841634,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57053,7 +58762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 209.8775510204,
       "cost_per_lpv": 247.8072289157,
       "ctr": 1.8400300413,
-      "lpv_rate": 84.693877551
+      "lpv_rate": 84.693877551,
+      "date": null
     },
     {
       "year": 2026,
@@ -57072,7 +58782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 218.3647058824,
       "cost_per_lpv": 247.48,
       "ctr": 1.8185708173,
-      "lpv_rate": 88.2352941176
+      "lpv_rate": 88.2352941176,
+      "date": null
     },
     {
       "year": 2026,
@@ -57091,7 +58802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 236.9831932773,
       "cost_per_lpv": 258.7247706422,
       "ctr": 1.5091946734,
-      "lpv_rate": 91.5966386555
+      "lpv_rate": 91.5966386555,
+      "date": null
     },
     {
       "year": 2026,
@@ -57110,7 +58822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57129,7 +58842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57148,7 +58862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 144.5,
       "cost_per_lpv": null,
       "ctr": 3.0534351145,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57167,7 +58882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 135.0,
       "cost_per_lpv": 135.0,
       "ctr": 2.5,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57186,7 +58902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57205,7 +58922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 68.0,
       "cost_per_lpv": 102.0,
       "ctr": 5.1724137931,
-      "lpv_rate": 66.6666666667
+      "lpv_rate": 66.6666666667,
+      "date": null
     },
     {
       "year": 2026,
@@ -57224,7 +58942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 108.4444444444,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57243,7 +58962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 218.0222222222,
       "cost_per_lpv": null,
       "ctr": 2.7173913043,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57262,7 +58982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 208.6181818182,
       "cost_per_lpv": null,
       "ctr": 4.2619139868,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57281,7 +59002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 186.2666666667,
       "cost_per_lpv": 214.9230769231,
       "ctr": 3.8860103627,
-      "lpv_rate": 86.6666666667
+      "lpv_rate": 86.6666666667,
+      "date": null
     },
     {
       "year": 2026,
@@ -57300,7 +59022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 341.5454545455,
       "cost_per_lpv": 313.0833333333,
       "ctr": 2.5462962963,
-      "lpv_rate": 109.0909090909
+      "lpv_rate": 109.0909090909,
+      "date": null
     },
     {
       "year": 2026,
@@ -57319,7 +59042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 173.4090909091,
       "cost_per_lpv": 190.75,
       "ctr": 4.2389210019,
-      "lpv_rate": 90.9090909091
+      "lpv_rate": 90.9090909091,
+      "date": null
     },
     {
       "year": 2026,
@@ -57338,7 +59062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 202.512195122,
       "cost_per_lpv": null,
       "ctr": 4.9696969697,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57357,7 +59082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 174.0,
       "cost_per_lpv": 174.0,
       "ctr": 3.4482758621,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57376,7 +59102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 127.58,
       "cost_per_lpv": null,
       "ctr": 3.5161744023,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57395,7 +59122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 256.0828025478,
       "cost_per_lpv": null,
       "ctr": 2.2225368063,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57414,7 +59142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 242.1241565452,
       "cost_per_lpv": null,
       "ctr": 2.7627605235,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57433,7 +59162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 218.0821917808,
       "cost_per_lpv": 239.3984962406,
       "ctr": 3.0109300887,
-      "lpv_rate": 91.095890411
+      "lpv_rate": 91.095890411,
+      "date": null
     },
     {
       "year": 2026,
@@ -57452,7 +59182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.2641509434,
       "cost_per_lpv": 231.1643835616,
       "ctr": 3.2648870637,
-      "lpv_rate": 91.8238993711
+      "lpv_rate": 91.8238993711,
+      "date": null
     },
     {
       "year": 2026,
@@ -57471,7 +59202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 216.4522292994,
       "cost_per_lpv": 225.0529801325,
       "ctr": 2.7022375215,
-      "lpv_rate": 96.178343949
+      "lpv_rate": 96.178343949,
+      "date": null
     },
     {
       "year": 2026,
@@ -57490,7 +59222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 156.5296052632,
       "cost_per_lpv": null,
       "ctr": 4.1321190703,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57509,7 +59242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 540.0,
       "cost_per_lpv": 540.0,
       "ctr": 1.0638297872,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57528,7 +59262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57547,7 +59282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57566,7 +59302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 181.2,
       "cost_per_lpv": null,
       "ctr": 2.8248587571,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57585,7 +59322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 97.0,
       "cost_per_lpv": 194.0,
       "ctr": 6.4516129032,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57604,7 +59342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 75.0,
       "cost_per_lpv": 150.0,
       "ctr": 6.4516129032,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57623,7 +59362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57642,7 +59382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 72.3333333333,
       "cost_per_lpv": null,
       "ctr": 6.976744186,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57661,7 +59402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -57680,7 +59422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 140.0,
       "cost_per_lpv": null,
       "ctr": 4.7619047619,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57699,7 +59442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 320.3421052632,
       "cost_per_lpv": null,
       "ctr": 2.4885396202,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57718,7 +59462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 255.8318584071,
       "cost_per_lpv": null,
       "ctr": 4.3934681182,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57737,7 +59482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.3888888889,
       "cost_per_lpv": 269.2666666667,
       "ctr": 5.0704225352,
-      "lpv_rate": 83.3333333333
+      "lpv_rate": 83.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -57756,7 +59502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 305.9230769231,
       "cost_per_lpv": 305.9230769231,
       "ctr": 3.2828282828,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57775,7 +59522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 203.5238095238,
       "cost_per_lpv": 224.9473684211,
       "ctr": 4.535637149,
-      "lpv_rate": 90.4761904762
+      "lpv_rate": 90.4761904762,
+      "date": null
     },
     {
       "year": 2026,
@@ -57794,7 +59542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 349.2222222222,
       "cost_per_lpv": null,
       "ctr": 3.9735099338,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57813,7 +59562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 185.0,
       "cost_per_lpv": 185.0,
       "ctr": 4.1666666667,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57832,7 +59582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 192.027027027,
       "cost_per_lpv": null,
       "ctr": 2.7570789866,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57851,7 +59602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 235.5,
       "cost_per_lpv": null,
       "ctr": 2.9555579702,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57870,7 +59622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 254.5946502058,
       "cost_per_lpv": null,
       "ctr": 3.4756490024,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57889,7 +59642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 265.985915493,
       "cost_per_lpv": 320.0847457627,
       "ctr": 3.0603448276,
-      "lpv_rate": 83.0985915493
+      "lpv_rate": 83.0985915493,
+      "date": null
     },
     {
       "year": 2026,
@@ -57908,7 +59662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 211.83,
       "cost_per_lpv": 246.3139534884,
       "ctr": 3.9077764752,
-      "lpv_rate": 86.0
+      "lpv_rate": 86.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57927,7 +59682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 251.8658536585,
       "cost_per_lpv": 261.4303797468,
       "ctr": 3.0688622754,
-      "lpv_rate": 96.3414634146
+      "lpv_rate": 96.3414634146,
+      "date": null
     },
     {
       "year": 2026,
@@ -57946,7 +59702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 231.8216216216,
       "cost_per_lpv": null,
       "ctr": 4.4524669073,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -57965,7 +59722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 80.6666666667,
       "cost_per_lpv": 96.8,
       "ctr": 9.0909090909,
-      "lpv_rate": 83.3333333333
+      "lpv_rate": 83.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -57984,7 +59742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58003,7 +59762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 389.0,
       "cost_per_lpv": null,
       "ctr": 2.1739130435,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58022,7 +59782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 224.0,
       "cost_per_lpv": null,
       "ctr": 5.4794520548,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58041,7 +59802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58060,7 +59822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58079,7 +59842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 72.5,
       "cost_per_lpv": 145.0,
       "ctr": 8.3333333333,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58098,7 +59862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58117,7 +59882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 182.0,
       "cost_per_lpv": null,
       "ctr": 3.7209302326,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58136,7 +59902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 176.9523809524,
       "cost_per_lpv": null,
       "ctr": 7.429245283,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58155,7 +59922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 274.6875,
       "cost_per_lpv": null,
       "ctr": 4.6806435885,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58174,7 +59942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 212.4210526316,
       "cost_per_lpv": 269.0666666667,
       "ctr": 6.25,
-      "lpv_rate": 78.9473684211
+      "lpv_rate": 78.9473684211,
+      "date": null
     },
     {
       "year": 2026,
@@ -58193,7 +59962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.0625,
       "cost_per_lpv": 283.1538461538,
       "ctr": 4.9689440994,
-      "lpv_rate": 81.25
+      "lpv_rate": 81.25,
+      "date": null
     },
     {
       "year": 2026,
@@ -58212,7 +59982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 288.3846153846,
       "cost_per_lpv": 288.3846153846,
       "ctr": 4.3189368771,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58231,7 +60002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 978.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.2222222222,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58250,7 +60022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58269,7 +60042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 138.1851851852,
       "cost_per_lpv": null,
       "ctr": 4.619332763,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58288,7 +60062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 250.9744897959,
       "cost_per_lpv": null,
       "ctr": 4.384787472,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58307,7 +60082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 243.3734939759,
       "cost_per_lpv": null,
       "ctr": 4.3184183143,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58326,7 +60102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 236.7444444444,
       "cost_per_lpv": 263.049382716,
       "ctr": 3.7831021438,
-      "lpv_rate": 90.0
+      "lpv_rate": 90.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58345,7 +60122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.8505747126,
       "cost_per_lpv": 260.8311688312,
       "ctr": 3.9963252182,
-      "lpv_rate": 88.5057471264
+      "lpv_rate": 88.5057471264,
+      "date": null
     },
     {
       "year": 2026,
@@ -58364,7 +60142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 226.472972973,
       "cost_per_lpv": 253.9242424242,
       "ctr": 3.8521603332,
-      "lpv_rate": 89.1891891892
+      "lpv_rate": 89.1891891892,
+      "date": null
     },
     {
       "year": 2026,
@@ -58383,7 +60162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 244.9814814815,
       "cost_per_lpv": null,
       "ctr": 5.2478134111,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58402,7 +60182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 133.8333333333,
       "cost_per_lpv": 160.6,
       "ctr": 6.3829787234,
-      "lpv_rate": 83.3333333333
+      "lpv_rate": 83.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -58421,7 +60202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58440,7 +60222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 161.0,
       "cost_per_lpv": null,
       "ctr": 14.2857142857,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58459,7 +60242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 193.5,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58478,7 +60262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58497,7 +60282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 169.5,
       "cost_per_lpv": 169.5,
       "ctr": 15.3846153846,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58516,7 +60302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58535,7 +60322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58554,7 +60342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58573,7 +60362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 100.5714285714,
       "cost_per_lpv": null,
       "ctr": 10.447761194,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58592,7 +60382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 264.4444444444,
       "cost_per_lpv": null,
       "ctr": 2.9556650246,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58611,7 +60402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 205.9024390244,
       "cost_per_lpv": null,
       "ctr": 6.8791946309,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58630,7 +60422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 157.1111111111,
       "cost_per_lpv": 282.8,
       "ctr": 8.1818181818,
-      "lpv_rate": 55.5555555556
+      "lpv_rate": 55.5555555556,
+      "date": null
     },
     {
       "year": 2026,
@@ -58649,7 +60442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 203.0,
       "cost_per_lpv": 304.5,
       "ctr": 5.2173913043,
-      "lpv_rate": 66.6666666667
+      "lpv_rate": 66.6666666667,
+      "date": null
     },
     {
       "year": 2026,
@@ -58668,7 +60462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 260.75,
       "cost_per_lpv": 208.6,
       "ctr": 4.9382716049,
-      "lpv_rate": 125.0
+      "lpv_rate": 125.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58687,7 +60482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58706,7 +60502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58725,7 +60522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 106.1428571429,
       "cost_per_lpv": null,
       "ctr": 6.25,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58744,7 +60542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 301.1891891892,
       "cost_per_lpv": null,
       "ctr": 2.4326101249,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58763,7 +60562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 259.7906976744,
       "cost_per_lpv": null,
       "ctr": 4.0211970075,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58782,7 +60582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 240.8723404255,
       "cost_per_lpv": 297.9210526316,
       "ctr": 3.1735313977,
-      "lpv_rate": 80.8510638298
+      "lpv_rate": 80.8510638298,
+      "date": null
     },
     {
       "year": 2026,
@@ -58801,7 +60602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.3953488372,
       "cost_per_lpv": 246.3076923077,
       "ctr": 3.3307513555,
-      "lpv_rate": 90.6976744186
+      "lpv_rate": 90.6976744186,
+      "date": null
     },
     {
       "year": 2026,
@@ -58820,7 +60622,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 252.9047619048,
       "cost_per_lpv": 295.0555555556,
       "ctr": 3.317535545,
-      "lpv_rate": 85.7142857143
+      "lpv_rate": 85.7142857143,
+      "date": null
     },
     {
       "year": 2026,
@@ -58839,7 +60642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 495.75,
       "cost_per_lpv": null,
       "ctr": 3.3613445378,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58858,7 +60662,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 184.0,
       "cost_per_lpv": null,
       "ctr": 4.1666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -58877,7 +60682,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58896,7 +60702,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58915,7 +60722,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58934,7 +60742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58953,7 +60762,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58972,7 +60782,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -58991,7 +60802,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59010,7 +60822,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 266.6666666667,
       "cost_per_lpv": null,
       "ctr": 2.0066889632,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59029,7 +60842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 465.3333333333,
       "cost_per_lpv": null,
       "ctr": 2.2222222222,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59048,7 +60862,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 157.5,
       "cost_per_lpv": 315.0,
       "ctr": 6.6666666667,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59067,7 +60882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 225.0,
       "cost_per_lpv": 225.0,
       "ctr": 4.5454545455,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59086,7 +60902,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59105,7 +60922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 159.0,
       "cost_per_lpv": null,
       "ctr": 10.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59124,7 +60942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59143,7 +60962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 92.6666666667,
       "cost_per_lpv": null,
       "ctr": 6.5217391304,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59162,7 +60982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 255.09375,
       "cost_per_lpv": null,
       "ctr": 2.0792722547,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59181,7 +61002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 321.3333333333,
       "cost_per_lpv": null,
       "ctr": 2.766798419,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59200,7 +61022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 171.0833333333,
       "cost_per_lpv": 178.5217391304,
       "ctr": 4.780876494,
-      "lpv_rate": 95.8333333333
+      "lpv_rate": 95.8333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -59219,7 +61042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 264.9333333333,
       "cost_per_lpv": 305.6923076923,
       "ctr": 3.0991735537,
-      "lpv_rate": 86.6666666667
+      "lpv_rate": 86.6666666667,
+      "date": null
     },
     {
       "year": 2026,
@@ -59238,7 +61062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 235.875,
       "cost_per_lpv": 269.5714285714,
       "ctr": 3.2128514056,
-      "lpv_rate": 87.5
+      "lpv_rate": 87.5,
+      "date": null
     },
     {
       "year": 2026,
@@ -59257,7 +61082,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 102.0,
       "cost_per_lpv": null,
       "ctr": 5.5555555556,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59276,7 +61102,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59295,7 +61122,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 102.0,
       "cost_per_lpv": null,
       "ctr": 4.7619047619,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59314,7 +61142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59333,7 +61162,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59352,7 +61182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59371,7 +61202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59390,7 +61222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59409,7 +61242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59428,7 +61262,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59447,7 +61282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 197.0476190476,
       "cost_per_lpv": 206.9,
       "ctr": 2.6282853567,
-      "lpv_rate": 95.2380952381
+      "lpv_rate": 95.2380952381,
+      "date": null
     },
     {
       "year": 2026,
@@ -59466,7 +61302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 194.8448275862,
       "cost_per_lpv": 220.1493506494,
       "ctr": 2.2906793049,
-      "lpv_rate": 88.5057471264
+      "lpv_rate": 88.5057471264,
+      "date": null
     },
     {
       "year": 2026,
@@ -59485,7 +61322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59504,7 +61342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 297.5925925926,
       "cost_per_lpv": 365.2272727273,
       "ctr": 2.4193548387,
-      "lpv_rate": 81.4814814815
+      "lpv_rate": 81.4814814815,
+      "date": null
     },
     {
       "year": 2026,
@@ -59523,7 +61362,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 222.36,
       "cost_per_lpv": 251.0516129032,
       "ctr": 2.6045542491,
-      "lpv_rate": 88.5714285714
+      "lpv_rate": 88.5714285714,
+      "date": null
     },
     {
       "year": 2026,
@@ -59542,7 +61382,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59561,7 +61402,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 247.0810810811,
       "cost_per_lpv": 315.2413793103,
       "ctr": 3.870292887,
-      "lpv_rate": 78.3783783784
+      "lpv_rate": 78.3783783784,
+      "date": null
     },
     {
       "year": 2026,
@@ -59580,7 +61422,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 226.0526315789,
       "cost_per_lpv": 258.734939759,
       "ctr": 3.0659996773,
-      "lpv_rate": 87.3684210526
+      "lpv_rate": 87.3684210526,
+      "date": null
     },
     {
       "year": 2026,
@@ -59599,7 +61442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59618,7 +61462,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 214.9090909091,
       "cost_per_lpv": 214.9090909091,
       "ctr": 4.0293040293,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59637,7 +61482,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.3218390805,
       "cost_per_lpv": 266.1506849315,
       "ctr": 3.0883919063,
-      "lpv_rate": 83.908045977
+      "lpv_rate": 83.908045977,
+      "date": null
     },
     {
       "year": 2026,
@@ -59656,7 +61502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59675,7 +61522,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 223.0,
       "cost_per_lpv": 223.0,
       "ctr": 3.7735849057,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59694,7 +61542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 217.5142857143,
       "cost_per_lpv": 245.5806451613,
       "ctr": 3.1222123104,
-      "lpv_rate": 88.5714285714
+      "lpv_rate": 88.5714285714,
+      "date": null
     },
     {
       "year": 2026,
@@ -59713,7 +61562,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59732,7 +61582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -59743,15 +61594,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "18-24",
       "gender": "female",
-      "spend": 1025.0,
-      "impressions": 249.0,
-      "reach": 234.0,
+      "spend": 1081.0,
+      "impressions": 255.0,
+      "reach": 240.0,
       "link_clicks": 11.0,
       "landing_page_views": 7.0,
-      "cpc": 93.1818181818,
-      "cost_per_lpv": 146.4285714286,
-      "ctr": 4.4176706827,
-      "lpv_rate": 63.6363636364
+      "cpc": 98.2727272727,
+      "cost_per_lpv": 154.4285714286,
+      "ctr": 4.3137254902,
+      "lpv_rate": 63.6363636364,
+      "date": null
     },
     {
       "year": 2026,
@@ -59762,15 +61614,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "18-24",
       "gender": "female",
-      "spend": 1254.0,
-      "impressions": 221.0,
-      "reach": 210.0,
-      "link_clicks": 9.0,
+      "spend": 1326.0,
+      "impressions": 226.0,
+      "reach": 215.0,
+      "link_clicks": 10.0,
       "landing_page_views": 6.0,
-      "cpc": 139.3333333333,
-      "cost_per_lpv": 209.0,
-      "ctr": 4.07239819,
-      "lpv_rate": 66.6666666667
+      "cpc": 132.6,
+      "cost_per_lpv": 221.0,
+      "ctr": 4.4247787611,
+      "lpv_rate": 60.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59781,15 +61634,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "18-24",
       "gender": "female",
-      "spend": 2593.0,
-      "impressions": 827.0,
-      "reach": 784.0,
-      "link_clicks": 15.0,
-      "landing_page_views": 12.0,
-      "cpc": 172.8666666667,
-      "cost_per_lpv": 216.0833333333,
-      "ctr": 1.8137847642,
-      "lpv_rate": 80.0
+      "spend": 2688.0,
+      "impressions": 845.0,
+      "reach": 802.0,
+      "link_clicks": 16.0,
+      "landing_page_views": 13.0,
+      "cpc": 168.0,
+      "cost_per_lpv": 206.7692307692,
+      "ctr": 1.8934911243,
+      "lpv_rate": 81.25,
+      "date": null
     },
     {
       "year": 2026,
@@ -59800,15 +61654,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "18-24",
       "gender": "male",
-      "spend": 16102.0,
-      "impressions": 4232.0,
-      "reach": 4010.0,
-      "link_clicks": 83.0,
-      "landing_page_views": 71.0,
-      "cpc": 194.0,
-      "cost_per_lpv": 226.7887323944,
-      "ctr": 1.9612476371,
-      "lpv_rate": 85.5421686747
+      "spend": 16460.0,
+      "impressions": 4312.0,
+      "reach": 4087.0,
+      "link_clicks": 87.0,
+      "landing_page_views": 74.0,
+      "cpc": 189.1954022989,
+      "cost_per_lpv": 222.4324324324,
+      "ctr": 2.0176252319,
+      "lpv_rate": 85.0574712644,
+      "date": null
     },
     {
       "year": 2026,
@@ -59819,15 +61674,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "18-24",
       "gender": "male",
-      "spend": 10480.0,
-      "impressions": 2556.0,
-      "reach": 2424.0,
-      "link_clicks": 50.0,
-      "landing_page_views": 41.0,
-      "cpc": 209.6,
-      "cost_per_lpv": 255.6097560976,
-      "ctr": 1.9561815336,
-      "lpv_rate": 82.0
+      "spend": 10819.0,
+      "impressions": 2612.0,
+      "reach": 2478.0,
+      "link_clicks": 51.0,
+      "landing_page_views": 42.0,
+      "cpc": 212.137254902,
+      "cost_per_lpv": 257.5952380952,
+      "ctr": 1.9525267994,
+      "lpv_rate": 82.3529411765,
+      "date": null
     },
     {
       "year": 2026,
@@ -59838,15 +61694,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "18-24",
       "gender": "male",
-      "spend": 32900.0,
-      "impressions": 11567.0,
-      "reach": 11055.0,
-      "link_clicks": 179.0,
-      "landing_page_views": 164.0,
-      "cpc": 183.7988826816,
-      "cost_per_lpv": 200.6097560976,
-      "ctr": 1.5475058356,
-      "lpv_rate": 91.6201117318
+      "spend": 33570.0,
+      "impressions": 11772.0,
+      "reach": 11253.0,
+      "link_clicks": 182.0,
+      "landing_page_views": 166.0,
+      "cpc": 184.4505494505,
+      "cost_per_lpv": 202.2289156627,
+      "ctr": 1.5460414543,
+      "lpv_rate": 91.2087912088,
+      "date": null
     },
     {
       "year": 2026,
@@ -59857,15 +61714,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "18-24",
       "gender": "unknown",
-      "spend": 144.0,
-      "impressions": 39.0,
-      "reach": 37.0,
+      "spend": 150.0,
+      "impressions": 40.0,
+      "reach": 38.0,
       "link_clicks": 2.0,
       "landing_page_views": 2.0,
-      "cpc": 72.0,
-      "cost_per_lpv": 72.0,
-      "ctr": 5.1282051282,
-      "lpv_rate": 100.0
+      "cpc": 75.0,
+      "cost_per_lpv": 75.0,
+      "ctr": 5.0,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59884,7 +61742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 86.0,
       "cost_per_lpv": 86.0,
       "ctr": 4.5454545455,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59895,15 +61754,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "18-24",
       "gender": "unknown",
-      "spend": 268.0,
-      "impressions": 87.0,
-      "reach": 85.0,
+      "spend": 272.0,
+      "impressions": 88.0,
+      "reach": 86.0,
       "link_clicks": 1.0,
       "landing_page_views": 1.0,
-      "cpc": 268.0,
-      "cost_per_lpv": 268.0,
-      "ctr": 1.1494252874,
-      "lpv_rate": 100.0
+      "cpc": 272.0,
+      "cost_per_lpv": 272.0,
+      "ctr": 1.1363636364,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59914,15 +61774,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "25-34",
       "gender": "female",
-      "spend": 3400.0,
-      "impressions": 456.0,
-      "reach": 431.0,
-      "link_clicks": 14.0,
+      "spend": 3520.0,
+      "impressions": 468.0,
+      "reach": 443.0,
+      "link_clicks": 15.0,
       "landing_page_views": 11.0,
-      "cpc": 242.8571428571,
-      "cost_per_lpv": 309.0909090909,
-      "ctr": 3.0701754386,
-      "lpv_rate": 78.5714285714
+      "cpc": 234.6666666667,
+      "cost_per_lpv": 320.0,
+      "ctr": 3.2051282051,
+      "lpv_rate": 73.3333333333,
+      "date": null
     },
     {
       "year": 2026,
@@ -59933,15 +61794,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "25-34",
       "gender": "female",
-      "spend": 4211.0,
-      "impressions": 463.0,
-      "reach": 433.0,
+      "spend": 4243.0,
+      "impressions": 468.0,
+      "reach": 438.0,
       "link_clicks": 21.0,
       "landing_page_views": 15.0,
-      "cpc": 200.5238095238,
-      "cost_per_lpv": 280.7333333333,
-      "ctr": 4.535637149,
-      "lpv_rate": 71.4285714286
+      "cpc": 202.0476190476,
+      "cost_per_lpv": 282.8666666667,
+      "ctr": 4.4871794872,
+      "lpv_rate": 71.4285714286,
+      "date": null
     },
     {
       "year": 2026,
@@ -59952,15 +61814,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "25-34",
       "gender": "female",
-      "spend": 4804.0,
-      "impressions": 923.0,
-      "reach": 885.0,
-      "link_clicks": 20.0,
-      "landing_page_views": 19.0,
-      "cpc": 240.2,
-      "cost_per_lpv": 252.8421052632,
-      "ctr": 2.1668472373,
-      "lpv_rate": 95.0
+      "spend": 4959.0,
+      "impressions": 944.0,
+      "reach": 906.0,
+      "link_clicks": 21.0,
+      "landing_page_views": 20.0,
+      "cpc": 236.1428571429,
+      "cost_per_lpv": 247.95,
+      "ctr": 2.2245762712,
+      "lpv_rate": 95.2380952381,
+      "date": null
     },
     {
       "year": 2026,
@@ -59979,7 +61842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 247.0,
       "cost_per_lpv": null,
       "ctr": 2.9041626331,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -59990,15 +61854,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "25-34",
       "gender": "female",
-      "spend": 3126.0,
-      "impressions": 592.0,
-      "reach": 559.0,
+      "spend": 3214.0,
+      "impressions": 605.0,
+      "reach": 572.0,
       "link_clicks": 28.0,
       "landing_page_views": 28.0,
-      "cpc": 111.6428571429,
-      "cost_per_lpv": 111.6428571429,
-      "ctr": 4.7297297297,
-      "lpv_rate": 100.0
+      "cpc": 114.7857142857,
+      "cost_per_lpv": 114.7857142857,
+      "ctr": 4.6280991736,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60009,15 +61874,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "25-34",
       "gender": "male",
-      "spend": 41805.0,
-      "impressions": 6185.0,
-      "reach": 5780.0,
-      "link_clicks": 188.0,
-      "landing_page_views": 166.0,
-      "cpc": 222.3670212766,
-      "cost_per_lpv": 251.8373493976,
-      "ctr": 3.0396119644,
-      "lpv_rate": 88.2978723404
+      "spend": 42709.0,
+      "impressions": 6320.0,
+      "reach": 5907.0,
+      "link_clicks": 194.0,
+      "landing_page_views": 171.0,
+      "cpc": 220.1494845361,
+      "cost_per_lpv": 249.7602339181,
+      "ctr": 3.0696202532,
+      "lpv_rate": 88.1443298969,
+      "date": null
     },
     {
       "year": 2026,
@@ -60028,15 +61894,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "25-34",
       "gender": "male",
-      "spend": 33967.0,
-      "impressions": 4654.0,
-      "reach": 4357.0,
-      "link_clicks": 155.0,
-      "landing_page_views": 131.0,
-      "cpc": 219.1419354839,
-      "cost_per_lpv": 259.2900763359,
-      "ctr": 3.3304684143,
-      "lpv_rate": 84.5161290323
+      "spend": 34643.0,
+      "impressions": 4746.0,
+      "reach": 4448.0,
+      "link_clicks": 158.0,
+      "landing_page_views": 133.0,
+      "cpc": 219.2594936709,
+      "cost_per_lpv": 260.4736842105,
+      "ctr": 3.3291192583,
+      "lpv_rate": 84.1772151899,
+      "date": null
     },
     {
       "year": 2026,
@@ -60047,15 +61914,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "25-34",
       "gender": "male",
-      "spend": 39883.0,
-      "impressions": 9014.0,
-      "reach": 8730.0,
-      "link_clicks": 202.0,
-      "landing_page_views": 185.0,
-      "cpc": 197.4405940594,
-      "cost_per_lpv": 215.5837837838,
-      "ctr": 2.240958509,
-      "lpv_rate": 91.5841584158
+      "spend": 40716.0,
+      "impressions": 9173.0,
+      "reach": 8889.0,
+      "link_clicks": 208.0,
+      "landing_page_views": 190.0,
+      "cpc": 195.75,
+      "cost_per_lpv": 214.2947368421,
+      "ctr": 2.267524256,
+      "lpv_rate": 91.3461538462,
+      "date": null
     },
     {
       "year": 2026,
@@ -60074,7 +61942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 191.3684210526,
       "cost_per_lpv": null,
       "ctr": 2.7565160838,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60085,15 +61954,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "25-34",
       "gender": "male",
-      "spend": 21515.0,
-      "impressions": 4915.0,
-      "reach": 4698.0,
-      "link_clicks": 197.0,
-      "landing_page_views": 177.0,
-      "cpc": 109.2131979695,
-      "cost_per_lpv": 121.5536723164,
-      "ctr": 4.008138352,
-      "lpv_rate": 89.847715736
+      "spend": 22248.0,
+      "impressions": 5043.0,
+      "reach": 4825.0,
+      "link_clicks": 203.0,
+      "landing_page_views": 182.0,
+      "cpc": 109.5960591133,
+      "cost_per_lpv": 122.2417582418,
+      "ctr": 4.0253817172,
+      "lpv_rate": 89.6551724138,
+      "date": null
     },
     {
       "year": 2026,
@@ -60104,15 +61974,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "25-34",
       "gender": "unknown",
-      "spend": 255.0,
-      "impressions": 36.0,
-      "reach": 34.0,
+      "spend": 266.0,
+      "impressions": 37.0,
+      "reach": 35.0,
       "link_clicks": 2.0,
       "landing_page_views": 3.0,
-      "cpc": 127.5,
-      "cost_per_lpv": 85.0,
-      "ctr": 5.5555555556,
-      "lpv_rate": 150.0
+      "cpc": 133.0,
+      "cost_per_lpv": 88.6666666667,
+      "ctr": 5.4054054054,
+      "lpv_rate": 150.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60131,7 +62002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 112.0,
       "cost_per_lpv": 224.0,
       "ctr": 13.3333333333,
-      "lpv_rate": 50.0
+      "lpv_rate": 50.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60142,15 +62014,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "25-34",
       "gender": "unknown",
-      "spend": 210.0,
-      "impressions": 50.0,
-      "reach": 48.0,
+      "spend": 240.0,
+      "impressions": 52.0,
+      "reach": 50.0,
       "link_clicks": 1.0,
       "landing_page_views": 1.0,
-      "cpc": 210.0,
-      "cost_per_lpv": 210.0,
-      "ctr": 2.0,
-      "lpv_rate": 100.0
+      "cpc": 240.0,
+      "cost_per_lpv": 240.0,
+      "ctr": 1.9230769231,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60169,7 +62042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 120.0,
       "cost_per_lpv": null,
       "ctr": 3.6764705882,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60180,15 +62054,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "25-34",
       "gender": "unknown",
-      "spend": 106.0,
-      "impressions": 26.0,
-      "reach": 26.0,
+      "spend": 110.0,
+      "impressions": 27.0,
+      "reach": 27.0,
       "link_clicks": 0.0,
       "landing_page_views": 0.0,
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -60199,15 +62074,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "35-44",
       "gender": "female",
-      "spend": 4600.0,
-      "impressions": 488.0,
-      "reach": 460.0,
+      "spend": 4653.0,
+      "impressions": 498.0,
+      "reach": 470.0,
       "link_clicks": 13.0,
       "landing_page_views": 11.0,
-      "cpc": 353.8461538462,
-      "cost_per_lpv": 418.1818181818,
-      "ctr": 2.6639344262,
-      "lpv_rate": 84.6153846154
+      "cpc": 357.9230769231,
+      "cost_per_lpv": 423.0,
+      "ctr": 2.6104417671,
+      "lpv_rate": 84.6153846154,
+      "date": null
     },
     {
       "year": 2026,
@@ -60218,15 +62094,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "35-44",
       "gender": "female",
-      "spend": 5562.0,
-      "impressions": 573.0,
-      "reach": 545.0,
+      "spend": 5679.0,
+      "impressions": 581.0,
+      "reach": 553.0,
       "link_clicks": 20.0,
       "landing_page_views": 20.0,
-      "cpc": 278.1,
-      "cost_per_lpv": 278.1,
-      "ctr": 3.4904013962,
-      "lpv_rate": 100.0
+      "cpc": 283.95,
+      "cost_per_lpv": 283.95,
+      "ctr": 3.4423407917,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60237,15 +62114,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "35-44",
       "gender": "female",
-      "spend": 5667.0,
-      "impressions": 852.0,
-      "reach": 818.0,
+      "spend": 5792.0,
+      "impressions": 868.0,
+      "reach": 834.0,
       "link_clicks": 37.0,
       "landing_page_views": 35.0,
-      "cpc": 153.1621621622,
-      "cost_per_lpv": 161.9142857143,
-      "ctr": 4.3427230047,
-      "lpv_rate": 94.5945945946
+      "cpc": 156.5405405405,
+      "cost_per_lpv": 165.4857142857,
+      "ctr": 4.2626728111,
+      "lpv_rate": 94.5945945946,
+      "date": null
     },
     {
       "year": 2026,
@@ -60264,7 +62142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 199.28125,
       "cost_per_lpv": null,
       "ctr": 4.8706240487,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60275,15 +62154,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "35-44",
       "gender": "female",
-      "spend": 8437.0,
-      "impressions": 1328.0,
-      "reach": 1281.0,
-      "link_clicks": 89.0,
-      "landing_page_views": 73.0,
-      "cpc": 94.797752809,
-      "cost_per_lpv": 115.5753424658,
-      "ctr": 6.7018072289,
-      "lpv_rate": 82.0224719101
+      "spend": 8674.0,
+      "impressions": 1356.0,
+      "reach": 1309.0,
+      "link_clicks": 93.0,
+      "landing_page_views": 77.0,
+      "cpc": 93.2688172043,
+      "cost_per_lpv": 112.6493506494,
+      "ctr": 6.8584070796,
+      "lpv_rate": 82.7956989247,
+      "date": null
     },
     {
       "year": 2026,
@@ -60294,15 +62174,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "35-44",
       "gender": "male",
-      "spend": 26809.0,
-      "impressions": 3490.0,
-      "reach": 3336.0,
-      "link_clicks": 119.0,
-      "landing_page_views": 111.0,
-      "cpc": 225.2857142857,
-      "cost_per_lpv": 241.5225225225,
-      "ctr": 3.4097421203,
-      "lpv_rate": 93.2773109244
+      "spend": 27427.0,
+      "impressions": 3566.0,
+      "reach": 3410.0,
+      "link_clicks": 122.0,
+      "landing_page_views": 114.0,
+      "cpc": 224.8114754098,
+      "cost_per_lpv": 240.5877192982,
+      "ctr": 3.4212002243,
+      "lpv_rate": 93.4426229508,
+      "date": null
     },
     {
       "year": 2026,
@@ -60313,15 +62194,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "35-44",
       "gender": "male",
-      "spend": 26895.0,
-      "impressions": 3518.0,
-      "reach": 3358.0,
+      "spend": 27341.0,
+      "impressions": 3571.0,
+      "reach": 3410.0,
       "link_clicks": 130.0,
       "landing_page_views": 113.0,
-      "cpc": 206.8846153846,
-      "cost_per_lpv": 238.0088495575,
-      "ctr": 3.6952814099,
-      "lpv_rate": 86.9230769231
+      "cpc": 210.3153846154,
+      "cost_per_lpv": 241.9557522124,
+      "ctr": 3.6404368524,
+      "lpv_rate": 86.9230769231,
+      "date": null
     },
     {
       "year": 2026,
@@ -60332,15 +62214,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "35-44",
       "gender": "male",
-      "spend": 28126.0,
-      "impressions": 4962.0,
-      "reach": 4804.0,
-      "link_clicks": 156.0,
-      "landing_page_views": 144.0,
-      "cpc": 180.2948717949,
-      "cost_per_lpv": 195.3194444444,
-      "ctr": 3.1438935913,
-      "lpv_rate": 92.3076923077
+      "spend": 28697.0,
+      "impressions": 5057.0,
+      "reach": 4899.0,
+      "link_clicks": 158.0,
+      "landing_page_views": 146.0,
+      "cpc": 181.6265822785,
+      "cost_per_lpv": 196.5547945205,
+      "ctr": 3.1243820447,
+      "lpv_rate": 92.4050632911,
+      "date": null
     },
     {
       "year": 2026,
@@ -60359,7 +62242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 231.1991525424,
       "cost_per_lpv": null,
       "ctr": 3.4297340503,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60370,15 +62254,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "35-44",
       "gender": "male",
-      "spend": 46407.0,
-      "impressions": 9051.0,
-      "reach": 8749.0,
-      "link_clicks": 454.0,
-      "landing_page_views": 403.0,
-      "cpc": 102.218061674,
-      "cost_per_lpv": 115.1538461538,
-      "ctr": 5.0160203292,
-      "lpv_rate": 88.7665198238
+      "spend": 47519.0,
+      "impressions": 9214.0,
+      "reach": 8912.0,
+      "link_clicks": 464.0,
+      "landing_page_views": 412.0,
+      "cpc": 102.411637931,
+      "cost_per_lpv": 115.3373786408,
+      "ctr": 5.035815064,
+      "lpv_rate": 88.7931034483,
+      "date": null
     },
     {
       "year": 2026,
@@ -60397,7 +62282,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 101.0,
       "cost_per_lpv": 101.0,
       "ctr": 8.0,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60416,7 +62302,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -60435,7 +62322,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 59.0,
       "cost_per_lpv": 59.0,
       "ctr": 12.5,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60454,7 +62342,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 55.75,
       "cost_per_lpv": null,
       "ctr": 15.3846153846,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60465,15 +62354,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "35-44",
       "gender": "unknown",
-      "spend": 118.0,
-      "impressions": 28.0,
-      "reach": 26.0,
+      "spend": 119.0,
+      "impressions": 29.0,
+      "reach": 27.0,
       "link_clicks": 1.0,
       "landing_page_views": 1.0,
-      "cpc": 118.0,
-      "cost_per_lpv": 118.0,
-      "ctr": 3.5714285714,
-      "lpv_rate": 100.0
+      "cpc": 119.0,
+      "cost_per_lpv": 119.0,
+      "ctr": 3.4482758621,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60484,15 +62374,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "45-54",
       "gender": "female",
-      "spend": 4856.0,
-      "impressions": 392.0,
-      "reach": 378.0,
+      "spend": 4948.0,
+      "impressions": 399.0,
+      "reach": 385.0,
       "link_clicks": 25.0,
       "landing_page_views": 22.0,
-      "cpc": 194.24,
-      "cost_per_lpv": 220.7272727273,
-      "ctr": 6.3775510204,
-      "lpv_rate": 88.0
+      "cpc": 197.92,
+      "cost_per_lpv": 224.9090909091,
+      "ctr": 6.2656641604,
+      "lpv_rate": 88.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60503,15 +62394,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "45-54",
       "gender": "female",
-      "spend": 6616.0,
-      "impressions": 615.0,
-      "reach": 590.0,
+      "spend": 6740.0,
+      "impressions": 626.0,
+      "reach": 601.0,
       "link_clicks": 23.0,
       "landing_page_views": 23.0,
-      "cpc": 287.652173913,
-      "cost_per_lpv": 287.652173913,
-      "ctr": 3.7398373984,
-      "lpv_rate": 100.0
+      "cpc": 293.0434782609,
+      "cost_per_lpv": 293.0434782609,
+      "ctr": 3.6741214058,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60522,15 +62414,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "45-54",
       "gender": "female",
-      "spend": 5113.0,
-      "impressions": 594.0,
-      "reach": 573.0,
-      "link_clicks": 30.0,
-      "landing_page_views": 25.0,
-      "cpc": 170.4333333333,
-      "cost_per_lpv": 204.52,
-      "ctr": 5.0505050505,
-      "lpv_rate": 83.3333333333
+      "spend": 5341.0,
+      "impressions": 612.0,
+      "reach": 591.0,
+      "link_clicks": 31.0,
+      "landing_page_views": 26.0,
+      "cpc": 172.2903225806,
+      "cost_per_lpv": 205.4230769231,
+      "ctr": 5.0653594771,
+      "lpv_rate": 83.8709677419,
+      "date": null
     },
     {
       "year": 2026,
@@ -60549,7 +62442,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 230.375,
       "cost_per_lpv": null,
       "ctr": 5.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60560,15 +62454,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "45-54",
       "gender": "female",
-      "spend": 8572.0,
-      "impressions": 1307.0,
-      "reach": 1261.0,
+      "spend": 8754.0,
+      "impressions": 1335.0,
+      "reach": 1289.0,
       "link_clicks": 75.0,
       "landing_page_views": 68.0,
-      "cpc": 114.2933333333,
-      "cost_per_lpv": 126.0588235294,
-      "ctr": 5.7383320581,
-      "lpv_rate": 90.6666666667
+      "cpc": 116.72,
+      "cost_per_lpv": 128.7352941176,
+      "ctr": 5.6179775281,
+      "lpv_rate": 90.6666666667,
+      "date": null
     },
     {
       "year": 2026,
@@ -60579,15 +62474,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "45-54",
       "gender": "male",
-      "spend": 32155.0,
-      "impressions": 3775.0,
-      "reach": 3601.0,
-      "link_clicks": 172.0,
-      "landing_page_views": 159.0,
-      "cpc": 186.9476744186,
-      "cost_per_lpv": 202.2327044025,
-      "ctr": 4.5562913907,
-      "lpv_rate": 92.4418604651
+      "spend": 32765.0,
+      "impressions": 3844.0,
+      "reach": 3667.0,
+      "link_clicks": 174.0,
+      "landing_page_views": 160.0,
+      "cpc": 188.3045977011,
+      "cost_per_lpv": 204.78125,
+      "ctr": 4.5265348595,
+      "lpv_rate": 91.9540229885,
+      "date": null
     },
     {
       "year": 2026,
@@ -60598,15 +62494,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "45-54",
       "gender": "male",
-      "spend": 34557.0,
-      "impressions": 4015.0,
-      "reach": 3820.0,
-      "link_clicks": 157.0,
-      "landing_page_views": 144.0,
-      "cpc": 220.1082802548,
-      "cost_per_lpv": 239.9791666667,
-      "ctr": 3.9103362391,
-      "lpv_rate": 91.7197452229
+      "spend": 35128.0,
+      "impressions": 4083.0,
+      "reach": 3885.0,
+      "link_clicks": 163.0,
+      "landing_page_views": 149.0,
+      "cpc": 215.509202454,
+      "cost_per_lpv": 235.7583892617,
+      "ctr": 3.9921626255,
+      "lpv_rate": 91.4110429448,
+      "date": null
     },
     {
       "year": 2026,
@@ -60617,15 +62514,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "45-54",
       "gender": "male",
-      "spend": 23140.0,
-      "impressions": 3481.0,
-      "reach": 3364.0,
-      "link_clicks": 131.0,
-      "landing_page_views": 118.0,
-      "cpc": 176.641221374,
-      "cost_per_lpv": 196.1016949153,
-      "ctr": 3.763286412,
-      "lpv_rate": 90.0763358779
+      "spend": 23623.0,
+      "impressions": 3548.0,
+      "reach": 3430.0,
+      "link_clicks": 134.0,
+      "landing_page_views": 119.0,
+      "cpc": 176.2910447761,
+      "cost_per_lpv": 198.512605042,
+      "ctr": 3.7767756483,
+      "lpv_rate": 88.8059701493,
+      "date": null
     },
     {
       "year": 2026,
@@ -60644,7 +62542,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 220.2608695652,
       "cost_per_lpv": null,
       "ctr": 4.6558704453,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60655,15 +62554,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "45-54",
       "gender": "male",
-      "spend": 46256.0,
-      "impressions": 8276.0,
-      "reach": 7939.0,
-      "link_clicks": 431.0,
-      "landing_page_views": 384.0,
-      "cpc": 107.3225058005,
-      "cost_per_lpv": 120.4583333333,
-      "ctr": 5.2078298695,
-      "lpv_rate": 89.0951276102
+      "spend": 47115.0,
+      "impressions": 8394.0,
+      "reach": 8056.0,
+      "link_clicks": 437.0,
+      "landing_page_views": 389.0,
+      "cpc": 107.8146453089,
+      "cost_per_lpv": 121.118251928,
+      "ctr": 5.2060995949,
+      "lpv_rate": 89.0160183066,
+      "date": null
     },
     {
       "year": 2026,
@@ -60682,7 +62582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -60701,7 +62602,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 353.0,
       "cost_per_lpv": null,
       "ctr": 3.125,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60712,15 +62614,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "45-54",
       "gender": "unknown",
-      "spend": 73.0,
-      "impressions": 9.0,
-      "reach": 9.0,
+      "spend": 76.0,
+      "impressions": 10.0,
+      "reach": 10.0,
       "link_clicks": 0.0,
       "landing_page_views": 0.0,
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -60739,7 +62642,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 16.5,
       "cost_per_lpv": null,
       "ctr": 33.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60750,15 +62654,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "45-54",
       "gender": "unknown",
-      "spend": 115.0,
-      "impressions": 24.0,
-      "reach": 23.0,
+      "spend": 125.0,
+      "impressions": 25.0,
+      "reach": 24.0,
       "link_clicks": 4.0,
       "landing_page_views": 4.0,
-      "cpc": 28.75,
-      "cost_per_lpv": 28.75,
-      "ctr": 16.6666666667,
-      "lpv_rate": 100.0
+      "cpc": 31.25,
+      "cost_per_lpv": 31.25,
+      "ctr": 16.0,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60769,15 +62674,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "55-64",
       "gender": "female",
-      "spend": 2022.0,
-      "impressions": 191.0,
-      "reach": 181.0,
+      "spend": 2102.0,
+      "impressions": 198.0,
+      "reach": 187.0,
       "link_clicks": 11.0,
       "landing_page_views": 9.0,
-      "cpc": 183.8181818182,
-      "cost_per_lpv": 224.6666666667,
-      "ctr": 5.7591623037,
-      "lpv_rate": 81.8181818182
+      "cpc": 191.0909090909,
+      "cost_per_lpv": 233.5555555556,
+      "ctr": 5.5555555556,
+      "lpv_rate": 81.8181818182,
+      "date": null
     },
     {
       "year": 2026,
@@ -60788,15 +62694,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "55-64",
       "gender": "female",
-      "spend": 2674.0,
-      "impressions": 256.0,
-      "reach": 245.0,
+      "spend": 2712.0,
+      "impressions": 259.0,
+      "reach": 248.0,
       "link_clicks": 12.0,
       "landing_page_views": 12.0,
-      "cpc": 222.8333333333,
-      "cost_per_lpv": 222.8333333333,
-      "ctr": 4.6875,
-      "lpv_rate": 100.0
+      "cpc": 226.0,
+      "cost_per_lpv": 226.0,
+      "ctr": 4.6332046332,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60807,15 +62714,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "55-64",
       "gender": "female",
-      "spend": 1017.0,
-      "impressions": 127.0,
-      "reach": 122.0,
-      "link_clicks": 7.0,
-      "landing_page_views": 7.0,
-      "cpc": 145.2857142857,
-      "cost_per_lpv": 145.2857142857,
-      "ctr": 5.5118110236,
-      "lpv_rate": 100.0
+      "spend": 1080.0,
+      "impressions": 130.0,
+      "reach": 124.0,
+      "link_clicks": 8.0,
+      "landing_page_views": 8.0,
+      "cpc": 135.0,
+      "cost_per_lpv": 135.0,
+      "ctr": 6.1538461538,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60834,7 +62742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 33.5,
       "cost_per_lpv": null,
       "ctr": 26.6666666667,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60845,15 +62754,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "55-64",
       "gender": "female",
-      "spend": 2411.0,
-      "impressions": 327.0,
-      "reach": 310.0,
+      "spend": 2471.0,
+      "impressions": 334.0,
+      "reach": 317.0,
       "link_clicks": 23.0,
       "landing_page_views": 22.0,
-      "cpc": 104.8260869565,
-      "cost_per_lpv": 109.5909090909,
-      "ctr": 7.0336391437,
-      "lpv_rate": 95.652173913
+      "cpc": 107.4347826087,
+      "cost_per_lpv": 112.3181818182,
+      "ctr": 6.8862275449,
+      "lpv_rate": 95.652173913,
+      "date": null
     },
     {
       "year": 2026,
@@ -60864,15 +62774,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "55-64",
       "gender": "male",
-      "spend": 14366.0,
-      "impressions": 1792.0,
-      "reach": 1693.0,
-      "link_clicks": 60.0,
-      "landing_page_views": 53.0,
-      "cpc": 239.4333333333,
-      "cost_per_lpv": 271.0566037736,
-      "ctr": 3.3482142857,
-      "lpv_rate": 88.3333333333
+      "spend": 14664.0,
+      "impressions": 1817.0,
+      "reach": 1718.0,
+      "link_clicks": 63.0,
+      "landing_page_views": 56.0,
+      "cpc": 232.7619047619,
+      "cost_per_lpv": 261.8571428571,
+      "ctr": 3.4672537149,
+      "lpv_rate": 88.8888888889,
+      "date": null
     },
     {
       "year": 2026,
@@ -60883,15 +62794,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "55-64",
       "gender": "male",
-      "spend": 18645.0,
-      "impressions": 2293.0,
-      "reach": 2139.0,
-      "link_clicks": 100.0,
-      "landing_page_views": 88.0,
-      "cpc": 186.45,
-      "cost_per_lpv": 211.875,
-      "ctr": 4.3610989969,
-      "lpv_rate": 88.0
+      "spend": 19130.0,
+      "impressions": 2343.0,
+      "reach": 2186.0,
+      "link_clicks": 102.0,
+      "landing_page_views": 89.0,
+      "cpc": 187.5490196078,
+      "cost_per_lpv": 214.9438202247,
+      "ctr": 4.3533930858,
+      "lpv_rate": 87.2549019608,
+      "date": null
     },
     {
       "year": 2026,
@@ -60902,15 +62814,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "55-64",
       "gender": "male",
-      "spend": 6383.0,
-      "impressions": 945.0,
-      "reach": 917.0,
-      "link_clicks": 32.0,
-      "landing_page_views": 27.0,
-      "cpc": 199.46875,
-      "cost_per_lpv": 236.4074074074,
-      "ctr": 3.3862433862,
-      "lpv_rate": 84.375
+      "spend": 6473.0,
+      "impressions": 953.0,
+      "reach": 925.0,
+      "link_clicks": 33.0,
+      "landing_page_views": 28.0,
+      "cpc": 196.1515151515,
+      "cost_per_lpv": 231.1785714286,
+      "ctr": 3.462749213,
+      "lpv_rate": 84.8484848485,
+      "date": null
     },
     {
       "year": 2026,
@@ -60929,7 +62842,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 165.6153846154,
       "cost_per_lpv": null,
       "ctr": 6.8062827225,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -60940,15 +62854,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "55-64",
       "gender": "male",
-      "spend": 11926.0,
-      "impressions": 2012.0,
-      "reach": 1902.0,
-      "link_clicks": 108.0,
-      "landing_page_views": 92.0,
-      "cpc": 110.4259259259,
-      "cost_per_lpv": 129.6304347826,
-      "ctr": 5.3677932406,
-      "lpv_rate": 85.1851851852
+      "spend": 12128.0,
+      "impressions": 2033.0,
+      "reach": 1922.0,
+      "link_clicks": 109.0,
+      "landing_page_views": 93.0,
+      "cpc": 111.2660550459,
+      "cost_per_lpv": 130.4086021505,
+      "ctr": 5.3615346778,
+      "lpv_rate": 85.3211009174,
+      "date": null
     },
     {
       "year": 2026,
@@ -60967,7 +62882,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -60978,15 +62894,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "55-64",
       "gender": "unknown",
-      "spend": 22.0,
-      "impressions": 4.0,
-      "reach": 4.0,
+      "spend": 27.0,
+      "impressions": 5.0,
+      "reach": 5.0,
       "link_clicks": 0.0,
       "landing_page_views": 0.0,
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61005,7 +62922,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61024,7 +62942,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61043,7 +62962,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61054,15 +62974,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "65+",
       "gender": "female",
-      "spend": 235.0,
-      "impressions": 31.0,
-      "reach": 30.0,
+      "spend": 236.0,
+      "impressions": 32.0,
+      "reach": 31.0,
       "link_clicks": 1.0,
       "landing_page_views": 1.0,
-      "cpc": 235.0,
-      "cost_per_lpv": 235.0,
-      "ctr": 3.2258064516,
-      "lpv_rate": 100.0
+      "cpc": 236.0,
+      "cost_per_lpv": 236.0,
+      "ctr": 3.125,
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -61081,7 +63002,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 596.0,
       "cost_per_lpv": 596.0,
       "ctr": 2.0,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -61100,7 +63022,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61119,7 +63042,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61138,7 +63062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 62.75,
       "cost_per_lpv": 62.75,
       "ctr": 10.0,
-      "lpv_rate": 100.0
+      "lpv_rate": 100.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -61149,15 +63074,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "65+",
       "gender": "male",
-      "spend": 4293.0,
-      "impressions": 503.0,
-      "reach": 468.0,
-      "link_clicks": 22.0,
-      "landing_page_views": 18.0,
-      "cpc": 195.1363636364,
-      "cost_per_lpv": 238.5,
-      "ctr": 4.3737574553,
-      "lpv_rate": 81.8181818182
+      "spend": 4337.0,
+      "impressions": 513.0,
+      "reach": 477.0,
+      "link_clicks": 23.0,
+      "landing_page_views": 19.0,
+      "cpc": 188.5652173913,
+      "cost_per_lpv": 228.2631578947,
+      "ctr": 4.4834307992,
+      "lpv_rate": 82.6086956522,
+      "date": null
     },
     {
       "year": 2026,
@@ -61168,15 +63094,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로...",
       "age": "65+",
       "gender": "male",
-      "spend": 6528.0,
-      "impressions": 767.0,
-      "reach": 711.0,
-      "link_clicks": 29.0,
-      "landing_page_views": 26.0,
-      "cpc": 225.1034482759,
-      "cost_per_lpv": 251.0769230769,
-      "ctr": 3.7809647979,
-      "lpv_rate": 89.6551724138
+      "spend": 6678.0,
+      "impressions": 789.0,
+      "reach": 729.0,
+      "link_clicks": 30.0,
+      "landing_page_views": 27.0,
+      "cpc": 222.6,
+      "cost_per_lpv": 247.3333333333,
+      "ctr": 3.8022813688,
+      "lpv_rate": 90.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -61187,15 +63114,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️...",
       "age": "65+",
       "gender": "male",
-      "spend": 1688.0,
-      "impressions": 287.0,
-      "reach": 276.0,
-      "link_clicks": 8.0,
-      "landing_page_views": 7.0,
-      "cpc": 211.0,
-      "cost_per_lpv": 241.1428571429,
-      "ctr": 2.787456446,
-      "lpv_rate": 87.5
+      "spend": 1735.0,
+      "impressions": 296.0,
+      "reach": 285.0,
+      "link_clicks": 9.0,
+      "landing_page_views": 8.0,
+      "cpc": 192.7777777778,
+      "cost_per_lpv": 216.875,
+      "ctr": 3.0405405405,
+      "lpv_rate": 88.8888888889,
+      "date": null
     },
     {
       "year": 2026,
@@ -61214,7 +63142,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 482.0,
       "cost_per_lpv": null,
       "ctr": 1.0,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
     },
     {
       "year": 2026,
@@ -61225,15 +63154,16 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign": "Instagram 게시물: 🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로...",
       "age": "65+",
       "gender": "male",
-      "spend": 1727.0,
-      "impressions": 275.0,
-      "reach": 263.0,
-      "link_clicks": 11.0,
-      "landing_page_views": 9.0,
-      "cpc": 157.0,
-      "cost_per_lpv": 191.8888888889,
-      "ctr": 4.0,
-      "lpv_rate": 81.8181818182
+      "spend": 1765.0,
+      "impressions": 282.0,
+      "reach": 269.0,
+      "link_clicks": 13.0,
+      "landing_page_views": 10.0,
+      "cpc": 135.7692307692,
+      "cost_per_lpv": 176.5,
+      "ctr": 4.609929078,
+      "lpv_rate": 76.9230769231,
+      "date": null
     },
     {
       "year": 2026,
@@ -61252,7 +63182,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61271,7 +63202,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61290,7 +63222,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61309,7 +63242,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": null,
       "cost_per_lpv": null,
       "ctr": 0.0,
-      "lpv_rate": null
+      "lpv_rate": null,
+      "date": null
     },
     {
       "year": 2026,
@@ -61328,7 +63262,628 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 45.0,
       "cost_per_lpv": null,
       "ctr": 33.3333333333,
-      "lpv_rate": 0.0
+      "lpv_rate": 0.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "female",
+      "spend": 571.0,
+      "impressions": 44.0,
+      "reach": 39.0,
+      "link_clicks": 3.0,
+      "landing_page_views": 0.0,
+      "cpc": 190.3333333333,
+      "cost_per_lpv": null,
+      "ctr": 6.8181818182,
+      "lpv_rate": 0.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "female",
+      "spend": 4840.0,
+      "impressions": 1950.0,
+      "reach": 1650.0,
+      "link_clicks": 18.0,
+      "landing_page_views": 5.0,
+      "cpc": 268.8888888889,
+      "cost_per_lpv": 968.0,
+      "ctr": 0.9230769231,
+      "lpv_rate": 27.7777777778,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "male",
+      "spend": 6563.0,
+      "impressions": 803.0,
+      "reach": 653.0,
+      "link_clicks": 24.0,
+      "landing_page_views": 24.0,
+      "cpc": 273.4583333333,
+      "cost_per_lpv": 273.4583333333,
+      "ctr": 2.9887920299,
+      "lpv_rate": 100.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "male",
+      "spend": 55017.0,
+      "impressions": 20487.0,
+      "reach": 17654.0,
+      "link_clicks": 149.0,
+      "landing_page_views": 80.0,
+      "cpc": 369.2416107383,
+      "cost_per_lpv": 687.7125,
+      "ctr": 0.7272904769,
+      "lpv_rate": 53.6912751678,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "unknown",
+      "spend": 16.0,
+      "impressions": 3.0,
+      "reach": 3.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "unknown",
+      "spend": 299.0,
+      "impressions": 108.0,
+      "reach": 96.0,
+      "link_clicks": 1.0,
+      "landing_page_views": 0.0,
+      "cpc": 299.0,
+      "cost_per_lpv": null,
+      "ctr": 0.9259259259,
+      "lpv_rate": 0.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "female",
+      "spend": 214.0,
+      "impressions": 29.0,
+      "reach": 27.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "female",
+      "spend": 3915.0,
+      "impressions": 938.0,
+      "reach": 805.0,
+      "link_clicks": 10.0,
+      "landing_page_views": 6.0,
+      "cpc": 391.5,
+      "cost_per_lpv": 652.5,
+      "ctr": 1.066098081,
+      "lpv_rate": 60.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "male",
+      "spend": 4240.0,
+      "impressions": 524.0,
+      "reach": 464.0,
+      "link_clicks": 18.0,
+      "landing_page_views": 13.0,
+      "cpc": 235.5555555556,
+      "cost_per_lpv": 326.1538461538,
+      "ctr": 3.4351145038,
+      "lpv_rate": 72.2222222222,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "male",
+      "spend": 27697.0,
+      "impressions": 8968.0,
+      "reach": 7619.0,
+      "link_clicks": 91.0,
+      "landing_page_views": 59.0,
+      "cpc": 304.3626373626,
+      "cost_per_lpv": 469.4406779661,
+      "ctr": 1.0147190009,
+      "lpv_rate": 64.8351648352,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "unknown",
+      "spend": 35.0,
+      "impressions": 3.0,
+      "reach": 3.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "unknown",
+      "spend": 270.0,
+      "impressions": 56.0,
+      "reach": 39.0,
+      "link_clicks": 1.0,
+      "landing_page_views": 1.0,
+      "cpc": 270.0,
+      "cost_per_lpv": 270.0,
+      "ctr": 1.7857142857,
+      "lpv_rate": 100.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "female",
+      "spend": 292.0,
+      "impressions": 22.0,
+      "reach": 17.0,
+      "link_clicks": 2.0,
+      "landing_page_views": 1.0,
+      "cpc": 146.0,
+      "cost_per_lpv": 292.0,
+      "ctr": 9.0909090909,
+      "lpv_rate": 50.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "female",
+      "spend": 2293.0,
+      "impressions": 418.0,
+      "reach": 328.0,
+      "link_clicks": 11.0,
+      "landing_page_views": 6.0,
+      "cpc": 208.4545454545,
+      "cost_per_lpv": 382.1666666667,
+      "ctr": 2.6315789474,
+      "lpv_rate": 54.5454545455,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "male",
+      "spend": 3307.0,
+      "impressions": 389.0,
+      "reach": 340.0,
+      "link_clicks": 15.0,
+      "landing_page_views": 14.0,
+      "cpc": 220.4666666667,
+      "cost_per_lpv": 236.2142857143,
+      "ctr": 3.8560411311,
+      "lpv_rate": 93.3333333333,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "male",
+      "spend": 17767.0,
+      "impressions": 3595.0,
+      "reach": 3018.0,
+      "link_clicks": 54.0,
+      "landing_page_views": 44.0,
+      "cpc": 329.0185185185,
+      "cost_per_lpv": 403.7954545455,
+      "ctr": 1.5020862309,
+      "lpv_rate": 81.4814814815,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "unknown",
+      "spend": 1.0,
+      "impressions": 1.0,
+      "reach": 1.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "unknown",
+      "spend": 41.0,
+      "impressions": 8.0,
+      "reach": 6.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
+      "gender": "female",
+      "spend": 122.0,
+      "impressions": 10.0,
+      "reach": 10.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
+      "gender": "female",
+      "spend": 812.0,
+      "impressions": 269.0,
+      "reach": 217.0,
+      "link_clicks": 5.0,
+      "landing_page_views": 1.0,
+      "cpc": 162.4,
+      "cost_per_lpv": 812.0,
+      "ctr": 1.8587360595,
+      "lpv_rate": 20.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
+      "gender": "male",
+      "spend": 1037.0,
+      "impressions": 147.0,
+      "reach": 133.0,
+      "link_clicks": 4.0,
+      "landing_page_views": 2.0,
+      "cpc": 259.25,
+      "cost_per_lpv": 518.5,
+      "ctr": 2.7210884354,
+      "lpv_rate": 50.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
+      "gender": "male",
+      "spend": 10632.0,
+      "impressions": 2628.0,
+      "reach": 2169.0,
+      "link_clicks": 26.0,
+      "landing_page_views": 20.0,
+      "cpc": 408.9230769231,
+      "cost_per_lpv": 531.6,
+      "ctr": 0.9893455099,
+      "lpv_rate": 76.9230769231,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
+      "gender": "unknown",
+      "spend": 33.0,
+      "impressions": 8.0,
+      "reach": 6.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "female",
+      "spend": 11.0,
+      "impressions": 1.0,
+      "reach": 1.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "female",
+      "spend": 361.0,
+      "impressions": 117.0,
+      "reach": 106.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "male",
+      "spend": 416.0,
+      "impressions": 52.0,
+      "reach": 43.0,
+      "link_clicks": 2.0,
+      "landing_page_views": 2.0,
+      "cpc": 208.0,
+      "cost_per_lpv": 208.0,
+      "ctr": 3.8461538462,
+      "lpv_rate": 100.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "male",
+      "spend": 5580.0,
+      "impressions": 1554.0,
+      "reach": 1289.0,
+      "link_clicks": 11.0,
+      "landing_page_views": 5.0,
+      "cpc": 507.2727272727,
+      "cost_per_lpv": 1116.0,
+      "ctr": 0.7078507079,
+      "lpv_rate": 45.4545454545,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "unknown",
+      "spend": 17.0,
+      "impressions": 2.0,
+      "reach": 1.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "unknown",
+      "spend": 46.0,
+      "impressions": 15.0,
+      "reach": 10.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "unknown",
+      "gender": "female",
+      "spend": 4.0,
+      "impressions": 1.0,
+      "reach": 1.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "unknown",
+      "gender": "male",
+      "spend": 57.0,
+      "impressions": 1.0,
+      "reach": 1.0,
+      "link_clicks": 1.0,
+      "landing_page_views": 1.0,
+      "cpc": 57.0,
+      "cost_per_lpv": 57.0,
+      "ctr": 100.0,
+      "lpv_rate": 100.0,
+      "date": null
     }
   ],
   "consultations": {
@@ -64815,6 +67370,114 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "inquiries": 1,
         "medium_or_high_signals": 0,
         "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-10",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-10",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-11",
+        "source": "app",
+        "inquiries": 2,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-13",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-15",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-16",
+        "source": "app",
+        "inquiries": 2,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-16",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 1,
+        "high_signals": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-18",
+        "source": "app",
+        "inquiries": 2,
+        "medium_or_high_signals": 1,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-19",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-19",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-23",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-23",
+        "source": "imweb",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       }
     ],
     "monthly": [
@@ -65326,9 +67989,17 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 6,
         "source": "app",
-        "inquiries": 4,
-        "medium_or_high_signals": 0,
+        "inquiries": 15,
+        "medium_or_high_signals": 1,
         "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "source": "imweb",
+        "inquiries": 4,
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       }
     ],
     "monthlyContracts": [
@@ -75731,6 +78402,276 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "contract_inflow_source": "",
         "contract_match_method": "",
         "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-10",
+        "source": "app",
+        "vehicle_model": "E-클래스",
+        "vehicle_trim": "E250 익스클루시브",
+        "subscription_period": "1년 (12개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-10",
+        "source": "imweb",
+        "vehicle_model": "iX3",
+        "vehicle_trim": "M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "상담완료",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-11",
+        "source": "app",
+        "vehicle_model": "E-클래스",
+        "vehicle_trim": "E250 익스클루시브",
+        "subscription_period": "1년 (12개월)",
+        "consulting_status": "상담완료",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 3
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-11",
+        "source": "app",
+        "vehicle_model": "일렉트리파이드 G80",
+        "vehicle_trim": "e-AWD",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "상담완료",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-13",
+        "source": "app",
+        "vehicle_model": "모델 3",
+        "vehicle_trim": "스탠다드 레인지",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-15",
+        "source": "app",
+        "vehicle_model": "MINI 쿠퍼 일렉트릭",
+        "vehicle_trim": "SE 일렉트릭",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-16",
+        "source": "app",
+        "vehicle_model": "i4",
+        "vehicle_trim": "eDrive40M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글있음",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-16",
+        "source": "app",
+        "vehicle_model": "모델 3",
+        "vehicle_trim": "스탠다드 레인지",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글있음",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-16",
+        "source": "imweb",
+        "vehicle_model": "E-클래스",
+        "vehicle_trim": "E250 익스클루시브",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "출고완료",
+        "contract_status": "출고완료",
+        "contract_signal": "high",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-18",
+        "source": "app",
+        "vehicle_model": "5 시리즈",
+        "vehicle_trim": "520i M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "상담진행",
+        "contract_status": "계약가능성있음",
+        "contract_signal": "medium",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 2
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-18",
+        "source": "app",
+        "vehicle_model": "MINI 쿠퍼 일렉트릭",
+        "vehicle_trim": "SE 일렉트릭",
+        "subscription_period": "2년 (24개월)",
+        "consulting_status": "상담완료",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-19",
+        "source": "app",
+        "vehicle_model": "EQE350+",
+        "vehicle_trim": "",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-19",
+        "source": "imweb",
+        "vehicle_model": "EQE350+",
+        "vehicle_trim": "",
+        "subscription_period": "6개월",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-23",
+        "source": "app",
+        "vehicle_model": "EQE350+",
+        "vehicle_trim": "",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글있음",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-23",
+        "source": "imweb",
+        "vehicle_model": "iX3",
+        "vehicle_trim": "M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "댓글없음",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
       }
     ],
     "contracts": [
@@ -76073,7 +79014,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     ],
     "sourceFreshness": {
       "first_date": "2025-06-05",
-      "latest_date": "2026-06-06"
+      "latest_date": "2026-06-23"
     }
   },
   "creatives": {
@@ -77847,8 +80788,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     }
   },
   "notes": [
-    "Meta Graph API에서 2025-01-01~2026-05-26 기간을 조회했습니다.",
-    "광고 운영 기준일은 2026-05-19까지로 제한했습니다.",
+    "Meta Graph API에서 2025-01-01~2026-06-24 기간을 조회했습니다.",
+    "광고 데이터는 원본 조회 기간 전체를 반영했습니다.",
     "랜딩조회는 actions의 landing_page_view 또는 omni_landing_page_view 기준입니다.",
     "개인 단위 참여자는 Meta API에서 제공하지 않습니다."
   ]
