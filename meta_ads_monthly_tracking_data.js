@@ -1,9 +1,9 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-06-24T11:12:29",
+  "generatedAt": "2026-07-01T15:37:46",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
-    "until": "2026-06-24"
+    "until": "2026-06-30"
   },
   "defaultYear": 2026,
   "defaultMonth": 6,
@@ -74,7 +74,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     {
       "media": "Instagram",
       "first_date": "2025-05-24",
-      "latest_date": "2026-06-24"
+      "latest_date": "2026-06-30"
     }
   ],
   "daily": [
@@ -27455,6 +27455,114 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cost_per_lpv": 839.2,
       "ctr": 1.220657277,
       "lpv_rate": 38.4615384615
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-25",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 19302.0,
+      "impressions": 6749.0,
+      "reach": 5440.0,
+      "link_clicks": 58.0,
+      "landing_page_views": 31.0,
+      "cpc": 332.7931034483,
+      "cost_per_lpv": 622.6451612903,
+      "ctr": 0.8593865758,
+      "lpv_rate": 53.4482758621
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-26",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 19230.0,
+      "impressions": 7383.0,
+      "reach": 6009.0,
+      "link_clicks": 46.0,
+      "landing_page_views": 32.0,
+      "cpc": 418.0434782609,
+      "cost_per_lpv": 600.9375,
+      "ctr": 0.6230529595,
+      "lpv_rate": 69.5652173913
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-27",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 18247.0,
+      "impressions": 6677.0,
+      "reach": 5394.0,
+      "link_clicks": 62.0,
+      "landing_page_views": 35.0,
+      "cpc": 294.3064516129,
+      "cost_per_lpv": 521.3428571429,
+      "ctr": 0.9285607309,
+      "lpv_rate": 56.4516129032
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-28",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 23461.0,
+      "impressions": 10240.0,
+      "reach": 8486.0,
+      "link_clicks": 77.0,
+      "landing_page_views": 46.0,
+      "cpc": 304.6883116883,
+      "cost_per_lpv": 510.0217391304,
+      "ctr": 0.751953125,
+      "lpv_rate": 59.7402597403
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-29",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 18909.0,
+      "impressions": 8265.0,
+      "reach": 6716.0,
+      "link_clicks": 60.0,
+      "landing_page_views": 34.0,
+      "cpc": 315.15,
+      "cost_per_lpv": 556.1470588235,
+      "ctr": 0.7259528131,
+      "lpv_rate": 56.6666666667
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "date": "2026-06-30",
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "spend": 19733.0,
+      "impressions": 6879.0,
+      "reach": 5882.0,
+      "link_clicks": 58.0,
+      "landing_page_views": 34.0,
+      "cpc": 340.224137931,
+      "cost_per_lpv": 580.3823529412,
+      "ctr": 0.8431458061,
+      "lpv_rate": 58.6206896552
     }
   ],
   "campaigns": [
@@ -29649,17 +29757,17 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "source_account": "gudok_official_app",
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
-      "spend": 146467.0,
-      "impressions": 43149.0,
-      "reach": 37283.0,
-      "link_clicks": 442.0,
-      "landing_page_views": 284.0,
+      "spend": 265349.0,
+      "impressions": 89342.0,
+      "reach": 75210.0,
+      "link_clicks": 803.0,
+      "landing_page_views": 496.0,
       "first_date": "2026-06-16",
-      "last_date": "2026-06-24",
-      "cpc": 331.3733031674,
-      "cost_per_lpv": 515.7288732394,
-      "ctr": 1.024357459,
-      "lpv_rate": 64.2533936652,
+      "last_date": "2026-06-30",
+      "cpc": 330.4470734745,
+      "cost_per_lpv": 534.9778225806,
+      "ctr": 0.8987934006,
+      "lpv_rate": 61.7683686177,
       "core_audience": "25-34 남성",
       "judgment": "유지 관찰"
     }
@@ -63313,6 +63421,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "25-34",
+      "gender": "female",
+      "spend": 6229.0,
+      "impressions": 2785.0,
+      "reach": 2341.0,
+      "link_clicks": 19.0,
+      "landing_page_views": 9.0,
+      "cpc": 327.8421052632,
+      "cost_per_lpv": 692.1111111111,
+      "ctr": 0.6822262118,
+      "lpv_rate": 47.3684210526,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
       "gender": "male",
       "spend": 6563.0,
       "impressions": 803.0,
@@ -63353,6 +63481,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "25-34",
+      "gender": "male",
+      "spend": 52800.0,
+      "impressions": 24289.0,
+      "reach": 20226.0,
+      "link_clicks": 158.0,
+      "landing_page_views": 85.0,
+      "cpc": 334.1772151899,
+      "cost_per_lpv": 621.1764705882,
+      "ctr": 0.6505002264,
+      "lpv_rate": 53.7974683544,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
       "gender": "unknown",
       "spend": 16.0,
       "impressions": 3.0,
@@ -63382,6 +63530,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 299.0,
       "cost_per_lpv": null,
       "ctr": 0.9259259259,
+      "lpv_rate": 0.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "25-34",
+      "gender": "unknown",
+      "spend": 309.0,
+      "impressions": 157.0,
+      "reach": 123.0,
+      "link_clicks": 2.0,
+      "landing_page_views": 0.0,
+      "cpc": 154.5,
+      "cost_per_lpv": null,
+      "ctr": 1.2738853503,
       "lpv_rate": 0.0,
       "date": null
     },
@@ -63433,6 +63601,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "35-44",
+      "gender": "female",
+      "spend": 5867.0,
+      "impressions": 1081.0,
+      "reach": 883.0,
+      "link_clicks": 18.0,
+      "landing_page_views": 9.0,
+      "cpc": 325.9444444444,
+      "cost_per_lpv": 651.8888888889,
+      "ctr": 1.6651248844,
+      "lpv_rate": 50.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
       "gender": "male",
       "spend": 4240.0,
       "impressions": 524.0,
@@ -63473,6 +63661,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "35-44",
+      "gender": "male",
+      "spend": 24612.0,
+      "impressions": 9970.0,
+      "reach": 8460.0,
+      "link_clicks": 68.0,
+      "landing_page_views": 40.0,
+      "cpc": 361.9411764706,
+      "cost_per_lpv": 615.3,
+      "ctr": 0.6820461384,
+      "lpv_rate": 58.8235294118,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
       "gender": "unknown",
       "spend": 35.0,
       "impressions": 3.0,
@@ -63502,6 +63710,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "cpc": 270.0,
       "cost_per_lpv": 270.0,
       "ctr": 1.7857142857,
+      "lpv_rate": 100.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "35-44",
+      "gender": "unknown",
+      "spend": 163.0,
+      "impressions": 51.0,
+      "reach": 43.0,
+      "link_clicks": 1.0,
+      "landing_page_views": 1.0,
+      "cpc": 163.0,
+      "cost_per_lpv": 163.0,
+      "ctr": 1.9607843137,
       "lpv_rate": 100.0,
       "date": null
     },
@@ -63553,6 +63781,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "45-54",
+      "gender": "female",
+      "spend": 2191.0,
+      "impressions": 511.0,
+      "reach": 371.0,
+      "link_clicks": 8.0,
+      "landing_page_views": 6.0,
+      "cpc": 273.875,
+      "cost_per_lpv": 365.1666666667,
+      "ctr": 1.5655577299,
+      "lpv_rate": 75.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
       "gender": "male",
       "spend": 3307.0,
       "impressions": 389.0,
@@ -63593,6 +63841,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "45-54",
+      "gender": "male",
+      "spend": 12814.0,
+      "impressions": 3262.0,
+      "reach": 2676.0,
+      "link_clicks": 50.0,
+      "landing_page_views": 36.0,
+      "cpc": 256.28,
+      "cost_per_lpv": 355.9444444444,
+      "ctr": 1.532801962,
+      "lpv_rate": 72.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
       "gender": "unknown",
       "spend": 1.0,
       "impressions": 1.0,
@@ -63617,6 +63885,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "spend": 41.0,
       "impressions": 8.0,
       "reach": 6.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "45-54",
+      "gender": "unknown",
+      "spend": 24.0,
+      "impressions": 8.0,
+      "reach": 8.0,
       "link_clicks": 0.0,
       "landing_page_views": 0.0,
       "cpc": null,
@@ -63673,6 +63961,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "55-64",
+      "gender": "female",
+      "spend": 907.0,
+      "impressions": 336.0,
+      "reach": 255.0,
+      "link_clicks": 2.0,
+      "landing_page_views": 1.0,
+      "cpc": 453.5,
+      "cost_per_lpv": 907.0,
+      "ctr": 0.5952380952,
+      "lpv_rate": 50.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
       "gender": "male",
       "spend": 1037.0,
       "impressions": 147.0,
@@ -63713,10 +64021,50 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "55-64",
+      "gender": "male",
+      "spend": 7883.0,
+      "impressions": 2194.0,
+      "reach": 1798.0,
+      "link_clicks": 23.0,
+      "landing_page_views": 17.0,
+      "cpc": 342.7391304348,
+      "cost_per_lpv": 463.7058823529,
+      "ctr": 1.0483135825,
+      "lpv_rate": 73.9130434783,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
       "gender": "unknown",
       "spend": 33.0,
       "impressions": 8.0,
       "reach": 6.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "55-64",
+      "gender": "unknown",
+      "spend": 32.0,
+      "impressions": 8.0,
+      "reach": 5.0,
       "link_clicks": 0.0,
       "landing_page_views": 0.0,
       "cpc": null,
@@ -63773,6 +64121,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "65+",
+      "gender": "female",
+      "spend": 500.0,
+      "impressions": 177.0,
+      "reach": 128.0,
+      "link_clicks": 1.0,
+      "landing_page_views": 1.0,
+      "cpc": 500.0,
+      "cost_per_lpv": 500.0,
+      "ctr": 0.5649717514,
+      "lpv_rate": 100.0,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
       "gender": "male",
       "spend": 416.0,
       "impressions": 52.0,
@@ -63813,6 +64181,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "campaign_id": "120248632173040551",
       "campaign": "차량구독 2026. 6. 16 캠페인",
       "age": "65+",
+      "gender": "male",
+      "spend": 4517.0,
+      "impressions": 1354.0,
+      "reach": 1108.0,
+      "link_clicks": 13.0,
+      "landing_page_views": 7.0,
+      "cpc": 347.4615384615,
+      "cost_per_lpv": 645.2857142857,
+      "ctr": 0.9601181684,
+      "lpv_rate": 53.8461538462,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
       "gender": "unknown",
       "spend": 17.0,
       "impressions": 2.0,
@@ -63837,6 +64225,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       "spend": 46.0,
       "impressions": 15.0,
       "reach": 10.0,
+      "link_clicks": 0.0,
+      "landing_page_views": 0.0,
+      "cpc": null,
+      "cost_per_lpv": null,
+      "ctr": 0.0,
+      "lpv_rate": null,
+      "date": null
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "media": "Instagram",
+      "source_account": "gudok_official_app",
+      "campaign_id": "120248632173040551",
+      "campaign": "차량구독 2026. 6. 16 캠페인",
+      "age": "65+",
+      "gender": "unknown",
+      "spend": 34.0,
+      "impressions": 10.0,
+      "reach": 8.0,
       "link_clicks": 0.0,
       "landing_page_views": 0.0,
       "cpc": null,
@@ -67478,6 +67886,24 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "inquiries": 1,
         "medium_or_high_signals": 0,
         "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-25",
+        "source": "unknown",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-26",
+        "source": "app",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       }
     ],
     "monthly": [
@@ -67989,7 +68415,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "year": 2026,
         "month": 6,
         "source": "app",
-        "inquiries": 15,
+        "inquiries": 16,
         "medium_or_high_signals": 1,
         "high_signals": 0
       },
@@ -68000,6 +68426,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "inquiries": 4,
         "medium_or_high_signals": 1,
         "high_signals": 1
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "source": "unknown",
+        "inquiries": 1,
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       }
     ],
     "monthlyContracts": [
@@ -78672,6 +79106,42 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "contract_inflow_source": "",
         "contract_match_method": "",
         "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-25",
+        "source": "unknown",
+        "vehicle_model": "",
+        "vehicle_trim": "",
+        "subscription_period": "",
+        "consulting_status": "",
+        "contract_status": "",
+        "contract_signal": "",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
+      },
+      {
+        "year": 2026,
+        "month": 6,
+        "date": "2026-06-26",
+        "source": "app",
+        "vehicle_model": "5 시리즈",
+        "vehicle_trim": "520i M 스포츠",
+        "subscription_period": "3년 (36개월)",
+        "consulting_status": "",
+        "contract_status": "",
+        "contract_signal": "",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "reply_count": 0
       }
     ],
     "contracts": [
@@ -79014,11 +79484,11 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     ],
     "sourceFreshness": {
       "first_date": "2025-06-05",
-      "latest_date": "2026-06-23"
+      "latest_date": "2026-06-26"
     }
   },
   "creatives": {
-    "generatedAt": "2026-05-19T23:45:50",
+    "generatedAt": "2026-07-01T15:03:03",
     "sourceType": "meta_graph_api",
     "ads": [
       {
@@ -79032,8 +79502,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-30-58dcdd06345a05868e9d546946e05f42",
         "title": "모두의충전",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12611676796177715426?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLQ5mNmhAG4BjIP4QqcN0OgSF2nszr0s4wr5kGxPVy5DQG57Hu7B_WHX_n8Je0HKnz4mui3yg09r-QEi8OgnlAzPACl3eaJU1u0VSDbb0VXxLrJQJIuugzKhVeSkwZsYZmUtIu2E2q5uOhicLIs6PI7&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adreqo3dFVhrpK78BGJs7wPjfJxwqUb1t6a9n6PwCgyLK2ZXY2QxwoG4s9FFKZJTel8&ccb=13-1&oh=06_Q3-_AU9ogIK1Tno3-EuSQC5FbyWwLy_v1SyZotCL3ViFJYOM&oe=6A0E5F04&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/683544521_122171588276921574_1938511091069648766_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=gQ1jGzKPbIkQ7kNvwHHzwD7&_nc_oc=AdqiK7uyMWh2flhr3_VBDKv2MVWTYtvjHDzAvj-7-d98dLP-3cjikfhDmtRzuADrzY0&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQGRRpg6bbBMwAySWWsNwL6_P9PJsbME4cwAY3-0AWOUIxhnVHXzMYOANubOoexYPpqOpfCzbSQelg&oh=00_Af5ngDF_va9_yncKXyDuUpP38v7H2VAKPHXEFesKqUOwow&oe=6A122EDA",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12611676796177715426?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLQ5mNmhAG4BjIP4QqcN0OgSF2nszr0s4wr5kGxPVy5DQG57Hu7B_WHX_n8Je0HKnz4mui3yg09r-QEi8OgnlAzPACl3eaJU1u0VSDbb0VXxLrJQJIuugzKhVeSkwZsYZmUtIu2E2q5uOhicLIs6PI7&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdqQNB_uaFPJpupNyaFNX1-3bhL0ehxDtHSLXQsYl2zv28hbYdv7zx6beP5GFFmMRDU&ccb=13-1&oh=06_Q3_AAcq7RIGEBTYYccfZRgh_xyXcKpMAEQgv8z0tiRJrVBXp&oe=6A469F04&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/683544521_122171588276921574_1938511091069648766_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=PO6E_Uj2y8YQ7kNvwE6D3iu&_nc_oc=Adp4V1MdeO-bvf3wsHzdWd5M101Pnr6qkktatjkInO-ohsapjApriOr2l5naaS8RzAs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQE6zeQEimoTuD9TkF_6ZSsusasQHKuLbJgU78BzEquIViKrtIJL_3Pv6LE2z1zNi3C4tY05rSq-Jg&oh=00_AQC4yoqUkc1LPZ3HUCs4BuZIicwxg-uW6n8SJg0qFGIvTQ&oe=6A4A6EDA",
         "instagram_permalink_url": "https://www.instagram.com/p/DXv8_5ODLXP/",
         "effective_object_story_id": "706740269185873_122171588192921574"
       },
@@ -79048,8 +79518,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "web.deliverycharging.com 2026-04-15-a3408bb30d4f26a9cbbd710d3ded9e82",
         "title": "web.deliverycharging.com",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5878580946024616994?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJWMKteEAV0a4ijbKzjlgPZp7uPwu3r3WCljW_Q7_HR2Zb9xIlY6WoHY-dopuoI8mfpkdoYkWDG2_6YO1Bhhj3gLBhdGny_Sl3Nm-Vqc7quL13wQ3m-1ZtikSQ6OH4hQwVPXhyfQdYGyQq7vc86ErE_&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adr6BY-zuU5G4OP4IEYyK_qgHI5_x3H8973pRjUBe9v9V2oN14u-G5Ua6RgJysXF9tI&ccb=13-1&oh=06_Q3-_AT0sH3S30LgLOmtUvHNYpzZoy1ZvY8nRbY7JFlKQmjiS&oe=6A0E42C0&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/671712104_122169449984921574_2672865495213938596_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=uFiu5hjMKeIQ7kNvwHTIhiT&_nc_oc=Adq8N8SwEha4YvQPoBxH2AiFWFdOyj9tW4zo63q_le7ceu3OqltNTmPxzUn2A8i6144&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQE_qywxuijF36ULGR-54B5uRI9rHYFECFnG6XYIRbpGNiBPCnkfZAPU1E76zN1s8-gf94QFSD7hZw&oh=00_Af5RxXH8eCmy4l93mhyWoF5rBdDTDhXl0_BB2QLyTGAu9w&oe=6A1262A5",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5878580946024616994?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJWMKteEAV0a4ijbKzjlgPZp7uPwu3r3WCljW_Q7_HR2Zb9xIlY6WoHY-dopuoI8mfpkdoYkWDG2_6YO1Bhhj3gLBhdGny_Sl3Nm-Vqc7quL13wQ3m-1ZtikSQ6OH4hQwVPXhyfQdYGyQq7vc86ErE_&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=Adq8AQPJwDkosbIv9sPIxH8eiU3M-H3U2QodWmSFrGLy6vrFGUIJUQdalrECRTfrCNY&ccb=13-1&oh=06_Q3_AAcX2_LORcjY2mU4fAsvEuw3N_0-Ubd-HkauzHswu0YWx&oe=6A4682C0&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/671712104_122169449984921574_2672865495213938596_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=3dDGZgBNLx8Q7kNvwFC3LKc&_nc_oc=Adob7X87I3MV0-2yRR_-vKEc4dU_oPL7K7uhWcVJgb4gmgEh89YZyj9HB45afrbckOg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQHnc18UV_GRIr7jFQnyZQaZ72Zg98nhuzpY7IskQYyvg4wSIEXxKRuE5We8E1kUPQpFe1150c1nGw&oh=00_AQAMeVTOKNzZCX8Rcb8MaVLH84rIfRt0FjDZuJWts7EYZg&oe=6A4A6A65",
         "instagram_permalink_url": "https://www.instagram.com/p/DXJYZmTDHfZ/",
         "effective_object_story_id": "706740269185873_122169455546921574"
       },
@@ -79064,8 +79534,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "web.deliverycharging.com 2026-04-15-5fefeab4f48d8b33f5d070aeb8b3aabb",
         "title": "web.deliverycharging.com",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2053209813683520323?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJDXy34T-L7kYWbtLWo31Q1kqRaY0CiEYH7Br2Hc1vS_stHV1aYKRLjUnu2-_5l1LzIvof7Dw6sVLFrXfdEU12QY5S8AShvr1TLmN7hWl9vXMEjDwGONNwW3AUE6P9rF_QfxKqFJrNNCAeOuAgxlu2S&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Ado79DgDwBmeff5XIzfGAcR4yOj2EMfKR7psY5hrUgD2eXGm2quq3N-_ssvjnSiTG3w&ccb=13-1&oh=06_Q3-_Aa44WA8lME1nqpckiQB2M5pBtVRtNZXpni627K2PagVS&oe=6A0E6C00&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=9ilTdfJXDUsQ7kNvwHaR3dP&_nc_oc=Adr_LYlW3QRQDtDe4I2VdWkxHjEuYtaQBwDfojZHlomMMXcmNS5EFLNS3D4CnQeolDk&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQFSrch-0_ERiAKYoS0ZLBcYb6YK55LTpKdEQYVXxM6xsUiDhWIGGfnOr40LUBJwp3PwCHoDOhziaA&oh=00_Af4t8qK33uHWDXzoARcofcky3X76hDGv-67kOciIROrI9Q&oe=6A1264C4",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2053209813683520323?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJDXy34T-L7kYWbtLWo31Q1kqRaY0CiEYH7Br2Hc1vS_stHV1aYKRLjUnu2-_5l1LzIvof7Dw6sVLFrXfdEU12QY5S8AShvr1TLmN7hWl9vXMEjDwGONNwW3AUE6P9rF_QfxKqFJrNNCAeOuAgxlu2S&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdorTCdfJp7pLMSP6me2hnr-h8oaQ1aF2OqoSXU2VNkRkK2m7ZkF_X0_6MLA0jBgswU&ccb=13-1&oh=06_Q3_AAeL19YLYreMr-zjcLay0mhEqX9Jr2XQanW2iehYdTBFB&oe=6A4673C0&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WrwBnCNab9kQ7kNvwFtop6m&_nc_oc=AdpLhWuCOCq_Ecr28aGVx86vyOZMA1wZyqpmF0_Gq3_9j1Wv9VXLp3q3eLp3Ajc8fMg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEFBcEt0thvC9TEOt6h3jp7q1nUdeBFxAD4UBO6U7Kk7SXxi_V2IL9ZgKWvz4MaxVpDDSYrpKJZJA&oh=00_AQAdCwA8-ld3efTUM1q7ZVzxRr1j1NB7zJcKWdA4oF4lrw&oe=6A4A6C84",
         "instagram_permalink_url": "https://www.instagram.com/p/DXJX4RSjJ3G/",
         "effective_object_story_id": "706740269185873_122169454544921574"
       },
@@ -79080,8 +79550,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "web.deliverycharging.com 2026-04-15-d8f6e6623a6a70534bfb4b29683f474f",
         "title": "web.deliverycharging.com",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11841027799498181661?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJSWoUx9FbFeh4j3vHit2tqUQTVc64E_pw4VIpq8lN51Pnog5R3cfpep9pvh5erCPMGvSoi_Gt_5pV7Y4QweACZ3I1SPugesMul0uTEX88tur1IlAdAWXbBCI-LPhkgNhgeDoxeNa_Ul21L7DaFzsvL&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adriarv79qxjIxcsr5B2t2ZZ7p4ZIxNThgboTEJNWLwVCXQx_x2jrlVTPYZeVLW6Yes&ccb=13-1&oh=06_Q3-_AbyPzuQCO5zsg_l2OBeyZEpPpsD9UpDLu9X82E-iQ4Rh&oe=6A0E39DF&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/673401562_122169449198921574_954651837468052413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=0YZo3uf6vswQ7kNvwEfPYER&_nc_oc=Adqio0pOY3Buq0VK1sInX2REQ6wKJG9NsL_X3Bzh6fWHZqw3_x_iarzbOeJ3WIKruV4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQEDq38y8A_Cm_2KwCuIPtmYX7wqrgMPcoYay_BJaJmp8FYiYWGy5HrT_a1LDpQh-YmInXkAKh2cAw&oh=00_Af7RUgEFKzIe8N_AkcMjlaahjdjwW00qS4iROD63lZX9lQ&oe=6A12397E",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11841027799498181661?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJSWoUx9FbFeh4j3vHit2tqUQTVc64E_pw4VIpq8lN51Pnog5R3cfpep9pvh5erCPMGvSoi_Gt_5pV7Y4QweACZ3I1SPugesMul0uTEX88tur1IlAdAWXbBCI-LPhkgNhgeDoxeNa_Ul21L7DaFzsvL&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdrYE_yNJGP7BR6BD-LgJHZn8FK3wkWQhlScjBxlGTZ34HWcJxUhQ8Vnmb0IaLjU6Bk&ccb=13-1&oh=06_Q3_AAZbc-60xoUwcS4qkyCLjO5iOcjVXNEeRUh7YlzO8abQt&oe=6A4679DF&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/673401562_122169449198921574_954651837468052413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=7votQRUS4fAQ7kNvwFAZqg1&_nc_oc=AdoWsrkBAGjYQz9ZBRjQRWgQN_vO8f_9Zq67k9O0T6zR-5BRJOQ6UpTMzoNqrMUs0ls&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQGkgPRdH2mn-59-BuV6Zc-R_a7Pj1jJ52dEyJFOKACvb3MN8bMHoqz15F1aqirarxBrcJNvXRuNmw&oh=00_AQC8sX6KtgTP6SlerDl8gqW6mhGR7-Ux7_DDSknTc20ddQ&oe=6A4A797E",
         "instagram_permalink_url": "",
         "effective_object_story_id": "706740269185873_122169455126921574"
       },
@@ -79096,7 +79566,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함 2026-03-03-498c334ab6fd57914ec027fa9eb3e257",
         "title": "",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vlx23jGtzJUQ7kNvwG4kHKU&_nc_oc=Adr5yuBlSap2BM6zibt7vow3D1eaDOz2z5mYvF0HKBoY80HUnQKpQVndBKIa7mDEYR0&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQH9tCsG9hxLpLRui3VtFZNjj-katFTSkrmLs0gBACaydzzcXvD38IHXf32yBxVoex1FNkna4Tt2jw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_Af4l2JUn_gSEN7QoaacE_jRIOn--gz57mCrbXGKJgzBeww&oe=6A125985",
+        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEd75LEmNNI8eAv8mk89EfJu5rKpGRm-bsy7DY4wPKGdpGAnjdXG17-byuKYitWkkg4X8vYKlBTcg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQA_gCL957cE8dn43ELDNoGMf9IjkWvQSFXgRbU0wuWH5A&oe=6A4A9985",
         "image_url": "",
         "instagram_permalink_url": "",
         "effective_object_story_id": "706740269185873_122157730814921574"
@@ -79112,8 +79582,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-15-b594d40c80b879a1bbbecc4cc154b009",
         "title": "",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vlx23jGtzJUQ7kNvwG4kHKU&_nc_oc=Adr5yuBlSap2BM6zibt7vow3D1eaDOz2z5mYvF0HKBoY80HUnQKpQVndBKIa7mDEYR0&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQGMAWOM-CjlEaR5oX0_pjAQ6hDaweXpEb9KalkL3LlwbyvLMGN3ka_HmPA1yxtG5KvKbOuT5IQYJg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_Af42ifsHfdpxoaBHezhQROcVFBV2uiMGYSt6qmLkihMXrg&oe=6A125985",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=9ilTdfJXDUsQ7kNvwHaR3dP&_nc_oc=Adr_LYlW3QRQDtDe4I2VdWkxHjEuYtaQBwDfojZHlomMMXcmNS5EFLNS3D4CnQeolDk&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQFSrch-0_ERiAKYoS0ZLBcYb6YK55LTpKdEQYVXxM6xsUiDhWIGGfnOr40LUBJwp3PwCHoDOhziaA&oh=00_Af4t8qK33uHWDXzoARcofcky3X76hDGv-67kOciIROrI9Q&oe=6A1264C4",
+        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEIklBMy-O-lHRIBfU_pUCCUiIU6M0LHmmjINNzwzE5dKuBcllPdgun5Ky7PhB48p4Luzd2a_bvzw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQB5X4n-VFDCflIevmxOaBMzXCUdxZG_d6eW5252BPxloA&oe=6A4A9985",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WrwBnCNab9kQ7kNvwFtop6m&_nc_oc=AdpLhWuCOCq_Ecr28aGVx86vyOZMA1wZyqpmF0_Gq3_9j1Wv9VXLp3q3eLp3Ajc8fMg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEFBcEt0thvC9TEOt6h3jp7q1nUdeBFxAD4UBO6U7Kk7SXxi_V2IL9ZgKWvz4MaxVpDDSYrpKJZJA&oh=00_AQAdCwA8-ld3efTUM1q7ZVzxRr1j1NB7zJcKWdA4oF4lrw&oe=6A4A6C84",
         "instagram_permalink_url": "https://www.instagram.com/p/DXJWAGjDARE/",
         "effective_object_story_id": "706740269185873_122169449540921574"
       },
@@ -79128,8 +79598,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-15-f506b913772a836ee2c04230c7a346c3",
         "title": "",
         "body": "",
-        "thumbnail_url": "",
-        "image_url": "",
+        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQHYs-wWQ7T0RL-p4_085zqxoAT_cs25PETtgxtLcHnuJw8KJd84Ejn1y1W9VUgp2M3MfsGE_xTw9g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQDPc6uHdBs--DSX1TeNy-eBvaNYiIJ9t6r4LL1iwtqT7g&oe=6A4A9985",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/673401562_122169449198921574_954651837468052413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=7votQRUS4fAQ7kNvwFAZqg1&_nc_oc=AdoWsrkBAGjYQz9ZBRjQRWgQN_vO8f_9Zq67k9O0T6zR-5BRJOQ6UpTMzoNqrMUs0ls&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQGkgPRdH2mn-59-BuV6Zc-R_a7Pj1jJ52dEyJFOKACvb3MN8bMHoqz15F1aqirarxBrcJNvXRuNmw&oh=00_AQC8sX6KtgTP6SlerDl8gqW6mhGR7-Ux7_DDSknTc20ddQ&oe=6A4A797E",
         "instagram_permalink_url": "",
         "effective_object_story_id": "706740269185873_122169449114921574"
       },
@@ -79144,7 +79614,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-01-25-4e32880d8b43664890b580c797ba9074",
         "title": "모두의충전",
         "body": "",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2023233902621824993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKvSGNtBPRcGNkVz5TVMvRDNBuzUqR30l2igGIosPiIcSc21VvC8sFKXYMr-z0GzG27ZiOX7TL8RpbfIlUE6zIzm-Wk6oamuiwkryVMTU7n7zNoHf0SsICHZzaor_vQaOuKc3WRhsVci-PqHFm7ejR3&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=AdqG1MbLUVsl67R9zgAEAX0FEwe699KTD3dGPmUA_KggXVR7tQxZLUJ4pv0l-FlPASQ&ccb=13-1&oh=06_Q3-_Ac1YXBYxp0PCVNIYLZR8sYFWKGuRDo3M6Ydw_0s7slG8&oe=6A0E43AE&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2023233902621824993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKvSGNtBPRcGNkVz5TVMvRDNBuzUqR30l2igGIosPiIcSc21VvC8sFKXYMr-z0GzG27ZiOX7TL8RpbfIlUE6zIzm-Wk6oamuiwkryVMTU7n7zNoHf0SsICHZzaor_vQaOuKc3WRhsVci-PqHFm7ejR3&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdpSjuwO4ffZzkmmjhmzGwecb7ndB7h-MF9QRXPHchNFT2PP2eddxFK9brJsoZ355L0&ccb=13-1&oh=06_Q3_AAY_vJO9dBq-euMKPZcnTNsfW2VT2vSKE1L3FV7RN3mjv&oe=6A4683AE&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DT9JbhHjKFV/",
         "effective_object_story_id": "706740269185873_122157409820921574"
@@ -79160,8 +79630,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-08-13-8dc21237332558db440dc500c440f5c6",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10854859823791785165?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIZ4h1SrEcoywAb6MltI4auh19irDcbMwKfia9X4UszQkvKYYJn548m2xLMvlvJZkEJ2sGIxMreDAXGYfoJXf7ZL4eerCYAAsmRGMUugeyrYnQiA2puPMXUxIb4HfatlTszcEgw4MG31c7e_YCSUBvw&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adojpc7L4xM0Wnk56pR0un_af9JZLg4uH7g1eIPYDqxnVe7zB09yg645pQDdkQ2lCtM&ccb=13-1&oh=06_Q3-_AV8bnqe537XRtoekCzJ7tdtXIh6FZYUZ5TJ69W5FlZS6&oe=6A0E6499&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=KAFG8koO9iYQ7kNvwGgNeL7&_nc_oc=Adour8-BQrdRILjOC6AujMUDbnOEl-uoRQZwKwLFg1K0YfVHD74CobFx8Dr_pJOhgJI&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQF4a7cQx2sbqT4JronkIU9i5IO_8qI80igJtWHMswyZP8ok_YnVtIIzkSUgrPTCTiIWaPLENvEXGA&oh=00_Af7f4vB8Ojov7_OL9oXxPGHWXwKWAMAOKo1uBts7bGsQ7A&oe=6A123283",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10854859823791785165?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIZ4h1SrEcoywAb6MltI4auh19irDcbMwKfia9X4UszQkvKYYJn548m2xLMvlvJZkEJ2sGIxMreDAXGYfoJXf7ZL4eerCYAAsmRGMUugeyrYnQiA2puPMXUxIb4HfatlTszcEgw4MG31c7e_YCSUBvw&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdqY1B-ZVi64doV5spNfIERRjd9PJAxAKKhL0GOAm_bL-bz-5ie29ultmxBLfziQUQs&ccb=13-1&oh=06_Q3_AAf43aqLHZOnEfOmhd9Zn3rKDTurrARL8hS1leBfG3usZ&oe=6A46A499&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=SseYZOTnum8Q7kNvwGv2gcP&_nc_oc=AdpJ3lc0evyE-QFZi8AKk-ONWyzVjN8_kiNLFpWxMcDbDuRidEgj8vQJTiuO8aGV2-s&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQFNYQpaGEKJsFZI4bARuTV1NFAaPojuKgIpmhzgVQuQt9O1jEE9F4yn32oQYY43QyKYBzDUSGoskQ&oh=00_AQCENekNBJajbMqJwkI1rIiWyQ2LOgv4R1l39XaylddRYQ&oe=6A4A7283",
         "instagram_permalink_url": "https://www.instagram.com/p/DNU1xXKsfFw/",
         "effective_object_story_id": "706740269185873_122123422058921574"
       },
@@ -79176,7 +79646,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-22-44d097c0aff9316bb704361759df42e4",
         "title": "모두의충전",
         "body": "💥💥 보증금도 서류도 없이 벤츠 타기?\n수입차 구독 지금 신청하기👉👉",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8776100868344920760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJZ7tt043oi-O5PApOKbqJ45pc1tK6s899yV35KX1iNa-gYGoYE4vdAnSepLM0sj4zdoVnvf0UFUDEsl-tIDane8gFKlQsxsdKwEsc3EnpAitK4mIA1MTDMOxXQGLJR47FF42ZAW8PCL9Ijdh4fOEU9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=AdpxiiSUNYD-x-RpTW9UwEdePLEZGhYg28C6yFLyNZBhfI6_gLinniy8VhZIdOESdQ0&ccb=13-1&oh=06_Q3-_Ac6u2EdlXIOBP1uG5OlG28D2B_KvPM1FAVZCC1NDA-Il&oe=6A0E4F4D&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8776100868344920760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJZ7tt043oi-O5PApOKbqJ45pc1tK6s899yV35KX1iNa-gYGoYE4vdAnSepLM0sj4zdoVnvf0UFUDEsl-tIDane8gFKlQsxsdKwEsc3EnpAitK4mIA1MTDMOxXQGLJR47FF42ZAW8PCL9Ijdh4fOEU9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdpOw2l8iCoxQ-bh2aVRSfU-BVFCCs2faWpzmmzDL3axkGeOD9UXlrnpqtDJomH3kgc&ccb=13-1&oh=06_Q3_AAUv4aysT_ihigc9VE-ppHNRWkoNwXJr0qrbgpKcYr7sB&oe=6A468F4D&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DLO9dOps0Wh/",
         "effective_object_story_id": "706740269185873_122099717204921574"
@@ -79192,10 +79662,26 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-09-02-cd5ead32f8c5d4bca0d447e2ce202b3c",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15295395107166974291?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLtK1GhvmJb32dinQmvkEXdE3S8X6vDjr4ufgJmjPHQwsxp4IQ2Q4cStfFbGHo4Z73zlCdEN9wb8N7A-WS65V36ULiQetT8MrpDnYB-0nzuBvtGEhnKT5oLoXQknPiBy0Kx6oE0RpgNwt_LPSy4wRD9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=AdowrIwIRL-ya8n-rZTC0sYRUOkMMtHVtzRAdrPWdjyQ7EnLxkqB5sz65LWrJeli-BQ&ccb=13-1&oh=06_Q3-_AY0r66m9OINDOwFh0Pv9SDw0Ds88RnElk8J3lSyKP-Tu&oe=6A0E638D&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=KAFG8koO9iYQ7kNvwGgNeL7&_nc_oc=Adour8-BQrdRILjOC6AujMUDbnOEl-uoRQZwKwLFg1K0YfVHD74CobFx8Dr_pJOhgJI&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQF4a7cQx2sbqT4JronkIU9i5IO_8qI80igJtWHMswyZP8ok_YnVtIIzkSUgrPTCTiIWaPLENvEXGA&oh=00_Af7f4vB8Ojov7_OL9oXxPGHWXwKWAMAOKo1uBts7bGsQ7A&oe=6A123283",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15295395107166974291?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLtK1GhvmJb32dinQmvkEXdE3S8X6vDjr4ufgJmjPHQwsxp4IQ2Q4cStfFbGHo4Z73zlCdEN9wb8N7A-WS65V36ULiQetT8MrpDnYB-0nzuBvtGEhnKT5oLoXQknPiBy0Kx6oE0RpgNwt_LPSy4wRD9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdpVOrQRMyv5wWKQROVUtAxb0RHs9Z-b97T8UrVhetrqRkxXx9dki8z9ha3Csvz6whQ&ccb=13-1&oh=06_Q3_AAWbNzKKFEjqw1oEYGXf_UboMq23awUQfOql7SNtj4Yd_&oe=6A46A38D&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=SseYZOTnum8Q7kNvwGv2gcP&_nc_oc=AdpJ3lc0evyE-QFZi8AKk-ONWyzVjN8_kiNLFpWxMcDbDuRidEgj8vQJTiuO8aGV2-s&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQFNYQpaGEKJsFZI4bARuTV1NFAaPojuKgIpmhzgVQuQt9O1jEE9F4yn32oQYY43QyKYBzDUSGoskQ&oh=00_AQCENekNBJajbMqJwkI1rIiWyQ2LOgv4R1l39XaylddRYQ&oe=6A4A7283",
         "instagram_permalink_url": "https://www.instagram.com/p/DOH0_HODGfW/",
         "effective_object_story_id": "706740269185873_122128375784921574"
+      },
+      {
+        "media": "Instagram",
+        "source_account": "gudok_official_app",
+        "ad_id": "120248632173050551",
+        "ad_name": "차량구독 2026. 6. 16 광고",
+        "campaign_id": "120248632173040551",
+        "campaign": "차량구독 2026. 6. 16 캠페인",
+        "creative_id": "2966991186804782",
+        "creative_name": "AI도 이해 못 하는 이 가격에 테슬라 타기! 2026-06-23-739484db5c8fce7f51b238994a2e52c9",
+        "title": "AI도 이해 못 하는 이 가격에 테슬라 타기!",
+        "body": "전기차 구독, 지금 시작하세요",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7748978918665775608?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQInu4UropURhcXZ1AlgQ2mL4tmmvc0pmFOQW6SVNfc_3BIpSjBcpXG_K5c15IB-GvIYL6wpKGRX-vzAVZxjYIh-pE8k8EuCNDShAe5_XQr8QYwC-yVvZrRnXIbm7WjTQ9wtI6MCSj6Ox7Nzzv9xMnRo&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqlSWq7ov1TunGgaoWgh5L2M8cYp5x_jQAYmeO9opWHfzNZXwT66y8jzBQNRPQYv2A&ccb=13-1&oh=06_Q3_AAU-64kMlA_qbjMmLgzPeuuWGhRs3i7Dc4MuJGPwHiWeP&oe=6A46845D&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/725439684_122177848994883764_3978375527675522653_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=huW9Q2VrONIQ7kNvwEVxy-p&_nc_oc=AdqFAV1PZMsTnSrT8HHpphihOx8A2UgjbBMEYfVcTBbadgSB3_ssXCSopVROs1y3lbA&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQGiZKlE5ifMU2Rc_mOXBJRGa1syshhw8476ORDahBZ3TIvzm3h3ZpLDfE6k_Rr3IOaPOKIaDOCtkQ&oh=00_AQBEJogj5k_qh4ibopYqE821SoEB20hNt1C6HBGfDueckA&oe=6A4A7EB9",
+        "instagram_permalink_url": "https://www.instagram.com/p/DZ9RkbysGHz/",
+        "effective_object_story_id": "706740269185873_122179570712921574"
       },
       {
         "media": "Instagram",
@@ -79208,8 +79694,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-30-a88e617065820635eea1bad70ea8a6ab",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11344180690846266275?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI5lMLAg0UqynzMvE4udVGvQUtcjdmMv-VR4YM7IFZSEOkzrjaFUFhiv_3aMHRYr7lZHOVoUNDJB_jqhUW9fHzt3r5nZTkOu4A2Kf1QrvC276yHr3dB68Ii1692neac9sXz3RyeO-03tNvOdijrSYqY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqHt42HuvElZjIpCeis6HAmZaiRCogg1GDn5RRV3eeObMoID_2aRvnukeG25Uxy5C8&ccb=13-1&oh=06_Q3-_AWzIrX_2Yu0_fYu6G_G2fNRV2TfzPyc5Bqxnx8kofsUZ&oe=6A0E7043&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/684120922_122171817290883764_6902502160717704869_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=A4DJOVegfkcQ7kNvwHRqHfH&_nc_oc=Adq_0B1YwX7umUYM9_h3dsrIhM6X8Tf78VQBeePoOgiIfaCGfUHahHWmClu4WmVFJJI&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFd_68hTajPCHgBWHEY4gp9xjFdKVC-Qz1GfFF-bLBFwSRgQBDhg646vo_pEFQGnXfQiDA1eKs1BQ&oh=00_Af7cGElb7qhLdtSy-qCKan_iLwngjdqo1GykSkypllrntw&oe=6A124268",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11344180690846266275?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI5lMLAg0UqynzMvE4udVGvQUtcjdmMv-VR4YM7IFZSEOkzrjaFUFhiv_3aMHRYr7lZHOVoUNDJB_jqhUW9fHzt3r5nZTkOu4A2Kf1QrvC276yHr3dB68Ii1692neac9sXz3RyeO-03tNvOdijrSYqY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adrf9gkg3DDHo9cPKOfEB_BCAK0luyzG2UvAxkSeTuCjVCRLzcJ0huloxuMSR1qS8AY&ccb=13-1&oh=06_Q3_AAZNo-dXBgjk0CCdbG0jMRHb7XxIdWZbP7BDiBYRmRUVU&oe=6A467803&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/684120922_122171817290883764_6902502160717704869_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=v7vilrkund8Q7kNvwFnEaKu&_nc_oc=AdoyYQjtqVx5mAAayXQOvAkZCir9mqHMXY-Ur5W-txfQlzu8_cy9IotXFAKXyWs2Gvg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHCES14OhJBgbveZkPs2kRTkH4u7vM1hPQTp-NDMRKeuuj50m4Mva_j8ztr1OzDD1hM3vHrxkh8Ig&oh=00_AQCpHp_DUZ11yuguiuUzsg0Ocioatf4600HJ3Q1D-JaJiQ&oe=6A4A8268",
         "instagram_permalink_url": "https://www.instagram.com/p/DXv7KW-DHIv/",
         "effective_object_story_id": "706740269185873_122171586146921574"
       },
@@ -79224,7 +79710,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2026-04-20-178878c6ac488ac03389b2372ee30133",
         "title": "모두의충전 차량구독",
         "body": "💯다시 돌아온 100원 이벤트\n이번엔 BMW입니다.\n\n💸 BMW를\n단돈 100원에 구독할 수 있는 기회\n\n전기차·차량 구독 플랫폼 #모두의충전 에서\nBMW 3시리즈 (G20) 320i M 스포츠 런칭 기념\n100원 구독 이벤트를 진행합니다!\n\n✨BMW 320i M 스포츠 (1개월 구독권)\n✅100원에 제공\n\n📌참여 방법\n1️⃣이 게시글에 좋아요를 눌러주세요\n2️⃣댓글로 함께 타고 싶은 친구를 태그해주세요\n3️⃣모두의충전 공식 계정 팔로우는 필수입니다\n\n지금 바로 참여하시고,\n100원으로 BMW를 구독할 수 있는 기회를 만나보세요 🚘\n\n💭“이 가격이 정말 가능한가요?”\n댓글로 자유롭게 반응 남겨주세요 😈\n\n#모두의충전 #BMW구독 #320i #100원이벤트 #차량구독 #구독서비스 #다시돌아온100원이벤트 #탈사람소환",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1892627118178270308?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI0EHzdJlxCSoGb4eHqZf6A9UV_0368RxBUvw_47TGxmAO6zV00tgnF2w9PfU6CwWdYinhIJRqh2lPm5h-gn1C0q_2zPgBpNdUOO5SGi1F2wGQwNApsg5rm35_Ahog8fhH81A_4fvdarQCODo7-6nmG&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr_setm4DNowveteKCPHZdsSOByajpMIR2bH3lHhINnklkgWBSBkg8kxdviqugwoUs&ccb=13-1&oh=06_Q3-_AauYfgsVxl7B_36aEEKOtFfmo_o_r7QHwPXyqtM2NPly&oe=6A0E5D60&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1892627118178270308?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI0EHzdJlxCSoGb4eHqZf6A9UV_0368RxBUvw_47TGxmAO6zV00tgnF2w9PfU6CwWdYinhIJRqh2lPm5h-gn1C0q_2zPgBpNdUOO5SGi1F2wGQwNApsg5rm35_Ahog8fhH81A_4fvdarQCODo7-6nmG&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpC70gpK-dA3GZVPYvWTP-aepKpT1hoMCrq6sf8vuya7eAbfDnirOMeDA6ojF1Itmw&ccb=13-1&oh=06_Q3_AAUEDmR13uBY6QOAA0ee6xcifqFSWZQ3bqU45x5HaB7So&oe=6A469D60&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DXYl9AdDOnJ/",
         "effective_object_story_id": "706740269185873_122170270538921574"
@@ -79240,7 +79726,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2026-01-27-fa8805e6544033ab405a12039450666d",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이 이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16756017969051481173?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuXDXEYse1E8-QHu8srH2Iv2JCzavSXNamThwA3128OdDaqqNhiyYPgCn3WMo2_g0cj2vz7ZHXlvlyGV8JcfyTTv6v-8H2cnbfqJysWSmDExSiATkJGIcuTN7xzSI3_xF0MPKC3itG8PXSexKOTdCT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr7T2--gxaBL8-NR25sDP3mcn-NWmXjQxv6lO6eW2-_zSpMvNJkU6BjOzl8jZU5pfk&ccb=13-1&oh=06_Q3-_AZXreUTtHJzQHE0Zi90IimIMIEZDKggDy2EwpCkZ0XLL&oe=6A0E5C84&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16756017969051481173?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuXDXEYse1E8-QHu8srH2Iv2JCzavSXNamThwA3128OdDaqqNhiyYPgCn3WMo2_g0cj2vz7ZHXlvlyGV8JcfyTTv6v-8H2cnbfqJysWSmDExSiATkJGIcuTN7xzSI3_xF0MPKC3itG8PXSexKOTdCT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrUGrNs8Bn2B2o45uiWiyRqas-_9Xtj68BYFkjwglZk7-0DjFxIuBj-GipiNjMwTUM&ccb=13-1&oh=06_Q3_AAQ5urE_X_UQ-hXxlEUsvDb-tjZO9GfwkybehbL8JD1Et&oe=6A469C84&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DUCmgzIjE5T/",
         "effective_object_story_id": "706740269185873_122157735698921574"
@@ -79256,8 +79742,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-15-4927791d4e5c15a53b99ac461d8d4f38",
         "title": "모두의충전",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7127674774546732410?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIBNWUB3m3xLNVTitMO0keHFLDPdkBW8OHvMzFOoo08qOn4q8RJRbpEqK4P4lCZ9nlkubUog4Z5kIEyUzy_jEETy--6xwAQueNuW6sHbC9sc5s2LgT4gFiKBgxn-bI3sXV15V77j-tW9n2SpxHGUnEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adrx7wwMJ2xUN5AEloBKM2Qdii0tLco6ksoTtnaawGroQzQVVeN_H3B6FNgcQr5giKg&ccb=13-1&oh=06_Q3-_ATgGesnggL7wTKVvon6TUcyqrOHybr3JxL2MZU5lz9gS&oe=6A0E4FE0&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674139754_122169631760883764_2458088465734279528_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=NwEyZGZOFHoQ7kNvwHTO5_u&_nc_oc=AdoKH7_BVP37QTD-BvIEBXILBWdZT-oyuOnkVIWDD1KM77jIz6V_F_ObeX_ZGb3sD88&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQEjh0gLv6MLbkiqh8x6JexEZHFGgCYdaQ-3bpj-e2HoAu0VJT6x9GlQbOGM93gF-OCkpE1TwQebxA&oh=00_Af6kf9JoFtt98Tes-9RicpFiOiuNyl-Bia2anBKUnR3nAw&oe=6A124651",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7127674774546732410?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIBNWUB3m3xLNVTitMO0keHFLDPdkBW8OHvMzFOoo08qOn4q8RJRbpEqK4P4lCZ9nlkubUog4Z5kIEyUzy_jEETy--6xwAQueNuW6sHbC9sc5s2LgT4gFiKBgxn-bI3sXV15V77j-tW9n2SpxHGUnEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdojUVxkLpCwsk_BdxBPucdP_UeG8BH5XhQCmK_h7X3B6EFvbkCXQo_5RsP9Ey7PYb8&ccb=13-1&oh=06_Q3_AAWX2VAjYEVJHaUoS9wcvoh8f1XuFdFxwRQ1mHPAdwSAG&oe=6A468FE0&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674139754_122169631760883764_2458088465734279528_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=uyod65CQQMYQ7kNvwHN57Zp&_nc_oc=Adrrur0zRnnSIPrDJa8jACKpPV84gyCXkqNrJqjuR3exwLsbzWdsqAHhIz2k6Ap5B2c&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHxO9LS6E1JvNalScVAtwu7QdeO7kJDNVxd-8vvmAA_cMdFgV9sjWXMKb5bDqGKbDKQvsaArFjScg&oh=00_AQABt8uyWTpJAGg7NAPH0SFthDJ_FPmHgm6HxNyQfqK-Aw&oe=6A4A8651",
         "instagram_permalink_url": "https://www.instagram.com/p/DXJXTRCjKRG/",
         "effective_object_story_id": "706740269185873_122169453410921574"
       },
@@ -79272,8 +79758,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-15-534345cbca17f596d42d5ed4c3b4c904",
         "title": "모두의충전",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13088538050623624476?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKcdX2cE0WMXvTnzR2M7dIbJCSNfhblYLp-mwVAYqDAOduo6cK00_DGs_sDgOj1qqfBjFx2Dw129r-kEvR3KgsWiWXD2zqzs0eO2Zp6QFUT36n23eo9jrRcjX6tsWABG0FT9NButM_IVe0YAaqcCrgp&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adqrjk-32iNCh_Sa4vFk3mu6XDYOGj-82qhH_VkcTBFpax4iVpKow9xbAOFPYkdVAiw&ccb=13-1&oh=06_Q3-_AY2Qz1HpVjT1pDf2kl63oaLJnIYCDLyoW2QvKxjFr3sK&oe=6A0E646C&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672556568_122169631214883764_5240959345116252779_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=nscFA5SRA_QQ7kNvwEtIs-S&_nc_oc=AdoYFasVo7Uxf1ihR-E08vP4IY2LInHj6i_MQ7cOrtdMeq4i7Y7g869vzX1kWimOTbk&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQH8BReKvn4790F9z8aqj1ZUeWmfIZ2WnpdxuD63TwHt3lFTVo9G0Z9Y2NkgKRmDvn_mKuF0hfWNOA&oh=00_Af4MsgF1fJyRt7zkr2AdDZUZBUwK3sKRDUpMuvP-RIqLKQ&oe=6A123573",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13088538050623624476?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKcdX2cE0WMXvTnzR2M7dIbJCSNfhblYLp-mwVAYqDAOduo6cK00_DGs_sDgOj1qqfBjFx2Dw129r-kEvR3KgsWiWXD2zqzs0eO2Zp6QFUT36n23eo9jrRcjX6tsWABG0FT9NButM_IVe0YAaqcCrgp&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrpJBF_ql1wAOYEQ5LAVMWZ_DPS_Xmcfa5szR96UBO6pDPJtfhhS_-98LNVw3zV3ik&ccb=13-1&oh=06_Q3_AAVf2KatvoWxWhcIu4nON5PIam6H0BmIlVp8jW7eKt7AY&oe=6A46A46C&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672556568_122169631214883764_5240959345116252779_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=GocKp7c6G6UQ7kNvwGiqaYl&_nc_oc=AdpGSz7gTlFQLekEg0C-CqMwdzDLNbDhRbVLB4xfpz04_e-kjmyyO44cegoZMma4J-s&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQFcaC7w0tiR6QnHmvoUISCHYKcAiwSdWXcqRN2iAQRmtJDanK7Ez6rnmechOtH8s0pOg5q0Rn34QQ&oh=00_AQD48syeH1_xdaV-YwLT93rW7uk_fmM8NuxDuIkrqMNiNg&oe=6A4A7573",
         "instagram_permalink_url": "https://www.instagram.com/p/DXJXE7gDFK4/",
         "effective_object_story_id": "706740269185873_122169452696921574"
       },
@@ -79288,8 +79774,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2026-04-15-fc3179acc3c613e12314a76e5e07d927",
         "title": "모두의충전",
         "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1767738803930751065?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJlbvu7rfKg86IAM1-qENnKQwyQXjEIcg6BBv9aN--05xy8OEKEMQeJtbX1tNlQCHVUj5F7sYP1_WoPAO5T2A9G_Q8w4RCyv3mGg2e0A50kwLjEOfQ49eAf0ICIwUwuExFukTjYh4nbaVjBL7Yn-n_Z&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adpzse_389nN5BR6IghKotrU4Up4qrdCYkCqIM4QTq4owZK-OA2Mn734I3HIhxBSvt0&ccb=13-1&oh=06_Q3-_AXvK-2lOO8KoFJ-HxTC_v3VM5Feut51uCtcAb6o0af99&oe=6A0E6CA9&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674125166_122169630524883764_4256463774668018051_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=5TtpCNuP7tEQ7kNvwE5-Et2&_nc_oc=Adr3AB05BNflPlH_PW_GHmwEge-Lmsmp_Heg7sbjpfWh82OTJfhxa3oq5JNORC3359I&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHL_iVAIbRbkuoVelggObUU27SdNknv6c7RhI55U4MvT_Sl7LcVi7gw3bhEbSYB24VaWxTHElRk1Q&oh=00_Af4IgHga1hQ_y3TJ9mugr0nnxaowa3d4-n-GJ5aLIySNvQ&oe=6A1261CF",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1767738803930751065?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJlbvu7rfKg86IAM1-qENnKQwyQXjEIcg6BBv9aN--05xy8OEKEMQeJtbX1tNlQCHVUj5F7sYP1_WoPAO5T2A9G_Q8w4RCyv3mGg2e0A50kwLjEOfQ49eAf0ICIwUwuExFukTjYh4nbaVjBL7Yn-n_Z&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrAbxVZ6p4bQuxtajhn-erPhhx4AZiEKaVd1095SsmZZez5DQMkgPQ_0H1CMs1pheU&ccb=13-1&oh=06_Q3_AAShKdUtXsLsuNoEn0b62vkkUO3ayEIltutz7mPnvVWup&oe=6A467469&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674125166_122169630524883764_4256463774668018051_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=yF0TTIPY0vIQ7kNvwFvlh_S&_nc_oc=AdqgjEyFZZ_NaUG8v07Kh8fAjIuXWp3R4UCFvhXfyr16vpYQIeq8C3-QRzJSonTTKZA&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQERaWNYhe1yPVTTxn8pZ8v3GTDSfslpccvTyGWxTw8-gbNBXtDGMWVJViwV4YyRlF-B0oKngNiW0A&oh=00_AQBv1ssD2W7aBY6vexNPl0DedDlibXt3tsptbkasgQRp-g&oe=6A4A698F",
         "instagram_permalink_url": "https://www.instagram.com/p/DXJWyu-DB3u/",
         "effective_object_story_id": "706740269185873_122169450866921574"
       },
@@ -79304,7 +79790,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2026-03-04-c9073ae044fc5c3201df430d8d825312",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13720569137433233044?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKmRFXX7gUdKFdw60XuTqGKBfL721G_wBPMvgfxZUATphwmzH6OGvMS2ib5TmOpyfbxlN6ZvgrCui9EXIytLobr-UZc-tnMZCi0LobRjOQ6BPW-WspkCbQvg8QMZ-Php5x8ndH_56hJiBHU3ZaMYAHQ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpJcPX3B9YPhTcUZ3GjWrLmPe9pp99_IVIM9bR3pUvgcmvRhSrURU_h0UG4oiFNL5M&ccb=13-1&oh=06_Q3-_Aa84pPWKKAQWikNBWdIaHtGyaKW-GL418SpSDmPyWiYd&oe=6A0E61D1&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13720569137433233044?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKmRFXX7gUdKFdw60XuTqGKBfL721G_wBPMvgfxZUATphwmzH6OGvMS2ib5TmOpyfbxlN6ZvgrCui9EXIytLobr-UZc-tnMZCi0LobRjOQ6BPW-WspkCbQvg8QMZ-Php5x8ndH_56hJiBHU3ZaMYAHQ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpXEOod7nHqn0UEm2ysy7KBzGVokJieqvgYmgIDLgxmXkJgXedPbdGpZFu9G_5zAM8&ccb=13-1&oh=06_Q3_AAX0CRpdy0hCdOhiyFpPMjSn9wGWY--jIVqUwLSM7m7UQ&oe=6A46A1D1&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DUP53I8jKzM/",
         "effective_object_story_id": "706740269185873_122163392270921574"
@@ -79320,8 +79806,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-12-11-3aca994e2bdb8fdf124d8dd6ab8fe1fb",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17495406279782405288?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI_ZQn6H4dcaMD3mTBi0sakCgtuC6FB7P2MR9jIwBR-QaZLOAAkyIYyNNPJG24SHp24I1GUtHleHgN7MDIy7NQ-j5XAi6LeU3MbWoh7O7fOzbnd20egmg6yr7tP3JWmJrKWCiyakpETJPV6PODa8WUW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdrhXAbCKPDkAPLIAIwMIAaWb2_laFA5lUrf13SHZzzYovD_Bsns_VhagNl4yFGAZFU&ccb=13-1&oh=06_Q3-_AbDCA6ABbTaOARZJAFfjJHqiDKR3Pld3E6a7aBlPPuNl&oe=6A0E4DCA&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=L2b5uRk_zh8Q7kNvwEh3uzn&_nc_oc=AdqNgL1xOjhk0WbFRmH-5lo_cCti7euKU7v8uNP__ckQEw2LoEpsPPze_redDIQFqIs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHDBR5CNHmM8fowUEYGHz29L_BV4bLcqNJylU-OlJI86QXdWXZtjA8ls5HnNZuzx1lcUSGGl3G2GQ&oh=00_Af551p79Z_3hz-BSG87vrcKVBhjXqW-q-O7L40iB68AU1Q&oe=6A123395",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17495406279782405288?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI_ZQn6H4dcaMD3mTBi0sakCgtuC6FB7P2MR9jIwBR-QaZLOAAkyIYyNNPJG24SHp24I1GUtHleHgN7MDIy7NQ-j5XAi6LeU3MbWoh7O7fOzbnd20egmg6yr7tP3JWmJrKWCiyakpETJPV6PODa8WUW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpghT6LSHguI7HNmJ25m9E3qL6rqRq01sB2QjyBmmMEoixhgU-ZTgnf8U0-Tq9-UP4&ccb=13-1&oh=06_Q3_AAQlpu2eL9kABR9GLRt1Vzn9tZ35GqXLpfkhrQfHH0xMa&oe=6A468DCA&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=W3_bwkNUcLYQ7kNvwFCEw1m&_nc_oc=Adq9DljivjoSCVJCc3SlkNNGOT91yNZvLmpZtlYX0FyM-UwsElWj4fGEWG9ctQu6aTQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQF2Ctl0Bh5KiqXSNJll5svmmEpje2MH5NXYKZVWEojO-ygz3GJMlzUqzDy4G6XuE_kWYigtNlgefA&oh=00_AQCyk-N0dhPaBm8M8rO7hz-kWRwGz_zyPnlijcfnH5B_PQ&oe=6A4A7395",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1C-NsssAG/",
         "effective_object_story_id": "706740269185873_122148878636921574"
       },
@@ -79336,7 +79822,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2026-01-27-1acba65c608bec20ab8e292145c0e7bc",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이 이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4870729379902898791?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJzIzNi8o65gMDQ7u8FUFlohkmnWuiBlAmfEMwsJAGzEsIMu-88LCjehaCLu7erT5grEGqIia7KcU6YQ71wlzHlIcljGODzS8b18uofMSAm3jnLOrWqwYeCm0DUeHKAkqv4RYUNjGHbzX6981ekRAKY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpsZAVwAC_73vbk497pKKVJVsnaCYUXXw8HENrOKCda2sNM6VcTIDEnbHdZF_8pkMI&ccb=13-1&oh=06_Q3-_AeDTXOP8Uc4lcExA2nt3KRUPM8kh2expGgOwy1fBK3MY&oe=6A0E55BD&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4870729379902898791?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJzIzNi8o65gMDQ7u8FUFlohkmnWuiBlAmfEMwsJAGzEsIMu-88LCjehaCLu7erT5grEGqIia7KcU6YQ71wlzHlIcljGODzS8b18uofMSAm3jnLOrWqwYeCm0DUeHKAkqv4RYUNjGHbzX6981ekRAKY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Ado7JLWfDZQbfn7DXowKElpkCEpL7cjym_yAcocCHqX6chNpjMh9xRTWW5A-zVZd-GU&ccb=13-1&oh=06_Q3_AAehaeFdW4N_G5aAuGtBDSYsXikX5TotiVYqGMuyk5cTj&oe=6A4695BD&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DUCmoI2jM0n/",
         "effective_object_story_id": "706740269185873_122157736274921574"
@@ -79352,8 +79838,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-12-11-19215974965aa24cd109c21e84185d82",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5437203162748020127?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLbDQ60G9vr31YRkzv7QsWDDJJXjO_D7Kc7bo2si_XqYV5s636ATE_FDP-f1y2I3X9eiA_UYOUQrL4Ok-TOTIkYmnGV6wGHSfp7qEs7TvUWcGho-6qTRAy34oPu8lkE-YhRXbVjxmmuJjJ-wtxo29Yv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Ado1p1tBVhJfwSXRldtC2FOHnhEzrObmzdOCg3Jr-OBK4yBElA9kCGV2Om96vjsrXEU&ccb=13-1&oh=06_Q3-_AdjsrjbZRRxtNZKbted_1hp43wYNpJTazpBkWON_bb8D&oe=6A0E4CC6&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=k8j9OEyQBgoQ7kNvwF6EXc6&_nc_oc=AdqTb3PBnaf7jGmdFODvmiJ_GamyGySEUrQjyojVT0y_FTa5ETHoV7L8le-qH8dlJ9k&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFeho5VtzZ7cBMHSNc-SQxdbG33-mcdA68IFMYNx8IVGJ75SqTwcC266uiFL3qfyVtU35a77mlJMA&oh=00_Af7PeKb3sNFoZrzzGy-NPVAhm3KLmEtg3wwCLh4-VoSRqQ&oe=6A125FB6",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5437203162748020127?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLbDQ60G9vr31YRkzv7QsWDDJJXjO_D7Kc7bo2si_XqYV5s636ATE_FDP-f1y2I3X9eiA_UYOUQrL4Ok-TOTIkYmnGV6wGHSfp7qEs7TvUWcGho-6qTRAy34oPu8lkE-YhRXbVjxmmuJjJ-wtxo29Yv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdovnQ5UBuGGoSeMatNQCZS6OZB5hqDhKTPHQ8yR2Cih-62VBLQwQ4__4QHNXC1CINI&ccb=13-1&oh=06_Q3_AAeYF1_L6i12cfZaZqv48_H18BgKzMEbt5DHmxVXoEUkc&oe=6A468CC6&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=68xE6xsj0_UQ7kNvwE32eD-&_nc_oc=AdrTxeTFB--derlmwJz_SIagA0qvCA0vVaOGkh07ZBJRsWmpHXXoRRQ8Lk_Qnjt8ob4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHVG7tQscLyFnXwivC3MjctuFSFwcLA92mmpnOV-WAjjr5Izv0Wq4lyaRHZbwm_AEdNDwlc-sjLrA&oh=00_AQBSTKYYNn4yDxDRmifWDa89VQ3iYpwaKScjcgw181pFpg&oe=6A4A6776",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1CmUgMpvN/",
         "effective_object_story_id": "706740269185873_122148878228921574"
       },
@@ -79368,7 +79854,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-12-11-acb9e8b2ac014e1dedae210ee9274b1f",
         "title": "모두의충전 차량구독",
         "body": "💥💥 보증금도 서류도 없이 벤츠 타기?\n수입차 구독 지금 신청하기👉👉",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11719904732478657712?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJLWP0dlbzr2gKOKKAOzhye1GP4dHY1FpxSUu8UHmYTIlB7LFCAscBRNhM20gEKBUDCAWxGkk8dbIeGE5djiMGegcBuq0Ud0NqOxdk1f4v68xkwXZgPIDYsEGCfJ7hgwj9gj1Fj7qjB_v95SMQH4Urc&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqEnx3IuhzqS7dAushfnbeiO-RYCC4C2ZjWb3lxVJGci2hXwZQoURC_ExjaFI8pzsE&ccb=13-1&oh=06_Q3-_AWcrMWI6J8AnNCcjMa_AKEA4YroaoS02CtX-e0vw3Zbg&oe=6A0E5E68&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11719904732478657712?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJLWP0dlbzr2gKOKKAOzhye1GP4dHY1FpxSUu8UHmYTIlB7LFCAscBRNhM20gEKBUDCAWxGkk8dbIeGE5djiMGegcBuq0Ud0NqOxdk1f4v68xkwXZgPIDYsEGCfJ7hgwj9gj1Fj7qjB_v95SMQH4Urc&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqqvRgFucaq1Lxoph3PrzrWAenttz6yWNyIX0xJR-Dy7Xn0_q_s2aB6_x3JP-312HY&ccb=13-1&oh=06_Q3_AAZ7x3KDXG4E1nZy2UHgphG9W93PlqFbeHPoZgcp6gwXq&oe=6A469E68&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DSJF4krjEG2/",
         "effective_object_story_id": "706740269185873_122148876050921574"
@@ -79384,8 +79870,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-12-11-3a4565d42aa8b30c90dde87339f9a2a6",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9602359592184668810?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ_qEMnEw4cUs2RXhxclMhqM0IhD6y8Js9FGfF1yGloF6juWKkNcwdWJVXCQzCpDWyl6-bqdP2EL3jkPXRZ60DtOEXHHyY3Ba5xkOottD4_KPcTOm3JODSiG88W5VjNLBTNYI9efouAY2XExpjjipuN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpEU4czmH8wEhksYlUHKKnQ2TyP82czvIyGwwmHrflMEQHvlROrvatbIhhQ8WTHJ3U&ccb=13-1&oh=06_Q3-_AU6Hc9nDouU8e0GgT3klaqcVyZXKQ2G0TIJ-Wn9rKekl&oe=6A0E41C6&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=hpXU-pRc4UcQ7kNvwGJfcNL&_nc_oc=AdrlGzA0BrtYXNArTO_DA9AqFlpI-gaRCxpO-RdRM5adgoo40XWFN8aUsAz_riE9jxE&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQENjpFDfN-ZLfM_eNI9caIbIgLOa4ZAxTG1R0L5N2ekXW-ck10Py9FVNINqutVikixUgVpY1cOzfA&oh=00_Af60QbFDFFxZLcOXPCo46j3VJqeJONgT68qU7WCp9ASN3g&oe=6A123B3D",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9602359592184668810?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ_qEMnEw4cUs2RXhxclMhqM0IhD6y8Js9FGfF1yGloF6juWKkNcwdWJVXCQzCpDWyl6-bqdP2EL3jkPXRZ60DtOEXHHyY3Ba5xkOottD4_KPcTOm3JODSiG88W5VjNLBTNYI9efouAY2XExpjjipuN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Ado33KjRywrYZL8Rw6KGQGcPs9E7n7zCEWL7f_u30P3bod7qB_GA51g8kAqtfrHrdKI&ccb=13-1&oh=06_Q3_AAbkfKbZvuhUkUBkICsjCvm7CCajWQ3rtTfTLczzbLenl&oe=6A4681C6&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WJOl0vuV7DIQ7kNvwHboVzK&_nc_oc=AdoRVyrFhrpeJZhCn7fsTEXdkBkQrkOP67jV4GTnvquqcuI7N5w8CDeMZI5tGTzHovw&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQG4t9x0BC8Cp1WCnzlhEIdjVmOJGA0q7yb0lkgmqUfLn9mTWde6ki8Zq540QR3K5CJhCYJH90KbtQ&oh=00_AQC-NYjkqrTE_UG0VzqOYLz8QGqIQIwuUFSr6ji1FYnlxw&oe=6A4A7B3D",
         "instagram_permalink_url": "https://www.instagram.com/p/DNUtkCLMYsH/",
         "effective_object_story_id": "706740269185873_122148875528921574"
       },
@@ -79400,7 +79886,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-04-a938596129bb7fd24c7fc77dd0653555",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17042811402049872032?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJa4uLITAE7k5iXypUKFr5iU8vmWuIfTv5mpavm5bLE7ekHNJSB3V4BeNSPi3exAbQ1YxkUqJY30PEL4nU7cAO1oGJDknm2AUg89arPJeTASSJ5WJz2pfDZIy9mgWxoAO8AqqpZfxUtEPzZ2-7fXDAW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpWqSZ7zx3KBR4NJ2jr5iCmCbqplYPyLnDxSug7mw9G2MdWCvhcSTQa1MPs-knmy58&ccb=13-1&oh=06_Q3-_Acgw2_nOBYCxZgbuebNIsiCZSXRa8pfVWOXjFLYoSaJS&oe=6A0E6564&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17042811402049872032?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJa4uLITAE7k5iXypUKFr5iU8vmWuIfTv5mpavm5bLE7ekHNJSB3V4BeNSPi3exAbQ1YxkUqJY30PEL4nU7cAO1oGJDknm2AUg89arPJeTASSJ5WJz2pfDZIy9mgWxoAO8AqqpZfxUtEPzZ2-7fXDAW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoMigI82G8UIcm2-420OoYTRzmmrVEPDh9tqy90B9GGRCRQa_Z6j10EqpqRINk7uRA&ccb=13-1&oh=06_Q3_AAZ9OMd2k82HBu1kqwNkXfmYcXoQir7Hh0rPEazA0u70Z&oe=6A46A564&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK26GDjF8b/",
         "effective_object_story_id": "706740269185873_122128841408921574"
@@ -79416,7 +79902,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-04-1dc837454c390cb4e063df7ceab6072f",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13488371970510480835?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7zgzui5rB1xb-a1wiwEW9RbRb9LU1KXNdfjpk32pxC3Fr_bFPRXhtfZFzwGhwHCzbnSYejpx3H9laXOnHbLF4p85jcsC2n6NbGeysvsZc3k4_69t4hZXbX3cL6ZrktLrkFSSRxXoJgCf-Hk618Yqv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqG6G1ArEnL0ajlIjzRgRFxcXEfmVkixdwZZdROM9kf6nn06dHeUmoJzNZEvc7i_D4&ccb=13-1&oh=06_Q3-_AZw-7IOrx6g7lp7JMr3ycac8risRR6W-Qp4p187QsxHD&oe=6A0E45E1&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13488371970510480835?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7zgzui5rB1xb-a1wiwEW9RbRb9LU1KXNdfjpk32pxC3Fr_bFPRXhtfZFzwGhwHCzbnSYejpx3H9laXOnHbLF4p85jcsC2n6NbGeysvsZc3k4_69t4hZXbX3cL6ZrktLrkFSSRxXoJgCf-Hk618Yqv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adok9H3FhJzWItTAyxUrlad4qiiRND1_pnsUehgFWM6siZHI7AqQGN-kXXE2DieYA4s&ccb=13-1&oh=06_Q3_AAfISK6Ik2gpvdmnSnUXQqddrGKLWPL2AWN2odztuAqFW&oe=6A4685E1&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK22ZTjJ8x/",
         "effective_object_story_id": "706740269185873_122128841222921574"
@@ -79432,7 +79918,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-04-6bc9313bc0b849fc22450c9b8f446710",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7262678301958985431?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJxYkP23rOtckNbmrb8ScrPBA8skNQvHVzVgRaluznsQVAR3OZsG6tHElBuni1otgvHxAcbNFbJAgC3zy9bUdBfQkSVBoklQuKEtuHWK_DMM1ZG0PmKBMUXFcgVi0Wfz0AKq3CO6mVHZicm0RWZBgou&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqvAt4jCRj22wf-bvWi-5bZmt3RasXOuxkcI3HEhokpTKQXW-bob4VTTv5Mh8awvSg&ccb=13-1&oh=06_Q3-_AbtOwlnlLpjON5HuFZZxwdJnJ19y2-Y_wqlx2JYJhb5T&oe=6A0E3CBD&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7262678301958985431?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJxYkP23rOtckNbmrb8ScrPBA8skNQvHVzVgRaluznsQVAR3OZsG6tHElBuni1otgvHxAcbNFbJAgC3zy9bUdBfQkSVBoklQuKEtuHWK_DMM1ZG0PmKBMUXFcgVi0Wfz0AKq3CO6mVHZicm0RWZBgou&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adppu0VGuoMb17DFlLoEU3uGdMk7BI2KnVQGTET8Sj0gaaQB7xMPj_GKtKKdsqwRWT4&ccb=13-1&oh=06_Q3_AAVBrAx-MxLwZRarMwHt8UFv7pmxcYLL3_xQDk1NCYwq8&oe=6A467CBD&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK2xBEDJFz/",
         "effective_object_story_id": "706740269185873_122128840970921574"
@@ -79448,7 +79934,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-04-4b6668568ad4dff568a622144ebc38e9",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3963969719414794348?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIlmpoetJ22JdV4t5DuPWeIm4f4Gojkvw-90AJH4HmFBmTFAq9sMnTL-RWJ25f2A7u--1-0GawHmkKrsSGw3Q5Av0w5c_8sRMD2BaGitn4XDJHGD6Xcwh52WO1yCavlULATH7fXVFYzpbKcQw4OP_tM&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpBsSvv2iJJjutQu9UJg8JkXIVlZypCWwu82b_WON0H4h4VWq4tJ0u6fGclw3nnJos&ccb=13-1&oh=06_Q3-_AQWOLyOpTywX4QL09mU4WpaglOnMEDNFHbIXrgLOREb0&oe=6A0E4C5F&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3963969719414794348?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIlmpoetJ22JdV4t5DuPWeIm4f4Gojkvw-90AJH4HmFBmTFAq9sMnTL-RWJ25f2A7u--1-0GawHmkKrsSGw3Q5Av0w5c_8sRMD2BaGitn4XDJHGD6Xcwh52WO1yCavlULATH7fXVFYzpbKcQw4OP_tM&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adq6w9BP_XvgiJb4ffQj5u6WZzULHycxY_5zC8-XRRxSOu3ysy8vwkBcEU1zRrQ7kvE&ccb=13-1&oh=06_Q3_AARqSq48bVj_9CWgRSFozNX3LyYG_NhbdVoPObTJubZG3&oe=6A468C5F&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK2r0dDJcx/",
         "effective_object_story_id": "706740269185873_122128840802921574"
@@ -79464,8 +79950,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "🚘 모두의충전 차량구독 서비스! 2025-09-03-7b06f94445087909f973c0bd829d6e01",
         "title": "🚘 모두의충전 차량구독 서비스!",
         "body": "🚘 모두의충전 차량구독 서비스!",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5591983797755996775?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIKXMeq0ODNZSzg9xEDMG6au0mRXhQv-PuChIKLa9uHio4pznNQdaN0_nIQuSVqCy4WBWKvf7Bi57Ye-o3F-OZsrHqstwocW1vbzDO5DUVPPCi2bx-JiTcftr7fKT_82dGa9PA7pkNaPRTdzJiA6xHW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr-XaVVp6rDtdpOxIqpV1ctEp9K4kAwipEXOg49rp_xJ22S9dZafLyS7Po8VrXara8&ccb=13-1&oh=06_Q3-_AUscyYemLMubYQXSgej8h8TzZxNvXOWatH8hp3NPvnmF&oe=6A0E59B4&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532931628_122128395038883764_6720151233124906458_n.png?stp=dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=lLWU8L2tF4AQ7kNvwEVBID0&_nc_oc=Adq1hECT4juYCKqJ_iFxWZ8fhkWpxEr2oZclylC3yoUn6HG-jW4iSNLV4D0ue2FRULc&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQGig4lhiOwkMgFKCK52aXzKxcAbCksYnLLc1inuXSIqQi4l0t5FrLM9mqx-sTedh39mDfDuZivE9A&oh=00_Af7wD7IOD53VW-vwcioJanagY1eMGbYHM7ck4bkbVdyPng&oe=6A12460F",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5591983797755996775?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIKXMeq0ODNZSzg9xEDMG6au0mRXhQv-PuChIKLa9uHio4pznNQdaN0_nIQuSVqCy4WBWKvf7Bi57Ye-o3F-OZsrHqstwocW1vbzDO5DUVPPCi2bx-JiTcftr7fKT_82dGa9PA7pkNaPRTdzJiA6xHW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrDbAiOmabc-ZRigCzz8PPbPxFpd731hNuoeCtSPMYdPirHmzPqXBW4WyVseC-DBlc&ccb=13-1&oh=06_Q3_AAUVzwiWary2WJPEc_6kEJ4LHVzPae8GhG5z8v65oQ9w3&oe=6A4699B4&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532931628_122128395038883764_6720151233124906458_n.png?stp=dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=dSag3KIXI2oQ7kNvwHDOViz&_nc_oc=Adq8BAMKZRopdHN-rVByOCtj7NDtXbiKrHKbbjnSNjjEyahmllHQxT0hVtlv_7hvTSc&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQFUF8I_SaeQJ6npqdOJFSJXKhUQVpw_GbNW2dqbu_aeN7D1vMbXS9dVrWADgcvyRxguZWrUzxSvIQ&oh=00_AQDXiVYpcSQxAWZ-nozymH9ju692jwKCKLA-spVaW3mIPQ&oe=6A4A860F",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK2U5pAMbg/",
         "effective_object_story_id": "706740269185873_122128638206921574"
       },
@@ -79480,7 +79966,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-03-134ad657d912f95478eff1d565a3f1ca",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9362569705401086841?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK6g4SHNgBhqzBnci6LtbUg18RxlPFlOlwvhVT170-OOOlJJdWFekQfdd0eU1aS5Xx6j6Qh0krppQ1ew-K0fN0JDciEAofcq6yicRYFTrIplNgVdOT98J17L6_eXoGR4iqHFsLx_f6a8xEZjIkP4-Qv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adpw5X0vq9UfQenWRjfJrr2Cy1-2UlRtGdkuDkFzt6f9s7my7GC8DYF4mVWQMeyHgeI&ccb=13-1&oh=06_Q3-_Ac2nhH5rdecK22vO7cEOVGu0OXGv0f2LsmqWf3bIQCIM&oe=6A0E48E2&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9362569705401086841?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK6g4SHNgBhqzBnci6LtbUg18RxlPFlOlwvhVT170-OOOlJJdWFekQfdd0eU1aS5Xx6j6Qh0krppQ1ew-K0fN0JDciEAofcq6yicRYFTrIplNgVdOT98J17L6_eXoGR4iqHFsLx_f6a8xEZjIkP4-Qv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adocm9ENYrMLm01OuOVPsfxJTtNqPG02se1mAns-158b4IDrEfpr1bGWHKTBcqJXqC8&ccb=13-1&oh=06_Q3_AAeGlvq2ZqNfxRbJyYBOl-bmF-wN8rWlEfdSVlGaJhxdn&oe=6A4688E2&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK26GDjF8b/",
         "effective_object_story_id": "706740269185873_122128638914921574"
@@ -79496,8 +79982,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-19-bcf44cb13fa97d2874b1fae68410651c",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5246868208065240335?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJVpvDcv2CBgvFL0UBRC0QFvbWP9sy63CCM4p0RnE0YPcLK_eERue_Ku9xA4bJK8NZtYKDGUDAAh4o1NHEFz0OmDwvS6rSH0Urx7PkMSC2CkHyGcXre8tB9jhL02l8TfX1atRlTydgV0EOj8HamtvwF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr4t4UdfdFmcdF4tSdbOPg143amnnTJ0rMEyiIiM2_lis3y48fOkTUBoRG4Hlv3xm0&ccb=13-1&oh=06_Q3-_ARnljgtZaqUeNusShQ9tQHPpIj1BbQsSN5M4eE_w_PkG&oe=6A0E3E00&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=k8j9OEyQBgoQ7kNvwF6EXc6&_nc_oc=AdqTb3PBnaf7jGmdFODvmiJ_GamyGySEUrQjyojVT0y_FTa5ETHoV7L8le-qH8dlJ9k&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFeho5VtzZ7cBMHSNc-SQxdbG33-mcdA68IFMYNx8IVGJ75SqTwcC266uiFL3qfyVtU35a77mlJMA&oh=00_Af7PeKb3sNFoZrzzGy-NPVAhm3KLmEtg3wwCLh4-VoSRqQ&oe=6A125FB6",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5246868208065240335?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJVpvDcv2CBgvFL0UBRC0QFvbWP9sy63CCM4p0RnE0YPcLK_eERue_Ku9xA4bJK8NZtYKDGUDAAh4o1NHEFz0OmDwvS6rSH0Urx7PkMSC2CkHyGcXre8tB9jhL02l8TfX1atRlTydgV0EOj8HamtvwF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adrfqq7OHEOSO3yc40pY04-DU_LA7KExyXBLgyR0hLS1SkSTEhPNuca5P0QEAGizr1U&ccb=13-1&oh=06_Q3_AAXRr4vaiWr2BUpGF2QyUCm3u-hHlYslEX_WVb_-e5IqT&oe=6A467E00&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=68xE6xsj0_UQ7kNvwE32eD-&_nc_oc=AdrTxeTFB--derlmwJz_SIagA0qvCA0vVaOGkh07ZBJRsWmpHXXoRRQ8Lk_Qnjt8ob4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHVG7tQscLyFnXwivC3MjctuFSFwcLA92mmpnOV-WAjjr5Izv0Wq4lyaRHZbwm_AEdNDwlc-sjLrA&oh=00_AQBSTKYYNn4yDxDRmifWDa89VQ3iYpwaKScjcgw181pFpg&oe=6A4A6776",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1CmUgMpvN/",
         "effective_object_story_id": "706740269185873_122097355478921574"
       },
@@ -79512,8 +79998,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-19-1b056fba41145570c7a772e6db6da3e2",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12409504391244627447?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJOix9XqODlXX5DSIBI3o3hL0nv5Rg4EPB8BE21uXSWDLe9bjyLJBaFzJ6Vs1acy_0-f_bO2TF4LQWfdveUbbz-vknh_R9WkzLJCt63rknYYBTufz6v9B7t5RsugtctWaeJQm7moTVrCxZ8T0Lg6pid&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adq1jvwyNHhUEQlzH8Y8hnAhJRXZXUpH0jH-2uaiDsX9jE7RKsKkZ9jlLOf2vjpInvA&ccb=13-1&oh=06_Q3-_AWrUuBo0TWdHBydFh9REETFJW2pY-_UByQx7mTkPcc6q&oe=6A0E5BEE&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=B-4B69Xjx0UQ7kNvwHIfTdP&_nc_oc=AdoBu0dIqcIQ-WhVX5fkVO0PrT-TgNLp8x6Kapgo4IDY3uDSmw2hKyc21gZNw33yXJM&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFLXjGNWFk_KbDrxkkVelMUZmMa3dQVK7DG9cPZoh6fK6ufsibUr4Lx52dNjtmlIQWosflFMVrcqg&oh=00_Af6tS9IHAk4TcRoSsNuG-DrpHxXPMVGda5wF4H5S47steg&oe=6A1265AF",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12409504391244627447?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJOix9XqODlXX5DSIBI3o3hL0nv5Rg4EPB8BE21uXSWDLe9bjyLJBaFzJ6Vs1acy_0-f_bO2TF4LQWfdveUbbz-vknh_R9WkzLJCt63rknYYBTufz6v9B7t5RsugtctWaeJQm7moTVrCxZ8T0Lg6pid&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrGybZc0wJL1fb74BDoojfnty4LyfzUtLKJwQoyfgBXtoBsBUT7jDwp8qtM7M3AkcM&ccb=13-1&oh=06_Q3_AAYMxov1u2UPoc38Q---WEseVbXkUbRuyf1vLfAv-Csos&oe=6A469BEE&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=vC7Y_rXM39MQ7kNvwEFFa0J&_nc_oc=AdqiDC6ci6xS6PD_L30cmxGXl-q-6LJrLVe0XrgSNEFj3o71v0lC8-7PC6jmsI_rGRQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQH_lN43I7ohTiXdShtfbRT_vdKMQE0sqGFqKHChFI7lYCFazWfzwzqp_dHTUg93N_c-Ds50BieG7A&oh=00_AQBkiBDugWx6rWVadny7x5uEVi_yyYSSi9jlSwU5bta8pg&oe=6A4A6D6F",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1CxOUsOpl/",
         "effective_object_story_id": "706740269185873_122097357578921574"
       },
@@ -79528,7 +80014,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-03-0c116de260a46aae693c1beed5e3d1fa",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7192856084472156901?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL4pYK_sYny0KQSLObUpIvYrvspeDCLYPSL_MNZLrYDWXT3DnDkHVIaWwqbRRy3zQS8LwnMHoIq001oNi8jeuGOERo6XEYYDV2-QEOQ04X70Ney1yGGmXbuTRhqqOYZq3SBv9BVPUSDDvzwlzq8d6E6&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdryLbkm-r312fPpAxVyVqYOBNmPP8PgRyN8btfl6nJ761Qy3p7uoLl0GI4GigHAn2U&ccb=13-1&oh=06_Q3-_AThKdNBSo9Sg42P1eyB0uLAsFC-ITIqT9xVOgpItVM8T&oe=6A0E6695&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7192856084472156901?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL4pYK_sYny0KQSLObUpIvYrvspeDCLYPSL_MNZLrYDWXT3DnDkHVIaWwqbRRy3zQS8LwnMHoIq001oNi8jeuGOERo6XEYYDV2-QEOQ04X70Ney1yGGmXbuTRhqqOYZq3SBv9BVPUSDDvzwlzq8d6E6&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqkmlX_Cise_QByTYVrrU8PMOGoAzOEV_gEPPQ4pCJqgZWfBp_EKcU0rMHta3KicOg&ccb=13-1&oh=06_Q3_AAT19tb9NUEVdyfuuoS2Hx-TLcoYB2YQWX0nKsN9AMBwh&oe=6A46A695&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK22ZTjJ8x/",
         "effective_object_story_id": "706740269185873_122128638788921574"
@@ -79544,8 +80030,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-08-13-ab7188d22fbf816c608f6d86248a3156",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4923313381797031769?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKNcwwPuT67P-S4kbAHb7tP85NwsJqzhH7_S2Y5hVW-ZyaVQTbnnFctEmzXuYetdoe2UVtQwKEVY7d5d1KWuYottzuUQDPtZZUpIQ-l7csjwmUB1LkD3b5Ga_bzDRXDOQtVoQzzI9zr4hzkXTwWy1b9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adqy5pm2cYzptieoS6lwuAUCHV2UPF9GqzvF0AxJShLwoDe9GxaxZocJ9l3gizCl2yE&ccb=13-1&oh=06_Q3-_AaoRAar4T471whcGaq8CArwOm6fGMdL1QBIlvePkubQp&oe=6A0E662B&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=hpXU-pRc4UcQ7kNvwGJfcNL&_nc_oc=AdrlGzA0BrtYXNArTO_DA9AqFlpI-gaRCxpO-RdRM5adgoo40XWFN8aUsAz_riE9jxE&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQENjpFDfN-ZLfM_eNI9caIbIgLOa4ZAxTG1R0L5N2ekXW-ck10Py9FVNINqutVikixUgVpY1cOzfA&oh=00_Af60QbFDFFxZLcOXPCo46j3VJqeJONgT68qU7WCp9ASN3g&oe=6A123B3D",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4923313381797031769?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKNcwwPuT67P-S4kbAHb7tP85NwsJqzhH7_S2Y5hVW-ZyaVQTbnnFctEmzXuYetdoe2UVtQwKEVY7d5d1KWuYottzuUQDPtZZUpIQ-l7csjwmUB1LkD3b5Ga_bzDRXDOQtVoQzzI9zr4hzkXTwWy1b9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoHIiBR68DDZn7Cr0rKbzHS6cgNoeSZueW1fj21gv4RrPaM1eDrNKdizWssvw0PkRM&ccb=13-1&oh=06_Q3_AAaXfcrEPn6zoTg1rxTbMNATJcbiFpL9jQ3RtuYZpyvLC&oe=6A46A62B&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WJOl0vuV7DIQ7kNvwHboVzK&_nc_oc=AdoRVyrFhrpeJZhCn7fsTEXdkBkQrkOP67jV4GTnvquqcuI7N5w8CDeMZI5tGTzHovw&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQG4t9x0BC8Cp1WCnzlhEIdjVmOJGA0q7yb0lkgmqUfLn9mTWde6ki8Zq540QR3K5CJhCYJH90KbtQ&oh=00_AQC-NYjkqrTE_UG0VzqOYLz8QGqIQIwuUFSr6ji1FYnlxw&oe=6A4A7B3D",
         "instagram_permalink_url": "https://www.instagram.com/p/DNUtkCLMYsH/",
         "effective_object_story_id": "706740269185873_122123408672921574"
       },
@@ -79560,8 +80046,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-19-5b38d079437f04e276fed22fcf0edab3",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2377864676295410231?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7um7BH5CUFdi9xBkAWo4KvQzCLUhXnNd3QIviBLRxYzED3swYxfahnn9fA07sZcnatI7Ypug4V2k1VhY6yBBCsm8MqbCu_p5-jgqC8PhZBo-6MusFa5IzLg1xlRsZB9qqbBbna92bICpfqzpr7Aiu&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr3TKVa0rrT0C6fykfMaziD6JeRxgLJWoDdNHP442Xvj4ZWhfFYLKZd_vBrDOVJzhE&ccb=13-1&oh=06_Q3-_AUwzZz36d06jjiomJnBG6d9gfy-t2QQf4mNwemKsLsSm&oe=6A0E525E&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=L2b5uRk_zh8Q7kNvwEh3uzn&_nc_oc=AdqNgL1xOjhk0WbFRmH-5lo_cCti7euKU7v8uNP__ckQEw2LoEpsPPze_redDIQFqIs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHDBR5CNHmM8fowUEYGHz29L_BV4bLcqNJylU-OlJI86QXdWXZtjA8ls5HnNZuzx1lcUSGGl3G2GQ&oh=00_Af551p79Z_3hz-BSG87vrcKVBhjXqW-q-O7L40iB68AU1Q&oe=6A123395",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2377864676295410231?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7um7BH5CUFdi9xBkAWo4KvQzCLUhXnNd3QIviBLRxYzED3swYxfahnn9fA07sZcnatI7Ypug4V2k1VhY6yBBCsm8MqbCu_p5-jgqC8PhZBo-6MusFa5IzLg1xlRsZB9qqbBbna92bICpfqzpr7Aiu&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoWTWlb28e3tt1yPk3SyIMus7USSgRDjs2khW3mKpcjelArMajK6mefjs9tz79tBoo&ccb=13-1&oh=06_Q3_AAWwEc5DAuF3woBmtv9EFh4b9GLkLpbMtibk72FUf4ADl&oe=6A46925E&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=W3_bwkNUcLYQ7kNvwFCEw1m&_nc_oc=Adq9DljivjoSCVJCc3SlkNNGOT91yNZvLmpZtlYX0FyM-UwsElWj4fGEWG9ctQu6aTQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQF2Ctl0Bh5KiqXSNJll5svmmEpje2MH5NXYKZVWEojO-ygz3GJMlzUqzDy4G6XuE_kWYigtNlgefA&oh=00_AQCyk-N0dhPaBm8M8rO7hz-kWRwGz_zyPnlijcfnH5B_PQ&oe=6A4A7395",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1C-NsssAG/",
         "effective_object_story_id": "706740269185873_122097358154921574"
       },
@@ -79576,8 +80062,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-08-13-8f3660bb0bc50bc760416cc6a9b519d1",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10321839702864349967?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIeyEetoyMFBZ9yGAzm0vh_uc8Cgm5uMDBFS-qdnMARWi4-YFLTlAJggFNje_XGfHacmW1grIxtAwD7IIZNWU-RDhvrw7gf11ma2r5NCt4PSdhqVKIR5ucySV-30jxyjoZf_ANhkIN_WftuaKHBZHYo&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adq78AbMvNDlgSbcBpOOgRs6iwJQFLTTQIQw90MIMG9dT38WV-KgkbsworcQ-xmWhMU&ccb=13-1&oh=06_Q3-_AYiFx00FHLd7w8Tqr4sC5TMD80ciA3rL_SyrvOJlasMb&oe=6A0E5BB3&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531656248_122128388006883764_2655060837780958379_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=YxIuyQVDrSEQ7kNvwHgVhbT&_nc_oc=AdoVL-1Nq4J8X7BYfQZRsPJ87vcawP49XO7rSWGMWMgzNTSJFxmsdGFkHz4A3U8e0VY&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFbnDsSKSjaoGs--Vl1LLiQ4GeI_QOcWYyRjOt2BnlWSyPVsSkNEHLnqHnIQ37Lo5KZFauKa94Llg&oh=00_Af5ZAmzXzoZ4ZDk3MR256y2kw-fQbxE6HlaT7Ul7kkXf2w&oe=6A124C96",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10321839702864349967?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIeyEetoyMFBZ9yGAzm0vh_uc8Cgm5uMDBFS-qdnMARWi4-YFLTlAJggFNje_XGfHacmW1grIxtAwD7IIZNWU-RDhvrw7gf11ma2r5NCt4PSdhqVKIR5ucySV-30jxyjoZf_ANhkIN_WftuaKHBZHYo&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpIurxU9iyoWtSfJ3T2lFeMFSPKDXiYoUT2CMeSn85GeqGdtf2pHmRXofpvDQyB8CA&ccb=13-1&oh=06_Q3_AAepVMg8kyuEgQaqaaA7TJ6qjaua3ksx3J46YNUu7339x&oe=6A469BB3&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531656248_122128388006883764_2655060837780958379_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=c3Tu2aEQXMwQ7kNvwF5_g5U&_nc_oc=Adp5MFRRsQ2l1RRNVvrf7prvwS3lhzSKywZJk1B_-4BeQgcb137VpaatR_kKWOCwRFY&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHlAWdpGL2Zit_39Rgvh1FrZ4WF9_ZHBS3ADrtKhyiF_eeJ5hZp54fFTFjueuD5QvHw1P4nMBfJDw&oh=00_AQCmznf9-6p7BqJU_zUnedDYJIz3EnlAhbT8SJxRg4eQYw&oe=6A4A8C96",
         "instagram_permalink_url": "https://www.instagram.com/p/DNUtqdIM5zy/",
         "effective_object_story_id": "706740269185873_122123408774921574"
       },
@@ -79592,8 +80078,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-08-13-2b67ba7ac48667a8f0e9c6950c5a7dfd",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8667587279376253904?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQITGe1S2mEJT0h1uXrTK3Vqjy3eLM16Jfkjh4fi2WURM4cB9Y2N0cOdQleJ9RBWlBRYYPEl4REJXlrF6GuZ7Y5KqUVwXYMARxFnAL-vbZS5ABBOBa6Jo8NQdRs_1bQlInbTTqxafc8Rve93RCIHhdEv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr27glJjCKjGmHUX1drSkuzsq4KNyEwVbdzXH34-gp4gcqmHnhitLy_6Aj1FMdI4V0&ccb=13-1&oh=06_Q3-_AVv8vVyfQ4fa_Ui_BGS68EfyeR9IlzeWnvUji9az7Yxw&oe=6A0E6050&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531749369_122128387322883764_8595088644324985838_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=F-wU5y2WyakQ7kNvwEgHm6p&_nc_oc=AdofeBFm1POsyjlNlR7NBhC3VvrgEGtYfoUwEpBax-2pfuSGo5mmIUARVdNEd8bQzOg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQGTaep40uFEZ51W6AUPlYIw2rC8j_Yt8TIEOfd3OTVClGgU8g9XYX6_wYhv4RjedybLXNzeEuZLHg&oh=00_Af5dRRrR_6-8_OdT9SxhpQbgWdNu_7ucu7CBSx8b2XIPrQ&oe=6A1242C7",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8667587279376253904?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQITGe1S2mEJT0h1uXrTK3Vqjy3eLM16Jfkjh4fi2WURM4cB9Y2N0cOdQleJ9RBWlBRYYPEl4REJXlrF6GuZ7Y5KqUVwXYMARxFnAL-vbZS5ABBOBa6Jo8NQdRs_1bQlInbTTqxafc8Rve93RCIHhdEv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpyNrggunF-LXuW-A9B_B6bQWn-w9DP1O2B8TgY9bSVRpI9XG9rwxixZFBcDKGGeHk&ccb=13-1&oh=06_Q3_AAe6V5-Q5klTXrN5DyMqqqSIlMql3Y2tNpfvK_XU4dBxj&oe=6A46A050&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531749369_122128387322883764_8595088644324985838_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=NXK1j4r-pwQQ7kNvwGBmLoL&_nc_oc=AdroFxZbSvNkDITRApc8ek7la0MVQe-qdbn0CpCBC_A8gtVA4_XhpdwS_4SzeilzyKs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQEI_6Ji_Z3DvNUvfdZA6cVrraPTfEThy0E763_vnGDhq0GPSXIEM5yTzapE0MkjCFmIaeIewCBuQg&oh=00_AQDLfF292-MqmvKSuv8hc5OQT_KgXwg4jy_O6UEEHAHbIQ&oe=6A4A82C7",
         "instagram_permalink_url": "https://www.instagram.com/p/DNUta5Ksm37/",
         "effective_object_story_id": "706740269185873_122123408360921574"
       },
@@ -79608,7 +80094,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-03-a2ac42e382f8381b601b7c1dbecd808e",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15321313993713811662?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIYczRIDSfEYqBaRF8Br85--hvHPf9UmBv0nMaH2XrV5uSSn_fI0WWk_HLcHh51shzhY1NyGFS_RMmKEt4xJVYBvbsvcg--BsP8indIMvZJi36c6uNA8WOjin_htvhYGwsgSD_zZ0EIQG5MUhhQTsI9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpIpYpLlyEHvCHBKcCw4BBB8bSV7itb0xr-pH1A0CVPLOWZv83FmfMkkdticzHI9i0&ccb=13-1&oh=06_Q3-_AcOHFSMasI5mAbix8Wv7QiZTVZS5IVUczorsSzEOmX3u&oe=6A0E4771&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15321313993713811662?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIYczRIDSfEYqBaRF8Br85--hvHPf9UmBv0nMaH2XrV5uSSn_fI0WWk_HLcHh51shzhY1NyGFS_RMmKEt4xJVYBvbsvcg--BsP8indIMvZJi36c6uNA8WOjin_htvhYGwsgSD_zZ0EIQG5MUhhQTsI9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdocsJrjjsVKc3D8GWSG4EhcQY8sb9fhyj9lMIm7VgosvXjH9wR3fPkP9z87FNGdnlo&ccb=13-1&oh=06_Q3_AAeJWD010ywucMha9_vaLsA2fgWgp10FfUDMvt5z04as6&oe=6A468771&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK2xBEDJFz/",
         "effective_object_story_id": "706740269185873_122128638614921574"
@@ -79624,7 +80110,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 차량구독 2025-09-03-7dd1af1c73a801db260834135173f97a",
         "title": "모두의충전 차량구독",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16846412044767853122?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKF-BrSIvB9eq12HIW-00gKNI9ZmjFeJEm7O94ctMSRnuDCvu3efKPxGhIk8GnnTkgWq1dcdJRxtky_1QUyJl4_htqs0H4dh5UPl3bDIVe-3DQV6qjCfR9hzC9WoJW90jBOiMR0TDPVJgDXZvJCgIEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adq8oja1leOJMA-p_CNU_CCyOQDME_1dCYsfN2jtRlM5vqgHDixtGctW6vsS_vnEFB0&ccb=13-1&oh=06_Q3-_AR8TuGQXgw3Qz7UNgupfJS3ehT37uY6MmPzgvclUFv-t&oe=6A0E5D3B&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16846412044767853122?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKF-BrSIvB9eq12HIW-00gKNI9ZmjFeJEm7O94ctMSRnuDCvu3efKPxGhIk8GnnTkgWq1dcdJRxtky_1QUyJl4_htqs0H4dh5UPl3bDIVe-3DQV6qjCfR9hzC9WoJW90jBOiMR0TDPVJgDXZvJCgIEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Ado_TSVunDtOVD_AClFH8NYZlOcPTdrbUZYJAE420E_OImBVIWT810Go6TgJ2oqtXEI&ccb=13-1&oh=06_Q3_AAZ1bLzhx_ZwtO-ftrO9r8NlBm3jAADSbJ--6vqdbmL0b&oe=6A469D3B&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DOK2r0dDJcx/",
         "effective_object_story_id": "706740269185873_122128638482921574"
@@ -79640,8 +80126,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-08-13-2a9f0d2cc45d2cdc64ab5708b20d2295",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3939935576794936533?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKw6A-cLtPwM0ifmVj_iB3SVrxyDYUWCszE7wg9e6MnTm0pDzdfaNVJMW2CBNvr_2IZtGK2HJhJHcDBdO-9Y42PVwRcRs7S_X5bc1-pUgS5v2dTiyT1osPFbaHnlDFErkonq-10Lrp2_dfkYHo1P2_A&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqlBZl-gTEZ3HLpWZoOkJFIzoVbB7NQLrlevIOcCtNCF_uU4HRPtkkBy49pzlmvx5w&ccb=13-1&oh=06_Q3-_AQxh4U9vHq-3cr4ArFc9DOwiB-SqJCeGWzpWlX0PMIzM&oe=6A0E4C2F&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532251385_122128387124883764_4541760405168268760_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=m2Qwgcf5jkUQ7kNvwHvt5Vy&_nc_oc=AdpeHCnhg2irstNT3fLKoBqjUp5h337hx3zNdkX0_Qt408TrH0MH34DnpbjdMc7SM9M&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHu_UzRfY7I3KjMJTER425VkZdiqkItP1mVQtcHvq35thdFinhfauBx8hzjmOHF_vwpoBJy2UrbkQ&oh=00_Af6lSWKFtOpOneOEiC7I6UIO_of2YzC47W262FZ2B3_b7g&oe=6A124B2C",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3939935576794936533?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKw6A-cLtPwM0ifmVj_iB3SVrxyDYUWCszE7wg9e6MnTm0pDzdfaNVJMW2CBNvr_2IZtGK2HJhJHcDBdO-9Y42PVwRcRs7S_X5bc1-pUgS5v2dTiyT1osPFbaHnlDFErkonq-10Lrp2_dfkYHo1P2_A&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpClSFqWkrMO5GUW0dLF4f386T51WjVmS5j5T49V6s8nwyogCUnncZCnaOSmeKyK2U&ccb=13-1&oh=06_Q3_AAW8VZD1gi_MpFOxcTfNQA9DTzjum62-OmMnWdL-Q-55f&oe=6A468C2F&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532251385_122128387124883764_4541760405168268760_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=vw_V5MkNNlwQ7kNvwF5UB3_&_nc_oc=AdrHVpBMLDGyIcWKnZ4PXuMHzjJKAAOt__DRjkWkFTUi30SleOGKN5sr0TQuxooZKAE&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHBIIgOEBkrXYu3y7RW8MH6x7hwOYxh6i67iHky6WVkANYLj0wSXI_4SDH9It6MBrpmHEXDikYQvQ&oh=00_AQBe5lAFSV6hHQPtCQzQYOz-VjGewd01TGYpw9n1V5kRBQ&oe=6A4A8B2C",
         "instagram_permalink_url": "https://www.instagram.com/p/DNUtP5SsQOU/",
         "effective_object_story_id": "706740269185873_122123408120921574"
       },
@@ -79656,7 +80142,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-08-05-451eebb88c3a788dc068bf305a0498ee",
         "title": "모두의충전",
         "body": "💥💥 보증금도 서류도 없이 벤츠 타기?\n수입차 구독 지금 신청하기👉👉",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4731675722569428889?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKqWgZ0mjWoqqMMm71naARtV4_b53arqosU4yueO-HGVt-wQrws6YmfEY0B37qV3Cg45J_rEBOAtRRpeiwCkOYTeAuYKLaLdSvZfUYEkD59gmB9bXyvc00RujV8gMjXjeEHzXm3WmOZQXBOcRLm4CwH&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adov3_3U6Wapj2qjomJTekz7ruqOXCjXDRFC83cZVRb6wQ1pwCV0aszRY1-_sDIPlVU&ccb=13-1&oh=06_Q3-_AVwC0o-lVklTLRlBAOlElmno0VVfTlPKfXaL-9-BXAgQ&oe=6A0E5874&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4731675722569428889?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKqWgZ0mjWoqqMMm71naARtV4_b53arqosU4yueO-HGVt-wQrws6YmfEY0B37qV3Cg45J_rEBOAtRRpeiwCkOYTeAuYKLaLdSvZfUYEkD59gmB9bXyvc00RujV8gMjXjeEHzXm3WmOZQXBOcRLm4CwH&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adr8U56ALlo22fu36KbrAukcsx8xURrdQk9my2XeDHwDLQREjExqJNAPkmHXFNsF6uE&ccb=13-1&oh=06_Q3_AAXG__5oHuWu8dqRZCkm00vXzopKxeglzp1Ac-MDcMzvC&oe=6A469874&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DNAJP11MmEU/",
         "effective_object_story_id": "706740269185873_122121234686921574"
@@ -79672,8 +80158,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-12-9a8b903d86730110b11676204e6c3a3f",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9215421750810655854?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJbLCsI9j1S3UxrCStWBVDzUjPJZgwzpUvSgLtTtylSyjYOVXAsrvUNmXXSaAm0cJODfUMqbzf8tH0FQ_CTv2BBj9DU-z8ViCNV1Qzp3V3zuaFCNFeIlqgBP5GovgFhwCXSIoTXeCFiDQNTJKzrojBA&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdopfGsaWf1cLv5gLDTydg_cgYvfi9FJIC3fV4m_dJOXdZzqyFAoca6WIlWRCsiXC-Q&ccb=13-1&oh=06_Q3-_AcXmXDcmJgZ9-V5mtSewByM9Ac7ZssxoqxHuSU_LeNau&oe=6A0E5755&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=B-4B69Xjx0UQ7kNvwHIfTdP&_nc_oc=AdoBu0dIqcIQ-WhVX5fkVO0PrT-TgNLp8x6Kapgo4IDY3uDSmw2hKyc21gZNw33yXJM&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFLXjGNWFk_KbDrxkkVelMUZmMa3dQVK7DG9cPZoh6fK6ufsibUr4Lx52dNjtmlIQWosflFMVrcqg&oh=00_Af6tS9IHAk4TcRoSsNuG-DrpHxXPMVGda5wF4H5S47steg&oe=6A1265AF",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9215421750810655854?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJbLCsI9j1S3UxrCStWBVDzUjPJZgwzpUvSgLtTtylSyjYOVXAsrvUNmXXSaAm0cJODfUMqbzf8tH0FQ_CTv2BBj9DU-z8ViCNV1Qzp3V3zuaFCNFeIlqgBP5GovgFhwCXSIoTXeCFiDQNTJKzrojBA&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqtGNFFUdo1_B4QLL501dS34kA_7XjDU4snLcCpggLtaPcLSji4ojb3OiSwl8hjQCk&ccb=13-1&oh=06_Q3_AAan5IaoOZkcxbnAlcP9cfSVrAoGhxcNZs4X_KCIg7_KJ&oe=6A469755&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=vC7Y_rXM39MQ7kNvwEFFa0J&_nc_oc=AdqiDC6ci6xS6PD_L30cmxGXl-q-6LJrLVe0XrgSNEFj3o71v0lC8-7PC6jmsI_rGRQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQH_lN43I7ohTiXdShtfbRT_vdKMQE0sqGFqKHChFI7lYCFazWfzwzqp_dHTUg93N_c-Ds50BieG7A&oh=00_AQBkiBDugWx6rWVadny7x5uEVi_yyYSSi9jlSwU5bta8pg&oe=6A4A6D6F",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1CxOUsOpl/",
         "effective_object_story_id": "613843215154831_633465039859315"
       },
@@ -79688,7 +80174,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-06-05-273ca2651ceba8cb618b954cf01f2a82",
         "title": "modu_ev01",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13667298182480704652?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLndT26-o8PM8_GAJAeLq4eMicYSFpekmpw1e6iHcJVulejWzy7kYQ6KewbT0qiXQs1DyLYZNCg6osiL4HN76hLCTBPCRyH-JmnprdAPDEoS_BPU4ySe0X-Ef8TsHVFc4V3uKIEcJTg6Pkqi-RdtVig&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdoGomqzSbYtIcjGI8HZKSDPFwd4_Js077mGuVVZ8RmqmJymirSxOoOmvh8i3QamykM&ccb=13-1&oh=06_Q3-_AXhRLakttXUYCjH26vFoSnyF3owU2-DDz4cSTAN51GBM&oe=6A0E70F6&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13667298182480704652?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLndT26-o8PM8_GAJAeLq4eMicYSFpekmpw1e6iHcJVulejWzy7kYQ6KewbT0qiXQs1DyLYZNCg6osiL4HN76hLCTBPCRyH-JmnprdAPDEoS_BPU4ySe0X-Ef8TsHVFc4V3uKIEcJTg6Pkqi-RdtVig&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrLTIDXb1FuI6ni7W2C937YNxnqs1vCm42KSftrdQn10Exw2KO2XyfM9bJDSZOIFsc&ccb=13-1&oh=06_Q3_AAUIfvG38r0JA0QJos-YjjPP7e-gv3C2TLHcYx88z0h8Z&oe=6A4678B6&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRaGyhsIhd/",
         "effective_object_story_id": "613843215154831_626627763876376"
@@ -79704,7 +80190,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-06-05-e3aefd459c59f7cf1bfbe762b462632e",
         "title": "modu_ev01",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/18165952351760983631?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuhVq2-lRJRtFAHOMn-zBvs6A6bLWhfkLgCaZpUfx6jk6bS5qG06rlA49freSXVvZL5L9kY4GZO2PcxLtgSbxDZwt_JVpCI4M4nyAiMrVTrYgFw4q-XslAnnbIZ0PG4P3eQjMhVAO-g3qLzeE0KBwj&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqHi48B56B5wB4EAOJ9LvlgGHw4mfXMPakLFBcEVgHdfmjM69kIn8sU3XKV1s-b3Nc&ccb=13-1&oh=06_Q3-_AQ026RCEXtzZflh7e3LbsCjF0NVr2QlG_zIzTGNGSEp1&oe=6A0E50F4&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/18165952351760983631?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuhVq2-lRJRtFAHOMn-zBvs6A6bLWhfkLgCaZpUfx6jk6bS5qG06rlA49freSXVvZL5L9kY4GZO2PcxLtgSbxDZwt_JVpCI4M4nyAiMrVTrYgFw4q-XslAnnbIZ0PG4P3eQjMhVAO-g3qLzeE0KBwj&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrXNtaUDNojZpDSK9vVtiECR4HxJ3iF330be6O2A5357ot8pqInaJrPohwW41PReR4&ccb=13-1&oh=06_Q3_AAcl-J0BFxTWnv0ISLlua_UstKrAkVInl0qY-H--Ut8zK&oe=6A4690F4&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRaqFRse0H/",
         "effective_object_story_id": "613843215154831_626625750543244"
@@ -79720,7 +80206,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-05-26-5095c0df37ee7683132e8b75ffedbbd9",
         "title": "modu_ev01",
         "body": "💯1억짜리 벤츠, 100원에 구독하는 방법\n\n전기차 구독 플랫폼 #모두의충전 이 벤츠 EQE 350+ 런칭 기념으로 100원 구독 이벤트를 진행합니다!\n\n✨BENZ EQE 350+ (1개월 구독권)\n✅100원에 제공\n✅신차 기준 1억 원대 전기차\n✅보험·세금·보증금 올 포함\n\n📌참여 방법\n1️⃣이 게시글에 좋아요 누르기\n2️⃣댓글로 같이 타고 싶은 친구 태그하기\n3️⃣모두의충전 공식 계정 팔로우는 필수!\n\n지금 바로 좋아요 누르고,\n댓글로 #EQE탈사람 소환하세요!\n\n💭“이 가격에 벤츠 타는 거 실화냐…” 댓글도 환영입니다!\n#모두의충전 #벤츠구독 #EQE350 #전기차이벤트 #벤츠100원 #구독의시대 #카푸어의꿈",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11604586401846577993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIgu8qnFbIXSAaU-ARaFW36UuKwZYHjBrBC8RjibsbxYyekNcrRgsJMdBdp-DmzaKtBmZP3qJ6Pg2oZBQJN1BQQOIuvJFk5IqJd87dDgBQwACzNte8pNvfAp6IdDIp5QVTN2d_w4e2qXsHzQWGFF2Ip&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpYYhOTmvgwNGIHOyWUyAcaaQKNI-tZx2A76rXO_xYI4Bgh_Q8YjA_FkOao0u9AbKA&ccb=13-1&oh=06_Q3-_AcuLVUFiFznfKt4_cjjZvNsTJ4PboohQ7tEP4-FDYVWX&oe=6A0E4408&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11604586401846577993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIgu8qnFbIXSAaU-ARaFW36UuKwZYHjBrBC8RjibsbxYyekNcrRgsJMdBdp-DmzaKtBmZP3qJ6Pg2oZBQJN1BQQOIuvJFk5IqJd87dDgBQwACzNte8pNvfAp6IdDIp5QVTN2d_w4e2qXsHzQWGFF2Ip&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqT0MfA4flqYwujegEpN5jRBSqPdveJF_py41BuJqN4Pxf90ymQdiPuUZFkcmvAgvY&ccb=13-1&oh=06_Q3_AAVfoovETjPfOx8COrqoYQIm56aY2oScEAca8XXm1MRu5&oe=6A468408&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKJbRkUMgZz/",
         "effective_object_story_id": "613843215154831_617599224779230"
@@ -79736,7 +80222,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-05-30-cf2b48c790cdff24009cf2e707559639",
         "title": "modu_ev01",
         "body": "💯1억짜리 벤츠, 100원에 구독하는 방법\n\n전기차 구독 플랫폼 #모두의충전 이 벤츠 EQE 350+ 런칭 기념으로 100원 구독 이벤트를 진행합니다!\n\n✨BENZ EQE 350+ (1개월 구독권)\n✅100원에 제공\n✅신차 기준 1억 원대 전기차\n✅보험·세금·보증금 올 포함\n\n📌참여 방법\n1️⃣이 게시글에 좋아요 누르기\n2️⃣댓글로 같이 타고 싶은 친구 태그하기\n3️⃣모두의충전 공식 계정 팔로우는 필수!\n\n지금 바로 좋아요 누르고,\n댓글로 #EQE탈사람 소환하세요!\n\n💭“이 가격에 벤츠 타는 거 실화냐…” 댓글도 환영입니다!\n#모두의충전 #벤츠구독 #EQE350 #전기차이벤트 #벤츠100원 #구독의시대 #카푸어의꿈",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12097581472984220760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKuZlhEW5Azs5nJLgGDKmEtDGGUOo_3TFYJLgLrqkCh2hhaeZtuWfLpw4UPHSRTjfSd1mS-hZxxHrfxKBnn9_D3mVRonx8I6Utqp-oxJ-hLBVqZWS-WOrNVXbpYCbT8jCbkIAHsHNf9w2adafIuXc9P&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdrG5R0NX4Jg9eGduRIyoBcK098Y1VAeuTl6cIHRA6h6aGZW22juIYW4UPEICZJNtMc&ccb=13-1&oh=06_Q3-_Ady61wB51XBEDaKLmlxjFptRWsw8ErIP1NBFIPKVn1lE&oe=6A0E6AF8&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12097581472984220760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKuZlhEW5Azs5nJLgGDKmEtDGGUOo_3TFYJLgLrqkCh2hhaeZtuWfLpw4UPHSRTjfSd1mS-hZxxHrfxKBnn9_D3mVRonx8I6Utqp-oxJ-hLBVqZWS-WOrNVXbpYCbT8jCbkIAHsHNf9w2adafIuXc9P&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adq3tANhiTn6hxWTnr--0wBFYJaUiL_EFxDMHNsn6Gp1scQLLabQUC81yYEBeMiIWHE&ccb=13-1&oh=06_Q3_AAYXyVFS3gxI8SP7-mHNxWW6d9t-KyvcCTRdEQD4zeGZZ&oe=6A4672B8&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRcdlGM_kR/",
         "effective_object_story_id": "613843215154831_620373611168458"
@@ -79752,7 +80238,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-06-05-fcad86fbbe4f24eea0b010406a65003a",
         "title": "modu_ev01",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13251977304038172522?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKMOwWKIH6idFrjE1eg33h0-BCNmsXf_Wc8xeVnJ6ii2wIChU_m4H59XE53oxDaxG30pqE0eSUnVwpzil258ppHyJo5Ager-xmsDGNo18GW_KxUwxySrdl6ueqUkfFurVH94rGUyMJiS1aOF8xZSIEF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpgtDKzUxZ74JxPoOz6IYIPRjhSc7yUV6Fl2qgJgYrBhZspfTk6rCEvrFuLtFFx5WU&ccb=13-1&oh=06_Q3-_AWRBUYWAW0SZi8A9G3efX2MHLNx7AovWjamVGl2sQ5C0&oe=6A0E6278&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13251977304038172522?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKMOwWKIH6idFrjE1eg33h0-BCNmsXf_Wc8xeVnJ6ii2wIChU_m4H59XE53oxDaxG30pqE0eSUnVwpzil258ppHyJo5Ager-xmsDGNo18GW_KxUwxySrdl6ueqUkfFurVH94rGUyMJiS1aOF8xZSIEF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoTp0YIfSF9EIaAsGP83hU0d2mnyaJ_-WqzW09ZqxljHOtVYGaYgHt_4ZRsAVKzoNY&ccb=13-1&oh=06_Q3_AAdNwiVQNmh1YvNaayDrCPVzuBlBrWZwj7dXvJA8VP4gn&oe=6A46A278&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRajVzsxs8/",
         "effective_object_story_id": "613843215154831_626622923876860"
@@ -79768,8 +80254,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-12-43a8a84413ab15cadd7dd9bbac4fd13f",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7283393250428480736?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI2FkhDGhEOo4cKtoC8zryh3StaAfvz_p80LJf_b2HdsUpF5FEHTiNhqt_uyfcMt2gO9LvsPQrduDQ5mpQ1XqOmBvsOYJUO6uBdLOaRYW2YakGkWjSbt1rnXAXCcX-4HMm724iBE-_UXqol8BtzfYMF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adri4QlJjD_e9q8zncXOw4cJRwPatgAHERKKdxTG_7UVApz5uzVKca5mQnEEOR_ODlE&ccb=13-1&oh=06_Q3-_AS9ymE_nvGkiXjnCKYCh3DDJNAPXmHsOvvFXQqYZ4yfM&oe=6A0E4859&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=L2b5uRk_zh8Q7kNvwEh3uzn&_nc_oc=AdqNgL1xOjhk0WbFRmH-5lo_cCti7euKU7v8uNP__ckQEw2LoEpsPPze_redDIQFqIs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHDBR5CNHmM8fowUEYGHz29L_BV4bLcqNJylU-OlJI86QXdWXZtjA8ls5HnNZuzx1lcUSGGl3G2GQ&oh=00_Af551p79Z_3hz-BSG87vrcKVBhjXqW-q-O7L40iB68AU1Q&oe=6A123395",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7283393250428480736?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI2FkhDGhEOo4cKtoC8zryh3StaAfvz_p80LJf_b2HdsUpF5FEHTiNhqt_uyfcMt2gO9LvsPQrduDQ5mpQ1XqOmBvsOYJUO6uBdLOaRYW2YakGkWjSbt1rnXAXCcX-4HMm724iBE-_UXqol8BtzfYMF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqM_Kz1jyZVcFr8IZT0odkH37LimimilzXw_5Fr2uy3fyKS0q2qy8fYxAlvbU8rfN8&ccb=13-1&oh=06_Q3_AAfMtNg739hYYVL0Hjj0MT_Wo1SHi4YQZBvHbZG1QznSu&oe=6A468859&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=W3_bwkNUcLYQ7kNvwFCEw1m&_nc_oc=Adq9DljivjoSCVJCc3SlkNNGOT91yNZvLmpZtlYX0FyM-UwsElWj4fGEWG9ctQu6aTQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQF2Ctl0Bh5KiqXSNJll5svmmEpje2MH5NXYKZVWEojO-ygz3GJMlzUqzDy4G6XuE_kWYigtNlgefA&oh=00_AQCyk-N0dhPaBm8M8rO7hz-kWRwGz_zyPnlijcfnH5B_PQ&oe=6A4A7395",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1C-NsssAG/",
         "effective_object_story_id": "613843215154831_633466459859173"
       },
@@ -79784,8 +80270,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-06-12-a62bd64326a22cdf157dfe8867d31aad",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/14255060838790916268?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ2FjXDvUKYcsQUe4sVN0giUjBPszjgSWRbQCy0ZY921xphJQzOuTyl3QNnpEfnr4CfxSOf2Y4_q7FXPEbJ7C5qDz4vqYsDebKhsN-cokTZ4_2NjOBK6b6AeZugiti2uuhXI1YX_nJK9iqrOTX5qrMN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adp_OWYJjfNGfHZYqo2pqXavFudvdYPrqcD2lXU7WKfJ3RyMAfFP9ofivw_OjP3mi5E&ccb=13-1&oh=06_Q3-_AYhmkSjBWmbAJP4qIMEBfU7A_5Fy1iq1NFdsqOrJnM-z&oe=6A0E3A59&_nc_sid=58080a",
-        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=k8j9OEyQBgoQ7kNvwF6EXc6&_nc_oc=AdqTb3PBnaf7jGmdFODvmiJ_GamyGySEUrQjyojVT0y_FTa5ETHoV7L8le-qH8dlJ9k&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFeho5VtzZ7cBMHSNc-SQxdbG33-mcdA68IFMYNx8IVGJ75SqTwcC266uiFL3qfyVtU35a77mlJMA&oh=00_Af7PeKb3sNFoZrzzGy-NPVAhm3KLmEtg3wwCLh4-VoSRqQ&oe=6A125FB6",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/14255060838790916268?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ2FjXDvUKYcsQUe4sVN0giUjBPszjgSWRbQCy0ZY921xphJQzOuTyl3QNnpEfnr4CfxSOf2Y4_q7FXPEbJ7C5qDz4vqYsDebKhsN-cokTZ4_2NjOBK6b6AeZugiti2uuhXI1YX_nJK9iqrOTX5qrMN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrXSbzNFE9FKzsoNEZ1evMKL9aSuWKE_78ZgspbsAmbmB-d_GDrfNq1zcHmX9NsuQY&ccb=13-1&oh=06_Q3_AAcCJVq-ZXMMtz9TEJOdXN2cZBdwTX8IsqaiCvRHgixdx&oe=6A467A59&_nc_sid=58080a",
+        "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=68xE6xsj0_UQ7kNvwE32eD-&_nc_oc=AdrTxeTFB--derlmwJz_SIagA0qvCA0vVaOGkh07ZBJRsWmpHXXoRRQ8Lk_Qnjt8ob4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHVG7tQscLyFnXwivC3MjctuFSFwcLA92mmpnOV-WAjjr5Izv0Wq4lyaRHZbwm_AEdNDwlc-sjLrA&oh=00_AQBSTKYYNn4yDxDRmifWDa89VQ3iYpwaKScjcgw181pFpg&oe=6A4A6776",
         "instagram_permalink_url": "https://www.instagram.com/p/DK1CmUgMpvN/",
         "effective_object_story_id": "613843215154831_633470673192085"
       },
@@ -79800,7 +80286,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-05-30-fed8e34c20ce12f55793ab77393ca277",
         "title": "modu_ev01",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15019770818401999055?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJNd1JTyb31HY6ktT8-pa6KjKlj1iBmegUjBzjM-032jMayog6nK0lalQiTr3ASw8PbJODGedYQ1G5XrIOLiAWWZhkTCR4clJejMUtdir-KznDWcLK_kxYvInUpJ0nLK9190D3Da8sa978Xglp81XI5&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adp7xiYrosiepEuW-2HPw7bxEInPtsZyksS5vKpHNls-I5nu0SrJDeRs5RRZN7JGXwI&ccb=13-1&oh=06_Q3-_AcGaH9SwNn1zfsbhNiyAO_mSW_5Sf8QyNk7cvvSON7iU&oe=6A0E6335&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15019770818401999055?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJNd1JTyb31HY6ktT8-pa6KjKlj1iBmegUjBzjM-032jMayog6nK0lalQiTr3ASw8PbJODGedYQ1G5XrIOLiAWWZhkTCR4clJejMUtdir-KznDWcLK_kxYvInUpJ0nLK9190D3Da8sa978Xglp81XI5&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoFbr-HolGDxedPYt_xLxMWqF8qDwxwhUmXkXEGJif-orYqHoWwkF4eQKcwLMK_q8g&ccb=13-1&oh=06_Q3_AASYfSzJFWu9ibGVU4NarJioQHzLesOraCZjv6FX2Tgvs&oe=6A46A335&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRajVzsxs8/",
         "effective_object_story_id": "613843215154831_620362881169531"
@@ -79816,7 +80302,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-05-30-0a47dbab6d6e5e87f8d0b7ca88cdff75",
         "title": "modu_ev01",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7778916155907662420?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIHoxDJUdeT7VE3m12baHCiYfgPi2z0slKI-sldNdvcc67Pe-KVVfttjG_-Z1v5R8JjE33uUOsS1Do1zWL668uIyZ81iJUT2yZE8JpoEiqwHXrME1huWqmx3pPGphnwXs823oJPwtdImDEGT4fSxSPT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adpw9CWrSSUio7it0UaDHsF6DM6yFuh2fTWWO8q1YN1OFggHXY8UHTXQO9fO3Y6-QwE&ccb=13-1&oh=06_Q3-_AZlFMXBlW30AKimkEiCclTXxZSBGqsnijyNl4ESyp0Yi&oe=6A0E53E0&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7778916155907662420?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIHoxDJUdeT7VE3m12baHCiYfgPi2z0slKI-sldNdvcc67Pe-KVVfttjG_-Z1v5R8JjE33uUOsS1Do1zWL668uIyZ81iJUT2yZE8JpoEiqwHXrME1huWqmx3pPGphnwXs823oJPwtdImDEGT4fSxSPT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrEay4I6LxCbvR2_rkSvMTwp9YKrQef8k5_z9cdgGmIXI7x2elIJQRX_S-Vjnrr1b0&ccb=13-1&oh=06_Q3_AAUkewoYD4fkJu1lu4ir4WnZTFMdQYSPHmW9dH3qEyHwP&oe=6A4693E0&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRaqFRse0H/",
         "effective_object_story_id": "613843215154831_620363674502785"
@@ -79832,7 +80318,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "modu_ev01 2025-05-30-c60e32d2978e27f2d846c0550021e834",
         "title": "modu_ev01",
         "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11933168648067242953?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIECENRHfmBJrhaOq14ftmBUCY6S4ldxmPCJV2QoC76eS3uX20ifDMw8sg-o7xNLvnvMXKSz12moE2EmU8GzRqVShEL2sVwpgWEwlQbUYk8Y5DmVQc4gjIOeA4YGLi1Ai_ZnIst0GlXn6wcq1qNXpuI&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adqnb4YkZoWcFcWbD3fgrmYq28ETUhk2EfKSuk6UYewI-cxO2Go4FLqTgD6uvgCA9w4&ccb=13-1&oh=06_Q3-_AamCbIB14WrdQ8yr5UB-OqD8842uF5KBPuI2FVH-zXO_&oe=6A0E4C9E&_nc_sid=58080a",
+        "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11933168648067242953?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIECENRHfmBJrhaOq14ftmBUCY6S4ldxmPCJV2QoC76eS3uX20ifDMw8sg-o7xNLvnvMXKSz12moE2EmU8GzRqVShEL2sVwpgWEwlQbUYk8Y5DmVQc4gjIOeA4YGLi1Ai_ZnIst0GlXn6wcq1qNXpuI&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoE17x2FvQGx_uxYKIBzKIzwpjLSwSXgB3soczD__DZALmFiZ0wSuFHh6PnGsdMfzY&ccb=13-1&oh=06_Q3_AAVF36hh5ulbA6ccCEJwS1LxmJxzRBk1lZYSyZ4YZQxAJ&oe=6A468C9E&_nc_sid=58080a",
         "image_url": "",
         "instagram_permalink_url": "https://www.instagram.com/p/DKRaGyhsIhd/",
         "effective_object_story_id": "613843215154831_620360447836441"
@@ -79848,7 +80334,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "creative_name": "모두의충전 2025-09-02-887a2e137e2ff25dd2008d21f10956ce",
         "title": "모두의충전",
         "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vlx23jGtzJUQ7kNvwG4kHKU&_nc_oc=Adr5yuBlSap2BM6zibt7vow3D1eaDOz2z5mYvF0HKBoY80HUnQKpQVndBKIa7mDEYR0&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQEZzyg1fU0wlDu_-1f7diceneKRCk0aTPqLdQ9QuUe_ZqAYH6oWaOVRfAVqvTTuh37fxUJaqk8w0Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_Af5_xmLOAwrPkb2yIZcAGwTZvUvLCyWqRFGFNWck1FARHA&oe=6A125985",
+        "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQFtAh-XjbdUCfYU8xIUordRK0gBci9N-LpxXVCne7WtR4h02GvtMHH8LFqaBo6o9lXUMZ44YBOhTA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQCX2s6CrJZKjTU88IzxsK4Cq4-MbTYbF5QNdGGe82JbGw&oe=6A4A9985",
         "image_url": "",
         "instagram_permalink_url": "",
         "effective_object_story_id": ""
@@ -79867,8 +80353,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-30-58dcdd06345a05868e9d546946e05f42",
           "title": "모두의충전",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12611676796177715426?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLQ5mNmhAG4BjIP4QqcN0OgSF2nszr0s4wr5kGxPVy5DQG57Hu7B_WHX_n8Je0HKnz4mui3yg09r-QEi8OgnlAzPACl3eaJU1u0VSDbb0VXxLrJQJIuugzKhVeSkwZsYZmUtIu2E2q5uOhicLIs6PI7&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adreqo3dFVhrpK78BGJs7wPjfJxwqUb1t6a9n6PwCgyLK2ZXY2QxwoG4s9FFKZJTel8&ccb=13-1&oh=06_Q3-_AU9ogIK1Tno3-EuSQC5FbyWwLy_v1SyZotCL3ViFJYOM&oe=6A0E5F04&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/683544521_122171588276921574_1938511091069648766_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=gQ1jGzKPbIkQ7kNvwHHzwD7&_nc_oc=AdqiK7uyMWh2flhr3_VBDKv2MVWTYtvjHDzAvj-7-d98dLP-3cjikfhDmtRzuADrzY0&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQGRRpg6bbBMwAySWWsNwL6_P9PJsbME4cwAY3-0AWOUIxhnVHXzMYOANubOoexYPpqOpfCzbSQelg&oh=00_Af5ngDF_va9_yncKXyDuUpP38v7H2VAKPHXEFesKqUOwow&oe=6A122EDA",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12611676796177715426?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLQ5mNmhAG4BjIP4QqcN0OgSF2nszr0s4wr5kGxPVy5DQG57Hu7B_WHX_n8Je0HKnz4mui3yg09r-QEi8OgnlAzPACl3eaJU1u0VSDbb0VXxLrJQJIuugzKhVeSkwZsYZmUtIu2E2q5uOhicLIs6PI7&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdqQNB_uaFPJpupNyaFNX1-3bhL0ehxDtHSLXQsYl2zv28hbYdv7zx6beP5GFFmMRDU&ccb=13-1&oh=06_Q3_AAcq7RIGEBTYYccfZRgh_xyXcKpMAEQgv8z0tiRJrVBXp&oe=6A469F04&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/683544521_122171588276921574_1938511091069648766_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=PO6E_Uj2y8YQ7kNvwE6D3iu&_nc_oc=Adp4V1MdeO-bvf3wsHzdWd5M101Pnr6qkktatjkInO-ohsapjApriOr2l5naaS8RzAs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQE6zeQEimoTuD9TkF_6ZSsusasQHKuLbJgU78BzEquIViKrtIJL_3Pv6LE2z1zNi3C4tY05rSq-Jg&oh=00_AQC4yoqUkc1LPZ3HUCs4BuZIicwxg-uW6n8SJg0qFGIvTQ&oe=6A4A6EDA",
           "instagram_permalink_url": "https://www.instagram.com/p/DXv8_5ODLXP/",
           "effective_object_story_id": "706740269185873_122171588192921574"
         },
@@ -79883,8 +80369,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "web.deliverycharging.com 2026-04-15-a3408bb30d4f26a9cbbd710d3ded9e82",
           "title": "web.deliverycharging.com",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5878580946024616994?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJWMKteEAV0a4ijbKzjlgPZp7uPwu3r3WCljW_Q7_HR2Zb9xIlY6WoHY-dopuoI8mfpkdoYkWDG2_6YO1Bhhj3gLBhdGny_Sl3Nm-Vqc7quL13wQ3m-1ZtikSQ6OH4hQwVPXhyfQdYGyQq7vc86ErE_&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adr6BY-zuU5G4OP4IEYyK_qgHI5_x3H8973pRjUBe9v9V2oN14u-G5Ua6RgJysXF9tI&ccb=13-1&oh=06_Q3-_AT0sH3S30LgLOmtUvHNYpzZoy1ZvY8nRbY7JFlKQmjiS&oe=6A0E42C0&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/671712104_122169449984921574_2672865495213938596_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=uFiu5hjMKeIQ7kNvwHTIhiT&_nc_oc=Adq8N8SwEha4YvQPoBxH2AiFWFdOyj9tW4zo63q_le7ceu3OqltNTmPxzUn2A8i6144&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQE_qywxuijF36ULGR-54B5uRI9rHYFECFnG6XYIRbpGNiBPCnkfZAPU1E76zN1s8-gf94QFSD7hZw&oh=00_Af5RxXH8eCmy4l93mhyWoF5rBdDTDhXl0_BB2QLyTGAu9w&oe=6A1262A5",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5878580946024616994?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJWMKteEAV0a4ijbKzjlgPZp7uPwu3r3WCljW_Q7_HR2Zb9xIlY6WoHY-dopuoI8mfpkdoYkWDG2_6YO1Bhhj3gLBhdGny_Sl3Nm-Vqc7quL13wQ3m-1ZtikSQ6OH4hQwVPXhyfQdYGyQq7vc86ErE_&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=Adq8AQPJwDkosbIv9sPIxH8eiU3M-H3U2QodWmSFrGLy6vrFGUIJUQdalrECRTfrCNY&ccb=13-1&oh=06_Q3_AAcX2_LORcjY2mU4fAsvEuw3N_0-Ubd-HkauzHswu0YWx&oe=6A4682C0&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/671712104_122169449984921574_2672865495213938596_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=3dDGZgBNLx8Q7kNvwFC3LKc&_nc_oc=Adob7X87I3MV0-2yRR_-vKEc4dU_oPL7K7uhWcVJgb4gmgEh89YZyj9HB45afrbckOg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQHnc18UV_GRIr7jFQnyZQaZ72Zg98nhuzpY7IskQYyvg4wSIEXxKRuE5We8E1kUPQpFe1150c1nGw&oh=00_AQAMeVTOKNzZCX8Rcb8MaVLH84rIfRt0FjDZuJWts7EYZg&oe=6A4A6A65",
           "instagram_permalink_url": "https://www.instagram.com/p/DXJYZmTDHfZ/",
           "effective_object_story_id": "706740269185873_122169455546921574"
         },
@@ -79899,8 +80385,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "web.deliverycharging.com 2026-04-15-5fefeab4f48d8b33f5d070aeb8b3aabb",
           "title": "web.deliverycharging.com",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2053209813683520323?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJDXy34T-L7kYWbtLWo31Q1kqRaY0CiEYH7Br2Hc1vS_stHV1aYKRLjUnu2-_5l1LzIvof7Dw6sVLFrXfdEU12QY5S8AShvr1TLmN7hWl9vXMEjDwGONNwW3AUE6P9rF_QfxKqFJrNNCAeOuAgxlu2S&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Ado79DgDwBmeff5XIzfGAcR4yOj2EMfKR7psY5hrUgD2eXGm2quq3N-_ssvjnSiTG3w&ccb=13-1&oh=06_Q3-_Aa44WA8lME1nqpckiQB2M5pBtVRtNZXpni627K2PagVS&oe=6A0E6C00&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=9ilTdfJXDUsQ7kNvwHaR3dP&_nc_oc=Adr_LYlW3QRQDtDe4I2VdWkxHjEuYtaQBwDfojZHlomMMXcmNS5EFLNS3D4CnQeolDk&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQFSrch-0_ERiAKYoS0ZLBcYb6YK55LTpKdEQYVXxM6xsUiDhWIGGfnOr40LUBJwp3PwCHoDOhziaA&oh=00_Af4t8qK33uHWDXzoARcofcky3X76hDGv-67kOciIROrI9Q&oe=6A1264C4",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2053209813683520323?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJDXy34T-L7kYWbtLWo31Q1kqRaY0CiEYH7Br2Hc1vS_stHV1aYKRLjUnu2-_5l1LzIvof7Dw6sVLFrXfdEU12QY5S8AShvr1TLmN7hWl9vXMEjDwGONNwW3AUE6P9rF_QfxKqFJrNNCAeOuAgxlu2S&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdorTCdfJp7pLMSP6me2hnr-h8oaQ1aF2OqoSXU2VNkRkK2m7ZkF_X0_6MLA0jBgswU&ccb=13-1&oh=06_Q3_AAeL19YLYreMr-zjcLay0mhEqX9Jr2XQanW2iehYdTBFB&oe=6A4673C0&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WrwBnCNab9kQ7kNvwFtop6m&_nc_oc=AdpLhWuCOCq_Ecr28aGVx86vyOZMA1wZyqpmF0_Gq3_9j1Wv9VXLp3q3eLp3Ajc8fMg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEFBcEt0thvC9TEOt6h3jp7q1nUdeBFxAD4UBO6U7Kk7SXxi_V2IL9ZgKWvz4MaxVpDDSYrpKJZJA&oh=00_AQAdCwA8-ld3efTUM1q7ZVzxRr1j1NB7zJcKWdA4oF4lrw&oe=6A4A6C84",
           "instagram_permalink_url": "https://www.instagram.com/p/DXJX4RSjJ3G/",
           "effective_object_story_id": "706740269185873_122169454544921574"
         },
@@ -79915,8 +80401,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "web.deliverycharging.com 2026-04-15-d8f6e6623a6a70534bfb4b29683f474f",
           "title": "web.deliverycharging.com",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11841027799498181661?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJSWoUx9FbFeh4j3vHit2tqUQTVc64E_pw4VIpq8lN51Pnog5R3cfpep9pvh5erCPMGvSoi_Gt_5pV7Y4QweACZ3I1SPugesMul0uTEX88tur1IlAdAWXbBCI-LPhkgNhgeDoxeNa_Ul21L7DaFzsvL&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adriarv79qxjIxcsr5B2t2ZZ7p4ZIxNThgboTEJNWLwVCXQx_x2jrlVTPYZeVLW6Yes&ccb=13-1&oh=06_Q3-_AbyPzuQCO5zsg_l2OBeyZEpPpsD9UpDLu9X82E-iQ4Rh&oe=6A0E39DF&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/673401562_122169449198921574_954651837468052413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=0YZo3uf6vswQ7kNvwEfPYER&_nc_oc=Adqio0pOY3Buq0VK1sInX2REQ6wKJG9NsL_X3Bzh6fWHZqw3_x_iarzbOeJ3WIKruV4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQEDq38y8A_Cm_2KwCuIPtmYX7wqrgMPcoYay_BJaJmp8FYiYWGy5HrT_a1LDpQh-YmInXkAKh2cAw&oh=00_Af7RUgEFKzIe8N_AkcMjlaahjdjwW00qS4iROD63lZX9lQ&oe=6A12397E",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11841027799498181661?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJSWoUx9FbFeh4j3vHit2tqUQTVc64E_pw4VIpq8lN51Pnog5R3cfpep9pvh5erCPMGvSoi_Gt_5pV7Y4QweACZ3I1SPugesMul0uTEX88tur1IlAdAWXbBCI-LPhkgNhgeDoxeNa_Ul21L7DaFzsvL&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdrYE_yNJGP7BR6BD-LgJHZn8FK3wkWQhlScjBxlGTZ34HWcJxUhQ8Vnmb0IaLjU6Bk&ccb=13-1&oh=06_Q3_AAZbc-60xoUwcS4qkyCLjO5iOcjVXNEeRUh7YlzO8abQt&oe=6A4679DF&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/673401562_122169449198921574_954651837468052413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=7votQRUS4fAQ7kNvwFAZqg1&_nc_oc=AdoWsrkBAGjYQz9ZBRjQRWgQN_vO8f_9Zq67k9O0T6zR-5BRJOQ6UpTMzoNqrMUs0ls&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQGkgPRdH2mn-59-BuV6Zc-R_a7Pj1jJ52dEyJFOKACvb3MN8bMHoqz15F1aqirarxBrcJNvXRuNmw&oh=00_AQC8sX6KtgTP6SlerDl8gqW6mhGR7-Ux7_DDSknTc20ddQ&oe=6A4A797E",
           "instagram_permalink_url": "",
           "effective_object_story_id": "706740269185873_122169455126921574"
         }
@@ -79933,7 +80419,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함 2026-03-03-498c334ab6fd57914ec027fa9eb3e257",
           "title": "",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vlx23jGtzJUQ7kNvwG4kHKU&_nc_oc=Adr5yuBlSap2BM6zibt7vow3D1eaDOz2z5mYvF0HKBoY80HUnQKpQVndBKIa7mDEYR0&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQH9tCsG9hxLpLRui3VtFZNjj-katFTSkrmLs0gBACaydzzcXvD38IHXf32yBxVoex1FNkna4Tt2jw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_Af4l2JUn_gSEN7QoaacE_jRIOn--gz57mCrbXGKJgzBeww&oe=6A125985",
+          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEd75LEmNNI8eAv8mk89EfJu5rKpGRm-bsy7DY4wPKGdpGAnjdXG17-byuKYitWkkg4X8vYKlBTcg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQA_gCL957cE8dn43ELDNoGMf9IjkWvQSFXgRbU0wuWH5A&oe=6A4A9985",
           "image_url": "",
           "instagram_permalink_url": "",
           "effective_object_story_id": "706740269185873_122157730814921574"
@@ -79951,8 +80437,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-15-b594d40c80b879a1bbbecc4cc154b009",
           "title": "",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vlx23jGtzJUQ7kNvwG4kHKU&_nc_oc=Adr5yuBlSap2BM6zibt7vow3D1eaDOz2z5mYvF0HKBoY80HUnQKpQVndBKIa7mDEYR0&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQGMAWOM-CjlEaR5oX0_pjAQ6hDaweXpEb9KalkL3LlwbyvLMGN3ka_HmPA1yxtG5KvKbOuT5IQYJg&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_Af42ifsHfdpxoaBHezhQROcVFBV2uiMGYSt6qmLkihMXrg&oe=6A125985",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=9ilTdfJXDUsQ7kNvwHaR3dP&_nc_oc=Adr_LYlW3QRQDtDe4I2VdWkxHjEuYtaQBwDfojZHlomMMXcmNS5EFLNS3D4CnQeolDk&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQFSrch-0_ERiAKYoS0ZLBcYb6YK55LTpKdEQYVXxM6xsUiDhWIGGfnOr40LUBJwp3PwCHoDOhziaA&oh=00_Af4t8qK33uHWDXzoARcofcky3X76hDGv-67kOciIROrI9Q&oe=6A1264C4",
+          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEIklBMy-O-lHRIBfU_pUCCUiIU6M0LHmmjINNzwzE5dKuBcllPdgun5Ky7PhB48p4Luzd2a_bvzw&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQB5X4n-VFDCflIevmxOaBMzXCUdxZG_d6eW5252BPxloA&oe=6A4A9985",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672649445_122169449636921574_8550901148864808824_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WrwBnCNab9kQ7kNvwFtop6m&_nc_oc=AdpLhWuCOCq_Ecr28aGVx86vyOZMA1wZyqpmF0_Gq3_9j1Wv9VXLp3q3eLp3Ajc8fMg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQEFBcEt0thvC9TEOt6h3jp7q1nUdeBFxAD4UBO6U7Kk7SXxi_V2IL9ZgKWvz4MaxVpDDSYrpKJZJA&oh=00_AQAdCwA8-ld3efTUM1q7ZVzxRr1j1NB7zJcKWdA4oF4lrw&oe=6A4A6C84",
           "instagram_permalink_url": "https://www.instagram.com/p/DXJWAGjDARE/",
           "effective_object_story_id": "706740269185873_122169449540921574"
         }
@@ -79969,8 +80455,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-15-f506b913772a836ee2c04230c7a346c3",
           "title": "",
           "body": "",
-          "thumbnail_url": "",
-          "image_url": "",
+          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQHYs-wWQ7T0RL-p4_085zqxoAT_cs25PETtgxtLcHnuJw8KJd84Ejn1y1W9VUgp2M3MfsGE_xTw9g&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQDPc6uHdBs--DSX1TeNy-eBvaNYiIJ9t6r4LL1iwtqT7g&oe=6A4A9985",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/673401562_122169449198921574_954651837468052413_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=7votQRUS4fAQ7kNvwFAZqg1&_nc_oc=AdoWsrkBAGjYQz9ZBRjQRWgQN_vO8f_9Zq67k9O0T6zR-5BRJOQ6UpTMzoNqrMUs0ls&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQGkgPRdH2mn-59-BuV6Zc-R_a7Pj1jJ52dEyJFOKACvb3MN8bMHoqz15F1aqirarxBrcJNvXRuNmw&oh=00_AQC8sX6KtgTP6SlerDl8gqW6mhGR7-Ux7_DDSknTc20ddQ&oe=6A4A797E",
           "instagram_permalink_url": "",
           "effective_object_story_id": "706740269185873_122169449114921574"
         }
@@ -79987,7 +80473,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-01-25-4e32880d8b43664890b580c797ba9074",
           "title": "모두의충전",
           "body": "",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2023233902621824993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKvSGNtBPRcGNkVz5TVMvRDNBuzUqR30l2igGIosPiIcSc21VvC8sFKXYMr-z0GzG27ZiOX7TL8RpbfIlUE6zIzm-Wk6oamuiwkryVMTU7n7zNoHf0SsICHZzaor_vQaOuKc3WRhsVci-PqHFm7ejR3&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=AdqG1MbLUVsl67R9zgAEAX0FEwe699KTD3dGPmUA_KggXVR7tQxZLUJ4pv0l-FlPASQ&ccb=13-1&oh=06_Q3-_Ac1YXBYxp0PCVNIYLZR8sYFWKGuRDo3M6Ydw_0s7slG8&oe=6A0E43AE&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2023233902621824993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKvSGNtBPRcGNkVz5TVMvRDNBuzUqR30l2igGIosPiIcSc21VvC8sFKXYMr-z0GzG27ZiOX7TL8RpbfIlUE6zIzm-Wk6oamuiwkryVMTU7n7zNoHf0SsICHZzaor_vQaOuKc3WRhsVci-PqHFm7ejR3&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdpSjuwO4ffZzkmmjhmzGwecb7ndB7h-MF9QRXPHchNFT2PP2eddxFK9brJsoZ355L0&ccb=13-1&oh=06_Q3_AAY_vJO9dBq-euMKPZcnTNsfW2VT2vSKE1L3FV7RN3mjv&oe=6A4683AE&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DT9JbhHjKFV/",
           "effective_object_story_id": "706740269185873_122157409820921574"
@@ -80005,8 +80491,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-08-13-8dc21237332558db440dc500c440f5c6",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10854859823791785165?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIZ4h1SrEcoywAb6MltI4auh19irDcbMwKfia9X4UszQkvKYYJn548m2xLMvlvJZkEJ2sGIxMreDAXGYfoJXf7ZL4eerCYAAsmRGMUugeyrYnQiA2puPMXUxIb4HfatlTszcEgw4MG31c7e_YCSUBvw&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=Adojpc7L4xM0Wnk56pR0un_af9JZLg4uH7g1eIPYDqxnVe7zB09yg645pQDdkQ2lCtM&ccb=13-1&oh=06_Q3-_AV8bnqe537XRtoekCzJ7tdtXIh6FZYUZ5TJ69W5FlZS6&oe=6A0E6499&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=KAFG8koO9iYQ7kNvwGgNeL7&_nc_oc=Adour8-BQrdRILjOC6AujMUDbnOEl-uoRQZwKwLFg1K0YfVHD74CobFx8Dr_pJOhgJI&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQF4a7cQx2sbqT4JronkIU9i5IO_8qI80igJtWHMswyZP8ok_YnVtIIzkSUgrPTCTiIWaPLENvEXGA&oh=00_Af7f4vB8Ojov7_OL9oXxPGHWXwKWAMAOKo1uBts7bGsQ7A&oe=6A123283",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10854859823791785165?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIZ4h1SrEcoywAb6MltI4auh19irDcbMwKfia9X4UszQkvKYYJn548m2xLMvlvJZkEJ2sGIxMreDAXGYfoJXf7ZL4eerCYAAsmRGMUugeyrYnQiA2puPMXUxIb4HfatlTszcEgw4MG31c7e_YCSUBvw&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdqY1B-ZVi64doV5spNfIERRjd9PJAxAKKhL0GOAm_bL-bz-5ie29ultmxBLfziQUQs&ccb=13-1&oh=06_Q3_AAf43aqLHZOnEfOmhd9Zn3rKDTurrARL8hS1leBfG3usZ&oe=6A46A499&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=SseYZOTnum8Q7kNvwGv2gcP&_nc_oc=AdpJ3lc0evyE-QFZi8AKk-ONWyzVjN8_kiNLFpWxMcDbDuRidEgj8vQJTiuO8aGV2-s&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQFNYQpaGEKJsFZI4bARuTV1NFAaPojuKgIpmhzgVQuQt9O1jEE9F4yn32oQYY43QyKYBzDUSGoskQ&oh=00_AQCENekNBJajbMqJwkI1rIiWyQ2LOgv4R1l39XaylddRYQ&oe=6A4A7283",
           "instagram_permalink_url": "https://www.instagram.com/p/DNU1xXKsfFw/",
           "effective_object_story_id": "706740269185873_122123422058921574"
         }
@@ -80023,7 +80509,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-22-44d097c0aff9316bb704361759df42e4",
           "title": "모두의충전",
           "body": "💥💥 보증금도 서류도 없이 벤츠 타기?\n수입차 구독 지금 신청하기👉👉",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8776100868344920760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJZ7tt043oi-O5PApOKbqJ45pc1tK6s899yV35KX1iNa-gYGoYE4vdAnSepLM0sj4zdoVnvf0UFUDEsl-tIDane8gFKlQsxsdKwEsc3EnpAitK4mIA1MTDMOxXQGLJR47FF42ZAW8PCL9Ijdh4fOEU9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=AdpxiiSUNYD-x-RpTW9UwEdePLEZGhYg28C6yFLyNZBhfI6_gLinniy8VhZIdOESdQ0&ccb=13-1&oh=06_Q3-_Ac6u2EdlXIOBP1uG5OlG28D2B_KvPM1FAVZCC1NDA-Il&oe=6A0E4F4D&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8776100868344920760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJZ7tt043oi-O5PApOKbqJ45pc1tK6s899yV35KX1iNa-gYGoYE4vdAnSepLM0sj4zdoVnvf0UFUDEsl-tIDane8gFKlQsxsdKwEsc3EnpAitK4mIA1MTDMOxXQGLJR47FF42ZAW8PCL9Ijdh4fOEU9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdpOw2l8iCoxQ-bh2aVRSfU-BVFCCs2faWpzmmzDL3axkGeOD9UXlrnpqtDJomH3kgc&ccb=13-1&oh=06_Q3_AAUv4aysT_ihigc9VE-ppHNRWkoNwXJr0qrbgpKcYr7sB&oe=6A468F4D&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DLO9dOps0Wh/",
           "effective_object_story_id": "706740269185873_122099717204921574"
@@ -80041,10 +80527,28 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-09-02-cd5ead32f8c5d4bca0d447e2ce202b3c",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15295395107166974291?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLtK1GhvmJb32dinQmvkEXdE3S8X6vDjr4ufgJmjPHQwsxp4IQ2Q4cStfFbGHo4Z73zlCdEN9wb8N7A-WS65V36ULiQetT8MrpDnYB-0nzuBvtGEhnKT5oLoXQknPiBy0Kx6oE0RpgNwt_LPSy4wRD9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_oc=AdowrIwIRL-ya8n-rZTC0sYRUOkMMtHVtzRAdrPWdjyQ7EnLxkqB5sz65LWrJeli-BQ&ccb=13-1&oh=06_Q3-_AY0r66m9OINDOwFh0Pv9SDw0Ds88RnElk8J3lSyKP-Tu&oe=6A0E638D&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=KAFG8koO9iYQ7kNvwGgNeL7&_nc_oc=Adour8-BQrdRILjOC6AujMUDbnOEl-uoRQZwKwLFg1K0YfVHD74CobFx8Dr_pJOhgJI&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=nUuPMcmyHrpl2UItg2Isow&_nc_tpa=Q5bMBQF4a7cQx2sbqT4JronkIU9i5IO_8qI80igJtWHMswyZP8ok_YnVtIIzkSUgrPTCTiIWaPLENvEXGA&oh=00_Af7f4vB8Ojov7_OL9oXxPGHWXwKWAMAOKo1uBts7bGsQ7A&oe=6A123283",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15295395107166974291?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLtK1GhvmJb32dinQmvkEXdE3S8X6vDjr4ufgJmjPHQwsxp4IQ2Q4cStfFbGHo4Z73zlCdEN9wb8N7A-WS65V36ULiQetT8MrpDnYB-0nzuBvtGEhnKT5oLoXQknPiBy0Kx6oE0RpgNwt_LPSy4wRD9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_oc=AdpVOrQRMyv5wWKQROVUtAxb0RHs9Z-b97T8UrVhetrqRkxXx9dki8z9ha3Csvz6whQ&ccb=13-1&oh=06_Q3_AAWbNzKKFEjqw1oEYGXf_UboMq23awUQfOql7SNtj4Yd_&oe=6A46A38D&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532952743_122123421896921574_5106952221518544351_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=SseYZOTnum8Q7kNvwGv2gcP&_nc_oc=AdpJ3lc0evyE-QFZi8AKk-ONWyzVjN8_kiNLFpWxMcDbDuRidEgj8vQJTiuO8aGV2-s&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=LmMfw_CELomFjocRyxOKhw&_nc_tpa=Q5bMBQFNYQpaGEKJsFZI4bARuTV1NFAaPojuKgIpmhzgVQuQt9O1jEE9F4yn32oQYY43QyKYBzDUSGoskQ&oh=00_AQCENekNBJajbMqJwkI1rIiWyQ2LOgv4R1l39XaylddRYQ&oe=6A4A7283",
           "instagram_permalink_url": "https://www.instagram.com/p/DOH0_HODGfW/",
           "effective_object_story_id": "706740269185873_122128375784921574"
+        }
+      ],
+      "120248632173040551": [
+        {
+          "media": "Instagram",
+          "source_account": "gudok_official_app",
+          "ad_id": "120248632173050551",
+          "ad_name": "차량구독 2026. 6. 16 광고",
+          "campaign_id": "120248632173040551",
+          "campaign": "차량구독 2026. 6. 16 캠페인",
+          "creative_id": "2966991186804782",
+          "creative_name": "AI도 이해 못 하는 이 가격에 테슬라 타기! 2026-06-23-739484db5c8fce7f51b238994a2e52c9",
+          "title": "AI도 이해 못 하는 이 가격에 테슬라 타기!",
+          "body": "전기차 구독, 지금 시작하세요",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7748978918665775608?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQInu4UropURhcXZ1AlgQ2mL4tmmvc0pmFOQW6SVNfc_3BIpSjBcpXG_K5c15IB-GvIYL6wpKGRX-vzAVZxjYIh-pE8k8EuCNDShAe5_XQr8QYwC-yVvZrRnXIbm7WjTQ9wtI6MCSj6Ox7Nzzv9xMnRo&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqlSWq7ov1TunGgaoWgh5L2M8cYp5x_jQAYmeO9opWHfzNZXwT66y8jzBQNRPQYv2A&ccb=13-1&oh=06_Q3_AAU-64kMlA_qbjMmLgzPeuuWGhRs3i7Dc4MuJGPwHiWeP&oe=6A46845D&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/725439684_122177848994883764_3978375527675522653_n.png?stp=dst-jpg_tt6&_nc_cat=107&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=huW9Q2VrONIQ7kNvwEVxy-p&_nc_oc=AdqFAV1PZMsTnSrT8HHpphihOx8A2UgjbBMEYfVcTBbadgSB3_ssXCSopVROs1y3lbA&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQGiZKlE5ifMU2Rc_mOXBJRGa1syshhw8476ORDahBZ3TIvzm3h3ZpLDfE6k_Rr3IOaPOKIaDOCtkQ&oh=00_AQBEJogj5k_qh4ibopYqE821SoEB20hNt1C6HBGfDueckA&oe=6A4A7EB9",
+          "instagram_permalink_url": "https://www.instagram.com/p/DZ9RkbysGHz/",
+          "effective_object_story_id": "706740269185873_122179570712921574"
         }
       ],
       "120245214735750551": [
@@ -80059,8 +80563,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-30-a88e617065820635eea1bad70ea8a6ab",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11344180690846266275?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI5lMLAg0UqynzMvE4udVGvQUtcjdmMv-VR4YM7IFZSEOkzrjaFUFhiv_3aMHRYr7lZHOVoUNDJB_jqhUW9fHzt3r5nZTkOu4A2Kf1QrvC276yHr3dB68Ii1692neac9sXz3RyeO-03tNvOdijrSYqY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqHt42HuvElZjIpCeis6HAmZaiRCogg1GDn5RRV3eeObMoID_2aRvnukeG25Uxy5C8&ccb=13-1&oh=06_Q3-_AWzIrX_2Yu0_fYu6G_G2fNRV2TfzPyc5Bqxnx8kofsUZ&oe=6A0E7043&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/684120922_122171817290883764_6902502160717704869_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=A4DJOVegfkcQ7kNvwHRqHfH&_nc_oc=Adq_0B1YwX7umUYM9_h3dsrIhM6X8Tf78VQBeePoOgiIfaCGfUHahHWmClu4WmVFJJI&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFd_68hTajPCHgBWHEY4gp9xjFdKVC-Qz1GfFF-bLBFwSRgQBDhg646vo_pEFQGnXfQiDA1eKs1BQ&oh=00_Af7cGElb7qhLdtSy-qCKan_iLwngjdqo1GykSkypllrntw&oe=6A124268",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11344180690846266275?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI5lMLAg0UqynzMvE4udVGvQUtcjdmMv-VR4YM7IFZSEOkzrjaFUFhiv_3aMHRYr7lZHOVoUNDJB_jqhUW9fHzt3r5nZTkOu4A2Kf1QrvC276yHr3dB68Ii1692neac9sXz3RyeO-03tNvOdijrSYqY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adrf9gkg3DDHo9cPKOfEB_BCAK0luyzG2UvAxkSeTuCjVCRLzcJ0huloxuMSR1qS8AY&ccb=13-1&oh=06_Q3_AAZNo-dXBgjk0CCdbG0jMRHb7XxIdWZbP7BDiBYRmRUVU&oe=6A467803&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/684120922_122171817290883764_6902502160717704869_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=v7vilrkund8Q7kNvwFnEaKu&_nc_oc=AdoyYQjtqVx5mAAayXQOvAkZCir9mqHMXY-Ur5W-txfQlzu8_cy9IotXFAKXyWs2Gvg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHCES14OhJBgbveZkPs2kRTkH4u7vM1hPQTp-NDMRKeuuj50m4Mva_j8ztr1OzDD1hM3vHrxkh8Ig&oh=00_AQCpHp_DUZ11yuguiuUzsg0Ocioatf4600HJ3Q1D-JaJiQ&oe=6A4A8268",
           "instagram_permalink_url": "https://www.instagram.com/p/DXv7KW-DHIv/",
           "effective_object_story_id": "706740269185873_122171586146921574"
         }
@@ -80077,7 +80581,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2026-04-20-178878c6ac488ac03389b2372ee30133",
           "title": "모두의충전 차량구독",
           "body": "💯다시 돌아온 100원 이벤트\n이번엔 BMW입니다.\n\n💸 BMW를\n단돈 100원에 구독할 수 있는 기회\n\n전기차·차량 구독 플랫폼 #모두의충전 에서\nBMW 3시리즈 (G20) 320i M 스포츠 런칭 기념\n100원 구독 이벤트를 진행합니다!\n\n✨BMW 320i M 스포츠 (1개월 구독권)\n✅100원에 제공\n\n📌참여 방법\n1️⃣이 게시글에 좋아요를 눌러주세요\n2️⃣댓글로 함께 타고 싶은 친구를 태그해주세요\n3️⃣모두의충전 공식 계정 팔로우는 필수입니다\n\n지금 바로 참여하시고,\n100원으로 BMW를 구독할 수 있는 기회를 만나보세요 🚘\n\n💭“이 가격이 정말 가능한가요?”\n댓글로 자유롭게 반응 남겨주세요 😈\n\n#모두의충전 #BMW구독 #320i #100원이벤트 #차량구독 #구독서비스 #다시돌아온100원이벤트 #탈사람소환",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1892627118178270308?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI0EHzdJlxCSoGb4eHqZf6A9UV_0368RxBUvw_47TGxmAO6zV00tgnF2w9PfU6CwWdYinhIJRqh2lPm5h-gn1C0q_2zPgBpNdUOO5SGi1F2wGQwNApsg5rm35_Ahog8fhH81A_4fvdarQCODo7-6nmG&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr_setm4DNowveteKCPHZdsSOByajpMIR2bH3lHhINnklkgWBSBkg8kxdviqugwoUs&ccb=13-1&oh=06_Q3-_AauYfgsVxl7B_36aEEKOtFfmo_o_r7QHwPXyqtM2NPly&oe=6A0E5D60&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1892627118178270308?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI0EHzdJlxCSoGb4eHqZf6A9UV_0368RxBUvw_47TGxmAO6zV00tgnF2w9PfU6CwWdYinhIJRqh2lPm5h-gn1C0q_2zPgBpNdUOO5SGi1F2wGQwNApsg5rm35_Ahog8fhH81A_4fvdarQCODo7-6nmG&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpC70gpK-dA3GZVPYvWTP-aepKpT1hoMCrq6sf8vuya7eAbfDnirOMeDA6ojF1Itmw&ccb=13-1&oh=06_Q3_AAUEDmR13uBY6QOAA0ee6xcifqFSWZQ3bqU45x5HaB7So&oe=6A469D60&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DXYl9AdDOnJ/",
           "effective_object_story_id": "706740269185873_122170270538921574"
@@ -80095,7 +80599,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2026-01-27-fa8805e6544033ab405a12039450666d",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이 이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16756017969051481173?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuXDXEYse1E8-QHu8srH2Iv2JCzavSXNamThwA3128OdDaqqNhiyYPgCn3WMo2_g0cj2vz7ZHXlvlyGV8JcfyTTv6v-8H2cnbfqJysWSmDExSiATkJGIcuTN7xzSI3_xF0MPKC3itG8PXSexKOTdCT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr7T2--gxaBL8-NR25sDP3mcn-NWmXjQxv6lO6eW2-_zSpMvNJkU6BjOzl8jZU5pfk&ccb=13-1&oh=06_Q3-_AZXreUTtHJzQHE0Zi90IimIMIEZDKggDy2EwpCkZ0XLL&oe=6A0E5C84&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16756017969051481173?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuXDXEYse1E8-QHu8srH2Iv2JCzavSXNamThwA3128OdDaqqNhiyYPgCn3WMo2_g0cj2vz7ZHXlvlyGV8JcfyTTv6v-8H2cnbfqJysWSmDExSiATkJGIcuTN7xzSI3_xF0MPKC3itG8PXSexKOTdCT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrUGrNs8Bn2B2o45uiWiyRqas-_9Xtj68BYFkjwglZk7-0DjFxIuBj-GipiNjMwTUM&ccb=13-1&oh=06_Q3_AAQ5urE_X_UQ-hXxlEUsvDb-tjZO9GfwkybehbL8JD1Et&oe=6A469C84&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DUCmgzIjE5T/",
           "effective_object_story_id": "706740269185873_122157735698921574"
@@ -80113,8 +80617,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-15-4927791d4e5c15a53b99ac461d8d4f38",
           "title": "모두의충전",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7127674774546732410?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIBNWUB3m3xLNVTitMO0keHFLDPdkBW8OHvMzFOoo08qOn4q8RJRbpEqK4P4lCZ9nlkubUog4Z5kIEyUzy_jEETy--6xwAQueNuW6sHbC9sc5s2LgT4gFiKBgxn-bI3sXV15V77j-tW9n2SpxHGUnEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adrx7wwMJ2xUN5AEloBKM2Qdii0tLco6ksoTtnaawGroQzQVVeN_H3B6FNgcQr5giKg&ccb=13-1&oh=06_Q3-_ATgGesnggL7wTKVvon6TUcyqrOHybr3JxL2MZU5lz9gS&oe=6A0E4FE0&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674139754_122169631760883764_2458088465734279528_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=NwEyZGZOFHoQ7kNvwHTO5_u&_nc_oc=AdoKH7_BVP37QTD-BvIEBXILBWdZT-oyuOnkVIWDD1KM77jIz6V_F_ObeX_ZGb3sD88&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQEjh0gLv6MLbkiqh8x6JexEZHFGgCYdaQ-3bpj-e2HoAu0VJT6x9GlQbOGM93gF-OCkpE1TwQebxA&oh=00_Af6kf9JoFtt98Tes-9RicpFiOiuNyl-Bia2anBKUnR3nAw&oe=6A124651",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7127674774546732410?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIBNWUB3m3xLNVTitMO0keHFLDPdkBW8OHvMzFOoo08qOn4q8RJRbpEqK4P4lCZ9nlkubUog4Z5kIEyUzy_jEETy--6xwAQueNuW6sHbC9sc5s2LgT4gFiKBgxn-bI3sXV15V77j-tW9n2SpxHGUnEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdojUVxkLpCwsk_BdxBPucdP_UeG8BH5XhQCmK_h7X3B6EFvbkCXQo_5RsP9Ey7PYb8&ccb=13-1&oh=06_Q3_AAWX2VAjYEVJHaUoS9wcvoh8f1XuFdFxwRQ1mHPAdwSAG&oe=6A468FE0&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674139754_122169631760883764_2458088465734279528_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=uyod65CQQMYQ7kNvwHN57Zp&_nc_oc=Adrrur0zRnnSIPrDJa8jACKpPV84gyCXkqNrJqjuR3exwLsbzWdsqAHhIz2k6Ap5B2c&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHxO9LS6E1JvNalScVAtwu7QdeO7kJDNVxd-8vvmAA_cMdFgV9sjWXMKb5bDqGKbDKQvsaArFjScg&oh=00_AQABt8uyWTpJAGg7NAPH0SFthDJ_FPmHgm6HxNyQfqK-Aw&oe=6A4A8651",
           "instagram_permalink_url": "https://www.instagram.com/p/DXJXTRCjKRG/",
           "effective_object_story_id": "706740269185873_122169453410921574"
         }
@@ -80131,8 +80635,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-15-534345cbca17f596d42d5ed4c3b4c904",
           "title": "모두의충전",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13088538050623624476?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKcdX2cE0WMXvTnzR2M7dIbJCSNfhblYLp-mwVAYqDAOduo6cK00_DGs_sDgOj1qqfBjFx2Dw129r-kEvR3KgsWiWXD2zqzs0eO2Zp6QFUT36n23eo9jrRcjX6tsWABG0FT9NButM_IVe0YAaqcCrgp&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adqrjk-32iNCh_Sa4vFk3mu6XDYOGj-82qhH_VkcTBFpax4iVpKow9xbAOFPYkdVAiw&ccb=13-1&oh=06_Q3-_AY2Qz1HpVjT1pDf2kl63oaLJnIYCDLyoW2QvKxjFr3sK&oe=6A0E646C&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672556568_122169631214883764_5240959345116252779_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=nscFA5SRA_QQ7kNvwEtIs-S&_nc_oc=AdoYFasVo7Uxf1ihR-E08vP4IY2LInHj6i_MQ7cOrtdMeq4i7Y7g869vzX1kWimOTbk&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQH8BReKvn4790F9z8aqj1ZUeWmfIZ2WnpdxuD63TwHt3lFTVo9G0Z9Y2NkgKRmDvn_mKuF0hfWNOA&oh=00_Af4MsgF1fJyRt7zkr2AdDZUZBUwK3sKRDUpMuvP-RIqLKQ&oe=6A123573",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13088538050623624476?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKcdX2cE0WMXvTnzR2M7dIbJCSNfhblYLp-mwVAYqDAOduo6cK00_DGs_sDgOj1qqfBjFx2Dw129r-kEvR3KgsWiWXD2zqzs0eO2Zp6QFUT36n23eo9jrRcjX6tsWABG0FT9NButM_IVe0YAaqcCrgp&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrpJBF_ql1wAOYEQ5LAVMWZ_DPS_Xmcfa5szR96UBO6pDPJtfhhS_-98LNVw3zV3ik&ccb=13-1&oh=06_Q3_AAVf2KatvoWxWhcIu4nON5PIam6H0BmIlVp8jW7eKt7AY&oe=6A46A46C&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/672556568_122169631214883764_5240959345116252779_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=GocKp7c6G6UQ7kNvwGiqaYl&_nc_oc=AdpGSz7gTlFQLekEg0C-CqMwdzDLNbDhRbVLB4xfpz04_e-kjmyyO44cegoZMma4J-s&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQFcaC7w0tiR6QnHmvoUISCHYKcAiwSdWXcqRN2iAQRmtJDanK7Ez6rnmechOtH8s0pOg5q0Rn34QQ&oh=00_AQD48syeH1_xdaV-YwLT93rW7uk_fmM8NuxDuIkrqMNiNg&oe=6A4A7573",
           "instagram_permalink_url": "https://www.instagram.com/p/DXJXE7gDFK4/",
           "effective_object_story_id": "706740269185873_122169452696921574"
         }
@@ -80149,8 +80653,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2026-04-15-fc3179acc3c613e12314a76e5e07d927",
           "title": "모두의충전",
           "body": "🚘 차는 이제 ‘사는 것’ 말고 ‘구독’하세요\n✔️ 무보증으로 부담 없이 시작\n✔️ 하·허·호 아닌 일반 번호판 출고\n✔️ 자동차세 / 보험 / 수리비까지 모두 포함\n✔️ 전기차는 물론 일반 차량까지 선택 가능\n차, 꼭 사야 할 필요 있나요?\n필요할 때, 부담 없이 타세요.\n\n#모두의충전 #차량구독 #무보증렌트 #일반번호판 #전기차 #일반차량 #구독서비스 #차량구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1767738803930751065?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJlbvu7rfKg86IAM1-qENnKQwyQXjEIcg6BBv9aN--05xy8OEKEMQeJtbX1tNlQCHVUj5F7sYP1_WoPAO5T2A9G_Q8w4RCyv3mGg2e0A50kwLjEOfQ49eAf0ICIwUwuExFukTjYh4nbaVjBL7Yn-n_Z&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adpzse_389nN5BR6IghKotrU4Up4qrdCYkCqIM4QTq4owZK-OA2Mn734I3HIhxBSvt0&ccb=13-1&oh=06_Q3-_AXvK-2lOO8KoFJ-HxTC_v3VM5Feut51uCtcAb6o0af99&oe=6A0E6CA9&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674125166_122169630524883764_4256463774668018051_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=5TtpCNuP7tEQ7kNvwE5-Et2&_nc_oc=Adr3AB05BNflPlH_PW_GHmwEge-Lmsmp_Heg7sbjpfWh82OTJfhxa3oq5JNORC3359I&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHL_iVAIbRbkuoVelggObUU27SdNknv6c7RhI55U4MvT_Sl7LcVi7gw3bhEbSYB24VaWxTHElRk1Q&oh=00_Af4IgHga1hQ_y3TJ9mugr0nnxaowa3d4-n-GJ5aLIySNvQ&oe=6A1261CF",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/1767738803930751065?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJlbvu7rfKg86IAM1-qENnKQwyQXjEIcg6BBv9aN--05xy8OEKEMQeJtbX1tNlQCHVUj5F7sYP1_WoPAO5T2A9G_Q8w4RCyv3mGg2e0A50kwLjEOfQ49eAf0ICIwUwuExFukTjYh4nbaVjBL7Yn-n_Z&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrAbxVZ6p4bQuxtajhn-erPhhx4AZiEKaVd1095SsmZZez5DQMkgPQ_0H1CMs1pheU&ccb=13-1&oh=06_Q3_AAShKdUtXsLsuNoEn0b62vkkUO3ayEIltutz7mPnvVWup&oe=6A467469&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/674125166_122169630524883764_4256463774668018051_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=yF0TTIPY0vIQ7kNvwFvlh_S&_nc_oc=AdqgjEyFZZ_NaUG8v07Kh8fAjIuXWp3R4UCFvhXfyr16vpYQIeq8C3-QRzJSonTTKZA&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQERaWNYhe1yPVTTxn8pZ8v3GTDSfslpccvTyGWxTw8-gbNBXtDGMWVJViwV4YyRlF-B0oKngNiW0A&oh=00_AQBv1ssD2W7aBY6vexNPl0DedDlibXt3tsptbkasgQRp-g&oe=6A4A698F",
           "instagram_permalink_url": "https://www.instagram.com/p/DXJWyu-DB3u/",
           "effective_object_story_id": "706740269185873_122169450866921574"
         }
@@ -80167,7 +80671,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2026-03-04-c9073ae044fc5c3201df430d8d825312",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13720569137433233044?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKmRFXX7gUdKFdw60XuTqGKBfL721G_wBPMvgfxZUATphwmzH6OGvMS2ib5TmOpyfbxlN6ZvgrCui9EXIytLobr-UZc-tnMZCi0LobRjOQ6BPW-WspkCbQvg8QMZ-Php5x8ndH_56hJiBHU3ZaMYAHQ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpJcPX3B9YPhTcUZ3GjWrLmPe9pp99_IVIM9bR3pUvgcmvRhSrURU_h0UG4oiFNL5M&ccb=13-1&oh=06_Q3-_Aa84pPWKKAQWikNBWdIaHtGyaKW-GL418SpSDmPyWiYd&oe=6A0E61D1&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13720569137433233044?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKmRFXX7gUdKFdw60XuTqGKBfL721G_wBPMvgfxZUATphwmzH6OGvMS2ib5TmOpyfbxlN6ZvgrCui9EXIytLobr-UZc-tnMZCi0LobRjOQ6BPW-WspkCbQvg8QMZ-Php5x8ndH_56hJiBHU3ZaMYAHQ&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpXEOod7nHqn0UEm2ysy7KBzGVokJieqvgYmgIDLgxmXkJgXedPbdGpZFu9G_5zAM8&ccb=13-1&oh=06_Q3_AAX0CRpdy0hCdOhiyFpPMjSn9wGWY--jIVqUwLSM7m7UQ&oe=6A46A1D1&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DUP53I8jKzM/",
           "effective_object_story_id": "706740269185873_122163392270921574"
@@ -80185,8 +80689,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-12-11-3aca994e2bdb8fdf124d8dd6ab8fe1fb",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17495406279782405288?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI_ZQn6H4dcaMD3mTBi0sakCgtuC6FB7P2MR9jIwBR-QaZLOAAkyIYyNNPJG24SHp24I1GUtHleHgN7MDIy7NQ-j5XAi6LeU3MbWoh7O7fOzbnd20egmg6yr7tP3JWmJrKWCiyakpETJPV6PODa8WUW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdrhXAbCKPDkAPLIAIwMIAaWb2_laFA5lUrf13SHZzzYovD_Bsns_VhagNl4yFGAZFU&ccb=13-1&oh=06_Q3-_AbDCA6ABbTaOARZJAFfjJHqiDKR3Pld3E6a7aBlPPuNl&oe=6A0E4DCA&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=L2b5uRk_zh8Q7kNvwEh3uzn&_nc_oc=AdqNgL1xOjhk0WbFRmH-5lo_cCti7euKU7v8uNP__ckQEw2LoEpsPPze_redDIQFqIs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHDBR5CNHmM8fowUEYGHz29L_BV4bLcqNJylU-OlJI86QXdWXZtjA8ls5HnNZuzx1lcUSGGl3G2GQ&oh=00_Af551p79Z_3hz-BSG87vrcKVBhjXqW-q-O7L40iB68AU1Q&oe=6A123395",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17495406279782405288?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI_ZQn6H4dcaMD3mTBi0sakCgtuC6FB7P2MR9jIwBR-QaZLOAAkyIYyNNPJG24SHp24I1GUtHleHgN7MDIy7NQ-j5XAi6LeU3MbWoh7O7fOzbnd20egmg6yr7tP3JWmJrKWCiyakpETJPV6PODa8WUW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpghT6LSHguI7HNmJ25m9E3qL6rqRq01sB2QjyBmmMEoixhgU-ZTgnf8U0-Tq9-UP4&ccb=13-1&oh=06_Q3_AAQlpu2eL9kABR9GLRt1Vzn9tZ35GqXLpfkhrQfHH0xMa&oe=6A468DCA&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=W3_bwkNUcLYQ7kNvwFCEw1m&_nc_oc=Adq9DljivjoSCVJCc3SlkNNGOT91yNZvLmpZtlYX0FyM-UwsElWj4fGEWG9ctQu6aTQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQF2Ctl0Bh5KiqXSNJll5svmmEpje2MH5NXYKZVWEojO-ygz3GJMlzUqzDy4G6XuE_kWYigtNlgefA&oh=00_AQCyk-N0dhPaBm8M8rO7hz-kWRwGz_zyPnlijcfnH5B_PQ&oe=6A4A7395",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1C-NsssAG/",
           "effective_object_story_id": "706740269185873_122148878636921574"
         }
@@ -80203,7 +80707,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2026-01-27-1acba65c608bec20ab8e292145c0e7bc",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n선납금 없이 이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4870729379902898791?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJzIzNi8o65gMDQ7u8FUFlohkmnWuiBlAmfEMwsJAGzEsIMu-88LCjehaCLu7erT5grEGqIia7KcU6YQ71wlzHlIcljGODzS8b18uofMSAm3jnLOrWqwYeCm0DUeHKAkqv4RYUNjGHbzX6981ekRAKY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpsZAVwAC_73vbk497pKKVJVsnaCYUXXw8HENrOKCda2sNM6VcTIDEnbHdZF_8pkMI&ccb=13-1&oh=06_Q3-_AeDTXOP8Uc4lcExA2nt3KRUPM8kh2expGgOwy1fBK3MY&oe=6A0E55BD&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4870729379902898791?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJzIzNi8o65gMDQ7u8FUFlohkmnWuiBlAmfEMwsJAGzEsIMu-88LCjehaCLu7erT5grEGqIia7KcU6YQ71wlzHlIcljGODzS8b18uofMSAm3jnLOrWqwYeCm0DUeHKAkqv4RYUNjGHbzX6981ekRAKY&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Ado7JLWfDZQbfn7DXowKElpkCEpL7cjym_yAcocCHqX6chNpjMh9xRTWW5A-zVZd-GU&ccb=13-1&oh=06_Q3_AAehaeFdW4N_G5aAuGtBDSYsXikX5TotiVYqGMuyk5cTj&oe=6A4695BD&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DUCmoI2jM0n/",
           "effective_object_story_id": "706740269185873_122157736274921574"
@@ -80221,8 +80725,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-12-11-19215974965aa24cd109c21e84185d82",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5437203162748020127?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLbDQ60G9vr31YRkzv7QsWDDJJXjO_D7Kc7bo2si_XqYV5s636ATE_FDP-f1y2I3X9eiA_UYOUQrL4Ok-TOTIkYmnGV6wGHSfp7qEs7TvUWcGho-6qTRAy34oPu8lkE-YhRXbVjxmmuJjJ-wtxo29Yv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Ado1p1tBVhJfwSXRldtC2FOHnhEzrObmzdOCg3Jr-OBK4yBElA9kCGV2Om96vjsrXEU&ccb=13-1&oh=06_Q3-_AdjsrjbZRRxtNZKbted_1hp43wYNpJTazpBkWON_bb8D&oe=6A0E4CC6&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=k8j9OEyQBgoQ7kNvwF6EXc6&_nc_oc=AdqTb3PBnaf7jGmdFODvmiJ_GamyGySEUrQjyojVT0y_FTa5ETHoV7L8le-qH8dlJ9k&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFeho5VtzZ7cBMHSNc-SQxdbG33-mcdA68IFMYNx8IVGJ75SqTwcC266uiFL3qfyVtU35a77mlJMA&oh=00_Af7PeKb3sNFoZrzzGy-NPVAhm3KLmEtg3wwCLh4-VoSRqQ&oe=6A125FB6",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5437203162748020127?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLbDQ60G9vr31YRkzv7QsWDDJJXjO_D7Kc7bo2si_XqYV5s636ATE_FDP-f1y2I3X9eiA_UYOUQrL4Ok-TOTIkYmnGV6wGHSfp7qEs7TvUWcGho-6qTRAy34oPu8lkE-YhRXbVjxmmuJjJ-wtxo29Yv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdovnQ5UBuGGoSeMatNQCZS6OZB5hqDhKTPHQ8yR2Cih-62VBLQwQ4__4QHNXC1CINI&ccb=13-1&oh=06_Q3_AAeYF1_L6i12cfZaZqv48_H18BgKzMEbt5DHmxVXoEUkc&oe=6A468CC6&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=68xE6xsj0_UQ7kNvwE32eD-&_nc_oc=AdrTxeTFB--derlmwJz_SIagA0qvCA0vVaOGkh07ZBJRsWmpHXXoRRQ8Lk_Qnjt8ob4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHVG7tQscLyFnXwivC3MjctuFSFwcLA92mmpnOV-WAjjr5Izv0Wq4lyaRHZbwm_AEdNDwlc-sjLrA&oh=00_AQBSTKYYNn4yDxDRmifWDa89VQ3iYpwaKScjcgw181pFpg&oe=6A4A6776",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1CmUgMpvN/",
           "effective_object_story_id": "706740269185873_122148878228921574"
         }
@@ -80239,7 +80743,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-12-11-acb9e8b2ac014e1dedae210ee9274b1f",
           "title": "모두의충전 차량구독",
           "body": "💥💥 보증금도 서류도 없이 벤츠 타기?\n수입차 구독 지금 신청하기👉👉",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11719904732478657712?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJLWP0dlbzr2gKOKKAOzhye1GP4dHY1FpxSUu8UHmYTIlB7LFCAscBRNhM20gEKBUDCAWxGkk8dbIeGE5djiMGegcBuq0Ud0NqOxdk1f4v68xkwXZgPIDYsEGCfJ7hgwj9gj1Fj7qjB_v95SMQH4Urc&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqEnx3IuhzqS7dAushfnbeiO-RYCC4C2ZjWb3lxVJGci2hXwZQoURC_ExjaFI8pzsE&ccb=13-1&oh=06_Q3-_AWcrMWI6J8AnNCcjMa_AKEA4YroaoS02CtX-e0vw3Zbg&oe=6A0E5E68&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11719904732478657712?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJLWP0dlbzr2gKOKKAOzhye1GP4dHY1FpxSUu8UHmYTIlB7LFCAscBRNhM20gEKBUDCAWxGkk8dbIeGE5djiMGegcBuq0Ud0NqOxdk1f4v68xkwXZgPIDYsEGCfJ7hgwj9gj1Fj7qjB_v95SMQH4Urc&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqqvRgFucaq1Lxoph3PrzrWAenttz6yWNyIX0xJR-Dy7Xn0_q_s2aB6_x3JP-312HY&ccb=13-1&oh=06_Q3_AAZ7x3KDXG4E1nZy2UHgphG9W93PlqFbeHPoZgcp6gwXq&oe=6A469E68&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DSJF4krjEG2/",
           "effective_object_story_id": "706740269185873_122148876050921574"
@@ -80257,8 +80761,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-12-11-3a4565d42aa8b30c90dde87339f9a2a6",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9602359592184668810?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ_qEMnEw4cUs2RXhxclMhqM0IhD6y8Js9FGfF1yGloF6juWKkNcwdWJVXCQzCpDWyl6-bqdP2EL3jkPXRZ60DtOEXHHyY3Ba5xkOottD4_KPcTOm3JODSiG88W5VjNLBTNYI9efouAY2XExpjjipuN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpEU4czmH8wEhksYlUHKKnQ2TyP82czvIyGwwmHrflMEQHvlROrvatbIhhQ8WTHJ3U&ccb=13-1&oh=06_Q3-_AU6Hc9nDouU8e0GgT3klaqcVyZXKQ2G0TIJ-Wn9rKekl&oe=6A0E41C6&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=hpXU-pRc4UcQ7kNvwGJfcNL&_nc_oc=AdrlGzA0BrtYXNArTO_DA9AqFlpI-gaRCxpO-RdRM5adgoo40XWFN8aUsAz_riE9jxE&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQENjpFDfN-ZLfM_eNI9caIbIgLOa4ZAxTG1R0L5N2ekXW-ck10Py9FVNINqutVikixUgVpY1cOzfA&oh=00_Af60QbFDFFxZLcOXPCo46j3VJqeJONgT68qU7WCp9ASN3g&oe=6A123B3D",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9602359592184668810?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ_qEMnEw4cUs2RXhxclMhqM0IhD6y8Js9FGfF1yGloF6juWKkNcwdWJVXCQzCpDWyl6-bqdP2EL3jkPXRZ60DtOEXHHyY3Ba5xkOottD4_KPcTOm3JODSiG88W5VjNLBTNYI9efouAY2XExpjjipuN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Ado33KjRywrYZL8Rw6KGQGcPs9E7n7zCEWL7f_u30P3bod7qB_GA51g8kAqtfrHrdKI&ccb=13-1&oh=06_Q3_AAbkfKbZvuhUkUBkICsjCvm7CCajWQ3rtTfTLczzbLenl&oe=6A4681C6&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WJOl0vuV7DIQ7kNvwHboVzK&_nc_oc=AdoRVyrFhrpeJZhCn7fsTEXdkBkQrkOP67jV4GTnvquqcuI7N5w8CDeMZI5tGTzHovw&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQG4t9x0BC8Cp1WCnzlhEIdjVmOJGA0q7yb0lkgmqUfLn9mTWde6ki8Zq540QR3K5CJhCYJH90KbtQ&oh=00_AQC-NYjkqrTE_UG0VzqOYLz8QGqIQIwuUFSr6ji1FYnlxw&oe=6A4A7B3D",
           "instagram_permalink_url": "https://www.instagram.com/p/DNUtkCLMYsH/",
           "effective_object_story_id": "706740269185873_122148875528921574"
         }
@@ -80275,7 +80779,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-04-a938596129bb7fd24c7fc77dd0653555",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17042811402049872032?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJa4uLITAE7k5iXypUKFr5iU8vmWuIfTv5mpavm5bLE7ekHNJSB3V4BeNSPi3exAbQ1YxkUqJY30PEL4nU7cAO1oGJDknm2AUg89arPJeTASSJ5WJz2pfDZIy9mgWxoAO8AqqpZfxUtEPzZ2-7fXDAW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpWqSZ7zx3KBR4NJ2jr5iCmCbqplYPyLnDxSug7mw9G2MdWCvhcSTQa1MPs-knmy58&ccb=13-1&oh=06_Q3-_Acgw2_nOBYCxZgbuebNIsiCZSXRa8pfVWOXjFLYoSaJS&oe=6A0E6564&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/17042811402049872032?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJa4uLITAE7k5iXypUKFr5iU8vmWuIfTv5mpavm5bLE7ekHNJSB3V4BeNSPi3exAbQ1YxkUqJY30PEL4nU7cAO1oGJDknm2AUg89arPJeTASSJ5WJz2pfDZIy9mgWxoAO8AqqpZfxUtEPzZ2-7fXDAW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoMigI82G8UIcm2-420OoYTRzmmrVEPDh9tqy90B9GGRCRQa_Z6j10EqpqRINk7uRA&ccb=13-1&oh=06_Q3_AAZ9OMd2k82HBu1kqwNkXfmYcXoQir7Hh0rPEazA0u70Z&oe=6A46A564&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK26GDjF8b/",
           "effective_object_story_id": "706740269185873_122128841408921574"
@@ -80293,7 +80797,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-04-1dc837454c390cb4e063df7ceab6072f",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13488371970510480835?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7zgzui5rB1xb-a1wiwEW9RbRb9LU1KXNdfjpk32pxC3Fr_bFPRXhtfZFzwGhwHCzbnSYejpx3H9laXOnHbLF4p85jcsC2n6NbGeysvsZc3k4_69t4hZXbX3cL6ZrktLrkFSSRxXoJgCf-Hk618Yqv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqG6G1ArEnL0ajlIjzRgRFxcXEfmVkixdwZZdROM9kf6nn06dHeUmoJzNZEvc7i_D4&ccb=13-1&oh=06_Q3-_AZw-7IOrx6g7lp7JMr3ycac8risRR6W-Qp4p187QsxHD&oe=6A0E45E1&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13488371970510480835?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7zgzui5rB1xb-a1wiwEW9RbRb9LU1KXNdfjpk32pxC3Fr_bFPRXhtfZFzwGhwHCzbnSYejpx3H9laXOnHbLF4p85jcsC2n6NbGeysvsZc3k4_69t4hZXbX3cL6ZrktLrkFSSRxXoJgCf-Hk618Yqv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adok9H3FhJzWItTAyxUrlad4qiiRND1_pnsUehgFWM6siZHI7AqQGN-kXXE2DieYA4s&ccb=13-1&oh=06_Q3_AAfISK6Ik2gpvdmnSnUXQqddrGKLWPL2AWN2odztuAqFW&oe=6A4685E1&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK22ZTjJ8x/",
           "effective_object_story_id": "706740269185873_122128841222921574"
@@ -80311,7 +80815,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-04-6bc9313bc0b849fc22450c9b8f446710",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7262678301958985431?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJxYkP23rOtckNbmrb8ScrPBA8skNQvHVzVgRaluznsQVAR3OZsG6tHElBuni1otgvHxAcbNFbJAgC3zy9bUdBfQkSVBoklQuKEtuHWK_DMM1ZG0PmKBMUXFcgVi0Wfz0AKq3CO6mVHZicm0RWZBgou&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqvAt4jCRj22wf-bvWi-5bZmt3RasXOuxkcI3HEhokpTKQXW-bob4VTTv5Mh8awvSg&ccb=13-1&oh=06_Q3-_AbtOwlnlLpjON5HuFZZxwdJnJ19y2-Y_wqlx2JYJhb5T&oe=6A0E3CBD&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7262678301958985431?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJxYkP23rOtckNbmrb8ScrPBA8skNQvHVzVgRaluznsQVAR3OZsG6tHElBuni1otgvHxAcbNFbJAgC3zy9bUdBfQkSVBoklQuKEtuHWK_DMM1ZG0PmKBMUXFcgVi0Wfz0AKq3CO6mVHZicm0RWZBgou&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adppu0VGuoMb17DFlLoEU3uGdMk7BI2KnVQGTET8Sj0gaaQB7xMPj_GKtKKdsqwRWT4&ccb=13-1&oh=06_Q3_AAVBrAx-MxLwZRarMwHt8UFv7pmxcYLL3_xQDk1NCYwq8&oe=6A467CBD&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK2xBEDJFz/",
           "effective_object_story_id": "706740269185873_122128840970921574"
@@ -80329,7 +80833,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-04-4b6668568ad4dff568a622144ebc38e9",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3963969719414794348?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIlmpoetJ22JdV4t5DuPWeIm4f4Gojkvw-90AJH4HmFBmTFAq9sMnTL-RWJ25f2A7u--1-0GawHmkKrsSGw3Q5Av0w5c_8sRMD2BaGitn4XDJHGD6Xcwh52WO1yCavlULATH7fXVFYzpbKcQw4OP_tM&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpBsSvv2iJJjutQu9UJg8JkXIVlZypCWwu82b_WON0H4h4VWq4tJ0u6fGclw3nnJos&ccb=13-1&oh=06_Q3-_AQWOLyOpTywX4QL09mU4WpaglOnMEDNFHbIXrgLOREb0&oe=6A0E4C5F&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3963969719414794348?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIlmpoetJ22JdV4t5DuPWeIm4f4Gojkvw-90AJH4HmFBmTFAq9sMnTL-RWJ25f2A7u--1-0GawHmkKrsSGw3Q5Av0w5c_8sRMD2BaGitn4XDJHGD6Xcwh52WO1yCavlULATH7fXVFYzpbKcQw4OP_tM&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adq6w9BP_XvgiJb4ffQj5u6WZzULHycxY_5zC8-XRRxSOu3ysy8vwkBcEU1zRrQ7kvE&ccb=13-1&oh=06_Q3_AARqSq48bVj_9CWgRSFozNX3LyYG_NhbdVoPObTJubZG3&oe=6A468C5F&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK2r0dDJcx/",
           "effective_object_story_id": "706740269185873_122128840802921574"
@@ -80347,8 +80851,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "🚘 모두의충전 차량구독 서비스! 2025-09-03-7b06f94445087909f973c0bd829d6e01",
           "title": "🚘 모두의충전 차량구독 서비스!",
           "body": "🚘 모두의충전 차량구독 서비스!",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5591983797755996775?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIKXMeq0ODNZSzg9xEDMG6au0mRXhQv-PuChIKLa9uHio4pznNQdaN0_nIQuSVqCy4WBWKvf7Bi57Ye-o3F-OZsrHqstwocW1vbzDO5DUVPPCi2bx-JiTcftr7fKT_82dGa9PA7pkNaPRTdzJiA6xHW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr-XaVVp6rDtdpOxIqpV1ctEp9K4kAwipEXOg49rp_xJ22S9dZafLyS7Po8VrXara8&ccb=13-1&oh=06_Q3-_AUscyYemLMubYQXSgej8h8TzZxNvXOWatH8hp3NPvnmF&oe=6A0E59B4&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532931628_122128395038883764_6720151233124906458_n.png?stp=dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=lLWU8L2tF4AQ7kNvwEVBID0&_nc_oc=Adq1hECT4juYCKqJ_iFxWZ8fhkWpxEr2oZclylC3yoUn6HG-jW4iSNLV4D0ue2FRULc&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQGig4lhiOwkMgFKCK52aXzKxcAbCksYnLLc1inuXSIqQi4l0t5FrLM9mqx-sTedh39mDfDuZivE9A&oh=00_Af7wD7IOD53VW-vwcioJanagY1eMGbYHM7ck4bkbVdyPng&oe=6A12460F",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5591983797755996775?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIKXMeq0ODNZSzg9xEDMG6au0mRXhQv-PuChIKLa9uHio4pznNQdaN0_nIQuSVqCy4WBWKvf7Bi57Ye-o3F-OZsrHqstwocW1vbzDO5DUVPPCi2bx-JiTcftr7fKT_82dGa9PA7pkNaPRTdzJiA6xHW&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrDbAiOmabc-ZRigCzz8PPbPxFpd731hNuoeCtSPMYdPirHmzPqXBW4WyVseC-DBlc&ccb=13-1&oh=06_Q3_AAUVzwiWary2WJPEc_6kEJ4LHVzPae8GhG5z8v65oQ9w3&oe=6A4699B4&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532931628_122128395038883764_6720151233124906458_n.png?stp=dst-jpg_tt6&_nc_cat=103&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=dSag3KIXI2oQ7kNvwHDOViz&_nc_oc=Adq8BAMKZRopdHN-rVByOCtj7NDtXbiKrHKbbjnSNjjEyahmllHQxT0hVtlv_7hvTSc&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQFUF8I_SaeQJ6npqdOJFSJXKhUQVpw_GbNW2dqbu_aeN7D1vMbXS9dVrWADgcvyRxguZWrUzxSvIQ&oh=00_AQDXiVYpcSQxAWZ-nozymH9ju692jwKCKLA-spVaW3mIPQ&oe=6A4A860F",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK2U5pAMbg/",
           "effective_object_story_id": "706740269185873_122128638206921574"
         }
@@ -80365,7 +80869,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-03-134ad657d912f95478eff1d565a3f1ca",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9362569705401086841?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK6g4SHNgBhqzBnci6LtbUg18RxlPFlOlwvhVT170-OOOlJJdWFekQfdd0eU1aS5Xx6j6Qh0krppQ1ew-K0fN0JDciEAofcq6yicRYFTrIplNgVdOT98J17L6_eXoGR4iqHFsLx_f6a8xEZjIkP4-Qv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adpw5X0vq9UfQenWRjfJrr2Cy1-2UlRtGdkuDkFzt6f9s7my7GC8DYF4mVWQMeyHgeI&ccb=13-1&oh=06_Q3-_Ac2nhH5rdecK22vO7cEOVGu0OXGv0f2LsmqWf3bIQCIM&oe=6A0E48E2&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9362569705401086841?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQK6g4SHNgBhqzBnci6LtbUg18RxlPFlOlwvhVT170-OOOlJJdWFekQfdd0eU1aS5Xx6j6Qh0krppQ1ew-K0fN0JDciEAofcq6yicRYFTrIplNgVdOT98J17L6_eXoGR4iqHFsLx_f6a8xEZjIkP4-Qv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adocm9ENYrMLm01OuOVPsfxJTtNqPG02se1mAns-158b4IDrEfpr1bGWHKTBcqJXqC8&ccb=13-1&oh=06_Q3_AAeGlvq2ZqNfxRbJyYBOl-bmF-wN8rWlEfdSVlGaJhxdn&oe=6A4688E2&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK26GDjF8b/",
           "effective_object_story_id": "706740269185873_122128638914921574"
@@ -80383,8 +80887,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-19-bcf44cb13fa97d2874b1fae68410651c",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5246868208065240335?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJVpvDcv2CBgvFL0UBRC0QFvbWP9sy63CCM4p0RnE0YPcLK_eERue_Ku9xA4bJK8NZtYKDGUDAAh4o1NHEFz0OmDwvS6rSH0Urx7PkMSC2CkHyGcXre8tB9jhL02l8TfX1atRlTydgV0EOj8HamtvwF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr4t4UdfdFmcdF4tSdbOPg143amnnTJ0rMEyiIiM2_lis3y48fOkTUBoRG4Hlv3xm0&ccb=13-1&oh=06_Q3-_ARnljgtZaqUeNusShQ9tQHPpIj1BbQsSN5M4eE_w_PkG&oe=6A0E3E00&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=k8j9OEyQBgoQ7kNvwF6EXc6&_nc_oc=AdqTb3PBnaf7jGmdFODvmiJ_GamyGySEUrQjyojVT0y_FTa5ETHoV7L8le-qH8dlJ9k&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFeho5VtzZ7cBMHSNc-SQxdbG33-mcdA68IFMYNx8IVGJ75SqTwcC266uiFL3qfyVtU35a77mlJMA&oh=00_Af7PeKb3sNFoZrzzGy-NPVAhm3KLmEtg3wwCLh4-VoSRqQ&oe=6A125FB6",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/5246868208065240335?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJVpvDcv2CBgvFL0UBRC0QFvbWP9sy63CCM4p0RnE0YPcLK_eERue_Ku9xA4bJK8NZtYKDGUDAAh4o1NHEFz0OmDwvS6rSH0Urx7PkMSC2CkHyGcXre8tB9jhL02l8TfX1atRlTydgV0EOj8HamtvwF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adrfqq7OHEOSO3yc40pY04-DU_LA7KExyXBLgyR0hLS1SkSTEhPNuca5P0QEAGizr1U&ccb=13-1&oh=06_Q3_AAXRr4vaiWr2BUpGF2QyUCm3u-hHlYslEX_WVb_-e5IqT&oe=6A467E00&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=68xE6xsj0_UQ7kNvwE32eD-&_nc_oc=AdrTxeTFB--derlmwJz_SIagA0qvCA0vVaOGkh07ZBJRsWmpHXXoRRQ8Lk_Qnjt8ob4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHVG7tQscLyFnXwivC3MjctuFSFwcLA92mmpnOV-WAjjr5Izv0Wq4lyaRHZbwm_AEdNDwlc-sjLrA&oh=00_AQBSTKYYNn4yDxDRmifWDa89VQ3iYpwaKScjcgw181pFpg&oe=6A4A6776",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1CmUgMpvN/",
           "effective_object_story_id": "706740269185873_122097355478921574"
         }
@@ -80401,8 +80905,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-19-1b056fba41145570c7a772e6db6da3e2",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12409504391244627447?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJOix9XqODlXX5DSIBI3o3hL0nv5Rg4EPB8BE21uXSWDLe9bjyLJBaFzJ6Vs1acy_0-f_bO2TF4LQWfdveUbbz-vknh_R9WkzLJCt63rknYYBTufz6v9B7t5RsugtctWaeJQm7moTVrCxZ8T0Lg6pid&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adq1jvwyNHhUEQlzH8Y8hnAhJRXZXUpH0jH-2uaiDsX9jE7RKsKkZ9jlLOf2vjpInvA&ccb=13-1&oh=06_Q3-_AWrUuBo0TWdHBydFh9REETFJW2pY-_UByQx7mTkPcc6q&oe=6A0E5BEE&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=B-4B69Xjx0UQ7kNvwHIfTdP&_nc_oc=AdoBu0dIqcIQ-WhVX5fkVO0PrT-TgNLp8x6Kapgo4IDY3uDSmw2hKyc21gZNw33yXJM&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFLXjGNWFk_KbDrxkkVelMUZmMa3dQVK7DG9cPZoh6fK6ufsibUr4Lx52dNjtmlIQWosflFMVrcqg&oh=00_Af6tS9IHAk4TcRoSsNuG-DrpHxXPMVGda5wF4H5S47steg&oe=6A1265AF",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12409504391244627447?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJOix9XqODlXX5DSIBI3o3hL0nv5Rg4EPB8BE21uXSWDLe9bjyLJBaFzJ6Vs1acy_0-f_bO2TF4LQWfdveUbbz-vknh_R9WkzLJCt63rknYYBTufz6v9B7t5RsugtctWaeJQm7moTVrCxZ8T0Lg6pid&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrGybZc0wJL1fb74BDoojfnty4LyfzUtLKJwQoyfgBXtoBsBUT7jDwp8qtM7M3AkcM&ccb=13-1&oh=06_Q3_AAYMxov1u2UPoc38Q---WEseVbXkUbRuyf1vLfAv-Csos&oe=6A469BEE&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=vC7Y_rXM39MQ7kNvwEFFa0J&_nc_oc=AdqiDC6ci6xS6PD_L30cmxGXl-q-6LJrLVe0XrgSNEFj3o71v0lC8-7PC6jmsI_rGRQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQH_lN43I7ohTiXdShtfbRT_vdKMQE0sqGFqKHChFI7lYCFazWfzwzqp_dHTUg93N_c-Ds50BieG7A&oh=00_AQBkiBDugWx6rWVadny7x5uEVi_yyYSSi9jlSwU5bta8pg&oe=6A4A6D6F",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1CxOUsOpl/",
           "effective_object_story_id": "706740269185873_122097357578921574"
         }
@@ -80419,7 +80923,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-03-0c116de260a46aae693c1beed5e3d1fa",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7192856084472156901?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL4pYK_sYny0KQSLObUpIvYrvspeDCLYPSL_MNZLrYDWXT3DnDkHVIaWwqbRRy3zQS8LwnMHoIq001oNi8jeuGOERo6XEYYDV2-QEOQ04X70Ney1yGGmXbuTRhqqOYZq3SBv9BVPUSDDvzwlzq8d6E6&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdryLbkm-r312fPpAxVyVqYOBNmPP8PgRyN8btfl6nJ761Qy3p7uoLl0GI4GigHAn2U&ccb=13-1&oh=06_Q3-_AThKdNBSo9Sg42P1eyB0uLAsFC-ITIqT9xVOgpItVM8T&oe=6A0E6695&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7192856084472156901?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL4pYK_sYny0KQSLObUpIvYrvspeDCLYPSL_MNZLrYDWXT3DnDkHVIaWwqbRRy3zQS8LwnMHoIq001oNi8jeuGOERo6XEYYDV2-QEOQ04X70Ney1yGGmXbuTRhqqOYZq3SBv9BVPUSDDvzwlzq8d6E6&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqkmlX_Cise_QByTYVrrU8PMOGoAzOEV_gEPPQ4pCJqgZWfBp_EKcU0rMHta3KicOg&ccb=13-1&oh=06_Q3_AAT19tb9NUEVdyfuuoS2Hx-TLcoYB2YQWX0nKsN9AMBwh&oe=6A46A695&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK22ZTjJ8x/",
           "effective_object_story_id": "706740269185873_122128638788921574"
@@ -80437,8 +80941,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-08-13-ab7188d22fbf816c608f6d86248a3156",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4923313381797031769?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKNcwwPuT67P-S4kbAHb7tP85NwsJqzhH7_S2Y5hVW-ZyaVQTbnnFctEmzXuYetdoe2UVtQwKEVY7d5d1KWuYottzuUQDPtZZUpIQ-l7csjwmUB1LkD3b5Ga_bzDRXDOQtVoQzzI9zr4hzkXTwWy1b9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adqy5pm2cYzptieoS6lwuAUCHV2UPF9GqzvF0AxJShLwoDe9GxaxZocJ9l3gizCl2yE&ccb=13-1&oh=06_Q3-_AaoRAar4T471whcGaq8CArwOm6fGMdL1QBIlvePkubQp&oe=6A0E662B&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=hpXU-pRc4UcQ7kNvwGJfcNL&_nc_oc=AdrlGzA0BrtYXNArTO_DA9AqFlpI-gaRCxpO-RdRM5adgoo40XWFN8aUsAz_riE9jxE&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQENjpFDfN-ZLfM_eNI9caIbIgLOa4ZAxTG1R0L5N2ekXW-ck10Py9FVNINqutVikixUgVpY1cOzfA&oh=00_Af60QbFDFFxZLcOXPCo46j3VJqeJONgT68qU7WCp9ASN3g&oe=6A123B3D",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4923313381797031769?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKNcwwPuT67P-S4kbAHb7tP85NwsJqzhH7_S2Y5hVW-ZyaVQTbnnFctEmzXuYetdoe2UVtQwKEVY7d5d1KWuYottzuUQDPtZZUpIQ-l7csjwmUB1LkD3b5Ga_bzDRXDOQtVoQzzI9zr4hzkXTwWy1b9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoHIiBR68DDZn7Cr0rKbzHS6cgNoeSZueW1fj21gv4RrPaM1eDrNKdizWssvw0PkRM&ccb=13-1&oh=06_Q3_AAaXfcrEPn6zoTg1rxTbMNATJcbiFpL9jQ3RtuYZpyvLC&oe=6A46A62B&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/530954454_122128387892883764_596007367105723979_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=WJOl0vuV7DIQ7kNvwHboVzK&_nc_oc=AdoRVyrFhrpeJZhCn7fsTEXdkBkQrkOP67jV4GTnvquqcuI7N5w8CDeMZI5tGTzHovw&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQG4t9x0BC8Cp1WCnzlhEIdjVmOJGA0q7yb0lkgmqUfLn9mTWde6ki8Zq540QR3K5CJhCYJH90KbtQ&oh=00_AQC-NYjkqrTE_UG0VzqOYLz8QGqIQIwuUFSr6ji1FYnlxw&oe=6A4A7B3D",
           "instagram_permalink_url": "https://www.instagram.com/p/DNUtkCLMYsH/",
           "effective_object_story_id": "706740269185873_122123408672921574"
         }
@@ -80455,8 +80959,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-19-5b38d079437f04e276fed22fcf0edab3",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2377864676295410231?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7um7BH5CUFdi9xBkAWo4KvQzCLUhXnNd3QIviBLRxYzED3swYxfahnn9fA07sZcnatI7Ypug4V2k1VhY6yBBCsm8MqbCu_p5-jgqC8PhZBo-6MusFa5IzLg1xlRsZB9qqbBbna92bICpfqzpr7Aiu&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr3TKVa0rrT0C6fykfMaziD6JeRxgLJWoDdNHP442Xvj4ZWhfFYLKZd_vBrDOVJzhE&ccb=13-1&oh=06_Q3-_AUwzZz36d06jjiomJnBG6d9gfy-t2QQf4mNwemKsLsSm&oe=6A0E525E&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=L2b5uRk_zh8Q7kNvwEh3uzn&_nc_oc=AdqNgL1xOjhk0WbFRmH-5lo_cCti7euKU7v8uNP__ckQEw2LoEpsPPze_redDIQFqIs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHDBR5CNHmM8fowUEYGHz29L_BV4bLcqNJylU-OlJI86QXdWXZtjA8ls5HnNZuzx1lcUSGGl3G2GQ&oh=00_Af551p79Z_3hz-BSG87vrcKVBhjXqW-q-O7L40iB68AU1Q&oe=6A123395",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/2377864676295410231?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQL7um7BH5CUFdi9xBkAWo4KvQzCLUhXnNd3QIviBLRxYzED3swYxfahnn9fA07sZcnatI7Ypug4V2k1VhY6yBBCsm8MqbCu_p5-jgqC8PhZBo-6MusFa5IzLg1xlRsZB9qqbBbna92bICpfqzpr7Aiu&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoWTWlb28e3tt1yPk3SyIMus7USSgRDjs2khW3mKpcjelArMajK6mefjs9tz79tBoo&ccb=13-1&oh=06_Q3_AAWwEc5DAuF3woBmtv9EFh4b9GLkLpbMtibk72FUf4ADl&oe=6A46925E&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=W3_bwkNUcLYQ7kNvwFCEw1m&_nc_oc=Adq9DljivjoSCVJCc3SlkNNGOT91yNZvLmpZtlYX0FyM-UwsElWj4fGEWG9ctQu6aTQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQF2Ctl0Bh5KiqXSNJll5svmmEpje2MH5NXYKZVWEojO-ygz3GJMlzUqzDy4G6XuE_kWYigtNlgefA&oh=00_AQCyk-N0dhPaBm8M8rO7hz-kWRwGz_zyPnlijcfnH5B_PQ&oe=6A4A7395",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1C-NsssAG/",
           "effective_object_story_id": "706740269185873_122097358154921574"
         }
@@ -80473,8 +80977,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-08-13-8f3660bb0bc50bc760416cc6a9b519d1",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10321839702864349967?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIeyEetoyMFBZ9yGAzm0vh_uc8Cgm5uMDBFS-qdnMARWi4-YFLTlAJggFNje_XGfHacmW1grIxtAwD7IIZNWU-RDhvrw7gf11ma2r5NCt4PSdhqVKIR5ucySV-30jxyjoZf_ANhkIN_WftuaKHBZHYo&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adq78AbMvNDlgSbcBpOOgRs6iwJQFLTTQIQw90MIMG9dT38WV-KgkbsworcQ-xmWhMU&ccb=13-1&oh=06_Q3-_AYiFx00FHLd7w8Tqr4sC5TMD80ciA3rL_SyrvOJlasMb&oe=6A0E5BB3&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531656248_122128388006883764_2655060837780958379_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=YxIuyQVDrSEQ7kNvwHgVhbT&_nc_oc=AdoVL-1Nq4J8X7BYfQZRsPJ87vcawP49XO7rSWGMWMgzNTSJFxmsdGFkHz4A3U8e0VY&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFbnDsSKSjaoGs--Vl1LLiQ4GeI_QOcWYyRjOt2BnlWSyPVsSkNEHLnqHnIQ37Lo5KZFauKa94Llg&oh=00_Af5ZAmzXzoZ4ZDk3MR256y2kw-fQbxE6HlaT7Ul7kkXf2w&oe=6A124C96",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/10321839702864349967?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIeyEetoyMFBZ9yGAzm0vh_uc8Cgm5uMDBFS-qdnMARWi4-YFLTlAJggFNje_XGfHacmW1grIxtAwD7IIZNWU-RDhvrw7gf11ma2r5NCt4PSdhqVKIR5ucySV-30jxyjoZf_ANhkIN_WftuaKHBZHYo&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpIurxU9iyoWtSfJ3T2lFeMFSPKDXiYoUT2CMeSn85GeqGdtf2pHmRXofpvDQyB8CA&ccb=13-1&oh=06_Q3_AAepVMg8kyuEgQaqaaA7TJ6qjaua3ksx3J46YNUu7339x&oe=6A469BB3&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531656248_122128388006883764_2655060837780958379_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=c3Tu2aEQXMwQ7kNvwF5_g5U&_nc_oc=Adp5MFRRsQ2l1RRNVvrf7prvwS3lhzSKywZJk1B_-4BeQgcb137VpaatR_kKWOCwRFY&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHlAWdpGL2Zit_39Rgvh1FrZ4WF9_ZHBS3ADrtKhyiF_eeJ5hZp54fFTFjueuD5QvHw1P4nMBfJDw&oh=00_AQCmznf9-6p7BqJU_zUnedDYJIz3EnlAhbT8SJxRg4eQYw&oe=6A4A8C96",
           "instagram_permalink_url": "https://www.instagram.com/p/DNUtqdIM5zy/",
           "effective_object_story_id": "706740269185873_122123408774921574"
         }
@@ -80491,8 +80995,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-08-13-2b67ba7ac48667a8f0e9c6950c5a7dfd",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8667587279376253904?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQITGe1S2mEJT0h1uXrTK3Vqjy3eLM16Jfkjh4fi2WURM4cB9Y2N0cOdQleJ9RBWlBRYYPEl4REJXlrF6GuZ7Y5KqUVwXYMARxFnAL-vbZS5ABBOBa6Jo8NQdRs_1bQlInbTTqxafc8Rve93RCIHhdEv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adr27glJjCKjGmHUX1drSkuzsq4KNyEwVbdzXH34-gp4gcqmHnhitLy_6Aj1FMdI4V0&ccb=13-1&oh=06_Q3-_AVv8vVyfQ4fa_Ui_BGS68EfyeR9IlzeWnvUji9az7Yxw&oe=6A0E6050&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531749369_122128387322883764_8595088644324985838_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=F-wU5y2WyakQ7kNvwEgHm6p&_nc_oc=AdofeBFm1POsyjlNlR7NBhC3VvrgEGtYfoUwEpBax-2pfuSGo5mmIUARVdNEd8bQzOg&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQGTaep40uFEZ51W6AUPlYIw2rC8j_Yt8TIEOfd3OTVClGgU8g9XYX6_wYhv4RjedybLXNzeEuZLHg&oh=00_Af5dRRrR_6-8_OdT9SxhpQbgWdNu_7ucu7CBSx8b2XIPrQ&oe=6A1242C7",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/8667587279376253904?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQITGe1S2mEJT0h1uXrTK3Vqjy3eLM16Jfkjh4fi2WURM4cB9Y2N0cOdQleJ9RBWlBRYYPEl4REJXlrF6GuZ7Y5KqUVwXYMARxFnAL-vbZS5ABBOBa6Jo8NQdRs_1bQlInbTTqxafc8Rve93RCIHhdEv&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpyNrggunF-LXuW-A9B_B6bQWn-w9DP1O2B8TgY9bSVRpI9XG9rwxixZFBcDKGGeHk&ccb=13-1&oh=06_Q3_AAe6V5-Q5klTXrN5DyMqqqSIlMql3Y2tNpfvK_XU4dBxj&oe=6A46A050&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/531749369_122128387322883764_8595088644324985838_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=NXK1j4r-pwQQ7kNvwGBmLoL&_nc_oc=AdroFxZbSvNkDITRApc8ek7la0MVQe-qdbn0CpCBC_A8gtVA4_XhpdwS_4SzeilzyKs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQEI_6Ji_Z3DvNUvfdZA6cVrraPTfEThy0E763_vnGDhq0GPSXIEM5yTzapE0MkjCFmIaeIewCBuQg&oh=00_AQDLfF292-MqmvKSuv8hc5OQT_KgXwg4jy_O6UEEHAHbIQ&oe=6A4A82C7",
           "instagram_permalink_url": "https://www.instagram.com/p/DNUta5Ksm37/",
           "effective_object_story_id": "706740269185873_122123408360921574"
         }
@@ -80509,7 +81013,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-03-a2ac42e382f8381b601b7c1dbecd808e",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15321313993713811662?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIYczRIDSfEYqBaRF8Br85--hvHPf9UmBv0nMaH2XrV5uSSn_fI0WWk_HLcHh51shzhY1NyGFS_RMmKEt4xJVYBvbsvcg--BsP8indIMvZJi36c6uNA8WOjin_htvhYGwsgSD_zZ0EIQG5MUhhQTsI9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpIpYpLlyEHvCHBKcCw4BBB8bSV7itb0xr-pH1A0CVPLOWZv83FmfMkkdticzHI9i0&ccb=13-1&oh=06_Q3-_AcOHFSMasI5mAbix8Wv7QiZTVZS5IVUczorsSzEOmX3u&oe=6A0E4771&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15321313993713811662?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIYczRIDSfEYqBaRF8Br85--hvHPf9UmBv0nMaH2XrV5uSSn_fI0WWk_HLcHh51shzhY1NyGFS_RMmKEt4xJVYBvbsvcg--BsP8indIMvZJi36c6uNA8WOjin_htvhYGwsgSD_zZ0EIQG5MUhhQTsI9&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdocsJrjjsVKc3D8GWSG4EhcQY8sb9fhyj9lMIm7VgosvXjH9wR3fPkP9z87FNGdnlo&ccb=13-1&oh=06_Q3_AAeJWD010ywucMha9_vaLsA2fgWgp10FfUDMvt5z04as6&oe=6A468771&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK2xBEDJFz/",
           "effective_object_story_id": "706740269185873_122128638614921574"
@@ -80527,7 +81031,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 차량구독 2025-09-03-7dd1af1c73a801db260834135173f97a",
           "title": "모두의충전 차량구독",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16846412044767853122?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKF-BrSIvB9eq12HIW-00gKNI9ZmjFeJEm7O94ctMSRnuDCvu3efKPxGhIk8GnnTkgWq1dcdJRxtky_1QUyJl4_htqs0H4dh5UPl3bDIVe-3DQV6qjCfR9hzC9WoJW90jBOiMR0TDPVJgDXZvJCgIEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adq8oja1leOJMA-p_CNU_CCyOQDME_1dCYsfN2jtRlM5vqgHDixtGctW6vsS_vnEFB0&ccb=13-1&oh=06_Q3-_AR8TuGQXgw3Qz7UNgupfJS3ehT37uY6MmPzgvclUFv-t&oe=6A0E5D3B&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/16846412044767853122?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKF-BrSIvB9eq12HIW-00gKNI9ZmjFeJEm7O94ctMSRnuDCvu3efKPxGhIk8GnnTkgWq1dcdJRxtky_1QUyJl4_htqs0H4dh5UPl3bDIVe-3DQV6qjCfR9hzC9WoJW90jBOiMR0TDPVJgDXZvJCgIEN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Ado_TSVunDtOVD_AClFH8NYZlOcPTdrbUZYJAE420E_OImBVIWT810Go6TgJ2oqtXEI&ccb=13-1&oh=06_Q3_AAZ1bLzhx_ZwtO-ftrO9r8NlBm3jAADSbJ--6vqdbmL0b&oe=6A469D3B&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DOK2r0dDJcx/",
           "effective_object_story_id": "706740269185873_122128638482921574"
@@ -80545,8 +81049,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-08-13-2a9f0d2cc45d2cdc64ab5708b20d2295",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3939935576794936533?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKw6A-cLtPwM0ifmVj_iB3SVrxyDYUWCszE7wg9e6MnTm0pDzdfaNVJMW2CBNvr_2IZtGK2HJhJHcDBdO-9Y42PVwRcRs7S_X5bc1-pUgS5v2dTiyT1osPFbaHnlDFErkonq-10Lrp2_dfkYHo1P2_A&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqlBZl-gTEZ3HLpWZoOkJFIzoVbB7NQLrlevIOcCtNCF_uU4HRPtkkBy49pzlmvx5w&ccb=13-1&oh=06_Q3-_AQxh4U9vHq-3cr4ArFc9DOwiB-SqJCeGWzpWlX0PMIzM&oe=6A0E4C2F&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532251385_122128387124883764_4541760405168268760_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=m2Qwgcf5jkUQ7kNvwHvt5Vy&_nc_oc=AdpeHCnhg2irstNT3fLKoBqjUp5h337hx3zNdkX0_Qt408TrH0MH34DnpbjdMc7SM9M&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHu_UzRfY7I3KjMJTER425VkZdiqkItP1mVQtcHvq35thdFinhfauBx8hzjmOHF_vwpoBJy2UrbkQ&oh=00_Af6lSWKFtOpOneOEiC7I6UIO_of2YzC47W262FZ2B3_b7g&oe=6A124B2C",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/3939935576794936533?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKw6A-cLtPwM0ifmVj_iB3SVrxyDYUWCszE7wg9e6MnTm0pDzdfaNVJMW2CBNvr_2IZtGK2HJhJHcDBdO-9Y42PVwRcRs7S_X5bc1-pUgS5v2dTiyT1osPFbaHnlDFErkonq-10Lrp2_dfkYHo1P2_A&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdpClSFqWkrMO5GUW0dLF4f386T51WjVmS5j5T49V6s8nwyogCUnncZCnaOSmeKyK2U&ccb=13-1&oh=06_Q3_AAW8VZD1gi_MpFOxcTfNQA9DTzjum62-OmMnWdL-Q-55f&oe=6A468C2F&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/532251385_122128387124883764_4541760405168268760_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=vw_V5MkNNlwQ7kNvwF5UB3_&_nc_oc=AdrHVpBMLDGyIcWKnZ4PXuMHzjJKAAOt__DRjkWkFTUi30SleOGKN5sr0TQuxooZKAE&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHBIIgOEBkrXYu3y7RW8MH6x7hwOYxh6i67iHky6WVkANYLj0wSXI_4SDH9It6MBrpmHEXDikYQvQ&oh=00_AQBe5lAFSV6hHQPtCQzQYOz-VjGewd01TGYpw9n1V5kRBQ&oe=6A4A8B2C",
           "instagram_permalink_url": "https://www.instagram.com/p/DNUtP5SsQOU/",
           "effective_object_story_id": "706740269185873_122123408120921574"
         }
@@ -80563,7 +81067,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-08-05-451eebb88c3a788dc068bf305a0498ee",
           "title": "모두의충전",
           "body": "💥💥 보증금도 서류도 없이 벤츠 타기?\n수입차 구독 지금 신청하기👉👉",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4731675722569428889?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKqWgZ0mjWoqqMMm71naARtV4_b53arqosU4yueO-HGVt-wQrws6YmfEY0B37qV3Cg45J_rEBOAtRRpeiwCkOYTeAuYKLaLdSvZfUYEkD59gmB9bXyvc00RujV8gMjXjeEHzXm3WmOZQXBOcRLm4CwH&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adov3_3U6Wapj2qjomJTekz7ruqOXCjXDRFC83cZVRb6wQ1pwCV0aszRY1-_sDIPlVU&ccb=13-1&oh=06_Q3-_AVwC0o-lVklTLRlBAOlElmno0VVfTlPKfXaL-9-BXAgQ&oe=6A0E5874&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/4731675722569428889?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKqWgZ0mjWoqqMMm71naARtV4_b53arqosU4yueO-HGVt-wQrws6YmfEY0B37qV3Cg45J_rEBOAtRRpeiwCkOYTeAuYKLaLdSvZfUYEkD59gmB9bXyvc00RujV8gMjXjeEHzXm3WmOZQXBOcRLm4CwH&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adr8U56ALlo22fu36KbrAukcsx8xURrdQk9my2XeDHwDLQREjExqJNAPkmHXFNsF6uE&ccb=13-1&oh=06_Q3_AAXG__5oHuWu8dqRZCkm00vXzopKxeglzp1Ac-MDcMzvC&oe=6A469874&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DNAJP11MmEU/",
           "effective_object_story_id": "706740269185873_122121234686921574"
@@ -80581,8 +81085,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-12-9a8b903d86730110b11676204e6c3a3f",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9215421750810655854?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJbLCsI9j1S3UxrCStWBVDzUjPJZgwzpUvSgLtTtylSyjYOVXAsrvUNmXXSaAm0cJODfUMqbzf8tH0FQ_CTv2BBj9DU-z8ViCNV1Qzp3V3zuaFCNFeIlqgBP5GovgFhwCXSIoTXeCFiDQNTJKzrojBA&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdopfGsaWf1cLv5gLDTydg_cgYvfi9FJIC3fV4m_dJOXdZzqyFAoca6WIlWRCsiXC-Q&ccb=13-1&oh=06_Q3-_AcXmXDcmJgZ9-V5mtSewByM9Ac7ZssxoqxHuSU_LeNau&oe=6A0E5755&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=B-4B69Xjx0UQ7kNvwHIfTdP&_nc_oc=AdoBu0dIqcIQ-WhVX5fkVO0PrT-TgNLp8x6Kapgo4IDY3uDSmw2hKyc21gZNw33yXJM&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFLXjGNWFk_KbDrxkkVelMUZmMa3dQVK7DG9cPZoh6fK6ufsibUr4Lx52dNjtmlIQWosflFMVrcqg&oh=00_Af6tS9IHAk4TcRoSsNuG-DrpHxXPMVGda5wF4H5S47steg&oe=6A1265AF",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/9215421750810655854?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJbLCsI9j1S3UxrCStWBVDzUjPJZgwzpUvSgLtTtylSyjYOVXAsrvUNmXXSaAm0cJODfUMqbzf8tH0FQ_CTv2BBj9DU-z8ViCNV1Qzp3V3zuaFCNFeIlqgBP5GovgFhwCXSIoTXeCFiDQNTJKzrojBA&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqtGNFFUdo1_B4QLL501dS34kA_7XjDU4snLcCpggLtaPcLSji4ojb3OiSwl8hjQCk&ccb=13-1&oh=06_Q3_AAan5IaoOZkcxbnAlcP9cfSVrAoGhxcNZs4X_KCIg7_KJ&oe=6A469755&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506251278_122112941744883764_9173781527932005594_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=vC7Y_rXM39MQ7kNvwEFFa0J&_nc_oc=AdqiDC6ci6xS6PD_L30cmxGXl-q-6LJrLVe0XrgSNEFj3o71v0lC8-7PC6jmsI_rGRQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQH_lN43I7ohTiXdShtfbRT_vdKMQE0sqGFqKHChFI7lYCFazWfzwzqp_dHTUg93N_c-Ds50BieG7A&oh=00_AQBkiBDugWx6rWVadny7x5uEVi_yyYSSi9jlSwU5bta8pg&oe=6A4A6D6F",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1CxOUsOpl/",
           "effective_object_story_id": "613843215154831_633465039859315"
         }
@@ -80599,7 +81103,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-06-05-273ca2651ceba8cb618b954cf01f2a82",
           "title": "modu_ev01",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13667298182480704652?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLndT26-o8PM8_GAJAeLq4eMicYSFpekmpw1e6iHcJVulejWzy7kYQ6KewbT0qiXQs1DyLYZNCg6osiL4HN76hLCTBPCRyH-JmnprdAPDEoS_BPU4ySe0X-Ef8TsHVFc4V3uKIEcJTg6Pkqi-RdtVig&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdoGomqzSbYtIcjGI8HZKSDPFwd4_Js077mGuVVZ8RmqmJymirSxOoOmvh8i3QamykM&ccb=13-1&oh=06_Q3-_AXhRLakttXUYCjH26vFoSnyF3owU2-DDz4cSTAN51GBM&oe=6A0E70F6&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13667298182480704652?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQLndT26-o8PM8_GAJAeLq4eMicYSFpekmpw1e6iHcJVulejWzy7kYQ6KewbT0qiXQs1DyLYZNCg6osiL4HN76hLCTBPCRyH-JmnprdAPDEoS_BPU4ySe0X-Ef8TsHVFc4V3uKIEcJTg6Pkqi-RdtVig&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrLTIDXb1FuI6ni7W2C937YNxnqs1vCm42KSftrdQn10Exw2KO2XyfM9bJDSZOIFsc&ccb=13-1&oh=06_Q3_AAUIfvG38r0JA0QJos-YjjPP7e-gv3C2TLHcYx88z0h8Z&oe=6A4678B6&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRaGyhsIhd/",
           "effective_object_story_id": "613843215154831_626627763876376"
@@ -80617,7 +81121,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-06-05-e3aefd459c59f7cf1bfbe762b462632e",
           "title": "modu_ev01",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/18165952351760983631?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuhVq2-lRJRtFAHOMn-zBvs6A6bLWhfkLgCaZpUfx6jk6bS5qG06rlA49freSXVvZL5L9kY4GZO2PcxLtgSbxDZwt_JVpCI4M4nyAiMrVTrYgFw4q-XslAnnbIZ0PG4P3eQjMhVAO-g3qLzeE0KBwj&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdqHi48B56B5wB4EAOJ9LvlgGHw4mfXMPakLFBcEVgHdfmjM69kIn8sU3XKV1s-b3Nc&ccb=13-1&oh=06_Q3-_AQ026RCEXtzZflh7e3LbsCjF0NVr2QlG_zIzTGNGSEp1&oe=6A0E50F4&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/18165952351760983631?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJuhVq2-lRJRtFAHOMn-zBvs6A6bLWhfkLgCaZpUfx6jk6bS5qG06rlA49freSXVvZL5L9kY4GZO2PcxLtgSbxDZwt_JVpCI4M4nyAiMrVTrYgFw4q-XslAnnbIZ0PG4P3eQjMhVAO-g3qLzeE0KBwj&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrXNtaUDNojZpDSK9vVtiECR4HxJ3iF330be6O2A5357ot8pqInaJrPohwW41PReR4&ccb=13-1&oh=06_Q3_AAcl-J0BFxTWnv0ISLlua_UstKrAkVInl0qY-H--Ut8zK&oe=6A4690F4&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRaqFRse0H/",
           "effective_object_story_id": "613843215154831_626625750543244"
@@ -80635,7 +81139,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-05-26-5095c0df37ee7683132e8b75ffedbbd9",
           "title": "modu_ev01",
           "body": "💯1억짜리 벤츠, 100원에 구독하는 방법\n\n전기차 구독 플랫폼 #모두의충전 이 벤츠 EQE 350+ 런칭 기념으로 100원 구독 이벤트를 진행합니다!\n\n✨BENZ EQE 350+ (1개월 구독권)\n✅100원에 제공\n✅신차 기준 1억 원대 전기차\n✅보험·세금·보증금 올 포함\n\n📌참여 방법\n1️⃣이 게시글에 좋아요 누르기\n2️⃣댓글로 같이 타고 싶은 친구 태그하기\n3️⃣모두의충전 공식 계정 팔로우는 필수!\n\n지금 바로 좋아요 누르고,\n댓글로 #EQE탈사람 소환하세요!\n\n💭“이 가격에 벤츠 타는 거 실화냐…” 댓글도 환영입니다!\n#모두의충전 #벤츠구독 #EQE350 #전기차이벤트 #벤츠100원 #구독의시대 #카푸어의꿈",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11604586401846577993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIgu8qnFbIXSAaU-ARaFW36UuKwZYHjBrBC8RjibsbxYyekNcrRgsJMdBdp-DmzaKtBmZP3qJ6Pg2oZBQJN1BQQOIuvJFk5IqJd87dDgBQwACzNte8pNvfAp6IdDIp5QVTN2d_w4e2qXsHzQWGFF2Ip&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpYYhOTmvgwNGIHOyWUyAcaaQKNI-tZx2A76rXO_xYI4Bgh_Q8YjA_FkOao0u9AbKA&ccb=13-1&oh=06_Q3-_AcuLVUFiFznfKt4_cjjZvNsTJ4PboohQ7tEP4-FDYVWX&oe=6A0E4408&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11604586401846577993?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIgu8qnFbIXSAaU-ARaFW36UuKwZYHjBrBC8RjibsbxYyekNcrRgsJMdBdp-DmzaKtBmZP3qJ6Pg2oZBQJN1BQQOIuvJFk5IqJd87dDgBQwACzNte8pNvfAp6IdDIp5QVTN2d_w4e2qXsHzQWGFF2Ip&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqT0MfA4flqYwujegEpN5jRBSqPdveJF_py41BuJqN4Pxf90ymQdiPuUZFkcmvAgvY&ccb=13-1&oh=06_Q3_AAVfoovETjPfOx8COrqoYQIm56aY2oScEAca8XXm1MRu5&oe=6A468408&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKJbRkUMgZz/",
           "effective_object_story_id": "613843215154831_617599224779230"
@@ -80653,7 +81157,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-05-30-cf2b48c790cdff24009cf2e707559639",
           "title": "modu_ev01",
           "body": "💯1억짜리 벤츠, 100원에 구독하는 방법\n\n전기차 구독 플랫폼 #모두의충전 이 벤츠 EQE 350+ 런칭 기념으로 100원 구독 이벤트를 진행합니다!\n\n✨BENZ EQE 350+ (1개월 구독권)\n✅100원에 제공\n✅신차 기준 1억 원대 전기차\n✅보험·세금·보증금 올 포함\n\n📌참여 방법\n1️⃣이 게시글에 좋아요 누르기\n2️⃣댓글로 같이 타고 싶은 친구 태그하기\n3️⃣모두의충전 공식 계정 팔로우는 필수!\n\n지금 바로 좋아요 누르고,\n댓글로 #EQE탈사람 소환하세요!\n\n💭“이 가격에 벤츠 타는 거 실화냐…” 댓글도 환영입니다!\n#모두의충전 #벤츠구독 #EQE350 #전기차이벤트 #벤츠100원 #구독의시대 #카푸어의꿈",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12097581472984220760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKuZlhEW5Azs5nJLgGDKmEtDGGUOo_3TFYJLgLrqkCh2hhaeZtuWfLpw4UPHSRTjfSd1mS-hZxxHrfxKBnn9_D3mVRonx8I6Utqp-oxJ-hLBVqZWS-WOrNVXbpYCbT8jCbkIAHsHNf9w2adafIuXc9P&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdrG5R0NX4Jg9eGduRIyoBcK098Y1VAeuTl6cIHRA6h6aGZW22juIYW4UPEICZJNtMc&ccb=13-1&oh=06_Q3-_Ady61wB51XBEDaKLmlxjFptRWsw8ErIP1NBFIPKVn1lE&oe=6A0E6AF8&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/12097581472984220760?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKuZlhEW5Azs5nJLgGDKmEtDGGUOo_3TFYJLgLrqkCh2hhaeZtuWfLpw4UPHSRTjfSd1mS-hZxxHrfxKBnn9_D3mVRonx8I6Utqp-oxJ-hLBVqZWS-WOrNVXbpYCbT8jCbkIAHsHNf9w2adafIuXc9P&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=Adq3tANhiTn6hxWTnr--0wBFYJaUiL_EFxDMHNsn6Gp1scQLLabQUC81yYEBeMiIWHE&ccb=13-1&oh=06_Q3_AAYXyVFS3gxI8SP7-mHNxWW6d9t-KyvcCTRdEQD4zeGZZ&oe=6A4672B8&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRcdlGM_kR/",
           "effective_object_story_id": "613843215154831_620373611168458"
@@ -80671,7 +81175,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-06-05-fcad86fbbe4f24eea0b010406a65003a",
           "title": "modu_ev01",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13251977304038172522?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKMOwWKIH6idFrjE1eg33h0-BCNmsXf_Wc8xeVnJ6ii2wIChU_m4H59XE53oxDaxG30pqE0eSUnVwpzil258ppHyJo5Ager-xmsDGNo18GW_KxUwxySrdl6ueqUkfFurVH94rGUyMJiS1aOF8xZSIEF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=AdpgtDKzUxZ74JxPoOz6IYIPRjhSc7yUV6Fl2qgJgYrBhZspfTk6rCEvrFuLtFFx5WU&ccb=13-1&oh=06_Q3-_AWRBUYWAW0SZi8A9G3efX2MHLNx7AovWjamVGl2sQ5C0&oe=6A0E6278&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/13251977304038172522?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQKMOwWKIH6idFrjE1eg33h0-BCNmsXf_Wc8xeVnJ6ii2wIChU_m4H59XE53oxDaxG30pqE0eSUnVwpzil258ppHyJo5Ager-xmsDGNo18GW_KxUwxySrdl6ueqUkfFurVH94rGUyMJiS1aOF8xZSIEF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoTp0YIfSF9EIaAsGP83hU0d2mnyaJ_-WqzW09ZqxljHOtVYGaYgHt_4ZRsAVKzoNY&ccb=13-1&oh=06_Q3_AAdNwiVQNmh1YvNaayDrCPVzuBlBrWZwj7dXvJA8VP4gn&oe=6A46A278&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRajVzsxs8/",
           "effective_object_story_id": "613843215154831_626622923876860"
@@ -80689,8 +81193,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-12-43a8a84413ab15cadd7dd9bbac4fd13f",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7283393250428480736?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI2FkhDGhEOo4cKtoC8zryh3StaAfvz_p80LJf_b2HdsUpF5FEHTiNhqt_uyfcMt2gO9LvsPQrduDQ5mpQ1XqOmBvsOYJUO6uBdLOaRYW2YakGkWjSbt1rnXAXCcX-4HMm724iBE-_UXqol8BtzfYMF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adri4QlJjD_e9q8zncXOw4cJRwPatgAHERKKdxTG_7UVApz5uzVKca5mQnEEOR_ODlE&ccb=13-1&oh=06_Q3-_AS9ymE_nvGkiXjnCKYCh3DDJNAPXmHsOvvFXQqYZ4yfM&oe=6A0E4859&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=L2b5uRk_zh8Q7kNvwEh3uzn&_nc_oc=AdqNgL1xOjhk0WbFRmH-5lo_cCti7euKU7v8uNP__ckQEw2LoEpsPPze_redDIQFqIs&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQHDBR5CNHmM8fowUEYGHz29L_BV4bLcqNJylU-OlJI86QXdWXZtjA8ls5HnNZuzx1lcUSGGl3G2GQ&oh=00_Af551p79Z_3hz-BSG87vrcKVBhjXqW-q-O7L40iB68AU1Q&oe=6A123395",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7283393250428480736?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQI2FkhDGhEOo4cKtoC8zryh3StaAfvz_p80LJf_b2HdsUpF5FEHTiNhqt_uyfcMt2gO9LvsPQrduDQ5mpQ1XqOmBvsOYJUO6uBdLOaRYW2YakGkWjSbt1rnXAXCcX-4HMm724iBE-_UXqol8BtzfYMF&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdqM_Kz1jyZVcFr8IZT0odkH37LimimilzXw_5Fr2uy3fyKS0q2qy8fYxAlvbU8rfN8&ccb=13-1&oh=06_Q3_AAfMtNg739hYYVL0Hjj0MT_Wo1SHi4YQZBvHbZG1QznSu&oe=6A468859&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506898441_122112940946883764_1537714215513922809_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=W3_bwkNUcLYQ7kNvwFCEw1m&_nc_oc=Adq9DljivjoSCVJCc3SlkNNGOT91yNZvLmpZtlYX0FyM-UwsElWj4fGEWG9ctQu6aTQ&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQF2Ctl0Bh5KiqXSNJll5svmmEpje2MH5NXYKZVWEojO-ygz3GJMlzUqzDy4G6XuE_kWYigtNlgefA&oh=00_AQCyk-N0dhPaBm8M8rO7hz-kWRwGz_zyPnlijcfnH5B_PQ&oe=6A4A7395",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1C-NsssAG/",
           "effective_object_story_id": "613843215154831_633466459859173"
         }
@@ -80707,8 +81211,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-06-12-a62bd64326a22cdf157dfe8867d31aad",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/14255060838790916268?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ2FjXDvUKYcsQUe4sVN0giUjBPszjgSWRbQCy0ZY921xphJQzOuTyl3QNnpEfnr4CfxSOf2Y4_q7FXPEbJ7C5qDz4vqYsDebKhsN-cokTZ4_2NjOBK6b6AeZugiti2uuhXI1YX_nJK9iqrOTX5qrMN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adp_OWYJjfNGfHZYqo2pqXavFudvdYPrqcD2lXU7WKfJ3RyMAfFP9ofivw_OjP3mi5E&ccb=13-1&oh=06_Q3-_AYhmkSjBWmbAJP4qIMEBfU7A_5Fy1iq1NFdsqOrJnM-z&oe=6A0E3A59&_nc_sid=58080a",
-          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=k8j9OEyQBgoQ7kNvwF6EXc6&_nc_oc=AdqTb3PBnaf7jGmdFODvmiJ_GamyGySEUrQjyojVT0y_FTa5ETHoV7L8le-qH8dlJ9k&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQFeho5VtzZ7cBMHSNc-SQxdbG33-mcdA68IFMYNx8IVGJ75SqTwcC266uiFL3qfyVtU35a77mlJMA&oh=00_Af7PeKb3sNFoZrzzGy-NPVAhm3KLmEtg3wwCLh4-VoSRqQ&oe=6A125FB6",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/14255060838790916268?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJ2FjXDvUKYcsQUe4sVN0giUjBPszjgSWRbQCy0ZY921xphJQzOuTyl3QNnpEfnr4CfxSOf2Y4_q7FXPEbJ7C5qDz4vqYsDebKhsN-cokTZ4_2NjOBK6b6AeZugiti2uuhXI1YX_nJK9iqrOTX5qrMN&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrXSbzNFE9FKzsoNEZ1evMKL9aSuWKE_78ZgspbsAmbmB-d_GDrfNq1zcHmX9NsuQY&ccb=13-1&oh=06_Q3_AAcCJVq-ZXMMtz9TEJOdXN2cZBdwTX8IsqaiCvRHgixdx&oe=6A467A59&_nc_sid=58080a",
+          "image_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t45.1600-4/506889599_122112941360883764_7841054772933134406_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=d5bd00&_nc_ohc=68xE6xsj0_UQ7kNvwE32eD-&_nc_oc=AdrTxeTFB--derlmwJz_SIagA0qvCA0vVaOGkh07ZBJRsWmpHXXoRRQ8Lk_Qnjt8ob4&_nc_zt=1&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQHVG7tQscLyFnXwivC3MjctuFSFwcLA92mmpnOV-WAjjr5Izv0Wq4lyaRHZbwm_AEdNDwlc-sjLrA&oh=00_AQBSTKYYNn4yDxDRmifWDa89VQ3iYpwaKScjcgw181pFpg&oe=6A4A6776",
           "instagram_permalink_url": "https://www.instagram.com/p/DK1CmUgMpvN/",
           "effective_object_story_id": "613843215154831_633470673192085"
         }
@@ -80725,7 +81229,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-05-30-fed8e34c20ce12f55793ab77393ca277",
           "title": "modu_ev01",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크 또는 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15019770818401999055?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJNd1JTyb31HY6ktT8-pa6KjKlj1iBmegUjBzjM-032jMayog6nK0lalQiTr3ASw8PbJODGedYQ1G5XrIOLiAWWZhkTCR4clJejMUtdir-KznDWcLK_kxYvInUpJ0nLK9190D3Da8sa978Xglp81XI5&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adp7xiYrosiepEuW-2HPw7bxEInPtsZyksS5vKpHNls-I5nu0SrJDeRs5RRZN7JGXwI&ccb=13-1&oh=06_Q3-_AcGaH9SwNn1zfsbhNiyAO_mSW_5Sf8QyNk7cvvSON7iU&oe=6A0E6335&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/15019770818401999055?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQJNd1JTyb31HY6ktT8-pa6KjKlj1iBmegUjBzjM-032jMayog6nK0lalQiTr3ASw8PbJODGedYQ1G5XrIOLiAWWZhkTCR4clJejMUtdir-KznDWcLK_kxYvInUpJ0nLK9190D3Da8sa978Xglp81XI5&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoFbr-HolGDxedPYt_xLxMWqF8qDwxwhUmXkXEGJif-orYqHoWwkF4eQKcwLMK_q8g&ccb=13-1&oh=06_Q3_AASYfSzJFWu9ibGVU4NarJioQHzLesOraCZjv6FX2Tgvs&oe=6A46A335&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRajVzsxs8/",
           "effective_object_story_id": "613843215154831_620362881169531"
@@ -80743,7 +81247,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-05-30-0a47dbab6d6e5e87f8d0b7ca88cdff75",
           "title": "modu_ev01",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7778916155907662420?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIHoxDJUdeT7VE3m12baHCiYfgPi2z0slKI-sldNdvcc67Pe-KVVfttjG_-Z1v5R8JjE33uUOsS1Do1zWL668uIyZ81iJUT2yZE8JpoEiqwHXrME1huWqmx3pPGphnwXs823oJPwtdImDEGT4fSxSPT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adpw9CWrSSUio7it0UaDHsF6DM6yFuh2fTWWO8q1YN1OFggHXY8UHTXQO9fO3Y6-QwE&ccb=13-1&oh=06_Q3-_AZlFMXBlW30AKimkEiCclTXxZSBGqsnijyNl4ESyp0Yi&oe=6A0E53E0&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/7778916155907662420?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIHoxDJUdeT7VE3m12baHCiYfgPi2z0slKI-sldNdvcc67Pe-KVVfttjG_-Z1v5R8JjE33uUOsS1Do1zWL668uIyZ81iJUT2yZE8JpoEiqwHXrME1huWqmx3pPGphnwXs823oJPwtdImDEGT4fSxSPT&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdrEay4I6LxCbvR2_rkSvMTwp9YKrQef8k5_z9cdgGmIXI7x2elIJQRX_S-Vjnrr1b0&ccb=13-1&oh=06_Q3_AAUkewoYD4fkJu1lu4ir4WnZTFMdQYSPHmW9dH3qEyHwP&oe=6A4693E0&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRaqFRse0H/",
           "effective_object_story_id": "613843215154831_620363674502785"
@@ -80761,7 +81265,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "modu_ev01 2025-05-30-c60e32d2978e27f2d846c0550021e834",
           "title": "modu_ev01",
           "body": "🚘 모두의충전 차량구독 서비스!\n보증금 없이, 선납금 없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 게시물 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#보증금없는차량 #자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11933168648067242953?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIECENRHfmBJrhaOq14ftmBUCY6S4ldxmPCJV2QoC76eS3uX20ifDMw8sg-o7xNLvnvMXKSz12moE2EmU8GzRqVShEL2sVwpgWEwlQbUYk8Y5DmVQc4gjIOeA4YGLi1Ai_ZnIst0GlXn6wcq1qNXpuI&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_oc=Adqnb4YkZoWcFcWbD3fgrmYq28ETUhk2EfKSuk6UYewI-cxO2Go4FLqTgD6uvgCA9w4&ccb=13-1&oh=06_Q3-_AamCbIB14WrdQ8yr5UB-OqD8842uF5KBPuI2FVH-zXO_&oe=6A0E4C9E&_nc_sid=58080a",
+          "thumbnail_url": "https://external-ssn1-1.xx.fbcdn.net/emg1/v/t13/11933168648067242953?url=https%3A%2F%2Fwww.facebook.com%2Fads%2Fimage%2F%3Fd%3DAQIECENRHfmBJrhaOq14ftmBUCY6S4ldxmPCJV2QoC76eS3uX20ifDMw8sg-o7xNLvnvMXKSz12moE2EmU8GzRqVShEL2sVwpgWEwlQbUYk8Y5DmVQc4gjIOeA4YGLi1Ai_ZnIst0GlXn6wcq1qNXpuI&fb_obo=1&utld=facebook.com&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_oc=AdoE17x2FvQGx_uxYKIBzKIzwpjLSwSXgB3soczD__DZALmFiZ0wSuFHh6PnGsdMfzY&ccb=13-1&oh=06_Q3_AAVF36hh5ulbA6ccCEJwS1LxmJxzRBk1lZYSyZ4YZQxAJ&oe=6A468C9E&_nc_sid=58080a",
           "image_url": "",
           "instagram_permalink_url": "https://www.instagram.com/p/DKRaGyhsIhd/",
           "effective_object_story_id": "613843215154831_620360447836441"
@@ -80779,7 +81283,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
           "creative_name": "모두의충전 2025-09-02-887a2e137e2ff25dd2008d21f10956ce",
           "title": "모두의충전",
           "body": "🚘 모두의충전 차량구독 서비스!\n무심사로 보험료 납부도 걱정없이\n이제는 구독으로 전기차를 타보세요.\n\n✅하,허,호 아닌 일반 번호판으로 출고\n✅자동차세, 수리비, 보험료까지 포함\n✅유연하고 편리하게!\n\n차 사지 말고, 모두의충전에서 구독하세요!\n당신의 첫 전기차, 모두의충전이 함께합니다⚡️\n\n👉자세한 내용은 프로필 링크에서 확인하세요!\n\n#모두의충전 #차량구독 #전기차구독 #전기차 #구독서비스\n#자동차구독 #자동차렌트 #자동차리스\n#일반번호판 #전기차생활 #차량공유 #구독경제\n#테슬라 #EQE #EV구독 #구독서비스추천 #전기차추천\n#EV #모빌리티서비스 #차알못탈출 #차사지마 #탄소절감",
-          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=vlx23jGtzJUQ7kNvwG4kHKU&_nc_oc=Adr5yuBlSap2BM6zibt7vow3D1eaDOz2z5mYvF0HKBoY80HUnQKpQVndBKIa7mDEYR0&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=8skg0XDI2cRry4ueZFJYJg&_nc_tpa=Q5bMBQEZzyg1fU0wlDu_-1f7diceneKRCk0aTPqLdQ9QuUe_ZqAYH6oWaOVRfAVqvTTuh37fxUJaqk8w0Q&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_Af5_xmLOAwrPkb2yIZcAGwTZvUvLCyWqRFGFNWck1FARHA&oe=6A125985",
+          "thumbnail_url": "https://scontent-ssn1-1.xx.fbcdn.net/v/t39.30808-1/509438032_122113279406888608_7048185518940534411_n.jpg?_nc_cat=108&ccb=1-7&_nc_ohc=0F9OvmJTF2YQ7kNvwELGI7N&_nc_oc=Adp-siuii6Ta5qitP3XBUB1e50itCGZDOEEw6ga9wGstwOI9RwMeqFffb0cv4NbyJjo&_nc_zt=24&_nc_ht=scontent-ssn1-1.xx&edm=AOgd6ZUEAAAA&_nc_gid=oDqKFNkic6AqB6FK6nr9WA&_nc_tpa=Q5bMBQFtAh-XjbdUCfYU8xIUordRK0gBci9N-LpxXVCne7WtR4h02GvtMHH8LFqaBo6o9lXUMZ44YBOhTA&stp=c0.5000x0.5000f_dst-emg0_p64x64_q75_tt6&ur=68aae3&_nc_sid=58080a&oh=00_AQCX2s6CrJZKjTU88IzxsK4Cq4-MbTYbF5QNdGGe82JbGw&oe=6A4A9985",
           "image_url": "",
           "instagram_permalink_url": "",
           "effective_object_story_id": ""
@@ -80788,7 +81292,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
     }
   },
   "notes": [
-    "Meta Graph API에서 2025-01-01~2026-06-24 기간을 조회했습니다.",
+    "Meta Graph API에서 2025-01-01~2026-06-30 기간을 조회했습니다.",
     "광고 데이터는 원본 조회 기간 전체를 반영했습니다.",
     "랜딩조회는 actions의 landing_page_view 또는 omni_landing_page_view 기준입니다.",
     "개인 단위 참여자는 Meta API에서 제공하지 않습니다."
