@@ -1450,19 +1450,19 @@
       </section>
 
       <section>
-        <h2 class="section-title">매체별 타깃 반응</h2>
-        <p class="creative-copy">성별은 비중으로, 나이대는 막대로 봅니다. 개인 정보가 아니라 Meta가 제공하는 연령/성별 집계 기준입니다.</p>
+        <h2 class="section-title">선택 조건 타깃 반응</h2>
+        <p class="creative-copy">선택한 기간과 매체의 성별·나이대 반응입니다. 개인 정보가 아니라 Meta가 제공하는 연령/성별 집계 기준입니다.</p>
         <div class="doughnut-grid">
           <article class="chart-canvas-wrap">
             <p class="callout-title">성별 비중</p>
             <div class="chart-frame doughnut">
-              <canvas id="monthlyGenderPercentChart" aria-label="매체별 성별 비중 차트"></canvas>
+              <canvas id="monthlyGenderPercentChart" aria-label="선택 조건 성별 비중 차트"></canvas>
             </div>
           </article>
           <article class="chart-canvas-wrap">
             <p class="callout-title">나이대 반응</p>
             <div class="chart-frame doughnut">
-              <canvas id="monthlyAgeChart" aria-label="매체별 나이대 반응 차트"></canvas>
+              <canvas id="monthlyAgeChart" aria-label="선택 조건 나이대 반응 차트"></canvas>
             </div>
           </article>
         </div>
@@ -1503,8 +1503,8 @@
       </details>
 
       <section>
-        <h2 class="section-title">상담 신청 추이</h2>
-        <p class="creative-copy">상담 신청이 언제 들어왔고 어떤 차량 문의였는지 확인합니다. 막대는 날짜별 신청 건수이고, 아래 표에서 차량 모델과 상담 상태를 봅니다.</p>
+        <h2 class="section-title">Slack 상담 신청 추이</h2>
+        <p class="creative-copy">Slack 상담 알림 기준으로 상담 신청이 언제 들어왔고 어떤 차량 문의였는지 확인합니다. 막대는 날짜별 신청 건수이고, 아래 표에서 차량 모델과 상담 상태를 봅니다.</p>
         <div class="grid summary-grid" id="monthlyConsultationCards"></div>
         <article class="chart-canvas-wrap" style="margin-top:12px;">
           <p class="callout-title">유입별 상담 신청</p>
@@ -1594,17 +1594,17 @@
       </section>
 
       <section>
-        <h2 class="section-title">캠페인별 핵심 사용층 비교</h2>
-        <p class="creative-copy">캠페인 전체값이 아니라, 캠페인 안에서 가장 반응이 큰 연령/성별 세그먼트의 성과입니다. 전체 광고비는 아래 전체 캠페인 성과 순위에서 확인합니다.</p>
+        <h2 class="section-title">캠페인별 클릭 반응층 비교</h2>
+        <p class="creative-copy">캠페인 전체값이 아니라, 캠페인 안에서 클릭 반응이 가장 큰 연령/성별 세그먼트의 성과입니다. 전체 광고비는 아래 선택 기간 캠페인 성과 순위에서 확인합니다.</p>
         <table class="rank-table">
           <thead>
             <tr>
               <th>매체</th>
               <th>캠페인</th>
-              <th>사용층</th>
-              <th>사용층 광고비</th>
-              <th>사용층 클릭</th>
-              <th>사용층 랜딩조회</th>
+              <th>클릭 반응층</th>
+              <th>반응층 광고비</th>
+              <th>반응층 클릭</th>
+              <th>반응층 랜딩조회</th>
               <th>CPC</th>
               <th>LPV 비용</th>
               <th>판단</th>
@@ -1615,8 +1615,8 @@
       </section>
 
       <section>
-        <h2 class="section-title">전체 캠페인 성과 순위</h2>
-        <p class="creative-copy">성과 순위 표는 광고비 높은순을 기본으로 봅니다. 효율 기준 상위 캠페인은 캠페인명 위에 추천 스티커로 표시합니다.</p>
+        <h2 class="section-title">선택 기간 캠페인 성과 순위</h2>
+        <p class="creative-copy">선택한 기간과 매체에 성과 row가 있는 캠페인만 표시합니다. 광고비 높은순을 기본으로 보며, 효율 기준 상위 캠페인은 캠페인명 위에 추천 스티커로 표시합니다.</p>
         <table class="rank-table">
           <thead>
             <tr>
@@ -1627,7 +1627,7 @@
               <th>랜딩조회</th>
               <th>CPC</th>
               <th>LPV 비용</th>
-              <th>핵심 사용층</th>
+              <th>클릭 반응층</th>
               <th>판단</th>
             </tr>
           </thead>
@@ -2641,7 +2641,7 @@
     }
 
     function campaignGroupKey(row) {
-      return `${row.media || ""}||${normalizeCampaignName(row.campaign) || row.campaign_id || ""}`;
+      return `${row.media || ""}||${row.campaign_id || normalizeCampaignName(row.campaign) || ""}`;
     }
 
     function audienceLabel(row) {
@@ -2652,7 +2652,7 @@
 
     function campaignCoreAudienceMap(audienceRows) {
       const basis = "link_clicks";
-      const rows = groupRows(audienceRows, ["media", "campaign", "age", "gender"], [basis])
+      const rows = groupRows(audienceRows, ["media", "campaign_id", "campaign", "age", "gender"], [basis])
         .filter((row) => Number(row[basis] || 0) > 0)
         .sort((a, b) => Number(b[basis] || 0) - Number(a[basis] || 0));
       const map = new Map();
@@ -3130,12 +3130,14 @@
         && (state.month === "all" || Number(row.month) === state.month)
         && selectedMedia.includes(row.media)
       ));
-      const byMedia = groupRows(monthRows, ["media"], []);
-      const labels = byMedia.map((row) => {
-        const dates = monthRows.filter((item) => item.media === row.media).map((item) => item.date).sort();
-        return `${mediaShort(row.media)} ${dates[0]}~${dates[dates.length - 1]}`;
+      const labels = selectedMedia.map((media) => {
+        const dates = monthRows.filter((item) => item.media === media).map((item) => item.date).sort();
+        if (dates.length) return `${mediaShort(media)} ${dates[0]}~${dates[dates.length - 1]}`;
+        const freshness = (monthlyPayload.sourceFreshness || []).find((item) => item.media === media);
+        const latest = freshness?.latest_date ? `최신 ${freshness.latest_date}` : "최신 row 없음";
+        return `${mediaShort(media)} 선택 기간 row 없음(${latest})`;
       });
-      return labels.length > 1 ? labels.join(" / ") : `${firstDate}~${latestDate} 기준`;
+      return labels.join(" / ");
     }
 
     function sortMonthlyCampaigns(rows, sortKey) {
@@ -3214,9 +3216,13 @@
       const adRange = monthlyPayload.requestedRange || {};
       const consultationFreshness = (monthlyPayload.consultations || {}).sourceFreshness || {};
       const creativeCount = (monthlyPayload.creatives?.ads || []).length;
+      const mediaFreshness = (monthlyPayload.sourceFreshness || [])
+        .map((item) => `${mediaShort(item.media)} ${item.first_date || "-"}~${item.latest_date || "-"}`)
+        .join(" / ");
       const generatedAt = monthlyPayload.generatedAt ? monthlyPayload.generatedAt.replace("T", " ") : "-";
       document.getElementById("monthlyDataSourceBox").innerHTML = `
-        <p><strong>데이터 출처</strong> Meta Graph API 광고 성과(${adRange.since || "-"}~${adRange.until || "-"}) + Slack 차량구독 상담 알림(${consultationFreshness.first_date || "-"}~${consultationFreshness.latest_date || "-"}) + Meta Creative API 소재 ${formatNumber(creativeCount, 0)}건을 조합했습니다.</p>
+        <p><strong>데이터 출처</strong> Meta Graph API 요청 기간(${adRange.since || "-"}~${adRange.until || "-"}) + Slack 차량구독 상담 알림(${consultationFreshness.first_date || "-"}~${consultationFreshness.latest_date || "-"}) + Meta Creative API에서 연결 가능한 소재 ${formatNumber(creativeCount, 0)}건을 조합했습니다.</p>
+        <p><strong>광고 표시 기준</strong> 실제 표와 차트는 매체별 API 응답 row 기준입니다${mediaFreshness ? `: ${mediaFreshness}` : "."}</p>
         <p><strong>갱신 기준</strong> 대시보드 데이터 생성 ${generatedAt}. 상담 개인정보는 마스킹된 CSV 기준이며, 상담 상태는 Slack thread 댓글의 상태 신호를 함께 반영합니다.</p>
       `;
     }
@@ -3236,7 +3242,7 @@
         `${periodLabel(state)} ${state.media === "all" ? "전체 매체" : state.media} 데이터입니다. ${basis}. 필터를 바꾸면 아래 요약, 차트, 표가 함께 변경됩니다.`;
       document.getElementById("monthlySourceNote").textContent =
         monthlyPayload.sourceType === "meta_graph_api"
-          ? `Meta API 요청 범위: ${monthlyPayload.requestedRange?.since || "-"}~${monthlyPayload.requestedRange?.until || "-"}입니다. 단, 성과가 없는 날짜는 API 응답 row가 없어 표시되지 않습니다.`
+          ? `Meta API 요청 기간은 ${monthlyPayload.requestedRange?.since || "-"}~${monthlyPayload.requestedRange?.until || "-"}입니다. 실제 표시는 매체별 응답 row 기준이며, 성과가 없는 날짜와 매체는 표시 row가 없을 수 있습니다.`
           : "로컬 CSV export 기준 데이터입니다.";
       renderMonthlyDataSourceBox();
 
@@ -3392,7 +3398,7 @@
       const totalReaction = audienceRows.reduce((sum, row) => sum + Number(row[basis] || 0), 0);
       document.getElementById("monthlyShareNote").textContent =
         totalReaction
-          ? "성별과 나이대는 클릭 기준입니다. 2025년 Instagram은 랜딩조회 breakdown이 4건뿐이라, 사용층 판단은 클릭 반응 기준이 더 안정적입니다."
+          ? "성별과 나이대는 클릭 기준입니다. 2025년 Instagram은 랜딩조회 breakdown이 4건뿐이라, 반응층 판단은 클릭 기준이 더 안정적입니다."
           : "선택한 조건에 표시할 타깃 반응 데이터가 없습니다.";
     }
 
@@ -3535,7 +3541,7 @@
     }
 
     function renderMonthlyAudienceComparison(audienceRows) {
-      const rows = groupRows(audienceRows, ["media", "campaign", "age", "gender"], ["spend", "link_clicks", "landing_page_views"]).map(addClientMetrics);
+      const rows = groupRows(audienceRows, ["media", "campaign_id", "campaign", "age", "gender"], ["spend", "link_clicks", "landing_page_views"]).map(addClientMetrics);
       const topByCampaign = new Map();
       rows
         .filter((row) => row.spend > 0 || row.link_clicks > 0 || row.landing_page_views > 0)
@@ -3564,7 +3570,7 @@
             <td><span class="badge ${monthlyBadge(judgment)}">${judgment}</span></td>
           </tr>
         `;
-      }).join("") : `<tr><td colspan="9" class="muted">선택한 조건에 표시할 사용층 데이터가 없습니다.</td></tr>`;
+      }).join("") : `<tr><td colspan="9" class="muted">선택한 조건에 표시할 반응층 데이터가 없습니다.</td></tr>`;
     }
 
     function campaignRecommendationMap(campaignRows) {
@@ -3589,7 +3595,7 @@
           <tr class="campaign-row" data-monthly-campaign-index="${index}">
             <td>${index + 1}</td>
             <td>${row.media}</td>
-            <td class="campaign-name">${sticker ? `<span class="recommend-sticker">${sticker}</span><br />` : ""}${escapeHtml(shortName(row.campaign, 46))}<br /><span class="muted">클릭해서 상세 보기</span></td>
+            <td class="campaign-name">${sticker ? `<span class="recommend-sticker">${sticker}</span><br />` : ""}${escapeHtml(shortName(row.campaign, 46))}<br /><span class="muted">${index === 0 ? "현재 정렬 기준 1위 상세가 기본으로 열립니다" : "클릭해서 상세 보기"}</span></td>
             <td>${formatNumber(row.spend, 0)}원</td>
             <td>${formatNumber(row.landing_page_views, 0)}</td>
             <td>${formatMoneyOrDash(row.cpc)}</td>
@@ -3647,7 +3653,7 @@
               <div class="card-kpi"><span>랜딩조회</span><strong>${formatNumber(row.landing_page_views, 0)}</strong></div>
               <div class="card-kpi"><span>판단</span><strong>${judgment}</strong></div>
             </div>
-            <p class="creative-copy">핵심 사용층은 ${escapeHtml(row.core_audience || "데이터 부족")}입니다. 게재 위치 반응은 현재 로컬 CSV에 없어 API breakdown 연결 후 표시할 수 있습니다.</p>
+            <p class="creative-copy">클릭 반응층은 ${escapeHtml(row.core_audience || "데이터 부족")}입니다. 이 값은 실제 구매 고객층이 아니라 Meta 연령/성별 breakdown에서 클릭 반응이 가장 큰 세그먼트입니다.</p>
             <ul class="simple-list">
               <li><span>CPC</span><strong>${row.cpc ? `${formatNumber(row.cpc, 0)}원` : "-"}</strong></li>
               <li><span>랜딩조회당 비용</span><strong>${row.cost_per_lpv ? `${formatNumber(row.cost_per_lpv, 0)}원` : "-"}</strong></li>
@@ -3721,7 +3727,7 @@
       document.getElementById("monthlyConsultationCards").innerHTML = [
         ["전체 상담", formatNumber(selectedInquiryTotal, 0), "선택 조건 전체"],
         ["계약완료", formatNumber(selectedContractTotal, 0), `상담 대비 ${contractRate}`],
-        ["인스타/페이스북 상담", formatNumber(countBySources(["instagram", "facebook"]), 0), "Meta 유입"],
+        ["IG/FB 직접기재 상담", formatNumber(countBySources(["instagram", "facebook"]), 0), "App·출처 미상에 Meta 기여가 섞였을 수 있음"],
         ["APP", formatNumber(countBySources(["app"]), 0), "앱 유입"],
         ["Imweb", formatNumber(countBySources(["imweb"]), 0), "웹 유입"],
         ["출처 미상", formatNumber(countBySources(unknownSources), 0), "유입값 없음"],
@@ -4242,7 +4248,7 @@
       document.getElementById("metaBox").innerHTML = `
         <strong>광고 데이터</strong> Meta Graph API ${adRange.since || "-"}~${adRange.until || "-"} 요청 / ${mediaRanges || "매체별 기준일 없음"}<br />
         <strong>상담 데이터</strong> Slack 차량구독 상담 알림 ${consultationFreshness.first_date || "-"}~${consultationFreshness.latest_date || "-"} 기준<br />
-        <strong>소재 데이터</strong> Meta Creative API 소재 ${formatNumber(creativeCount, 0)}건 연결<br />
+        <strong>소재 데이터</strong> Meta Creative API에서 연결 가능한 소재 ${formatNumber(creativeCount, 0)}건 확보<br />
         <strong>갱신 기준</strong> ${monthlyPayload.generatedAt ? monthlyPayload.generatedAt.replace("T", " ") : "-"} 생성 데이터
       `;
     }
