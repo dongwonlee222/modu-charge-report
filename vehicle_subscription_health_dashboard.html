@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>모두의충전 차량구독 건강 구독 대시보드</title>
+  <style>
+    :root {
+      --bg: #f6f7f4;
+      --surface: #fff;
+      --ink: #17221d;
+      --muted: #66736d;
+      --line: #d9ded6;
+      --green: #17624f;
+      --teal: #2d7f77;
+      --blue: #315f9f;
+      --gold: #b7791f;
+      --red: #a84a3b;
+      --soft: #e8f1ec;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Pretendard", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background: var(--bg);
+    }
+    .page {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 34px 20px 72px;
+    }
+    .hub-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 22px;
+      padding: 8px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+    .hub-tabs a {
+      display: inline-flex;
+      align-items: center;
+      min-height: 36px;
+      padding: 8px 12px;
+      border-radius: 6px;
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 800;
+    }
+    .hub-tabs a.active {
+      color: #fff;
+      background: var(--green);
+    }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 360px;
+      gap: 32px;
+      align-items: end;
+      padding: 18px 0 28px;
+      border-bottom: 1px solid var(--line);
+    }
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 900;
+    }
+    h1 {
+      margin: 0;
+      max-width: 760px;
+      font-size: clamp(34px, 5vw, 60px);
+      line-height: 1.02;
+      letter-spacing: 0;
+    }
+    .lead {
+      margin: 18px 0 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 16px;
+      line-height: 1.75;
+    }
+    .north-star {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      background: var(--surface);
+    }
+    .north-star span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .north-star strong {
+      display: block;
+      margin-top: 10px;
+      font-size: 48px;
+      line-height: 1;
+    }
+    .north-star p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+      line-height: 1.55;
+    }
+    .section {
+      padding: 34px 0;
+      border-bottom: 1px solid var(--line);
+    }
+    .section-head {
+      display: grid;
+      grid-template-columns: minmax(0, 0.9fr) minmax(320px, 1.1fr);
+      gap: 28px;
+      align-items: start;
+      margin-bottom: 18px;
+    }
+    h2 {
+      margin: 0;
+      font-size: clamp(24px, 3vw, 34px);
+      line-height: 1.18;
+    }
+    .section-head p, .note {
+      margin: 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.75;
+    }
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 12px;
+      margin-top: 22px;
+    }
+    .kpi, .panel, .archive-link {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+    .kpi {
+      min-height: 112px;
+      padding: 16px;
+    }
+    .kpi span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+    .kpi strong {
+      display: block;
+      margin-top: 10px;
+      font-size: 30px;
+      line-height: 1;
+    }
+    .kpi small {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+      gap: 10px;
+      align-items: stretch;
+    }
+    .flow-step {
+      position: relative;
+      min-height: 118px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
+    }
+    .flow-step b {
+      display: block;
+      color: var(--green);
+      font-size: 12px;
+    }
+    .flow-step strong {
+      display: block;
+      margin-top: 12px;
+      font-size: 20px;
+    }
+    .flow-step small {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.45;
+    }
+    .tables {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+      gap: 14px;
+    }
+    .table-scroll {
+      max-height: 560px;
+      overflow: auto;
+      border-top: 1px solid var(--line);
+    }
+    .table-scroll table th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: var(--surface);
+    }
+    .panel {
+      min-width: 0;
+      padding: 16px;
+    }
+    .panel h3 {
+      margin: 0 0 14px;
+      font-size: 17px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 10px 8px;
+      border-top: 1px solid var(--line);
+      text-align: left;
+      vertical-align: middle;
+    }
+    th {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+    td.num, th.num { text-align: right; }
+    .tag {
+      display: inline-flex;
+      min-height: 24px;
+      align-items: center;
+      padding: 4px 8px;
+      border-radius: 999px;
+      color: var(--green);
+      background: var(--soft);
+      font-size: 12px;
+      font-weight: 900;
+      white-space: nowrap;
+    }
+    .tag.warn { color: #754b0b; background: #f6ead8; }
+    .tag.risk { color: #8a3327; background: #f5dfdb; }
+    .tag.neutral { color: #4b5563; background: #eef0f2; }
+    .archive {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .archive-link {
+      display: block;
+      min-height: 142px;
+      padding: 16px;
+      color: inherit;
+      text-decoration: none;
+      transition: transform 160ms ease, border-color 160ms ease, background 160ms ease;
+    }
+    .archive-link:hover {
+      transform: translateY(-2px);
+      border-color: var(--green);
+      background: #fbfdf9;
+    }
+    .archive-link em {
+      display: block;
+      color: var(--green);
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 900;
+    }
+    .archive-link strong {
+      display: block;
+      margin-top: 12px;
+      font-size: 18px;
+      line-height: 1.3;
+    }
+    .archive-link small {
+      display: block;
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    @media (max-width: 920px) {
+      header, .section-head, .tables {
+        grid-template-columns: 1fr;
+      }
+      .flow, .kpis, .archive {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+    @media (max-width: 620px) {
+      .page { padding: 24px 14px 50px; }
+      .flow, .kpis, .archive {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
+      <a href="./vehicle_subscription_hub.html">허브</a>
+      <a class="active" href="./vehicle_subscription_health_dashboard.html">건강 구독</a>
+      <a href="./meta_ads_dashboard.html">메타 광고</a>
+      <a href="./vehicle_subscription_contract_insight.html">상담-계약</a>
+      <a href="./vehicle_subscription_profitability_retention.html">수익성·유지율</a>
+    </nav>
+
+    <header>
+      <div>
+        <p class="eyebrow">Vehicle Subscription Decision Dashboard</p>
+        <h1>건강 구독을 오래 유지할 회원을 찾습니다.</h1>
+        <p class="lead">상담과 계약을 따로 보지 않고, 정상 수납과 장기 유지로 이어지는 구독만 북극성 지표로 봅니다.</p>
+      </div>
+      <aside class="north-star">
+        <span>북극성 지표</span>
+        <strong>54대</strong>
+        <p>미수 없이 운행 중이고 월 현금흐름이 플러스인 현재 차량입니다. 렌트/수납 원천은 2026-06-08 기준입니다.</p>
+      </aside>
+    </header>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>지금은 건강 구독 66.7% 상태입니다.</h2>
+        <p>건강 구독은 계약 건수가 아니라 수납, 운행, 월 현금흐름이 동시에 정상인 구독입니다. 이 숫자가 늘어야 차량구독 사업이 좋아지고 있다고 볼 수 있습니다.</p>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><span>건강 구독 수</span><strong>54대</strong><small>활성 차량 대비 66.7%</small></div>
+        <div class="kpi"><span>활성 구독 차량</span><strong>81대</strong><small>월 구독료가 있는 차량</small></div>
+        <div class="kpi"><span>월 현금흐름 proxy</span><strong>7146만</strong><small>월 구독료 - 월 할부금</small></div>
+        <div class="kpi"><span>미수/연체 위험</span><strong>26대</strong><small>미수 합계 2722만원</small></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>상담은 건강 구독을 찾는 앞단입니다.</h2>
+        <p>상담 수 자체보다 중요한 것은 계약 후 차량, 정상 수납, 장기 유지로 이어지는지입니다. 아래는 상담/계약 Slack 데이터와 차량/수납 스냅샷을 회원-차량 단위로 연결한 증명 가능한 퍼널입니다.</p>
+      </div>
+      <div class="flow">
+        <div class="flow-step"><b>상담신청</b><strong>618건</strong><small>누적 중복 제거, 원본 742건 / 2026년 221건</small></div>
+        <div class="flow-step"><b>계약확정</b><strong>28건</strong><small>2026년 상담 대비 12.7%</small></div>
+        <div class="flow-step"><b>차량 연결</b><strong>19건</strong><small>계약 대비 67.9%</small></div>
+        <div class="flow-step"><b>정상 수납</b><strong>14건</strong><small>계약 대비 50.0%</small></div>
+        <div class="flow-step"><b>건강 구독</b><strong>13건</strong><small>계약 대비 46.4%, 6개월 유지 10건</small></div>
+      </div>
+      <div class="panel" style="margin-top:14px;">
+        <h3>연도별 상담-건강 구독 퍼널</h3>
+        <table id="yearly-funnel-table">
+          <thead><tr><th>연도</th><th class="num">상담신청</th><th class="num">계약확정</th><th class="num">전환</th><th class="num">차량 연결</th><th class="num">정상 수납</th><th class="num">건강 구독</th><th class="num">6개월 유지</th><th>비고</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="note" style="margin-top:14px;">북극성 연결 방식: 상담 채널과 모델은 이 퍼널에서 건강 구독 전환이 높은 조합을 찾는 데 쓰고, 최종 북극성은 현재 차량 기준 건강 구독 54대가 늘어나는지로 봅니다.</p>
+    </section>
+
+    <section class="section">
+      <div class="tables">
+        <div class="panel">
+          <h3>모델별 건강 구독 판단</h3>
+          <table id="model-table">
+            <thead><tr><th>모델</th><th class="num">건강</th><th class="num">활성</th><th class="num">월현금흐름</th><th class="num">자산/구입가</th><th class="num">순자산</th><th class="num">위험</th><th>판정</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+        <div class="panel">
+          <h3>채널별 상담-계약 현황</h3>
+          <table id="channel-table">
+            <thead><tr><th>채널</th><th class="num">상담</th><th class="num">계약</th><th class="num">전환</th><th>상태</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+      <p class="note" style="margin-top:14px;">채널 표는 2026년 상담/계약 현황입니다. 건강 구독 전환율은 계약 후 차량과 수납까지 연결된 행에서만 보수적으로 계산해야 하므로, 전체 채널 순위와 섞어 보지 않습니다.</p>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>중고차 잔존가와 감가 리스크는 차종별로 봅니다.</h2>
+        <p>월 구독료가 좋아 보여도 특정 차종의 중고차 가치가 빠르게 무너지면 전체 손익이 흔들립니다. 차종별 자산가치, 남은 할부금, 매각가 하락 시나리오를 같이 봅니다.</p>
+      </div>
+      <div class="kpis">
+        <div class="kpi"><span>현재 자산가치</span><strong>25.8억</strong><small>활성 차량 자산가치 합계</small></div>
+        <div class="kpi"><span>자산/구입가</span><strong>77.0%</strong><small>현재 자산가치 / 실제구입가</small></div>
+        <div class="kpi"><span>남은 할부금</span><strong>6.6억</strong><small>활성 차량 기준</small></div>
+        <div class="kpi"><span>매각 후 여유</span><strong>19.2억</strong><small>자산가치 - 남은 할부금</small></div>
+      </div>
+      <div class="panel" style="margin-top:14px;">
+        <h3>차종별 잔존가·감가 리스크</h3>
+        <table id="depreciation-table">
+          <thead><tr><th>차종</th><th class="num">대수</th><th class="num">자산가치</th><th class="num">자산/구입가</th><th class="num">남은 할부</th><th class="num">현재 매각여유</th><th class="num">-15% 후</th><th class="num">-25% 후</th><th>판정</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>전체 차량 리스트를 원천 기준으로 확인합니다.</h2>
+        <p>아래 표는 개인정보 원본이 아니라 정제된 차량 스냅샷에서 온 전체 83대 리스트입니다. 건강 구독과 감가 판단은 이 차량별 raw 기반 행에서 출발합니다.</p>
+      </div>
+      <div class="panel">
+        <h3>전체 차량 raw 기반 리스트</h3>
+        <div class="table-scroll">
+          <table id="vehicle-table">
+            <thead><tr><th>차량</th><th>모델</th><th>상태</th><th class="num">월구독료</th><th class="num">월현금흐름</th><th class="num">자산가치</th><th class="num">남은할부</th><th class="num">매각여유</th><th class="num">미수</th><th>건강 상태</th><th>관리 액션</th></tr></thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>연/월별 페이지는 데이터 아카이브로 유지합니다.</h2>
+        <p>새 화면은 의사결정용입니다. 기존 페이지는 과거 상담, 계약, 광고, 수익성 데이터를 확인하는 아카이브로 남깁니다.</p>
+      </div>
+      <div class="archive">
+        <a class="archive-link" href="./vehicle_subscription_contract_insight.html"><em>Archive</em><strong>상담-계약 연/월별 데이터</strong><small>상담 유입, 계약확정, 채널별 흐름 확인</small></a>
+        <a class="archive-link" href="./meta_ads_dashboard.html"><em>Archive</em><strong>Meta 광고 데이터</strong><small>캠페인, 소재, 랜딩 효율 기록</small></a>
+        <a class="archive-link" href="./vehicle_subscription_profitability_retention.html"><em>Archive</em><strong>수익성·유지율 데이터</strong><small>모델별 수익성, 회차, 미수 기록</small></a>
+      </div>
+    </section>
+
+    <section class="section">
+      <p class="note">현재 한계: Slack 상담/계약 데이터는 2026-06-24 기준으로 갱신됐지만, 렌트/차량/입금 스냅샷은 2026-06-08 기준입니다. 또한 일부 계약은 차량번호나 공통 회원키가 없어 차량/수납까지 연결되지 않습니다.</p>
+    </section>
+  </main>
+
+  <script>
+    const DATA = {"summary": {"healthy_count": 54, "active_count": 81, "healthy_rate": "66.7%", "monthly_margin": "7146만", "risk_count": 26, "balance_due": "2722만", "inquiries_2026": 221, "contracts_2026": 28, "contract_rate_2026": "12.7%", "june_inquiries": 21, "june_contracts": 1, "asset_value": "25.8억", "remaining_debt": "6.6억", "asset_after_debt": "19.2억", "asset_value_ratio": "77.0%"}, "channels": [{"source": "AG", "inquiries": 0, "contracts": 10, "contract_rate": "-", "health_status": "회원-차량-수납 매칭 전"}, {"source": "미기재", "inquiries": 29, "contracts": 3, "contract_rate": "10.3%", "health_status": "회원-차량-수납 매칭 전"}, {"source": "리레브", "inquiries": 0, "contracts": 3, "contract_rate": "-", "health_status": "회원-차량-수납 매칭 전"}, {"source": "Instagram", "inquiries": 29, "contracts": 2, "contract_rate": "6.9%", "health_status": "회원-차량-수납 매칭 전"}, {"source": "내부", "inquiries": 0, "contracts": 2, "contract_rate": "-", "health_status": "회원-차량-수납 매칭 전"}, {"source": "제이디오토", "inquiries": 0, "contracts": 2, "contract_rate": "-", "health_status": "회원-차량-수납 매칭 전"}, {"source": "APP", "inquiries": 122, "contracts": 1, "contract_rate": "0.8%", "health_status": "회원-차량-수납 매칭 전"}, {"source": "imweb", "inquiries": 29, "contracts": 1, "contract_rate": "3.4%", "health_status": "회원-차량-수납 매칭 전"}], "funnel": {"enabled": true, "raw_inquiries": 742, "inquiries": 618, "inquiries_2026": 221, "contracts": 28, "vehicle_matched": 19, "normal_payment": 14, "retained_180d": 10, "healthy_subscription": 13, "contract_rate": "12.7%", "vehicle_match_rate": "67.9%", "normal_payment_rate": "50.0%", "retention_rate": "35.7%", "healthy_rate": "46.4%"}, "yearly_funnel": [{"year": "2025", "inquiries": 397, "contracts": 0, "contract_rate": "0.0%", "vehicle_matched": 0, "normal_payment": 0, "healthy_subscription": 0, "retained_180d": 0, "note": "계약 원천 2026년부터"}, {"year": "2026", "inquiries": 221, "contracts": 28, "contract_rate": "12.7%", "vehicle_matched": 19, "normal_payment": 14, "healthy_subscription": 13, "retained_180d": 10, "note": "계약-차량-수납 연결 가능"}], "models": [{"model": "EQE", "healthy": 22, "active": 24, "margin": "2759만", "risk": 2, "balance_due": "144만", "short_rate": "23.1%", "asset_ratio": "87.2%", "equity": "8.8억", "decision": "확대 후보"}, {"model": "테슬라 모델 Y", "healthy": 5, "active": 9, "margin": "822만", "risk": 4, "balance_due": "400만", "short_rate": "0.0%", "asset_ratio": "83.6%", "equity": "3.4억", "decision": "조건 강화"}, {"model": "i시리즈", "healthy": 5, "active": 8, "margin": "754만", "risk": 3, "balance_due": "399만", "short_rate": "-", "asset_ratio": "62.3%", "equity": "1.4억", "decision": "조건 강화"}, {"model": "EQA", "healthy": 5, "active": 6, "margin": "407만", "risk": 1, "balance_due": "106만", "short_rate": "41.7%", "asset_ratio": "56.5%", "equity": "3474만", "decision": "유지 관찰"}, {"model": "아이오닉 5", "healthy": 3, "active": 6, "margin": "544만", "risk": 3, "balance_due": "351만", "short_rate": "0.0%", "asset_ratio": "92.7%", "equity": "1.4억", "decision": "조건 강화"}, {"model": "테슬라 모델 3", "healthy": 2, "active": 6, "margin": "328만", "risk": 3, "balance_due": "297만", "short_rate": "20.0%", "asset_ratio": "41.3%", "equity": "-476만", "decision": "조건 강화"}, {"model": "EV6", "healthy": 2, "active": 4, "margin": "305만", "risk": 2, "balance_due": "133만", "short_rate": "0.0%", "asset_ratio": "107.4%", "equity": "1.3억", "decision": "조건 강화"}, {"model": "코나", "healthy": 2, "active": 2, "margin": "102만", "risk": 0, "balance_due": "0", "short_rate": "0.0%", "asset_ratio": "119.4%", "equity": "4479만", "decision": "유지 관찰"}, {"model": "쿠퍼 SE", "healthy": 2, "active": 2, "margin": "40만", "risk": 0, "balance_due": "0", "short_rate": "33.3%", "asset_ratio": "40.1%", "equity": "-1116만", "decision": "유지 관찰"}, {"model": "니로", "healthy": 1, "active": 4, "margin": "223만", "risk": 3, "balance_due": "172만", "short_rate": "16.7%", "asset_ratio": "120.7%", "equity": "9352만", "decision": "조건 강화"}], "vehicles": [{"vehicle": "vehicle_eda77365", "model": "EQA", "status": "장기렌트", "monthly_rent": "119만", "finance": "0", "margin": "119만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3034만", "asset_value": "2570만", "residual_value": "2570만", "remaining_debt": "0", "asset_gap": "2570만", "asset_ratio": "84.7%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_57731029", "model": "EQA", "status": "장기렌트", "monthly_rent": "119만", "finance": "79만", "margin": "40만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3635만", "asset_value": "90만", "residual_value": "3894만", "remaining_debt": "3804만", "asset_gap": "-3714만", "asset_ratio": "2.5%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_36e69103", "model": "EQA", "status": "장기렌트", "monthly_rent": "109만", "finance": "81만", "margin": "28만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3508만", "asset_value": "1483만", "residual_value": "3749만", "remaining_debt": "2266만", "asset_gap": "-783만", "asset_ratio": "42.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_be5dc609", "model": "EQA", "status": "장기렌트", "monthly_rent": "106만", "finance": "78만", "margin": "28만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3617만", "asset_value": "1432만", "residual_value": "3610만", "remaining_debt": "2178만", "asset_gap": "-746만", "asset_ratio": "39.6%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_9cdfa4ca", "model": "EQA", "status": "장기렌트", "monthly_rent": "86만", "finance": "0", "margin": "86만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3414만", "asset_value": "3141만", "residual_value": "3141만", "remaining_debt": "0", "asset_gap": "3141만", "asset_ratio": "92.0%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_895e2346", "model": "EQB", "status": "장기렌트", "monthly_rent": "93만", "finance": "83만", "margin": "10만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3866만", "asset_value": "-123만", "residual_value": "3860만", "remaining_debt": "3983만", "asset_gap": "-4105만", "asset_ratio": "-3.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_f4350e23", "model": "EQE", "status": "장기렌트", "monthly_rent": "208만", "finance": "0", "margin": "208만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5478만", "asset_value": "5208만", "residual_value": "5208만", "remaining_debt": "0", "asset_gap": "5208만", "asset_ratio": "95.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_31393e13", "model": "EQE", "status": "장기렌트", "monthly_rent": "164만", "finance": "0", "margin": "164만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5383만", "asset_value": "5432만", "residual_value": "5432만", "remaining_debt": "0", "asset_gap": "5432만", "asset_ratio": "100.9%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_7d9d01d8", "model": "EQE", "status": "장기렌트", "monthly_rent": "164만", "finance": "0", "margin": "164만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5121만", "asset_value": "5602만", "residual_value": "5602만", "remaining_debt": "0", "asset_gap": "5602만", "asset_ratio": "109.4%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_a3a5009b", "model": "EQE", "status": "장기렌트", "monthly_rent": "157만", "finance": "0", "margin": "157만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4585만", "asset_value": "5412만", "residual_value": "5412만", "remaining_debt": "0", "asset_gap": "5412만", "asset_ratio": "118.0%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_df431499", "model": "EQE", "status": "장기렌트", "monthly_rent": "157만", "finance": "0", "margin": "157만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5449만", "asset_value": "4863만", "residual_value": "4863만", "remaining_debt": "0", "asset_gap": "4863만", "asset_ratio": "89.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_36dab514", "model": "EQE", "status": "장기렌트", "monthly_rent": "156만", "finance": "0", "margin": "156만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5015만", "asset_value": "5117만", "residual_value": "5117만", "remaining_debt": "0", "asset_gap": "5117만", "asset_ratio": "102.0%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_a7f9037b", "model": "EQE", "status": "장기렌트", "monthly_rent": "156만", "finance": "0", "margin": "156만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4993만", "asset_value": "5602만", "residual_value": "5602만", "remaining_debt": "0", "asset_gap": "5602만", "asset_ratio": "112.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_02a77b47", "model": "EQE", "status": "장기렌트", "monthly_rent": "150만", "finance": "106만", "margin": "44만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4620만", "asset_value": "2697만", "residual_value": "5549만", "remaining_debt": "2852만", "asset_gap": "-155만", "asset_ratio": "58.4%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_4b6bb858", "model": "EQE", "status": "장기렌트", "monthly_rent": "149만", "finance": "0", "margin": "149만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5043만", "asset_value": "5601만", "residual_value": "5601만", "remaining_debt": "0", "asset_gap": "5601만", "asset_ratio": "111.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_744eff31", "model": "EQE", "status": "장기렌트", "monthly_rent": "149만", "finance": "0", "margin": "149만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5303만", "asset_value": "5784만", "residual_value": "5784만", "remaining_debt": "0", "asset_gap": "5784만", "asset_ratio": "109.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_8348ef9e", "model": "EQE", "status": "장기렌트", "monthly_rent": "142만", "finance": "109만", "margin": "33만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4740만", "asset_value": "2332만", "residual_value": "5284만", "remaining_debt": "2953만", "asset_gap": "-621만", "asset_ratio": "49.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_f74b4a1c", "model": "EQE", "status": "장기렌트", "monthly_rent": "133만", "finance": "0", "margin": "133만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5267만", "asset_value": "4941만", "residual_value": "4941만", "remaining_debt": "0", "asset_gap": "4941만", "asset_ratio": "93.8%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_fec8ecdd", "model": "EQE", "status": "장기렌트", "monthly_rent": "129만", "finance": "0", "margin": "129만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5430만", "asset_value": "5357만", "residual_value": "5357만", "remaining_debt": "0", "asset_gap": "5357만", "asset_ratio": "98.6%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_ee1e9687", "model": "EQE", "status": "장기렌트", "monthly_rent": "129만", "finance": "0", "margin": "129만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5206만", "asset_value": "5354만", "residual_value": "5354만", "remaining_debt": "0", "asset_gap": "5354만", "asset_ratio": "102.8%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_269cb797", "model": "EQE", "status": "장기렌트", "monthly_rent": "129만", "finance": "105만", "margin": "24만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4498만", "asset_value": "2774만", "residual_value": "5394만", "remaining_debt": "2620만", "asset_gap": "154만", "asset_ratio": "61.7%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_02c9e1a8", "model": "EQE", "status": "장기렌트", "monthly_rent": "123만", "finance": "118만", "margin": "5만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5430만", "asset_value": "-735만", "residual_value": "5053만", "remaining_debt": "5789만", "asset_gap": "-6524만", "asset_ratio": "-13.5%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_f71b00a1", "model": "EQE", "status": "장기렌트", "monthly_rent": "119만", "finance": "0", "margin": "119만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5408만", "asset_value": "5250만", "residual_value": "5250만", "remaining_debt": "0", "asset_gap": "5250만", "asset_ratio": "97.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_81baf0d1", "model": "EQE", "status": "장기렌트", "monthly_rent": "115만", "finance": "0", "margin": "115만", "balance_due": "-115만", "overdue_days": 0, "purchase_price": "4808만", "asset_value": "5682만", "residual_value": "5682만", "remaining_debt": "0", "asset_gap": "5682만", "asset_ratio": "118.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_36169834", "model": "EQE", "status": "장기렌트", "monthly_rent": "115만", "finance": "0", "margin": "115만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5243만", "asset_value": "5942만", "residual_value": "5942만", "remaining_debt": "0", "asset_gap": "5942만", "asset_ratio": "113.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_ec9e31d6", "model": "EQE", "status": "장기렌트", "monthly_rent": "115만", "finance": "0", "margin": "115만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5033만", "asset_value": "5299만", "residual_value": "5299만", "remaining_debt": "0", "asset_gap": "5299만", "asset_ratio": "105.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_cbba7502", "model": "EQE", "status": "장기렌트", "monthly_rent": "114만", "finance": "0", "margin": "114만", "balance_due": "0", "overdue_days": 0, "purchase_price": "6162만", "asset_value": "5370만", "residual_value": "5370만", "remaining_debt": "0", "asset_gap": "5370만", "asset_ratio": "87.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_f87c5346", "model": "EQE", "status": "장기렌트", "monthly_rent": "114만", "finance": "0", "margin": "114만", "balance_due": "0", "overdue_days": 0, "purchase_price": "6327만", "asset_value": "5023만", "residual_value": "5023만", "remaining_debt": "0", "asset_gap": "5023만", "asset_ratio": "79.4%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_1f32949b", "model": "EV6", "status": "장기렌트", "monthly_rent": "81만", "finance": "0", "margin": "81만", "balance_due": "-10만", "overdue_days": 0, "purchase_price": "2998만", "asset_value": "3456만", "residual_value": "3456만", "remaining_debt": "0", "asset_gap": "3456만", "asset_ratio": "115.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_68ea879a", "model": "EV6", "status": "장기렌트", "monthly_rent": "81만", "finance": "0", "margin": "81만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3146만", "asset_value": "3373만", "residual_value": "3373만", "remaining_debt": "0", "asset_gap": "3373만", "asset_ratio": "107.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_78179b7d", "model": "G80", "status": "장기렌트", "monthly_rent": "149만", "finance": "124만", "margin": "25만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5617만", "asset_value": "-876만", "residual_value": "5094만", "remaining_debt": "5970만", "asset_gap": "-6846만", "asset_ratio": "-15.6%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_5ca7414e", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "154만", "finance": "96만", "margin": "58만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4187만", "asset_value": "838만", "residual_value": "3436만", "remaining_debt": "2598만", "asset_gap": "-1760만", "asset_ratio": "20.0%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_2473378a", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "138만", "finance": "100만", "margin": "38만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4368만", "asset_value": "919만", "residual_value": "3530만", "remaining_debt": "2610만", "asset_gap": "-1691만", "asset_ratio": "21.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_6351b694", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "134만", "finance": "0", "margin": "134만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4299만", "asset_value": "3596만", "residual_value": "3596만", "remaining_debt": "0", "asset_gap": "3596만", "asset_ratio": "83.7%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_63e184cb", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "101만", "finance": "0", "margin": "101만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4531만", "asset_value": "4548만", "residual_value": "4548만", "remaining_debt": "0", "asset_gap": "4548만", "asset_ratio": "100.4%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_ff8e427b", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "101만", "finance": "0", "margin": "101만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4477만", "asset_value": "4300만", "residual_value": "4300만", "remaining_debt": "0", "asset_gap": "4300만", "asset_ratio": "96.0%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_2f8c0a99", "model": "니로", "status": "장기렌트", "monthly_rent": "59만", "finance": "0", "margin": "59만", "balance_due": "0", "overdue_days": 0, "purchase_price": "1936만", "asset_value": "2540만", "residual_value": "2540만", "remaining_debt": "0", "asset_gap": "2540만", "asset_ratio": "131.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_f13454a9", "model": "레이", "status": "장기렌트", "monthly_rent": "56만", "finance": "46만", "margin": "10만", "balance_due": "0", "overdue_days": 0, "purchase_price": "1970만", "asset_value": "902만", "residual_value": "2154만", "remaining_debt": "1252만", "asset_gap": "-349만", "asset_ratio": "45.8%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_c8149538", "model": "테슬라 모델 3", "status": "장기렌트", "monthly_rent": "107만", "finance": "0", "margin": "107만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2724만", "asset_value": "2231만", "residual_value": "2231만", "remaining_debt": "0", "asset_gap": "2231만", "asset_ratio": "81.9%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_82e38d31", "model": "테슬라 모델 3", "status": "장기렌트", "monthly_rent": "74만", "finance": "0", "margin": "74만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2518만", "asset_value": "2251만", "residual_value": "2251만", "remaining_debt": "0", "asset_gap": "2251만", "asset_ratio": "89.4%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_5119476f", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "129만", "finance": "98만", "margin": "31만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4279만", "asset_value": "1361만", "residual_value": "4012만", "remaining_debt": "2651만", "asset_gap": "-1291만", "asset_ratio": "31.8%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_28a9917a", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "105만", "finance": "0", "margin": "105만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4826만", "asset_value": "4311만", "residual_value": "4311만", "remaining_debt": "0", "asset_gap": "4311만", "asset_ratio": "89.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_ffe309bd", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "97만", "finance": "0", "margin": "97만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4952만", "asset_value": "4416만", "residual_value": "4416만", "remaining_debt": "0", "asset_gap": "4416만", "asset_ratio": "89.2%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_22765f79", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "95만", "finance": "0", "margin": "95만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4826만", "asset_value": "4311만", "residual_value": "4311만", "remaining_debt": "0", "asset_gap": "4311만", "asset_ratio": "89.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_27919f33", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "94만", "finance": "0", "margin": "94만", "balance_due": "0", "overdue_days": 0, "purchase_price": "4826만", "asset_value": "4311만", "residual_value": "4311만", "remaining_debt": "0", "asset_gap": "4311만", "asset_ratio": "89.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_91ec4808", "model": "아이오닉 5", "status": "장기렌트", "monthly_rent": "94만", "finance": "0", "margin": "94만", "balance_due": "0", "overdue_days": 0, "purchase_price": "3013만", "asset_value": "3197만", "residual_value": "3197만", "remaining_debt": "0", "asset_gap": "3197만", "asset_ratio": "106.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_bd97ca72", "model": "아이오닉 5", "status": "장기렌트", "monthly_rent": "89만", "finance": "62만", "margin": "27만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2676만", "asset_value": "1191만", "residual_value": "2874만", "remaining_debt": "1683만", "asset_gap": "-492만", "asset_ratio": "44.5%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_230ca53f", "model": "아이오닉 5", "status": "장기렌트", "monthly_rent": "73만", "finance": "0", "margin": "73만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2578만", "asset_value": "2729만", "residual_value": "2729만", "remaining_debt": "0", "asset_gap": "2729만", "asset_ratio": "105.9%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_94f0b44d", "model": "코나", "status": "장기렌트", "monthly_rent": "55만", "finance": "0", "margin": "55만", "balance_due": "0", "overdue_days": 0, "purchase_price": "1933만", "asset_value": "2158만", "residual_value": "2158만", "remaining_debt": "0", "asset_gap": "2158만", "asset_ratio": "111.6%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_f8d656c7", "model": "코나", "status": "장기렌트", "monthly_rent": "47만", "finance": "0", "margin": "47만", "balance_due": "0", "overdue_days": 0, "purchase_price": "1818만", "asset_value": "2321만", "residual_value": "2321만", "remaining_debt": "0", "asset_gap": "2321만", "asset_ratio": "127.6%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_2c646906", "model": "쿠퍼 SE", "status": "장기렌트", "monthly_rent": "80만", "finance": "58만", "margin": "22만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2404만", "asset_value": "873만", "residual_value": "2434만", "remaining_debt": "1561만", "asset_gap": "-687만", "asset_ratio": "36.3%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_aa53a1e9", "model": "쿠퍼 SE", "status": "장기렌트", "monthly_rent": "77만", "finance": "59만", "margin": "18만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2533만", "asset_value": "1107만", "residual_value": "2642만", "remaining_debt": "1535만", "asset_gap": "-428만", "asset_ratio": "43.7%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_56a077a7", "model": "포터", "status": "장기렌트", "monthly_rent": "65만", "finance": "0", "margin": "65만", "balance_due": "0", "overdue_days": 0, "purchase_price": "1638만", "asset_value": "2671만", "residual_value": "2671만", "remaining_debt": "0", "asset_gap": "2671만", "asset_ratio": "163.1%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_8d2be242", "model": "폴스타 2", "status": "장기렌트", "monthly_rent": "106만", "finance": "74만", "margin": "32만", "balance_due": "0", "overdue_days": 0, "purchase_price": "2974만", "asset_value": "1364만", "residual_value": "3372만", "remaining_debt": "2008만", "asset_gap": "-644만", "asset_ratio": "45.9%", "health_status": "건강 구독", "action": "유지"}, {"vehicle": "vehicle_be192640", "model": "EQA", "status": "장기렌트", "monthly_rent": "106만", "finance": "0", "margin": "106만", "balance_due": "106만", "overdue_days": 13, "purchase_price": "3534만", "asset_value": "3006만", "residual_value": "3006만", "remaining_debt": "0", "asset_gap": "3006만", "asset_ratio": "85.0%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_bdf192bc", "model": "EQE", "status": "장기렌트", "monthly_rent": "149만", "finance": "56만", "margin": "93만", "balance_due": "139만", "overdue_days": 15, "purchase_price": "4828만", "asset_value": "4051만", "residual_value": "5682만", "remaining_debt": "1631만", "asset_gap": "2420만", "asset_ratio": "83.9%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_492d6eef", "model": "EQE", "status": "장기렌트", "monthly_rent": "120만", "finance": "102만", "margin": "18만", "balance_due": "120만", "overdue_days": 19, "purchase_price": "4786만", "asset_value": "370만", "residual_value": "5284만", "remaining_debt": "4914만", "asset_gap": "-4544만", "asset_ratio": "7.7%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_9d233589", "model": "EV6", "status": "장기렌트", "monthly_rent": "73만", "finance": "0", "margin": "73만", "balance_due": "73만", "overdue_days": 8, "purchase_price": "3116만", "asset_value": "3194만", "residual_value": "3194만", "remaining_debt": "0", "asset_gap": "3194만", "asset_ratio": "102.5%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_479cf623", "model": "EV6", "status": "장기렌트", "monthly_rent": "70만", "finance": "0", "margin": "70만", "balance_due": "70만", "overdue_days": 8, "purchase_price": "3180만", "asset_value": "3331만", "residual_value": "3331만", "remaining_debt": "0", "asset_gap": "3331만", "asset_ratio": "104.8%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_88d64081", "model": "EV9", "status": "장기렌트", "monthly_rent": "159만", "finance": "0", "margin": "159만", "balance_due": "159만", "overdue_days": 0, "purchase_price": "6252만", "asset_value": "5066만", "residual_value": "5066만", "remaining_debt": "0", "asset_gap": "5066만", "asset_ratio": "81.0%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_192a6b99", "model": "EV9", "status": "장기렌트", "monthly_rent": "143만", "finance": "0", "margin": "143만", "balance_due": "143만", "overdue_days": 8, "purchase_price": "6019만", "asset_value": "3834만", "residual_value": "3834만", "remaining_debt": "0", "asset_gap": "3834만", "asset_ratio": "63.7%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_a2ef04a9", "model": "EV9", "status": "장기렌트", "monthly_rent": "139만", "finance": "0", "margin": "139만", "balance_due": "139만", "overdue_days": 8, "purchase_price": "6275만", "asset_value": "4303만", "residual_value": "4303만", "remaining_debt": "0", "asset_gap": "4303만", "asset_ratio": "68.6%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_fd42b2cc", "model": "G80", "status": "장기렌트", "monthly_rent": "140만", "finance": "0", "margin": "140만", "balance_due": "140만", "overdue_days": 8, "purchase_price": "5938만", "asset_value": "4623만", "residual_value": "4623만", "remaining_debt": "0", "asset_gap": "4623만", "asset_ratio": "77.8%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_17176548", "model": "G80", "status": "장기렌트", "monthly_rent": "140만", "finance": "0", "margin": "140만", "balance_due": "140만", "overdue_days": 8, "purchase_price": "5475만", "asset_value": "4961만", "residual_value": "4961만", "remaining_debt": "0", "asset_gap": "4961만", "asset_ratio": "90.6%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_7b2b4bba", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "151만", "finance": "0", "margin": "151만", "balance_due": "121만", "overdue_days": 28, "purchase_price": "4049만", "asset_value": "2858만", "residual_value": "2858만", "remaining_debt": "0", "asset_gap": "2858만", "asset_ratio": "70.6%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_5d79dc6f", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "144만", "finance": "0", "margin": "144만", "balance_due": "144만", "overdue_days": 25, "purchase_price": "4477만", "asset_value": "3529만", "residual_value": "3529만", "remaining_debt": "0", "asset_gap": "3529만", "asset_ratio": "78.8%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_28ca278f", "model": "i시리즈", "status": "장기렌트", "monthly_rent": "134만", "finance": "106만", "margin": "28만", "balance_due": "134만", "overdue_days": 0, "purchase_price": "4586만", "asset_value": "1200만", "residual_value": "3848만", "remaining_debt": "2648만", "asset_gap": "-1448만", "asset_ratio": "26.2%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_c1d6ac15", "model": "니로", "status": "장기렌트", "monthly_rent": "58만", "finance": "0", "margin": "58만", "balance_due": "40만", "overdue_days": 70, "purchase_price": "1898만", "asset_value": "1753만", "residual_value": "1753만", "remaining_debt": "0", "asset_gap": "1753만", "asset_ratio": "92.3%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_276af0f8", "model": "니로", "status": "장기렌트", "monthly_rent": "58만", "finance": "0", "margin": "58만", "balance_due": "58만", "overdue_days": 14, "purchase_price": "1986만", "asset_value": "2540만", "residual_value": "2540만", "remaining_debt": "0", "asset_gap": "2540만", "asset_ratio": "127.9%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_ae09d62e", "model": "니로", "status": "장기렌트", "monthly_rent": "48만", "finance": "0", "margin": "48만", "balance_due": "74만", "overdue_days": 39, "purchase_price": "1927만", "asset_value": "2518만", "residual_value": "2518만", "remaining_debt": "0", "asset_gap": "2518만", "asset_ratio": "130.7%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_c8d811ed", "model": "테슬라 모델 3", "status": "장기렌트", "monthly_rent": "111만", "finance": "84만", "margin": "27만", "balance_due": "111만", "overdue_days": 0, "purchase_price": "3649만", "asset_value": "1320만", "residual_value": "3587만", "remaining_debt": "2267만", "asset_gap": "-947만", "asset_ratio": "36.2%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_4da23c91", "model": "테슬라 모델 3", "status": "장기렌트", "monthly_rent": "94만", "finance": "62만", "margin": "32만", "balance_due": "94만", "overdue_days": 20, "purchase_price": "2670만", "asset_value": "303만", "residual_value": "1968만", "remaining_debt": "1665만", "asset_gap": "-1362만", "asset_ratio": "11.4%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_4a7634fb", "model": "테슬라 모델 3", "status": "장기렌트", "monthly_rent": "92만", "finance": "0", "margin": "92만", "balance_due": "92만", "overdue_days": 5, "purchase_price": "2916만", "asset_value": "2254만", "residual_value": "2254만", "remaining_debt": "0", "asset_gap": "2254만", "asset_ratio": "77.3%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_2f26b053", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "103만", "finance": "0", "margin": "103만", "balance_due": "103만", "overdue_days": 11, "purchase_price": "4952만", "asset_value": "4416만", "residual_value": "4416만", "remaining_debt": "0", "asset_gap": "4416만", "asset_ratio": "89.2%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_a9a61f4e", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "99만", "finance": "0", "margin": "99만", "balance_due": "99만", "overdue_days": 11, "purchase_price": "4952만", "asset_value": "4416만", "residual_value": "4416만", "remaining_debt": "0", "asset_gap": "4416만", "asset_ratio": "89.2%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_6d59b790", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "99만", "finance": "0", "margin": "99만", "balance_due": "99만", "overdue_days": 0, "purchase_price": "4826만", "asset_value": "4309만", "residual_value": "4309만", "remaining_debt": "0", "asset_gap": "4309만", "asset_ratio": "89.3%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_8fe2b2a7", "model": "테슬라 모델 Y", "status": "장기렌트", "monthly_rent": "99만", "finance": "0", "margin": "99만", "balance_due": "99만", "overdue_days": 11, "purchase_price": "4952만", "asset_value": "4416만", "residual_value": "4416만", "remaining_debt": "0", "asset_gap": "4416만", "asset_ratio": "89.2%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_5548df01", "model": "아이오닉 5", "status": "장기렌트", "monthly_rent": "117만", "finance": "0", "margin": "117만", "balance_due": "117만", "overdue_days": 8, "purchase_price": "3024만", "asset_value": "3019만", "residual_value": "3019만", "remaining_debt": "0", "asset_gap": "3019만", "asset_ratio": "99.9%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_a15ebf3b", "model": "아이오닉 5", "status": "장기렌트", "monthly_rent": "117만", "finance": "0", "margin": "117만", "balance_due": "117만", "overdue_days": 8, "purchase_price": "2775만", "asset_value": "2805만", "residual_value": "2805만", "remaining_debt": "0", "asset_gap": "2805만", "asset_ratio": "101.1%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_d3ad39b8", "model": "아이오닉 5", "status": "장기렌트", "monthly_rent": "117만", "finance": "0", "margin": "117만", "balance_due": "117만", "overdue_days": 8, "purchase_price": "2899만", "asset_value": "2786만", "residual_value": "2786만", "remaining_debt": "0", "asset_gap": "2786만", "asset_ratio": "96.1%", "health_status": "수납 위험", "action": "수납/보증금 점검"}, {"vehicle": "vehicle_ebe4b926", "model": "EQE", "status": "배차대기", "monthly_rent": "0", "finance": "0", "margin": "0", "balance_due": "0", "overdue_days": 0, "purchase_price": "5434만", "asset_value": "5769만", "residual_value": "5769만", "remaining_debt": "0", "asset_gap": "5769만", "asset_ratio": "106.2%", "health_status": "비활성", "action": "배차/매각 검토"}, {"vehicle": "vehicle_2f095db8", "model": "G80", "status": "배차대기", "monthly_rent": "0", "finance": "0", "margin": "0", "balance_due": "0", "overdue_days": 0, "purchase_price": "5678만", "asset_value": "4287만", "residual_value": "4287만", "remaining_debt": "0", "asset_gap": "4287만", "asset_ratio": "75.5%", "health_status": "비활성", "action": "배차/매각 검토"}, {"vehicle": "vehicle_3f2318d9", "model": "테슬라 모델 3", "status": "장기렌트", "monthly_rent": "129만", "finance": "133만", "margin": "-4만", "balance_due": "0", "overdue_days": 0, "purchase_price": "5497만", "asset_value": "-107만", "residual_value": "4690만", "remaining_debt": "4797만", "asset_gap": "-4903만", "asset_ratio": "-1.9%", "health_status": "손익 위험", "action": "가격/원가 점검"}], "depreciation": [{"model": "EQB", "active": 1, "purchase_price": "3866만", "asset_value": "-123만", "asset_ratio": "-3.2%", "remaining_debt": "3983만", "asset_after_debt": "-4105만", "sale_15_after_debt": "-4087만", "sale_25_after_debt": "-4075만", "risk_label": "감가 주의"}, {"model": "테슬라 모델 3", "active": 6, "purchase_price": "2.0억", "asset_value": "8253만", "asset_ratio": "41.3%", "remaining_debt": "8729만", "asset_after_debt": "-476만", "sale_15_after_debt": "-1714만", "sale_25_after_debt": "-2539만", "risk_label": "감가 주의"}, {"model": "쿠퍼 SE", "active": 2, "purchase_price": "4937만", "asset_value": "1980만", "asset_ratio": "40.1%", "remaining_debt": "3096만", "asset_after_debt": "-1116만", "sale_15_after_debt": "-1413만", "sale_25_after_debt": "-1611만", "risk_label": "감가 주의"}, {"model": "폴스타 2", "active": 1, "purchase_price": "2974만", "asset_value": "1364만", "asset_ratio": "45.9%", "remaining_debt": "2008만", "asset_after_debt": "-644만", "sale_15_after_debt": "-848만", "sale_25_after_debt": "-985만", "risk_label": "감가 주의"}, {"model": "레이", "active": 1, "purchase_price": "1970만", "asset_value": "902만", "asset_ratio": "45.8%", "remaining_debt": "1252만", "asset_after_debt": "-349만", "sale_15_after_debt": "-485만", "sale_25_after_debt": "-575만", "risk_label": "감가 주의"}, {"model": "EQA", "active": 6, "purchase_price": "2.1억", "asset_value": "1.2억", "asset_ratio": "56.5%", "remaining_debt": "8248만", "asset_after_debt": "3474만", "sale_15_after_debt": "1715만", "sale_25_after_debt": "543만", "risk_label": "여유 있음"}, {"model": "G80", "active": 3, "purchase_price": "1.7억", "asset_value": "8708만", "asset_ratio": "51.1%", "remaining_debt": "5970만", "asset_after_debt": "2738만", "sale_15_after_debt": "1432만", "sale_25_after_debt": "561만", "risk_label": "감가 주의"}, {"model": "포터", "active": 1, "purchase_price": "1638만", "asset_value": "2671만", "asset_ratio": "163.1%", "remaining_debt": "0", "asset_after_debt": "2671만", "sale_15_after_debt": "2271만", "sale_25_after_debt": "2004만", "risk_label": "여유 있음"}, {"model": "코나", "active": 2, "purchase_price": "3752만", "asset_value": "4479만", "asset_ratio": "119.4%", "remaining_debt": "0", "asset_after_debt": "4479만", "sale_15_after_debt": "3807만", "sale_25_after_debt": "3359만", "risk_label": "여유 있음"}, {"model": "니로", "active": 4, "purchase_price": "7748만", "asset_value": "9352만", "asset_ratio": "120.7%", "remaining_debt": "0", "asset_after_debt": "9352만", "sale_15_after_debt": "7949만", "sale_25_after_debt": "7014만", "risk_label": "여유 있음"}, {"model": "i시리즈", "active": 8, "purchase_price": "3.5억", "asset_value": "2.2억", "asset_ratio": "62.3%", "remaining_debt": "7856만", "asset_after_debt": "1.4억", "sale_15_after_debt": "1.1억", "sale_25_after_debt": "8484만", "risk_label": "여유 있음"}, {"model": "EV9", "active": 3, "purchase_price": "1.9억", "asset_value": "1.3억", "asset_ratio": "71.2%", "remaining_debt": "0", "asset_after_debt": "1.3억", "sale_15_after_debt": "1.1억", "sale_25_after_debt": "9903만", "risk_label": "여유 있음"}]};
+    const tagClass = (value) => value === "확대 후보" ? "" : value === "조건 강화" ? "risk" : "warn";
+    const yearlyFunnelBody = document.querySelector("#yearly-funnel-table tbody");
+    DATA.yearly_funnel.forEach((row) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${row.year}</td><td class="num">${row.inquiries}</td><td class="num">${row.contracts}</td><td class="num">${row.contract_rate}</td><td class="num">${row.vehicle_matched}</td><td class="num">${row.normal_payment}</td><td class="num">${row.healthy_subscription}</td><td class="num">${row.retained_180d}</td><td>${row.note}</td>`;
+      yearlyFunnelBody.appendChild(tr);
+    });
+    const modelBody = document.querySelector("#model-table tbody");
+    DATA.models.forEach((row) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${row.model}</td><td class="num">${row.healthy}</td><td class="num">${row.active}</td><td class="num">${row.margin}</td><td class="num">${row.asset_ratio}</td><td class="num">${row.equity}</td><td class="num">${row.risk}</td><td><span class="tag ${tagClass(row.decision)}">${row.decision}</span></td>`;
+      modelBody.appendChild(tr);
+    });
+    const channelBody = document.querySelector("#channel-table tbody");
+    DATA.channels.forEach((row) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${row.source}</td><td class="num">${row.inquiries}</td><td class="num">${row.contracts}</td><td class="num">${row.contract_rate}</td><td>${row.health_status}</td>`;
+      channelBody.appendChild(tr);
+    });
+    const depreciationBody = document.querySelector("#depreciation-table tbody");
+    DATA.depreciation.forEach((row) => {
+      const tr = document.createElement("tr");
+      const riskClass = row.risk_label === "감가 주의" ? "risk" : row.risk_label === "매각 조건 확인" ? "warn" : "";
+      tr.innerHTML = `<td>${row.model}</td><td class="num">${row.active}</td><td class="num">${row.asset_value}</td><td class="num">${row.asset_ratio}</td><td class="num">${row.remaining_debt}</td><td class="num">${row.asset_after_debt}</td><td class="num">${row.sale_15_after_debt}</td><td class="num">${row.sale_25_after_debt}</td><td><span class="tag ${riskClass}">${row.risk_label}</span></td>`;
+      depreciationBody.appendChild(tr);
+    });
+    const vehicleTagClass = (value) => value === "건강 구독" ? "" : value === "수납 위험" || value === "손익 위험" ? "risk" : value === "비활성" ? "neutral" : "warn";
+    const vehicleBody = document.querySelector("#vehicle-table tbody");
+    DATA.vehicles.forEach((row) => {
+      const tr = document.createElement("tr");
+      tr.innerHTML = `<td>${row.vehicle}</td><td>${row.model}</td><td>${row.status}</td><td class="num">${row.monthly_rent}</td><td class="num">${row.margin}</td><td class="num">${row.asset_value}</td><td class="num">${row.remaining_debt}</td><td class="num">${row.asset_gap}</td><td class="num">${row.balance_due}</td><td><span class="tag ${vehicleTagClass(row.health_status)}">${row.health_status}</span></td><td>${row.action}</td>`;
+      vehicleBody.appendChild(tr);
+    });
+  </script>
+</body>
+</html>
