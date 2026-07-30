@@ -1,5 +1,5 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-07-30T11:00:41",
+  "generatedAt": "2026-07-30T11:10:34",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
@@ -72731,7 +72731,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
       {
         "year": 2026,
         "month": 7,
-        "contracts": 5
+        "contracts": 6
       }
     ],
     "detail": [
@@ -84473,6 +84473,21 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "delivery_date": null,
         "delivery_status": null,
         "inflow_source": "리레브",
+        "contract_status": "계약완료",
+        "contract_signal": "high"
+      },
+      {
+        "year": 2026,
+        "month": 7,
+        "contract_date": "2026-07-30",
+        "customer_name_masked": "김*현",
+        "vehicle_model": "G80",
+        "subscription_period": "36개월 /",
+        "monthly_fee": "149만원",
+        "payment_status": null,
+        "delivery_date": null,
+        "delivery_status": null,
+        "inflow_source": "제이디오토모빌(AG)",
         "contract_status": "계약완료",
         "contract_signal": "high"
       }
