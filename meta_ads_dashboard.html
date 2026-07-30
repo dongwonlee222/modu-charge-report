@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>모두의충전 차량구독 메타 광고 대시보드</title>
   <script src="./chart.umd.js"></script>
-  <script src="./meta_ads_monthly_tracking_data.js?v=20260730-july-slack"></script>
+  <script src="./meta_ads_monthly_tracking_data.js?v=20260730-consultation-contract-link"></script>
   <script src="./meta_ads_dashboard_data.js?v=20260608-consult-contracts"></script>
   <style>
     :root {
@@ -1539,11 +1539,12 @@
               <thead>
                 <tr>
                   <th>기간</th>
+                  <th>계약자</th>
                   <th>유입</th>
                   <th>차량</th>
                   <th>구독 기간</th>
                   <th>상담 상태</th>
-                  <th>신호</th>
+                  <th>계약 결과</th>
                 </tr>
               </thead>
               <tbody id="monthlyConsultationDetailBody"></tbody>
@@ -3703,10 +3704,11 @@
         .sort((a, b) => Number(b.inquiries || 0) - Number(a.inquiries || 0));
       const consultationDetails = filterConsultationRows(consultations.detail || [], state)
         .sort((a, b) => b.date.localeCompare(a.date) || a.source.localeCompare(b.source));
+      const linkedConsultationContracts = consultationDetails.filter((row) => row.contract_match_method).length;
       const freshness = consultations.sourceFreshness || {};
       document.getElementById("monthlyConsultationNote").textContent =
         freshness.latest_date
-          ? `상담 신청 데이터 기준일은 ${freshness.first_date}~${freshness.latest_date}입니다. 차량명은 Slack 상담 알림에 기록된 모델명 기준입니다.`
+          ? `상담 신청 데이터 기준일은 ${freshness.first_date}~${freshness.latest_date}입니다. 선택 조건에서 상담과 연결된 계약은 ${formatNumber(linkedConsultationContracts, 0)}건입니다. 이름·연락처 익명 식별값을 우선 연결하고 차량 정보를 보조로 사용합니다.`
           : "상담 신청 데이터가 아직 연결되지 않았습니다.";
       const visibleSources = state.media === "all"
         ? [...new Set(sourceRows.map((row) => row.source))]
@@ -3760,6 +3762,7 @@
               period_label: row.period_label,
               vehicle_model: row.vehicle,
               count: consultationDetails.filter((item) => `${item.year}-${String(item.month).padStart(2, "0")}` === row.period && (item.vehicle_model || "차량명 없음") === row.vehicle).length,
+              contract_count: consultationDetails.filter((item) => `${item.year}-${String(item.month).padStart(2, "0")}` === row.period && (item.vehicle_model || "차량명 없음") === row.vehicle && item.contract_match_method).length,
             }))
             .sort((a, b) => b.period.localeCompare(a.period) || b.count - a.count)
         : consultationDetails;
@@ -3768,27 +3771,29 @@
           return `
             <tr>
               <td>${row.period_label}</td>
+              <td>-</td>
               <td>전체</td>
               <td class="campaign-name">${escapeHtml(row.vehicle_model || "차량명 없음")}</td>
               <td>-</td>
               <td>${formatNumber(row.count, 0)}건</td>
-              <td>-</td>
+              <td>${formatNumber(row.contract_count, 0)}건</td>
             </tr>
           `;
         }
         const vehicle = [row.vehicle_model, row.vehicle_trim].filter(Boolean).join(" / ") || "차량명 없음";
-        const signal = row.contract_signal === "high" ? "상" : row.contract_signal === "medium" ? "중" : row.contract_signal === "low" ? "낮음" : "-";
+        const contractResult = row.contract_match_method ? "계약완료" : "미확인";
         return `
           <tr>
             <td>${row.date}</td>
+            <td>${escapeHtml(row.contract_customer_name_masked || "-")}</td>
             <td>${consultationSourceLabel(row.source)}</td>
             <td class="campaign-name">${escapeHtml(vehicle)}</td>
             <td>${escapeHtml(row.subscription_period || "-")}</td>
             <td>${escapeHtml(row.consulting_status || row.contract_status || "-")}</td>
-            <td>${signal}</td>
+            <td>${contractResult}</td>
           </tr>
         `;
-      }).join("") : `<tr><td colspan="6" class="muted">선택한 조건에 표시할 상담 신청 건이 없습니다.</td></tr>`;
+      }).join("") : `<tr><td colspan="7" class="muted">선택한 조건에 표시할 상담 신청 건이 없습니다.</td></tr>`;
       renderMonthlyContracts(state, consultations, selectedInquiryTotal);
     }
 
