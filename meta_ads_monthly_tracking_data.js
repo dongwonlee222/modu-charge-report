@@ -1,5 +1,5 @@
 window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
-  "generatedAt": "2026-07-30T11:37:46",
+  "generatedAt": "2026-07-30T12:14:48",
   "sourceType": "meta_graph_api",
   "requestedRange": {
     "since": "2025-01-01",
@@ -70567,7 +70567,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "naver",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 0
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -70711,7 +70711,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "unknown",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 0
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -70774,7 +70774,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "instagram",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 1
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -70828,7 +70828,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "unknown",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 0
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -70980,8 +70980,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-02-28",
         "source": "app",
         "inquiries": 2,
-        "medium_or_high_signals": 0,
-        "high_signals": 0
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -70998,8 +70998,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-03-07",
         "source": "instagram",
         "inquiries": 1,
-        "medium_or_high_signals": 0,
-        "high_signals": 0
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -71007,8 +71007,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-03-08",
         "source": "app",
         "inquiries": 2,
-        "medium_or_high_signals": 2,
-        "high_signals": 1
+        "medium_or_high_signals": 1,
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71026,7 +71026,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "app",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 1
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71061,8 +71061,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-03-12",
         "source": "unknown",
         "inquiries": 2,
-        "medium_or_high_signals": 1,
-        "high_signals": 1
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71178,8 +71178,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-03-21",
         "source": "unknown",
         "inquiries": 2,
-        "medium_or_high_signals": 0,
-        "high_signals": 0
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -71187,8 +71187,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-03-24",
         "source": "unknown",
         "inquiries": 2,
-        "medium_or_high_signals": 1,
-        "high_signals": 1
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71377,7 +71377,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "facebook",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 1
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71529,8 +71529,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-05-01",
         "source": "app",
         "inquiries": 1,
-        "medium_or_high_signals": 1,
-        "high_signals": 1
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71709,8 +71709,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-05-22",
         "source": "app",
         "inquiries": 6,
-        "medium_or_high_signals": 0,
-        "high_signals": 0
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -71880,8 +71880,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-06-19",
         "source": "imweb",
         "inquiries": 1,
-        "medium_or_high_signals": 1,
-        "high_signals": 1
+        "medium_or_high_signals": 0,
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -71898,8 +71898,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "date": "2026-06-23",
         "source": "imweb",
         "inquiries": 1,
-        "medium_or_high_signals": 0,
-        "high_signals": 0
+        "medium_or_high_signals": 1,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -72462,7 +72462,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "instagram",
         "inquiries": 5,
         "medium_or_high_signals": 2,
-        "high_signals": 2
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -72470,7 +72470,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "naver",
         "inquiries": 6,
         "medium_or_high_signals": 1,
-        "high_signals": 0
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -72478,15 +72478,15 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "unknown",
         "inquiries": 2,
         "medium_or_high_signals": 2,
-        "high_signals": 1
+        "high_signals": 2
       },
       {
         "year": 2026,
         "month": 2,
         "source": "app",
         "inquiries": 16,
-        "medium_or_high_signals": 3,
-        "high_signals": 0
+        "medium_or_high_signals": 4,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -72518,15 +72518,15 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "unknown",
         "inquiries": 3,
         "medium_or_high_signals": 1,
-        "high_signals": 0
+        "high_signals": 1
       },
       {
         "year": 2026,
         "month": 3,
         "source": "app",
         "inquiries": 11,
-        "medium_or_high_signals": 4,
-        "high_signals": 3
+        "medium_or_high_signals": 3,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -72541,8 +72541,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "month": 3,
         "source": "instagram",
         "inquiries": 6,
-        "medium_or_high_signals": 1,
-        "high_signals": 1
+        "medium_or_high_signals": 2,
+        "high_signals": 2
       },
       {
         "year": 2026,
@@ -72557,8 +72557,8 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "month": 3,
         "source": "unknown",
         "inquiries": 17,
-        "medium_or_high_signals": 4,
-        "high_signals": 2
+        "medium_or_high_signals": 3,
+        "high_signals": 1
       },
       {
         "year": 2026,
@@ -72574,7 +72574,7 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "source": "facebook",
         "inquiries": 1,
         "medium_or_high_signals": 1,
-        "high_signals": 1
+        "high_signals": 0
       },
       {
         "year": 2026,
@@ -80382,14 +80382,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "라이트",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "심사진행",
-        "contract_status": "계약가능성높음",
-        "contract_signal": "medium",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-01-08",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": null,
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "강*우",
         "reply_count": 6
       },
       {
@@ -80743,14 +80743,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "프리미엄",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "심사진행",
-        "contract_status": "계약가능성높음",
-        "contract_signal": "medium",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-02-03",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "undefined",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "백*재",
         "reply_count": 5
       },
       {
@@ -80876,14 +80876,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "심사진행",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-03-13",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "undefined (페이스북 추정) | 대표님 승인하에 탁송비 무상 서비스 처리 | 보험료 절감을 위하여, 운전자(남경아) 고객 기준으로 가입 -&gt; 추후 제2운전자 추가시 보험 조정하는 방식 사용하겠습니다 | 2026-03-16 14:00 인도 완료",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "남*아",
+        "contract_status": "계약가능성높음",
+        "contract_signal": "medium",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 14
       },
       {
@@ -81028,14 +81028,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "3년 (36개월)",
         "consulting_status": "심사진행",
-        "contract_status": "계약가능성높음",
-        "contract_signal": "medium",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-02-10",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "undefined | 2026-02-12 18:30 인도 완료",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "이*혜",
         "reply_count": 5
       },
       {
@@ -81446,14 +81446,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "스탠다드 레인지",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "댓글있음",
-        "contract_status": "계약미확인",
-        "contract_signal": "low",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-03-06",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "APP 출고보험으로 환급 완료건으로 계약보험 변경 하여 진행 (운전자 연령 만 30세 이상) |",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "김*석",
         "reply_count": 1
       },
       {
@@ -81484,14 +81484,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "M 스포츠",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "댓글없음",
-        "contract_status": "계약미확인",
-        "contract_signal": "none",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-04-13",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "AG",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "서*욱",
         "reply_count": 0
       },
       {
@@ -81503,14 +81503,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "취소",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-04-13",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "AG",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "송*윤",
+        "contract_status": "계약실패",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 4
       },
       {
@@ -81560,14 +81560,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "심사진행",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-04-15",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "AG",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "오*성",
+        "contract_status": "계약가능성높음",
+        "contract_signal": "medium",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 5
       },
       {
@@ -81636,14 +81636,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "댓글없음",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-04-16",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "AG",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "오*교",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 0
       },
       {
@@ -81978,14 +81978,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "댓글있음",
-        "contract_status": "계약미확인",
-        "contract_signal": "low",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-04-13",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "AG",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "송*윤",
         "reply_count": 1
       },
       {
@@ -82016,14 +82016,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "5년 (60개월)",
         "consulting_status": "취소",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-05-06",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "내부",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "홍*현",
+        "contract_status": "계약실패",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 7
       },
       {
@@ -82548,14 +82548,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "eDrive40M 스포츠",
         "subscription_period": "3년 (36개월)",
         "consulting_status": "심사진행",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-05-22",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "제이디오토모빌",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "변*선",
+        "contract_status": "계약가능성높음",
+        "contract_signal": "medium",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 2
       },
       {
@@ -82928,14 +82928,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "롱레인지 4WD GT-Line",
         "subscription_period": "3년 (36개월)",
         "consulting_status": "부재",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-05-06",
-        "contract_delivery_date": "2026-05-08",
-        "contract_delivery_status": "출고확정",
-        "contract_inflow_source": "AG",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "김*식",
+        "contract_status": "계약미확인",
+        "contract_signal": "low",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 1
       },
       {
@@ -83460,14 +83460,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "3년 (36개월)",
         "consulting_status": "댓글없음",
-        "contract_status": "계약미확인",
-        "contract_signal": "none",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-05-22",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "제이디오토모빌",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "변*선",
         "reply_count": 0
       },
       {
@@ -84068,14 +84068,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "",
         "subscription_period": "6개월",
         "consulting_status": "댓글없음",
-        "contract_status": "계약완료",
-        "contract_signal": "high",
-        "contract_date": "2026-07-24",
-        "contract_delivery_date": null,
-        "contract_delivery_status": null,
-        "contract_inflow_source": "리레브",
-        "contract_match_method": "vehicle_model_date",
-        "contract_customer_name_masked": "김*경",
+        "contract_status": "계약미확인",
+        "contract_signal": "none",
+        "contract_date": "",
+        "contract_delivery_date": "",
+        "contract_delivery_status": "",
+        "contract_inflow_source": "",
+        "contract_match_method": "",
+        "contract_customer_name_masked": "",
         "reply_count": 0
       },
       {
@@ -84106,14 +84106,14 @@ window.MODU_CHARGE_MONTHLY_META_TRACKING_DATA = {
         "vehicle_trim": "M 스포츠",
         "subscription_period": "3년 (36개월)",
         "consulting_status": "댓글없음",
-        "contract_status": "계약미확인",
-        "contract_signal": "none",
-        "contract_date": "",
-        "contract_delivery_date": "",
-        "contract_delivery_status": "",
-        "contract_inflow_source": "",
-        "contract_match_method": "",
-        "contract_customer_name_masked": "",
+        "contract_status": "계약완료",
+        "contract_signal": "high",
+        "contract_date": "2026-07-13",
+        "contract_delivery_date": null,
+        "contract_delivery_status": null,
+        "contract_inflow_source": "리레브",
+        "contract_match_method": "customer_name_hash",
+        "contract_customer_name_masked": "이*호",
         "reply_count": 0
       },
       {
