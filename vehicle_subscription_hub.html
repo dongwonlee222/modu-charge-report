@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>모두의충전 차량구독 데이터 허브</title>
+  <link rel="icon" href="data:,">
   <style>
     :root {
       --bg: #f5f6f2;
@@ -146,6 +147,38 @@
       gap: 14px;
     }
 
+    .weekly-status {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 28px;
+    }
+
+    .weekly-item {
+      padding-top: 16px;
+      border-top: 3px solid var(--green);
+    }
+
+    .weekly-item span {
+      display: block;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 900;
+    }
+
+    .weekly-item strong {
+      display: block;
+      margin-top: 10px;
+      font-size: clamp(25px, 4vw, 38px);
+      line-height: 1.15;
+    }
+
+    .weekly-item p {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.7;
+    }
+
     .report-link {
       display: block;
       min-height: 190px;
@@ -195,6 +228,7 @@
     @media (max-width: 760px) {
       .page { padding: 24px 14px 48px; }
       .kpis,
+      .weekly-status,
       .reports {
         grid-template-columns: 1fr;
       }
@@ -205,8 +239,8 @@
   <main class="page">
     <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
       <a class="active" href="./vehicle_subscription_hub.html">허브</a>
+      <a href="./meta_ads_dashboard.html">Instagram 광고</a>
       <a href="./vehicle_subscription_health_dashboard.html">건강 구독</a>
-      <a href="./meta_ads_dashboard.html">메타 광고</a>
       <a href="./vehicle_subscription_contract_insight.html">상담-계약</a>
       <a href="./vehicle_subscription_profitability_retention.html">수익성·유지율</a>
     </nav>
@@ -214,34 +248,55 @@
     <header>
       <p class="eyebrow">Vehicle Subscription Data Hub</p>
       <h1>차량구독 데이터를 한 곳에서 봅니다.</h1>
-      <p class="lead">광고 성과, 상담 유입, 계약확정, 모델별 수요와 월 구독료 인사이트로 바로 이동하는 차량구독 전용 허브입니다.</p>
+      <p class="lead">상담 유입, 계약확정, 정기결제, Instagram 광고, 건강 구독과 수익성·유지율을 함께 확인하는 차량구독 전용 허브입니다.</p>
       <div class="kpis">
         <div class="kpi">
           <span>2026 상담신청</span>
-          <strong>187건</strong>
-          <small>2026-01-01~2026-06-08</small>
+          <strong>261건</strong>
+          <small>2026-01-01~2026-08-19</small>
         </div>
         <div class="kpi">
           <span>2026 계약확정</span>
-          <strong>24건</strong>
-          <small>#ev구독신청 기준</small>
+          <strong>33건</strong>
+          <small>2026-01-01~2026-08-20</small>
         </div>
         <div class="kpi">
-          <span>최다 상담 모델</span>
-          <strong>EQE350+</strong>
-          <small>2025, 2026 모두 상위</small>
+          <span>금주 상담신청</span>
+          <strong>9건</strong>
+          <small>2026-08-17~2026-08-23</small>
         </div>
         <div class="kpi">
-          <span>계약 주력 가격대</span>
-          <strong>130~159</strong>
-          <small>만원 구간 12건</small>
+          <span>금주 계약확정</span>
+          <strong>2건</strong>
+          <small>Model Y Juniper 2건</small>
         </div>
       </div>
     </header>
 
     <section class="section">
+      <h2>금주 차량구독 운영 현황</h2>
+      <div class="weekly-status">
+        <article class="weekly-item">
+          <span>금주 정기결제</span>
+          <strong>7건 · 6,610,000원</strong>
+          <p>전주와 결제 건수는 같았지만 결제 금액은 15.69% 줄었습니다. 구독 이탈로 단정하기보다 금주 결제 차량과 상품별 금액 차이를 먼저 확인해야 합니다.</p>
+        </article>
+        <article class="weekly-item">
+          <span>금주 Instagram 광고 성과</span>
+          <strong>587,401원 · 2,347건</strong>
+          <p>랜딩페이지 조회는 1,402건이었으며, 클릭당 비용은 250원으로 전주보다 3.1% 낮아졌습니다. 광고 유입 효율은 좋아졌지만 상담·계약과의 직접 연결 정보는 아직 부족합니다. 8월 25일 17:14 조회 기준입니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section">
       <h2>보고서 바로가기</h2>
       <div class="reports">
+        <a class="report-link" href="./meta_ads_dashboard.html">
+          <em>Instagram 광고 운영</em>
+          <h3>차량구독 Instagram 광고 성과</h3>
+          <p>광고비, 클릭, 랜딩페이지 조회, 캠페인별 비용 효율과 상담·계약 연결 상태를 확인합니다.</p>
+        </a>
         <a class="report-link" href="./vehicle_subscription_health_dashboard.html">
           <em>의사결정 대시보드</em>
           <h3>건강 구독을 오래 유지할 회원을 찾습니다</h3>
@@ -251,11 +306,6 @@
           <em>데이터 아카이브</em>
           <h3>상담은 어디서 들어오고, 계약은 어디서 확정되는가</h3>
           <p>상담 유입채널, 계약확정 채널, 채널별 계약률, 모델별 상담 수요와 월 구독료 구간을 확인합니다.</p>
-        </a>
-        <a class="report-link" href="./meta_ads_dashboard.html">
-          <em>데이터 아카이브</em>
-          <h3>차량구독 Meta 광고 대시보드</h3>
-          <p>Facebook/Instagram 광고비, 클릭, 랜딩조회, 캠페인별 효율과 상담신청 연동 지표를 확인합니다.</p>
         </a>
         <a class="report-link" href="./vehicle_subscription_profitability_retention.html">
           <em>데이터 아카이브</em>
@@ -267,7 +317,7 @@
 
     <section class="section">
       <div class="note">
-        <strong>현재 해석 기준:</strong> 상담 데이터는 2025년 6월부터 실제 레코드가 있고, 계약확정 데이터는 2026년 #ev구독신청 채널 기준입니다. 2025년 계약확정과 모델별 당시 가격표가 들어오면 모델별 가격 변화와 계약 증가를 더 정확히 볼 수 있습니다.
+        <strong>현재 해석 기준:</strong> 상담은 2026년 8월 19일, 계약확정은 8월 20일까지 갱신했습니다. 차량·계약 건강도와 수익성은 2026년 6월 8일 자산 스냅샷을 기준으로 하며, 금주 지표는 8월 17~23일 기준입니다.
       </div>
     </section>
   </main>
