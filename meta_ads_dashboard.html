@@ -6,7 +6,7 @@
   <title>모두의충전 차량구독 메타 광고 대시보드</title>
   <link rel="icon" href="data:,">
   <script src="./chart.umd.js"></script>
-  <script src="./meta_ads_monthly_tracking_data.js?v=20260902-vehicle-subscription"></script>
+  <script src="./meta_ads_monthly_tracking_data.js?v=20260908-vehicle-subscription"></script>
   <script src="./meta_ads_dashboard_data.js?v=20260608-consult-contracts"></script>
   <style>
     :root {
@@ -1395,7 +1395,7 @@
   <main class="wrap">
     <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
       <a href="./vehicle_subscription_hub.html">허브</a>
-      <a class="active" href="./meta_ads_dashboard.html">Instagram 광고</a>
+      <a class="active" href="./meta_ads_dashboard.html">Meta 광고</a>
       <a href="./vehicle_subscription_contract_insight.html">상담-계약</a>
       <a href="./vehicle_subscription_profitability_retention.html">수익성·유지율</a>
     </nav>
@@ -1404,8 +1404,9 @@
     <p class="lead">Facebook과 Instagram 광고 성과를 전체 요약에서 시작해 채널별, 소재별로 내려가며 비교하는 화면입니다.</p>
     <div class="meta" id="metaBox"></div>
 
+    <section id="weekly-platform-20260908" class="tracking-intro"><h2 class="section-title">실제 게재 위치별 주간 성과 · 8/31~9/6</h2><p>9/7까지 갱신 · 비교 주 8/24~8/30. 기존 Instagram 표기는 계정명이며 Facebook 집행도 포함했습니다. 아래는 실제 게재 위치 기준입니다.</p><div class="rank-table" style="overflow-x:auto"><table><thead><tr><th>매체</th><th>광고비</th><th>노출</th><th>도달</th><th>빈도</th><th>링크 클릭</th><th>CTR</th><th>CPC</th><th>CPM</th><th>랜딩조회</th><th>클릭→랜딩</th><th>랜딩당 비용</th></tr></thead><tbody><tr><td>Meta 전체</td><td>548,162원</td><td>224,989</td><td>86,239</td><td>2.61</td><td>1,867</td><td>0.83%</td><td>294원</td><td>2,436원</td><td>1,095</td><td>58.7%</td><td>501원</td></tr><tr><td>Facebook</td><td>435,761원</td><td>210,612</td><td>77,050</td><td>2.73</td><td>1,329</td><td>0.63%</td><td>328원</td><td>2,069원</td><td>651</td><td>49.0%</td><td>669원</td></tr><tr><td>Instagram</td><td>112,193원</td><td>14,303</td><td>9,986</td><td>1.43</td><td>537</td><td>3.75%</td><td>209원</td><td>7,844원</td><td>444</td><td>82.7%</td><td>253원</td></tr></tbody></table></div><p>Facebook: 광고비 -0.6%, 클릭 -10.7%, CPC +11.3%. Meta 전체 광고비 -2.1%, 클릭 -13.2%. 상담 7건 · 계약 알림 3건(광고 직접 귀속 아님).</p><p>문의·상담·계약 전환수·전환율·전환당 비용: 측정 불가/미연결. Meta 합계에 기타 매체 208원 포함. 매체별 도달은 합산하지 않습니다. 실제 FB·IG 최신 9/7; Ev Modu 계정 최신 5/7.</p><p>7/30 소재가 랜딩당 비용에서 우세하며, 두 소재의 클릭 감소·CPC 상승을 점검해야 합니다. 아래 월별 시계열은 계정 기준이며 실제 매체별 추이와 다릅니다.</p><a href="./vehicle-subscription-meta-weekly-2026-09-08.md">주간 비교·캠페인·소재 검증 상세</a></section>
     <nav class="tabs" aria-label="광고 분석 탭">
-      <button class="tab-button active" type="button" data-tab-target="monthlyMediaTracking">월별 매체 추적</button>
+      <button class="tab-button active" type="button" data-tab-target="monthlyMediaTracking">월별 계정 추적</button>
       <button class="tab-button" type="button" data-tab-target="consultingSalesStrategy">상담·판매 전략</button>
       <button class="tab-button" type="button" data-tab-target="creativeAnalysis">소재별 광고 분석</button>
       <button class="tab-button" type="button" data-tab-target="instagramLongRange">1월~5월 Meta 실효성</button>
@@ -1413,7 +1414,7 @@
 
     <div class="tab-panel active" id="monthlyMediaTracking">
       <section class="tracking-intro">
-        <h2 class="section-title" style="margin-top:0;">월별 매체 추적</h2>
+        <h2 class="section-title" style="margin-top:0;">월별 계정 추적</h2>
         <p class="creative-copy">선택한 월 기준으로 광고비, 클릭, 랜딩조회, 캠페인 효율을 확인합니다. 현재 달은 데이터가 들어온 최신일까지 반영하며, 기준 기간은 아래에 표시됩니다.</p>
         <div class="filter-row" aria-label="월별 광고 추적 필터">
           <div class="filter-field">
@@ -1425,11 +1426,11 @@
             <select id="monthlyMonth"></select>
           </div>
           <div class="filter-field">
-            <label for="monthlyMedia">매체</label>
+            <label for="monthlyMedia">계정 기준</label>
             <select id="monthlyMedia">
               <option value="all">전체</option>
-              <option value="Facebook">Facebook</option>
-              <option value="Instagram">Instagram</option>
+              <option value="Facebook">Ev Modu 계정</option>
+              <option value="Instagram">gudok 계정 (FB·IG 포함)</option>
             </select>
           </div>
           <div class="filter-field">
