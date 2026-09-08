@@ -3058,7 +3058,7 @@
     }
 
     function mediaShort(media) {
-      return media === "Instagram" ? "IG" : "FB";
+      return media === "Instagram" ? "gudok 계정(FB·IG 포함)" : "Ev Modu 계정";
     }
 
     function ymdToUtcDate(value) {
@@ -4205,8 +4205,8 @@
       document.getElementById("monthlyInsightTitle").textContent = `${periodType} 인사이트`;
       document.getElementById("monthlyInsightCards").innerHTML = [
         ["광고 반응", `${formatNumber(totals.link_clicks, 0)}클릭`, `랜딩조회 ${formatNumber(totals.landing_page_views, 0)}건 / CPC ${formatMoneyOrDash(totals.cpc)}`],
-        ["상담 연결", `${formatNumber(inquiries, 0)}건`, `전체 클릭 대비 ${formatNumber(clickToInquiry, 2)}%`],
-        ["Meta 상담", `${formatNumber(metaInquiries, 0)}건`, `랜딩조회 대비 ${formatNumber(lpvToMetaInquiry, 2)}% / ${costPerMetaInquiry ? `${formatNumber(costPerMetaInquiry, 0)}원` : "계산 불가"}`],
+        ["상담 신청", `${formatNumber(inquiries, 0)}건`, "광고 귀속 전환율: 측정 불가/미연결"],
+        ["FB·IG 직접기재 상담", `${formatNumber(metaInquiries, 0)}건`, "광고 전환당 비용: 측정 불가/미연결"],
         ["주요 유입", topSource ? consultationSourceLabel(topSource.source) : "-", topSource ? `${formatNumber(topSource.inquiries, 0)}건, 전체 상담의 ${formatNumber(inquiries ? Number(topSource.inquiries || 0) / inquiries * 100 : 0, 1)}%` : "상담 데이터 없음"],
       ].map(([label, value, sub]) => `
         <article class="card summary-card">
@@ -4215,11 +4215,8 @@
           <div class="sub">${sub}</div>
         </article>
       `).join("");
-      const issue = totals.landing_page_views && metaInquiries
-        ? `랜딩조회는 ${formatNumber(totals.landing_page_views, 0)}건인데 Instagram/Facebook으로 확인된 상담은 ${formatNumber(metaInquiries, 0)}건입니다. 즉 광고가 방문은 만들고 있지만 상담 전환 기록이 충분히 붙지 않습니다.`
-        : `광고 클릭은 ${formatNumber(totals.link_clicks, 0)}건이지만 상담 유입이 낮거나 출처가 분산되어 있습니다.`;
       document.getElementById("monthlyInsightNote").textContent =
-        `${issue} 상담이 적어 보이는 주된 이유는 광고 소재보다도 전환 구조에 있습니다. 앱/App 유입과 출처 미상이 크게 섞여 있고, Instagram/Facebook 상담만 보면 실제 광고 클릭 대비 전환율이 낮습니다. 상담 버튼 위치, 폼 이탈, 전화/카카오 등 오프라인 전환 누락, UTM/픽셀 이벤트 연결을 우선 점검하는 것이 좋습니다.`;
+        "광고 클릭과 Slack 상담·계약 사이에 직접 귀속 식별값이 없어 광고 전환율과 전환당 비용은 측정 불가입니다. FB·IG 직접기재 상담도 특정 광고의 전환으로 확정할 수 없습니다. UTM·상담·계약 연결을 확인한 뒤 원인을 판단합니다.";
     }
 
     function renderMonthlyStatusNote(state, dailyRows, campaignRows, firstDate, latestDate) {
