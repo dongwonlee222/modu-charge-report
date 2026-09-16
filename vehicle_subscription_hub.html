@@ -239,7 +239,7 @@
   <main class="page">
     <nav class="hub-tabs" aria-label="차량구독 데이터 허브">
       <a class="active" href="./vehicle_subscription_hub.html">허브</a>
-      <a href="./meta_ads_dashboard.html">Instagram 광고</a>
+      <a href="./meta_ads_dashboard.html">Meta 광고</a>
       <a href="./vehicle_subscription_health_dashboard.html">건강 구독</a>
       <a href="./vehicle_subscription_contract_insight.html">상담-계약</a>
       <a href="./vehicle_subscription_profitability_retention.html">수익성·유지율</a>
@@ -248,43 +248,51 @@
     <header>
       <p class="eyebrow">Vehicle Subscription Data Hub</p>
       <h1>차량구독 데이터를 한 곳에서 봅니다.</h1>
-      <p class="lead">상담 유입, 계약확정, 정기결제, Instagram 광고, 건강 구독과 수익성·유지율을 함께 확인하는 차량구독 전용 허브입니다.</p>
+      <p class="lead">상담 유입, 계약확정, Meta 광고, 건강 구독과 수익성·유지율을 함께 확인하는 차량구독 전용 허브입니다.</p>
       <div class="kpis">
         <div class="kpi">
           <span>2026 상담신청</span>
-          <strong>261건</strong>
-          <small>2026-01-01~2026-08-19</small>
+          <strong>283건</strong>
+          <small>중복 제외 · 2026-01-01~2026-09-15</small>
         </div>
         <div class="kpi">
           <span>2026 계약확정</span>
-          <strong>33건</strong>
-          <small>2026-01-01~2026-08-20</small>
+          <strong>42건</strong>
+          <small>Slack 알림 · 최신 계약일 2026-09-15</small>
         </div>
         <div class="kpi">
-          <span>금주 상담신청</span>
-          <strong>9건</strong>
-          <small>2026-08-17~2026-08-23</small>
+          <span>최근 7일 상담신청</span>
+          <strong>5건</strong>
+          <small>중복 제외 · 2026-09-09~2026-09-15</small>
         </div>
         <div class="kpi">
-          <span>금주 계약확정</span>
-          <strong>2건</strong>
-          <small>Model Y Juniper 2건</small>
+          <span>최근 7일 계약확정</span>
+          <strong>3건</strong>
+          <small>Slack 알림 · 2026-09-09~2026-09-15</small>
         </div>
       </div>
     </header>
 
     <section class="section">
-      <h2>금주 차량구독 운영 현황</h2>
+      <h2>현재 의사결정</h2>
+      <div class="note">
+        <strong>차량구독은 조건부 유지 · 광고 확대는 보류</strong><br />
+        활성 차량 81대 중 건강 구독 54대로 사업을 즉시 중단할 근거는 없습니다. 다만 광고 효율이 약화됐고 UTM·lead ID가 없어 광고→신청·계약 효과는 측정 불가입니다. 광고 예산은 동결하고 전환 추적과 수납 위험 26대의 최신 상태를 먼저 확인합니다.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>최근 7일 차량구독 운영 현황</h2>
       <div class="weekly-status">
         <article class="weekly-item">
-          <span>금주 정기결제</span>
-          <strong>7건 · 6,610,000원</strong>
-          <p>전주와 결제 건수는 같았지만 결제 금액은 15.69% 줄었습니다. 구독 이탈로 단정하기보다 금주 결제 차량과 상품별 금액 차이를 먼저 확인해야 합니다.</p>
+          <span>최근 7일 상담·계약</span>
+          <strong>5건 · 3건</strong>
+          <p>상담은 직전 7일 12건에서 5건으로 줄었고, 계약확정 알림은 3건으로 같습니다. 광고 유입 식별값이 없어 상담·계약 변화를 Meta나 Facebook 성과로 직접 귀속하지 않습니다.</p>
         </article>
         <article class="weekly-item">
-          <span>금주 Instagram 광고 성과</span>
-          <strong>587,401원 · 2,347건</strong>
-          <p>랜딩페이지 조회는 1,402건이었으며, 클릭당 비용은 250원으로 전주보다 3.1% 낮아졌습니다. 광고 유입 효율은 좋아졌지만 상담·계약과의 직접 연결 정보는 아직 부족합니다. 8월 25일 17:14 조회 기준입니다.</p>
+          <span>최근 7일 Meta 광고 성과</span>
+          <strong>550,724원 · 1,736건</strong>
+          <p>랜딩페이지 조회는 948건입니다. 직전 7일 대비 광고비는 1.7% 줄었지만 클릭은 4.4%, 랜딩은 7.2% 감소해 CPC와 랜딩당 비용이 상승했습니다. 2026년 9월 15일 완료일 기준입니다.</p>
         </article>
       </div>
     </section>
@@ -292,9 +300,14 @@
     <section class="section">
       <h2>보고서 바로가기</h2>
       <div class="reports">
+        <a class="report-link" href="./vehicle-subscription-continue-decision-2026-09-09/report.html">
+          <em>유지 여부 의사결정</em>
+          <h3>차량구독은 유지하되, 광고 확대는 보류</h3>
+          <p>사업 건강도, 광고 효율, 신청·계약 연결 상태를 함께 보고 현재 유지 조건과 다음 판단 기준을 정리했습니다.</p>
+        </a>
         <a class="report-link" href="./meta_ads_dashboard.html">
-          <em>Instagram 광고 운영</em>
-          <h3>차량구독 Instagram 광고 성과</h3>
+          <em>Meta 광고 운영</em>
+          <h3>차량구독 Meta 광고 성과</h3>
           <p>광고비, 클릭, 랜딩페이지 조회, 캠페인별 비용 효율과 상담·계약 연결 상태를 확인합니다.</p>
         </a>
         <a class="report-link" href="./vehicle_subscription_health_dashboard.html">
@@ -317,7 +330,7 @@
 
     <section class="section">
       <div class="note">
-        <strong>현재 해석 기준:</strong> 상담은 2026년 8월 19일, 계약확정은 8월 20일까지 갱신했습니다. 차량·계약 건강도와 수익성은 2026년 6월 8일 자산 스냅샷을 기준으로 하며, 금주 지표는 8월 17~23일 기준입니다.
+        <strong>현재 해석 기준:</strong> Meta 광고·상담·계약은 2026년 9월 15일까지 갱신했습니다. 차량 건강도·수익성·유지율은 2026년 6월 8일 자산 스냅샷을 기준으로 하므로 최신 상담·광고 지표와 기준일이 다릅니다.
       </div>
     </section>
   </main>
