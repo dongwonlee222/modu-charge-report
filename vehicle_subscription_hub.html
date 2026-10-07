@@ -225,6 +225,12 @@
 
     .note strong { color: var(--ink); }
 
+    .comparison-table { overflow-x: auto; margin-top: 16px; }
+    .comparison-table table { width: 100%; border-collapse: collapse; min-width: 620px; background: var(--surface); }
+    .comparison-table th, .comparison-table td { padding: 12px; border-bottom: 1px solid var(--line); text-align: right; font-size: 14px; }
+    .comparison-table th:first-child, .comparison-table td:first-child { text-align: left; }
+    .comparison-table th { color: var(--muted); font-size: 12px; }
+
     @media (max-width: 760px) {
       .page { padding: 24px 14px 48px; }
       .kpis,
@@ -252,23 +258,23 @@
       <div class="kpis">
         <div class="kpi">
           <span>2026 상담신청</span>
-          <strong>295건</strong>
-          <small>중복 제외 · 2026-01-01~2026-09-22</small>
+          <strong>308건</strong>
+          <small>중복 제외 · 2026-01-01~2026-10-06</small>
         </div>
         <div class="kpi">
           <span>2026 계약확정</span>
-          <strong>42건</strong>
-          <small>Slack 알림 · 최신 계약일 2026-09-15</small>
+          <strong>46건</strong>
+          <small>Slack 알림 · 최신 알림일 2026-10-01</small>
         </div>
         <div class="kpi">
-          <span>최근 7일 상담신청</span>
-          <strong>12건</strong>
-          <small>중복 제외 · 2026-09-16~2026-09-22</small>
+          <span>영상 집행 6일 상담신청</span>
+          <strong>4건</strong>
+          <small>중복 제외 · 2026-10-01~2026-10-06</small>
         </div>
         <div class="kpi">
-          <span>최근 7일 계약확정</span>
-          <strong>0건</strong>
-          <small>Slack 알림 · 2026-09-16~2026-09-22</small>
+          <span>영상 집행 6일 계약확정</span>
+          <strong>1건</strong>
+          <small>Slack 알림 · 2026-10-01~2026-10-06</small>
         </div>
       </div>
     </header>
@@ -276,23 +282,25 @@
     <section class="section">
       <h2>현재 의사결정</h2>
       <div class="note">
-        <strong>추석 3개 광고는 페이지 유입 효율이 좋아졌지만 상담·계약 효과는 아직 확인되지 않았습니다.</strong><br />
-        9월 18~22일 BMW i4·벤츠·모델3 광고는 직전 5일 구형 광고보다 비용을 4.4% 덜 쓰면서 랜딩을 116.2% 늘렸습니다. 모델3가 랜딩당 217원으로 가장 좋고 BMW i4 292원, 벤츠 455원 순입니다. 같은 기간 중복 제외 상담은 5건으로 직전 5일 7건보다 줄었고 계약확정 알림은 0건이어서 총예산 확대는 보류합니다.
+        <strong>테슬라 영상은 랜딩 조회 효율이 높지만 상담·계약 증가는 확인되지 않았습니다.</strong><br />
+        10월 1~6일 테슬라 영상은 208,216원으로 랜딩 조회 1,694건(조회당 123원), 같은 기간 벤츠·BMW 광고는 248,461원으로 774건(조회당 321원)이었습니다. 다만 집행 지면과 최적화 목표가 달라 영상 자체의 효과로 단정할 수 없습니다. 직전 동일 길이 6일보다 전체 차량구독 상담은 7→4건, 계약확정 알림은 2→1건으로 줄었습니다. 광고별 상담·계약 귀속도 미연결이라 총예산 확대 판단은 보류합니다.
       </div>
+      <div class="comparison-table"><table><thead><tr><th>광고 · 10/1~6</th><th>광고비</th><th>노출</th><th>링크 클릭</th><th>랜딩 조회</th><th>조회당 비용</th></tr></thead><tbody><tr><td>테슬라 모델 Y 주니퍼 영상</td><td>208,216원</td><td>102,654</td><td>2,536</td><td>1,694</td><td>123원</td></tr><tr><td>벤츠·BMW</td><td>248,461원</td><td>49,095</td><td>865</td><td>774</td><td>321원</td></tr></tbody></table></div>
+      <p class="note">기간: 2026-10-01 00:00~10-06 23:59 KST(완료된 6일). Meta 광고 단위 전체 지면, 10/7 10:35 조회. 상담·계약은 Slack 알림 기준 10/7 13:52 재조회. 직전 상담 비교는 9/24~29(6일), 9/30 전환일 제외. 계약은 알림 작성일 기준이며 이전 문의의 후속 계약일 수 있습니다. 광고 ID·리드 ID 연결이 없어 광고 직접 귀속은 불가합니다.</p>
     </section>
 
     <section class="section">
-      <h2>최근 7일 차량구독 운영 현황</h2>
+      <h2>테슬라 영상 집행 기간 · 10월 1~6일</h2>
       <div class="weekly-status">
         <article class="weekly-item">
-          <span>최근 7일 상담·계약</span>
-          <strong>12건 · 0건</strong>
-          <p>9월 16~22일 중복 제외 상담은 12건이고 계약확정 알림은 0건입니다. 추석 광고 집행 기간 9월 18~22일만 보면 상담은 5건으로 직전 5일 7건보다 줄었습니다. 광고 유입 식별값이 없어 상담·계약 변화를 특정 광고 성과로 직접 귀속하지 않습니다.</p>
+          <span>전체 차량구독 상담·계약</span>
+          <strong>4건 · 1건</strong>
+          <p>직전 6일 9월 24~29일의 중복 제외 상담 7건·계약 알림 2건보다 감소했습니다. 표본이 작고 직전 기간의 일부 날짜에는 신규 광고가 집행되지 않았습니다. 광고 유입 식별값이 없어 특정 광고 성과로 직접 귀속하지 않습니다.</p>
         </article>
         <article class="weekly-item">
-          <span>추석 3개 Meta 광고 성과</span>
-          <strong>348,938원 · 1,388건</strong>
-          <p>랜딩페이지 조회는 1,243건이고 랜딩당 비용은 281원입니다. Facebook은 368원으로 직전 구형 광고의 907원보다 개선됐지만 Instagram 258원보다는 비쌉니다. 2026년 9월 22일 완료일 기준입니다.</p>
+          <span>테슬라 영상 광고</span>
+          <strong>208,216원 · 1,694건</strong>
+          <p>랜딩 조회당 비용 123원입니다. 벤츠·BMW의 321원보다 낮지만 테슬라 노출 99.5%가 Facebook Reels, 비교 광고는 26.7%로 지면 구성이 다릅니다. 광고 세트 최적화 목표도 서로 달라 소재 우열로 단정하지 않습니다.</p>
         </article>
       </div>
     </section>
@@ -307,8 +315,8 @@
         </a>
         <a class="report-link" href="./meta_ads_dashboard.html">
           <em>Meta 광고 운영</em>
-          <h3>추석 3개 광고는 실제로 효과가 있었는가</h3>
-          <p>BMW i4·벤츠·모델3의 광고비, 클릭, 랜딩 효율과 Facebook·Instagram 차이, 상담·계약 연결 한계를 확인합니다.</p>
+          <h3>테슬라 영상은 유입뿐 아니라 상담도 늘렸는가</h3>
+          <p>10월 1~6일 테슬라와 벤츠·BMW 광고의 광고비·랜딩 효율, 직전 6일 대비 상담·계약 알림을 확인합니다.</p>
         </a>
         <a class="report-link" href="./vehicle_subscription_health_dashboard.html">
           <em>의사결정 대시보드</em>
@@ -330,7 +338,7 @@
 
     <section class="section">
       <div class="note">
-        <strong>현재 해석 기준:</strong> Meta 광고와 상담은 2026년 9월 22일까지 갱신했고 계약은 9월 22일까지 신규 알림이 없음을 확인했습니다. 누적 계약의 최신일은 9월 15일입니다. 차량 건강도·수익성·유지율은 2026년 6월 8일 자산 스냅샷을 기준으로 하므로 최신 상담·광고 지표와 기준일이 다릅니다.
+        <strong>현재 해석 기준:</strong> 이 페이지의 테슬라 영상 비교는 Meta 2026년 10월 6일 완료일, Slack 상담·계약 10월 6일 완료일 기준입니다. 별도 Meta 대시보드의 기존 월별 차트와 과거 상세 분석은 각 화면에 적힌 이전 기준일의 스냅샷입니다. 차량 건강도·수익성·유지율은 2026년 6월 8일 자산 스냅샷을 기준으로 하므로 최신 상담·광고 지표와 기준일이 다릅니다.
       </div>
     </section>
   </main>
