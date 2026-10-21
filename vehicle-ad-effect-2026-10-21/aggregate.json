@@ -1,0 +1,272 @@
+{
+  "fetched_at": "2026-10-21T11:20:52.169137+09:00",
+  "as_of": "2026-10-20",
+  "periods": [
+    {
+      "period": "previous",
+      "since": "2026-10-07",
+      "until": "2026-10-13",
+      "total": {
+        "spend_krw": 582495.0,
+        "impressions": 205934,
+        "link_clicks": 4634,
+        "lpv": 3068.0,
+        "cost_per_lpv_krw": 189.86147327249023,
+        "link_ctr": 0.022502355123486164,
+        "click_to_lpv": 0.6620630125161847
+      },
+      "ads": [
+        {
+          "ad_id": "120250588166690551",
+          "ad_name": "테슬라 주니퍼 캠페인 2026. 7. 30. 광고 세트 광고",
+          "campaign": "테슬라 주니퍼 캠페인 0928",
+          "spend_krw": 295526.0,
+          "impressions": 152842,
+          "link_clicks": 3581,
+          "lpv": 2105.0,
+          "cost_per_lpv_krw": 140.39239904988125,
+          "link_ctr": 0.02342942384946546,
+          "click_to_lpv": 0.5878246299916224
+        },
+        {
+          "ad_id": "120251820774410551",
+          "ad_name": "추천 설정이 적용된 새로운 트래픽 광고",
+          "campaign": "벤츠,BMW 0928",
+          "spend_krw": 286969.0,
+          "impressions": 53092,
+          "link_clicks": 1053,
+          "lpv": 963.0,
+          "cost_per_lpv_krw": 297.99480789200413,
+          "link_ctr": 0.019833496571988248,
+          "click_to_lpv": 0.9145299145299145
+        }
+      ],
+      "platforms": {
+        "facebook": {
+          "spend_krw": 352691.0,
+          "impressions": 170092,
+          "link_clicks": 3819,
+          "lpv": 2315.0,
+          "cost_per_lpv_krw": 152.35032397408207,
+          "link_ctr": 0.02245255508783482,
+          "click_to_lpv": 0.6061796281749149
+        },
+        "instagram": {
+          "spend_krw": 229804.0,
+          "impressions": 35842,
+          "link_clicks": 815,
+          "lpv": 753.0,
+          "cost_per_lpv_krw": 305.18459495351925,
+          "link_ctr": 0.02273868645722895,
+          "click_to_lpv": 0.9239263803680982
+        },
+        "unknown": {
+          "spend_krw": 0.0,
+          "impressions": 0,
+          "link_clicks": 0,
+          "lpv": 0.0,
+          "cost_per_lpv_krw": null,
+          "link_ctr": null,
+          "click_to_lpv": null
+        }
+      },
+      "inquiries_raw": 6,
+      "inquiries_dedup": 6,
+      "inquiry_vehicle_groups": {
+        "기타": 6
+      },
+      "contract_alerts": 1,
+      "inquiry_daily": {
+        "2026-10-13": 1,
+        "2026-10-12": 2,
+        "2026-10-09": 2,
+        "2026-10-07": 1
+      },
+      "contract_daily": {
+        "2026-10-12": 1
+      }
+    },
+    {
+      "period": "current",
+      "since": "2026-10-14",
+      "until": "2026-10-20",
+      "total": {
+        "spend_krw": 548210.0,
+        "impressions": 178295,
+        "link_clicks": 4091,
+        "lpv": 2897.0,
+        "cost_per_lpv_krw": 189.23369002416294,
+        "link_ctr": 0.022945119044280548,
+        "click_to_lpv": 0.7081398191151308
+      },
+      "ads": [
+        {
+          "ad_id": "120250588166690551",
+          "ad_name": "테슬라 주니퍼 캠페인 2026. 7. 30. 광고 세트 광고",
+          "campaign": "테슬라 주니퍼 캠페인 0928",
+          "spend_krw": 274169.0,
+          "impressions": 128084,
+          "link_clicks": 3089,
+          "lpv": 1944.0,
+          "cost_per_lpv_krw": 141.03343621399176,
+          "link_ctr": 0.024116985728115922,
+          "click_to_lpv": 0.6293298802201359
+        },
+        {
+          "ad_id": "120251820774410551",
+          "ad_name": "추천 설정이 적용된 새로운 트래픽 광고",
+          "campaign": "벤츠,BMW 0928",
+          "spend_krw": 274041.0,
+          "impressions": 50211,
+          "link_clicks": 1002,
+          "lpv": 953.0,
+          "cost_per_lpv_krw": 287.55613850996855,
+          "link_ctr": 0.019955786580629742,
+          "click_to_lpv": 0.9510978043912176
+        }
+      ],
+      "platforms": {
+        "facebook": {
+          "spend_krw": 357896.0,
+          "impressions": 150989,
+          "link_clicks": 3363,
+          "lpv": 2201.0,
+          "cost_per_lpv_krw": 162.60608814175376,
+          "link_ctr": 0.022273145725847578,
+          "click_to_lpv": 0.6544751709782932
+        },
+        "instagram": {
+          "spend_krw": 190314.0,
+          "impressions": 27306,
+          "link_clicks": 728,
+          "lpv": 696.0,
+          "cost_per_lpv_krw": 273.4396551724138,
+          "link_ctr": 0.026660807148612027,
+          "click_to_lpv": 0.9560439560439561
+        }
+      },
+      "inquiries_raw": 15,
+      "inquiries_dedup": 9,
+      "inquiry_vehicle_groups": {
+        "기타": 9
+      },
+      "contract_alerts": 1,
+      "inquiry_daily": {
+        "2026-10-20": 1,
+        "2026-10-18": 3,
+        "2026-10-17": 1,
+        "2026-10-16": 2,
+        "2026-10-15": 1,
+        "2026-10-14": 1
+      },
+      "contract_daily": {
+        "2026-10-19": 1
+      }
+    },
+    {
+      "period": "october",
+      "since": "2026-10-01",
+      "until": "2026-10-20",
+      "total": {
+        "spend_krw": 1587395.0,
+        "impressions": 535985,
+        "link_clicks": 12126,
+        "lpv": 8433.0,
+        "cost_per_lpv_krw": 188.23609628839085,
+        "link_ctr": 0.02262376745617881,
+        "click_to_lpv": 0.6954477981197427
+      },
+      "ads": [
+        {
+          "ad_id": "120250588166690551",
+          "ad_name": "테슬라 주니퍼 캠페인 2026. 7. 30. 광고 세트 광고",
+          "campaign": "테슬라 주니퍼 캠페인 0928",
+          "spend_krw": 777915.0,
+          "impressions": 383582,
+          "link_clicks": 9206,
+          "lpv": 5743.0,
+          "cost_per_lpv_krw": 135.45446630680829,
+          "link_ctr": 0.02400008342414399,
+          "click_to_lpv": 0.6238322832935043
+        },
+        {
+          "ad_id": "120251820774410551",
+          "ad_name": "추천 설정이 적용된 새로운 트래픽 광고",
+          "campaign": "벤츠,BMW 0928",
+          "spend_krw": 809480.0,
+          "impressions": 152403,
+          "link_clicks": 2920,
+          "lpv": 2690.0,
+          "cost_per_lpv_krw": 300.92193308550185,
+          "link_ctr": 0.01915972782688005,
+          "click_to_lpv": 0.9212328767123288
+        }
+      ],
+      "platforms": {
+        "facebook": {
+          "spend_krw": 984755.0,
+          "impressions": 445060,
+          "link_clicks": 9930,
+          "lpv": 6395.0,
+          "cost_per_lpv_krw": 153.98827208756842,
+          "link_ctr": 0.02231159843616591,
+          "click_to_lpv": 0.6440080563947633
+        },
+        "instagram": {
+          "spend_krw": 602640.0,
+          "impressions": 90925,
+          "link_clicks": 2196,
+          "lpv": 2038.0,
+          "cost_per_lpv_krw": 295.70166830225713,
+          "link_ctr": 0.024151773439648062,
+          "click_to_lpv": 0.9280510018214936
+        },
+        "unknown": {
+          "spend_krw": 0.0,
+          "impressions": 0,
+          "link_clicks": 0,
+          "lpv": 0.0,
+          "cost_per_lpv_krw": null,
+          "link_ctr": null,
+          "click_to_lpv": null
+        }
+      },
+      "inquiries_raw": 26,
+      "inquiries_dedup": 19,
+      "inquiry_vehicle_groups": {
+        "기타": 18,
+        "테슬라": 1
+      },
+      "contract_alerts": 3,
+      "inquiry_daily": {
+        "2026-10-20": 1,
+        "2026-10-18": 3,
+        "2026-10-17": 1,
+        "2026-10-16": 2,
+        "2026-10-15": 1,
+        "2026-10-14": 1,
+        "2026-10-13": 1,
+        "2026-10-12": 2,
+        "2026-10-09": 2,
+        "2026-10-07": 1,
+        "2026-10-06": 1,
+        "2026-10-05": 1,
+        "2026-10-01": 2
+      },
+      "contract_daily": {
+        "2026-10-19": 1,
+        "2026-10-12": 1,
+        "2026-10-01": 1
+      }
+    }
+  ],
+  "definitions": {
+    "lpv": "Meta actions landing_page_view",
+    "media": "publisher_platform, not account label",
+    "inquiry": "Slack inquiry alert, dedup same day/customer/vehicle; not completed consultation",
+    "contract": "Slack contract confirmation alert posted KST; not inquiry cohort conversion or signed delivery verification",
+    "attribution": "ad-to-inquiry identifiers unlinked; do not calculate attributed CPA/ROAS",
+    "pii": "raw Slack and dedup identifiers in memory only; no personal rows saved"
+  },
+  "paging_complete": true
+}
