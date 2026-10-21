@@ -1,0 +1,67 @@
+{
+  "fetched_at": "2026-10-21T13:11:27.509135+09:00",
+  "periods": [
+    {
+      "period": "previous",
+      "since": "2026-10-07",
+      "until": "2026-10-13",
+      "inquiries_raw": 6,
+      "inquiries_dedup": 6,
+      "contract_alerts": 1,
+      "internal_direct": 0,
+      "external_vendor": 1,
+      "unclassified": 0
+    },
+    {
+      "period": "current",
+      "since": "2026-10-14",
+      "until": "2026-10-20",
+      "inquiries_raw": 15,
+      "inquiries_dedup": 9,
+      "contract_alerts": 1,
+      "internal_direct": 0,
+      "external_vendor": 1,
+      "unclassified": 0
+    }
+  ],
+  "all_pages": true,
+  "raw_personal_data_persisted": false,
+  "contracts": [
+    {
+      "period": "previous",
+      "alert_date": "2026-10-12",
+      "vehicle_model": "EQA250",
+      "contract_vendor": "리레브",
+      "inflow_source": "리레브",
+      "settlement_structure": "해당사항 없음 (업체 -> 자사 정산형)",
+      "classification": "external_vendor",
+      "source_locator": "https://scalardatacoltd.slack.com/archives/C087FMDBURE/p1791789077765259",
+      "basis": "contract vendor and inflow source explicitly specified in thread; insurance and deposit holder not used for classification"
+    },
+    {
+      "period": "current",
+      "alert_date": "2026-10-19",
+      "vehicle_model": "타이칸 베이스 4",
+      "contract_vendor": "리레브",
+      "inflow_source": "리레브",
+      "settlement_structure": "해당사항 없음 (업체 -> 자사 정산형)",
+      "classification": "external_vendor",
+      "source_locator": "https://scalardatacoltd.slack.com/archives/C087FMDBURE/p1792399113550599",
+      "basis": "contract vendor and inflow source explicitly specified in thread; insurance and deposit holder not used for classification"
+    }
+  ],
+  "definition": {
+    "inquiry": "상담 완료가 아닌 접수 알림; 당일 동일 고객·차량 중복 제외",
+    "contract": "Slack 계약확정 알림 등록일 기준; 동일 기간 문의의 전환율 아님",
+    "route": "thread contract vendor and inflow source; both specify Releve; not inferred from insurer or deposit holder",
+    "coverage": "2026-10-07~2026-10-20 confirmation alerts and full replies only; signed contract ledger not reconciled",
+    "attribution": "광고/캠페인 직접 귀속 미연결"
+  },
+  "checks": {
+    "inquiries_live_rechecked": true,
+    "contract_threads_full_replies_reviewed": 2,
+    "classification_totals_match": true,
+    "unclassified_contracts": 0,
+    "personal_fields_saved": false
+  }
+}
