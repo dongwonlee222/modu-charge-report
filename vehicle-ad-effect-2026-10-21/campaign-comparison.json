@@ -1,0 +1,180 @@
+{
+  "as_of": "2026-10-20",
+  "fetched_at": "2026-10-21T11:20:52.169137+09:00",
+  "previous": [
+    "2026-10-07",
+    "2026-10-13"
+  ],
+  "current": [
+    "2026-10-14",
+    "2026-10-20"
+  ],
+  "campaigns": [
+    {
+      "campaign_id": "120250588166710551",
+      "campaign": "테슬라 주니퍼 캠페인 0928",
+      "scopes": {
+        "all_meta": {
+          "previous": {
+            "spend_krw": 295526.0,
+            "impressions": 152842,
+            "link_clicks": 3581,
+            "lpv": 2105.0,
+            "cost_per_lpv_krw": 140.39239904988125,
+            "cpc_krw": 82.52611002513264,
+            "link_ctr": 0.02342942384946546,
+            "click_to_lpv": 0.5878246299916224
+          },
+          "current": {
+            "spend_krw": 274169.0,
+            "impressions": 128084,
+            "link_clicks": 3089,
+            "lpv": 1944.0,
+            "cost_per_lpv_krw": 141.03343621399176,
+            "cpc_krw": 88.75655551958563,
+            "link_ctr": 0.024116985728115922,
+            "click_to_lpv": 0.6293298802201359
+          },
+          "change_pct": {
+            "spend_krw": -7.226775309109856,
+            "impressions": -16.19842713390298,
+            "link_clicks": -13.739179000279256,
+            "lpv": -7.648456057007125,
+            "cost_per_lpv_krw": 0.45660389625705733,
+            "cpc_krw": 7.549665787658677,
+            "link_ctr": 2.934608563437413,
+            "click_to_lpv": 7.060821903482517
+          },
+          "change_pp": {
+            "click_to_lpv": 4.1505250228513475,
+            "link_ctr": 0.06875618786504611
+          }
+        },
+        "facebook": {
+          "previous": {
+            "spend_krw": 295359.0,
+            "impressions": 152818,
+            "link_clicks": 3580,
+            "lpv": 2104.0,
+            "cost_per_lpv_krw": 140.37975285171103,
+            "cpc_krw": 82.50251396648045,
+            "link_ctr": 0.02342655969846484,
+            "click_to_lpv": 0.587709497206704
+          },
+          "current": {
+            "spend_krw": 273890.0,
+            "impressions": 128054,
+            "link_clicks": 3086,
+            "lpv": 1941.0,
+            "cost_per_lpv_krw": 141.10767645543535,
+            "cpc_krw": 88.75243033052494,
+            "link_ctr": 0.02409920814656317,
+            "click_to_lpv": 0.6289695398574207
+          },
+          "change_pct": {
+            "spend_krw": -7.26878138130208,
+            "impressions": -16.2048973288487,
+            "link_clicks": -13.798882681564251,
+            "lpv": -7.747148288973382,
+            "cost_per_lpv_krw": 0.5185388839466398,
+            "cpc_krw": 7.575425358048782,
+            "link_ctr": 2.8713069983656414,
+            "click_to_lpv": 7.020482542279738
+          },
+          "change_pp": {
+            "click_to_lpv": 4.1260042650716695,
+            "link_ctr": 0.06726484480983272
+          }
+        }
+      }
+    },
+    {
+      "campaign_id": "120251820774390551",
+      "campaign": "벤츠,BMW 0928",
+      "scopes": {
+        "all_meta": {
+          "previous": {
+            "spend_krw": 286969.0,
+            "impressions": 53092,
+            "link_clicks": 1053,
+            "lpv": 963.0,
+            "cost_per_lpv_krw": 297.99480789200413,
+            "cpc_krw": 272.52516619183285,
+            "link_ctr": 0.019833496571988248,
+            "click_to_lpv": 0.9145299145299145
+          },
+          "current": {
+            "spend_krw": 274041.0,
+            "impressions": 50211,
+            "link_clicks": 1002,
+            "lpv": 953.0,
+            "cost_per_lpv_krw": 287.55613850996855,
+            "cpc_krw": 273.4940119760479,
+            "link_ctr": 0.019955786580629742,
+            "click_to_lpv": 0.9510978043912176
+          },
+          "change_pct": {
+            "spend_krw": -4.505016221264313,
+            "impressions": -5.426429593912452,
+            "link_clicks": -4.843304843304841,
+            "lpv": -1.0384215991692591,
+            "cost_per_lpv_krw": -3.5029702214874336,
+            "cpc_krw": 0.3555069051982773,
+            "link_ctr": 0.6165832040640362,
+            "click_to_lpv": 3.998544966142492
+          },
+          "change_pp": {
+            "click_to_lpv": 3.6567889861303104,
+            "link_ctr": 0.012229000864149436
+          }
+        },
+        "facebook": {
+          "previous": {
+            "spend_krw": 57332.0,
+            "impressions": 17274,
+            "link_clicks": 239,
+            "lpv": 211.0,
+            "cost_per_lpv_krw": 271.7156398104265,
+            "cpc_krw": 239.8828451882845,
+            "link_ctr": 0.013835822623596157,
+            "click_to_lpv": 0.8828451882845189
+          },
+          "current": {
+            "spend_krw": 84006.0,
+            "impressions": 22935,
+            "link_clicks": 277,
+            "lpv": 260.0,
+            "cost_per_lpv_krw": 323.1,
+            "cpc_krw": 303.2707581227437,
+            "link_ctr": 0.012077610638761718,
+            "click_to_lpv": 0.9386281588447654
+          },
+          "change_pct": {
+            "spend_krw": 46.52550059303704,
+            "impressions": 32.77179576241751,
+            "link_clicks": 15.899581589958167,
+            "lpv": 23.222748815165883,
+            "cost_per_lpv_krw": 18.91107932742624,
+            "cpc_krw": 26.424529392548223,
+            "link_ctr": -12.707679425117192,
+            "click_to_lpv": 6.318545006587173
+          },
+          "change_pp": {
+            "click_to_lpv": 5.578297056024651,
+            "link_ctr": -0.17582119848344388
+          }
+        }
+      }
+    }
+  ],
+  "source": "meta-daily.json",
+  "attribution": "campaign inquiries/contracts unlinked",
+  "checks": {
+    "campaign_count": 2,
+    "campaign_ads": {
+      "120250588166710551": 1,
+      "120251820774390551": 1
+    },
+    "campaign_vs_scope_totals": "32 exact matches"
+  }
+}
